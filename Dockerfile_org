@@ -1,0 +1,29 @@
+# Use a slim Python base image
+FROM chatbot-app:v1.0
+
+# Set environment variables for Python
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+# Set work directory inside the container
+WORKDIR /app
+
+# Copy requirements and install Python dependencies
+COPY requirement.txt .
+COPY  constraints.txt .
+RUN pip install --no-cache-dir -r requirement.txt -c constraints.txt
+
+# Remove old src directory and copy new code, model, and chroma_db into the image
+RUN rm -rf /app/src
+# remove old db
+RUN rm -rf /app/chroma_db
+
+COPY src ./src
+COPY chroma_db ./chroma_db
+COPY .env .env
+
+# Expose the port Streamlit will run on
+EXPOSE 8501
+
+# Use Streamlit for serving
+CMD ["streamlit", "run", "src/st_app.py", "--server.port=8501", "--server.address=0.0.0.0"]

@@ -1,0 +1,20 @@
+# Machine Learning Models
+model/
+*.safetensors
+*.bin
+*.pt
+*.onnx
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Environment Secrets
+.env
+
+# Large Data/Indexes
+*.index
+data/

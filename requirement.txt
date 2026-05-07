@@ -1,0 +1,12 @@
+# Unstructured packages
+unstructured==0.17.2
+unstructured-client==0.32.3
+# unstructured[pdf]
+
+# Streamlit and routing
+streamlit==1.46.1
+langsmith==0.4.4
+
+# Additional packages your code uses
+semantic-router==0.1.9
+python-pptx==1.0.2
