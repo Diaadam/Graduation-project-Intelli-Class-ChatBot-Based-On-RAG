@@ -1,0 +1,4511 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "d76825bf1a398ade61ca146083521bf7",
+    "text": "Lecture slides by Lawrie Brown for \u201cCryptography and Network Security\u201d, 5/e, by William Stallings, Chapter 12 \u2013 \u201cMessage Authentication Codes\u201d.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c6941b50aa0a1398c43a2695fa58356c",
+    "text": "Message Authentication Codes",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "56be3a3e4569d2c2b38866ff7eda6550",
+    "text": "Arabic Language Audio Comments by",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e3c01e15191e12494311560890440b76",
+    "text": "Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0cb6bc2f90200a8609c35245c834f19b",
+    "text": "Cryptography and Network Security\u000bChapter 12",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "96c06b80208def102fa3aedc4f38e637",
+    "text": "Fifth Edition",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0cb6bc2f90200a8609c35245c834f19b"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "29e00e93ddc75e59a83adf2ca47d0eab",
+    "text": "by William Stallings\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0cb6bc2f90200a8609c35245c834f19b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bfaefcfc93cf70eda02e910f69bfa104",
+    "text": "Lecture slides by",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "29e00e93ddc75e59a83adf2ca47d0eab"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1c2398122e990c8a03538724f6ecbd99",
+    "text": "Lawrie Brown",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0cb6bc2f90200a8609c35245c834f19b"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c4bacf94e7b7f2252b8cf768863624be",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c96939f0eb3f058c5e30c4c5fa79fa56",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "196c68f79d6a3528d07f646abb79cfb6",
+    "text": "Overview",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0c1cc9c400978c64b8852d8fdb2406a1",
+    "text": "message authentication is concerned with: ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "196c68f79d6a3528d07f646abb79cfb6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7ba97877ffa89df082d7572337ed93d2",
+    "text": "protecting the integrity of a message ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0c1cc9c400978c64b8852d8fdb2406a1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c26a2795f39e525607c79e472cebd570",
+    "text": "validating identity of originator ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0c1cc9c400978c64b8852d8fdb2406a1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "33a41d219bfc2495171da449dd2d2f39",
+    "text": "non-repudiation of origin (dispute resolution)",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "196c68f79d6a3528d07f646abb79cfb6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0d2916e7c0a6e98a943f928cfbd71999",
+    "text": "will consider the security requirements",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "33a41d219bfc2495171da449dd2d2f39"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59c8617fd8493355e417df38c4e64b79",
+    "text": "then three alternative functions used for message authentication:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "33a41d219bfc2495171da449dd2d2f39"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1782421e72c230e272153ab9fd209072",
+    "text": "hash function (see Chapter 11)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "59c8617fd8493355e417df38c4e64b79"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6ea93f0600bf08c304c051c1cd11fc5c",
+    "text": "message encryption (symmetric & public)",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "196c68f79d6a3528d07f646abb79cfb6"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d758d97f1948c33f961015735abd3cbb",
+    "text": "message authentication code (MAC)",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "196c68f79d6a3528d07f646abb79cfb6"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "087ea0e351acdcab0a79c09da0d32d9a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "91dc784464546d3406e78f69a4465346",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "81b74509709e28ce056ebc35bde922e0",
+    "text": "Message Authentication",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5dcd30ef139f95e3e4f750dedf901b31",
+    "text": "Protects against active attacks",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3c3c2c9a01a3cc14e230fad01e7fcb49",
+    "text": "Verifies received message is authentic",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e76d51f7aab76a1138f16cc9a4e28570",
+    "text": "Contents have not been altered",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "802cc31d3639c87deda556e73bdeffa0",
+    "text": "From authentic source",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "74aec4a7804f03e6241a6b298ac1e0e9",
+    "text": "Timely and in correct sequence",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdb3ed921daf7f9845f5f0d970707ba0",
+    "text": "Can use conventional encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "13f58bfd293ccf529c4317b5dcafcbf2",
+    "text": "Only sender & receiver share a key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "81b74509709e28ce056ebc35bde922e0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "52309608ef2a9a9dd48d7a30470a122c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "73270a58aefb5802ddde346154fe3c32",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9e30d06ca990ce324fb5f5420fd5cf5c",
+    "text": "Message Security Requirements",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f49609788f17986866cd3b440559ef3e",
+    "text": "Attacks related to message confidentiality",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "01d6f1d2d9f7b3962346d333b3340e4f",
+    "text": "disclosure (i.e., reading the message contents)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c02487ad105e09fec5a33508ec00f58d",
+    "text": "traffic analysis",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6344230b2e8c1efe9b056a46e45236f5",
+    "text": "Attacks related to message authentication",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c02487ad105e09fec5a33508ec00f58d"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3d3cff65a7b00da1d02ebeebc35217c5",
+    "text": "masquerade",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d76fb1d3387ce0d25391c5b566f37969",
+    "text": "content modification",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "231ae79451b5a075b53e328a1c91a23e",
+    "text": "sequence modification",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88d0391d1ffea94fc7e36c0424873a59",
+    "text": "timing modification",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "81fee1f773a0a82d145f46a8fb10e71c",
+    "text": "source repudiation",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f96064e37cf2e664c9254f7aae6a5078",
+    "text": "destination repudiation",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e30d06ca990ce324fb5f5420fd5cf5c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "41375615ee8eed45a151dea7bd44c088",
+    "text": "There are three types of functions that may be used to produce an authenticator:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f96064e37cf2e664c9254f7aae6a5078"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f99cd2f590d3cf46df1ca76859f7a433",
+    "text": "a hash function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f96064e37cf2e664c9254f7aae6a5078"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e77a5465c4ecbce232b6521f51c27472",
+    "text": "message encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f96064e37cf2e664c9254f7aae6a5078"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9caf5c099639b44f4afddf2ce9efbaf3",
+    "text": "message authentication code (MAC).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f96064e37cf2e664c9254f7aae6a5078"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d89f67db0a0965b699419132475ab6fd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "67825204926b68f8a00fbf634e4437d9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9425d8e0117b7b7aa5f5ad48959351a9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1278d7e41355d7e8f2ae75a72db9f19c",
+    "text": "Message encryption by itself can provide a measure of authentication. The analysis differs for symmetric and public-key encryption schemes. \nIf use symmetric encryption, If no other party knows the key, then confidentiality is provided. As well, symmetric encryption provides authentication as well as confidentiality, since only the other party can have encrypted a properly constructed message (Stallings Figure 12.1a). Here, the ciphertext of the entire message serves as its authenticator, on the basis that only those who know the appropriate keys could have validly encrypted the message. This is provided you can recognize a valid message (ie if the message has suitable structure such as redundancy or a checksum to detect any changes).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2f4b7648f251ba476ee972fb76921655",
+    "text": "Symmetric Message Encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8d95b19c0bfa01cdee1094dc69bb2f38",
+    "text": "encryption can also provide authentication",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2f4b7648f251ba476ee972fb76921655"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdef16485f21b67459a9be68f1693a02",
+    "text": "if symmetric encryption is used then:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2f4b7648f251ba476ee972fb76921655"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "334f73aecfe66f0a8f99bd69a4479416",
+    "text": "receiver know sender must have created it",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bdef16485f21b67459a9be68f1693a02"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "632777e17ad7ed94fa9f2d404361a295",
+    "text": "since only sender and receiver now key used",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bdef16485f21b67459a9be68f1693a02"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8048c912f8a79c56743d9770b234718e",
+    "text": "know content cannot have been altered",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bdef16485f21b67459a9be68f1693a02"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "900db4872dd2f548e47179d5667f5a0d",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eccad9cef596fba94787d1efeac3e78e",
+    "text": "With public-key techniques, can use a digital signature which can only have been created by key owner to validate the integrity of the message contents. To provide both confidentiality and authentication, A can encrypt M first using its private key, which provides the digital signature, and then using B's public key, which provides confidentiality (Stallings Figure 12.1d). The disadvantage of this approach is that the public-key algorithm, which is complex, must be exercised four times rather than two in each communication.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d4b2e59f425f933b7269425674e7401d",
+    "text": "Public-Key Message Encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9001b65104876c0afdf2857c2b52bd87",
+    "text": "if public-key encryption is used:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4b2e59f425f933b7269425674e7401d"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a3e59dfb880731070050c77ca6f405dd",
+    "text": "encryption provides no confidence of sender since anyone potentially knows public-key",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9001b65104876c0afdf2857c2b52bd87"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "377c4076c096bec082c50e7596738d9b",
+    "text": "However, if sender signs message using their private-key then encrypts with recipient's public key",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9001b65104876c0afdf2857c2b52bd87"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "94cf8606755873c529aa339b125b931b",
+    "text": "have both secrecy and authentication",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4b2e59f425f933b7269425674e7401d"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de122f689bf74fd327bfe4268b824fca",
+    "text": "but at cost of two public-key uses on message",
+    "metadata": {
+      "category_depth": 3,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4b2e59f425f933b7269425674e7401d"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1ac214716e1489573d32e3e26c33586a",
+    "text": "Again, need to recognize corrupted messages",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de122f689bf74fd327bfe4268b824fca"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "6bb3e6b74b82c73f44c2511bcad59b1b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "46c712ba16223deee70f275f740378ad",
+    "text": "An alternative authentication technique involves the use of a secret key to generate a small fixed-size block of data, known as a cryptographic checksum or MAC that is appended to the message. This technique assumes that two communicating parties, say A and B, share a common secret key K. A MAC function is similar to encryption, except that the MAC algorithm need not be reversible, as it must for decryption.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e8b118f53c4edec9a8c8bbcceb08a432",
+    "text": "Message Authentication Code (MAC)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c1d484ef0eb2782ce3e657d6a0a2409b",
+    "text": "generated by an algorithm that creates a small fixed-sized block",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8b118f53c4edec9a8c8bbcceb08a432"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b5191d90e0922bfe00fa8fdd2d51ce9c",
+    "text": "depending on both message and some key",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c1d484ef0eb2782ce3e657d6a0a2409b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c0d1d81f652c86260063bdb05f4ec5e7",
+    "text": "like encryption though the algorithm need not be reversible",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c1d484ef0eb2782ce3e657d6a0a2409b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a53d9f37b9e3bc5fccb6a5a36f46c91c",
+    "text": "appended to message as a signature",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8b118f53c4edec9a8c8bbcceb08a432"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2d731800fde78c9e4939dc030bf13313",
+    "text": "receiver performs same computation on message and checks it matches the MAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8b118f53c4edec9a8c8bbcceb08a432"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "76c64c32e60792a464a91cef73039a23",
+    "text": "provides assurance that message is unaltered and comes from sender",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8b118f53c4edec9a8c8bbcceb08a432"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "06cbaca5e219fa8bfbe56761affade23",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d5e88c89808c611ebf6b60ec1f79b156",
+    "text": "The process depicted on the previous slide provides authentication but not confidentiality, because the message as a whole is transmitted in the clear. Confidentiality can be provided by performing message encryption either after (see Stallings Figure 12.4b) or before (see Stallings Figure 12.4c) the MAC algorithm. In both these cases, two separate keys are needed, each of which is shared by the sender and the receiver. Typically, it is preferable to tie the authentication directly to the plaintext, so the method of Figure 12.4b is used.  Can use MAC in circumstances where just authentication is needed (or needs to be kept), see text for examples (e.g. such as when the same message is broadcast to a number of destinations; when one side has a heavy load and cannot afford the time to decrypt all incoming messages; or do not need to keep messages secret, but must authenticate messages). Finally, note that the MAC does not provide a digital signature because both sender and receiver share the same key.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "315e50f74a74358c036459979d954a0a",
+    "text": "MAC Overview",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2171fb2e69b0432f2d374a06c75fdc87",
+    "text": "as shown the MAC provides authentication",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "315e50f74a74358c036459979d954a0a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8999400eeea5285c4b772e01a4be6eaa",
+    "text": "can also use encryption for secrecy",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "315e50f74a74358c036459979d954a0a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "004703450f7a7c8336d2b13763e30eb7",
+    "text": "Generally, use separate keys for each: an encryption key and a MAC key",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8999400eeea5285c4b772e01a4be6eaa"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c5a23520e5eddbff8a18e03548fec960",
+    "text": "can compute MAC either before or after encryption",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8999400eeea5285c4b772e01a4be6eaa"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aa670e5f566961cb1b5e681f1fba27b3",
+    "text": "MAC is generally regarded as better done before encryption because in this case the attacker needs to break the encryption key first then breaking the MAC key.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8999400eeea5285c4b772e01a4be6eaa"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "25ce753d08be67596ddef988a8e4c53d",
+    "text": "why use a MAC?",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "315e50f74a74358c036459979d954a0a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8600dd9585620663c701ed6a9cacbe45",
+    "text": "sometimes only authentication is needed",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "25ce753d08be67596ddef988a8e4c53d"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "804dfe94b07a96b0d77e760c6eaf9488",
+    "text": "sometimes need authentication to persist longer than the encryption (e.g., archival use)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "25ce753d08be67596ddef988a8e4c53d"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "98bf093d34cc66f3ec7d072c81963a48",
+    "text": "note that a MAC is not a digital signature",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "315e50f74a74358c036459979d954a0a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e2ed20b683dbf85322079ff419df16c7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5cb87761f6cb4df97cad4d4ac1d9671f",
+    "text": "The process depicted on the previous slide provides authentication but not confidentiality, because the message as a whole is transmitted in the clear. Confidentiality can be provided by performing message encryption either after (see Stallings Figure 12.4b) or before (see Stallings Figure 12.4c) the MAC algorithm. In both these cases, two separate keys are needed, each of which is shared by the sender and the receiver. Typically, it is preferable to tie the authentication directly to the plaintext, so the method of Figure 12.4b is used.  Can use MAC in circumstances where just authentication is needed (or needs to be kept), see text for examples (e.g. such as when the same message is broadcast to a number of destinations; when one side has a heavy load and cannot afford the time to decrypt all incoming messages; or do not need to keep messages secret, but must authenticate messages). Finally, note that the MAC does not provide a digital signature because both sender and receiver share the same key.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d2d251bc1334a4ee7ba6025b2928e2a7",
+    "text": "MAC Generation and Verification",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "87567e0108a6d76c44d3876b051de308",
+    "text": "MAC is a small fixed-sized block of data",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d2d251bc1334a4ee7ba6025b2928e2a7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "25dca0d68c250d3d1623e4df18d53641",
+    "text": "generated from message \u201cM\u201d + secret key \u201cK\u201d",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "87567e0108a6d76c44d3876b051de308"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d500973e7915a3a1fd351bfaa6da5948",
+    "text": "MAC = C(K,M)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d2d251bc1334a4ee7ba6025b2928e2a7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8a8517e9804b388388eb9392f21caba3",
+    "text": "appended to message when sent",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d2d251bc1334a4ee7ba6025b2928e2a7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "80ce890e32c9dc9c0c5fd15cd85d52a6",
+    "text": "for verification, MAC is recomputed from the received message at destination and then compared with the transmitted MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d2d251bc1334a4ee7ba6025b2928e2a7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1b222db9dff0a77dc5e1919c50754d1b",
+    "text": "This is a simple diagram for the MAC generation and verification",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d2d251bc1334a4ee7ba6025b2928e2a7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f94eee5d66867477d79761c5b7ae6448",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "787a3e0b2786589a7b84cddfe4bf054b",
+    "text": "MAC generation",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "985e2283cca96f0d933403dd0f1b89dc",
+    "text": "MAC verification",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1f78326a931d8afafb3df56ca4ae3303",
+    "text": "This is another diagram for the MAC generation and verification",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "985e2283cca96f0d933403dd0f1b89dc"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1ba57416b2d52cddefacd01177c5e4a0",
+    "text": "Message authentication using a Message Authentication Code (MAC).",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a1b1d9eccec1786806a88273c86bff3e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "327aa3c9ffe67b4c35ceaef941a0eb09",
+    "text": "A MAC (also known as a cryptographic checksum, fixed-length authenticator, or tag) is generated by a function C. The MAC is appended to the message at the source at a time when the message is assumed or known to be correct. The receiver authenticates that message by re-computing the MAC. \nThe MAC function is a many-to-one function, since potentially many arbitrarily long messages can be condensed to the same summary value, but don\u2019t want finding them to be easy (see text for discussion)!",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bfa24637b5013b3d16445a07dfbd3a49",
+    "text": "MAC Properties",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4051c82096079d070b979bd5ff398e3a",
+    "text": "a MAC is a cryptographic checksum",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bfa24637b5013b3d16445a07dfbd3a49"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6f7e1e78f187c964d0d5dcc55cb3be92",
+    "text": "\tMAC = CK(M)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bfa24637b5013b3d16445a07dfbd3a49"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "10283d7b461b2aa74fcae9709b9f4e81",
+    "text": "condenses a variable-length message M using a secret key K to a fixed-sized authenticator",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bfa24637b5013b3d16445a07dfbd3a49"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0d17eca1893332fbae3bf875e757329d",
+    "text": "is a many-to-one function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bfa24637b5013b3d16445a07dfbd3a49"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d80e54c5882d329d3a06f7ed3a59530f",
+    "text": "potentially many messages have same MAC, simply because for an m-bit authenticator there are only 2m values that can map to infinite number of messages.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0d17eca1893332fbae3bf875e757329d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "caa4f45f7a324433d7cf034d53a45549",
+    "text": "but finding two different messages having the same MAC value needs to be very difficult.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0d17eca1893332fbae3bf875e757329d"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ddfe48a12ffde75944d431687228f2fd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "904f0d7f4246c59d97d3f6ead4565d13",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements.\nThe first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key.\nThe second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. \nThe final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "df54d02d38b69697723e272721e462d9",
+    "text": "Requirements for MACs",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8dbe220223af5e98058fa8a61689283e",
+    "text": "Considering the types of attacks, the MAC needs to satisfy the following:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "df54d02d38b69697723e272721e462d9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "365aea02179dbe0c2cdf03ed0b06f03d",
+    "text": "Knowing a message and MAC, it is infeasible to find another message with same MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8dbe220223af5e98058fa8a61689283e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0d38522112f9b6aed0c48d4345f8220b",
+    "text": "For an m-bit authenticator, MACs should be uniformly distributed over the range from 0 to 2m \u2013 1.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8dbe220223af5e98058fa8a61689283e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d5600d8555f807665d59343d66ed2a8b",
+    "text": "MAC should depend equally on all bits of the message.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8dbe220223af5e98058fa8a61689283e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2dc2d7da152eab8059a78d9458c10def",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57c93becfe2e0a4dae5cf460d522f739",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements.\nThe first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key.\nThe second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. \nThe final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "875aa9f6eb18c8241b7a0acc9bcc1e20",
+    "text": "Security of MACs\u000b",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ddd1a1308c026232993a1391f45805f3",
+    "text": "Attacks on MACs can be grouped into two categories:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875aa9f6eb18c8241b7a0acc9bcc1e20"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "72861a608a2a37899ca37b6fc8a249c9",
+    "text": "Brute-force attacks: There are two lines of attack possible: attack the key space and attack the MAC value.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875aa9f6eb18c8241b7a0acc9bcc1e20"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7018f86723d1df6dd47239cbd1eeea70",
+    "text": "Cryptanalysis: As with encryption algorithms and hash functions, cryptanalytic attacks on MAC algorithms seek to exploit some property of the algorithm to perform some attack other than an exhaustive search.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875aa9f6eb18c8241b7a0acc9bcc1e20"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "da11f3cce6d22593397a958035dcad3d",
+    "text": "an ideal MAC algorithm will require a cryptanalytic effort greater than or equal to the brute-force effort.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875aa9f6eb18c8241b7a0acc9bcc1e20"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c877be8803197307cdeea1f114fc542a",
+    "text": "little work has been done on developing cryptanalytic attacks",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875aa9f6eb18c8241b7a0acc9bcc1e20"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0b81a2174d1bff8b47b6daf077ddb89b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2c0b67dbc9df6abff53528eee0c155e6",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements.\nThe first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key.\nThe second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. \nThe final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e6f38274e8dcd32509e086c922ede0b3",
+    "text": "Brute-Force Attacks on MACs\u000b",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "406fd94f3ee7ccd2370d82f43f6d2cbe",
+    "text": "Attack on MACs with known message-MAC pairs [x, MAC(K, x)]",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f38274e8dcd32509e086c922ede0b3"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5d7bba65545410b4c788985905cbb4d7",
+    "text": "either attack key space (by exhaustive key search)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f38274e8dcd32509e086c922ede0b3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "29883b644a218706b0333300480ccbf1",
+    "text": "or generate a valid tag for a given message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5d7bba65545410b4c788985905cbb4d7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59dc6f6955b6f7f49e835242aad5ebe5",
+    "text": "or find a message that matches a given tag",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5d7bba65545410b4c788985905cbb4d7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b2f0ab090a79f3ad936d6d48c4158c95",
+    "text": "For a k-bit key and a m-bit MAC authenticator, the level of effort for brute-force attack on a MAC algorithm can be expressed as min(2k,2m).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5d7bba65545410b4c788985905cbb4d7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "951c5130f0e095ecfa84f28019aea322",
+    "text": "It is reasonable to require that the key length (k) and MAC length (m) satisfy a relationship such as min(k, m) >= N, where N is in the range of 128 bits. At least 128-bit MAC is needed for security, 160-bits better.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5d7bba65545410b4c788985905cbb4d7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "eb30ec9ffc1610f383cbe96c82f64b99",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6cd95f2df95bb5af480656b93eb09528",
+    "text": "In recent years, there has been increased interest in developing a MAC derived from a cryptographic hash function, because they generally execute faster in software than symmetric block ciphers, and because code for cryptographic hash functions is widely available. A hash function such as SHA was not designed for use as a MAC and cannot be used directly for that purpose because it does not rely on a secret key. There have been a number of proposals for the incorporation of a secret key into an existing hash algorithm, originally by just pre-pending a key to the message. Problems were found with these earlier, simpler proposals, but they resulted in the development of HMAC.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "553985d21e777128df9835e397eadda1",
+    "text": "Keyed Hash Functions as MACs",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "04a6df16a8ba0a08caf86f1330f6ad65",
+    "text": "want a MAC based on a hash function ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "553985d21e777128df9835e397eadda1"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "971c1c012efab18d64eff519a470f372",
+    "text": "because hash functions are generally faster",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "04a6df16a8ba0a08caf86f1330f6ad65"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e8b2fc79ea8f70e35e3a14e11ecff7e3",
+    "text": "crypto hash function code is widely available",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "04a6df16a8ba0a08caf86f1330f6ad65"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "76806428e1578e8f92ff5b7c8e1ebe62",
+    "text": "hash includes a key along with message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "553985d21e777128df9835e397eadda1"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3faae0674fc6959883e267e649f7faf2",
+    "text": "original proposal:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "553985d21e777128df9835e397eadda1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "46a688e1b25348ae55c9ddb355c6384e",
+    "text": "KeyedHash = Hash(Key|Message) ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "553985d21e777128df9835e397eadda1"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "28c9aab2a60696bb20bbae852bb6e01c",
+    "text": "some weaknesses were found with this ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "46a688e1b25348ae55c9ddb355c6384e"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e20d0be752180e3f696ddbea66c8bc7b",
+    "text": "eventually led to development of HMAC ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "46a688e1b25348ae55c9ddb355c6384e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b140ae13c7e5bc726d51de299ae16a78",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f24cf7ab3e7dc27e8427568e1fa2c0c",
+    "text": "RFC 2104 lists the following design objectives for HMAC:  \n\u2022 To use, without modifications, available hash functions. In particular, hash functions that perform well in software, and for which code is freely and widely available. \n\u2022 To allow for easy replaceability of the embedded hash function in case faster or more secure hash functions are found or required.\n\u2022 To preserve the original performance of the hash function without incurring a significant degradation.\n\u2022 To use and handle keys in a simple way. \n\u2022 To have a well understood cryptographic analysis of the strength of the authentication mechanism based on reasonable assumptions about the embedded hash function.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "85654ab4cf2c07ac28edbe57d2d5d23b",
+    "text": "HMAC Design Objectives",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "702fec4a8bd472b12d07ac0a45bed4d3",
+    "text": "use, without modifications, hash functions",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "85654ab4cf2c07ac28edbe57d2d5d23b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9bcc8693039c2cf8b067a2390042561a",
+    "text": "allow for easy replaceability of embedded hash function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "85654ab4cf2c07ac28edbe57d2d5d23b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8b7a36d7eda187f7a15a112572fb993d",
+    "text": "preserve original performance of hash function without significant degradation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "85654ab4cf2c07ac28edbe57d2d5d23b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2d327f5b8ad2522ae7a2fcf0e50b43f1",
+    "text": "use and handle keys in a simple way.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "85654ab4cf2c07ac28edbe57d2d5d23b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1fc77644428704e68f232c1a3f204c61",
+    "text": "have well understood cryptographic analysis of authentication mechanism strength",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "85654ab4cf2c07ac28edbe57d2d5d23b"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5ab0195d9d4d1761ad4adf5b6ae1a1ed",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5694f97e5f2349b2d47817662b707fea",
+    "text": "The idea of a keyed hash evolved into HMAC, designed to overcome some problems with the original proposals. It involves hashing padded versions of the key concatenated with the message, and then with another outer hash of the result prepended by another padded variant of the key. The hash function need only be used on 3 more blocks than when hashing just the original message (for the two keys + inner hash). HMAC can use any desired hash function, and has been shown to have the same security as the underlying hash function. Can choose the hash function to use based on speed/security concerns.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0270d3661a477d7f942de399df1cc2e8",
+    "text": "HMAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e4ecc40e5bf3b7027b25895700ae1322",
+    "text": "specified as Internet standard RFC2104 ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0270d3661a477d7f942de399df1cc2e8"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6985af684ee18de91e733cb58c4e83f5",
+    "text": "uses hash function on the message:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0270d3661a477d7f942de399df1cc2e8"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "584a9aa5506f99f987d9039660afd4f6",
+    "text": "HMACK(M)= Hash[(K+ \uf0c5 opad) || ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0270d3661a477d7f942de399df1cc2e8"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e3b707692b993406b98f3c33aa4eea60",
+    "text": "\t\t\t\tHash[(K+ \uf0c5 ipad) || M)] ]",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0270d3661a477d7f942de399df1cc2e8"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b8abbf6f5653dada07588c79cddf7f9a",
+    "text": "where K+ is the key padded out to size ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3b707692b993406b98f3c33aa4eea60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1e4d42c5341898261a88e2610a94bd0a",
+    "text": "opad, ipad are specified padding constants ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3b707692b993406b98f3c33aa4eea60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "31c4261e8d3c8783f42cc1c933aa1755",
+    "text": "overhead is just 3 more hash calculations than the message needs alone",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3b707692b993406b98f3c33aa4eea60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6d91f8751aa9096d0c506c4979ec6b4f",
+    "text": "any hash function can be used",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3b707692b993406b98f3c33aa4eea60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "799a4d8f00d2da4fc5e56300e497b94f",
+    "text": "e.g. MD5, SHA-1, RIPEMD-160, Whirlpool",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6d91f8751aa9096d0c506c4979ec6b4f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "7adc07e8edf4ec125d12c28aff9c443f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "32aa946cd2fdd787d6676681a20e47ba",
+    "text": "HMAC\u000bOverview",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f2ef09f3172d04f85b833a8c1d57ce73",
+    "text": "HMAC(k,M)= ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32aa946cd2fdd787d6676681a20e47ba"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "07c9cda072a52cb7a2a6a3970c071fd9",
+    "text": "Hash",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32aa946cd2fdd787d6676681a20e47ba"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9dd60a12d5cec80d1c9a6c334d4f1290",
+    "text": "[(K+ \uf0c5 opad) || ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "07c9cda072a52cb7a2a6a3970c071fd9"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "38bff2370faaf535231a084daf15a596",
+    "text": " Hash[(K+ \uf0c5 ipad) || M)]",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32aa946cd2fdd787d6676681a20e47ba"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a9eb7b49aac8d79f96ce233872666027",
+    "text": "]",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "38bff2370faaf535231a084daf15a596"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "72c7e6cfd5248d5e69e01e892daeaae7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e2550cbd885f0c1b0e79ad01037630fe",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4cbeacca5322db6719e6631fdb8bb06d",
+    "text": "The appeal of HMAC is that its designers have been able to prove an exact relationship between the strength of the embedded hash function and the strength of HMAC. The security of a MAC function is generally expressed in terms of the probability of successful forgery with a given amount of time spent by the forger and a given number of message-MAC pairs created with the same key. Have two classes of attacks: brute force attack on key used which has work of order 2^n; or a birthday attack which requires work of order 2^(n/2) - but which requires the attacker to observe 2^n blocks of messages using the same key - very unlikely. For a hash code length of 128 bits, this requires 264 observed blocks (272 bits) generated using the same key. On a 1-Gbps link, one would need to observe a continuous stream of messages with no change in key for about 150,000 years in order to succeed. So even MD5 is still secure for use in HMAC given these constraints.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "902493aed6d1cb3adfc0d09f2f1f7a67",
+    "text": "HMAC Security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "97352cb93514b5efba600536a41a70ac",
+    "text": "proved security of HMAC relates to that of the underlying hash algorithm",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "902493aed6d1cb3adfc0d09f2f1f7a67"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c684eadff6c51c404c64af355d72f867",
+    "text": "attacking HMAC requires either:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "902493aed6d1cb3adfc0d09f2f1f7a67"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ab68861c58f6c9c87841374c6d073d94",
+    "text": "brute force attack on key used",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c684eadff6c51c404c64af355d72f867"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3e9c5161bc033e0aab9183554604061f",
+    "text": "birthday attack (but since keyed would need to observe a very large number of messages)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c684eadff6c51c404c64af355d72f867"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8c9255343fe255620343471936d01dcc",
+    "text": "choose hash function used based on speed verses security constraints",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "902493aed6d1cb3adfc0d09f2f1f7a67"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "aae97ce594e1bcaf750a7bbc39ed51e2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7cf8f6395052439189866770cd404f2d",
+    "text": "In this section, we look at two MACs that are based on the use of a block cipher mode of operation. We begin with an older algorithm, the Data Authentication Algorithm (DAA), a widely used though now obsolete MAC based on DES-CBC (next slide). However this suffers from being too small for acceptable use today.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de336119f6d50ec40ebc2bbec4ee27c6",
+    "text": "Using Symmetric Ciphers for MACs",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9092ae1ecf3570196f6e9c1eefafbc47",
+    "text": "can use any block cipher chaining mode and use final block as a MAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c9771f017e2b95356475c643c88abd27",
+    "text": "Data Authentication Algorithm (DAA) is a widely used MAC based on DES-CBC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fc29cc8ec5ae93a9ddf845edd6e94e59",
+    "text": "using IV=0 and zero-pad of final block",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "81d0916f671a344640fad2bd0d55fdb0",
+    "text": "encrypt message using DES in CBC mode",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "56bf7ba59fee006ecbec9fa49f332ea6",
+    "text": "and send just the final block as the MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6d9fc763976f8ce476bdb39ca32d9c9b",
+    "text": "or the leftmost M bits (16\u2264M\u226464) of final block",
+    "metadata": {
+      "category_depth": 3,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de336119f6d50ec40ebc2bbec4ee27c6"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2885e908450fabc8171785591882d3c5",
+    "text": "but final MAC is now too small for security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6d9fc763976f8ce476bdb39ca32d9c9b"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "55c95c67a2b4f563e6709e1762970381",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "912f66e9dc053a12a64a79ae6eee1161",
+    "text": "The Data Authentication Algorithm cipher-based MAC has been widely adopted in government and industry. Has been shown to be secure, with the following restriction. Only messages of one fixed length of mn bits are processed, where n is the cipher block size and m is a fixed positive integer. This limitation can be overcome using multiple keys, which can be derived from a single key. This refinement has been adopted by NIST as the cipher-based message authentication code (CMAC) mode of operation, for use with AES and triple DES. It is specified in NIST Special Publication 800-38B.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de",
+    "text": "CMAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8a330619e24d60046f54f317b657e884",
+    "text": "previously saw the DAA (CBC-MAC)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9e545d754825373405dbee2bf7f3b996",
+    "text": "widely used in government & industry",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fda8ea11a84d0b18aa02a066fcf62bba",
+    "text": "but has message size limitation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e2df9ec3828db0fc9eecd80cdcb2c816",
+    "text": "can overcome using 2 keys & padding",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c8898eb3e08666bc81a21391a46dea13",
+    "text": "Thus, forming the Cipher-based Message Authentication Code (CMAC)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "50b8f4370da3e1aea7350e3f67261137",
+    "text": "adopted by NIST SP800-38B",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "201b5f67e5d5f1bc1fab1f5e3f47c0de"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a852a4b5408b63ad63aacce5e16406fc",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "25faf4211ec23f732384e9df6fe6e0c1",
+    "text": "Stallings Figure 12.8 shows the structure of CMAC. It uses the blocksize of the underlying cipher (ie 128-bits for AES or 64-bits for triple-DES). The message is divided into n blocks M1..Mn, padded if necessary. The algorithm makes use of a k-bit encryption key K and an n-bit constant K1 or K2 (depending on whether the message was padded or not).  For AES, the key size k is 128,192, or 256 bits; for triple DES, the key size is 112 or 168 bits. The two constants K1 & K2 are derived from the original key K using encryption of 0 and multiplication in GF(2^n), as detailed in the text.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2c005fb211b02fd9f925364fe8194bb7",
+    "text": "CMAC Overview",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "863bf081de427e3a0915a5d3070061b0",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7ee8c4540be6d70e544886ed635bbf1b",
+    "text": "Authenticated encryption (AE) is a term used to describe encryption systems that simultaneously protect confidentiality and authenticity (integrity) of communications. Many applications and protocols require both forms of security, but until recently the two services have been designed separately.  [BLAC05] discussed four common approaches to providing both confidentiality and encryption for a message M: \n\u2022 HtE: Hash-then-encrypt. First compute the cryptographic hash function over M as h = H(M). Then encrypt the message plus hash function: E(K, (M || h)\n\u2022 MtE: MAC-then-encrypt. Use two keys. First authenticate the plaintext by computing the MAC value as T = MAC(K1, M). Then encrypt the message plus tag: E(K2, (M || T) cf SSL/TLS\n\u2022 EtM: Encrypt-then-MAC. Use two keys. First encrypt the message to yield the ciphertext C = E(K 2, M). Then authenticate the ciphertext with T = MAC(K1, C) to yield the pair (C, T) cf IPsec\n\u2022 E&M: Encrypt-and-MAC. Use two keys. Encrypt the message to yield the ciphertext C = E(K 2, M). Authenticate the plaintext with T = MAC(K1, M) to yield the pair (C, T). These operations can be performed in either order. cf SSH\nBoth decryption and verification are straightforward for each approach. There are security vulnerabilities with all of these approaches.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "52f5122c25c54d1f2520bb46a113aba2",
+    "text": "Authenticated Encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7252dfef4e2876b5862736ac0986a59a",
+    "text": "simultaneously protect confidentiality and authenticity of communications",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "52f5122c25c54d1f2520bb46a113aba2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7d1b2b7017a5af3c5cad7ace29dd3aea",
+    "text": "often required but usually separate",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7252dfef4e2876b5862736ac0986a59a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "43a781587420581249ff04cc61c8c1eb",
+    "text": "approaches",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "52f5122c25c54d1f2520bb46a113aba2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6ea814733c66917b1e421b8f38e019b0",
+    "text": "Hash-then-encrypt: E(K, (M || H(M))",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43a781587420581249ff04cc61c8c1eb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "00ec55e6bf1f816edc2df5561e140bf7",
+    "text": "MAC-then-encrypt: E(K2, (M || MAC(K1, M)) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43a781587420581249ff04cc61c8c1eb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fd333e0546042c712f06a5296323d690",
+    "text": "Encrypt-then-MAC: (C=E(K2, M), T=MAC(K1, C) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43a781587420581249ff04cc61c8c1eb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f0899fda5e6e2b769c4e28b6316b7af8",
+    "text": "Encrypt-and-MAC: (C=E(K2, M), T=MAC(K1, M)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43a781587420581249ff04cc61c8c1eb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d4699c6da1abe3d224956fe93587fd0d",
+    "text": " decryption /verification straightforward",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "52f5122c25c54d1f2520bb46a113aba2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "383021e5a6d7ea1763aa535105017d20",
+    "text": "but security vulnerabilities with all these",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "52f5122c25c54d1f2520bb46a113aba2"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "7aca241fa325faad54c2bf2ea5042f19",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "27f09b537c6efa38abc83e9f8d3ed34e",
+    "text": "Authenticated Encryption",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fcc461241068144b2c7dddfaa90d644b",
+    "text": "Authenticated encryption (AE) is a term used to describe encryption systems that simultaneously protect confidentiality and authenticity (integrity) of communications.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "27f09b537c6efa38abc83e9f8d3ed34e"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "582ec93c08bbae901138356147ee90f4",
+    "text": "Many applications and protocols require both forms of security, but until recently the two services have been designed separately.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "27f09b537c6efa38abc83e9f8d3ed34e"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "06b094e917422502d04702c33a1698c5",
+    "text": "There are four common approaches to providing both confidentiality and encryption for a message M",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "27f09b537c6efa38abc83e9f8d3ed34e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5e7866e698d05da47f4d494e97a5874d",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c609469a8777836311240cb076e84386",
+    "text": "You know for sure who sign the message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f565a720ad63a070ed4e34d2d4a0ef6",
+    "text": "\u0645\u0645\u0643\u0646 \u062d\u062f \u064a\u0643\u0648\u0646 \u0639\u062f\u0644 \u0639\u0644\u064a \u0627\u0644\u0633\u0627\u064a\u0641\u0631 \u0647\u0646\u0627",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "55fa6aef18559be7940d6adeeb52c2ea",
+    "text": "You can\u2019t be sure who sign the message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0f565a720ad63a070ed4e34d2d4a0ef6"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "60b0856e905c4451660209cf2a50b667",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b745a8b3365f1b854bda1852b34ff3f1",
+    "text": "1- Hash-then-encrypt",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "60d0b4ef99223ad0f007d73838fd74f0",
+    "text": "E(K, (M || H(M))",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b745a8b3365f1b854bda1852b34ff3f1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "522f9998e47dd2b9dbf7f0aa21502c6d",
+    "text": "First compute the cryptographic hash function over M as:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b745a8b3365f1b854bda1852b34ff3f1"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4ffb04d0ebe5604ecab286cace9649ee",
+    "text": "h = H(M).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b745a8b3365f1b854bda1852b34ff3f1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "32e6972550b14c04b84164ecf803b9f8",
+    "text": "Then encrypt the message plus hash function: E(K, (M || h)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b745a8b3365f1b854bda1852b34ff3f1"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2059186e27f0056e6f224636a708f9cc",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "00480abfb95dc22d59f83261628ba722",
+    "text": "2- MAC-then-encrypt",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a12fbba3192fc0621f8d43bef68ee7e9",
+    "text": "E(K2, (M || MAC(K1, M))",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "00480abfb95dc22d59f83261628ba722"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf44e4359feb23456f25d817fd6aec5e",
+    "text": "Use two keys.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ed0aa2d2c5cf5af28b1fa6ac569bdcbd",
+    "text": "First authenticate the plaintext by computing the MAC value as:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf44e4359feb23456f25d817fd6aec5e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f9574b64bc3373ccf3068668763c7899",
+    "text": "T = MAC(K1, M).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf44e4359feb23456f25d817fd6aec5e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b98dd466d103c40beca62ab7d4c57e15",
+    "text": "Then encrypt the message plus tag:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf44e4359feb23456f25d817fd6aec5e"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "72180fb86cd3498a813b270a204342ee",
+    "text": "E(K2, (M || T)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf44e4359feb23456f25d817fd6aec5e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "dee3b8ff07cf2d6e1764ad1504aa310b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "621650d3f67b4897dd09df106200899f",
+    "text": "3- Encrypt-then-MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3388d61f3a44f4b15ce870557e04fc43",
+    "text": "(C=E(K2, M), T=MAC(K1, C)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "621650d3f67b4897dd09df106200899f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1dfb90c1e486cfc0234088dfd1195ed9",
+    "text": "Use two keys.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3c1c153fb1260350d9ad437ad5c7737a",
+    "text": "First encrypt the message to yield the ciphertext:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1dfb90c1e486cfc0234088dfd1195ed9"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "609be9b2c83c491a12217950948de27c",
+    "text": "C = E(K2, M).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1dfb90c1e486cfc0234088dfd1195ed9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dd226210e87f9fca21d6386c73dc616f",
+    "text": "Then authenticate the ciphertext with",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1dfb90c1e486cfc0234088dfd1195ed9"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "07cafbcf2fc16fc47ce66cb5aabe847b",
+    "text": "T = MAC(K1, C) to yield the pair (C, T)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "127abcc2e7c1fc07a4ca9bfa26ecf783",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c40916ab071bff75b7d14b5630ef5ef4",
+    "text": "4- Encrypt-and-MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1f85ad2dd946de16c557664226918208",
+    "text": "(C=E(K2, M), T=MAC(K1, M)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c40916ab071bff75b7d14b5630ef5ef4"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1d3b056cd305618c30e420e0ab101647",
+    "text": "Use two keys.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3f3b09c03f3bcbdc2ae387885c93b1a8",
+    "text": "Encrypt the message to yield the ciphertext:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1d3b056cd305618c30e420e0ab101647"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c82739726b76b37ef2c5751424b1f87f",
+    "text": "C = E(K2, M).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1d3b056cd305618c30e420e0ab101647"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4c914a6098cc56ec4d244e8b565e8355",
+    "text": "Authenticate the plaintext with T = MAC(K1, M) to yield the pair (C, T).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1d3b056cd305618c30e420e0ab101647"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ea232d9d811f22cc3dc72de6039c6b28",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cd860e8955db157bfe697514941658ed",
+    "text": "NIST standard SP 800-38C for Wi-Fi",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a1aefbf1e90221af239955ab01751271",
+    "text": "Counter with Cipher Block Chaining-Message Authentication Code (CCM) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e87189af72dd669188eea6e4d54f4f05",
+    "text": "variation of encrypt-and-MAC approach",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "24de56e033c61367ce1d7554c935ad33",
+    "text": " algorithmic ingredients ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "94faad3d2503db6a2583441972f6925a",
+    "text": "AES encryption algorithm",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24de56e033c61367ce1d7554c935ad33"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8bf08dfc06f6881b9f645dfe62c994c0",
+    "text": "CTR mode of operation",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24de56e033c61367ce1d7554c935ad33"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "48e23d19f1d10ce0c96bf2b97cbfa495",
+    "text": "CMAC authentication algorithm",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24de56e033c61367ce1d7554c935ad33"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d2ed769a3526dab3352358f108a5f5a4",
+    "text": "single key used for both encryption & MAC ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "48e23d19f1d10ce0c96bf2b97cbfa495"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "6f4374132bec01944b76ad8c62d2f423",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5158f86a985e8318b0208a3f29e2c6f0",
+    "text": "Chapter 12 summary.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16357c0043332a7bfbfd9c7daec39955",
+    "text": "Summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "105d7ad46a8ff40521371be012a31815",
+    "text": "have considered:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "16357c0043332a7bfbfd9c7daec39955"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eb5d8091e92eefc157d1d158545196e3",
+    "text": "message authentication requirements",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "16357c0043332a7bfbfd9c7daec39955"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8d0783515ac279704d660fdaf8d9d28d",
+    "text": "message authentication using encryption",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eb5d8091e92eefc157d1d158545196e3"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "35ef37f2be8f02d3f3df7908b1600946",
+    "text": "MACs",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "16357c0043332a7bfbfd9c7daec39955"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "22e6798325f15545df6607c042989abd",
+    "text": "HMAC authentication using a hash function",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35ef37f2be8f02d3f3df7908b1600946"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "055125f23fef461b7cca05656943e8a4",
+    "text": "CMAC authentication using a block cipher",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35ef37f2be8f02d3f3df7908b1600946"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bc92069959c0723c2329487f68d020f5",
+    "text": "authenticated encryption",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 12 MAC - without audio.pptx",
+      "last_modified": "2025-01-15T18:02:29",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35ef37f2be8f02d3f3df7908b1600946"
+    }
+  }
+]

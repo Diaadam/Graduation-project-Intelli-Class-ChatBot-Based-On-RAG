@@ -1,0 +1,50 @@
+[
+  {
+    "id": "091051c0-7365-4367-aef8-b7e773515805",
+    "text": "LEC 4 Hybrid Systems Introduction Cyber-physical systems integrate physical dynamics and computational systems, so they commonly combine both discrete and continuous dynamics. In this chapter, we show that the modeling techniques of Chapters 2 and 3 can be combined, yielding what are known as hybrid systems. Hybrid system models are often much simpler and more understandable. They are a powerful tool for understanding real- world systems.",
+    "chunk_index": 0,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "55cbdb4d-c324-4370-8713-3911d9ba4247",
+    "text": "Modal Models In this section, we show that state machines can be generalized to admit continuous inputs and outputs and to combine discrete and continuous dynamics. A hybrid system is sometimes called a modal model because it has a finite number of modes, one for each state of the FSM. The states of the FSM may be referred to as modes rather than states",
+    "chunk_index": 1,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "263ce848-10ae-4157-9970-166fe7a8e34a",
+    "text": "Actor Model for State Machines It is natural to think of a state machine as an actor, as illustrated in Figure What About Continuous Inputs? We have so far assumed that state machines operate in a sequence of discrete reactions. • We have assumed that inputs and outputs are absent between reactions. We will now generalize this to allow inputs and outputs to be continuous-time signals. In order to get state machine models to coexist with time-based models, we need to interpret state transitions to occur on the same timeline used for the time-based portion of the system.",
+    "chunk_index": 2,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "8b4daa47-7726-4f53-9910-6e8dc4c8ece1",
+    "text": "Example 1 Consider a thermostat modeled as a state machine with states = {heating; cooling}, shown in Figure. Cont., The input is a continuous-time signal Ƭ : R (cid:0) R where Ƭ(t) represents the temperature at time t. • The initial state is cooling, and the transition out of this state is enabled at the earliest time t after the start time when Ƭ(t) ≤ 18. In this example, we assume the outputs are pure signals {heatOn and heatOff}. What About Continuous Outputs? • In the above example, the outputs are present only at the times the transitions are taken. • We can also generalize FSMs to support continuous-time outputs, but to do this, we need the notion of state refinements.",
+    "chunk_index": 3,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "c4429987-4945-4443-bbec-53e02aa915d4",
+    "text": "A hybrid system associates with each state of an FSM a dynamic behavior, called “state refinements” that gives the dynamic behavior of the output as a function of the input and (possibly) additional continuous state variables.",
+    "chunk_index": 4,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "3be48394-c8d3-4df9-9943-d0b01a70ef57",
+    "text": "Example 2 Suppose that instead of discrete outputs as in Example 1 we wish to produce a control signal whose value is 1 when the heat is on and 0 when the heat is off. Such a control signal could directly drive a heater. • Each state has a refinement that gives the value of the output h while the state machine is in that state. Classes of Hybrid Systems: 1- Timed Automata • Most cyber-physical systems require measuring the passage of time and performing actions at specific times. A device that measures the passage of time, a clock, has a particularly simple dynamics: its state progresses linearly in time. Timed automata are the simplest non-trivial hybrid systems.",
+    "chunk_index": 5,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "e4afeb1a-e7c8-4a9e-8270-8c7cbc048ea1",
+    "text": "They are modal models where the time-based refinements have very simple dynamics; all they do is measure the passage of time. Clock Model A clock is modeled by a first-order differential equation, Example 3 Recall the thermostat of Example 1, which uses hysteresis to prevent chattering. An alternative implementation that would also prevent chattering would use a single temperature threshold, but instead would require that the heater remain on or off for at least a minimum amount of time, regardless of the temperature. This can be modeled as a timed automaton.",
+    "chunk_index": 6,
+    "source_file": "4th_Embedded_lec_4"
+  },
+  {
+    "id": "c9cb8089-fa3e-44a4-a758-8ce854ca6e0a",
+    "text": "Example 4 A timed automaton produces a pure output that will be present every T time units, starting at the time when the system begins executing. Example 5 The traffic light controller is a time triggered machine that assumes it reacts once each second. Sheet 4 Exercises: 2, 4, 6, and 9.",
+    "chunk_index": 7,
+    "source_file": "4th_Embedded_lec_4"
+  }
+]

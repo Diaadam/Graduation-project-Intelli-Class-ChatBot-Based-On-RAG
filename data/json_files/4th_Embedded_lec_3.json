@@ -1,0 +1,3843 @@
+[
+  {
+    "type": "Title",
+    "element_id": "99cea5bfb0b087f31ed982fc9f96fcd3",
+    "text": "Lecture 3 Discrete Dynamics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            208.198822,
+            215.02663
+          ],
+          [
+            208.198822,
+            331.72345
+          ],
+          [
+            511.62850810000003,
+            331.72345
+          ],
+          [
+            511.62850810000003,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f929e046e94df2ce91bcf5aca03f9067",
+    "text": "Discrete Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            362.71639726,
+            106.56259899999998
+          ],
+          [
+            362.71639726,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2a72ad323d4363658ffc8cff77be4ba2",
+    "text": "Models of embedded systems include both discrete and continuous components.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            562.7508299262176,
+            208.34841339999997
+          ],
+          [
+            562.7508299262176,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 2,
+      "parent_id": "f929e046e94df2ce91bcf5aca03f9067",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4851d34e426a3b179e3ac29bfa0f5d03",
+    "text": "In this chapter, we study how state machines can be used to model discrete dynamics.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            629.0509399989118,
+            278.84842484
+          ],
+          [
+            629.0509399989118,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 2,
+      "parent_id": "f929e046e94df2ce91bcf5aca03f9067",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "20e93a8913f8ee0f88b90b4e91b84d2f",
+    "text": "A discrete system operates in a sequence of discrete steps and is said to have discrete dynamics.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            349.34843484
+          ],
+          [
+            661.9676303004069,
+            349.34843484
+          ],
+          [
+            661.9676303004069,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 2,
+      "parent_id": "f929e046e94df2ce91bcf5aca03f9067",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "040735c7c7aed10ff12b50762c189a28",
+    "text": "Some systems are inherently discrete.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            360.78202895734375
+          ],
+          [
+            46.38302830504534,
+            389.84843644
+          ],
+          [
+            503.06460689601016,
+            389.84843644
+          ],
+          [
+            503.06460689601016,
+            360.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 2,
+      "parent_id": "f929e046e94df2ce91bcf5aca03f9067",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4fb5d345e4dcc82608b46a1995deb69b",
+    "text": "Example 3.1:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            285.18319307999997,
+            106.56259899999998
+          ],
+          [
+            285.18319307999997,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "af0547df9fd5289dc1af8b92021afb3a",
+    "text": "Consider a system that counts the number of cars that enter and leave a parking garage in order to keep track of how many cars are in the garage at any time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28194151734374
+          ],
+          [
+            46.38302830504534,
+            268.3483582
+          ],
+          [
+            636.507769035116,
+            268.3483582
+          ],
+          [
+            636.507769035116,
+            149.28194151734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 3,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "83f040db1abe655d6a43a4979066f5d6",
+    "text": "It could be modeled using Actor model as shown in Figure.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.7819289573437
+          ],
+          [
+            46.38302830504534,
+            338.84831484
+          ],
+          [
+            653.9054667586099,
+            338.84831484
+          ],
+          [
+            653.9054667586099,
+            279.7819289573437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 3,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "25f4599896a8d37640a1cf0c757981ee",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 4,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e9a5cf4e3c269cca09913bd6c435fad6",
+    "text": "Where: The inputs to the counter are discrete (Pure) signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            593.5130201884294,
+            208.34841339999997
+          ],
+          [
+            593.5130201884294,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 4,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8d964c18279bfecabfcc45a9b043d8ac",
+    "text": "The input to the Counter is a pair of discrete signals that at certain times have an event (are present), and at other times have no event (are absent).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841164000005
+          ],
+          [
+            610.4095735539466,
+            338.84841164000005
+          ],
+          [
+            610.4095735539466,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 4,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5cd12d7bf01db9b3d89a4503f2641c08",
+    "text": "The output also is a discrete signal that, when an input is present, has a value that is a natural number, and at other times is absent.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            439.34844324
+          ],
+          [
+            633.8558965083513,
+            439.34844324
+          ],
+          [
+            633.8558965083513,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 4,
+      "parent_id": "4fb5d345e4dcc82608b46a1995deb69b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d81e2cf8028026b4c27d8403d13b3221",
+    "text": "Dynamics of a discrete system",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            591.65584952,
+            106.56259899999998
+          ],
+          [
+            591.65584952,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0ddc27ee733647fb4d50ac0afe396521",
+    "text": "The dynamics of a discrete system can be described as a sequence of steps that we call reactions, each of which we assume to be instantaneous.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            582.7787125728503,
+            268.34841919999997
+          ],
+          [
+            582.7787125728503,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 5,
+      "parent_id": "d81e2cf8028026b4c27d8403d13b3221",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "35f33b14686d623dd4fbc47c76b53147",
+    "text": "Reactions of a discrete system are triggered by the environment in which the discrete system operates.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            661.3490955998034,
+            338.84843484
+          ],
+          [
+            661.3490955998034,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 5,
+      "parent_id": "d81e2cf8028026b4c27d8403d13b3221",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e378f292fd084084666f4477953249bd",
+    "text": "In the case of the example of garage, reactions of the Counter actor are triggered when one or more input events are present (Event triggered).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            439.34844324
+          ],
+          [
+            645.9187345053476,
+            439.34844324
+          ],
+          [
+            645.9187345053476,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 5,
+      "parent_id": "d81e2cf8028026b4c27d8403d13b3221",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+    "text": "The Notion of State",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            51.30444699999998
+          ],
+          [
+            56.698818,
+            95.30444699999998
+          ],
+          [
+            410.50545968,
+            95.30444699999998
+          ],
+          [
+            410.50545968,
+            51.30444699999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b5579de3169ce0f358ad99212b62a954",
+    "text": "The state of a system is its condition at a particular point in time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            122.23855563734372
+          ],
+          [
+            46.38302830504534,
+            178.30495968000002
+          ],
+          [
+            648.9562476971931,
+            178.30495968000002
+          ],
+          [
+            648.9562476971931,
+            122.23855563734372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "41330a363490f825147fbfcd4d2054bd",
+    "text": "In general, the state affects how the system reacts to inputs.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            185.98855711734376
+          ],
+          [
+            46.38302830504534,
+            242.05496116
+          ],
+          [
+            642.7798596584134,
+            242.05496116
+          ],
+          [
+            642.7798596584134,
+            185.98855711734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e24f27e25d20c50752ffe08595136079",
+    "text": "A practical parking garage has a finite and non- negative number M of spaces, so the state space for the Counter actor used in this way will be:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.73855711734376
+          ],
+          [
+            46.38302830504534,
+            332.80495772000006
+          ],
+          [
+            626.1671165152829,
+            332.80495772000006
+          ],
+          [
+            626.1671165152829,
+            249.73855711734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a8c823becf2339e86433ded9cc61d90f",
+    "text": "States = {0; 1; 2; ;M}",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            341.55496347999997
+          ],
+          [
+            92.69882308000001,
+            369.55496459999995
+          ],
+          [
+            339.5563229942997,
+            369.55496459999995
+          ],
+          [
+            339.5563229942997,
+            341.55496347999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fdc712e0c3c70fef1fa159e18f33adfc",
+    "text": "The state space for the garage counter is finite. \u2022 Discrete models with finite state spaces are called finite-state machines (FSMs).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            377.2385571173437
+          ],
+          [
+            46.38302830504534,
+            470.05496116
+          ],
+          [
+            638.4571901820582,
+            470.05496116
+          ],
+          [
+            638.4571901820582,
+            377.2385571173437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 6,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5e0a4fbb5a939e61b91127d2e952e687",
+    "text": "Finite-State Machines \u2022 A state machine is a model of a system with discrete",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            40.869605999999976
+          ],
+          [
+            47.698818,
+            120.33748600000001
+          ],
+          [
+            581.93709976,
+            120.33748600000001
+          ],
+          [
+            581.93709976,
+            40.869605999999976
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 7,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3920b33c23e9b92086642aec8e4a164d",
+    "text": "dynamics that at each reaction maps valuations of the inputs to valuations of the outputs, where the map may depend on its current state.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            122.58748600000001
+          ],
+          [
+            74.698818,
+            199.087486
+          ],
+          [
+            616.78475608,
+            199.087486
+          ],
+          [
+            616.78475608,
+            122.58748600000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 7,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c0540ddcfce90c6552d9ed85b3e843d4",
+    "text": "A finite-state machine (FSM) is a state machine where the set of possible states is finite.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            210.17342744
+          ],
+          [
+            47.698818,
+            261.33749
+          ],
+          [
+            635.2886627400001,
+            261.33749
+          ],
+          [
+            635.2886627400001,
+            210.17342744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 7,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e701d65d0ac9cbbd450328ad909369b2",
+    "text": "At the beginning of each sequence of reactions, there is an initial state, State1, indicated in the diagram by a dangling arrow into it.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            272.42342744
+          ],
+          [
+            47.698818,
+            349.83749
+          ],
+          [
+            644.8042873599999,
+            349.83749
+          ],
+          [
+            644.8042873599999,
+            272.42342744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 7,
+      "parent_id": "7bbf0a88c52b6aa538ae4e7fab3dc469",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3e50f07160cf3029505545f60143ed42",
+    "text": "Transitions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            255.48983342000002,
+            106.56259899999998
+          ],
+          [
+            255.48983342000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b58a62feabdcd82a5158cda915f4a7c9",
+    "text": "Transitions between states govern the discrete dynamics of the state machine and the mapping of input valuations to output valuations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            650.2852405172495,
+            238.3484168
+          ],
+          [
+            650.2852405172495,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 8,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3b090ec05227386bb87a784cb9e72ed4",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8daee44a61fea2bd1fe2cd2b879a3715",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8e3dfba1e7ba2546b22f44a5377143fe",
+    "text": "In Figure 3.3, the transition from State1 to State2 is labeled with \u201cguard / action.\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            150.34841900000004
+          ],
+          [
+            74.698818,
+            200.59841900000004
+          ],
+          [
+            648.3121020199999,
+            200.59841900000004
+          ],
+          [
+            648.3121020199999,
+            150.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8a2861ba1c7bf66423dfbcc645e56d92",
+    "text": "The guard (input) determines whether the transition may be taken on a reaction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            262.84842000000003
+          ],
+          [
+            631.78475558,
+            262.84842000000003
+          ],
+          [
+            631.78475558,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ef2a888add842a82aee2b80146d1cffe",
+    "text": "The action specifies what outputs are produced on each reaction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            273.93435744
+          ],
+          [
+            47.698818,
+            325.09842
+          ],
+          [
+            618.89413106,
+            325.09842
+          ],
+          [
+            618.89413106,
+            273.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "29221d3d40280acd6748fbd93c5367dd",
+    "text": "A guard is a predicate (a Boolean-valued expression) that evaluates to true when the transition should be taken.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            336.18435744
+          ],
+          [
+            47.698818,
+            387.34842
+          ],
+          [
+            627.65975696,
+            387.34842
+          ],
+          [
+            627.65975696,
+            336.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 9,
+      "parent_id": "3e50f07160cf3029505545f60143ed42",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "45e23f2a0655c09bb8a6fba68a9b1a0c",
+    "text": "Example 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "090e15414d32e3b32364e5d4c308aea1",
+    "text": "FSM model for the garage counter (Mealy Machine)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            661.0586862985319,
+            178.34842500000002
+          ],
+          [
+            661.0586862985319,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 10,
+      "parent_id": "45e23f2a0655c09bb8a6fba68a9b1a0c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a944b71f74e4daa6bf0ad34f804fc0bd",
+    "text": "Example 2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb4e71a44fde8d79d53b0174b0157006",
+    "text": "A major use of energy worldwide is in heating, ventilation, and air conditioning (HVAC) systems. \u2022 Consider a thermostat modeled by an FSM with",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            248.84841644
+          ],
+          [
+            625.3986634169586,
+            248.84841644
+          ],
+          [
+            625.3986634169586,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 11,
+      "parent_id": "a944b71f74e4daa6bf0ad34f804fc0bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7d31f7d5365a87cab2f39b64592f50ca",
+    "text": "States = {heating, cooling}.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            250.84842372000003
+          ],
+          [
+            74.69881504,
+            278.84842484
+          ],
+          [
+            375.22031245810075,
+            278.84842484
+          ],
+          [
+            375.22031245810075,
+            250.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 11,
+      "parent_id": "a944b71f74e4daa6bf0ad34f804fc0bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d054be25caf76d89ce42c19e77b92df4",
+    "text": "Update Functions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            377.41952132,
+            106.56259899999998
+          ],
+          [
+            377.41952132,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cababb948067a53fd7789413867d3154",
+    "text": "The graphical notation for FSMs defines a specific mathematical model of the dynamics of a state machine.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            634.4093715360077,
+            238.3484168
+          ],
+          [
+            634.4093715360077,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 12,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6aa8e80ed3ffcb776afeae7abfa8a2ee",
+    "text": "In such a mathematical notation, a finite-state machine is a five-tuple",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            597.0054776108863,
+            308.84842484
+          ],
+          [
+            597.0054776108863,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 12,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65762bcefc733ccc4565ce5e46321f3c",
+    "text": "(States; Inputs; Outputs; update; initial State) \u2022 Where, update : States x Inputs (cid:0) States x Outputs is an update function, mapping a state and an input valuation to a next state and an output valuation;",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            321.34843532
+          ],
+          [
+            46.38302830504534,
+            479.84844164000003
+          ],
+          [
+            643.0891268156117,
+            479.84844164000003
+          ],
+          [
+            643.0891268156117,
+            321.34843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 12,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2df494215e536c2ad3417d5fee72b8c7",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 13,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9a036815882ecbcc0920147b0b971d3c",
+    "text": "The dynamics of the state machine are given by the following equation:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            613.6738514072764,
+            208.34841339999997
+          ],
+          [
+            613.6738514072764,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 13,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "836a519030134d67c7b44a0c781ee46b",
+    "text": "(s(n + 1); y(n)) = update(s(n); x(n))",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            220.84841532000002
+          ],
+          [
+            92.69882308000001,
+            248.84841644
+          ],
+          [
+            475.2138583088766,
+            248.84841644
+          ],
+          [
+            475.2138583088766,
+            220.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 13,
+      "parent_id": "d054be25caf76d89ce42c19e77b92df4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6e764d2f99a8b1f27e8428ec62a7fdbe",
+    "text": "Where:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            261.34841532
+          ],
+          [
+            56.698818,
+            289.34841644
+          ],
+          [
+            141.07409076673494,
+            289.34841644
+          ],
+          [
+            141.07409076673494,
+            261.34841532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "93e9de990aa362e74feb021e23d6d06e",
+    "text": "S(n+1) is the next state S(n) is the current state Y(n) is the output from state n X(n) is the input to state n",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            301.84843532
+          ],
+          [
+            92.69882308000001,
+            451.34843644
+          ],
+          [
+            433.75460223809273,
+            451.34843644
+          ],
+          [
+            433.75460223809273,
+            301.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 13,
+      "parent_id": "6e764d2f99a8b1f27e8428ec62a7fdbe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59fc9700786b9ee6fcc3880796b48da7",
+    "text": "Example \u2022 The FSM for the garage counter can be mathematically represented as follows:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            39.017514774999995
+          ],
+          [
+            46.38302830504534,
+            156.4245014
+          ],
+          [
+            519.4270134898169,
+            156.4245014
+          ],
+          [
+            519.4270134898169,
+            39.017514774999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 14,
+      "parent_id": "6e764d2f99a8b1f27e8428ec62a7fdbe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fad5ac14b4b18a4a3e71b3c1bacaf965",
+    "text": "Determinacy",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            65.18759899999998
+          ],
+          [
+            56.698818,
+            101.18759899999998
+          ],
+          [
+            247.57772525999997,
+            101.18759899999998
+          ],
+          [
+            247.57772525999997,
+            65.18759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cb83349b4829959495621a0a75bbb4a2",
+    "text": "Determinacy: A state machine is said to be deterministic if, for each state, there is at most one transition enabled by each input value.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            226.84841900000004
+          ],
+          [
+            643.04256818,
+            226.84841900000004
+          ],
+          [
+            643.04256818,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 15,
+      "parent_id": "fad5ac14b4b18a4a3e71b3c1bacaf965",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "78ae19d1618dcde7161f9d1b5cd15f51",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            237.93435744000004
+          ],
+          [
+            47.698818,
+            261.93435744000004
+          ],
+          [
+            56.10116184,
+            261.93435744000004
+          ],
+          [
+            56.10116184,
+            237.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 15,
+      "parent_id": "fad5ac14b4b18a4a3e71b3c1bacaf965",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fdbe4ad0f985df109d8db124c6ad40b2",
+    "text": "The formal definition of an FSM given above ensures that it is deterministic, since update is a one \u2013 to- one function, not a one-to many mapping.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            238.84842000000003
+          ],
+          [
+            74.698818,
+            315.34842000000003
+          ],
+          [
+            655.24569372,
+            315.34842000000003
+          ],
+          [
+            655.24569372,
+            238.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 15,
+      "parent_id": "fad5ac14b4b18a4a3e71b3c1bacaf965",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdec6599256f0dd7ce138ff734ecd1b6",
+    "text": "Note that a deterministic state machine is determinate, meaning that given the same inputs it will always produce the same outputs.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            326.43435744
+          ],
+          [
+            47.698818,
+            403.84842
+          ],
+          [
+            637.25350594,
+            403.84842
+          ],
+          [
+            637.25350594,
+            326.43435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 15,
+      "parent_id": "fad5ac14b4b18a4a3e71b3c1bacaf965",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "10a289a6d863a1768f665df8fb47dcd8",
+    "text": "Moore Machines and Mealy Machines",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            67.43759899999998
+          ],
+          [
+            56.698818,
+            99.43759899999998
+          ],
+          [
+            563.93319272,
+            99.43759899999998
+          ],
+          [
+            563.93319272,
+            67.43759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "18df08856ddd3b0abd6dcb3991942d16",
+    "text": "Mealy machines are characterized by producing outputs when a transition is taken.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            200.59841900000004
+          ],
+          [
+            619.6480372000001,
+            200.59841900000004
+          ],
+          [
+            619.6480372000001,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 16,
+      "parent_id": "10a289a6d863a1768f665df8fb47dcd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "42a3b15c16c17e82e55bc929012c3b69",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 16,
+      "parent_id": "10a289a6d863a1768f665df8fb47dcd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6117629f0b65e9167d80c06ca5cc9361",
+    "text": "An alternative, known as a Moore machine, produces outputs when the machine is in a state, rather than when a transition is taken.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            212.59842000000003
+          ],
+          [
+            74.698818,
+            289.09842000000003
+          ],
+          [
+            649.1949121399999,
+            289.09842000000003
+          ],
+          [
+            649.1949121399999,
+            212.59842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 16,
+      "parent_id": "10a289a6d863a1768f665df8fb47dcd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "82510461cdefe69285991fb52183ec69",
+    "text": "That is, the output is defined by the current state rather than by the current transition.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            351.34842
+          ],
+          [
+            616.8042866799998,
+            351.34842
+          ],
+          [
+            616.8042866799998,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 16,
+      "parent_id": "10a289a6d863a1768f665df8fb47dcd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5b621994bc2babd4d5c51f90115b09d0",
+    "text": "Extended State Machines",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            518.0328031199999,
+            106.56259899999998
+          ],
+          [
+            518.0328031199999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3bd851844085d8154c24cf5cab20f9db",
+    "text": "When the number of states gets large, an extended state machine solves this problem by augmenting the FSM model with variables that may be read and written as part of taking a transition between states.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            298.34842260000005
+          ],
+          [
+            606.915230254173,
+            298.34842260000005
+          ],
+          [
+            606.915230254173,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 17,
+      "parent_id": "5b621994bc2babd4d5c51f90115b09d0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "225567104bca90425bb8cce0c4694615",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "146a05ef84668f74a60ffa0d0c7a5134",
+    "text": "The garage counter can be represented more compactly by the extended state machine",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            586.0566625660372,
+            208.34841339999997
+          ],
+          [
+            586.0566625660372,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 18,
+      "parent_id": "225567104bca90425bb8cce0c4694615",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "970b20f99f1b65dc20f319cc2b74ce80",
+    "text": "General Notation for ESM",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            513.59139768,
+            106.56259899999998
+          ],
+          [
+            513.59139768,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5dfe8876b06e312131f1a5e385845b6b",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            35.36527777499998
+          ],
+          [
+            56.698818,
+            74.96527577499995
+          ],
+          [
+            192.66912462281243,
+            74.96527577499995
+          ],
+          [
+            192.66912462281243,
+            35.36527777499998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b8d3c6abbeceb01ec3c2e1ef7d90b0cf",
+    "text": "An extended state machine describing a traffic light at",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            115.21958505249614
+          ],
+          [
+            47.07881835847694,
+            142.10601046250002
+          ],
+          [
+            639.4421633572304,
+            142.10601046250002
+          ],
+          [
+            639.4421633572304,
+            115.21958505249614
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e49f4492af8979881fe38dff083ea4c7",
+    "text": "a pedestrian crosswalk. It starts in the red state and counts 60 seconds with the help of the variable count. It then transitions to green, where it will remain until the pure input pedestrian is present. That input could be generated, for example, by a pedestrian pushing a button to request a walk light. When pedestrian is present, the machine transitions to yellow if it has been in state green for at least 60 seconds.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881993999999,
+            137.95601268500002
+          ],
+          [
+            74.69881993999999,
+            398.60600490999997
+          ],
+          [
+            636.2591404726933,
+            398.60600490999997
+          ],
+          [
+            636.2591404726933,
+            137.95601268500002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0d5949e4db9cf9fe267e0e86977c185b",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            169.21959026749613
+          ],
+          [
+            47.07881835847694,
+            195.11958984749612
+          ],
+          [
+            56.14634760543592,
+            195.11958984749612
+          ],
+          [
+            56.14634760543592,
+            169.21959026749613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb38636ab7268165420a12f76eb081f9",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            222.46959326749612
+          ],
+          [
+            47.07881835847694,
+            248.3695928474961
+          ],
+          [
+            56.14634760543592,
+            248.3695928474961
+          ],
+          [
+            56.14634760543592,
+            222.46959326749612
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a98814da068fdce2026a92d0a321f9a0",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            275.7195732674961
+          ],
+          [
+            47.07881835847694,
+            301.6195728474961
+          ],
+          [
+            56.14634760543592,
+            301.6195728474961
+          ],
+          [
+            56.14634760543592,
+            275.7195732674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7e6174e12bc088c28743f9166f7bf2cf",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            328.9695732674961
+          ],
+          [
+            47.07881835847694,
+            354.8695728474961
+          ],
+          [
+            56.14634760543592,
+            354.8695728474961
+          ],
+          [
+            56.14634760543592,
+            328.9695732674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2680431d69dc3fe6c10c3a3e9a1f4cdf",
+    "text": "Otherwise, it transitions to pending, where it stays for the remainder of the 60 second interval.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            403.9695732674961
+          ],
+          [
+            47.07881835847694,
+            451.8560091075
+          ],
+          [
+            639.6834198809337,
+            451.8560091075
+          ],
+          [
+            639.6834198809337,
+            403.9695732674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 20,
+      "parent_id": "5dfe8876b06e312131f1a5e385845b6b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "642a4dd689326ec1b06e8053634c7c92",
+    "text": "Nondeterminism",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            65.18759899999998
+          ],
+          [
+            56.698818,
+            101.18759899999998
+          ],
+          [
+            309.19491326,
+            101.18759899999998
+          ],
+          [
+            309.19491326,
+            65.18759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4b0215a8de8417da9c1cb42c74ba6f90",
+    "text": "Most interesting state machines react to inputs and produce outputs. These inputs must come from somewhere, and the outputs must go somewhere.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            226.84841900000004
+          ],
+          [
+            575.41366378,
+            226.84841900000004
+          ],
+          [
+            575.41366378,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "parent_id": "642a4dd689326ec1b06e8053634c7c92",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "104cd078eb86ed7a872af58067a747f1",
+    "text": "We refer to this \u201csomewhere\u201d as the environment of the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            237.93435744000004
+          ],
+          [
+            47.698818,
+            262.84842000000003
+          ],
+          [
+            624.28866404,
+            262.84842000000003
+          ],
+          [
+            624.28866404,
+            237.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "parent_id": "642a4dd689326ec1b06e8053634c7c92",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "82089a6729d7435f27764d924da581d6",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            324.18435744
+          ],
+          [
+            56.10116184,
+            324.18435744
+          ],
+          [
+            56.10116184,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "parent_id": "642a4dd689326ec1b06e8053634c7c92",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5bbcc3a51724f9654e19d2a45951832e",
+    "text": "state machine. If for any state of a state machine, there are two distinct transitions with guards that can evaluate to true in the same reaction, then the state machine is nondeterministic.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            265.09842000000003
+          ],
+          [
+            74.698818,
+            377.59842
+          ],
+          [
+            646.7535058,
+            377.59842
+          ],
+          [
+            646.7535058,
+            265.09842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "parent_id": "642a4dd689326ec1b06e8053634c7c92",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5ea6ba05af15f74b80694f95150b0c96",
+    "text": "A nondeterministic FSM specifies a family of possible reactions rather than a single reaction. Operationally, all reactions in the family are possible.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            388.68435744
+          ],
+          [
+            47.698818,
+            466.09842
+          ],
+          [
+            619.2105383600001,
+            466.09842
+          ],
+          [
+            619.2105383600001,
+            388.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 22,
+      "parent_id": "642a4dd689326ec1b06e8053634c7c92",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f59b516d0a32eb0a1c19c2d5a7b2c266",
+    "text": "Formal Model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            66.21884891999997
+          ],
+          [
+            56.698818,
+            98.21884891999997
+          ],
+          [
+            264.13631752000003,
+            98.21884891999997
+          ],
+          [
+            264.13631752000003,
+            66.21884891999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3ab8b6f723865fa0f137585d13ea92d2",
+    "text": "Formally, a nondeterministic FSM is represented as a five-tuple, similar to a deterministic FSM,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            199.68435644000004
+          ],
+          [
+            641.0464739600001,
+            199.68435644000004
+          ],
+          [
+            641.0464739600001,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "parent_id": "f59b516d0a32eb0a1c19c2d5a7b2c266",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e04086fa51596203b14fad68b50251d9",
+    "text": "(States; Inputs; Outputs; possible Updates; initial",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            211.68435744000004
+          ],
+          [
+            92.698818,
+            236.31042000000002
+          ],
+          [
+            613.89022416,
+            236.31042000000002
+          ],
+          [
+            613.89022416,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ee02a1bea02c114110f4cd96c42e2770",
+    "text": "States) \u2022 The first three elements are the same as for a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            237.93435744000004
+          ],
+          [
+            47.698818,
+            297.93435744
+          ],
+          [
+            560.04647416,
+            297.93435744
+          ],
+          [
+            560.04647416,
+            237.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "39c25221bb5790075a9c245a93cd2e39",
+    "text": "deterministic FSM, but the last two are different.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            300.18435744
+          ],
+          [
+            74.698818,
+            324.18435744
+          ],
+          [
+            581.65194308,
+            324.18435744
+          ],
+          [
+            581.65194308,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "30f5f55e2680a37a0645228245fe539a",
+    "text": "The form of the function possible Updates indicates there can be more than one next state and/or output valuation given a current state and input valuation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            336.18435744
+          ],
+          [
+            47.698818,
+            412.68435744
+          ],
+          [
+            627.42538008,
+            412.68435744
+          ],
+          [
+            627.42538008,
+            336.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 23,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6ddbb7b0348b47c6a50a3ce26e964cd4",
+    "text": "Example: Nondeterministic model of pedestrians \u2022 The traffic light controller has one pure input signal,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            43.06259899999998
+          ],
+          [
+            47.698818,
+            162.80947844000002
+          ],
+          [
+            618.0738187599999,
+            162.80947844000002
+          ],
+          [
+            618.0738187599999,
+            43.06259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "48553a9b64c3f2507c0adafa5058106f",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            201.05947744000002
+          ],
+          [
+            47.698818,
+            225.05947744000002
+          ],
+          [
+            56.10116184,
+            225.05947744000002
+          ],
+          [
+            56.10116184,
+            201.05947744000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "09b390d8a1a434e43044f02c7cbb4e37",
+    "text": "pedestrian. This input is present when a pedestrian arrives at the crosswalk.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            165.05947844000002
+          ],
+          [
+            74.698818,
+            251.30947744000002
+          ],
+          [
+            644.06209904,
+            251.30947744000002
+          ],
+          [
+            644.06209904,
+            165.05947844000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4cf98517a8fe4e2a24bae09edef06024",
+    "text": "The traffic light will remain green unless a pedestrian arrives.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            263.30947744
+          ],
+          [
+            47.698818,
+            313.55947744
+          ],
+          [
+            633.7769433999999,
+            313.55947744
+          ],
+          [
+            633.7769433999999,
+            263.30947744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4be04fc8a20051c8f185d13b819f48ae",
+    "text": "Some other subsystem is responsible for generating the pedestrian event.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            325.55947744
+          ],
+          [
+            47.698818,
+            375.80947744
+          ],
+          [
+            628.12459856,
+            375.80947744
+          ],
+          [
+            628.12459856,
+            325.55947744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "65afa4fec2a1f149dfbdcfa23ac4d03a",
+    "text": "That other subsystem is part of the environment of the FSM.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            387.80947744
+          ],
+          [
+            47.698818,
+            438.05947744
+          ],
+          [
+            649.06209904,
+            438.05947744
+          ],
+          [
+            649.06209904,
+            387.80947744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1f3e9cf7f596ac586a5829a4482ea029",
+    "text": "A question becomes how to model the environment. In the traffic light example, we could construct a model of pedestrian flow",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            450.05947744
+          ],
+          [
+            47.698818,
+            526.55947744
+          ],
+          [
+            652.71444288,
+            526.55947744
+          ],
+          [
+            652.71444288,
+            450.05947744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 24,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "fa2218a5b205738c75781c01b797b68f",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 25,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3c4902439b5ee723db931682e5272d34",
+    "text": "The FSM in the following Figure models arrivals of pedestrians at a crosswalk with a traffic light controller",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            200.59841900000004
+          ],
+          [
+            605.6910062199998,
+            200.59841900000004
+          ],
+          [
+            605.6910062199998,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 25,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "29fe318b09b53908aad786b3c4d8f8d3",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 26,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d6f242daabec390c43d7941dbb6ed7a7",
+    "text": "The initial state is crossing. \u2022 When sigG is received, the FSM transitions to none. \u2022 Both transitions from this state have guard true, indicating that they are always enabled.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            272.59842000000003
+          ],
+          [
+            641.6089755599999,
+            272.59842000000003
+          ],
+          [
+            641.6089755599999,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 26,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c831a7d86873e3bb46c42cb7f1b0254d",
+    "text": "Since both are enabled, this machine is nondeterministic. \u2022 The FSM may stay in the same state and produce no output, or it may transition to waiting and produce pure output pedestrian.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            283.68435744
+          ],
+          [
+            47.698818,
+            397.09842
+          ],
+          [
+            658.24959976,
+            397.09842
+          ],
+          [
+            658.24959976,
+            283.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 26,
+      "parent_id": "e04086fa51596203b14fad68b50251d9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5a0845952367d0d9699f291f7baa1a00",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cc9f5cd3da4a7029a757d5bf1c2836ef",
+    "text": "Textbook Ch., 3",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            248.2005736104149,
+            178.34842500000002
+          ],
+          [
+            248.2005736104149,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 3.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-09T06:38:46",
+      "page_number": 28,
+      "parent_id": "5a0845952367d0d9699f291f7baa1a00",
+      "filetype": "application/pdf"
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "0c9a9eb6-9170-404b-b012-424ef602f5fa",
+    "text": "Lecture slides by Lawrie Brown for “Cryptography and Network Security”, 5/e, by William Stallings, Chapter 12 – “Message Authentication Codes”. Transport-Level Security Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Cryptography and Network Security Chapter 16 Fifth Edition by William Stallings Lecture slides by",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "71c56e81-d2ff-4e53-a2e4-7c65c98d6f59",
+    "text": "Lawrie Brown The World Wide Web is widely used by businesses, government agencies, and many individuals. But the Internet and the Web are extremely vulnerable to compromises of various sorts, with a range of threats as shown briefly above, and in detail in Stallings Table 16.1. These can be described as passive attacks including eavesdropping on network traffic between browser and server and gaining access to information on a Web site that is supposed to be restricted; and active attacks including impersonating another user, altering messages in transit between client and server, and altering information on a Web site. The web needs added security mechanisms to address these threats.",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "c4fc294d-b877-4993-9932-214a554dda16",
+    "text": "Web Security Web now widely used by business, government, individuals but Internet & Web are vulnerable have a variety of threats integrity confidentiality denial of service authentication need added security mechanisms",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "7c1bc6b8-789e-4ed6-93c8-774410891188",
+    "text": "A number of approaches to providing Web security are possible. The various approaches that have been considered are similar in the services they provide and, to some extent, in the mechanisms that they use, but they differ with respect to their scope of applicability and their relative location within the TCP/IP protocol stack. Stallings Figure 16.1 illustrates this difference. One way to provide Web security is to use IP Security (Figure 16.1a). The advantage of using IPSec is that it is transparent to end users and applications and provides a general-purpose solution. Further, IPSec includes a filtering capability so only selected traffic need incur the IPSec processing overhead. Another relatively general-purpose solution is to implement security just above TCP (Figure 16.1b). The",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "cfe7f461-056b-4503-882e-54072a08fed7",
+    "text": "foremost example of this approach is the Secure Sockets Layer (SSL) and the follow-on Internet standard known as Transport Layer Security (TLS). At this level, there are two implementation choices. For full generality, SSL (or TLS) could be provided as part of the underlying protocol suite and therefore be transparent to applications. Alternatively, SSL can be embedded in specific packages, e.g. both the Netscape and Microsoft Explorer browsers come with SSL, & most Web servers have implemented it. Application-specific security services are embedded within the particular application. Figure 16.1c shows examples of this architecture. The advantage of this approach is that the service can be tailored to the specific needs of a given application.",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "7b6636e6-4ac0-4958-8840-76aafbd18641",
+    "text": "Web Traffic Security Approaches Several approaches to providing Web security are possible. The various approaches that have been considered are similar in the services they provide and, to some extent, in the mechanisms that they use, but they differ with respect to their scope of applicability and their relative location within the TCP/IP protocol stack.",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "1265311a-7036-4739-8125-790dd6a17b31",
+    "text": "SSL probably most widely used Web security mechanism, and it is implemented at the Transport layer (cf. figure 16.1b on previous slide). SSL is designed to make use of TCP to provide a reliable end-to-end secure service. Netscape originated SSL. Version 3 of the protocol was designed with public review and input from industry and was published as an Internet draft document. Subsequently, when a consensus was reached to submit the protocol for Internet standardization, the TLS working group was formed within IETF to develop a common standard. This first published version of TLS can be viewed as essentially an SSLv3.1 and is very close to and backward compatible with SSLv3. SSL is not a single protocol but rather two layers of protocol, as shown next.",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "ca2d1e4b-3cda-4fc1-82df-fdf378a48fed",
+    "text": "SSL (Secure Socket Layer) transport layer security service originally developed by Netscape version 3 designed with public input subsequently became Internet standard known as TLS (Transport Layer Security) uses TCP to provide a reliable end-to-end service SSL has two layers of protocols",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "cbd921d5-2bf3-4fb6-b0a0-15a3b259fc22",
+    "text": "SSL probably most widely used Web security mechanism, and it is implemented at the Transport layer (cf. figure 16.1b on previous slide). SSL is designed to make use of TCP to provide a reliable end-to-end secure service. Netscape originated SSL. Version 3 of the protocol was designed with public review and input from industry and was published as an Internet draft document. Subsequently, when a consensus was reached to submit the protocol for Internet standardization, the TLS working group was formed within IETF to develop a common standard. This first published version of TLS can be viewed as essentially an SSLv3.1 and is very close to and backward compatible with SSLv3. SSL is not a single protocol but rather two layers of protocol, as shown next.",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "4e49ee41-cc66-42c9-8533-721e8cb622b3",
+    "text": "Two important SSL concepts are the SSL connection and the SSL session: • Connection: A connection is a network transport that provides a suitable type of service, such connections are transient, peer-to-peer relationships, associated with one session • Session: An SSL session is an association between a client and a server, created by the Handshake Protocol. Sessions define a set of cryptographic security parameters, which can be shared among multiple connections. Sessions are used to avoid the expensive negotiation of new security parameters for each connection. Between any pair of parties (applications such as HTTP on client and server), there may be multiple secure connections. In theory, there may also be multiple simultaneous sessions between parties, but this feature is not used in",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "bb2c5107-827f-4feb-a766-67ecd198a34b",
+    "text": "practice. There are a number of states associated with each session. Once a session is established, there is a current operating state for both read and write (i.e., receive and send). In addition, during the Handshake Protocol, pending read and write states are created. Upon successful conclusion of the Handshake Protocol, the pending states become the current states. A session state and a connection state are defined by sets of parameters, see text for details.",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "a4c0ad20-de65-43bf-9789-4b22baec3f0a",
+    "text": "Two Important SSL Concepts SSL connection a transient, peer-to-peer, communications link associated with one SSL session SSL session an association between client & server created by the Handshake Protocol define a set of cryptographic parameters may be shared by multiple SSL connections SSL Record Protocol defines two services for SSL connections: • Confidentiality: The Handshake Protocol defines a shared secret key that is used for conventional encryption of SSL payloads. The message is compressed before being concatenated with the MAC and encrypted, with a range of ciphers being supported as shown. • Message Integrity: The Handshake Protocol also defines a shared secret key that is used to form a message authentication code (MAC), which is similar to HMAC",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "6f2460f1-d13c-4375-953a-5ccc92a3cf62",
+    "text": "SSL Record Protocol Services confidentiality using symmetric encryption with a shared secret key defined by Handshake Protocol can use several encryption ciphers such as: AES, IDEA, RC2-40, DES-40, DES, 3DES, Fortezza, RC4-40, RC4-128 message is compressed before encryption message integrity using a MAC with shared secret key like HMAC but with different padding",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "956123b8-a172-4103-9150-54ff7b67d550",
+    "text": "SSL Record Protocol defines two services for SSL connections: • Confidentiality: The Handshake Protocol defines a shared secret key that is used for conventional encryption of SSL payloads. The message is compressed before being concatenated with the MAC and encrypted, with a range of ciphers being supported as shown. • Message Integrity: The Handshake Protocol also defines a shared secret key that is used to form a message authentication code (MAC), which is similar to HMAC",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "dfe3f1a4-dece-467f-83ce-d293b34d143e",
+    "text": "SSL Record Protocol Operation The Change Cipher Spec Protocol is one of the three SSL-specific protocols that use the SSL Record Protocol, and it is the simplest, consisting of a single message (shown in Stallings Figure 16.5a), which consists of a single byte with the value 1. The sole purpose of this message is to cause the pending state to be copied into the current state, which updates the cipher suite to be used on this connection.",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "7864b6c7-9670-4293-bb47-d7b6f1b0170f",
+    "text": "SSL Change Cipher Spec Protocol one of 3 SSL specific protocols which use the SSL Record protocol a single message causes pending state to become current hence updating the cipher suite in use The Alert Protocol is used to convey SSL-related alerts to the peer entity. As with other applications that use SSL, alert messages are compressed and encrypted, as specified by the current state. Each message in this protocol consists of two bytes (as shown in Stallings Figure 16.5b), the first takes the value warning(1) or fatal(2) to convey the severity of the message. The second byte contains a code that indicates the specific alert. The first group shown are the fatal alerts, the others are warnings.",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "8d2b2ebc-450f-4609-9304-ffc81d47fc2e",
+    "text": "SSL Alert Protocol conveys SSL-related alerts to peer entity severity warning or fatal specific alert fatal: unexpected message, bad record mac, decompression failure, handshake failure, illegal parameter warning: close notify, no certificate, bad certificate, unsupported certificate, certificate revoked, certificate expired, certificate unknown compressed & encrypted like all SSL data",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "e1f43611-d67c-40bd-a82f-d8c9d959de3c",
+    "text": "The most complex part of SSL is the Handshake Protocol. This protocol allows the server and client to authenticate each other and to negotiate an encryption and MAC algorithm and cryptographic keys to be used to protect data sent in an SSL record. The Handshake Protocol is used before any application data is transmitted. The Handshake Protocol consists of a series of messages exchanged by client and server, which have the format shown in Stallings Figure 16.5c, and which can be viewed in 4 phases: Phase 1. Establish Security Capabilities - this phase is used by the client to initiate a logical connection and to establish the security capabilities that will be associated with it Phase 2. Server Authentication and Key Exchange - the server begins this phase by sending its certificate if it",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "729e71af-2f91-4a93-ba93-604d082e09cb",
+    "text": "needs to be authenticated. Phase 3. Client Authentication and Key Exchange - the client should verify that the server provided a valid certificate if required and check that the server_hello parameters are acceptable Phase 4. Finish - this phase completes the setting up of a secure connection. The client sends a change_cipher_spec message and copies the pending CipherSpec into the current CipherSpec. At this point the handshake is complete and the client and server may begin to exchange application layer data.",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "24e0a099-6279-45c3-957d-ca12cdb0bd71",
+    "text": "SSL Handshake Protocol allows server & client to: authenticate each other to negotiate encryption & MAC algorithms to negotiate cryptographic keys to be used comprises a series of messages in four phases Establish Security Capabilities Server Authentication and Key Exchange Client Authentication and Key Exchange",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "9cee8a40-3199-4a8b-9935-35300eeac791",
+    "text": "Finish Stallings Figure16.6 shows the initial exchange needed to establish a logical connection between client and server. The exchange can be viewed as having the four phases discussed previously. Additional details on the operation of these phases is given in the text. SSL Handshake Protocol",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "83d8e654-7a02-46f7-822b-6143dd17c615",
+    "text": "Two further items are of interest: the creation of a shared master secret by means of the key exchange, and the generation of cryptographic parameters from the master secret. The shared master secret is a one-time 48-byte value (384 bits) generated for this session by means of secure key exchange. The creation is in two stages. First, a pre_master_secret is exchanged. Second, the master_secret is calculated by both parties. For pre_master_secret exchange, there are two possibilities, using either RSA or Diffie-Hellman. Both sides now compute the master_secret by hashing the relevant information, as detailed in the text. CipherSpecs require a client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV, which are",
+    "chunk_index": 21,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "ad680fc3-4460-44ae-aa87-3b36e5b1fdd8",
+    "text": "generated from the master secret in that order. These parameters are generated from the master secret by hashing the master secret into a sequence of secure bytes of sufficient length for all needed parameters.",
+    "chunk_index": 22,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "2330ede9-5926-40d8-9c1f-268ee3d5e2b2",
+    "text": "Cryptographic Computations master secret creation a one-time 48-byte value generated using secure key exchange (RSA / Diffie-Hellman) and then hashing information. generation of cryptographic parameters (6 secret values as follows) client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV these 6 secrets are generated by hashing the master secret using a simple algorithm and a hash function. TLS is an IETF standardization initiative whose goal is to produce an Internet standard version of SSL. TLS is defined as a Proposed Internet Standard in RFC 2246. RFC 2246 is very similar to SSLv3, but with a number of minor differences in the areas shown, as discussed in the text.",
+    "chunk_index": 23,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "febcd284-e72f-47ba-987f-5e42fbc7e749",
+    "text": "TLS (Transport Layer Security) IETF standard RFC 2246 like SSLv3 with minor differences in record format version number uses HMAC for MAC a pseudo-random function expands secrets based on HMAC using SHA-1 or MD5 has additional alert codes some changes in supported ciphers changes in certificate types & negotiations changes in cryptographic computations & padding",
+    "chunk_index": 24,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "7aa82d54-86fc-4111-85e3-f6bd0eb6f744",
+    "text": "HTTPS (HTTP over SSL) refers to the combination of HTTP and SSL to implement secure communication between a Web browser and a Web server. The HTTPS capability is built into all modern Web browsers. Its use depends on the Web server supporting HTTPS communication. The principal difference seen by a user of a web browser is that URL (uniform resource locator) addresses begin with https:// rather than http://. A normal HTTP connection uses port 80. If HTTPS is specified, port 443 is specified, which invokes SSL. When HTTPS is used, the following elements of the communication are encrypted: URL of the requested document, Contents of the document, Contents of browser forms (filled in by browser user), Cookies sent from browser to server and from server to browser, and Contents of HTTP header.",
+    "chunk_index": 25,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "5b6f8bea-bdc9-4a1a-9065-87ebd8ea9759",
+    "text": "HTTPS is documented in RFC 2818, HTTP Over TLS. There is no fundamental change in using HTTP over either SSL or TLS, and both implementations are referred to as HTTPS.",
+    "chunk_index": 26,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "2fa5b26b-c041-4578-b96d-dc1d1b1acad6",
+    "text": "For HTTPS, the agent acting as the HTTP client also acts as the TLS client. The client initiates a connection to the server on the appropriate port and then sends the TLS ClientHello to begin the TLS handshake. When the TLS handshake has finished. The client may then initiate the first HTTP request. All HTTP data is to be sent as TLS application data. Normal HTTP behavior, including retained connections is followed. An HTTP client or server can indicate the closing of a connection by including in an HTTP record: “Connection: close”. This indicates that the connection will be closed after this record is delivered. The closure of an HTTPS connection requires that TLS close the connection with the peer TLS entity on the remote side, which will involve closing the underlying TCP connection. At",
+    "chunk_index": 27,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "fc1becaf-f02e-4a51-b9f7-a2ef3d9a07fc",
+    "text": "the TLS level, the proper way to close a connection is for each side to use the TLS alert protocol to send a close_notify alert. TLS implementations must initiate an exchange of closure alerts before closing a connection. A TLS implementation may, after sending a closure alert, close the connection without waiting for the peer to send its closure alert, generating an \"incomplete close\". Note that an implementation that does this may choose to reuse the session. This should only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about. HTTP clients must also be able to cope with a situation in which the underlying TCP connection is terminated without a prior close_notify alert and without a",
+    "chunk_index": 28,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "3dfd245b-16dc-41ea-87ec-c0785485b23c",
+    "text": "Connection: close indicator. Such a situation could be due to a programming error on the server, or a communication error that causes the TCP connection to drop. However, the unannounced TCP closure could be evidence of some sort of attack. So the HTTPS client should issue some sort of security warning when this occurs.",
+    "chunk_index": 29,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "332254a6-d48f-4679-a9d8-a2b04dc1a07c",
+    "text": "HTTPS Use For HTTPS, the agent acting as the HTTP client also acts as the TLS client. connection initiation TLS handshake then HTTP request(s) connection closure have “Connection: close” in HTTP record TLS level exchange close_notify alerts can then close TCP connection must handle TCP close before alert exchange sent or completed",
+    "chunk_index": 30,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "d00aee4c-5a63-4af9-9982-9344fb937ff2",
+    "text": "For HTTPS, the agent acting as the HTTP client also acts as the TLS client. The client initiates a connection to the server on the appropriate port and then sends the TLS ClientHello to begin the TLS handshake. When the TLS handshake has finished. The client may then initiate the first HTTP request. All HTTP data is to be sent as TLS application data. Normal HTTP behavior, including retained connections is followed. An HTTP client or server can indicate the closing of a connection by including in an HTTP record: “Connection: close”. This indicates that the connection will be closed after this record is delivered. The closure of an HTTPS connection requires that TLS close the connection with the peer TLS entity on the remote side, which will involve closing the underlying TCP connection. At",
+    "chunk_index": 31,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "f48f1d4b-ae32-4dde-92dd-3b7efd22a9a7",
+    "text": "the TLS level, the proper way to close a connection is for each side to use the TLS alert protocol to send a close_notify alert. TLS implementations must initiate an exchange of closure alerts before closing a connection. A TLS implementation may, after sending a closure alert, close the connection without waiting for the peer to send its closure alert, generating an \"incomplete close\". Note that an implementation that does this may choose to reuse the session. This should only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about. HTTP clients must also be able to cope with a situation in which the underlying TCP connection is terminated without a prior close_notify alert and without a",
+    "chunk_index": 32,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "ab124308-c83a-4f9c-8330-2d36b5d7c384",
+    "text": "Connection: close indicator. Such a situation could be due to a programming error on the server, or a communication error that causes the TCP connection to drop. However, the unannounced TCP closure could be evidence of some sort of attack. So the HTTPS client should issue some sort of security warning when this occurs.",
+    "chunk_index": 33,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  },
+  {
+    "id": "07f2b504-a0cd-45f9-8001-a7b380f51681",
+    "text": "Summary Have considered: Web security TLS / SSL protocol HTTPS",
+    "chunk_index": 34,
+    "source_file": "4th_Security_sce_422_ch_16_ssl_without_audio"
+  }
+]

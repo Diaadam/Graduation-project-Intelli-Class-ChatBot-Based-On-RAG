@@ -1,0 +1,3221 @@
+[
+  {
+    "type": "Title",
+    "element_id": "5ace214123019176fde11074ddbbd6c2",
+    "text": "Lecture 7",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            246.44881800000002,
+            215.02663
+          ],
+          [
+            246.44881800000002,
+            275.02663
+          ],
+          [
+            471.8589754,
+            275.02663
+          ],
+          [
+            471.8589754,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "db007a774d77b8a949f9caa721b2e625",
+    "text": "DATAPATHS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            302.698822,
+            290.22345
+          ],
+          [
+            302.698822,
+            314.22345
+          ],
+          [
+            416.65194738,
+            314.22345
+          ],
+          [
+            416.65194738,
+            290.22345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "374306465a8eb1bdf50c0db12ee2b82b",
+    "text": "ALU DESIGN",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            299.698822,
+            326.22345
+          ],
+          [
+            299.698822,
+            350.22345
+          ],
+          [
+            420.1441353,
+            350.22345
+          ],
+          [
+            420.1441353,
+            326.22345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "20fc60aebca887a46baadbfd404287e6",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4f58f2f95a198d6c85e8542498263834",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            147.18435644000004
+          ],
+          [
+            47.698818,
+            171.18435644000004
+          ],
+          [
+            56.10116184,
+            171.18435644000004
+          ],
+          [
+            56.10116184,
+            147.18435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "parent_id": "20fc60aebca887a46baadbfd404287e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8da2991adea8eca42e88266d1b789e50",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            249.93435744000004
+          ],
+          [
+            47.698818,
+            273.93435744000004
+          ],
+          [
+            56.10116184,
+            273.93435744000004
+          ],
+          [
+            56.10116184,
+            249.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "parent_id": "20fc60aebca887a46baadbfd404287e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "696ba86261e3ead82c5fc54568c9764d",
+    "text": "In the previous lecture, the separation of a design of digital systems into a Datapath that implements microoperations and a control unit that determines the sequence of microoperations was introduced. In this lecture, we continue by defining a generic computer datapath that implements register transfer microoperations and serves as a framework for the design of detailed processing logic.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            148.09841900000004
+          ],
+          [
+            74.698818,
+            344.59842000000003
+          ],
+          [
+            654.7183505599999,
+            344.59842000000003
+          ],
+          [
+            654.7183505599999,
+            148.09841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "parent_id": "20fc60aebca887a46baadbfd404287e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "69ab78a70ff8c56da5e2391af7b0a696",
+    "text": "The concept of a control word provides a tie between the datapath and the control unit associated with it.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            352.68435744
+          ],
+          [
+            47.698818,
+            400.84842
+          ],
+          [
+            632.2886631399999,
+            400.84842
+          ],
+          [
+            632.2886631399999,
+            352.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "parent_id": "20fc60aebca887a46baadbfd404287e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "44aa9728d873a20b5b219542e00595a6",
+    "text": "The generic datapath combined with a control unit and memory forms a programmable system\u2014 in this case, a simple computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            408.93435744
+          ],
+          [
+            47.698818,
+            480.34842
+          ],
+          [
+            615.1949124399999,
+            480.34842
+          ],
+          [
+            615.1949124399999,
+            408.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 2,
+      "parent_id": "20fc60aebca887a46baadbfd404287e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf32a12b1bdc713d404e31830aa0ee17",
+    "text": "DATAPATHS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            259.19686612,
+            106.56259899999998
+          ],
+          [
+            259.19686612,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "13e2765e95a86144faa7160ad7d4ba20",
+    "text": "Instead of having each individual register perform its microoperations directly, computer systems often employ a number of storage registers in conjunction with a shared operation unit called an arithmetic/logic unit, abbreviated ALU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            284.09842335999997
+          ],
+          [
+            644.4765872642134,
+            284.09842335999997
+          ],
+          [
+            644.4765872642134,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 3,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "92404a3822cf7c6b75a43fac1b2b582d",
+    "text": "To perform a microoperation, the contents of specified source registers are applied to the inputs of the shared ALU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            291.7820171173438
+          ],
+          [
+            46.38302830504534,
+            374.84841772000004
+          ],
+          [
+            646.6985021048142,
+            374.84841772000004
+          ],
+          [
+            646.6985021048142,
+            291.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 3,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "244ece7051331495699e3df502197bf6",
+    "text": "The ALU performs an operation, and the result of this operation is transferred to a destination register.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            382.5320171173438
+          ],
+          [
+            46.38302830504534,
+            465.59841772000004
+          ],
+          [
+            631.9404201972495,
+            465.59841772000004
+          ],
+          [
+            631.9404201972495,
+            382.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 3,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4f7d607ea15c772144e439704b96e9bc",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "65908ea5096e378b8d4d42369f365c28",
+    "text": "The datapath is defined by three basic components:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            174.34841900000004
+          ],
+          [
+            578.5269440000001,
+            174.34841900000004
+          ],
+          [
+            578.5269440000001,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "00157a15cc267b51973d587fc65414f0",
+    "text": "1. A set of registers,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            186.34842000000003
+          ],
+          [
+            92.698818,
+            210.34842000000003
+          ],
+          [
+            284.66756860000004,
+            210.34842000000003
+          ],
+          [
+            284.66756860000004,
+            186.34842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "18b3661325fa30bfe6a3a070c4ae59f5",
+    "text": "2. The microoperations performed on data stored in",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            222.34842000000003
+          ],
+          [
+            92.698818,
+            246.34842000000003
+          ],
+          [
+            597.8160067799998,
+            246.34842000000003
+          ],
+          [
+            597.8160067799998,
+            222.34842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "cf32a12b1bdc713d404e31830aa0ee17",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3929435c40a35ad3b675afbd937082b3",
+    "text": "the registers, and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            248.59842000000003
+          ],
+          [
+            56.698818,
+            272.59842000000003
+          ],
+          [
+            225.41366238000003,
+            272.59842000000003
+          ],
+          [
+            225.41366238000003,
+            248.59842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "59ec33069bcee8d35c7b405477df67f7",
+    "text": "3. The control interface.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            284.59842
+          ],
+          [
+            92.698818,
+            308.59842
+          ],
+          [
+            325.18319338000003,
+            308.59842
+          ],
+          [
+            325.18319338000003,
+            284.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "3929435c40a35ad3b675afbd937082b3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2f7ac1e3878e60aaf717126b4e58c735",
+    "text": "The control unit provides signals that control the microoperations performed in the datapath and in other components of the system, such as memories.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            319.68435744
+          ],
+          [
+            47.698818,
+            397.09842
+          ],
+          [
+            623.3121005799998,
+            397.09842
+          ],
+          [
+            623.3121005799998,
+            319.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "3929435c40a35ad3b675afbd937082b3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9f91f648c8c215d45888679b60634b5b",
+    "text": "The rest of this chapter is concerned with the organization and design of computer datapaths and associated control units used to implement simple computers.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            408.18435744
+          ],
+          [
+            47.698818,
+            485.59842
+          ],
+          [
+            641.0269453399999,
+            485.59842
+          ],
+          [
+            641.0269453399999,
+            408.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 4,
+      "parent_id": "3929435c40a35ad3b675afbd937082b3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7a5f0004c89a218db381e4426f427a6a",
+    "text": "A simple bus-based datapath",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            63.68759899999998
+          ],
+          [
+            56.698818,
+            103.68759899999998
+          ],
+          [
+            525.7925691,
+            103.68759899999998
+          ],
+          [
+            525.7925691,
+            63.68759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7c339b9a25bcb1132ed5ec870f4e374e",
+    "text": "The specification for a computer consists of a description of its appearance to a programmer at the lowest level, its instruction set architecture (ISA).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.0416754,
+            126.65164956000001
+          ],
+          [
+            47.0416754,
+            209.141884
+          ],
+          [
+            634.00643722,
+            209.141884
+          ],
+          [
+            634.00643722,
+            126.65164956000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 5,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "98b6e7b62a144dd79fa1386d8f5215b3",
+    "text": "For instance, a simple bus-based datapath with four registers, an ALU, and a shifter is shown in the following Figure.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.0416754,
+            257.90164556
+          ],
+          [
+            47.0416754,
+            341.14188
+          ],
+          [
+            620.52499114,
+            341.14188
+          ],
+          [
+            620.52499114,
+            257.90164556
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 5,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "676333fc8560bde2e9cadec98f3e0aff",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 7,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "79622b7b9a2ad1f43eea34ccb4141da7",
+    "text": "Each register is connected to two multiplexers to form ALU and shifter input buses A and B.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            625.7451744956464,
+            208.34841339999997
+          ],
+          [
+            625.7451744956464,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 7,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6ebd1343d654e3ceef8a01a8be73bd5b",
+    "text": "The select inputs on each multiplexer select one register for the corresponding bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            626.9365130977831,
+            278.84842484
+          ],
+          [
+            626.9365130977831,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 7,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1c94d92cd145abe46dc9a6607422ef69",
+    "text": "For Bus B, there is an additional multiplexer, MUX B, so that constants can be brought into the Datapath from outside using Constant in. \u2022 Bus B also connects to Data out, to send data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843644
+          ],
+          [
+            636.9633917442304,
+            419.84843644
+          ],
+          [
+            636.9633917442304,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 7,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7145a56f4735d2b9f8c80469b98488eb",
+    "text": "outside the Datapath to other components of the system, such as memory or input\u2013output.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69882204,
+            421.84843372
+          ],
+          [
+            74.69882204,
+            479.84844324
+          ],
+          [
+            636.0335040892485,
+            479.84844324
+          ],
+          [
+            636.0335040892485,
+            421.84843372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 7,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "08fb845291413b8540a03c61dfa23828",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 8,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "846fb9df377cbe04b1e3f7c4724e2e98",
+    "text": "Likewise, Bus A connects to Address out, to send address information outside of the datapath for memory or input\u2013output.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            625.7150756529908,
+            238.3484168
+          ],
+          [
+            625.7150756529908,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 8,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f0a0b3878d0dda15a38b30627661e8c8",
+    "text": "Arithmetic and logic microoperations are performed on the operands on the A and B buses by the ALU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            635.8551515663971,
+            338.84841324
+          ],
+          [
+            635.8551515663971,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 8,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8ab06006450ecdc818acef79ee8a5a0b",
+    "text": "The G select inputs select the microoperation to be performed by the ALU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843484
+          ],
+          [
+            627.1172413580072,
+            409.34843484
+          ],
+          [
+            627.1172413580072,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 8,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5296a7c934c359b597a594305d64fa92",
+    "text": "The shift microoperations are performed on data on Bus B by the shifter.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            420.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84843484
+          ],
+          [
+            629.9848707866138,
+            479.84843484
+          ],
+          [
+            629.9848707866138,
+            420.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 8,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "33ec0bd094151bc607b0cad526feaa86",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 9,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "31c9dce0e29aa748504cb2993ee12def",
+    "text": "The H select input either passes the operand on Bus B directly through to the shifter output or selects a shift microoperation. MUX F selects the output of the ALU or the output of the shifter.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            149.43698765999613
+          ],
+          [
+            47.07881835847694,
+            297.8234250675
+          ],
+          [
+            640.0016401255584,
+            297.8234250675
+          ],
+          [
+            640.0016401255584,
+            149.43698765999613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 9,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7b0587afd8f4ad80f05df78a8fedde87",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            242.43699550249613
+          ],
+          [
+            47.07881835847694,
+            268.3369950824961
+          ],
+          [
+            56.14634760543592,
+            268.3369950824961
+          ],
+          [
+            56.14634760543592,
+            242.43699550249613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 9,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "23dad82b79e6db6c7cc3e895ab207b8e",
+    "text": "MUX D selects the output of MUX F or external data on input Data in to be applied to Bus D.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            308.43700550249605
+          ],
+          [
+            47.07881835847694,
+            363.8234350675
+          ],
+          [
+            653.8338629552362,
+            363.8234350675
+          ],
+          [
+            653.8338629552362,
+            308.43700550249605
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 9,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8e598892134ceba0a562d084570cd85b",
+    "text": "The latter is connected to the inputs of all the registers. \u2022 The destination select inputs determine which register is loaded with the data on Bus D.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            374.43700550249605
+          ],
+          [
+            47.07881835847694,
+            468.0734350675
+          ],
+          [
+            654.9360524593629,
+            468.0734350675
+          ],
+          [
+            654.9360524593629,
+            374.43700550249605
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 9,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f398baf46a92f93ea5cb312d22443b50",
+    "text": "Cont., \u2022 Since the select inputs are decoded, only one register Load signal is active for any transfer of data into a register from Bus D.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            62.56259899999998
+          ],
+          [
+            46.38302830504534,
+            204.1636168
+          ],
+          [
+            601.0438663682838,
+            204.1636168
+          ],
+          [
+            601.0438663682838,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 10,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bd8754ec232f1c8fb3e862a624593354",
+    "text": "A Load enable signal can force all register Load signals to 0 using AND gates.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            215.59720895734375
+          ],
+          [
+            46.38302830504534,
+            274.66363484
+          ],
+          [
+            602.4614992801618,
+            274.66363484
+          ],
+          [
+            602.4614992801618,
+            215.59720895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 10,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "09dae91312a6666512a53bfa37a62c86",
+    "text": "The control unit for the datapath directs the information flow through the buses, the ALU, the shifter, and the registers by applying signals to the select inputs (control word).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            286.09723895734373
+          ],
+          [
+            46.38302830504534,
+            405.16363164
+          ],
+          [
+            641.8265999968347,
+            405.16363164
+          ],
+          [
+            641.8265999968347,
+            286.09723895734373
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 10,
+      "parent_id": "7a5f0004c89a218db381e4426f427a6a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0c92cf4eed9eae984306c80b3974fee1",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f7458d5240c78f7470520520b80d29b3",
+    "text": "Specify the control word to perform the following microoperation: R1\u2190R2 +R3",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            250.051541488125
+          ],
+          [
+            636.9259419552909,
+            250.051541488125
+          ],
+          [
+            636.9259419552909,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "parent_id": "0c92cf4eed9eae984306c80b3974fee1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf8fdc1cb8841d72bc3784f3305ebc27",
+    "text": "Solution:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            261.34841532
+          ],
+          [
+            56.698818,
+            289.34841644
+          ],
+          [
+            158.2459669846444,
+            289.34841644
+          ],
+          [
+            158.2459669846444,
+            261.34841532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6a63f6fec7d56ba2fa1b527631f6e194",
+    "text": "AA = 10, G = ADD code, MF = 0, Destination select = 01, Load enable = 1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            301.84843532
+          ],
+          [
+            92.69882308000001,
+            451.34843644
+          ],
+          [
+            357.86296443966864,
+            451.34843644
+          ],
+          [
+            357.86296443966864,
+            301.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "parent_id": "bf8fdc1cb8841d72bc3784f3305ebc27",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "56a4d5ea91b672415cbf62afc89d95e4",
+    "text": "BA = 11,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            236.69882640000003,
+            301.84843532
+          ],
+          [
+            236.69882640000003,
+            329.84843644
+          ],
+          [
+            329.03537386725486,
+            329.84843644
+          ],
+          [
+            329.03537386725486,
+            301.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "parent_id": "bf8fdc1cb8841d72bc3784f3305ebc27",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a40a9a7668221d02789f6f746f9e2db8",
+    "text": "MB = 0,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            344.69882864,
+            301.84843532
+          ],
+          [
+            344.69882864,
+            329.84843644
+          ],
+          [
+            437.32578584300916,
+            329.84843644
+          ],
+          [
+            437.32578584300916,
+            301.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "parent_id": "bf8fdc1cb8841d72bc3784f3305ebc27",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "0813325fe29fa281c58e9fdb0b09c336",
+    "text": "MD = 0,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            380.69881472000003,
+            342.34843532
+          ],
+          [
+            380.69881472000003,
+            370.34843644
+          ],
+          [
+            475.256806193354,
+            370.34843644
+          ],
+          [
+            475.256806193354,
+            342.34843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 11,
+      "parent_id": "bf8fdc1cb8841d72bc3784f3305ebc27",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a2177f328583a5d8af42511876c3467b",
+    "text": "DATAPATH REPRESENTATION",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            575.2203060399999,
+            106.56259899999998
+          ],
+          [
+            575.2203060399999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d3285cf56951dc0b49d70b96da2e8f24",
+    "text": "A typical Datapath has more than four registers. Indeed, computers with 32 or more registers are common. \u2022 The construction of a bus system with a large number",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            147.18698954249606
+          ],
+          [
+            47.07881835847694,
+            233.32342479499994
+          ],
+          [
+            661.3273900163349,
+            233.32342479499994
+          ],
+          [
+            661.3273900163349,
+            147.18698954249606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 12,
+      "parent_id": "a2177f328583a5d8af42511876c3467b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2cbe2cf58fe1992eb7bc393709daa5ea",
+    "text": "of registers requires different techniques.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881993999999,
+            232.17341250750002
+          ],
+          [
+            74.69881993999999,
+            258.0734120875
+          ],
+          [
+            508.6687625116494,
+            258.0734120875
+          ],
+          [
+            508.6687625116494,
+            232.17341250750002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 12,
+      "parent_id": "a2177f328583a5d8af42511876c3467b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "97cdcc830eb690eba980b5c0ed6015a6",
+    "text": "A set of registers having common microoperations performed on them may be organized into a register file.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            265.6869993849961
+          ],
+          [
+            47.07881835847694,
+            342.07339938
+          ],
+          [
+            624.5499252145728,
+            342.07339938
+          ],
+          [
+            624.5499252145728,
+            265.6869993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 12,
+      "parent_id": "a2177f328583a5d8af42511876c3467b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b41827fda648a5b0127a7ad161a2a3ab",
+    "text": "The typical register file is a special type of fast memory that permits one or more words to be read and one or more words to be written, all simultaneously.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            349.6869993849961
+          ],
+          [
+            47.07881835847694,
+            426.07339938
+          ],
+          [
+            649.626473012541,
+            426.07339938
+          ],
+          [
+            649.626473012541,
+            349.6869993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 12,
+      "parent_id": "a2177f328583a5d8af42511876c3467b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "157d1bd45493dab040ae154f5e381497",
+    "text": "THE ARITHMETIC/LOGIC UNIT",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            596.925384,
+            106.56259899999998
+          ],
+          [
+            596.925384,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8d9beba1ed787871a061526f92356119",
+    "text": "The ALU is a combinational circuit that performs a set of basic arithmetic and logic microoperations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            640.3868113406222,
+            208.34841339999997
+          ],
+          [
+            640.3868113406222,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 14,
+      "parent_id": "157d1bd45493dab040ae154f5e381497",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1a51230dad9cc875542b7eea7248caf6",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 15,
+      "parent_id": "157d1bd45493dab040ae154f5e381497",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c9b7c7d2835e3c2870a88e76ea169d00",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 15,
+      "parent_id": "157d1bd45493dab040ae154f5e381497",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "65acd0bb1c43eeedabb428b6babcdeba",
+    "text": "Design of ALU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            309.61874112000004,
+            106.56259899999998
+          ],
+          [
+            309.61874112000004,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "98ec83defe1086d48255047ccc4d7bc1",
+    "text": "The design steps of an ALU:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            385.32194236009695,
+            178.34842500000002
+          ],
+          [
+            385.32194236009695,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 16,
+      "parent_id": "65acd0bb1c43eeedabb428b6babcdeba",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "697d3ae8f7c4495cdda400aad6a2605f",
+    "text": "1- Design the arithmetic section. 2- Design the logic section, 3- Combine the two sections to form the ALU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            190.84841532000002
+          ],
+          [
+            92.69882308000001,
+            299.84843644
+          ],
+          [
+            610.9595544076699,
+            299.84843644
+          ],
+          [
+            610.9595544076699,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 16,
+      "parent_id": "65acd0bb1c43eeedabb428b6babcdeba",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bc1497e115b8c00d13616f3ab008c214",
+    "text": "Where, the basic component of an ALU is the parallel adder.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            311.28202895734375
+          ],
+          [
+            46.38302830504534,
+            370.34843484
+          ],
+          [
+            586.7921152299381,
+            370.34843484
+          ],
+          [
+            586.7921152299381,
+            311.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 16,
+      "parent_id": "65acd0bb1c43eeedabb428b6babcdeba",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+    "text": "Parallel Adder",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            313.3824122,
+            106.56259899999998
+          ],
+          [
+            313.3824122,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d99290b1480c8a775731dab78957857b",
+    "text": "The basic architecture of the parallel adder is the Full Adder with carry lookahead circuits.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            629.2748751637312,
+            208.34841339999997
+          ],
+          [
+            629.2748751637312,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 17,
+      "parent_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5d2d084ad3859bedfc850a52a6c50800",
+    "text": "Full Adder circuit is as shown:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            248.84841644
+          ],
+          [
+            425.1096980100471,
+            248.84841644
+          ],
+          [
+            425.1096980100471,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 17,
+      "parent_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3532075d3dbd456e0e48c95e33ba7f8e",
+    "text": "S = A \u2295 B \u2295 Cin Cout = (A \u22c5 B) + (Cin \u22c5 (A \u2295 B)).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            260.28200895734375
+          ],
+          [
+            92.69882308000001,
+            331.051561488125
+          ],
+          [
+            457.7516763653863,
+            331.051561488125
+          ],
+          [
+            457.7516763653863,
+            260.28200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 17,
+      "parent_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "20b7ae77ab0f8fe4e2b0085b6f568921",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.26098300000001
+          ],
+          [
+            56.698818,
+            82.26098300000001
+          ],
+          [
+            162.89998967999998,
+            82.26098300000001
+          ],
+          [
+            162.89998967999998,
+            38.26098300000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2a8e086c3ef8d182766a723acc37eeb5",
+    "text": "Consider the full adder circuit shown above with corresponding truth table. If we define two variables as carry generate Gi and carry propagate Pi then,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            114.20609244000002
+          ],
+          [
+            47.698818,
+            191.620155
+          ],
+          [
+            612.5816317599999,
+            191.620155
+          ],
+          [
+            612.5816317599999,
+            114.20609244000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "1bd2476cf06de4fac6077a15bd93bbe6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88532b979c0834f109a63490aeb2c431",
+    "text": "Pi = Ai \u2295 Bi Gi = Ai Bi",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            203.62014999999997
+          ],
+          [
+            92.698818,
+            263.62014999999997
+          ],
+          [
+            196.2035246416958,
+            263.62014999999997
+          ],
+          [
+            196.2035246416958,
+            203.62014999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e4b1191ed5a7ca544f6ce280b0ef5a1e",
+    "text": "The sum output and carry output can be expressed as",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            274.70608744000003
+          ],
+          [
+            47.698818,
+            299.62015
+          ],
+          [
+            596.5816311599999,
+            299.62015
+          ],
+          [
+            596.5816311599999,
+            274.70608744000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "88532b979c0834f109a63490aeb2c431",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "45d85b3b8f0fe0cacedd13866a5f6644",
+    "text": "Si = Pi \u2295 Ci C i +1 = Gi + Pi Ci",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            311.62015
+          ],
+          [
+            92.698818,
+            371.62015
+          ],
+          [
+            253.00350568000002,
+            371.62015
+          ],
+          [
+            253.00350568000002,
+            311.62015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "88532b979c0834f109a63490aeb2c431",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f6fc27a7555e93c283c71df4e04127f3",
+    "text": "Where Gi is a carry generate which produces the carry when both Ai, Bi are one regardless of the input carry.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            382.70608744000003
+          ],
+          [
+            47.698818,
+            433.87015
+          ],
+          [
+            600.85897448,
+            433.87015
+          ],
+          [
+            600.85897448,
+            382.70608744000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "88532b979c0834f109a63490aeb2c431",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "81f17efb144f1dadebe2d708995a2d83",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            444.95608744000003
+          ],
+          [
+            47.698818,
+            468.95608744000003
+          ],
+          [
+            56.10116184,
+            468.95608744000003
+          ],
+          [
+            56.10116184,
+            444.95608744000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "88532b979c0834f109a63490aeb2c431",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cbfbed5f086531801e7ccc287432cb7d",
+    "text": "Pi is a carry propagate and it is associate with the propagation of carry from Ci to Ci +1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            445.87015
+          ],
+          [
+            74.698818,
+            496.12015
+          ],
+          [
+            557.2886619400001,
+            496.12015
+          ],
+          [
+            557.2886619400001,
+            445.87015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 18,
+      "parent_id": "88532b979c0834f109a63490aeb2c431",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e43d596d9238e2a4c6652465c862a1f3",
+    "text": "Arithmetic Circuit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            377.90585046,
+            106.56259899999998
+          ],
+          [
+            377.90585046,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7ba7dc220e4094606989efcaa7224882",
+    "text": "1111= -1D \u2022 0000+ 1= 0001= 1D",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            218.84841644
+          ],
+          [
+            294.39359820572207,
+            218.84841644
+          ],
+          [
+            294.39359820572207,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 20,
+      "parent_id": "e43d596d9238e2a4c6652465c862a1f3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6919c623dd618efc291f9813ff153c05",
+    "text": "0001 \u2022 1111",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            270.78202895734375
+          ],
+          [
+            46.38302830504534,
+            340.34843644
+          ],
+          [
+            131.46727118935885,
+            340.34843644
+          ],
+          [
+            131.46727118935885,
+            270.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 20,
+      "parent_id": "e43d596d9238e2a4c6652465c862a1f3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f8c4fd60afcf98c006428a585f09ea23",
+    "text": "Logic Circuit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            275.90584925999997,
+            106.56259899999998
+          ],
+          [
+            275.90584925999997,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c2c533e19009da25d3d752249fff6e14",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 24,
+      "parent_id": "f8c4fd60afcf98c006428a585f09ea23",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "83db1eb7602551fd1a1bb09b9be04fd5",
+    "text": "Assignment",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            264.99960136,
+            106.56259899999998
+          ],
+          [
+            264.99960136,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "80bdebb82bfe5af6631c1a8976befdfa",
+    "text": "Design an ALU with 4 arithmetic & 2 logic operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            542.5117396118266,
+            208.34841339999997
+          ],
+          [
+            542.5117396118266,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 28,
+      "parent_id": "83db1eb7602551fd1a1bb09b9be04fd5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0150278748d8358e31f54f96273c37c4",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e74bc44f961118cffe3cc510261d4458",
+    "text": "Text Book Ch., 8",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            254.95919476351838,
+            178.34842500000002
+          ],
+          [
+            254.95919476351838,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 7.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:02",
+      "page_number": 29,
+      "parent_id": "0150278748d8358e31f54f96273c37c4",
+      "filetype": "application/pdf"
+    }
+  }
+]

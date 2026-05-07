@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ef979874-bc6e-4599-a26e-01ca49c46659",
+    "text": "Lecture 8 Control Unit “A SIMPLE COMPUTER ARCHITECTURE” Introduction In the last lecture, we introduced datapaths for processing data under the supervision of a Control Unit. In this lecture, our focus will be on the design of the control unit. Digital systems can be classified as programmable and nonprogrammable systems depending on the type of control unit. Nonprogrammable systems have inputs, but do not have any mechanism for executing a programs (e.g., fixed Multiplier system). Programmable systems are capable of executing programs.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "49553cfd-db97-4efa-b53a-b65e4d0854a9",
+    "text": "in a Programmable System The control unit generates : Sequence in which the instructions are performed. - Control word that activate the various instructions In a programmable system, a portion of the input to the processor consists of a sequence of instructions. Each instruction specifies: An operation the system is to perform, - Which operands to use for the operation, - Where to place the results of the operation, And/or,",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "317b80b8-47f5-4797-b496-3755bf102a7a",
+    "text": "in some cases, which instruction to next. execute Cont., To execute the instructions in sequence, it is necessary to provide the address in memory of the instruction to be executed. In a computer, this address comes from a register called the program counter (PC). So, in the case of a programmable system, the control unit contains a PC and associated decision logic, as well as the necessary logic to interpret the instruction in order to execute it.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "770a5552-add2-46d0-b641-eca5297170fe",
+    "text": "In a Nonprogrammable System In contrast to the preceding, note that for a nonprogrammable system, the control unit is not responsible for obtaining instructions from memory, nor is it responsible for sequencing the execution of those instructions. There is no PC or similar register in such a system. • Instead, the control unit determines the operations to be performed and the sequence of those operations, based on only its inputs and the status bits.",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "e0c48a00-183d-4d20-b77d-0c5a05e20de1",
+    "text": "Design Approaches There are two different approaches to design a control unit: (cid:0) A Hardwired Control Unit (cid:0) Microprogrammed Control Unit Instruction Set Architecture The control unit reads an instruction from memory , decodes, and executes the instruction by issuing a sequence of one or more microoperations. • Simple instruction set architectures have three major components: the storage resources, - the instruction formats, - and the instruction specifications.",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "d28951d4-644e-4840-ae44-ec2413f4f043",
+    "text": "Storage Resources for a simple computer Instruction Formats The opcode of an instruction specifies the operation to be performed. The operation must be performed using data stored in computer registers or in memory. An instruction, therefore, must specify not only the operation, but also the registers or memory words in which the operands are to be found and the result is to be placed.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "707248ff-36d2-44a1-a1cb-6e9694621cd7",
+    "text": "Instruction formats for the simple computer Consider that we have three instruction formats: Register Addressing Mode Suppose that the computer has a register file consisting of eight registers, R0 through R7. The instruction format in Figure (a) consists of an opcode that specifies the use of three or fewer registers, as needed. For example, for a subtraction operation, suppose that the three bits in SA are 010, specifying R2, the three bits in SB are 011, specifying R3, and the three bits in DR are 001, specifying R1. Then the contents of R3 will be subtracted from the contents of R2, and the result will be placed in R1.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "a5596179-7497-49dd-97b3-1fc8faf2c104",
+    "text": "Immediate Addressing Mode The instruction format in Figure (b) has an opcode, two register fields, and an operand. The operand is a constant called an immediate operand, since it is immediately available in the instruction. • For example, for an add immediate operation with SA specified as R7, DR specified as R2, and operand OP equal to 011, the value 3 is added to the contents of R7, and the result of the addition is placed in R2.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "6b46a4a8-f664-4ac5-b1d0-6936eb4d3017",
+    "text": "Jump & Branch Mode The instruction format in Figure (c), in contrast to the other two formats, does not change any register file or memory contents. Instead, it affects the order in which the instructions are fetched from memory. The example format given in Figure (c) for jump and branch instructions has an operation code, one register field SA, and a split address field AD. If a branch is to occur, the new address is formed by adding the current PC contents and the contents of the 6-bit address field. Cont., • This addressing method is called PC relative and the 6-bit address field, referred to as an address offset, is treated as a signed 2s complement number.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "4d1ace77-7a39-4959-8d2e-a0a366891c44",
+    "text": "To preserve the 2s complement representation, sign extension is applied to the 6-bit address to form a 16-bit offset before the addition. If the leftmost bit of the address field AD after converting it to its 2’s complement form is 1, then the 10 bits to its left are filled with 1s to give a negative 2s complement offset. If the leftmost bit of the address field after 2’s complement is 0, means the then the 10 bits to its left are filled with 0s to give a positive 2s complement offset (2’s complement of 2’s complement). • The offset is added to the contents of the PC to form the location from which the next instruction is to be fetched.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "f602aba9-5d44-4cb9-84d0-5a8fc40a747d",
+    "text": "Example With the PC value equal to 55, suppose that a branch is to occur to location 35 if the contents of R6 is equal to zero. • The opcode would specify a branch-on-zero instruction (JZ), SA would be specified as R6, and AD would be the 6-bit, 2s complement representation of –20. +20D = 000000000 010 100 • 2’s complement of 20D = 1111111111 101 100 • If R6 is zero, then PC contents becomes 55 + (– 20) = 35, and the next instruction will be fetched from address 35. Otherwise, if R6 is nonzero, the PC will count up to 56, and the next instruction will be fetched from address 56.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "f97595b1-ef77-4ea8-9ff1-e79eb58c5258",
+    "text": "Instruction Specifications Instruction specifications describe each of the distinct instructions that can be executed by the system. • For each instruction, the opcode is given along with a shorthand name called a mnemonic, which can be used as a symbolic representation for the opcode. This symbolic representation is then converted to the binary representation of the instruction by a program called an assembler. The instruction specifications for the simple computer are given in Table 8.",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "c8086725-18ff-4e69-b400-2b5b36a576bc",
+    "text": "Note If a branch is taken, then the new PC value is the sum of the previous PC value and the sign-extended address offset, Otherwise, the PC is incremented by 1. A jump occurs if bit 13 in the instruction equal to 1. • For bit 13 equal to 0, a conditional branch occurs. The status bit that is the condition for the branch is selected by bit 9 of the instruction. For bit 9 equal to 1, N is selected and, for bit 9 equal to 0, Z is selected.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "8396a305-47af-43b8-a66c-2ac052d11481",
+    "text": "Example Suppose that we have a memory with 16 bits per word and that the opcode contains 7 bits. Instructions and data, in binary, are placed in memory, as shown in Table 9. This stored information represents the four instructions illustrating the distinct formats. In memory location 35 is a register format instruction to store the contents of R5 in the memory location specified by R4. In location 55, the branch instruction previously described appears. The opcode for this instruction is 96, and source register A is specified as R6. Cont., Note that AD (Left) contains 101 and AD (Right) contains 100. Putting these two together and applying sign extension, we obtain 1111111111101100, which represents -20 in 2s complement.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "7cb22261-fb32-4119-969f-816c4d2e8a83",
+    "text": "Notice our assumption that the addition to the PC content occurs before the PC has been incremented, which would be the case in the simple computer. In real systems, however, the PC has sometimes been incremented to point to the next instruction in memory. In such a case, the value stored in AD needs to be adjusted accordingly to obtain the right branch address, in this case, -19.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "29a2f3ab-ac69-46c3-bc57-d08fd6c9b8d0",
+    "text": "SINGLE-CYCLE HARDWIRED CONTROL The single-cycle computer is a computer that has a hardwired control unit that fetches and executes an instruction in a single clock cycle. The Datapath has m = 3 (register file is 8 registers) and n = 16. The data memory M is attached to the Address out, Data out, and Data in by connections to the datapath. It has a single control signal MW, which is 1 to write the memory, and 0 otherwise.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "290a8224-5aab-4a58-80eb-264368aebdc4",
+    "text": "Cont. The Control unit appears on the left. • the instruction memory, together with its address inputs and instruction outputs, is shown for convenience within the control unit. We do not write to the instruction memory during the execution of a program. The PC provides the instruction address to the instruction memory, and the instruction output from the instruction memory goes to the control logic, which in this case is the instruction decoder. If a jump occurs, the new PC value becomes the value on Bus A. Cont., The output from the instruction memory also goes to Extend and Zero fill, which provide the address offset to the PC and the constant input.",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "9f8d260e-8f37-4a8f-89e4-c7e1653b516e",
+    "text": "The PC is updated in each clock cycle. • The behavior of the PC is determined by the opcode, N, and Z, since C and V are not used in this control-unit design. there is no sequential logic in the control part other than the PC.",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "3aec1bf1-d9e9-4c26-8e47-d26bc079769b",
+    "text": "Instruction Decoder The instruction decoder is a combinational circuit that provides all of the control words for the datapath, based on the contents of the fields of the instruction. The following figure shows the Truth table for Instruction Decoder. Where, the control-word fields DA, AA, and BA are equal to the instruction fields DR, SA, and SB, respectively. Since , this design uses only two status flags, N, and Z, therefore, BC is taken from bit #9 only. • The bits 15:13 , are used for Instruction Function type. The remaining control-word fields include datapath and data memory control bits MB, MD, RW, and MW. Cont.,",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "30113c1b-4910-42e3-93c6-f191ae6b878c",
+    "text": "Also, control field BC for selection of the branch condition status bits is taken directly from the last bit of Opcode. • There are two added bits for the control of the PC: PL and JB. If there is to be a jump or branch, PL = 1, loading the PC. • For PL = 0, the PC is incremented. • With PL = 1, JB = 1 calls for a jump, and JB = 0 calls for a conditional branch. Cont., From the Truth table, and by minimization: PL = Bit #15 AND Bit #14 - JB = Bit # 13 - MB = Bit # 15 - MD = Bit # 13 - MW = Bit # 14 AND NOT( Bit # 15) - RW = NOT ( Bit # 14) Cont., The remaining logic in the decoder deals with the FS field. For all but the conditional branch and",
+    "chunk_index": 19,
+    "source_file": "4th_Computer_architecture_lec_8"
+  },
+  {
+    "id": "4669f5f6-834f-45ae-b225-521c62c2c431",
+    "text": "unconditional jump instructions, bits 9 through 12 are fed directly through to form the FS field. • During conditional branch operations, such as Branch on Zero, the value in source register A must be passed through the ALU so that the status bits N and Z can be evaluated. This requires FS = 0000. Sample Instructions and Program Set of instructions for the single-cycle computer are listed in the following Table. The rightmost six columns of the table show critical control-signal values for each instruction.",
+    "chunk_index": 20,
+    "source_file": "4th_Computer_architecture_lec_8"
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "id": "956f8db4-dd78-4bcb-aaca-79075f858c42",
+    "text": "Chapter 3 Data Transmission 3-1 ANALOG AND DIGITAL Data can be analog or digital. analog data refers to information that is continuous(have an infinite number of values in a range); digital data refers to information that has discrete states (can have only a limited number of values). Analog data take on continuous values. Digital data take on discrete values. Topics discussed in this section: Analog and Digital Data Analog and Digital Signal Periodic and Nonperiodic Signal 3.2",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "d0e096e6-1dd0-40be-ae46-57ce840d4378",
+    "text": "Figure 3.1 Comparison of analog and digital signals 3.3 3-2 PERIODIC ANALOG SIGNALS Periodic analog signals can be classified as simple or composite. A simple periodic analog signal, a sine wave, cannot be decomposed into simpler signals. A composite periodic analog signal that composed of multiple sine waves. Topics discussed in this section: Sine Wave Wavelength Time and Frequency Domain Composite Signals Bandwidth 3.4",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "3fcc680f-dcb5-4089-ac48-58f4388b99f1",
+    "text": "Sine Wave ◼ Is the fundamental periodic signal ◼ Can be represented by three parameters ◼ Peak amplitude (A) ◼ Maximum value of the signal over time ◼ measured in volts ◼ Frequency (f) ◼ Rate at which the signal repeats ◼ Hertz (Hz) or cycles per second ◼ Period (T) :- the amount of time for one repetition ◼ T = 1/f ◼ Phase () ◼ Relative position in time within a single period ◼ describes the position of the waveform relative to time 0 3.7",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "16f8b4e2-438d-407b-a0c0-6876bcfb94a4",
+    "text": "Note Phase describes the position of the waveform relative to time 0. Figure 3.5 Three sine waves with the same amplitude and frequency, but different phases 3.8 Figure 3.6 Wavelength and period 3.9 3.10 Note A complete sine wave in the time domain can be represented by one single spike in the frequency domain.",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "2d39dbd7-9698-47f0-bbff-74d64c86fd0e",
+    "text": "Figure 3.7 The time-domain and frequency-domain plots of a sine wave 3.11 Figure 3.8 The time domain and frequency domain of three sine waves 3.12 Composite Signals and Periodicity ◼ If the composite signal is periodic, the decomposition gives a series of signals with discrete frequencies. ◼ If the composite signal is nonperiodic, the decomposition gives a combination of sine waves with continuous frequencies. 3.13",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "2f845ce0-9ae7-4c0b-9234-53a772ea387b",
+    "text": "Figure 3.9 A composite periodic signal 3.14 Figure 3.10 Decomposition of a composite periodic signal in the time and frequency domains 3.15 Figure 3.11 The time and frequency domains of a nonperiodic signal 3.16 3.17 Note The bandwidth of a composite signal is the difference between the highest and the lowest frequencies contained in that signal. 3.18",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "b9c5ca37-133a-4027-b036-1730b4c21a8c",
+    "text": "Note In networking, we use the term bandwidth in two contexts. ▪ The first, bandwidth in hertz, refers to the range of frequencies in a composite signal or the range of frequencies that a channel can pass. ▪ The second, bandwidth in bits per second, refers to the speed of bit transmission in a channel or link (Capacity)",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "d3956296-4418-4999-9cca-b3917d003bf7",
+    "text": "Figure 3.12 The bandwidth of periodic and nonperiodic composite signals 3.19 Example 3.10 If a periodic signal is decomposed into five sine waves with frequencies of 100, 300, 500, 700, and 900 Hz, what is its bandwidth? Draw the spectrum, assuming all components have a maximum amplitude of 10 V. Solution Let fh be the highest frequency, fl the lowest frequency, and B the bandwidth. Then The spectrum has only five spikes, at 100, 300, 500, 700, and 900 Hz (see Figure 3.13). 3.20",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "37eb5c7d-f2e1-449e-ae89-86bfb0fd2942",
+    "text": "Figure 3.13 The bandwidth for Example 3.10 3.21 Example 3.11 A periodic signal has a bandwidth of 20 Hz. The highest frequency is 60 Hz. What is the lowest frequency? Draw the spectrum if the signal contains all frequencies of the same amplitude. Solution Let fh be the highest frequency, fl the lowest frequency, and B the bandwidth. Then The spectrum contains all integer frequencies. We show this by a series of spikes (see Figure 3.14). 3.22",
+    "chunk_index": 8,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "96d8195a-f4a3-4846-81a1-0a7a12da42a4",
+    "text": "Figure 3.14 The bandwidth for Example 3.11 3.23 3-3 DIGITAL SIGNALS In addition to being represented by an analog signal, information can also be represented by a digital signal. For example, a 1 can be encoded as a positive voltage and a 0 as zero voltage. A digital signal can have more than two levels. In this case, we can send more than 1 bit for each level. 3.24 Figure 3.16 Two digital signals: one with two signal levels and the other with four signal levels 3.25",
+    "chunk_index": 9,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "c7207bfe-3f79-4116-98c3-8a4f13853f51",
+    "text": "Example 3.16 A digital signal has eight levels. How many bits are needed per level? We calculate the number of bits from the formula Number of levels = number of possibilities = 2 power n(bit) Each signal level is represented by 3 bits. 3.26 Example 3.18 Assume we need to download text documents at the rate of 100 pages per minute. What is the required bit rate of the channel? Solution A page is an average of 24 lines with 80 characters in each line. If we assume that one character requires 8 bits, the bit rate is 3.27",
+    "chunk_index": 10,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "f8724f3a-205d-40af-9045-7dc999554d60",
+    "text": "Example 3.19 A digitized voice channel is made by digitizing a 4-kHz bandwidth analog voice signal. We need to sample the signal at twice the highest frequency (two samples per hertz). We assume that each sample requires 8 bits. What is the required bit rate? Solution The bit rate can be calculated as 3.28",
+    "chunk_index": 11,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "3fe49f69-2d0d-4d88-a95c-7ab9f152381c",
+    "text": "Example 3.20 What is the bit rate for high-definition TV (HDTV)? Solution HDTV uses digital signals to broadcast high quality video signals. The HDTV screen is normally a ratio of 16 : 9. There are 1920 by 1080 pixels per screen, and the screen is renewed 30 times per second. Twenty-four bits represents one color pixel. The TV stations reduce this rate to 20 to 40 Mbps through compression. 3.29 Figure 3.17 The time and frequency domains of periodic and nonperiodic digital signals 3.30",
+    "chunk_index": 12,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "b1239675-f3d3-4942-a87e-59590a8be174",
+    "text": "Figure 3.18 Baseband transmission 3.31 Baseband vs. Broadband Baseband: ◼ Baseband refers to the original signal is directly transmitted without being modulated onto a carrier signal. ◼ Examples of baseband transmission, Ethernet, HDMI, USB Broadband: ◼ Broadband refers to a type of signaling or transmission in which the original signal is modulated onto a carrier signal, allowing for the transmission of multiple signals simultaneously over a wide frequency range. ◼ Examples of broadband transmission: cable television,",
+    "chunk_index": 13,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "0c96212e-97f8-4f67-b64f-cea312f0d831",
+    "text": "DSL, Wi-Fi. 3.33 Note A digital signal is a composite analog signal with an infinite bandwidth. Move to Digital ◼ Digital technology ◼ VLSI technology has caused a continuing drop in the cost and size of digital circuits ◼ Data integrity ◼ The use of repeaters has made it possible to transmit",
+    "chunk_index": 14,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "7ed488f6-3857-49ac-b0db-6f1d746c1f46",
+    "text": "data longer distances over lower quality ◼ Capacity utilization ◼ Satellite channels and optical fiber ◼ Security ◼ Encryption techniques can be readily applied to digital data Analog Signals: Represent data with continuously varying electromagnetic waveDigital Signals: Represent data with sequence of voltage pulsesAnalog Data(voice sound waves) Analog SignalDigital Data(binary voltage pulses)Analog Signal(modulated oncarrier frequency)TelephoneModemAnalog DataDigital SignalDigital DataDigital SignalCodecDigitalTransceiverFigure 3.13 Analog and Digital Signaling of Analog and Digital Data",
+    "chunk_index": 15,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "01be213c-87c1-4b9d-be86-bfe368d17834",
+    "text": "Modulation Modulation in communication is the process of changing one or more properties of a carrier signal,(amplitude,frequency,phase) to encode information. The modulated carrier signal is then transmitted over a communication channel, such as a copper wire, fiber optic cable, or radio wave. The different types of modulation include:",
+    "chunk_index": 16,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "6b96c262-899b-43bd-b903-2b2277874384",
+    "text": "◼ Amplitude modulation (AM) ◼ Frequency modulation (FM) ◼ Phase modulation (PM) 3.36 Figure 3.24 Modulation of a digital signal for transmission on a bandpass channel 3.37 3-4 TRANSMISSION IMPAIRMENT Signals travel through transmission media • • The imperfection causes signal impairment. This means that the signal at the beginning of the medium is not the same as the signal at the end of the medium. What is sent is not what is received. Three causes of impairment are attenuation, distortion, and noise. Signal received may differ from signal transmitted causing: Analog :- degradation of signal quality Digital :- bit errors transmission media is not perfect. 3.38",
+    "chunk_index": 17,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "703415de-ca4e-4436-b7b3-e686d68e269d",
+    "text": "Figure 3.25 Causes of impairment 3.39 Attenuation in(DB): ◼ Signal strength falls off with distance over any ناصقن transmission medium ( هدايزوا ءاوس روابلا ) ◼ Amplifiers are used to compensate for this loss of energy by amplifying the signal. 3.40 Example 3.26 Suppose a signal travels through a transmission medium and its power is reduced to one-half. This means that P2 is (1/2)P1. In this case, the attenuation (loss of power) can be calculated as A loss of 3 dB (–3 dB) is equivalent to losing one-half the power. 3.41",
+    "chunk_index": 18,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "a2ab2003-70e5-42ca-b300-4c7511ec3bbd",
+    "text": "Example 3.27 A signal travels through an amplifier, and its power is increased 10 times. This means that P2 = 10P1 . In this case, the amplification (gain of power) can be calculated as 3.42 Figure 3.27 Decibels for Example 3.28 3.43 Example 3.28 One reason that engineers use the decibel to measure the changes in the strength of a signal is that decibel numbers can be added (or subtracted) when we are measuring several points (cascading) instead of just two. In Figure 3.27 a signal travels from point 1 to point 4. In this case, the decibel value can be calculated as 3.44",
+    "chunk_index": 19,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "a45c1688-92ff-463e-af0c-a90ee9bddb98",
+    "text": "Example 3.30 The loss in a cable is usually defined in decibels per kilometer (dB/km). If the signal at the beginning of a cable with −0.3 dB/km has a power of 2 mW, what is the power of the signal at 5 km? Solution The loss in the cable in decibels is 5 × (−0.3) = −1.5 dB. We can calculate the power as 3.45 Delay Distortion ◼ Means that the signal changes its form or shape ◼ Occurs in transmission cables such as twisted pair, coaxial cable, and optical fiber ◼ Does not occur when signals are transmitted through the air by means of antennas ◼ Various frequency components arrive at different times resulting in phase shifts between the frequencies",
+    "chunk_index": 20,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "f16fec36-140f-41c1-9708-3a3afad50f55",
+    "text": "Figure 3.28 Distortion 3.47 3.48 Noise ◼ Unwanted signals inserted between transmitter and receiver ◼ There are different types of noise ◼ Thermal - random noise of electrons in the wire creates an extra signal ◼ Induced - from motors and appliances, devices act are transmitter antenna and medium as receiving antenna. ◼ Crosstalk - same as above but between two wires. ◼ Impulse - Spikes that result from power lines,",
+    "chunk_index": 21,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "911516f6-5d20-467b-9d5a-9c8990ec5d88",
+    "text": "lightning, etc. Figure 3.29 Noise 3.49 Signal to Noise Ratio (SNR) ◼ To measure the quality of a system the SNR is often used. It indicates the strength of the signal wrt the noise power in the system. ◼ SNR =(signal_POWER / noise_POWER) ◼ IN DB = 10log(SNR) ◼ It is usually given in dB and referred to as",
+    "chunk_index": 22,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "e4846446-9c7f-4c49-abc1-67ab306b323b",
+    "text": "SNRdB. 3.50 Example 3.31 The power of a signal is 10 mW and the power of the noise is 1 μW; what are the values of SNR and SNRdB ? Solution The values of SNR and SNRdB can be calculated as follows: 3.51 Example 3.32 The values of SNR and SNRdB for a noiseless channel are We can never achieve this ratio in real life; it is an ideal. 3.52 Figure 3.30 Two cases of SNR: a high SNR and a low SNR 3.53 3-5 DATA RATE LIMITS How fast we can send data, in bits per second, over a channel Data rate depends on three factors(Data Rate Limits): 1. The bandwidth available 2. The level of the signals we use 3. The quality of the channel (the level of noise) Topics discussed in this section: Noiseless Channel: Nyquist Bit Rate Noisy Channel: Shannon Capacity Using Both Limits 3.54 3.55",
+    "chunk_index": 23,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "687e0fc7-abb7-41ec-babd-2cc8894f354f",
+    "text": "Note Increasing the levels of a signal may reduce the reliability of the system. Channel Capacity Maximum rate at which data can be transmitted over a given communications channel under given conditions Data rate Bandwidth Noise Error rate in bits per second (bps) at which data can be communicated in cycles per second, or hertz Constrained by transmitter and medium",
+    "chunk_index": 24,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "7e8cf6ab-0bbb-4c13-8a54-87559b371de1",
+    "text": "The average level of noise over the communications path The rate at which errors occur 3.57 Nyquist Theorem ◼ Nyquist gives the upper bound for the bit rate of a transmission system by calculating the bit rate directly from the number of bits in a symbol (or signal levels) and the bandwidth of the system (assuming 2 symbols/per cycle and first harmonic).",
+    "chunk_index": 25,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "57f0fd2e-1772-42e2-99bb-ba740f91b38c",
+    "text": "◼ Nyquist theorem states that for a noiseless channel: C = 2 B log22n(#BIT) #LEVEL C= capacity in bps B = bandwidth in Hz Example 3.34 Consider a noiseless channel with a bandwidth of 3000 Hz transmitting a signal with two signal levels. The maximum bit rate can be calculated as 3.58 Example 3.35 Consider the same noiseless channel transmitting a signal with four signal levels (for each level, we send 2 bits). The maximum bit rate can be calculated as 3.59",
+    "chunk_index": 26,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "f3ff4539-90b2-4d85-af39-60e54e7b4f08",
+    "text": "Example 3.36 capacity We need to send 265 kbps over a noiseless channel with a bandwidth of 20 kHz. How many signal levels do we need? Solution We can use the Nyquist formula as shown: Since this result is not a power of 2, we need to either: • increase the number of levels If we have 128 levels, the bit rate is 280 kbps. reduce the bit rate. If we have 64 levels, the bit rate is 240 kbps.",
+    "chunk_index": 27,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "7e225c0f-c519-458e-8079-05aa7433da72",
+    "text": "2سا) مقركيدي (برقا • 3.60 Shannon Capacity Formula ◼ Considering the relation of data rate, noise and error rate ◼ Shannon developed formula relating these to signal to noise ratio (in decibels) =10 log10 (signal/noise) ◼ SNRdb ◼ Capacity C = B log2(1+SNR) ◼ Theoretical maximum capacity ◼ Get much lower rates in practice 3.62",
+    "chunk_index": 28,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "aa340144-3949-40d6-833b-77094126d8b0",
+    "text": "Shannon’s Theorem ◼ Shannon’s theorem gives the capacity of a system in the presence of noise. C = B log2(1 + SNR) Example 3.37 Consider an extremely noisy channel in which the value of the signal-to-noise ratio is almost zero. In other words, the noise is so strong that the signal is faint. For this channel the capacity C is calculated as This means that the capacity of this channel is zero regardless of the bandwidth. In other words, we cannot receive any data through this channel. 3.63",
+    "chunk_index": 29,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "4314e2dc-1b35-43cc-80a9-847c9061e93b",
+    "text": "Example 3.38 We can calculate the theoretical highest bit rate of a regular telephone line. A telephone line normally has a bandwidth of 3000. The signal-to-noise ratio is usually 3162. For this channel the capacity is calculated as This means that the highest bit rate for a telephone line is 34.860 kbps. If we want to send data faster than this, we can either increase the bandwidth of the line or improve the signal-to-noise ratio. 3.64",
+    "chunk_index": 30,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "3f3298f0-afad-4972-aac1-a6d42bc3e954",
+    "text": "Example 3.39 The signal-to-noise ratio is often given in decibels. Assume that SNRdB = 36 and the channel bandwidth is 2 MHz. The theoretical channel capacity can be calculated as 3.65 Example 3.40 For practical purposes, when the SNR is very high, we can assume that SNR + 1 is almost the same as SNR. In these cases, the theoretical channel capacity can be simplified to For example, we can calculate the theoretical capacity of the previous example as 3.66",
+    "chunk_index": 31,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "539c1587-61f6-4404-87d0-7c4b9ccbb8b0",
+    "text": "Example 3.41 We have a channel with a 1-MHz bandwidth. The SNR for this channel is 63. What are the appropriate bit rate and signal level? Solution • First, we use the Shannon formula to find the upper limit. 3.67 Example 3.41 (continued) The Shannon formula gives us 6 Mbps, the upper limit. • For better performance we choose something lower, 4Mbps, Then we use the Nyquist formula to find the number of signal levels. 3.68 3.69",
+    "chunk_index": 32,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  },
+  {
+    "id": "e014d658-3bc3-437d-bf0e-f1d5bddbd56a",
+    "text": "Note The Shannon capacity gives us the upper limit; the Nyquist formula tells us how many signal levels we need.",
+    "chunk_index": 33,
+    "source_file": "4th_data_communication_3-_data_transmission"
+  }
+]

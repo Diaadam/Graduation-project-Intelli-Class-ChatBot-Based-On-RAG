@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ef40bf6d-e1ee-4cda-bd88-291c88dd70fc",
+    "text": "Lecture slides by Lawrie Brown for “Cryptography and Network Security”, 5/e, by William Stallings, Chapter 12 – “Message Authentication Codes”. Digital Signatures Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Cryptography and Network Security Chapter 13 Fifth Edition by William Stallings Lecture slides by",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "c8c96132-89d9-44e5-ae71-249f20cbe09f",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "09940142-07bb-449e-9a7f-4ff7d4a1d9e7",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "ba05ae32-3248-4d7e-883b-e494dd7c9baf",
+    "text": "Overview of Digital Signatures have looked at message authentication but does not address issues of lack of trust digital signatures provide the ability to: verify author, date & time of signature authenticate message contents be verified by third parties to resolve disputes hence include authentication function with additional capabilities",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "85935432-d48e-4e2c-831a-45caa1ce9109",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "a894ef1a-8dfe-40b5-868a-8a6c38a89c7c",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "e96aa2ae-bfa0-4906-afd1-b3580cb6aa37",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "583a85ec-30f4-4518-ab00-e34b584fa872",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "8043a88a-f02d-488c-a32e-62aaab660506",
+    "text": "Digital Signature Requirements must depend on the message signed must use information unique to sender to prevent both forgery and denial must be relatively easy to produce must be relatively easy to recognize & verify be computationally infeasible to forge with new message for existing digital signature with fraudulent digital signature for given message be practical save digital signature in storage",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "fd739562-130d-4a4b-b207-c5eedb8aaecd",
+    "text": "The term direct digital signature refers to a digital signature scheme that involves only the communicating parties (source, destination). It is assumed that the destination knows the public key of the source. Direct Digital Signatures involve the direct application of public-key algorithms involving only the communicating parties. A digital signature may be formed by encrypting the entire message with the sender’s private key, or by encrypting a hash code of the message with the sender’s private key. Confidentiality can be provided by further encrypting the entire message plus signature using either public or private key schemes. It is important to perform the signature function first and then an outer confidentiality function, since in case of dispute, some third party must view the",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "30012fe7-0735-400f-b8cd-7e31d97c219d",
+    "text": "message and its signature. But these approaches are dependent on the security of the sender’s private-key. Will have problems if it is lost/stolen and signatures forged. The universally accepted technique for dealing with these threats is the use of a digital certificate and certificate authorities. We defer a discussion of this topic until Chapter 14, and focus in this chapter on digital signature algorithms. Also need time-stamps and timely key revocation.",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "0f52630f-26a3-4ab1-8183-fa0e16d6855b",
+    "text": "Direct Digital Signatures involve only sender & receiver assumed receiver has sender’s public-key digital signature made by sender signing entire message or hash with private-key can encrypt using receiver's public-key important that sign first then encrypt message & signature security depends on sender’s private-key",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "78ea67a3-2e09-4cc0-b3f9-2c9dfa4f191d",
+    "text": "DSA is the US Govt approved signature scheme, which is designed to provide strong signatures without allowing easy use for encryption. The National Institute of Standards and Technology (NIST) published Federal Information Processing Standard FIPS 186, known as the Digital Signature Standard (DSS). The DSS makes use of the Secure Hash Algorithm (SHA) described in Chapter 12 and presents a new digital signature technique, the Digital Signature Algorithm (DSA). The DSS was originally proposed in 1991 and revised in 1993 in response to public feedback concerning the security of the scheme. There was a further minor revision in 1996. In 2000, an expanded version of the standard was issued as FIPS 186-2. This latest version also incorporates digital signature algorithms based on RSA and on",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "ba51eef5-a019-4875-b2f1-2b2dbdccac04",
+    "text": "elliptic curve cryptography. In this section, we discuss the original DSS algorithm. The DSS uses an algorithm that is designed to provide only the digital signature function. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique.",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "fadc2b8d-896c-4e9b-a3ff-626d506d4460",
+    "text": "Digital Signature Standard (DSS) US Government approved the DSS signature scheme designed by NIST & NSA in early 90's published as FIPS-186 in 1991 and revised in 1993, 1996 & then 2000 uses the SHA hash algorithm DSS is the standard, DSA is the algorithm FIPS 186-2 (2000) includes alternative RSA & elliptic curve signature variants DSA is digital signature only unlike RSA which is a public-key technique",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "fdc5b470-39a0-4637-b55a-0e01c7ebaf69",
+    "text": "DSA is the US Govt approved signature scheme, which is designed to provide strong signatures without allowing easy use for encryption. The National Institute of Standards and Technology (NIST) published Federal Information Processing Standard FIPS 186, known as the Digital Signature Standard (DSS). The DSS makes use of the Secure Hash Algorithm (SHA) described in Chapter 12 and presents a new digital signature technique, the Digital Signature Algorithm (DSA). The DSS was originally proposed in 1991 and revised in 1993 in response to public feedback concerning the security of the scheme. There was a further minor revision in 1996. In 2000, an expanded version of the standard was issued as FIPS 186-2. This latest version also incorporates digital signature algorithms based on RSA and on",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "efcec6c9-fe9b-4d9a-83cf-e4f5f7465c1c",
+    "text": "elliptic curve cryptography. In this section, we discuss the original DSS algorithm. The DSS uses an algorithm that is designed to provide only the digital signature function. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique.",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "359bb312-170a-4fa4-a668-739c1b46479a",
+    "text": "DSS vs RSA Signatures The DSA is based on the difficulty of computing discrete logarithms (see Chapter 8) and is based on schemes originally presented by ElGamal [ELGA85] and Schnorr [SCHN91]. The DSA signature scheme has advantages, being both smaller (320 vs 1024bit) and faster (much of the computation is done modulo a 160 bit number), over RSA. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  },
+  {
+    "id": "5bd48a7c-22ad-4826-a974-b904fbbfe12e",
+    "text": "Digital Signature Algorithm (DSA) creates a 320 bit signature with 512-1024 bit security smaller and faster than RSA a digital signature scheme only security depends on difficulty of computing discrete logarithms Chapter 13 summary Summary have discussed: digital signatures digital signature algorithm and standard",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_13_ds_-_without_audio"
+  }
+]

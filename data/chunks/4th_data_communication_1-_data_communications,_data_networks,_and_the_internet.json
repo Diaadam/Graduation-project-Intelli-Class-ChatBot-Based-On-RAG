@@ -1,0 +1,206 @@
+[
+  {
+    "id": "97fcd5c8-474a-4565-8972-f49a8b6c82b2",
+    "text": "SCE 301 Communication Systems Class Rules It will be a little bit tuff class , however, Enjoy what you do Do not worry about the exam as long as : You are attending •Read the textbook and the provided materials •Aware of everything I mention in class •Done with assignments",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "04a089ad-ec0f-4e44-9908-a1aa7f4fdecf",
+    "text": "Class Rules I am not here to punish you • You are the best and I want you to continue the best • Trust yourself and do your best • I want you to learn and compete with others working on the same field I want you to be confident when you speak with others Class Rules • You can bring anything to drink but • NO FOOD PLEASE ☺ When you come in, DO NOT knock on the door • When you want to leave, do not tell me Just leave but you will be counted as absent if you don’t come back Attendance is very important • Assignments must be delivered on time",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "a25a5a77-d116-4aa1-8d0a-baf608c1c89a",
+    "text": "Course Contents Topics Introduction: Communication Model, Data Communications, Networking",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "561cafc2-c4d9-4153-8f26-59162fb9c96c",
+    "text": "Communication Protocols: Protocols (characteristics and functions) and Protocol Architecture (OSI and definition of TCP/IP models) Data Transmission: Data Transmission (concepts and terminology), Analog and Digital Data Transmission, Transform Representation, Transmission Impairments – Nyquist formula and Shannon’s Capacity Transmission Medium: Guided & Unguided Medium, Communication, Point to Point Link Signal Encoding Techniques: Digital Signals Digital Data – Analog Data Digital Signals, Digital Data Analog Signal Error Detection and Correction: Error Detection, CRC, Parity Check, Flow Control Data Link Control Protocols: Flow Control (stop-and-wait and sliding window flow) and Error Control, HDLC Multiplexing: FDM and Synchronous TDM, Synchronous TDM, Statistical TDM, and ADSL Advanced",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "d890e579-ddde-4035-a1ac-c34a7b89f43c",
+    "text": "Satellite Week 1,2 3,4 5,6 7 9.10 11,12 13 14 15 Course Contents (Modified) 1 2 3 4 5 6 7",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "ef811f1f-4753-4fbd-bb96-c9ac1101d781",
+    "text": "Topics Introduction: Communication Model, Data Communications, Networking Communication Protocols: Protocols (characteristics and functions) and Protocol Architecture (OSI and definition of TCP/IP models) Data Transmission: Data Transmission (concepts and terminology), Analog and Digital Data Transmission, Transform Representation, Transmission Impairments – Nyquist formula and Shannon’s Capacity Transmission Medium: Guided & Unguided Medium, Satellite Communication, Point to Point Link Signal Encoding Techniques: Digital Signals Digital Data – Analog Data Digital Signals, Digital Data Analog Signal Error Detection and Correction: Error Detection, CRC, Parity Check, Flow Control Multiplexing: FDM and Synchronous TDM, Synchronous TDM, Statistical TDM, and ADSL Fog Computing: Wireless Sensor",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "fc424b6b-8dbc-4ed1-abd3-f9d74d6bcbda",
+    "text": "Networks, Internet of Things (IoT), Cloud Computing, Fog Computing Applications with the IoT",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "3671aff6-26a5-4556-ba96-4a6bc5a1c418",
+    "text": "8 9 Review Week 1,2 3,4 5,6 7 9.10 11 12 13,14 15 150 Grading Policy 50 100 Final Exam 10 Assignments 10 Quizzes 10 Group Project 20 Mid-Term Exam CHAPTER 1 Data Communications, Data Networks, and the Internet “Communication is almost as important to us as our reliance on air, water, food, and shelter. In today’s world, through the use of networks, we are connected like never before.”",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "5889e115-c54b-4cf1-9e8f-7004c154239e",
+    "text": "Data Communications Communication: Means sharing information Local (face to face) or remote (over distance) Telecommunication Telephone, telegraph and television • Means communication at a distance • Tele is Greek for far Data communication : is the exchange of data between different devices via some form of transmission medium.",
+    "chunk_index": 8,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "946006ef-b6df-4d81-a88c-ab797f3cdca0",
+    "text": "Technological Advancement Driving Forces Development of new services Advances in technology Traffic growth at a high and steady rate Notable Trends Faster and cheaper, in both computing and communication Today’s networks are more “intelligent” The Internet Mobility Changes in Networking Technology Emergence of high-speed LANs Corporate WAN needs Digital electronics",
+    "chunk_index": 9,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "5168fed2-e247-417c-b10e-14925a0e2017",
+    "text": "Components A data communication system is made up of five components Components 1. Message: the information (data) to be communicated – Consist of text, numbers, pictures, audio, or video 2. Sender: the device that sends the data message – Computer, workstation, telephone handset, video camera 3. Receiver: the device that receives the message – Computer, workstation, telephone handset, television, 4. Protocol: a set of rules that govern data communications 5. Medium: The physical path by which a message travels from sender to receiver –",
+    "chunk_index": 10,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "e013d6ae-0219-4afd-9cc1-54c115bfce92",
+    "text": "twisted pair, coaxial cable, fiber-optic, radio waves Transmission Lines The basic building block of any communications facility is the transmission line The business manager is concerned with a facility providing the required capacity, with acceptable reliability, at minimum cost Capacity Reliability",
+    "chunk_index": 11,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "9cd137a3-67cd-43c1-89fe-29c1c9b5a2a5",
+    "text": "Cost Transmission Line Transmission Mediums Communication across a network is carried through a medium which allows a message to travel from source to destination. Media Types Description Metal wires within cables Uses electrical impulses Glass or plastic fibers within cables (fiber-optic cable) Uses pulses of light.",
+    "chunk_index": 12,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "51c90f04-0dc3-4077-bdcb-e5fe807fb4e0",
+    "text": "Wireless transmission Uses modulation of specific frequencies of electromagnetic waves. Transmission Services Multiplexing Compression The ability of several devices to share a transmission facility Squeezing the data down so that a lower-capacity, cheaper transmission facility can be used The Converging Network Converged data networks carry multiple services on one link including data, voice, image, and video",
+    "chunk_index": 13,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "bec6090f-922d-441e-9952-da7f1e2d5d20",
+    "text": "Voice Data Image Video Host Roles Every computer on a network is called a host or end device. Servers are computers that provide information to end devices: email servers • web servers • file server Clients are computers that send requests to the servers to retrieve information: web page from a web server • email from an email server",
+    "chunk_index": 14,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "17bd8561-18a8-4699-b718-b18892458945",
+    "text": "Peer-to-Peer It is possible to have a device be a client and a server in a Peer-to-Peer Network. This type of network design is only recommended for very small networks. Advantages Disadvantages Easy to set up No centralized administration Less complex Not as secure Lower cost Not scalable Used for simple tasks: transferring files and sharing printers",
+    "chunk_index": 15,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "9132b5ce-7084-4e73-b61f-e9fa2301cf2f",
+    "text": "Slower performance End Devices An end device is where a message originates from or where it is received. Data originates with an end device, flows through the network, and arrives at an end device. Intermediary Network Devices An intermediary device interconnects end devices. Examples include switches, wireless access points, routers, and firewalls. Management of data as it flows through a network is also the role of an intermediary device, including: Regenerate and retransmit data signals. Maintain information about what pathways exist in the network. Notify other devices of errors and communication failures.",
+    "chunk_index": 16,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "dd3486c1-d3d3-4d82-a19c-77e20201208b",
+    "text": "Network Representations Topology Diagrams Physical topology diagrams illustrate the physical location of intermediary devices and cable installation. Logical topology diagrams illustrate devices, ports, and the addressing scheme of the network. Common Types of Networks Small Home Networks – connect a few the computers Internet",
+    "chunk_index": 17,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "91b7c1a3-ed35-4a9f-9849-cec3d99f6ad8",
+    "text": "Small Home SOHO Small Office/Home Office – enables computer within a home or remote to a corporate office network to connect Medium to Large Networks – many locations with hundreds or thousands of interconnected computers Medium/Large World Wide World Wide Networks – connects hundreds of millions of computers world-wide – such as the internet",
+    "chunk_index": 18,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "eff7fbad-487a-470e-8b53-ee8b72f66bb4",
+    "text": "Categories of Networks Local Area Network (LAN) Metropolitan Area Network (MAN) Wide Area Network (WAN) LANs and WANs Network infrastructures vary greatly in terms of: Size of the area covered • Number of users connected • Number and types of services available Area of responsibility Two most common types of networks: Local Area Network (LAN) • Wide Area Network (WAN).",
+    "chunk_index": 19,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "c865c9f8-6742-49ae-b926-71272c40114a",
+    "text": "Local Area Networks (LAN) Smaller scope, typically a single building Owned by the same organization LAN Data rates greater than WANs Most common configurations are switched LANs and wireless LANs Metropolitan Area Network (MAN) ➢middle between LAN and WAN ➢private or public network ➢high speed ➢large area",
+    "chunk_index": 20,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "c12a1161-86b1-45d8-a56d-b23384889bce",
+    "text": "Wide Area Networks (WANs) Span a large geographical area Rely in part on common carrier circuits Typically consist of a number of interconnected switching nodes Wide Area Networks Alternative technologies used include: Circuit switching Packet switching Frame relay Asynchronous Transfer Mode (ATM)",
+    "chunk_index": 21,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "6f677849-a2e7-442e-938c-769b56aa7cf6",
+    "text": "Circuit Switching Uses a dedicated communications path • Connected sequence of physical links between nodes • The most common example of circuit switching is the telephone network Packet Switching Data are sent out in a sequence of small chunks called packets Packets are passed from node to node along a path leading from source to destination",
+    "chunk_index": 22,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "cfb07abc-55e6-446f-8aee-97e91a8d26a7",
+    "text": "The Internet The internet is a worldwide collection of interconnected LANs and WANs (Network of networks) LANs are connected to each other using WANs. WANs may use copper wires, fiber optic cables, and wireless transmissions. The internet is not owned by any individual or group. The following groups were developed to help maintain structure on the internet: IETF ICANN IAB",
+    "chunk_index": 23,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "0d6a7e89-a1c8-40e4-9329-45a1f2a6e5b6",
+    "text": "EthernetswitchEthernetswitchRouterRouterStandaloneMainframeRouterRouter Wide Area Network(e.g. ATM)Figure 1.5 Key Elements of the InternetInformationserverLAN PCsand workstations Wide Area Network(e.g. ATM)Local AreaNetworkLocal AreaNetwork open circle = NAPfilled circle = POP Figure 1.6 Simplified View of Portion of InternetBackboneISPBackboneISPRegionalISPLANswitchCorporateLANCorporateLANResidentialsubscribersServerServerServerISP WebfarmRegionalISPPrivate peeringRegionalISP",
+    "chunk_index": 24,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "44a7ab1f-eb50-4d00-8e57-61331dcc9c29",
+    "text": "Internet vs. Intranet vs. Extranet Internet Access Technologies There are many ways to connect users and organizations to the internet: Popular services for home users and small offices include broadband cable, broadband digital subscriber line (DSL), wireless WANs, and mobile services. Organizations need faster connections to support IP phones, video conferencing and data center storage.",
+    "chunk_index": 25,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "0f3ab086-f9ee-4efb-b9f4-6a954af0abb6",
+    "text": "Internet Connections Network Architecture Fault Tolerance A fault tolerant network limits the impact of a failure by limiting the number of affected devices. Multiple paths are required for fault tolerance. Scalability A scalable network can expand quickly and easily to support new users and applications without impacting the performance of services to existing users.",
+    "chunk_index": 26,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "320c0406-53cd-4bb2-ac3e-b95840cf1d44",
+    "text": "Quality of Service Voice and live video transmissions require higher expectations for those services being delivered. • Quality of Service (QoS) is the primary mechanism used to ensure reliable delivery of content for all users. Network Security There are two main types of network security that must be addressed: Network infrastructure security • Physical security of network devices Preventing unauthorized access to the devices Information Security • Protection of the information or data transmitted over the network",
+    "chunk_index": 27,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "ac1ab619-3cfa-4b3c-9ee7-522c839d378a",
+    "text": "Network Trends The role of the network must adjust and continually transform in order to be able to keep up with new technologies and end user devices as they constantly come to the market. Several new networking trends that effect organizations and consumers: Bring Your Own Device (BYOD) • Online collaboration • Video communications • Cloud computing",
+    "chunk_index": 28,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "e41ab831-b363-4192-a4c5-0cb5b4ac6cef",
+    "text": "Bring Your Own Device Bring Your Own Device (BYOD) allows users to use their own devices giving them more opportunities and greater flexibility. BYOD allows end users to have the freedom to use personal tools to access information and communicate using their: Laptops • Netbooks • Tablets • Smartphones • E-readers BYOD means any device, with any ownership, used anywhere.",
+    "chunk_index": 29,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "bbdbd802-0859-4507-a39a-e9b2f857c397",
+    "text": "Online Collaboration Collaborate and work with others over the network on joint projects. Collaboration is a very high priority for businesses and in education. Collaboration tools including Cisco WebEx gives users a way to instantly connect and interact. Video Communication Video calls are made to anyone, regardless of where they are located. Video conferencing is a powerful tool for communicating with others. Video is becoming a critical requirement for effective collaboration. Cisco TelePresence powers is one way of working where everyone,",
+    "chunk_index": 30,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "6ffadcee-85b7-4f34-af50-f415fb6c3d20",
+    "text": "everywhere. Cloud Computing Cloud computing allows us to store personal files or backup our data on servers over the internet. Applications can also be accessed using the Cloud. Allows businesses to deliver to any device anywhere in the world. Cloud computing is made possible by data centers.",
+    "chunk_index": 31,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "eb2c6146-b5f2-4bdf-ac74-54cb127f7209",
+    "text": "Technology Trends in the Home Smart home technology is a growing trend that allows technology to be integrated into every-day appliances which allows them to interconnect with other devices. Ovens might know what time to cook a meal for you by communicating with your calendar on what time you are scheduled to be home. Smart home technology is currently being developed for all rooms within a house. Powerline Networking • Powerline networking can allow devices to connect to a LAN where data network cables or wireless communications are not a viable option. • Using a standard powerline adapter, devices can connect to the LAN wherever there is an electrical outlet by sending data on certain frequencies.",
+    "chunk_index": 32,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  },
+  {
+    "id": "58528e00-961a-4d10-934f-d53191ea4a14",
+    "text": "Powerline networking is especially useful when wireless access points cannot reach all the devices in the home. Wireless Broadband In addition to DSL and cable, wireless is another option used to connect homes and small businesses to the internet. Wireless Internet Service Provider (WISP) is an ISP that connects subscribers to designated access points or hotspots. Wireless broadband is another solution for the home and small businesses.",
+    "chunk_index": 33,
+    "source_file": "4th_data_communication_1-_data_communications,_data_networks,_and_the_internet"
+  }
+]

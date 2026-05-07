@@ -1,0 +1,116 @@
+[
+  {
+    "id": "b1119031-216a-4c15-a652-7af9ffff81c9",
+    "text": "Cryptography and Network Security Chapter 6 Fifth Edition by William Stallings Lecture slides by Lawrie Brown Block Cipher Operation Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Multiple Encryption & DES a replacement for DES was needed – theoretical attacks that can break it – demonstrated exhaustive key search attacks AES is a new cipher alternative • prior to this alternative was to use multiple encryption with DES implementations • Triple-DES is the chosen form",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "409647e9-bed0-4cfc-bffa-afc5ebb6ba6c",
+    "text": "Double-DES? ➢ The simplest form of multiple encryption has two encryption stages and two keys e.g. double-DES C = EK2(EK1(P)) ➢ However, it is subject to the meet in the middle (MitM) attack “Meet-in-the-Middle” Attack (MitM) ➢The MitM attack on double encryption for any symmetric cipher such as DES and AES is possible with almost the same computing effort as breaking a single encryption. ➢This effort is in the order of 2N, where N is the number of bits in the encryption key.",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "98d09d77-90e0-4ca6-9d46-f21669ef46cc",
+    "text": "“Meet-in-the-Middle” Attack Double DES is subject to the “meet-in-the-middle” (MitM) attack which works whenever a cipher is used twice ➢ The attacker obtains a pair (P, C) where C is the ciphertext of the plaintext P. ➢ in double DES we have: X = EK1(P) = DK2(C) ➢ attack by encrypting P with all keys and store then",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "eeeb5c0e-ed12-4ca5-8a46-4f55a7a755cf",
+    "text": "decrypt C with keys and match X value ➢ MitM takes O(256) steps to break the 2 keys ➢ a brute force attack takes O(2112) steps to break the 2 keys of DES Detailed steps to do a MitM attack: 1.",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "29b09b95-d6fe-408d-b637-1d456c8d104c",
+    "text": "Find a pair of plaintext and ciphertext “P,C”. 2. For all possible N values of the 1st unknown key K1 prepare a list {Xe ; e= 1,2,3,…., N}, where Xe = E(ke, P). 3. Generate Xd = D(kd, C) for possible values of the 2nd unknown key k2 , where {d= 1,2,3,….} Compare each generated Xd with the prepared list until you find a matching value such that E(ke, P) = D(kd, C). The unknown keys are: K1 = Ke and K2 = Kd. 5. 4. 6. Use a second pair of plaintext and ciphertext to verify the obtained keys Triple-DES with Two-Keys (standardized in ANSI X9.17 & ISO8732) • would seem to need 3 distinct keys but can use 2 keys with E-D-E sequence. to avoid MitM attack we must use 3 encryptions C = EK1(DK2(EK1(P)))",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "6776ec93-1734-4d67-907a-192c83cb4c14",
+    "text": "the use of encryption & decryption stages is equivalent in security, but the chosen E-D-E structure allows for compatibility with single-DES implementations. if K1=K2 then can work with single DES • no current known practical attacks • suffers from being 3 times slower to run Triple-DES with Two-Keys (The E – D – E Structure) To break this arrangement using MitM, the attacker needs a computing effort in the order of 2 N+N, where N is the number of bits in the encryption key.",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "7f92e600-5a38-4407-baf8-94b01ddae1f8",
+    "text": "Triple-DES with Three-Keys although are no practical attacks on two-key, Triple- DES have some concerns a preferred alternative is to use Triple-DES with Three- Keys to avoid any concerns C = EK3(DK2(EK1(P))) • has been adopted by some Internet applications, e.g. PGP, S/MIME Modes of Operation block ciphers encrypt fixed size blocks – e.g. DES encrypts 64-bit blocks with 56-bit key • need some way to encrypt/decrypt arbitrary amounts",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "19069e9e-4922-4a35-be14-42cf25abbf89",
+    "text": "of data in practice NIST SP 800-38A defines 5 modes • have block and stream modes to cover a wide variety of applications can be used with any block cipher Electronic Codebook Book (ECB) message is broken into independent blocks which are encrypted each block is a value which is substituted, like a codebook, hence name each block is encoded independently of the other blocks Ci = EK(Pi) this mode is used for secure transmission of single values",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "ae12c57f-4974-404e-91b6-9e5ffba0b3cf",
+    "text": "Electronic Codebook Mode (ECB) Advantages and Limitations of ECB ➢ message repetitions may show in ciphertext if aligned with message block • particularly with data such as graphics • or with messages that change very little, which become a codebook analysis problem ➢ weakness is due to the encrypted message blocks being independent ➢ main use is sending a few blocks of data, e.g. a session",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "67c8544b-c1bd-40fb-a670-ec6d89b700e3",
+    "text": "encryption key ECB Limitations Alice Hates ECB Mode Alice’s uncompressed image, and ECB encrypted ❑Why does this happen? ❑Same plaintext yields same ciphertext! Cipher Block Chaining (CBC) message is broken into blocks • • each previous cipher blocks is chained with current plaintext block, hence name use Initial Vector (IV) to start process; i=1,2,3,….",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "661757cf-7cea-4bae-8916-b4a1e63d54b3",
+    "text": "Ci = EK(Pi  Ci-1) C0 = IV Uses: bulk data encryption, authentication Cipher Block Chaining (CBC) Ci = EK(Pi  Ci-1) C0 = IV Alice Likes CBC Mode Alice’s uncompressed image, Alice CBC encrypted ❑Why does this happen? ❑Same plaintext yields different ciphertext!",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "8465b00c-47f8-418b-9f6b-0b0fbfad7cc9",
+    "text": "Message Padding At end of message we must handle a possible last short block. ➢ which is not as large as block size of cipher ➢ pad either with known non-data value (e.g. nulls) ➢ or pad last block along with count of pad size Consider the last block containing only 3 bytes of data: [D1] , [D2] , and [D3]. To complete the block to be 8 bytes (64 bits) we must add 5 more bytes. The padded block will be: {[D1] [D2] [D3] [0] [0] [0] [0] [5]} • This means we have 3 data bytes, then 4 bytes EACH CONTAINS ZERO + last byte contains the count of added padding bytes (which is 5). ➢ this method may require an extra entire block over those in",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "f902a412-dc5e-451a-962b-a2b3a9210cf8",
+    "text": "message. (Why??) Advantages and Limitations of CBC ➢ a ciphertext block depends on all blocks before it ➢ any change to a block affects all following ciphertext blocks ➢ need Initialization Vector (IV) which must be known to sender & receiver • if sent in clear, attacker can change bits of first block, and change IV to compensate hence IV must either be a fixed value (as in EFTPOS) • or must be sent encrypted in ECB mode before rest of message",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "87ab9049-46a7-4739-9019-395f622e482f",
+    "text": "Stream Modes of Operation ➢ Block modes encrypt entire block ➢ Stream modes convert block cipher into stream cipher 1. 2. cipher feedback (CFB) mode • allows to operate on smaller plaintext units, e.g. real time data • if a transmission error occurs in one ciphertext block, there will be an error in several blocks of the decrypted plaintext (this is called error propagation) • it uses a complex structure output feedback (OFB) mode • is simpler than CFB but preferred to operate on entire data",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "fae03a1d-04f1-42d7-8433-17e47b2a8624",
+    "text": "blocks 3. counter (CTR) mode • is like OFB but provides more advantages ➢ Encryption is done by XORing plaintext blocks with random bits ➢ Use block cipher as some form of pseudo-random number generator to generate the required random bits Output FeedBack (OFB) Mode message is treated as a stream of bits • output of cipher is added to message • output is then feed back (hence name) • feedback is independent of message • can be computed in advance Oi = EK(Oi-1) Ci = Pi  Oi O0 = IV Uses: stream encryption on noisy channels",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "58e3a24a-97a5-4d5d-8152-97ddee39ec2d",
+    "text": "Output FeedBack (OFB) Oi = EK(Oi-1) Ci = Pi  Oi O0 = IV (IV is the nonce which is a random number used only once) Advantages and Limitations of OFB ➢ needs an IV (nonce) which is unique for each use ➢ if ever reuse IV, attacker can recover outputs ➢ bit errors do not propagate ➢ more vulnerable to message stream modification attack than is CFB ➢ sender & receiver must remain in synchronism, or all data is lost ➢ only use with full block feedback, where typically a block is 64",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "2633b267-02df-4f58-95dd-545fdc161c31",
+    "text": "or 128 bits Counter (CTR) Mode the Counter (CTR) mode is a variant of OFB, but which encrypts a counter value (hence name) rather than any feedback value must have a different key & counter value for every plaintext block (never reused) Oi = EK(Counteri ) Ci = Pi  Oi Uses: high-speed network encryptions",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "5a483def-9538-42f1-a33b-9e077d3e3098",
+    "text": "Counter (CTR) Oi = EK(Counteri ) Ci = Pi  Oi Counter1 is a random number Counteri+1 = Counteri + 1 Advantages and Limitations of CTR ➢ efficiency can do parallel encryptions in h/w or s/w • can preprocess in advance of need • good for bursty high speed links ➢ random access to encrypted data blocks ➢ provable security (good as other modes) ➢ but must ensure never reuse key/counter values, otherwise could break (like OFB)",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  },
+  {
+    "id": "ae1f1f3c-87e6-4250-99aa-b711a0193e95",
+    "text": "Conclusion Have considered: 2DES and 3DES • Encryption modes",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sec_422_ch_6_block_cipher_operation_-_audio"
+  }
+]

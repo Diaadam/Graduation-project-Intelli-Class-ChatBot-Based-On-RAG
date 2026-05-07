@@ -1,0 +1,3452 @@
+[
+  {
+    "type": "Title",
+    "element_id": "5c97fdcb8866e06417ac6a8edcfe0c95",
+    "text": "Lecture 9",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            246.44881800000002,
+            215.02663
+          ],
+          [
+            246.44881800000002,
+            275.02663
+          ],
+          [
+            471.8589754,
+            275.02663
+          ],
+          [
+            471.8589754,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d06e528f38e115d3c8e98b08eadd8818",
+    "text": "INSTRUCTION SET ARCHITECTURE",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            192.448822,
+            290.22345
+          ],
+          [
+            192.448822,
+            314.22345
+          ],
+          [
+            526.3980407800001,
+            314.22345
+          ],
+          [
+            526.3980407800001,
+            290.22345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a679d56464dcfdf10a693b0beb6a03b3",
+    "text": "(ISA)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            336.448822,
+            326.22345
+          ],
+          [
+            336.448822,
+            350.22345
+          ],
+          [
+            383.39413428,
+            350.22345
+          ],
+          [
+            383.39413428,
+            326.22345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 1,
+      "parent_id": "d06e528f38e115d3c8e98b08eadd8818",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9509b64cb06268a04f9ccbe2112be904",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "32f53aa1338353ead7bcbc43c1ab54bf",
+    "text": "In this chapter, we will study material dealing with instruction set architecture for general-purpose computers.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            230.09841423999995
+          ],
+          [
+            642.7492170847738,
+            230.09841423999995
+          ],
+          [
+            642.7492170847738,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8d387012dd89e16ede7bb1a51bc697b",
+    "text": "We will examine the operations that the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            237.78201711734374
+          ],
+          [
+            46.38302830504534,
+            266.8484246
+          ],
+          [
+            529.8265959995931,
+            266.8484246
+          ],
+          [
+            529.8265959995931,
+            237.78201711734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0a77b22e12b91654a39f344c7fde675b",
+    "text": "instructions perform and focus particularly on how the operands are obtained and where the results are stored.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            265.84842004
+          ],
+          [
+            74.69881504,
+            347.84841428
+          ],
+          [
+            650.2904346774569,
+            347.84841428
+          ],
+          [
+            650.2904346774569,
+            265.84842004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ee49d49ae6a2e2f5a61d7acd8ed52d9c",
+    "text": "We will contrast two distinct classes of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            355.5320171173438
+          ],
+          [
+            46.38302830504534,
+            384.59842460000004
+          ],
+          [
+            511.25076019724946,
+            384.59842460000004
+          ],
+          [
+            511.25076019724946,
+            355.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5febf06fc781c385b50e75989cc9fa7a",
+    "text": "architectures: reduced instruction set computers (RISCs) and complex instruction set computers (CISCs).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            383.59842003999995
+          ],
+          [
+            74.69881504,
+            465.59841428
+          ],
+          [
+            627.704967345073,
+            465.59841428
+          ],
+          [
+            627.704967345073,
+            383.59842003999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 2,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b12c4571f968c33a60e5033eabaf072a",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 3,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "67980da76789119a69cb872681012a6e",
+    "text": "The binary language in which instructions are defined and stored in memory is referred to as machine language.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            602.0961305965814,
+            238.3484168
+          ],
+          [
+            602.0961305965814,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 3,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "048e96bbb3c748050ddc7bba559904fa",
+    "text": "A symbolic language that replaces binary opcodes and addresses with symbolic names is referred to as assembly language.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            645.1823384441675,
+            338.84841324
+          ],
+          [
+            645.1823384441675,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 3,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0727b97fd8f3be5861280feeeab98db3",
+    "text": "A computer usually has a variety of instructions and multiple instruction formats.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843484
+          ],
+          [
+            611.9926820407193,
+            409.34843484
+          ],
+          [
+            611.9926820407193,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 3,
+      "parent_id": "9509b64cb06268a04f9ccbe2112be904",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "653ae809b74349ab4f9473f69d8f94ad",
+    "text": "Instruction Format",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            388.41756835999996,
+            106.56259899999998
+          ],
+          [
+            388.41756835999996,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2d850c9d34ec3b6a99d0baba7ace4114",
+    "text": "Instruction format is a binary format which specifies a computer instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            560.4728123040625,
+            208.34841339999997
+          ],
+          [
+            560.4728123040625,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 4,
+      "parent_id": "653ae809b74349ab4f9473f69d8f94ad",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cdbed2bd52eab3847a1b890926d3eb8f",
+    "text": "The format of an instruction is depicted in a rectangular box symbolizing the bits of the binary instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84841324
+          ],
+          [
+            635.0849515464789,
+            308.84841324
+          ],
+          [
+            635.0849515464789,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 4,
+      "parent_id": "653ae809b74349ab4f9473f69d8f94ad",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "94fbfae00d42187d615aac5edb203707",
+    "text": "The bits are divided into groups called fields. \u2022 The following are typical fields found in instruction formats:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843484
+          ],
+          [
+            655.1085919032869,
+            419.84843484
+          ],
+          [
+            655.1085919032869,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 4,
+      "parent_id": "653ae809b74349ab4f9473f69d8f94ad",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3c3917e0e8a02fb4816334c83b4941b8",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 5,
+      "parent_id": "653ae809b74349ab4f9473f69d8f94ad",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4fa7bd90988cb85c0969ba4606599b13",
+    "text": "1. An opcode field, which specifies the operation to be performed. 2. An address field, which provides either a memory address or an address that selects a processor register. 3. A mode field, which specifies the way the address field is to be interpreted.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            150.34842388000004
+          ],
+          [
+            56.698818,
+            379.34843484
+          ],
+          [
+            646.8867321496574,
+            379.34843484
+          ],
+          [
+            646.8867321496574,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 5,
+      "parent_id": "653ae809b74349ab4f9473f69d8f94ad",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2610daa8978ee58bb8b8c8c3728d2514",
+    "text": "Basic Computer Operation Cycle",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            641.6421800799998,
+            106.56259899999998
+          ],
+          [
+            641.6421800799998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7fcfcd59680a366c3a6c5a948c074371",
+    "text": "The computer\u2019s control unit is designed to execute each instruction of a program in the following sequence of steps: \u2022 Fetch the instruction from memory (Program counter). \u2022 Decode the instruction ( Instruction Decoder). \u2022 Locate the operands used by the instruction. \u2022 Fetch operands from memory (if necessary). \u2022 Execute the operation in processor registers. \u2022 Store the results in the proper place. \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            148.17341537249996
+          ],
+          [
+            47.07881835847694,
+            464.08699896499616
+          ],
+          [
+            647.9435197689091,
+            464.08699896499616
+          ],
+          [
+            647.9435197689091,
+            148.17341537249996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 6,
+      "parent_id": "2610daa8978ee58bb8b8c8c3728d2514",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "952cd0b18b3e7118328ae5b4114549a7",
+    "text": "Go back to step 1 to fetch the next instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881993999999,
+            439.173425215
+          ],
+          [
+            74.69881993999999,
+            465.07342479500005
+          ],
+          [
+            568.2915849887006,
+            465.07342479500005
+          ],
+          [
+            568.2915849887006,
+            439.173425215
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 6,
+      "parent_id": "2610daa8978ee58bb8b8c8c3728d2514",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "937471ab06ec920a9315a918e8d64ac4",
+    "text": "Note",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            144.46248996,
+            106.56259899999998
+          ],
+          [
+            144.46248996,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1e31c179ae85c7347bc98c93912b6b01",
+    "text": "A register in the computer called the program counter (PC) keeps track of the instructions in the program stored in memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            144.34197942760937
+          ],
+          [
+            47.7738203439166,
+            209.54842294250005
+          ],
+          [
+            641.9593325450071,
+            209.54842294250005
+          ],
+          [
+            641.9593325450071,
+            144.34197942760937
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "da40bde2cf243bdbda7e41f84a0330e1",
+    "text": "The PC holds the address of the instruction to be executed next and is incremented each time a word is read from the program in memory. The decoding done in Step 2 determines the operation to be performed and the addressing mode or modes of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            215.5919750926094
+          ],
+          [
+            47.7738203439166,
+            350.54841456
+          ],
+          [
+            638.550464977857,
+            350.54841456
+          ],
+          [
+            638.550464977857,
+            215.5919750926094
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "59b01af0d2687d0e210f02c84eff1589",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            286.09197509260935
+          ],
+          [
+            47.7738203439166,
+            309.89197661260937
+          ],
+          [
+            56.10614518406504,
+            309.89197661260937
+          ],
+          [
+            56.10614518406504,
+            286.09197509260935
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6be9982f7259aab4853d858807f10c6d",
+    "text": "The operands in Step 3 are located from the addressing modes and the address fields of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            356.59197509260935
+          ],
+          [
+            47.7738203439166,
+            400.79843327749995
+          ],
+          [
+            607.1192694483204,
+            400.79843327749995
+          ],
+          [
+            607.1192694483204,
+            356.59197509260935
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6bfff56e838286df0024e114904d94e9",
+    "text": "The computer executes the instruction, storing the result, and returns to Step 1 to fetch the next instruction in sequence.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            406.84197509260935
+          ],
+          [
+            47.7738203439166,
+            471.29841456
+          ],
+          [
+            629.5596035573179,
+            471.29841456
+          ],
+          [
+            629.5596035573179,
+            406.84197509260935
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 7,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "358accc44abc595cf6dd361333eaa000",
+    "text": "Instructions Classification according to operand addressing: 1. Three-Address Instructions \u2022 Consider an instruction such as ADD, which",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            26.925038775000075
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            642.7594523149764,
+            178.34842500000002
+          ],
+          [
+            642.7594523149764,
+            26.925038775000075
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 9,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c2ff3f1dbd0ae009e1786e159766c04e",
+    "text": "specifies the addition of two operands to produce a result.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            180.34841228
+          ],
+          [
+            74.69881504,
+            238.3484168
+          ],
+          [
+            639.8578501111882,
+            238.3484168
+          ],
+          [
+            639.8578501111882,
+            180.34841228
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 9,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "163db37c4b649a955f76edec849524d3",
+    "text": "Suppose that the result of the addition is treated as just another operand.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            634.2858540014117,
+            308.84842484
+          ],
+          [
+            634.2858540014117,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 9,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "90c087b95bbf58a002506e2fcc0e40da",
+    "text": "Then the ADD instruction has three operands. ADD T1, A, B , M[T1] <-- M[A] + M[B]",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            389.84843644
+          ],
+          [
+            600.4309895217001,
+            389.84843644
+          ],
+          [
+            600.4309895217001,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 9,
+      "parent_id": "937471ab06ec920a9315a918e8d64ac4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "91163c4905e6bff12f804a1f6e533eeb",
+    "text": "2- Two-Address Instructions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            565.1490141200001,
+            106.56259899999998
+          ],
+          [
+            565.1490141200001,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6c9a9dbcebcc0f0555d39b388100083c",
+    "text": "For two-address instructions, each address field can again specify either a possible register or a memory address.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            616.1899482982651,
+            238.3484168
+          ],
+          [
+            616.1899482982651,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 10,
+      "parent_id": "91163c4905e6bff12f804a1f6e533eeb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "495fb731a0ce27e83cce742a9c93a59f",
+    "text": "The first operand address listed in the symbolic instruction also serves as the implied address to which the result of the operation is transferred.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            618.0210360625431,
+            338.84841324
+          ],
+          [
+            618.0210360625431,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 10,
+      "parent_id": "91163c4905e6bff12f804a1f6e533eeb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6599e5b4e27303985b6a9e991283d69c",
+    "text": "The program is as follows:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843644
+          ],
+          [
+            368.8063176167134,
+            379.34843644
+          ],
+          [
+            368.8063176167134,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 10,
+      "parent_id": "91163c4905e6bff12f804a1f6e533eeb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ff3f2ea0731d0a9df192f4949ff53d82",
+    "text": "3- One-Address Instructions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            562.91171112,
+            106.56259899999998
+          ],
+          [
+            562.91171112,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c1f4a9efd4ba34a26fa6278461cb553",
+    "text": "4- Zero-Address Instructions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            568.91171092,
+            106.56259899999998
+          ],
+          [
+            568.91171092,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a50096a7e6dfcfd690704eb2f2c091e6",
+    "text": "To perform an ADD instruction with zero addresses, all three addresses in the instruction must be implied.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            658.0876464803798,
+            238.3484168
+          ],
+          [
+            658.0876464803798,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 12,
+      "parent_id": "8c1f4a9efd4ba34a26fa6278461cb553",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d7961fcd22d4149ba8cecc71f5749883",
+    "text": "A conventional way of achieving this goal is to use a stack, which is a mechanism or structure that stores information such that the item stored last is the first retrieved.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            368.84841164000005
+          ],
+          [
+            646.2958886307787,
+            368.84841164000005
+          ],
+          [
+            646.2958886307787,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 12,
+      "parent_id": "8c1f4a9efd4ba34a26fa6278461cb553",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7691186e60fe19be068e024d66f731d8",
+    "text": "ADDRESSING MODES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            442.48397500000004,
+            106.56259899999998
+          ],
+          [
+            442.48397500000004,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "da11d9369d5cb61f6980d11372bc8e88",
+    "text": "The operation field of an instruction specifies the operation to be performed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            632.1714270037311,
+            208.34841339999997
+          ],
+          [
+            632.1714270037311,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 13,
+      "parent_id": "7691186e60fe19be068e024d66f731d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e9b47d78a582b4fafba7fd28b1330ba4",
+    "text": "This operation must be executed on data stored in computer registers or memory words.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            644.2502943448169,
+            278.84842484
+          ],
+          [
+            644.2502943448169,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 13,
+      "parent_id": "7691186e60fe19be068e024d66f731d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1195a01166dc597294b41773bc817ff7",
+    "text": "How the operands are selected during program execution is dependent on the addressing mode of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34844324
+          ],
+          [
+            650.2852477448357,
+            379.34844324
+          ],
+          [
+            650.2852477448357,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 13,
+      "parent_id": "7691186e60fe19be068e024d66f731d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4616f40a662a5f6d4cc7a59e80be2bef",
+    "text": "An addressing mode is how we tell the processor where to find the data that it needs to use with each instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            390.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84844324
+          ],
+          [
+            628.8651909556196,
+            479.84844324
+          ],
+          [
+            628.8651909556196,
+            390.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 13,
+      "parent_id": "7691186e60fe19be068e024d66f731d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f0f7385cf24051f949457c0eef5943ac",
+    "text": "1- Immediate Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            417.57577048,
+            106.56259899999998
+          ],
+          [
+            417.57577048,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8c4bf549724b151380f160aab3730ccd",
+    "text": "In the immediate mode, the operand is specified in the instruction itself. It has an operand field rather than an address field.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            652.9399495751618,
+            238.3484168
+          ],
+          [
+            652.9399495751618,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 14,
+      "parent_id": "f0f7385cf24051f949457c0eef5943ac",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0a34d455123319e8e4c792a4f62541a5",
+    "text": "Immediate-mode instructions are useful, for example, for initializing registers to a constant value.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            594.644014530221,
+            338.84841324
+          ],
+          [
+            594.644014530221,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 14,
+      "parent_id": "f0f7385cf24051f949457c0eef5943ac",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1ca5ca095e60f0e1750b2bfc85d46a04",
+    "text": "Ex:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843644
+          ],
+          [
+            107.98841780468751,
+            379.34843644
+          ],
+          [
+            107.98841780468751,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 14,
+      "parent_id": "f0f7385cf24051f949457c0eef5943ac",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8af4da6c2585c979f1d38d5a5948d9f6",
+    "text": "MOV AX, 0005H",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            391.84843532
+          ],
+          [
+            92.69882308000001,
+            419.84843644
+          ],
+          [
+            275.0514716623815,
+            419.84843644
+          ],
+          [
+            275.0514716623815,
+            391.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "197f9c31b0c51f3f79afd509398cdc19",
+    "text": "Examples",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            224.99374032000003,
+            106.56259899999998
+          ],
+          [
+            224.99374032000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c3cf07ccceb71aa8c89553653da4e3df",
+    "text": "2- Register Direct Addressing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            580.2828039599999,
+            106.56259899999998
+          ],
+          [
+            580.2828039599999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "02aff456f5111d5a27e74e355a357631",
+    "text": "When the address field specifies a processor register, the instruction is said to be in the register mode. In this mode, the operands are in registers that reside within the processor of the computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            643.808079049887,
+            268.34841919999997
+          ],
+          [
+            643.808079049887,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 16,
+      "parent_id": "c3cf07ccceb71aa8c89553653da4e3df",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "33731219ead8c28868f6274baf342b4c",
+    "text": "Ex: MOV AX, BX",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            308.84843644
+          ],
+          [
+            251.58601326169457,
+            308.84843644
+          ],
+          [
+            251.58601326169457,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 16,
+      "parent_id": "c3cf07ccceb71aa8c89553653da4e3df",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c6d63bbf58d13ca9bcafc9d4e31917dd",
+    "text": "3- Register-indirect mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            35.41153477499995
+          ],
+          [
+            56.698818,
+            75.01153277499992
+          ],
+          [
+            471.1568842427734,
+            75.01153277499992
+          ],
+          [
+            471.1568842427734,
+            35.41153477499995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "47381ea11d998e677ae58ebd6457342a",
+    "text": "In the register-indirect mode, the instruction specifies a register in the processor whose content gives the address of the operand in memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            96.06461051734374
+          ],
+          [
+            46.38302830504534,
+            185.13100880000002
+          ],
+          [
+            648.0341038382383,
+            185.13100880000002
+          ],
+          [
+            648.0341038382383,
+            96.06461051734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 17,
+      "parent_id": "c6d63bbf58d13ca9bcafc9d4e31917dd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ce0d119f648439b3854e9b61bacaed6c",
+    "text": "Ex: MOV AX, [BX]",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            196.56459895734372
+          ],
+          [
+            46.38302830504534,
+            225.63100643999996
+          ],
+          [
+            268.75836059410574,
+            225.63100643999996
+          ],
+          [
+            268.75836059410574,
+            196.56459895734372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 17,
+      "parent_id": "c6d63bbf58d13ca9bcafc9d4e31917dd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6b76c45fe6044ef6f3564474404227d6",
+    "text": "4- Direct Addressing Mode \u2022 In the direct addressing mode, the address field of the instruction gives the address of the operand in memory in a data-transfer or data-manipulation instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            15.078699305045342,
+            62.56259899999998
+          ],
+          [
+            15.078699305045342,
+            229.73976219999997
+          ],
+          [
+            614.8770032289548,
+            229.73976219999997
+          ],
+          [
+            614.8770032289548,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 18,
+      "parent_id": "c6d63bbf58d13ca9bcafc9d4e31917dd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aa369816a3e47169bea83bd6ec784a46",
+    "text": "Ex: ADD R1, 000F",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            15.078699305045342,
+            241.17333895734373
+          ],
+          [
+            15.078699305045342,
+            270.23974644
+          ],
+          [
+            237.87126309907063,
+            270.23974644
+          ],
+          [
+            237.87126309907063,
+            241.17333895734373
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 18,
+      "parent_id": "c6d63bbf58d13ca9bcafc9d4e31917dd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cfff8b90178ea75932838d9080408d01",
+    "text": "5- Indirect Addressing Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            571.5757725799999,
+            106.56259899999998
+          ],
+          [
+            571.5757725799999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "463ba71815ceac066c6d44905a954b94",
+    "text": "In the indirect addressing mode, the address field of the instruction gives the address at which the effective address is stored in memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            636.4658107920584,
+            238.3484168
+          ],
+          [
+            636.4658107920584,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 20,
+      "parent_id": "cfff8b90178ea75932838d9080408d01",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2cda027ec90e72b9068027dc7b94397e",
+    "text": "6- Indexed Addressing Mode \u2022 The content of an index register is added to the address part of the instruction to obtain the effective address.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            45.72559000000001
+          ],
+          [
+            46.38302830504534,
+            194.04952680000002
+          ],
+          [
+            610.9300467471795,
+            194.04952680000002
+          ],
+          [
+            610.9300467471795,
+            45.72559000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 21,
+      "parent_id": "cfff8b90178ea75932838d9080408d01",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "db1faa7fc3e2f5ec1fc963b13d2ace3c",
+    "text": "The index register may be a special CPU register or simply a register in a register file.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            205.48311895734378
+          ],
+          [
+            46.38302830504534,
+            264.54953484000004
+          ],
+          [
+            653.4330800624732,
+            264.54953484000004
+          ],
+          [
+            653.4330800624732,
+            205.48311895734378
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 21,
+      "parent_id": "cfff8b90178ea75932838d9080408d01",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1418e2ec1c7410d0ce46b2f877adeb63",
+    "text": "7-Relative Addressing Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            568.57577278,
+            106.56259899999998
+          ],
+          [
+            568.57577278,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "599201631bfba7ddde4383ee41ad87b3",
+    "text": "Relative addressing is often used in branching. \u2022 Effective address = Address part of the instruction + Contents of PC",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            248.84842484
+          ],
+          [
+            645.4534188136316,
+            248.84842484
+          ],
+          [
+            645.4534188136316,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 22,
+      "parent_id": "1418e2ec1c7410d0ce46b2f877adeb63",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e217090b0edababc57e78f1a0d4eb4d1",
+    "text": "Note",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            36.93047877499998
+          ],
+          [
+            56.698818,
+            76.53047677499995
+          ],
+          [
+            135.68611904474216,
+            76.53047677499995
+          ],
+          [
+            135.68611904474216,
+            36.93047877499998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "59e7a522272d9dac2b6cd444e2717459",
+    "text": "Table 1 lists the value of the effective address and the operand loaded into the ACC for the seven addressing modes. The table also shows the operation with a register transfer statement and a symbolic convention for each addressing mode.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            97.48045705249615
+          ],
+          [
+            47.07881835847694,
+            242.86686991
+          ],
+          [
+            645.5416596193197,
+            242.86686991
+          ],
+          [
+            645.5416596193197,
+            97.48045705249615
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1520a8cccbadce7134ec2690a09928e9",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            173.2304542674961
+          ],
+          [
+            47.07881835847694,
+            199.13045384749609
+          ],
+          [
+            56.14634760543592,
+            199.13045384749609
+          ],
+          [
+            56.14634760543592,
+            173.2304542674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f6ffd27e5bf8becaab5a873e275bde4c",
+    "text": "LDA is the symbol for the load-to-accumulator opcode. \u2022 In the direct mode, we use the symbol ADRS for the address part of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            248.2304532674961
+          ],
+          [
+            47.07881835847694,
+            327.61687910750004
+          ],
+          [
+            648.5077488689901,
+            327.61687910750004
+          ],
+          [
+            648.5077488689901,
+            248.2304532674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7520ba51d4f9d82f62fd89042cd93ab6",
+    "text": "The # symbol precedes the operand NBR (is a number or operand) in the immediate mode.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            332.98044326749607
+          ],
+          [
+            47.07881835847694,
+            380.86687910750004
+          ],
+          [
+            638.2747956076223,
+            380.86687910750004
+          ],
+          [
+            638.2747956076223,
+            332.98044326749607
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "09dc67d7df82a8ebebdf3475a9e79122",
+    "text": "The symbol ADRS enclosed in square brackets symbolizes an indirect address, which some compilers or assemblers designate with the symbol @.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            386.23044326749607
+          ],
+          [
+            47.07881835847694,
+            455.86686491
+          ],
+          [
+            640.1065903313021,
+            455.86686491
+          ],
+          [
+            640.1065903313021,
+            386.23044326749607
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 25,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8cc0ec55e572a6a982710efc28f57bc0",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.26098300000001
+          ],
+          [
+            56.698818,
+            82.26098300000001
+          ],
+          [
+            162.89998967999998,
+            82.26098300000001
+          ],
+          [
+            162.89998967999998,
+            38.26098300000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 26,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d7fc07cfd8d8d76bf21d4c600b58de46",
+    "text": "The symbol $ before the address makes the effective address relative to the PC.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            110.92335251734374
+          ],
+          [
+            46.38302830504534,
+            169.98976340000002
+          ],
+          [
+            567.4817705954553,
+            169.98976340000002
+          ],
+          [
+            567.4817705954553,
+            110.92335251734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 26,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "77ff46ddb3e184b8d6ed63903c85a770",
+    "text": "An index-mode instruction is recognized by the symbol of a register placed in parentheses after the address symbol.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            181.4233489573437
+          ],
+          [
+            46.38302830504534,
+            270.48973323999996
+          ],
+          [
+            613.9600178973438,
+            270.48973323999996
+          ],
+          [
+            613.9600178973438,
+            181.4233489573437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 26,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "15e396ec644b4f3f9633cd37be7d64fa",
+    "text": "The register mode is indicated by giving the name of the processor register following LDA.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            281.92334895734376
+          ],
+          [
+            46.38302830504534,
+            340.98973484
+          ],
+          [
+            644.0895314114897,
+            340.98973484
+          ],
+          [
+            644.0895314114897,
+            281.92334895734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 26,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "29791b65072b4b45810ffb04723a20df",
+    "text": "In the register- indirect mode, the name of the register that holds the effective address is enclosed in parentheses.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            352.42334895734376
+          ],
+          [
+            46.38302830504534,
+            441.48973324
+          ],
+          [
+            655.8327300081143,
+            441.48973324
+          ],
+          [
+            655.8327300081143,
+            352.42334895734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 26,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a18847d641dd9068d114ecde7d14353d",
+    "text": "Complex Instruction Set Computer (CISC) A purely CISC architecture has the following properties: 1. Memory access is directly available to most types of instructions. 2. Addressing modes are substantial. 3. Instruction formats are of different lengths. 4. Instructions perform both elementary and complex operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.93759899999998
+          ],
+          [
+            56.698818,
+            430.34843484
+          ],
+          [
+            643.5885943597281,
+            430.34843484
+          ],
+          [
+            643.5885943597281,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 27,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e85858c444ba4ad303a85f3316b0db42",
+    "text": "Reduced instruction set computers (RISCs) A RISC architecture has the following properties: 1. All operations on data apply to data in registers and typically change the entire register (32 or 64 bits per register). 2. Memory accesses are restricted to load and store instructions, and data manipulation instructions are register-to-register. 3. Addressing modes are limited. 4. Instruction formats are all of the same length. 5. Instructions perform elementary operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.93759899999998
+          ],
+          [
+            56.698818,
+            467.84842460000004
+          ],
+          [
+            654.3073464891677,
+            467.84842460000004
+          ],
+          [
+            654.3073464891677,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 28,
+      "parent_id": "e217090b0edababc57e78f1a0d4eb4d1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4dda75ff7756296c108c0cdb8abb37ce",
+    "text": "Classes of Instructions:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            463.56210072,
+            106.56259899999998
+          ],
+          [
+            463.56210072,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6fdfe5a8b50fc2efbc28645ffbdbe95a",
+    "text": "The goal of a RISC architecture is high throughput and fast execution. To achieve these goals, accesses to memory, which typically take longer than other elementary operations, are to be avoided, except for fetching instructions. Most RISC architectures, have three classes of instructions: 1- ALU instructions\u2014These instructions take either two registers or a register and a sign-extended immediate. 2- Load and store instructions 3- Branches and jumps",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            147.18698954249606
+          ],
+          [
+            47.07881835847694,
+            460.57342479500005
+          ],
+          [
+            639.2923517030443,
+            460.57342479500005
+          ],
+          [
+            639.2923517030443,
+            147.18698954249606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 29,
+      "parent_id": "4dda75ff7756296c108c0cdb8abb37ce",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce87fc6e44dac21916aa830e342818e8",
+    "text": "A Simple Implementation of a RISC Instruction Set",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            45.68759899999998
+          ],
+          [
+            56.698818,
+            120.68759899999998
+          ],
+          [
+            575.63631844,
+            120.68759899999998
+          ],
+          [
+            575.63631844,
+            45.68759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dc120ae0037cd6158e69c7dbe9c9c992",
+    "text": "To understand how a RISC instruction set can be implemented in a pipelined fashion, we need to understand how it is implemented without pipelining.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            618.9295087085371,
+            268.34841919999997
+          ],
+          [
+            618.9295087085371,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 30,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3fa86a3706f1ff1128e98c29df1bd2db",
+    "text": "Every instruction in this RISC subset can be implemented in at most 5 clock cycles.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            558.1019201650888,
+            338.84843484
+          ],
+          [
+            558.1019201650888,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 30,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d5c1e23a30d0910a478a9aaa09fdd81b",
+    "text": "The 5 clock cycles are as follows: IF(cid:0) ID/ OF(cid:0)EX(cid:0) MEM(cid:0)WB",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843644
+          ],
+          [
+            443.1511483698169,
+            419.84843644
+          ],
+          [
+            443.1511483698169,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 30,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "32a5656c8de2a8558766170c8609a048",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 31,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "66693f1b83d2beb892f840353c1f3b25",
+    "text": "IF (cid:0) instruction fetch \u2022 ID / OF (cid:0) instruction decoding / operand fetch \u2022 EX (cid:0) ALU execution \u2022 MEM (cid:0) memory access if the current instruction is by Ex",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            359.84844324
+          ],
+          [
+            646.2836318813228,
+            359.84844324
+          ],
+          [
+            646.2836318813228,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 31,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "600782342ca2b6c77b6b6e510c313d1b",
+    "text": "WB (cid:0) write the result in a register file.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            371.28202895734375
+          ],
+          [
+            46.38302830504534,
+            400.34843644
+          ],
+          [
+            504.27150253049297,
+            400.34843644
+          ],
+          [
+            504.27150253049297,
+            371.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 31,
+      "parent_id": "ce87fc6e44dac21916aa830e342818e8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0eba428c8b0cf66efbe419ba71bc930e",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ed5af8322ece0031702eabc890f5852a",
+    "text": "Text Book",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            184.32604193819236,
+            178.34842500000002
+          ],
+          [
+            184.32604193819236,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 9.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-12-14T23:20:46",
+      "page_number": 33,
+      "parent_id": "0eba428c8b0cf66efbe419ba71bc930e",
+      "filetype": "application/pdf"
+    }
+  }
+]

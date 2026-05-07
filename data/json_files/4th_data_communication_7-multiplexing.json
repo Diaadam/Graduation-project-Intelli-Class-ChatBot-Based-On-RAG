@@ -1,0 +1,2505 @@
+[
+  {
+    "type": "Title",
+    "element_id": "77b3719ceb144030c1cd89fe398c1574",
+    "text": "CHAPTER 8",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            366.82,
+            156.16160000000002
+          ],
+          [
+            366.82,
+            196.1216
+          ],
+          [
+            593.23336,
+            196.1216
+          ],
+          [
+            593.23336,
+            156.16160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d19c47ed9f4ee00102848151f503aa68",
+    "text": "Multiplexing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            322.03,
+            299.27
+          ],
+          [
+            322.03,
+            353.27
+          ],
+          [
+            637.066,
+            353.27
+          ],
+          [
+            637.066,
+            299.27
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d846b745e376fa0a2b45e040ada0a8ca",
+    "text": "\u201cIt was impossible to get a conversation going, everybody was talking too much.\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            65.664,
+            125.85718400000002
+          ],
+          [
+            65.664,
+            200.786
+          ],
+          [
+            913.5608879999995,
+            200.786
+          ],
+          [
+            913.5608879999995,
+            125.85718400000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 2,
+      "parent_id": "d19c47ed9f4ee00102848151f503aa68",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4f83357e314be92e56b3abd9dba07161",
+    "text": "Yogi Berra",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            741.48,
+            262.447184
+          ],
+          [
+            741.48,
+            298.471184
+          ],
+          [
+            918.548856,
+            298.471184
+          ],
+          [
+            918.548856,
+            262.447184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 2,
+      "parent_id": "d19c47ed9f4ee00102848151f503aa68",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2f5985fcea45b6283901a39741ea0ef6",
+    "text": "MULTIPLEXING",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            282.67,
+            53.592543999999975
+          ],
+          [
+            282.67,
+            93.57654400000001
+          ],
+          [
+            596.2645120000001,
+            93.57654400000001
+          ],
+          [
+            596.2645120000001,
+            53.592543999999975
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4f6ac593e51774fee763c7fa9ab9b206",
+    "text": "Bandwidth utilization is the wise use of available bandwidth. Efficiency can be achieved by multiplexing; i.e., sharing of the bandwidth between multiple users.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            117.72,
+            342.08000000000004
+          ],
+          [
+            117.72,
+            437.0
+          ],
+          [
+            812.4141599999996,
+            437.0
+          ],
+          [
+            812.4141599999996,
+            342.08000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 3,
+      "parent_id": "2f5985fcea45b6283901a39741ea0ef6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "07bc9acc7e095ba0a9726e36292c0e57",
+    "text": "Categories of Multiplexing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.52,
+            64.143824
+          ],
+          [
+            191.52,
+            108.20782400000002
+          ],
+          [
+            678.2509440000001,
+            108.20782400000002
+          ],
+          [
+            678.2509440000001,
+            64.143824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fec805e17f5b3d9b6c46ca25ea6e97ca",
+    "text": "Frequency-division multiplexing (FDM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            210.67,
+            62.60064
+          ],
+          [
+            210.67,
+            94.64064000000002
+          ],
+          [
+            744.0946,
+            94.64064000000002
+          ],
+          [
+            744.0946,
+            62.60064
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c68fd0009c2b73818bd111ac58115554",
+    "text": "FDM is an analog multiplexing technique that combines analog signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.008,
+            376.37
+          ],
+          [
+            79.008,
+            404.33000000000004
+          ],
+          [
+            880.6211999999995,
+            404.33000000000004
+          ],
+          [
+            880.6211999999995,
+            376.37
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 5,
+      "parent_id": "fec805e17f5b3d9b6c46ca25ea6e97ca",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d9ad41bcefc137f9282a54514dbc76ec",
+    "text": "1- Frequency-division multiplexing (FDM) Process",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            122.02,
+            67.61000000000001
+          ],
+          [
+            122.02,
+            103.61000000000001
+          ],
+          [
+            820.3879999999998,
+            103.61000000000001
+          ],
+          [
+            820.3879999999998,
+            67.61000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f49df34f5cd8ab658fa37fa392538894",
+    "text": "FDM demultiplexing example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.69,
+            54.910000000000025
+          ],
+          [
+            254.69,
+            90.91000000000003
+          ],
+          [
+            667.8259999999999,
+            90.91000000000003
+          ],
+          [
+            667.8259999999999,
+            54.910000000000025
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 7,
+      "parent_id": "d9ad41bcefc137f9282a54514dbc76ec",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9767923f29267c8950f3ad2b815b921a",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            217.22,
+            25.440000000000055
+          ],
+          [
+            217.22,
+            61.44
+          ],
+          [
+            337.20799999999997,
+            61.44
+          ],
+          [
+            337.20799999999997,
+            25.440000000000055
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5029924f3961ba00fe94c82f1f3eac63",
+    "text": "Assume that a voice channel occupies a bandwidth of 4 kHz. We need to combine three voice channels into a link with a bandwidth of 12 kHz, from 20 to 32 kHz. Show the configuration, using the frequency domain. Assume there are no guard bands.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            90.192,
+            80.69936000000001
+          ],
+          [
+            90.192,
+            209.48935999999998
+          ],
+          [
+            881.006,
+            209.48935999999998
+          ],
+          [
+            881.006,
+            80.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 9,
+      "parent_id": "9767923f29267c8950f3ad2b815b921a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c6b5ed1cafa078cb2b0b7de435298e7a",
+    "text": "Solution We shift (modulate) each of the three voice channels to a different bandwidth. We use the 20- to 24-kHz bandwidth for the first channel, the 24- to 28-kHz bandwidth for the second channel, and the 28- to 32-kHz bandwidth for the third one.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            90.192,
+            260.71054399999997
+          ],
+          [
+            90.192,
+            423.114544
+          ],
+          [
+            869.1685200000001,
+            423.114544
+          ],
+          [
+            869.1685200000001,
+            260.71054399999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 9,
+      "parent_id": "9767923f29267c8950f3ad2b815b921a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "42b79b9c0cf8a408819d0b9b37629f1b",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            205.22,
+            35.132000000000005
+          ],
+          [
+            205.22,
+            79.19600000000003
+          ],
+          [
+            352.129376,
+            79.19600000000003
+          ],
+          [
+            352.129376,
+            35.132000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cd5ef96a0fe02023a1d0174a4e0e1a46",
+    "text": "Five channels, each with a 100-kHz bandwidth, are to be multiplexed together. What is the minimum bandwidth of the link if there is a need for a guard band of 10 kHz between the channels to prevent interference?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.76,
+            98.69936000000001
+          ],
+          [
+            62.76,
+            193.88936
+          ],
+          [
+            887.896,
+            193.88936
+          ],
+          [
+            887.896,
+            98.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 11,
+      "parent_id": "42b79b9c0cf8a408819d0b9b37629f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9eea84cc3d7645493a16621a9f073bb6",
+    "text": "Solution",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            145.22,
+            248.72935999999999
+          ],
+          [
+            145.22,
+            276.68935999999997
+          ],
+          [
+            238.66232,
+            276.68935999999997
+          ],
+          [
+            238.66232,
+            248.72935999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c41f4ed39cc4d7be5e1a828abb527a13",
+    "text": "5 \u00d7 100 + 4 \u00d7 10 = 540 kHz,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            315.53,
+            282.34936
+          ],
+          [
+            315.53,
+            310.30935999999997
+          ],
+          [
+            651.4346800000001,
+            310.30935999999997
+          ],
+          [
+            651.4346800000001,
+            282.34936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 11,
+      "parent_id": "9eea84cc3d7645493a16621a9f073bb6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2d0769a7e6ad3a1432d3131b30ec60b9",
+    "text": "2- Wavelength Division Multiplexing (WDM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            96.48,
+            43.16999999999996
+          ],
+          [
+            96.48,
+            87.20999999999998
+          ],
+          [
+            854.3235599999999,
+            87.20999999999998
+          ],
+          [
+            854.3235599999999,
+            43.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d7687de94f52e22e0a0479f86cd4b93c",
+    "text": "WDM is an analog multiplexing technique.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            153.48,
+            191.39839999999998
+          ],
+          [
+            153.48,
+            220.4384
+          ],
+          [
+            691.708,
+            220.4384
+          ],
+          [
+            691.708,
+            191.39839999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 12,
+      "parent_id": "2d0769a7e6ad3a1432d3131b30ec60b9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6b659b7a8355442cdb193dd333b11b08",
+    "text": "Multiple beams of light at different frequencies",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.08,
+            257.39
+          ],
+          [
+            154.08,
+            288.35
+          ],
+          [
+            747.70704,
+            288.35
+          ],
+          [
+            747.70704,
+            257.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d4d21adf288ee5867dc84bfbb74b46c2",
+    "text": "Carried over optical fiber links",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.08,
+            323.87
+          ],
+          [
+            154.08,
+            354.83000000000004
+          ],
+          [
+            530.3059199999999,
+            354.83000000000004
+          ],
+          [
+            530.3059199999999,
+            323.87
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 12,
+      "parent_id": "6b659b7a8355442cdb193dd333b11b08",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8b71be24a0d89e67034c3f745d831e7f",
+    "text": "Dense Wavelength Division Multiplexing (DWDM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.08,
+            390.35
+          ],
+          [
+            154.08,
+            421.31
+          ],
+          [
+            776.96424,
+            421.31
+          ],
+          [
+            776.96424,
+            390.35
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0e2fe38d21e3844302b87627e24987c0",
+    "text": "3- Time Division Multiplexing (TDM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            199.22,
+            58.339999999999975
+          ],
+          [
+            199.22,
+            94.33999999999997
+          ],
+          [
+            706.9639999999999,
+            94.33999999999997
+          ],
+          [
+            706.9639999999999,
+            58.339999999999975
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dded169d976c171c0ee628004ff88d68",
+    "text": "TDM is a digital multiplexing technique for combining several digital channels into one high-rate one.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            81.624,
+            416.89
+          ],
+          [
+            81.624,
+            478.446
+          ],
+          [
+            855.0535199999996,
+            478.446
+          ],
+          [
+            855.0535199999996,
+            416.89
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 14,
+      "parent_id": "0e2fe38d21e3844302b87627e24987c0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "67f7ea8a0b789ee4190448b73b172f73",
+    "text": "Synchronous time-division multiplexing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.22,
+            71.072
+          ],
+          [
+            163.22,
+            107.096
+          ],
+          [
+            718.6111520000002,
+            107.096
+          ],
+          [
+            718.6111520000002,
+            71.072
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f406eae120d318a877c50d2a92fba2b5",
+    "text": "modulatedTDM stream",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "967f5290309e7e3564c62e46f1751c63",
+    "text": "n",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "023b22d85f7d813a73b5c22b9bd2c329",
+    "text": "mn(t)m1(t)m2(t)mn(t)mc(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0c9655421d3411ee0be76ba689d92f72",
+    "text": "Modems(t)mc(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf86ecb5d66cb0e9f8f74f5280cca630",
+    "text": "modulatedTDM stream",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "95a8eced7b7f252942b54acc7be68d20",
+    "text": "N",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7b1d93cbdf26504eb3857cce29aa25e2",
+    "text": "ScanOperationBuffer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "773257692fa0b73df174e34769846035",
+    "text": "Framem1(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7362b2ce0bfa550f82adb2b8feb6a352",
+    "text": "m2(t)s(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "773257692fa0b73df174e34769846035",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4229c7f689229d144104c58c0fe0fe7c",
+    "text": "mn(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce82dab341bb64f7f0746ef8fb90d01d",
+    "text": "TDM stream",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8e71001ff30ac99a9b513dbafb69934f",
+    "text": "TDM stream",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a57f85401dc894ff2565c7b90413ce45",
+    "text": "BufferFrameTime slot: may beempty or occupied",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "8e71001ff30ac99a9b513dbafb69934f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "19f09646d8f0d59100f47f5465d4ec1b",
+    "text": "Buffer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "13e47198a71fb64d7388743fcb5844c1",
+    "text": "BufferBuffer1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "400246ba8b569a62a810c3814b0163f4",
+    "text": "BufferScanOperation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b90fe0ab6e0fa9a42a2345c649b053b5",
+    "text": "2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "400246ba8b569a62a810c3814b0163f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a7be8fdcadffe64df85e379f22a99d6",
+    "text": "Modem",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9e718f3e779b9ce828cb2854261be1e2",
+    "text": "2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "8a7be8fdcadffe64df85e379f22a99d6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "993304f6c8d35d11a54d6ce5dbcd9b5d",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "8a7be8fdcadffe64df85e379f22a99d6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6b026ce99c8cff252e6ca2454c0be122",
+    "text": "m2(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "8a7be8fdcadffe64df85e379f22a99d6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b57537074b3cbda0387dd63e53f99496",
+    "text": "m1(t)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "parent_id": "8a7be8fdcadffe64df85e379f22a99d6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d0ed52890441029aeb2ecb3cc687418e",
+    "text": "Figure 8.6 Synchronous TDM System(a) Transmitter(c) Receiver(b) TDM Frames",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            271.3599728560428,
+            19.637182145953943
+          ],
+          [
+            271.3599728560428,
+            515.45
+          ],
+          [
+            688.6491731715,
+            515.45
+          ],
+          [
+            688.6491731715,
+            19.637182145953943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "703b0abe0b76d92e243342192dbc0f8a",
+    "text": "Interleaving",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            127.22,
+            54.47000000000003
+          ],
+          [
+            127.22,
+            98.50999999999999
+          ],
+          [
+            335.61728000000005,
+            98.50999999999999
+          ],
+          [
+            335.61728000000005,
+            54.47000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dd49fd8c443b8dc4eab3f7eb8549f989",
+    "text": "The process of taking a group of bits from each input line for multiplexing is called interleaving.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            127.22,
+            130.31264
+          ],
+          [
+            127.22,
+            189.68
+          ],
+          [
+            797.9188160000002,
+            189.68
+          ],
+          [
+            797.9188160000002,
+            130.31264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 17,
+      "parent_id": "703b0abe0b76d92e243342192dbc0f8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "75fa07680021ed2af92ca019e510dbf5",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            211.22,
+            8.771999999999935
+          ],
+          [
+            211.22,
+            36.75599999999997
+          ],
+          [
+            315.93612800000005,
+            36.75599999999997
+          ],
+          [
+            315.93612800000005,
+            8.771999999999935
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cd15b3a836449961d1ee663353c95b89",
+    "text": "Four channels are multiplexed using TDM. If each channel sends 100 bytes /s and we multiplex 1 byte per channel, show \u2022 The frame traveling on the link, \u2022 The size of the frame \u2022 The duration of a frame, the frame rate, and \u2022 The bit rate for the link.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            145.22,
+            80.69936000000001
+          ],
+          [
+            145.22,
+            310.30935999999997
+          ],
+          [
+            815.77,
+            310.30935999999997
+          ],
+          [
+            815.77,
+            80.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 18,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5224a3bc815c0240f7cb13d9fff7d16f",
+    "text": "Solution Each frame carries 1 byte from each channel; \u2022 The size of each frame, therefore, is 4 bytes, or 32 bits. \u2022 Because each channel is sending 100 bytes/s and a frame carries 1 byte from each channel, the frame rate must be 100 frames per second. \u2022 Frame duration=1/ frame rate \u2022 The bit rate is 100 \u00d7 32, or 3200 bps.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            145.22,
+            56.69936000000001
+          ],
+          [
+            145.22,
+            319.90936
+          ],
+          [
+            821.776,
+            319.90936
+          ],
+          [
+            821.776,
+            56.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 19,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e267625e200d81f4ebb24ddb3719020a",
+    "text": "Data Rate Management",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.22,
+            54.47000000000003
+          ],
+          [
+            181.22,
+            98.50999999999999
+          ],
+          [
+            599.46788,
+            98.50999999999999
+          ],
+          [
+            599.46788,
+            54.47000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 20,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "38ba87d60a35d62083c667a35930c473",
+    "text": "Not all input links maybe have the same data rate. \u2022 Some links maybe slower. There maybe several different input link speeds",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.22,
+            160.3616
+          ],
+          [
+            181.22,
+            260.0
+          ],
+          [
+            767.4790399999998,
+            260.0
+          ],
+          [
+            767.4790399999998,
+            160.3616
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 20,
+      "parent_id": "e267625e200d81f4ebb24ddb3719020a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "08c75edfa025ca63e9863281f5691e29",
+    "text": "There are three strategies that can be used to overcome the data rate mismatch: multilevel, multislot and pulse stuffing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.22,
+            271.10264
+          ],
+          [
+            181.22,
+            360.70000000000005
+          ],
+          [
+            722.7166880000003,
+            360.70000000000005
+          ],
+          [
+            722.7166880000003,
+            271.10264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 20,
+      "parent_id": "e267625e200d81f4ebb24ddb3719020a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8d33afc7d3c47b6858b0525b98843067",
+    "text": "Multilevel multiplexing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            301.25,
+            58.40182400000003
+          ],
+          [
+            301.25,
+            90.465824
+          ],
+          [
+            599.28488,
+            90.465824
+          ],
+          [
+            599.28488,
+            58.40182400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 21,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1f947629ccb730e73ec9ea8960ab5db0",
+    "text": "Multiple-slot multiplexing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            286.25,
+            62.82182399999999
+          ],
+          [
+            286.25,
+            94.88582399999996
+          ],
+          [
+            619.845776,
+            94.88582399999996
+          ],
+          [
+            619.845776,
+            62.82182399999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 22,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c257245adfcc08919fef39c22af09b24",
+    "text": "Pulse stuffing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            361.25,
+            58.69064000000003
+          ],
+          [
+            361.25,
+            90.73064
+          ],
+          [
+            536.47676,
+            90.73064
+          ],
+          [
+            536.47676,
+            58.69064000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 23,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cbb77a9a28e081916cbaa2f506a083c9",
+    "text": "Synchronization",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            342.7,
+            30.470000000000027
+          ],
+          [
+            342.7,
+            74.50999999999999
+          ],
+          [
+            617.7298,
+            74.50999999999999
+          ],
+          [
+            617.7298,
+            30.470000000000027
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 24,
+      "parent_id": "75fa07680021ed2af92ca019e510dbf5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f5a69d4df1920357911b3021b06a360b",
+    "text": "To ensure that the receiver correctly reads the incoming bits, i.e., knows the incoming bit boundaries to interpret a \u201c1\u201d and a \u201c0\u201d, a known bit pattern is used between the frames.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            58.632,
+            88.33160000000004
+          ],
+          [
+            58.632,
+            177.89599999999996
+          ],
+          [
+            820.6225999999999,
+            177.89599999999996
+          ],
+          [
+            820.6225999999999,
+            88.33160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 24,
+      "parent_id": "cbb77a9a28e081916cbaa2f506a083c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e5f21d42cf108cda6937128bb54f7ac0",
+    "text": "The receiver looks for the anticipated bit and starts counting bits till the end of the frame.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            58.632,
+            189.16160000000002
+          ],
+          [
+            58.632,
+            248.48000000000002
+          ],
+          [
+            849.5582399999988,
+            248.48000000000002
+          ],
+          [
+            849.5582399999988,
+            189.16160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 24,
+      "parent_id": "cbb77a9a28e081916cbaa2f506a083c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4873d3c9e79a2d85c6256855dd24fd4a",
+    "text": "Then it starts over again with the reception of another known bit. \u2022 These bits (or bit patterns) are called synchronization bit(s). \u2022 They are part of the overhead of transmission.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            58.632,
+            259.58263999999997
+          ],
+          [
+            58.632,
+            369.22
+          ],
+          [
+            819.2713920000001,
+            369.22
+          ],
+          [
+            819.2713920000001,
+            259.58263999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 24,
+      "parent_id": "cbb77a9a28e081916cbaa2f506a083c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65e969eccb4a89f1098849763f4202db",
+    "text": "Framing bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            373.25,
+            56.717183999999975
+          ],
+          [
+            373.25,
+            92.74118399999998
+          ],
+          [
+            560.250584,
+            92.74118399999998
+          ],
+          [
+            560.250584,
+            56.717183999999975
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "7-Multiplexing.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:17",
+      "page_number": 25,
+      "parent_id": "cbb77a9a28e081916cbaa2f506a083c9",
+      "filetype": "application/pdf"
+    }
+  }
+]

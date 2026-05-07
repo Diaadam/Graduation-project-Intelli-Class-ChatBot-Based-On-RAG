@@ -1,0 +1,260 @@
+[
+  {
+    "id": "52e25239-c51e-4376-93df-c6fd84795506",
+    "text": "Chapter 3 – Agile Software Development 30/10/2014 Chapter 3 Agile SoftwareDevelopment 1 Topics covered  Agile Manifesto  Agile methods  Agile user story  Scaling Scrum 30/10/2014 Chapter 3 Agile SoftwareDevelopment 2 History  Dissatisfaction in software industry 1980-1990  Developed late 1990 to overcome problems in old methods  Refactoring  Pair programming  Scrum  XP  CI  Agile manifesto 2001  TDD  BDD  Clean Code 3",
+    "chunk_index": 0,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "355fc10e-e5ea-4359-a5ea-76afade9709f",
+    "text": "Agile in a nutshell  Rapid development and delivery  Frequent delivery  Incremental versions  Minimal documentation  Extensive tool support  Interleaved activities  Respond to changes quickly  Reduced process overhead 30/10/2014 Chapter 3 Agile SoftwareDevelopment 4 30/10/2014 Agile methods Chapter 3 Agile SoftwareDevelopment 5 30/10/2014 Chapter 3 Agile SoftwareDevelopment 6",
+    "chunk_index": 1,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "6b4cf961-6463-4741-94d2-1e7ad6c4e1a7",
+    "text": "Agile manifesto & Values  We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value: 1. Individuals and interactions over processes and tools 2. Working software over comprehensive documentation 3. Customer collaboration over contract negotiation 4. Responding to change over following a plan  That is, while there is value in the items on the right, we",
+    "chunk_index": 2,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "067bfc4f-5aac-4f36-885f-d6a28786b7b0",
+    "text": "value the items on the left more. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 7 The 12 principles of agile methods 1. Customer satisfaction by early and continuous delivery of valuable software. 2. Welcome changing requirements, even in late development. 3. Deliver working software frequently (weeks rather than months). 4. Close, daily cooperation between business people and",
+    "chunk_index": 3,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "81cb4e8c-0020-4771-8321-5abd521d6221",
+    "text": "developers 5. Projects are built around motivated individuals, who should be trusted 6. Face-to-face conversation is the best form of communication (co-location) 30/10/2014 Chapter 3 Agile SoftwareDevelopment 8 The 12 principles of agile methods 7. Working software is the primary measure of progress 8. Sustainable development, able to maintain a constant pace 9. Continuous attention to technical excellence and good design 10. Simplicity—the art of maximizing the amount of work not",
+    "chunk_index": 4,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "2085a2cf-94c8-4b84-867a-2ee0f2b81cd3",
+    "text": "done—is essential 11. Best architectures, requirements, and designs emerge from self-organizing teams 12. Regularly, the team reflects on how to become more effective, and adjusts accordingly 30/10/2014 Chapter 3 Agile SoftwareDevelopment 9 Agile principles in a nutshell Principle Description Customer involvement Customers should be closely involved throughout the development process. Their role is provide and prioritize new the system requirements and to evaluate the iterations of system.",
+    "chunk_index": 5,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "f057d3ee-78af-481d-95df-4ed3116f0a74",
+    "text": "Incremental delivery The software is developed in increments with the customer specifying the requirements to be included in each increment. People not process The skills of the development team should be recognized and exploited. Team members should be left to develop their own ways of working without prescriptive processes.",
+    "chunk_index": 6,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1db08e42-b122-4c25-9ed9-8f5ab0b3ee69",
+    "text": "Embrace change Expect the system requirements to change and so design the system to accommodate these changes. Maintain simplicity Focus on simplicity in both the software being developed and in the development process. Wherever possible, actively work to eliminate complexity from the system. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 10 When Agile is applicable",
+    "chunk_index": 7,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "a83eefa6-ef53-4814-be12-fc4b99a27cc5",
+    "text": " Small/medium size products.  Customer is available and involved  Cross functional team  Organization mindset 30/10/2014 Chapter 3 Agile SoftwareDevelopment 11 30/10/2014 Agile development techniques Chapter 3 Agile SoftwareDevelopment 12 eXtreme Programming 30/10/2014 Chapter 3 Agile SoftwareDevelopment 13",
+    "chunk_index": 8,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1572469e-c75e-4ed5-84ec-775e330e3ff3",
+    "text": "The extreme programming release cycle 30/10/2014 Chapter 3 Agile SoftwareDevelopment 14 Extreme programming practices (a) Principle or practice Description Incremental planning Requirements are recorded on story cards and the stories to be included in a release are determined by the time available and their relative priority. The developers break these stories into development ‘Tasks’. See Figures 3.5 and 3.6.",
+    "chunk_index": 9,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "619a0f80-2bcb-4e6d-bcdb-8ded6ba85464",
+    "text": "Small releases The minimal useful set of functionality that provides business value is developed first. Releases of the system are frequent and incrementally add functionality to the first release. Simple design Enough design is carried out to meet the current requirements and no more. Test-first development An automated unit test framework is used to write tests for a new piece of implemented.",
+    "chunk_index": 10,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "e99cd489-1223-4e1d-923d-9dfff5ad68e0",
+    "text": "functionality before that functionality itself Refactoring All developers are expected to refactor the code continuously as soon as possible code improvements are found. This keeps the code simple and maintainable. 30/10/2014 Chapter 3 Agile SoftwareDevelopment is 15 Extreme programming practices (b) Pair programming Developers work in pairs, checking each other’s work and providing the support to always do a good job.",
+    "chunk_index": 11,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "ed2619b3-8ea0-42a7-992b-77204e7d2b79",
+    "text": "Collective ownership The pairs of developers work on all areas of the system, so that no islands of expertise develop and all the developers take responsibility for all of the code. Anyone can change anything. Continuous integration As soon as the work on a task is complete, it is integrated into the whole system. After any such integration, all the unit tests in the system must pass.",
+    "chunk_index": 12,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "2d99bc07-1425-4c5e-a114-0c1bd29a43c0",
+    "text": "Sustainable pace Large amounts of overtime are not considered acceptable as the net effect is often to reduce code quality and medium term productivity On-site customer A representative of the end-user of the system (the customer) should be available full time for the use of the XP team. In an extreme programming process, the customer is a member of the development team and is responsible for bringing system requirements to the team for implementation. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 16 How to map XP practices to Agile?  Incremental development is supported through small,",
+    "chunk_index": 13,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "4c648693-9801-4f08-a120-0b6a44d83050",
+    "text": "frequent system releases.  Customer involvement means full-time customer engagement with the team.  People not process through pair programming, collective ownership and a process that avoids long working hours.  Change supported through regular system releases.  Maintaining simplicity through constant refactoring of",
+    "chunk_index": 14,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "bc48cefb-1b87-4d1e-a0e5-45698cb97330",
+    "text": "code. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 17 Influential XP practices  Difficult to integrate with management strategy in most organizations.  Used practices  User stories for specification  Refactoring  Test-first development  Pair programming 30/10/2014 Chapter 3 Agile SoftwareDevelopment 18",
+    "chunk_index": 15,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "ecb6b5a1-7c6e-40c4-8f24-972629295f50",
+    "text": "User stories for requirements 30/10/2014 Chapter 3 Agile SoftwareDevelopment 19 User story template 30/10/2014 Chapter 3 Agile SoftwareDevelopment 20 Sample user story 30/10/2014 Chapter 3 Agile SoftwareDevelopment 21 Sample user story Sample user story 30/10/2014 Chapter 3 Agile SoftwareDevelopment 23",
+    "chunk_index": 16,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "b7a0c425-c086-4c45-b8a7-7f150c8819d0",
+    "text": "User story details 30/10/2014 Chapter 3 Agile SoftwareDevelopment 24 Levels of requirements 30/10/2014 Chapter 3 Agile SoftwareDevelopment 25 Done definition 30/10/2014 Chapter 3 Agile SoftwareDevelopment 26 Sample test case description 30/10/2014 Chapter 3 Agile SoftwareDevelopment 27",
+    "chunk_index": 17,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1905e883-cbf3-453d-b531-1ce8c00cfe28",
+    "text": "Refactoring  Remove duplicate code.  Logical naming for attributes and methods.  Replace inline with method calls.  Enhancing performance  Documenting complex functions  Re-architecture 30/10/2014 Chapter 3 Agile SoftwareDevelopment 29 TDD: Test Driven Development  Incremental test development from scenarios.  User involvement in test development and validation.  Automated test harnesses are used to run all componenttests each time that a new release is built. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 30",
+    "chunk_index": 18,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1728d28b-dae7-4a42-bcef-5279e37cc50c",
+    "text": "Practice: Red-Green-Refactor  Incremental test development from scenarios.  User involvement in test development and validation.  Automated test harnesses are used to run all componenttests each time that a new release is built. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 31 Pair programming  Pairs: developing code together",
+    "chunk_index": 19,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "59c0fc79-0b03-4cfe-a912-7a6c3f3f08c4",
+    "text": " Collective ownership  Considered as informal review process.  It encourages refactoring as the whole team can benefit from improving the system code.  Knowledge sharing 30/10/2014 Chapter 3 Agile SoftwareDevelopment 32 30/10/2014 Agile project management Chapter 3 Agile SoftwareDevelopment 33",
+    "chunk_index": 20,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "f495d240-1692-4690-a63f-62c6b577288f",
+    "text": "Manger role  Manage the project  Delivery on time  Within the budget  What should be delivered  When should be delivered  Who will develop the deliverables  Agile project management requires a different approach, which is adapted to incremental development and the practices used in agile methods. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 34",
+    "chunk_index": 21,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "d626a9a9-921a-4daa-8565-4e69095f4813",
+    "text": "Scrum  A lightweight agile software development framework for managing product and application development  Phases  Discovery: specs, plan & design  Implementation: series of sprint cycles  Closure: user manuals, project retrospective, lessons learnt 30/10/2014 Chapter 3 Agile SoftwareDevelopment 35",
+    "chunk_index": 22,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "94374649-11c1-470b-a378-438c87a522ee",
+    "text": "Scrum terminology (a) Scrum term Definition Development team A self-organizing group of software developers, which should be no more than 7 people. They are responsible for developing the software and other essential project documents. Potentiallyshippable product increment The software increment that is delivered from a sprint. The idea is that this should be ‘potentially shippable’ which means that it is in a finished state and no further work, such as testing, is needed to incorporate it into the final product. In practice, this is not always achievable.",
+    "chunk_index": 23,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "cceb16dd-2c3d-4a9d-8fbb-28e6d68a2a3b",
+    "text": "Product backlog This is a list of ‘to do’ items which the Scrum team must tackle. They may be feature definitions for the software, software requirements, user stories or descriptions of supplementary tasks that are needed, such as architecture definition or user documentation. Product owner An individual (or possibly a small group) whose job is to identify product features or requirements, prioritize these for development and continuously review the product backlog to ensure that the project continues to meet critical business needs. The Product Owner can be a customer but might also be a product manager in a software company or other stakeholderrepresentative. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 36",
+    "chunk_index": 24,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "2c70c02d-2eee-4100-bb6e-f28b4fa1beff",
+    "text": "Scrum terminology (b) Scrum term Scrum Definition A daily meeting of the Scrum team that reviews progress and prioritizes work to be done that day. Ideally, this should be a short face-to-face meeting that includes the wholeteam. ScrumMaster The ScrumMaster is responsible for ensuring that the Scrum processis followed and guides the team in the effective use of Scrum. He or sheis responsible for interfacing with the rest of the company and for ensuring that the Scrum team is not diverted by outside interference. The Scrum developers are adamant that the ScrumMaster should not be thought of as a project manager. Others, however, may not always find it easy to see the difference.",
+    "chunk_index": 25,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "994c8253-e579-4567-8cc2-1bff19148ed7",
+    "text": "Sprint A development iteration. Sprints are usually 2-4 weekslong. Velocity An estimate of how much product backlog effort that a team can cover in a single sprint. Understanding a team’s velocity helps themestimate what can be covered in a sprint and provides a basis formeasuring improving performance. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 37",
+    "chunk_index": 26,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "13b68311-c129-4ceb-a604-01b822d35a8e",
+    "text": "Scrum overview 30/10/2014 Chapter 3 Agile SoftwareDevelopment 38 The Scrum sprint cycle 30/10/2014 Chapter 3 Agile SoftwareDevelopment 39 Product Backlog 30/10/2014 Chapter 3 Agile SoftwareDevelopment 40 Product backlog vs iteration backlog 30/10/2014 Chapter 3 Agile SoftwareDevelopment 41",
+    "chunk_index": 27,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "46a7a518-bbdb-4007-b221-9a2684512735",
+    "text": "Release vs Sprint 30/10/2014 Chapter 3 Agile SoftwareDevelopment 42 The Sprint cycle  Team committed to develop the selected stories  Team is isolated from the customer  External communication thru ‘Scrum master’.  At the end of the sprint, the work done is reviewed and presented to stakeholders. The next sprint cycle then",
+    "chunk_index": 28,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "55186586-0cf4-4047-bda3-2fbe7849650d",
+    "text": "begins. 30/10/2014 Chapter 3 Agile SoftwareDevelopment 43 Inside a sprint – little of everything all time 30/10/2014 Chapter 3 Agile SoftwareDevelopment 44 Scrum benefits  The product is broken down into a set of manageable and understandable chunks.  Unstable requirements do not hold up progress.  The whole team have visibility of everything and consequently team communication is improved.  Customers see on-time delivery and provide early",
+    "chunk_index": 29,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "a7df879a-633c-413f-8519-4624b87a4034",
+    "text": "feedback.  Trust between customers and developers is established 30/10/2014 Chapter 3 Agile SoftwareDevelopment 45 30/10/2014 User story estimation Chapter 3 Agile SoftwareDevelopment 46 Estimation  Relative estimation is better than absolute  Fibonacci numbers are mostly used  No point of discussing one point difference  The range has more lower value numbers",
+    "chunk_index": 30,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "5dae4e9a-72e0-489d-a12b-c57767826a6f",
+    "text": " Story point estimation 30/10/2014 Chapter 3 Agile SoftwareDevelopment 47 Story point  Units of relative size  Combination of a story’s [Complexity/Difficulty – Relative time – Uncertainty]  Estimation don’t expire  Mapped to hours when assigned to developer 30/10/2014 Chapter 3 Agile SoftwareDevelopment 48",
+    "chunk_index": 31,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "2eeed8cc-e6a1-4a00-bd98-4fd3f345e933",
+    "text": "Story point 30/10/2014 Chapter 3 Agile SoftwareDevelopment 49 Planning Poker  For each user story  The Product Owner explains the story along with its conditions  Team member assigns Fibonacci number to the story using cards  All the estimates are revealed at the same time  If estimates are not equal then, the highest and lowest estimators should mainly discuss and share their reasons 30/10/2014 Chapter 3 Agile SoftwareDevelopment 50",
+    "chunk_index": 32,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "00c04447-81f0-4771-858b-1bf56e1b54b3",
+    "text": "Done Definition 30/10/2014 Chapter 3 Agile SoftwareDevelopment 51 Release planning 30/10/2014 Chapter 3 Agile SoftwareDevelopment 52 Velocity  Metric for measure of progress 𝑣 = 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑠𝑡𝑜𝑟𝑦 𝑝𝑜𝑖𝑛𝑡𝑠 𝑠𝑝𝑟𝑖𝑛𝑡 𝑝𝑟𝑜𝑗𝑒𝑐𝑡 𝑑𝑢𝑟𝑎𝑡𝑖𝑜𝑛 = 𝑏𝑎𝑐𝑘𝑙𝑜𝑔 𝑠𝑖𝑧𝑒 𝑣𝑒𝑙𝑜𝑐𝑖𝑡𝑦 30/10/2014 Chapter 3 Agile SoftwareDevelopment 53",
+    "chunk_index": 33,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "9f115179-f62e-4861-bf75-a20d9cca63fe",
+    "text": "Velocity estimation 30/10/2014 Chapter 3 Agile SoftwareDevelopment 54 Velocity estimation (Historical data) 30/10/2014 Chapter 3 Agile SoftwareDevelopment 55 Velocity estimation (Historical data) 1 30/10/2014 Chapter 3 Agile SoftwareDevelopment 2 56 Velocity estimation (pilot sprint) 30/10/2014 Chapter 3 Agile SoftwareDevelopment 57",
+    "chunk_index": 34,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "a81c2974-6db6-46f2-a6db-cc88d022a91c",
+    "text": "Velocity estimation (dry run) 30/10/2014 Chapter 3 Agile SoftwareDevelopment 58 Velocity (Estimated – Planned - Actual) 30/10/2014 Chapter 3 Agile SoftwareDevelopment 59 30/10/2014 Agile project tracking & control Chapter 3 Agile SoftwareDevelopment 60 Tracking Agile project 30/10/2014 Chapter 3 Agile SoftwareDevelopment 61",
+    "chunk_index": 35,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1241ebcf-9819-4b6d-b07e-6c9758b759eb",
+    "text": "Release tracking: Burn-down chart 30/10/2014 Chapter 3 Agile SoftwareDevelopment 62 Release tracking: Burn-up chart 30/10/2014 Chapter 3 Agile SoftwareDevelopment 63 Iteration tracking: Burn-down chart 30/10/2014 Chapter 3 Agile SoftwareDevelopment 64 Iteration tracking: Burn-up chart 30/10/2014 Chapter 3 Agile SoftwareDevelopment 65 Would you take corrective action? 30/10/2014 Chapter 3 Agile SoftwareDevelopment 66",
+    "chunk_index": 36,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "aadcced4-1ad1-4a27-8ba1-fe4ed1fa8410",
+    "text": "What about this one? 30/10/2014 Chapter 3 Agile SoftwareDevelopment 67 Conclusion  Agile is NOT a silver bullet  Agile is NOT a process, rather, methodologies and mind-set  Agile implementations are NOT document-less  Agile teams are NOT constantly under pressure  An Agile environment is NOT chaotic and free of discipline Chapter 3 Agile SoftwareDevelopment 68",
+    "chunk_index": 37,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "eab830e1-20ab-4c83-9f9b-012f3144d3c8",
+    "text": "Questions 1. What is the difference between agile values, principles and techniques? 2. based on your understanding, summarize the agile manifesto (values). 3. Agile philosophy is to welcome changes. Discuss! 4. Simplicity is essential. Discuss! 5. What is the difference between micro-managed and self-managed team? which is best? Chapter 3 Agile SoftwareDevelopment 69",
+    "chunk_index": 38,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "79ee368d-0c11-4922-add9-e7953b1884eb",
+    "text": "Questions 6. Based on your understanding, discuss the following terms Incremental planning Test driven development Customer involvement Continous integration Pair programming 7. Mention some benefits of pair programming. Chapter 3 Agile SoftwareDevelopment 70 Questions 8. Mention the different level of requirements in Agile requirement",
+    "chunk_index": 39,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "a887eec5-212f-41b4-bbbc-0392383121b3",
+    "text": "specification activity 9. What is user story? what are the main components of user story? 10. What is the difference between user story and epic? 11. What is the Definition of Done? who is responsible to put such definition? 12. Mention some items that would be valid in the definition of done. Chapter 3 Agile SoftwareDevelopment 71",
+    "chunk_index": 40,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "1793d355-3fc3-496d-a66f-9d7d2de7ec66",
+    "text": "Questions 13. a good user story is the one that is indepedent, valuable, estimatable and negotiable. Discuss! 14. What is the difference between TDD and Code-first development? 15. What is Agile Scrum? what is it used for? 16. What is the role product owner and scrum master in Agile team? 17. Whtat is the difference between spring & release? 16. What is meant by: product backlog, velocity, potentially shippable",
+    "chunk_index": 41,
+    "source_file": "4th_SW_swe-chapter3"
+  },
+  {
+    "id": "d0cea859-5533-4ddd-83a1-85ef17909258",
+    "text": "product? Chapter 3 Agile SoftwareDevelopment 72 Questions 17. What is the measurement metric for user stories? 18. How do you estimate the velocity of the team for a new project? mention the methods used of quantifying team velocity. 19. What is burn-down chart? what is it used for? Chapter 3 Agile SoftwareDevelopment 73",
+    "chunk_index": 42,
+    "source_file": "4th_SW_swe-chapter3"
+  }
+]

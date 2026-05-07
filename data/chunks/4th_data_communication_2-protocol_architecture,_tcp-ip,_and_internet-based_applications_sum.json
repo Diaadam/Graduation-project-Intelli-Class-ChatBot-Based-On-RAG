@@ -1,0 +1,92 @@
+[
+  {
+    "id": "71c4d156-d1a0-4f83-a03c-0c920baa5233",
+    "text": "Protocol Architecture, TCP/IP, and Internet- Based Applications CHAPTER 2 The Need for a Protocol Architecture 1) The source must activate communications path or inform the network of destination 2) The source system must check the destination is prepared to receive data To transfer data several tasks must be performed: 3) The file transfer application on the source must check destination file management system is prepared to accept and store the file for this user 4) May need file format translation",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "991b65d0-53bf-4fd1-87f3-711fa90b59d9",
+    "text": "Communications Protocols All communications are governed by protocols. Protocols are the rules that communications will follow. These rules will vary depending on the protocol. Rule Establishment (Cont.) Protocols must account for the following requirements: An identified sender and receiver Common language and grammar Speed and timing of delivery Confirmation or acknowledgment requirements",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "3dc33560-945d-4a94-b33f-f03edf023db7",
+    "text": "Network Protocol Requirements Common computer protocols must agree and include the following requirements: Message encoding Message formatting and encapsulation Message size Message timing Message delivery options Network Protocol Functions Devices use agreed-upon protocols to communicate. Protocols may have one or more functions.",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "91ec38d5-0794-42d9-a91b-fb14b97f7ac8",
+    "text": "Function Description Addressing Identifies sender and receiver Reliability Provides guaranteed delivery Flow Control Ensures data flows at an efficient rate Sequencing Uniquely labels each transmitted segment of data Error Detection Determines if data became corrupted during transmission Application Interface",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "d5889d65-4208-486a-8c3d-c886f1224c80",
+    "text": "Process-to-process communications between network applications Protocol Interaction Networks require the use of several protocols. •Each protocol has its own function and format. Protocol Hypertext Transfer Protocol (HTTP) Transmission Control Protocol (TCP) Internet Protocol (IP) Ethernet Elements of a Protocol A protocol is a set of rules that allow peer layers to communicate The key features of a protocol are:",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "35fc8e38-e928-4ec1-b5b2-a258037081b3",
+    "text": "Syntax Semantics Timing Format of data blocks Control information and error handling Speed matching and sequencing Elements of a Protocol Syntax: structure or format of data Example: 8-bits address of sender, 8-bits address of receiver Semantics: meaning of each section of bits Example: Does the address is a route to be taken or the final destination of the message Timing: when data should be sent and how fast they can be sent Example: sender produces data at 100 Mbps but the receiver can process data at only 1 Mbps  overload and data loose",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "04be60e4-fbc3-45e3-bbd6-db00e47cad18",
+    "text": "Network Models Seven layers of the OSI model An exchange using the OSI model 2.13 Physical layer The physical layer is responsible for movements of individual bits from one hop (node) to the next. Data link layer The data link layer is responsible for moving frames from one hop (node) to the next. 2.14",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "a68c14ba-fff2-4057-be3e-b63718199e70",
+    "text": "Hop-to-hop delivery 2.15 Network layer The network layer is responsible for the delivery of individual packets from the source host to the destination host. 2.16 Source-to-destination delivery 2.17 Transport layer The transport layer is responsible for the delivery of a message from one process to another. 2.18",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "ac70239f-e6e7-4151-a006-bd852825dfbb",
+    "text": "Session layer The session layer is responsible for dialog control and synchronization. Presentation layer The presentation layer is responsible for translation, compression, and encryption. Application layer The application layer is responsible for providing services to the user. Summary of layers 2.22",
+    "chunk_index": 8,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "4676611f-c05e-4d55-9253-5ffbf058316f",
+    "text": "OSI and TCP/IP Model Comparison TCP/IP Five-Layer Model Relationship of layers and addresses in TCP/IP 2.25 User data IPheader NetworkheaderApplicationbyte streamTCPsegmentIPdatagramNetwork-levelpacketFigure 2.5 Protocol Data Units (PDUs) in the TCP/IP Architecture TCPheader Traditional Internet-Based Applications Three common applications that have been standardized to operate on top of TCP are:",
+    "chunk_index": 9,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "934a8027-7545-4321-8950-6bba31e0e963",
+    "text": "Simple Mail Transfer Protocol (SMTP) Provides a mechanism for transferring messages among separate hosts File Transfer Protocol (FTP) Used to send files from one system to another under user command • Both text and binary files are accommodated Secure Shell (SSH) Provides a secure remote logon capability",
+    "chunk_index": 10,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "dcc9a76f-1259-4bf7-b473-042ccab77bbe",
+    "text": "Table 2.2 Multimedia Terminology Media Types audio generally encompasses sounds that are produced by the human speech mechanism video service carries sequences of pictures in time image supports the communication of individual pictures, charts, or drawings text is information that can be entered via a keyboard and is directly readable and printable",
+    "chunk_index": 11,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "4074927b-80ad-4032-9313-ed0fb215d26b",
+    "text": "Multimedia Technologies Some technologies that are relevant to the support of multimedia applications are: Compression Communications /networking Protocols Quality of service (QoS) JPG for still images MPG for video Refers to the transmission and networking technologies that can support high- volume multimedia traffic",
+    "chunk_index": 12,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "3a7bf85e-2ce0-4644-b9d2-3a21cd60d9ed",
+    "text": "RTP SIP Can deal with priority, delay constraints, delay variability constraints, and other similar requirements ADDRESSING Four levels of addresses are used in an internet employing the TCP/IP protocols: physical, logical, port, and specific. Protocol Data Units At each stage of the process, a PDU has a different name to reflect its new functions. PDUs passing down the stack are as follows: 1. Data (Data Stream) 2. Segment 3. Packet 4. Frame 5. Bits (Bit Stream)",
+    "chunk_index": 13,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  },
+  {
+    "id": "02be6be8-15bc-45ea-8dc7-7d1e46929530",
+    "text": "Encapsulation Example Encapsulation is a top-down process. • The level above does its process and then passes it down to the next level of the model. This process is repeated by each layer until it is sent out as a bit stream. De-encapsulation Example Data is de-encapsulated as it moves up the stack. When a layer completes its process, that layer strips off its header and passes it up to the next level to be processed. This is repeated at each layer until it is a data stream that the application can process. 1. Received as Bits (Bit Stream) 2. Frame 3. Packet 4. Segment 5. Data (Data Stream)",
+    "chunk_index": 14,
+    "source_file": "4th_data_communication_2-protocol_architecture,_tcp-ip,_and_internet-based_applications_sum"
+  }
+]

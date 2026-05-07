@@ -1,0 +1,5361 @@
+[
+  {
+    "type": "Title",
+    "element_id": "330dc93fbb1f76bf631be306f46dbfa3",
+    "text": "Cryptography and Network Security Overview & Chapter 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.39,
+            73.80200000000002
+          ],
+          [
+            133.39,
+            223.48600000000005
+          ],
+          [
+            626.4661600000001,
+            223.48600000000005
+          ],
+          [
+            626.4661600000001,
+            73.80200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9ca5a77fcb5d8eb30eabcdbf8b1ac1b2",
+    "text": "Fifth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            281.14,
+            297.64
+          ],
+          [
+            281.14,
+            329.67999999999995
+          ],
+          [
+            438.84088,
+            329.67999999999995
+          ],
+          [
+            438.84088,
+            297.64
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2fe71737cae70744c35b9c2fc6dc1a5d",
+    "text": "by William Stallings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            215.95,
+            343.72
+          ],
+          [
+            215.95,
+            375.76
+          ],
+          [
+            467.88052000000005,
+            375.76
+          ],
+          [
+            467.88052000000005,
+            343.72
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "826d7c28ec52206007a3c5cc6b316d13",
+    "text": "Lecture slides by Lawrie Brown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.79,
+            435.906
+          ],
+          [
+            159.79,
+            467.946
+          ],
+          [
+            560.1618399999999,
+            467.946
+          ],
+          [
+            560.1618399999999,
+            435.906
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88abead24f8df71f98ab179f93ef3a34",
+    "text": "Objectives",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            51.82936000000001
+          ],
+          [
+            103.22,
+            79.78935999999999
+          ],
+          [
+            222.80492,
+            79.78935999999999
+          ],
+          [
+            222.80492,
+            51.82936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38a18b29aa350db5adc613b3a184a377",
+    "text": "\u2751 To define three security goals",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            104.39179999999999
+          ],
+          [
+            31.2,
+            132.65936
+          ],
+          [
+            400.50660000000005,
+            132.65936
+          ],
+          [
+            400.50660000000005,
+            104.39179999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "parent_id": "88abead24f8df71f98ab179f93ef3a34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e7f6de2e84dbd6f90e2e88c0dacc8cab",
+    "text": "\u2751 To define security attacks that threaten security goals",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            158.1818
+          ],
+          [
+            31.2,
+            220.04935999999998
+          ],
+          [
+            597.8203200000003,
+            220.04935999999998
+          ],
+          [
+            597.8203200000003,
+            158.1818
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "parent_id": "88abead24f8df71f98ab179f93ef3a34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b42f507f4da4872891bb06d5257a85f0",
+    "text": "\u2751 To define security services and how they are related to the three security goals",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            245.54179999999997
+          ],
+          [
+            31.2,
+            307.414544
+          ],
+          [
+            567.5676000000001,
+            307.414544
+          ],
+          [
+            567.5676000000001,
+            245.54179999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "parent_id": "88abead24f8df71f98ab179f93ef3a34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "72a3cdaacf28de28f19cd196d1648bdf",
+    "text": "\u2751 To define security mechanisms to provide security services",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            332.9218
+          ],
+          [
+            31.2,
+            394.78936
+          ],
+          [
+            633.8048400000001,
+            394.78936
+          ],
+          [
+            633.8048400000001,
+            332.9218
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "parent_id": "88abead24f8df71f98ab179f93ef3a34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "816a07ed2363a21f76dc015bff997dee",
+    "text": "\u2751 To introduce two techniques, cryptography and steganography, to implement security mechanisms.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            420.3078
+          ],
+          [
+            31.2,
+            482.17536
+          ],
+          [
+            644.9260800000003,
+            482.17536
+          ],
+          [
+            644.9260800000003,
+            420.3078
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "parent_id": "88abead24f8df71f98ab179f93ef3a34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "3b1bb8bdddbe44d6c94b0854dabdce12",
+    "text": "1.2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            58.416168,
+            522.054
+          ],
+          [
+            58.416168,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "309ad85c7d44c0397ff53786e68e79ef",
+    "text": "Key Security Concepts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.51,
+            48.379999999999995
+          ],
+          [
+            163.51,
+            92.42000000000002
+          ],
+          [
+            556.43488,
+            92.42000000000002
+          ],
+          [
+            556.43488,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "15fe385ba0c0bf5daff2d3ac7cff836d",
+    "text": "Examples of Security Requirements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            45.408,
+            48.379999999999995
+          ],
+          [
+            45.408,
+            92.42000000000002
+          ],
+          [
+            674.7396,
+            92.42000000000002
+          ],
+          [
+            674.7396,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "43ac501ca1a661fbb4e228cd9adc1af4",
+    "text": "confidentiality \u2013 student grades \u2022 integrity \u2013 patient information \u2022 availability \u2013 The loss of the service translates into a large financial loss",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            188.33839999999998
+          ],
+          [
+            43.2,
+            352.24
+          ],
+          [
+            668.76212,
+            352.24
+          ],
+          [
+            668.76212,
+            188.33839999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 4,
+      "parent_id": "15fe385ba0c0bf5daff2d3ac7cff836d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f98f300e618af3c1f9ec82d32ef53dbe",
+    "text": "Aspects of Security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            190.39,
+            48.379999999999995
+          ],
+          [
+            190.39,
+            92.42000000000002
+          ],
+          [
+            529.4979999999999,
+            92.42000000000002
+          ],
+          [
+            529.4979999999999,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "86ca4c2b110e9e8bf267f780db21b0cb",
+    "text": "consider 3 aspects of information security:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            134.28944
+          ],
+          [
+            43.2,
+            167.63600000000002
+          ],
+          [
+            622.2474559999999,
+            167.63600000000002
+          ],
+          [
+            622.2474559999999,
+            134.28944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "parent_id": "f98f300e618af3c1f9ec82d32ef53dbe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3b3e7450a370c049458656105b58ae0d",
+    "text": "\u2013 security attack \u2013 security mechanism \u2013 security service",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            178.84160000000003
+          ],
+          [
+            79.224,
+            288.56600000000003
+          ],
+          [
+            333.20491999999996,
+            288.56600000000003
+          ],
+          [
+            333.20491999999996,
+            178.84160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d575e4986e1d5e66f2394d1e7c4b74ac",
+    "text": "note terms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            301.39840000000004
+          ],
+          [
+            43.2,
+            334.72
+          ],
+          [
+            213.22656000000003,
+            334.72
+          ],
+          [
+            213.22656000000003,
+            301.39840000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "parent_id": "3b3e7450a370c049458656105b58ae0d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "09d702f68d9afb9a5ba0485fdcab7e40",
+    "text": "\u2013 threat \u2013 a potential for violation of security \u2013 attack \u2013 an assault on system security, a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            345.90160000000003
+          ],
+          [
+            79.224,
+            415.306
+          ],
+          [
+            590.39164,
+            415.306
+          ],
+          [
+            590.39164,
+            345.90160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "parent_id": "3b3e7450a370c049458656105b58ae0d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "63670d1c19c8a8c25f1a1371e709d05e",
+    "text": "deliberate attempt to evade security services",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            101.78,
+            420.966
+          ],
+          [
+            101.78,
+            448.926
+          ],
+          [
+            612.1338800000001,
+            448.926
+          ],
+          [
+            612.1338800000001,
+            420.966
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 5,
+      "parent_id": "3b3e7450a370c049458656105b58ae0d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "fdf6bdd81d5dd9bad5e686b92fef3a27",
+    "text": "1.6",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            58.416168,
+            522.054
+          ],
+          [
+            58.416168,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1d37b3e108270ced254a12770edba8ac",
+    "text": "Taxonomy of security goals",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            52.931359999999984
+          ],
+          [
+            103.22,
+            92.89135999999996
+          ],
+          [
+            548.1746000000002,
+            92.89135999999996
+          ],
+          [
+            548.1746000000002,
+            52.931359999999984
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "9d298a745fbea6e78c95e56ae1e7769d",
+    "text": "Confidentiality",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            314.98907999999994,
+            46.18118399999997
+          ],
+          [
+            314.98907999999994,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ff7b244f9c31e9daf5b5fe62c0b4d8ca",
+    "text": "Confidentiality is probably the most common aspect of information security. We need to protect our confidential information. An organization needs to guard against those malicious actions that endanger the confidentiality of its information.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            98.69936000000001
+          ],
+          [
+            19.2,
+            261.08936
+          ],
+          [
+            707.776,
+            261.08936
+          ],
+          [
+            707.776,
+            98.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 7,
+      "parent_id": "9d298a745fbea6e78c95e56ae1e7769d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "1f07f0d0037fd5a0740b193b6133741a",
+    "text": "1.7",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            58.416168,
+            522.054
+          ],
+          [
+            58.416168,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "55aaf12adcdf8c64ba994c14955a46c7",
+    "text": "Integrity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            221.18258400000002,
+            46.18118399999997
+          ],
+          [
+            221.18258400000002,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0875e85c1bd0786f7b2197697c16d1a2",
+    "text": "Information needs to be changed constantly. Integrity means that changes need to be done only by authorized entities and through authorized mechanisms.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            98.69936000000001
+          ],
+          [
+            19.2,
+            193.88936
+          ],
+          [
+            707.776,
+            193.88936
+          ],
+          [
+            707.776,
+            98.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 8,
+      "parent_id": "55aaf12adcdf8c64ba994c14955a46c7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "119afcd20860b7c292a3ad964d70d951",
+    "text": "1.8",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            58.416168,
+            522.054
+          ],
+          [
+            58.416168,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "ef4b1008e08c1397afe268ebea1ba20e",
+    "text": "Availability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            266.35668,
+            46.18118399999997
+          ],
+          [
+            266.35668,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "010423c7c24d65fd70980ff4e7892c6f",
+    "text": "The information created and stored by an organization needs to be available to authorized entities. Information needs to be constantly changed, which means it must be accessible to authorized entities.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            98.69936000000001
+          ],
+          [
+            19.2,
+            227.48935999999998
+          ],
+          [
+            707.776,
+            227.48935999999998
+          ],
+          [
+            707.776,
+            98.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 9,
+      "parent_id": "ef4b1008e08c1397afe268ebea1ba20e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "3827caedf4c54b53fe265a7060d31a8a",
+    "text": "1.9",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            58.416168,
+            522.054
+          ],
+          [
+            58.416168,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "803c3827e87bcba8e2f86c7f8e856d49",
+    "text": "ATTACKS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            25.2,
+            42.196000000000026
+          ],
+          [
+            25.2,
+            78.19600000000003
+          ],
+          [
+            184.31999999999996,
+            78.19600000000003
+          ],
+          [
+            184.31999999999996,
+            42.196000000000026
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "39424eed7ee48f2b0d031340ff3215e7",
+    "text": "The three goals of security\u23afconfidentiality, integrity, and availability\u23afcan be threatened by security attacks.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            139.57936
+          ],
+          [
+            19.2,
+            201.13936
+          ],
+          [
+            659.77,
+            201.13936
+          ],
+          [
+            659.77,
+            139.57936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 10,
+      "parent_id": "803c3827e87bcba8e2f86c7f8e856d49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d47944947adc009ff8498cd615a74adb",
+    "text": "Topics discussed in this section: 1.2.1 Attacks Threatening Confidentiality 1.2.2 Attacks Threatening Integrity 1.2.3 Attacks Threatening Availability 1.2.4 Passive versus Active Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            332.74936
+          ],
+          [
+            31.2,
+            499.04736
+          ],
+          [
+            503.14272000000005,
+            499.04736
+          ],
+          [
+            503.14272000000005,
+            332.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 10,
+      "parent_id": "803c3827e87bcba8e2f86c7f8e856d49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "291f0e126623dc096949a317a4ea2c23",
+    "text": "1.10",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "ed93d1c7e94d5329efd8b111d9089448",
+    "text": "1.11",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b936eb20f8bb6725c74411e910f2601f",
+    "text": "Taxonomy of attacks with relation to security goals",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            99.096,
+            98.69936000000001
+          ],
+          [
+            99.096,
+            126.65935999999999
+          ],
+          [
+            672.52764,
+            126.65935999999999
+          ],
+          [
+            672.52764,
+            98.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b8e3420a3a825b367940e83c1ee88629",
+    "text": "passive",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            99.096,
+            204.95
+          ],
+          [
+            99.096,
+            222.95
+          ],
+          [
+            152.448,
+            222.95
+          ],
+          [
+            152.448,
+            204.95
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "85c4f83c1f615b1dd99742d3717bb9fe",
+    "text": "Attacks Threatening Confidentiality",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            9.421824000000015
+          ],
+          [
+            97.224,
+            41.48582399999998
+          ],
+          [
+            559.330368,
+            41.48582399999998
+          ],
+          [
+            559.330368,
+            9.421824000000015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e71bcfe98556e701ec6edea0cd78d19b",
+    "text": "Snooping refers to unauthorized access to or interception of data.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            16.92,
+            173.130544
+          ],
+          [
+            16.92,
+            234.73935999999998
+          ],
+          [
+            705.496,
+            234.73935999999998
+          ],
+          [
+            705.496,
+            173.130544
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 12,
+      "parent_id": "85c4f83c1f615b1dd99742d3717bb9fe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8f8f400e5f2c88eaf582d307286071c4",
+    "text": "Traffic analysis refers to obtaining some other type of information by monitoring online traffic.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            302.74936
+          ],
+          [
+            19.2,
+            364.30935999999997
+          ],
+          [
+            707.77,
+            364.30935999999997
+          ],
+          [
+            707.77,
+            302.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 12,
+      "parent_id": "85c4f83c1f615b1dd99742d3717bb9fe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "ed298b7169be229815e7d2e024334340",
+    "text": "1.12",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+    "text": "Attacks Threatening Integrity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            9.421824000000015
+          ],
+          [
+            97.224,
+            41.48582399999998
+          ],
+          [
+            475.643328,
+            41.48582399999998
+          ],
+          [
+            475.643328,
+            9.421824000000015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e2c6b9c0dba9fbf39d619f06898e96e5",
+    "text": "Modification means that the attacker intercepts the message and changes it.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            99.94936000000001
+          ],
+          [
+            19.2,
+            161.514544
+          ],
+          [
+            707.77,
+            161.514544
+          ],
+          [
+            707.77,
+            99.94936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "156321d47d8e17d7346db536dd2f1f6d",
+    "text": "Masquerading or spoofing happens when the attacker impersonates somebody else.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            189.97935999999999
+          ],
+          [
+            19.2,
+            251.53936
+          ],
+          [
+            700.84972,
+            251.53936
+          ],
+          [
+            700.84972,
+            189.97935999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f637a2dbaa55f34715fb4cb863d7c3bf",
+    "text": "Replaying means of a message sent by a user and later tries to replay it.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            284.74936
+          ],
+          [
+            19.2,
+            346.30935999999997
+          ],
+          [
+            624.97,
+            346.30935999999997
+          ],
+          [
+            624.97,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "847936e99925c9e476f0c347c62193a6",
+    "text": "the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            280.61,
+            284.74936
+          ],
+          [
+            280.61,
+            312.70935999999995
+          ],
+          [
+            321.8,
+            312.70935999999995
+          ],
+          [
+            321.8,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1825d0532c6c1407c22eacfcb83cf636",
+    "text": "attacker",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            352.25,
+            284.74936
+          ],
+          [
+            352.25,
+            312.70935999999995
+          ],
+          [
+            440.63156,
+            312.70935999999995
+          ],
+          [
+            440.63156,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "82dd4702177580177eb19c98a2cf59de",
+    "text": "obtains",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            478.15,
+            284.74936
+          ],
+          [
+            478.15,
+            312.70935999999995
+          ],
+          [
+            558.89848,
+            312.70935999999995
+          ],
+          [
+            558.89848,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0eef4c2b41ab77c3e2d4e426aa941c7c",
+    "text": "a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            596.5,
+            284.74936
+          ],
+          [
+            596.5,
+            312.70935999999995
+          ],
+          [
+            608.91424,
+            312.70935999999995
+          ],
+          [
+            608.91424,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "5f4059fb48bc0a1ae50b2aa785e85c0e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "952ea648ee4e74284691a3adfa196fed",
+    "text": "Repudiation means that sender of the message might later deny that she has sent the message; the receiver of the message might later deny that he has received the message.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            374.730544
+          ],
+          [
+            19.2,
+            469.93536
+          ],
+          [
+            707.77,
+            469.93536
+          ],
+          [
+            707.77,
+            374.730544
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "parent_id": "0eef4c2b41ab77c3e2d4e426aa941c7c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "db72577ce112fb785f9b0ea7814abcc4",
+    "text": "1.13",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "282e9b4ed807e95a2086132bb5411e3e",
+    "text": "copy",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            646.3,
+            284.74936
+          ],
+          [
+            646.3,
+            312.70935999999995
+          ],
+          [
+            707.77,
+            312.70935999999995
+          ],
+          [
+            707.77,
+            284.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "81eefc53899b62a01cca7dac02524433",
+    "text": "Attacks Threatening Availability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            9.421824000000015
+          ],
+          [
+            97.224,
+            41.48582399999998
+          ],
+          [
+            514.120128,
+            41.48582399999998
+          ],
+          [
+            514.120128,
+            9.421824000000015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "21440c028d2cf67823d21f96f8ec45f1",
+    "text": "Denial of service (DoS) is a very common attack. It may slow down or totally interrupt the service of a system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            116.69936000000001
+          ],
+          [
+            19.2,
+            178.264544
+          ],
+          [
+            707.77,
+            178.264544
+          ],
+          [
+            707.77,
+            116.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 14,
+      "parent_id": "81eefc53899b62a01cca7dac02524433",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4fbbeb71a0bd278bbaa3d6d017cd437c",
+    "text": "A sever class of this attack is the Distributed Denial of service (DDoS) attack. In this class very large number (thousands or even millions) of attacking machines are coordinated and synchronized to attack a victim system simultaneously.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.2,
+            217.52936
+          ],
+          [
+            19.2,
+            379.90936
+          ],
+          [
+            707.776,
+            379.90936
+          ],
+          [
+            707.776,
+            217.52936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 14,
+      "parent_id": "81eefc53899b62a01cca7dac02524433",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "673a40e7c8901faf5b9ee74f1dc2c2ea",
+    "text": "1.14",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9d7234e1f47a06517684fe91837bc33e",
+    "text": "Passive Versus Active Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            143.83,
+            24.956000000000017
+          ],
+          [
+            143.83,
+            60.95600000000002
+          ],
+          [
+            576.2259999999999,
+            60.95600000000002
+          ],
+          [
+            576.2259999999999,
+            24.956000000000017
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "14e177d4573a2bc553582af8ebefa86b",
+    "text": "Passive attacks 1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.6,
+            80.06
+          ],
+          [
+            42.6,
+            133.07
+          ],
+          [
+            191.016,
+            133.07
+          ],
+          [
+            191.016,
+            80.06
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38ff415f4648327d7cf1867b57fdbce8",
+    "text": "Release of message contents (Snooping - \u0644\u0641\u0637\u062a\u0644\u0627 ): unauthorized reading of a message. Traffic analysis: useful in guessing the nature of the communication between two parties.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            83.16,
+            112.22840000000002
+          ],
+          [
+            83.16,
+            209.77999999999997
+          ],
+          [
+            633.3581999999999,
+            209.77999999999997
+          ],
+          [
+            633.3581999999999,
+            112.22840000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "964676e04bc423411086572a14e8dbaa",
+    "text": "2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.6,
+            165.74
+          ],
+          [
+            42.6,
+            185.77999999999997
+          ],
+          [
+            57.850060000000006,
+            185.77999999999997
+          ],
+          [
+            57.850060000000006,
+            165.74
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "082a64d91c3946932ae11715fd22b7a4",
+    "text": "Active attacks 1. Masquerade: to impersonate the identity of someone. 2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            236.08999999999997
+          ],
+          [
+            43.2,
+            317.79999999999995
+          ],
+          [
+            525.09168,
+            317.79999999999995
+          ],
+          [
+            525.09168,
+            236.08999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d41a80c414896efe278e4b649565e9e6",
+    "text": "Replay: to get an unauthorized copy of a message and resend it afterwards.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            83.784,
+            297.76
+          ],
+          [
+            83.784,
+            341.79999999999995
+          ],
+          [
+            601.1366400000003,
+            341.79999999999995
+          ],
+          [
+            601.1366400000003,
+            297.76
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3991f0f3329dff00cade3eeabd7bd852",
+    "text": "3. Modification of messages: to add, delete , or modify some contents of a message. Repudiation: The sender of a message will deny sending; or the recipient will deny receiving. Denial of Service (DoS): to prevent authorized users from accessing resources such as data or servers or networks.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            350.56
+          ],
+          [
+            43.2,
+            500.226
+          ],
+          [
+            657.04824,
+            500.226
+          ],
+          [
+            657.04824,
+            350.56
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2620239ba2b82942292fac0bca612a88",
+    "text": "3. Modification of messages: to add, delete , or modify some contents of a message. Repudiation: The sender of a message will deny sending; or the recipient will deny receiving. Denial of Service (DoS): to prevent authorized users from accessing resources such as data or servers or networks.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            350.56
+          ],
+          [
+            43.2,
+            500.226
+          ],
+          [
+            657.04824,
+            500.226
+          ],
+          [
+            657.04824,
+            350.56
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a2f362774cd7bfd67934959c501a8b1c",
+    "text": "4.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            403.342
+          ],
+          [
+            43.2,
+            423.406
+          ],
+          [
+            58.456176,
+            423.406
+          ],
+          [
+            58.456176,
+            403.342
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 15,
+      "parent_id": "14e177d4573a2bc553582af8ebefa86b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "b975303acff303f60e3a85117e4b34b9",
+    "text": "1.16",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "6af641c26bfd043fe5581bae4adc5514",
+    "text": "Passive Versus Active Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            529.6200720000002,
+            46.18118399999997
+          ],
+          [
+            529.6200720000002,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60781be8cde301f2f7eef64387c41d76",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            259.25,
+            96.67718400000001
+          ],
+          [
+            259.25,
+            132.701184
+          ],
+          [
+            399.20324,
+            132.701184
+          ],
+          [
+            399.20324,
+            96.67718400000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 16,
+      "parent_id": "6af641c26bfd043fe5581bae4adc5514",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "668be7f704ec3d798b787ddec815166a",
+    "text": "Passive Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            225.82,
+            48.379999999999995
+          ],
+          [
+            225.82,
+            92.42000000000002
+          ],
+          [
+            494.0236,
+            92.42000000000002
+          ],
+          [
+            494.0236,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 17,
+      "parent_id": "6af641c26bfd043fe5581bae4adc5514",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "b137169ab1bdbcb507e28c5555e52d88",
+    "text": "Release of message contents (Snooping)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            132.07,
+            493.116
+          ],
+          [
+            132.07,
+            521.1
+          ],
+          [
+            587.9293600000002,
+            521.1
+          ],
+          [
+            587.9293600000002,
+            493.116
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fdd78e0f713e1b4cdc5fb7d5188107ce",
+    "text": "Active Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.06,
+            48.379999999999995
+          ],
+          [
+            235.06,
+            92.42000000000002
+          ],
+          [
+            484.81084,
+            92.42000000000002
+          ],
+          [
+            484.81084,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "11461fbda0a4c2ac41540d7019683d4e",
+    "text": "Replay attack",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            285.7,
+            495.648
+          ],
+          [
+            285.7,
+            527.712
+          ],
+          [
+            458.33257599999996,
+            527.712
+          ],
+          [
+            458.33257599999996,
+            495.648
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a125dd6477959897625cfc3c55bbfee0",
+    "text": "SERVICES AND MECHANISMS As standardized by the International Telecommunication Union; Telecommunication Standardization Sector (ITU-T)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            106.78,
+            21.644000000000005
+          ],
+          [
+            106.78,
+            88.48400000000004
+          ],
+          [
+            589.296,
+            88.48400000000004
+          ],
+          [
+            589.296,
+            21.644000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fa32d205cea506808ff1ccb251574f5b",
+    "text": "ITU-T provides some security services and some mechanisms to implement those services. Security services and mechanisms are closely related because a mechanism or combination of mechanisms are used to provide a service.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            128.79936000000004
+          ],
+          [
+            31.2,
+            291.17936
+          ],
+          [
+            671.77,
+            291.17936
+          ],
+          [
+            671.77,
+            128.79936000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2c88e47273e4937a5b4cd49cbf622936",
+    "text": "Topics discussed in this section: 1.3.1 Security Services 1.3.2 Security Mechanism 1.3.3 Relation between Services and Mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            344.74936
+          ],
+          [
+            31.2,
+            477.428544
+          ],
+          [
+            593.1667039999999,
+            477.428544
+          ],
+          [
+            593.1667039999999,
+            344.74936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "775e185bbce488550792b8e2a8d556ce",
+    "text": "1.19",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "687f1a9c08d2cd7e4d944417053c92f6",
+    "text": "Security Services",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            210.1,
+            25.392000000000053
+          ],
+          [
+            210.1,
+            69.45600000000002
+          ],
+          [
+            509.82332799999995,
+            69.45600000000002
+          ],
+          [
+            509.82332799999995,
+            25.392000000000053
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c2722025d3c886edc5bdaa431d6774bf",
+    "text": "(As recommended in the X.800 Protocol of the ITU-T)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.67,
+            74.26999999999998
+          ],
+          [
+            123.67,
+            96.23000000000002
+          ],
+          [
+            596.4739,
+            96.23000000000002
+          ],
+          [
+            596.4739,
+            74.26999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1e1ba992ac7453067acdbd5fd3734e17",
+    "text": "Authentication - assurance that communicating entity is the one claimed \u2013 peer-entity authentication \u2013 data origin authentication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            109.6916
+          ],
+          [
+            43.2,
+            223.25
+          ],
+          [
+            619.6197199999998,
+            223.25
+          ],
+          [
+            619.6197199999998,
+            109.6916
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "69eb71899ff9edd8d9ec5dac9f5175e9",
+    "text": "Access Control - prevention of the unauthorized use of a resource",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            227.8016
+          ],
+          [
+            43.2,
+            283.76599999999996
+          ],
+          [
+            668.77436,
+            283.76599999999996
+          ],
+          [
+            668.77436,
+            227.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0f393d443926cf27ff135342a95c3d67",
+    "text": "Data Confidentiality \u2013protection of data from unauthorized disclosure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            288.3016
+          ],
+          [
+            43.2,
+            344.26
+          ],
+          [
+            595.7279599999999,
+            344.26
+          ],
+          [
+            595.7279599999999,
+            288.3016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "21239a2300618528ad29496683954498",
+    "text": "Data Integrity - assurance that data received is as sent by an authorized entity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            348.7816
+          ],
+          [
+            43.2,
+            404.746
+          ],
+          [
+            637.6894399999999,
+            404.746
+          ],
+          [
+            637.6894399999999,
+            348.7816
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdaf8afd2818792b818bb537d12500c5",
+    "text": "Non-Repudiation - protection against denial by one of the parties in a communication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            409.2916
+          ],
+          [
+            43.2,
+            465.246
+          ],
+          [
+            661.4989999999999,
+            465.246
+          ],
+          [
+            661.4989999999999,
+            409.2916
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "78ffe7cbb2ddfb57296d31061393d4c3",
+    "text": "Availability \u2013 resource accessible and usable",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            472.4076
+          ],
+          [
+            43.2,
+            501.486
+          ],
+          [
+            575.3565199999999,
+            501.486
+          ],
+          [
+            575.3565199999999,
+            472.4076
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 20,
+      "parent_id": "687f1a9c08d2cd7e4d944417053c92f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "3e345bd8d8c15039a260ade05404450a",
+    "text": "Security Services",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            11.533823999999981
+          ],
+          [
+            97.224,
+            55.597824
+          ],
+          [
+            404.173824,
+            55.597824
+          ],
+          [
+            404.173824,
+            11.533823999999981
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "33df42be5671c9a7b70cc2f53170424b",
+    "text": "Availability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            547.27,
+            127.0
+          ],
+          [
+            547.27,
+            145.0
+          ],
+          [
+            626.614,
+            145.0
+          ],
+          [
+            626.614,
+            127.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 21,
+      "parent_id": "3e345bd8d8c15039a260ade05404450a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b709119a7834d08d6ee396fe184367ed",
+    "text": "The security service is defined in the Internet document RFC 2828 as follows:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.072,
+            380.41999999999996
+          ],
+          [
+            36.072,
+            400.46
+          ],
+          [
+            659.47632,
+            400.46
+          ],
+          [
+            659.47632,
+            380.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 21,
+      "parent_id": "33df42be5671c9a7b70cc2f53170424b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4aa49d34f2f8424228525d55178034fd",
+    "text": "\u201cA processing or communication service provided by a system to give a specific kind of protection to system resources\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            60.096,
+            423.87
+          ],
+          [
+            60.096,
+            473.832
+          ],
+          [
+            658.750056,
+            473.832
+          ],
+          [
+            658.750056,
+            423.87
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 21,
+      "parent_id": "33df42be5671c9a7b70cc2f53170424b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f39dbf2c5fbe22e251d35335c618dd8d",
+    "text": "1.21",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2cb7dc4e7bc26c3e4ae8c215f0f50b63",
+    "text": "Security Mechanisms in the X.800 Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            187.87,
+            26.120000000000005
+          ],
+          [
+            187.87,
+            114.07999999999998
+          ],
+          [
+            532.20532,
+            114.07999999999998
+          ],
+          [
+            532.20532,
+            26.120000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5353ad1f008b32c9f45963cfd6a46687",
+    "text": "Specific Security Mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            138.00199999999995
+          ],
+          [
+            43.2,
+            174.02599999999995
+          ],
+          [
+            472.53403199999997,
+            174.02599999999995
+          ],
+          [
+            472.53403199999997,
+            138.00199999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "083b7ac34e51436558b47c550fa2c8da",
+    "text": "\u25aa Encryption, \u25aa Digital signatures, \u25aa Access controls, \u25aa Data integrity, \u25aa Authentication exchange, \u25aa Traffic padding, \u25aa Routing control, \u25aa Notarization. )",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            181.8218
+          ],
+          [
+            79.224,
+            470.046
+          ],
+          [
+            397.2464,
+            470.046
+          ],
+          [
+            397.2464,
+            181.8218
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 22,
+      "parent_id": "5353ad1f008b32c9f45963cfd6a46687",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "033df3b93899e44fc5ad349dedd66d4b",
+    "text": "\u0642\u064a\u062b\u0648\u062a\u0644\u0627 (",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            283.97,
+            440.9676
+          ],
+          [
+            283.97,
+            468.9276
+          ],
+          [
+            353.64068,
+            468.9276
+          ],
+          [
+            353.64068,
+            440.9676
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "3f7cc310b8409a528c2b074f66cb859d",
+    "text": "X.800 Definitions of the Mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.99,
+            21.07000000000005
+          ],
+          [
+            115.99,
+            53.110000000000014
+          ],
+          [
+            603.95272,
+            53.110000000000014
+          ],
+          [
+            603.95272,
+            21.07000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "88949384095494ab79d0fe2ba7ba2bd6",
+    "text": "Encryption The cryptographic transformation of data to produce ciphertext.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.296,
+            71.36000000000001
+          ],
+          [
+            70.296,
+            120.57799999999997
+          ],
+          [
+            529.4220000000003,
+            120.57799999999997
+          ],
+          [
+            529.4220000000003,
+            71.36000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 23,
+      "parent_id": "3f7cc310b8409a528c2b074f66cb859d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9b4d0ccc95976d7a2fc588eb52cb979a",
+    "text": "Digital signatures Data appended to, or a cryptographic transformation of a data unit that allows a recipient of the data unit to prove the source and integrity of the data unit and protect against forgery e.g. by the recipient.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            69.744,
+            144.49
+          ],
+          [
+            69.744,
+            236.913184
+          ],
+          [
+            647.82,
+            236.913184
+          ],
+          [
+            647.82,
+            144.49
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 23,
+      "parent_id": "3f7cc310b8409a528c2b074f66cb859d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c7b6e0f1aa99ed4c95c8b0b07290306f",
+    "text": "Access controls Access control mechanisms may be applied at either end of a communications association and/or at any intermediate point. Access controls involved at the origin or any intermediate point are used to determine whether the sender is authorized to communicate with the recipient and/or to use the required communications resources.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.512,
+            261.25
+          ],
+          [
+            73.512,
+            403.368
+          ],
+          [
+            662.15,
+            403.368
+          ],
+          [
+            662.15,
+            261.25
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 23,
+      "parent_id": "3f7cc310b8409a528c2b074f66cb859d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "30a9c6fc900f6a7175918bf8a3ed8e73",
+    "text": "Data integrity Two aspects of data integrity are: the integrity of a single data unit or field; and the integrity of a stream of data units or fields.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.992,
+            428.19
+          ],
+          [
+            70.992,
+            503.328
+          ],
+          [
+            649.04,
+            503.328
+          ],
+          [
+            649.04,
+            428.19
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 23,
+      "parent_id": "3f7cc310b8409a528c2b074f66cb859d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "97d70d406212ee66c7b898c0b554b958",
+    "text": "X.800 Definitions of the Mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.99,
+            53.41999999999996
+          ],
+          [
+            115.99,
+            85.45999999999998
+          ],
+          [
+            603.8630800000001,
+            85.45999999999998
+          ],
+          [
+            603.8630800000001,
+            53.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 24,
+      "parent_id": "3f7cc310b8409a528c2b074f66cb859d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "254636f78f2a7edca28bd38264bd8170",
+    "text": "Authentication exchange A mechanism intended to ensure the identity of an entity by means of information exchange. Traffic padding The generation of spurious instances of communication, spurious data units and/or spurious data within data units.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.648,
+            107.582
+          ],
+          [
+            72.648,
+            261.40799999999996
+          ],
+          [
+            650.756,
+            261.40799999999996
+          ],
+          [
+            650.756,
+            107.582
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 24,
+      "parent_id": "97d70d406212ee66c7b898c0b554b958",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b29d96771aecc608b9a2b7771b95973e",
+    "text": "Routing control The application of rules during the process of routing to chose or avoid specific networks, links or relays.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.648,
+            287.652
+          ],
+          [
+            72.648,
+            358.26800000000003
+          ],
+          [
+            661.28,
+            358.26800000000003
+          ],
+          [
+            661.28,
+            287.652
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 24,
+      "parent_id": "97d70d406212ee66c7b898c0b554b958",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f1222941e6f2141921148333a0e1eacb",
+    "text": "Notarization The registration of data with a trusted third party that allows the later assurance of the accuracy of its characteristics such as content, origin, time and delivery.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            372.49199999999996
+          ],
+          [
+            73.2,
+            469.03200000000004
+          ],
+          [
+            651.28,
+            469.03200000000004
+          ],
+          [
+            651.28,
+            372.49199999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 24,
+      "parent_id": "97d70d406212ee66c7b898c0b554b958",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "99ab7b9506c4dc5caa22ac7c42a4de30",
+    "text": "Relation between Services and Mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            12.449359999999956
+          ],
+          [
+            97.224,
+            40.40935999999999
+          ],
+          [
+            589.1802000000002,
+            40.40935999999999
+          ],
+          [
+            589.1802000000002,
+            12.449359999999956
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b8f72dedcecdaf8061bb0510d103061f",
+    "text": "Table 1.2 Relation between security services and mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            127.964
+          ],
+          [
+            103.22,
+            151.964
+          ],
+          [
+            618.0664400000001,
+            151.964
+          ],
+          [
+            618.0664400000001,
+            127.964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 25,
+      "parent_id": "99ab7b9506c4dc5caa22ac7c42a4de30",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12eff3a5d8af055962559a419a14c1ac",
+    "text": "Encipherment: this another name for encryption.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.072,
+            437.58
+          ],
+          [
+            36.072,
+            455.58
+          ],
+          [
+            392.7940000000001,
+            455.58
+          ],
+          [
+            392.7940000000001,
+            437.58
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 25,
+      "parent_id": "99ab7b9506c4dc5caa22ac7c42a4de30",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "dcf3270bfc0ff1b36eef291a39a0d3d4",
+    "text": "1.25",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "78eb13e1ca0e79663033048cb63564b7",
+    "text": "Characteristics of a Security Service",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.208,
+            48.379999999999995
+          ],
+          [
+            44.208,
+            92.42000000000002
+          ],
+          [
+            676.0058399999997,
+            92.42000000000002
+          ],
+          [
+            676.0058399999997,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "57938116b6293c542406dceb5061c1d7",
+    "text": "1. Enhance security of data processing systems and information transfers of an organization 2. Intended to counter security attacks 3. Using one or more security mechanisms 4. Often replicates functions normally associated with physical documents which, for example, have signatures, dates; need protection from disclosure, tampering, or destruction; be notarized or witnessed; be recorded or licensed",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            140.79199999999997
+          ],
+          [
+            79.224,
+            457.806
+          ],
+          [
+            677.8649120000002,
+            457.806
+          ],
+          [
+            677.8649120000002,
+            140.79199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 26,
+      "parent_id": "78eb13e1ca0e79663033048cb63564b7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4e31a731104323040022d19cee200c84",
+    "text": "1-4 TECHNIQUES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            25.2,
+            38.90799999999996
+          ],
+          [
+            25.2,
+            56.90799999999996
+          ],
+          [
+            175.29,
+            56.90799999999996
+          ],
+          [
+            175.29,
+            38.90799999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "62258b67f2d123bb0f961cf64cc3f928",
+    "text": "Mechanisms discussed in the previous sections are only theoretical recipes to implement security. The actual implementation of security goals needs some techniques. Two techniques are prevalent today:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            68.472,
+            172.42936000000003
+          ],
+          [
+            68.472,
+            301.21936
+          ],
+          [
+            655.016,
+            301.21936
+          ],
+          [
+            655.016,
+            172.42936000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 27,
+      "parent_id": "4e31a731104323040022d19cee200c84",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "abeb8469a9eff78ab1465926ab78be11",
+    "text": "1. Cryptography 2. Steganography",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.22,
+            336.08936
+          ],
+          [
+            181.22,
+            397.654544
+          ],
+          [
+            384.21996800000005,
+            397.654544
+          ],
+          [
+            384.21996800000005,
+            336.08936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 27,
+      "parent_id": "4e31a731104323040022d19cee200c84",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "c16d4939c09a1f99a1e4c68c0f1a7876",
+    "text": "1.27",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "5265aa922742962eadc6868c5addcf86",
+    "text": "Cryptography",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            297.229248,
+            46.18118399999997
+          ],
+          [
+            297.229248,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "922371a736e9e7b967a0997234fd91f0",
+    "text": "Cryptography, a word with Greek origins, means \u201csecret writing.\u201d However, we use the term to refer to the science and art of transforming messages to make them secure and immune to attacks.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            13.824,
+            165.46936
+          ],
+          [
+            13.824,
+            294.25936
+          ],
+          [
+            714.396,
+            294.25936
+          ],
+          [
+            714.396,
+            165.46936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 28,
+      "parent_id": "5265aa922742962eadc6868c5addcf86",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "42bdfe47be88abd823a9b5f86ebcf51e",
+    "text": "1.28",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "a47e6a3e63c22bd6c2f4e39550574f3f",
+    "text": "Steganography",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            10.15718400000003
+          ],
+          [
+            97.224,
+            46.18118399999997
+          ],
+          [
+            313.223904,
+            46.18118399999997
+          ],
+          [
+            313.223904,
+            10.15718400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "392ec11b9189ad9aa7c5893c28758c6f",
+    "text": "The word steganography, with origin in Greek, means \u201ccovered writing,\u201d in contrast with cryptography, which means \u201csecret writing.\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            29.52,
+            102.97935999999999
+          ],
+          [
+            29.52,
+            198.15936
+          ],
+          [
+            697.456,
+            198.15936
+          ],
+          [
+            697.456,
+            102.97935999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "a47e6a3e63c22bd6c2f4e39550574f3f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f3b79c7137a30cb557796966b4a7ddf",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            310.42,
+            231.13936
+          ],
+          [
+            310.42,
+            259.09936
+          ],
+          [
+            409.67800000000005,
+            259.09936
+          ],
+          [
+            409.67800000000005,
+            231.13936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "a47e6a3e63c22bd6c2f4e39550574f3f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "672035f0a913e747e57c272883c9fcb9",
+    "text": "1. Convert your data into a stream of \u201cN\u201d bits, say N=10000 bits.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.648,
+            268.948
+          ],
+          [
+            27.648,
+            286.948
+          ],
+          [
+            506.46,
+            286.948
+          ],
+          [
+            506.46,
+            268.948
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "9f3b79c7137a30cb557796966b4a7ddf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5c60e56c563ed5ac1059f4f573919e08",
+    "text": "2. Use an image, audio or video file to carry the data bits. The carrying file must have a number of bytes much more than \u201cN\u201d.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.648,
+            296.548
+          ],
+          [
+            27.648,
+            336.153184
+          ],
+          [
+            696.92,
+            336.153184
+          ],
+          [
+            696.92,
+            296.548
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "9f3b79c7137a30cb557796966b4a7ddf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "384b979bc633818428d679514824b034",
+    "text": "3. To carry the data bits, select \u201cN\u201d bytes of the carrying file and replace the least significant bit in each selected byte by a single data bit. There will be minor distortion in the carrying file that would not be noticed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.648,
+            345.76800000000003
+          ],
+          [
+            27.648,
+            406.968
+          ],
+          [
+            696.92,
+            406.968
+          ],
+          [
+            696.92,
+            345.76800000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "9f3b79c7137a30cb557796966b4a7ddf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "983cfd2bd0ae229dbcdfcaea565fc6b3",
+    "text": "4. Send the carrying file to its recipient.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.648,
+            416.568
+          ],
+          [
+            27.648,
+            434.568
+          ],
+          [
+            322.6,
+            434.568
+          ],
+          [
+            322.6,
+            416.568
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "9f3b79c7137a30cb557796966b4a7ddf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "539913d45fc83676d75edcb09667e409",
+    "text": "5. At the receiving side, the data bits can be extracted in a reverse order.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.648,
+            444.192
+          ],
+          [
+            27.648,
+            462.192
+          ],
+          [
+            555.42,
+            462.192
+          ],
+          [
+            555.42,
+            444.192
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "parent_id": "9f3b79c7137a30cb557796966b4a7ddf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "d5e7771593495a870ccb0b2cc7749ded",
+    "text": "1.29",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            510.03
+          ],
+          [
+            43.2,
+            522.054
+          ],
+          [
+            64.536136,
+            522.054
+          ],
+          [
+            64.536136,
+            510.03
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "09b7119251275985ffbe5f889d241230",
+    "text": "Model for Network Security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            112.15,
+            48.379999999999995
+          ],
+          [
+            112.15,
+            92.42000000000002
+          ],
+          [
+            607.8642399999999,
+            92.42000000000002
+          ],
+          [
+            607.8642399999999,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "37e286e43782df73daf98b588df8ce34",
+    "text": "Topics Related to the Network Security Model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            18.048,
+            60.139999999999986
+          ],
+          [
+            18.048,
+            96.13999999999999
+          ],
+          [
+            701.8679999999999,
+            96.13999999999999
+          ],
+          [
+            701.8679999999999,
+            60.139999999999986
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3ebbec398ec6a18aae5cfc3359d6425f",
+    "text": "Using this model requires us to:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            131.73199999999997
+          ],
+          [
+            43.2,
+            163.796
+          ],
+          [
+            461.0580479999999,
+            163.796
+          ],
+          [
+            461.0580479999999,
+            131.73199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "parent_id": "37e286e43782df73daf98b588df8ce34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "28dcdd6695de30af8d063671ae38f5f3",
+    "text": "1. Design a suitable algorithm for the security transformation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            172.76
+          ],
+          [
+            79.224,
+            230.96000000000004
+          ],
+          [
+            615.0660399999999,
+            230.96000000000004
+          ],
+          [
+            615.0660399999999,
+            172.76
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "parent_id": "37e286e43782df73daf98b588df8ce34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0553167232b91f9ce4c4529dd71182d8",
+    "text": "2. Generate the secret information (keys) used by the algorithm",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            239.96000000000004
+          ],
+          [
+            79.224,
+            298.166
+          ],
+          [
+            659.9772399999999,
+            298.166
+          ],
+          [
+            659.9772399999999,
+            239.96000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "parent_id": "37e286e43782df73daf98b588df8ce34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2c99b36442f3db217c3fd0f549d789a9",
+    "text": "3. Develop methods to distribute and share the secret information",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            307.18
+          ],
+          [
+            79.224,
+            365.38
+          ],
+          [
+            636.2431999999998,
+            365.38
+          ],
+          [
+            636.2431999999998,
+            307.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "parent_id": "37e286e43782df73daf98b588df8ce34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "37bd3c823c3b5cfe69096369e5e43b67",
+    "text": "4. Specify a protocol enabling the principals to use the transformation and secret information for a security service",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.224,
+            374.36199999999997
+          ],
+          [
+            79.224,
+            462.846
+          ],
+          [
+            670.0916480000001,
+            462.846
+          ],
+          [
+            670.0916480000001,
+            374.36199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 31,
+      "parent_id": "37e286e43782df73daf98b588df8ce34",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8550f98760200aba05e167f93283de87",
+    "text": "Model for Network Access Security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            69.912,
+            50.120000000000005
+          ],
+          [
+            69.912,
+            90.07999999999998
+          ],
+          [
+            649.9313999999998,
+            90.07999999999998
+          ],
+          [
+            649.9313999999998,
+            50.120000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3288761aad8c5f02cec941a2ea2ff023",
+    "text": "\u25aa The gatekeeper is typically a firewall. \u25aa The internal security controls ensure that only authorized users can",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            55.2,
+            396.43912
+          ],
+          [
+            55.2,
+            441.43
+          ],
+          [
+            633.04772,
+            441.43
+          ],
+          [
+            633.04772,
+            396.43912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 32,
+      "parent_id": "8550f98760200aba05e167f93283de87",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a653cf10c3413330e2a2bda68b886058",
+    "text": "access designated information or resources, for example username and password, or biometric authentication such as sound identification.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            82.224,
+            445.38599999999997
+          ],
+          [
+            82.224,
+            489.426
+          ],
+          [
+            664.61032,
+            489.426
+          ],
+          [
+            664.61032,
+            445.38599999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 32,
+      "parent_id": "8550f98760200aba05e167f93283de87",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88e77b60b79b6d83f1131719a98e5d99",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            264.94,
+            46.73000000000002
+          ],
+          [
+            264.94,
+            94.73000000000002
+          ],
+          [
+            454.97200000000004,
+            94.73000000000002
+          ],
+          [
+            454.97200000000004,
+            46.73000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3681ded2734d594c2de4e500f6dfc260",
+    "text": "Topics covered in this chapter are: 1. Security concepts: confidentiality, integrity,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            45.768,
+            137.73199999999997
+          ],
+          [
+            45.768,
+            212.06
+          ],
+          [
+            660.8824799999999,
+            212.06
+          ],
+          [
+            660.8824799999999,
+            137.73199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 33,
+      "parent_id": "88e77b60b79b6d83f1131719a98e5d99",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f952bb5abb01c02989213acaf93d00fc",
+    "text": "and availability.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            94.992,
+            214.58000000000004
+          ],
+          [
+            94.992,
+            246.62
+          ],
+          [
+            295.49832,
+            246.62
+          ],
+          [
+            295.49832,
+            214.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "26f4823776968228ffbbec4171a53d68",
+    "text": "2. X.800 security architecture. 3. Security attacks, services, mechanisms. 4. Models for network (access) security.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            45.768,
+            256.802
+          ],
+          [
+            45.768,
+            373.36
+          ],
+          [
+            602.21724,
+            373.36
+          ],
+          [
+            602.21724,
+            256.802
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 1  Introduction 2020 - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:06",
+      "page_number": 33,
+      "parent_id": "f952bb5abb01c02989213acaf93d00fc",
+      "filetype": "application/pdf"
+    }
+  }
+]

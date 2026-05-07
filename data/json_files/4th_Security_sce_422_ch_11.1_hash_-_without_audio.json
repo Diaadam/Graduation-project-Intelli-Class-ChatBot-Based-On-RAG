@@ -1,0 +1,2288 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "bc153566f66dec40dabdd7fd7ff91d92",
+    "text": "Lecture slides by Lawrie Brown for \u201cCryptography and Network Security\u201d, 5/e, by William Stallings, Chapter 11 \u2013 \u201cCryptographic Hash Functions\u201d.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de85c576a899e2cabada4485ace0f2ef",
+    "text": "Cryptographic Hash Functions",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16142c7a8e09bb28b3b9752ca4b66be3",
+    "text": "Arabic Language Audio Comments by",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "01e28041448657ca22ad2ddf6dac5797",
+    "text": "Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a1e3adf60ed15d4b3e008aa6ff239c9f",
+    "text": "Cryptography and Network Security\u000bChapter 11",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ef45eff8da62d676b7923155ffd41b94",
+    "text": "Fifth Edition",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a1e3adf60ed15d4b3e008aa6ff239c9f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1e9f9bd16aa8c969cf7ee8a070e4fc13",
+    "text": "by William Stallings\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a1e3adf60ed15d4b3e008aa6ff239c9f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f1ad2eb0dbed168ac33601c7884b13a3",
+    "text": "Lecture slides by",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1e9f9bd16aa8c969cf7ee8a070e4fc13"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0bdd22561f86dfcf9615dc1ac42b8e5d",
+    "text": "Lawrie Brown",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a1e3adf60ed15d4b3e008aa6ff239c9f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2167cc2ebdd14805a214773ebfa9a56f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2084ebb3852a7d765f8b642f135cf2f0",
+    "text": "A hash function H accepts a variable-length block of data M as input and produces a fixed-size hash value h = H(M). A \"good\" hash function has the property that the results of applying the function to a large set of inputs will produce outputs that are evenly distributed, and apparently random. In general terms, the principal object of a hash function is data integrity. A change to any bit or bits in M results, with high probability, in a change to the hash code. The kind of hash function needed for security applications is referred to as a cryptographic hash function. A cryptographic hash function is an algorithm for which it is computationally infeasible (because no attack is significantly more efficient than brute force) to find either (a) a data object that maps to a pre-specified hash result (the one-way property) or (b) two data objects that map to the same hash result (the collision-free property). Because of these characteristics, hash functions are often used to determine whether or not data has changed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6d0536a22c5fad31af5a0e8c9da1d062",
+    "text": "Hash Functions",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3ad61476220f7143f6042c403f9b4cb8",
+    "text": "condenses arbitrary message to fixed size",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6d0536a22c5fad31af5a0e8c9da1d062"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e8a55bf467579eb26a76763467bc5c26",
+    "text": "h = H(M) ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6d0536a22c5fad31af5a0e8c9da1d062"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b32bf155fa743da5cebfee38e35e2d54",
+    "text": "usually assume hash function is public",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8a55bf467579eb26a76763467bc5c26"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7f47c98565296c03fe435dd142fd1a12",
+    "text": "hash used to detect changes to message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8a55bf467579eb26a76763467bc5c26"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "855addd5475218c38b7b7b815b9573fe",
+    "text": "want a cryptographic hash function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8a55bf467579eb26a76763467bc5c26"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "84dbb28d0bfc96f58bdd785d4a44f61b",
+    "text": "computationally infeasible to find data mapping to specific hash (one-way property)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "855addd5475218c38b7b7b815b9573fe"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3f7030caea7442734271df2742348267",
+    "text": "computationally infeasible to find two data to same hash (collision-free property)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "855addd5475218c38b7b7b815b9573fe"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2f684deed52521e4de2b97f40c6f4661",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0a5234b5ff36a1a2f07ca03b367fe2d4",
+    "text": "A hash function H accepts a variable-length block of data M as input and produces a fixed-size hash value h = H(M). A \"good\" hash function has the property that the results of applying the function to a large set of inputs will produce outputs that are evenly distributed, and apparently random. In general terms, the principal object of a hash function is data integrity. A change to any bit or bits in M results, with high probability, in a change to the hash code. The kind of hash function needed for security applications is referred to as a cryptographic hash function. A cryptographic hash function is an algorithm for which it is computationally infeasible (because no attack is significantly more efficient than brute force) to find either (a) a data object that maps to a pre-specified hash result (the one-way property) or (b) two data objects that map to the same hash result (the collision-free property). Because of these characteristics, hash functions are often used to determine whether or not data has changed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1aeced0773ca56263a42df0313fe2cf5",
+    "text": "Cryptographic\u000bHash Function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cee4e3f94cf5d37ecb68b9592e743434",
+    "text": "The cryptographic hash function accepts an input message of arbitrary long size and computes a fixed length hash value that depends on every bit of the input message.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1aeced0773ca56263a42df0313fe2cf5"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6752a3fe7de4816bedec699f6c4a8f84",
+    "text": "The input message can be any document such as text, image, video, etc.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1aeced0773ca56263a42df0313fe2cf5"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c5c4a3170709d5000a5ee1b6d0fe2a98",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "96256e6b91624401631aa6ebfa0b344d",
+    "text": "Figure 11.1 depicts the general operation of a cryptographic hash function.\nTypically, the input is padded out to an integer multiple of some fixed length\n(e.g., 1024 bits), and the padding includes the value of the length of the original message\nin bits. The length field is a security measure to increase the difficulty for an\nattacker to produce an alternative message with the same hash value.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "722c6064eaf73596b7d194a6184d700d",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "954f81c462454c22de3ffe6dce08c6c2",
+    "text": "Message authentication is a mechanism or service used to verify the integrity of\na message. Message authentication assures that data received are exactly as sent\n(i.e., contain no modification, insertion, deletion, or replay). In many cases, there is\n a requirement that the authentication mechanism assures that purported identity of\nthe sender is valid. When a hash function is used to provide message authentication,\nthe hash function value is often referred to as a message digest .\n\n The essence of the use of a hash function for message authentication is as\nfollows. The sender computes a hash value as a function of the bits in the message\nand transmits both the hash value and the message. The receiver performs the same\nhash calculation on the message bits and compares this value with the incoming\nhash value. If there is a mismatch, the receiver knows that the message (or possibly\nthe hash value) has been altered (Figure 11.2a).\n\n The hash function must be transmitted in a secure fashion. That is, the hash\nfunction must be protected so that if an adversary alters or replaces the message,\nit is not feasible for adversary to also alter the hash value to fool the receiver. This\ntype of attack is shown in Figure 11.2b. In this example, Alice transmits a data block\nand attaches a hash value. Darth intercepts the message, alters or replaces the data\nblock, and calculates and attaches a new hash value. Bob receives the altered data\nwith the new hash value and does not detect the change. To prevent this attack, the\nhash value generated by Alice must be protected.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "29b2f7824e5e89b621b5910c2b48efd5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "20156465dfec0b5f09ba77b8f28f86ba",
+    "text": "Another important application, which is similar to the message authentication application, is the digital signature. The operation of the digital signature is similar to that of the MAC. In the case of the digital signature, the hash value of a message is encrypted with a user's private key. Anyone who knows the user's public key can verify the integrity of the message that is associated with the digital signature. In this case an attacker who wishes to alter the message would need to know the user's private key. As we shall see in Chapter 14, the implications of digital signatures go beyond just message authentication.   Stallings Figure 11.3 illustrates, in a simplified fashion, how a hash code is used to provide a digital signature: \nThe hash code is encrypted, using public-key encryption and using the sender's private key. As with Figure 11.2b, this provides authentication. It also provides a digital signature, because only the sender could have produced the encrypted hash code. In fact, this is the essence of the digital signature technique.  \nIf confidentiality as well as a digital signature is desired, then the message plus the private-key-encrypted hash code can be encrypted using a symmetric secret key. This is a common technique.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "54c17a175054022857b8cc268ef6d570",
+    "text": "Hash Functions & Digital Signatures",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d38f6fa42138b7427386c4afc3697266",
+    "text": "M || E(PRa, H(M)) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54c17a175054022857b8cc268ef6d570"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ee5fe565981625a4da171738564ef65a",
+    "text": "E(k, M || E(PRa, H(M))) ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d38f6fa42138b7427386c4afc3697266"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "be8bf9b0f5fb83ab2a63259187ecf084",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d223c52842b9750d9fda57a87abd5c5f",
+    "text": "Hash functions are commonly used to create a one-way password file. Chapter 20 explains a scheme in which a hash of a password is stored by an operating system rather than the password itself. Thus, the actual password is not retrievable by a hacker who gains access to the password file. In simple terms, when a user enters a password, the hash of that password is compared to the stored hash value for verification. This approach to password protection is used by most operating systems.  \nHash functions can be used for intrusion detection and virus detection. Store H(F) for each file on a system and secure the hash values (e.g., on a CD-R that is kept secure). One can later determine if a file has been modified by recomputing H(F). An intruder would need to change F without changing H(F).  \nA cryptographic hash function can be used to construct a pseudorandom function (PRF) or a pseudorandom number generator (PRNG). A common application for a hash-based PRF is for the generation of symmetric keys. We discuss this application in Chapter 12.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0655d7417fae0b2c55650152e1db76e5",
+    "text": "Other Hash Function Uses",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "096cc56204df09ea551aff8c557e3866",
+    "text": "to create a one-way password file",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0655d7417fae0b2c55650152e1db76e5"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2646df4e1d80552fa76861222efbde48",
+    "text": "store hash of password not actual password",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0655d7417fae0b2c55650152e1db76e5"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ab604dce5da5385793ce1421edd6a031",
+    "text": "for intrusion detection and virus detection",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0655d7417fae0b2c55650152e1db76e5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c726650ad706bb6ed5423c4642953703",
+    "text": "keep & check hash of files on system",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ab604dce5da5385793ce1421edd6a031"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "652917b5969cd8198345ffac80c42f39",
+    "text": "pseudorandom function (PRF) or pseudorandom number generator (PRNG)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0655d7417fae0b2c55650152e1db76e5"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "192a0a27d7705ecd1c6688e9faa55330",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "443885ac221898f7a019fbd8cc2ad63d",
+    "text": "Stallings Table 11.1 lists the generally accepted requirements for a cryptographic hash function. The first three properties are requirements for the practical application of a hash function. The fourth property, preimage (for a hash value h = H(x), we say that x is the preimage of h) resistant, is the one-way property: it is easy to generate a code given a message, but virtually impossible to generate a message given a code. This property is important if the authentication technique involves the use of a secret value (Figure 11.2c). The fifth property, second preimage resistant, guarantees that it is impossible to find an alternative message with the same hash value as a given message. This prevents forgery when an encrypted hash code is used (Figure 11.2b and Figure 11.3a). A hash function that satisfies the first five properties in Table 11.1 is referred to as a weak hash function. If the sixth property, collision resistant, is also satisfied, then it is referred to as a strong hash function. A strong hash function protects against an attack in which one party generates a message for another party to sign. The final requirement, pseudorandomness, has not traditionally been listed as a requirement of cryptographic hash functions, but is more or less implied.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b2da1894ebdb241f71772e8835cd9907",
+    "text": "Hash Function Requirements",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0c80fa9b558fdecfa8fccc7bef6628c6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5512f8a7cf24457e58d6606702339b67",
+    "text": "As with encryption algorithms, there are two categories of attacks on hash functions: brute-force attacks and cryptanalysis. A brute-force attack does not depend on the specific algorithm but depends only on bit length. In the case of a hash function, a brute-force attack depends only on the bit length of the hash value. A cryptanalysis, in contrast, is an attack based on weaknesses in a particular cryptographic algorithm. \nFor a preimage or second preimage attack, an adversary wishes to find a value y such that H(y) is equal to a given hash value h. The brute force method is to pick values of y at random and try each value until a collision occurs. For an m-bit hash value, the level of effort is proportional to 2m. Specifically, the adversary would have to try, on average, 2m\u20131 values of y to find one that generates a given hash value h. \nFor a collision resistant attack, an adversary wishes to find two messages or data blocks, x and y, that yield the same hash function: H(x) = H(y). This requires much less effort than a preimage or second preimage attack. The effort required is explained by a mathematical result referred to as the birthday paradox (next slide).\nIf collision resistance is required, then the value 2m/2 determines the strength of the hash code against brute-force attacks. Van Oorschot and Wiener presented a design for a $10 million collision search machine for MD5, which has a 128-bit hash length, that could find a collision in 24 days. Thus a 128-bit code may be viewed as inadequate. The next step up, if a hash code is treated as a sequence of 32 bits, is a 160-bit hash length. With a hash length of 160 bits, the same search machine would require over four thousand years to find a collision. With today's technology, the time would be much shorter, so that 160 bits now appears suspect.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "01bf5d12693112513a7d931e7b712039",
+    "text": "Attacks on Hash Functions",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "96e872f16a9a33d39756f4255f53a6fb",
+    "text": "For an m-bit hash value, attackers have brute-force attacks and cryptanalysis attacks:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "01bf5d12693112513a7d931e7b712039"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b8f6f2bfc731cb5f19544151da27015",
+    "text": "a preimage or second preimage attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "01bf5d12693112513a7d931e7b712039"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7763c54030ab9f234f03cfd364fc47ae",
+    "text": "find y  such that H(y) equals a given hash value. (The level of effort is proportional to 2m)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b8f6f2bfc731cb5f19544151da27015"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3a0580812d816ac8d8d8b7814f356af1",
+    "text": "collision resistance attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "01bf5d12693112513a7d931e7b712039"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5d95e11f664cd2cf8a158f854b1b6d0c",
+    "text": "find  two messages x & y with same hash i.e., H(x) = H(y) (The value 2m/2 determines the strength of the hash code against brute-force Birthday Attack) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a0580812d816ac8d8d8b7814f356af1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e2a0784fb81c31354d0276f830fa8bac",
+    "text": "hence value 2m/2 determines strength of hash code against brute-force attacks",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a0580812d816ac8d8d8b7814f356af1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a144fae83904209f4433d6494749f127",
+    "text": "128-bits inadequate, 160-bits suspect",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e2a0784fb81c31354d0276f830fa8bac"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "4ef7c505d72de7decf3f5e7b1f8f33b5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1df705eb467e314d58b9f95ce5751a7a",
+    "text": "The Birthday Attack exploits the birthday paradox \u2013 the chance that in a group of people two will share the same birthday \u2013 only 23 people are needed for a Pr>0.5 of this. Can generalize the problem to one wanting a matching pair from any two sets, and show need 2m/2 in each to get a matching m-bit hash.\nYuval proposed the strategy shown to exploit the birthday paradox in a collision resistant attack. Note that creating many message variants is relatively easy, either by rewording or just varying the amount of white-space in the message. All of which indicates that larger MACs/Hashes are needed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "28a07ddd23053b8c2c8efc45cd670de1",
+    "text": "Birthday Attacks",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3653e4f517419205bf6244732423af74",
+    "text": "one might think a 64-bit hash is secure, but by Birthday Paradox it is not.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "28a07ddd23053b8c2c8efc45cd670de1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "24cf840e4da293218cf9f050df9ff8ed",
+    "text": "Birthday attack works thus:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "28a07ddd23053b8c2c8efc45cd670de1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6a51708b96dc1c0b38f47dce42b72f3e",
+    "text": "given user prepared to sign a valid message x",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24cf840e4da293218cf9f050df9ff8ed"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bd5b0a4af778a5026057fa7c7b3c3a71",
+    "text": "opponent generates 2m/2 variations x\u2019 of x, all with essentially the same meaning, and saves them",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24cf840e4da293218cf9f050df9ff8ed"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "70a49eb3fceb436d24bb7108b1ef04dd",
+    "text": "opponent generates 2m/2 variations y\u2019 of a desired fraudulent message y",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24cf840e4da293218cf9f050df9ff8ed"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ae0e7be658dbf0ab4c5fae6003cfdcdd",
+    "text": "two sets of messages are compared to find pair with same hash (probability > 0.5 by birthday paradox)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24cf840e4da293218cf9f050df9ff8ed"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d31ee32caee7ee51f48d579e6c85185b",
+    "text": "have user sign the valid message, then substitute the forgery which will have a valid signature",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "24cf840e4da293218cf9f050df9ff8ed"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "49efa7240819fe06653ac5faa78047b9",
+    "text": "conclusion is that need to use larger hash",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "28a07ddd23053b8c2c8efc45cd670de1"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "169c88cbd6780a9222eded781b474186",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7dfe64e84c7518782142a7dec5075f9a",
+    "text": "Class Activity Assignment\nWrite a short C.V. in about 5 lines to summarize your educational path. There should be at least 1024 variations (i.e., use 10 groups as shown above).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "efc4a3597dd8f301d9986a0566565d00",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fec792749406366d4ed8796cd7996a0f",
+    "text": "As with symmetric encryption, there are two\napproaches to attacking a secure hash function: cryptanalysis and brute-force attack.\nAs with symmetric encryption algorithms, cryptanalysis of a hash function involves\nexploiting logical weaknesses in the algorithm.\nThe strength of a hash function against brute-force attacks depends solely on\nthe length of the hash code produced by the algorithm.\nFor a hash code of length n,\nthe level of effort required is proportional to the following:\nPreimage resistant 2n\nSecond preimage resistant 2n\nCollision resistant 2n/2\n\nIf collision resistance is required (and this is desirable for a general-purpose\nsecure hash code), then the value 2n/2 determines the strength of the hash code against\nbrute-force attacks. Van Oorschot and Wiener [VANO94] pre sented a design for a\n$10 million collision search machine for MD5, which has a 128-bit hash length, that\ncould find a collision in 24 days. Thus a 128-bit code may be viewed as inadequate.\nThe next step up, if a hash code is treated as a sequence of 32 bits, is a 160-bit hash\nlength. With a hash length of 160 bits, the same search machine would require over\nfour thousand years to find a collision. With today\u2019s technology, the time would be\nmuch shorter, so that 160 bits now appears suspect.\n\nIn recent years, the most widely used\nhash function has been the Secure Hash Algorithm (SHA). SHA was developed\nby the National Institute of Standards and Technology (NIST) and published as\na federal information processing standard (FIPS 180) in 1993. When weaknesses\nwere discovered in SHA, a revised version was issued as FIPS 180-1 in 1995 and is\ngenerally referred to as SHA-1. SHA-1 produces a hash value of 160 bits. In 2002,\nNIST produced a revised version of the standard, FIPS 180\u20132, that defined three\nnew versions of SHA, with hash value lengths of 256, 384, and 512 bits, known as\nSHA-256, SHA-384, and SHA-512. These new versions have the same underlying\nstructure and use the same types of modular arithmetic and logical binary operations\nas SHA-1. In 2005, NIST announced the intention to phase out approval of SHA-1\nand move to a reliance on the other SHA versions by 2010. As discussed in Chapter\n21, researchers have demonstrated that SHA-1 is far weaker than its 160-bit hash\nlength suggests, necessitating the move to the newer versions of SHA.\n\nWe have discussed the use of hash functions for message authentication and for the\ncreation of digital signatures (the latter is discussed in more detail later in this chapter).\nHere are two other examples of secure hash function applications:\n\n\u2022 Passwords: Chapter 3 explains a scheme in which a hash of a password is\nstored by an operating system rather than the password itself. Thus, the actual\npassword is not retrievable by a hacker who gains access to the password file.\nIn simple terms, when a user enters a password, the hash of that password is\ncompared to the stored hash value for verification. This application requires\npreimage resistance and perhaps second preimage resistance.\n\n\u2022 Intrusion detection: Store H(F) for each file on a system and secure the hash\nvalues (e.g., on a CD-R that is kept secure). One can later determine if a file has\nbeen modified by recomputing H(F). An intruder would need to change F without\nchanging H(F). This application requires weak second preimage resistance",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1ce5dda15b6a99ef4bad3a26ae37644a",
+    "text": "Security of Hash Functions\u000b(and additional applications)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "44536d1d2aa1296aba079f0876cad50a",
+    "text": "Passwords",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce5dda15b6a99ef4bad3a26ae37644a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "90cee387df53526e2a0c31e0ade0fa39",
+    "text": "Hash of a password is stored by an operating system",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "44536d1d2aa1296aba079f0876cad50a"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "095d8d7bb79a894d6f52142d42996a6c",
+    "text": "Cryptanalysis",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce5dda15b6a99ef4bad3a26ae37644a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "315f221788065d5cfa8f9273d7c82231",
+    "text": "Exploit logical weaknesses in the algorithm",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "095d8d7bb79a894d6f52142d42996a6c"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3719e7e656725b397bd97db8588d2aa4",
+    "text": "There are two approaches to attacking a secure hash function:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "095d8d7bb79a894d6f52142d42996a6c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c252da84f0d7a66209a19719229f0bd",
+    "text": "Intrusion detection",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce5dda15b6a99ef4bad3a26ae37644a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "793592afa3db5297a2d47cd0fc5f602d",
+    "text": "Store H(F) for each file on a system and secure the hash values",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c252da84f0d7a66209a19719229f0bd"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a801f23d9e18644751302fd11e409c09",
+    "text": "Brute-force attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce5dda15b6a99ef4bad3a26ae37644a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bc8515e484ee32227ae4b9ed883fd757",
+    "text": "Strength of hash function depends solely on the length of the hash code produced by the algorithm",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a801f23d9e18644751302fd11e409c09"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e09f2b4fed2c901a9258d4708a40aca1",
+    "text": "Additional secure hash function applications:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a801f23d9e18644751302fd11e409c09"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "93b8c07e4c165ce0212c33e92f839fb2",
+    "text": "SHA is the most widely used hash algorithm",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a801f23d9e18644751302fd11e409c09"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f4602aba8f3416b461fc876872bb3811",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf47d0048bc0df667d75a12201def92f",
+    "text": "Hash Function Cryptanalysis",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "44aa4086437cd2301b31f72d2ee9abae",
+    "text": "hash functions use iterative structure",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf47d0048bc0df667d75a12201def92f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d68d23a3e34ff30dd9421e05ba92b134",
+    "text": "process message in blocks (including length)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "44aa4086437cd2301b31f72d2ee9abae"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e9d6fe54011e569a5d443acb09a5d882",
+    "text": "cryptanalytic attacks exploit some property of algorithm so faster than exhaustive search",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf47d0048bc0df667d75a12201def92f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3c1972ec190e2a26d03ea74a214f1dda",
+    "text": "attacks focus on collisions in function f",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cf47d0048bc0df667d75a12201def92f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9b7f26415135656ea9ad0b03af192398",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6efda1003d56be27efcdea5e7d3ae785",
+    "text": "In recent years, the most widely used hash function has been the Secure Hash Algorithm (SHA). The Secure Hash Algorithm (SHA) was developed by the National Institute of Standards and Technology (NIST) and published as a federal information processing standard (FIPS 180) in 1993; a revised version was issued as FIPS 180-1 in 1995 and is generally referred to as SHA-1. The actual standards document is entitled Secure Hash Standard. SHA is based on the hash function MD4 and its design closely models MD4. SHA-1 produces a hash value of 160 bits. In 2005, a research team described an attack in which two separate messages could be found that deliver the same SHA-1 hash using 2^69 operations, far fewer than the 2^80 operations previously thought needed to find a collision with an SHA-1 hash [WANG05]. This result has hastened the transition to newer, longer versions of SHA.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "43c6ec6039d3cdf46ab6b55b45b639d2",
+    "text": "Secure Hash Algorithm (SHA)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b84b5b7f2667e1859d30183442dec9bb",
+    "text": "SHA originally designed by NIST & NSA in 1993",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43c6ec6039d3cdf46ab6b55b45b639d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "19bcd59ed768c4ee34c0a0c36ce297ee",
+    "text": "was revised in 1995 as SHA-1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43c6ec6039d3cdf46ab6b55b45b639d2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fd8ddb692e8504c0cd89cabe3e5621d1",
+    "text": "US standard for use with DSA signature scheme ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43c6ec6039d3cdf46ab6b55b45b639d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "af55fcf2c154e3aa90bb39039a6cafac",
+    "text": "standard is FIPS 180-1 1995, also Internet RFC3174",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fd8ddb692e8504c0cd89cabe3e5621d1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9fb84dea70c41fb35d9423523c057e7b",
+    "text": "NOTE: the algorithm is SHA, the standard is SHS ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fd8ddb692e8504c0cd89cabe3e5621d1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4386ae8d688fad4acdc3ceb25a6e3eb9",
+    "text": "based on design of MD4 with key differences ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fd8ddb692e8504c0cd89cabe3e5621d1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6accb0dc24f7626b63915a68763a5417",
+    "text": "produces 160-bit hash values ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "43c6ec6039d3cdf46ab6b55b45b639d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c03203019cc999d401e0ff780819764d",
+    "text": "recent 2005 results on security of SHA-1 have raised concerns on its use in future applications",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6accb0dc24f7626b63915a68763a5417"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1a9db0023feff649daba6dcd462cac36",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ae0a55e490c5a9def8e51700188b0774",
+    "text": "In 2002, NIST produced a revised version of the standard, FIPS 180-2, that defined three new versions of SHA, with hash value lengths of 256, 384, and 512 bits, known as SHA-256, SHA-384, and SHA-512. Collectively,  these hash algorithms are known as SHA-2. These new versions have the same underlying structure and use the same types of modular arithmetic and logical binary operations as SHA-1, hence analyses should be similar. A revised document was issued as FIP PUB 180-3 in 2008, which added a 224-bit version. SHA-2 is also specified in RFC 4634, which essentially duplicates the material in FIPS 180-3, but adds a C code implementation. \nIn 2005, NIST announced the intention to phase out approval of SHA-1 and move to a reliance on the other SHA versions by 2010.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0baec0740d5f53f78fb675fcdf8655c6",
+    "text": "Revised Secure Hash Standard (SHA-2)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6315dc26f9a9fe1a1765d0a65a9ad34c",
+    "text": "NIST issued revision FIPS 180-2 in 2002",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eef89a5ce095cf0ebd8cda54b2849b37",
+    "text": "adds 3 additional versions of SHA ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c05e124dc03fa58b8b49b6279aa7c542",
+    "text": "SHA-256, SHA-384, SHA-512",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ecff700a7d72b40fbdf358c2f3019c9",
+    "text": "designed for compatibility with increased security provided by the AES cipher",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "837ebf8869e30d5dce95adee0919de56",
+    "text": "structure & detail is like SHA-1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1aba367ddb38c928e301909feb022b8a",
+    "text": "hence analysis should be similar",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "222eca8c3eaede413c55cbf94c0a1804",
+    "text": "but security levels are rather higher",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0baec0740d5f53f78fb675fcdf8655c6"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "8beb190b03dcc5bf3e0100eb8d0a6daa",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8e50c1e8de39b1892badfc36acb706b8",
+    "text": "Stallings Table 11.3 provides a comparison of the various parameters for the SHA hash functions.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9cdc302615389b65700fa8cecf8e9839",
+    "text": "SHA Versions",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "6731b15c533ad51dd8b22d191502e57b",
+    "text": "SHA-1 SHA-224 SHA-256 SHA-384 SHA-512 Message digest size 160 224 256 384 512 Message size < 264 < 264 < 264 < 2128 < 2128 Block size 512 512 512 1024 1024 Word size 32 32 32 64 64 Number of steps 80 64 64 80 80",
+    "metadata": {
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 16,
+      "text_as_html": "<table><tr><td/><td>SHA-1</td><td>SHA-224</td><td>SHA-256</td><td>SHA-384</td><td>SHA-512</td></tr><tr><td>Message digest size</td><td>160</td><td>224</td><td>256</td><td>384</td><td>512</td></tr><tr><td>Message size</td><td>&lt; 264</td><td>&lt; 264</td><td>&lt; 264</td><td>&lt; 2128</td><td>&lt; 2128</td></tr><tr><td>Block size</td><td>512</td><td>512</td><td>512</td><td>1024</td><td>1024</td></tr><tr><td>Word size</td><td>32</td><td>32</td><td>32</td><td>64</td><td>64</td></tr><tr><td>Number of steps</td><td>80</td><td>64</td><td>64</td><td>80</td><td>80</td></tr></table>",
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9cdc302615389b65700fa8cecf8e9839"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "68cddc70d293e5633e6d452714f91286",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e0d021698ea6bfcc512f67f1642f24db",
+    "text": "Now examine the structure of SHA-512, noting that the other versions are quite similar.\nSHA-512 follows the structure depicted in Stallings Figure 11.8. The processing consists of the following steps: \n\u2022 Step 1: Append padding bits, consists of a single 1-bit followed by the necessary number of 0-bits, so that its length is congruent to 896 modulo 1024\n\u2022 Step 2: Append length as an (big-endian) unsigned 128-bit integer\n\u2022 Step 3: Initialize hash buffer to a set of 64-bit integer constants (see text) \n\u2022 Step 4: Process the message in 1024-bit (128-word) blocks, which forms the heart of the algorithm. Each round takes as input the 512-bit buffer value Hi, and updates the contents of that buffer. \n\u2022 Step 5: Output the final state value as the resulting hash\nSee text for more details.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4374d62bbceb14e2190c1b5738cfafd7",
+    "text": "SHA-512 Overview",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1e6acc5fdae67f6a0c07ac4fcd64583d",
+    "text": "+ = word-by-word addition mod 264",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4374d62bbceb14e2190c1b5738cfafd7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5825313347b7bda503a66b39ce92f2d8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3bcdb6721cb2e56b18e6766b66278e64",
+    "text": "The SHA-512 Compression Function is the heart of the algorithm. In this Step 4, it processes the message in 1024-bit (128-word) blocks, using a module that consists of 80 rounds, labeled F in Stallings Figure 11.8, and is shown in detail in Figure 11.9. Each round takes as input the 512-bit buffer value, and updates the contents of the buffer. At input to the first round, the buffer has the value of the intermediate hash value. Each round t makes use of a 64-bit value Wt derived using a message schedule from the current 1024-bit block being processed. Each round also makes use of an additive constant Kt, based on the fractional parts of the cube roots of the first eighty prime numbers. The constants provide a \u201crandomized\u201d set of 64-bit patterns, which should eliminate any regularities in the input data. The output of the eightieth round is added to the input to the first round to produce the final hash value for this message block, which forms the input to the next iteration of this compression function, as shown on the previous slide.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "caef78dea8b591d3e8629f70d28a7f7d",
+    "text": "SHA-512 Compression Function",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "21f8fcb8dc3aacc4014a687898fcc6f5",
+    "text": "the compression function \u201cF\u201d is the heart of the SHA algorithm.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "caef78dea8b591d3e8629f70d28a7f7d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1fcab1a09269f5fad00ce6aa1686275e",
+    "text": "SHA processes each message in 1024-bit blocks",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "caef78dea8b591d3e8629f70d28a7f7d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c6a7e4e9916b4267b9dd98727315ea6d",
+    "text": "the compression function \u201cF\u201d consists of 80 rounds",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "caef78dea8b591d3e8629f70d28a7f7d"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "31ec3dc0d829195a07b685f7619b34c7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "184ffa17c2185b794e9f34e719d480b6",
+    "text": "As yet, SHA-1 has not yet been \"broken\". That is, no one has demonstrated a technique for producing collisions in less than brute-force time. However, because SHA-1 is very similar in structure and in the basic mathematical operations used to MD5 and SHA-0, both of which have been broken, SHA-1 is considered insecure and has been phased out for SHA-2.\nSHA-2, particularly the 512-bit version, would appear to provide unassailable security. However, SHA-2 shares the same structure and mathematical operations as its predecessors, and this is a cause for concern. Because it will take years to find a suitable replacement for SHA-2, should it become vulnerable, NIST decided to begin the process of developing a new hash standard.  Accordingly, NIST announced in 2007 a competition to produce the next generation NIST hash function, to be called SHA-3. NIST would like to have a new standard in place by the end of 2012, but emphasizes that this is not a fixed timeline.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f2cd5dbd504d8b4d24b4879279648aa",
+    "text": "SHA-3",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60ee94e1438ec9981eca729b7df99d85",
+    "text": "SHA-1 not yet \"broken\u201d",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0f2cd5dbd504d8b4d24b4879279648aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8852bca15438818c76a0ba97b838e6c8",
+    "text": "but like broken MD5 & SHA-0",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "60ee94e1438ec9981eca729b7df99d85"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f3c7b63312df19995aa52ee83193993",
+    "text": "so considered insecure",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8852bca15438818c76a0ba97b838e6c8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57f5af0617faff34e7a892d226cb64cb",
+    "text": "SHA-2 (esp. SHA-512) seems secure",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8852bca15438818c76a0ba97b838e6c8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "82d791f999b81247dffc8ec8312d6338",
+    "text": "shares same structure and mathematical operations as predecessors so have concern",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "57f5af0617faff34e7a892d226cb64cb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0ff41e6e6c52d57eff91ea29dde8c30b",
+    "text": "SHA-3\u00a0(Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by NIST on August 5, 2015.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8852bca15438818c76a0ba97b838e6c8"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "acc85ac7fd213e01a5a54c37676a9a49",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5c3239de7064d7c085d9577cda2ace1a",
+    "text": "Chapter 11 summary.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "32249f9b08f255631435561c7317af96",
+    "text": "Summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "85cef577591d16d3d2347a68b22b0647",
+    "text": "have considered:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32249f9b08f255631435561c7317af96"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1e41fcd7ff66ed5808f7fe367706f82c",
+    "text": "hash functions",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32249f9b08f255631435561c7317af96"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "019e107582d15e1c51ed17c3ad53e377",
+    "text": "uses, requirements, security",
+    "metadata": {
+      "category_depth": 3,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1e41fcd7ff66ed5808f7fe367706f82c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f6373cf90bf409dc7d63881ac84c3a79",
+    "text": "hash functions based on block ciphers",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "019e107582d15e1c51ed17c3ad53e377"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2c99a751a27f495619ec2c11c25371a6",
+    "text": "SHA-1, SHA-2, SHA-3",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 11.1 Hash - without audio.pptx",
+      "last_modified": "2025-01-16T02:21:47",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "32249f9b08f255631435561c7317af96"
+    }
+  }
+]

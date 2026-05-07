@@ -1,0 +1,4414 @@
+[
+  {
+    "type": "Title",
+    "element_id": "46402e3c573dacb3dc034cdf3907e613",
+    "text": "Lec 2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            297.448818,
+            215.02663
+          ],
+          [
+            297.448818,
+            275.02663
+          ],
+          [
+            421.8589754,
+            275.02663
+          ],
+          [
+            421.8589754,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "07d387366c2666c4293c939bdc0748d4",
+    "text": "Modeling Dynamic Behaviors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            217.948822,
+            290.22345
+          ],
+          [
+            217.948822,
+            314.22345
+          ],
+          [
+            500.99960372,
+            314.22345
+          ],
+          [
+            500.99960372,
+            290.22345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1aca11c438b59795c80398284c595c9c",
+    "text": "Modeling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            241.11019416,
+            106.56259899999998
+          ],
+          [
+            241.11019416,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "685c05fa5416174ee25d55abfcb5a1c1",
+    "text": "This part studies modeling of embedded systems, with emphasis on joint modeling of software and physical dynamics.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            635.9373221736773,
+            238.3484168
+          ],
+          [
+            635.9373221736773,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 2,
+      "parent_id": "1aca11c438b59795c80398284c595c9c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "64e5e6cd941f44fa4fba912582be2460",
+    "text": "The dynamics of a system is its evolution in time, i. e., how its state changes.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            648.1939236253206,
+            308.84842484
+          ],
+          [
+            648.1939236253206,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 2,
+      "parent_id": "1aca11c438b59795c80398284c595c9c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ee7d0dd2386143d68f31351268255b63",
+    "text": "CPS Types",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            234.28280332000003,
+            106.56259899999998
+          ],
+          [
+            234.28280332000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "688904753286430afcd7dd99e96bb3a5",
+    "text": "Continuous Dynamics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            320.4479498272064,
+            178.34842500000002
+          ],
+          [
+            320.4479498272064,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 3,
+      "parent_id": "ee7d0dd2386143d68f31351268255b63",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c6e5de1fb63acc578b554d17b5ab29a2",
+    "text": "Discrete Dynamics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            230.28200895734375
+          ],
+          [
+            46.38302830504534,
+            259.34841644
+          ],
+          [
+            282.7927759072064,
+            259.34841644
+          ],
+          [
+            282.7927759072064,
+            230.28200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 3,
+      "parent_id": "ee7d0dd2386143d68f31351268255b63",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ac58176267e0f693c6f1e1198b344512",
+    "text": "Hybrid Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            311.28202895734375
+          ],
+          [
+            46.38302830504534,
+            340.34843644
+          ],
+          [
+            254.4759648159133,
+            340.34843644
+          ],
+          [
+            254.4759648159133,
+            311.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 3,
+      "parent_id": "ee7d0dd2386143d68f31351268255b63",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "54393a3b1e1f98fcbbb80efa96ae82f7",
+    "text": "1- Continuous Dynamics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            487.94295904000006,
+            106.56259899999998
+          ],
+          [
+            487.94295904000006,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c24e7d4c0410919d90be60de83b0d15a",
+    "text": "Modeling Techniques: \u2022 Newton Mechanics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            150.34842388000004
+          ],
+          [
+            46.38302830504534,
+            218.84841644
+          ],
+          [
+            310.7547956422387,
+            218.84841644
+          ],
+          [
+            310.7547956422387,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fed612b5f8e422e3f3b31eede6a84e87",
+    "text": "Actor Models",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            270.78202895734375
+          ],
+          [
+            46.38302830504534,
+            299.84843644
+          ],
+          [
+            227.01152396561156,
+            299.84843644
+          ],
+          [
+            227.01152396561156,
+            270.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 4,
+      "parent_id": "c24e7d4c0410919d90be60de83b0d15a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a1ee25e125ba8717ddbab8fd3847ce2a",
+    "text": "Feedback Control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            351.78202895734375
+          ],
+          [
+            46.38302830504534,
+            380.84843644
+          ],
+          [
+            272.66663047871236,
+            380.84843644
+          ],
+          [
+            272.66663047871236,
+            351.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 4,
+      "parent_id": "c24e7d4c0410919d90be60de83b0d15a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bb0b7d12b40e43847ea0bafc23681c56",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aa696d07d4208625bfe1f245184f90c8",
+    "text": "This chapter reviews a few of the many modeling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            149.43698765999613
+          ],
+          [
+            47.07881835847694,
+            176.32341307000002
+          ],
+          [
+            588.6285900073112,
+            176.32341307000002
+          ],
+          [
+            588.6285900073112,
+            149.43698765999613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f1d2bed1596b92d07b4e344ec537b28e",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            214.68699550249613
+          ],
+          [
+            47.07881835847694,
+            240.58699508249612
+          ],
+          [
+            56.14634760543592,
+            240.58699508249612
+          ],
+          [
+            56.14634760543592,
+            214.68699550249613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65d2cb20a0f71deda4d27bbf7b8960dc",
+    "text": "techniques for studying dynamics of a physical system. We begin by studying mechanical parts that move (this problem is known as classical mechanics).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881993999999,
+            178.17341727250005
+          ],
+          [
+            74.69881993999999,
+            270.0734250675
+          ],
+          [
+            655.8465983433666,
+            270.0734250675
+          ],
+          [
+            655.8465983433666,
+            178.17341727250005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ab0f0958c3e97aad38c2236503dcd1c5",
+    "text": "Motion of mechanical parts can often be modeled using differential equations, or equivalently, integral equations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            280.6870055024961
+          ],
+          [
+            47.07881835847694,
+            363.82345385
+          ],
+          [
+            620.5463709921102,
+            363.82345385
+          ],
+          [
+            620.5463709921102,
+            280.6870055024961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0ee7b16fa9644e5ed5017432c6b9d4b9",
+    "text": "Such models really only work well for \u201csmooth\u201d motion (a concept that we can make more precise using notions of linearity, time invariance, and continuity).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            374.43700550249605
+          ],
+          [
+            47.07881835847694,
+            457.57345385
+          ],
+          [
+            653.9934021711107,
+            457.57345385
+          ],
+          [
+            653.9934021711107,
+            374.43700550249605
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 5,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "049c155fa6580dcfe9d49d5cbd8aea17",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 6,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e26ba5b8bd02c7a3bb79dd6bcac4fc88",
+    "text": "For motions that are not smooth, such as those modeling collisions of mechanical parts, we can use modal models that represent distinct modes of operation with abrupt (conceptually instantaneous) transitions between modes. \u2022 Collisions of mechanical objects can be usefully modeled as discrete, instantaneous events.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            368.84843484
+          ],
+          [
+            653.1818003572495,
+            368.84843484
+          ],
+          [
+            653.1818003572495,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 6,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3754983650412622488c67571793af36",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 7,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "df920d10c1e24382ff8475655eedcbb3",
+    "text": "The problem of jointly modeling smooth motion and such discrete events is known as hybrid systems modeling and is studied in Chapter 4. \u2022 Such combinations of discrete and continuous behaviors bring us one step closer to joint modeling of cyber and physical processes.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            620.564948521541,
+            338.84841324
+          ],
+          [
+            620.564948521541,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 7,
+      "parent_id": "bb0b7d12b40e43847ea0bafc23681c56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c39be4f14c11b09ac6d762b02314567a",
+    "text": "Modeling Procedure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            419.65389696,
+            106.56259899999998
+          ],
+          [
+            419.65389696,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "60234f21fa4dcdb4eb44c78142b4ea46",
+    "text": "We begin with simple equations of motion, which provide a model of a system in the form of ordinary differential equations (ODEs).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            147.18698954249606
+          ],
+          [
+            47.07881835847694,
+            223.57342853750004
+          ],
+          [
+            614.7377430017659,
+            223.57342853750004
+          ],
+          [
+            614.7377430017659,
+            147.18698954249606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 8,
+      "parent_id": "c39be4f14c11b09ac6d762b02314567a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3110e5d1fd54ed786f21fac806f0648b",
+    "text": "We then show how these ODEs can be represented in actor models, which include the class of models in popular modeling languages such as LabVIEW (from National Instruments) and Simulink (from The MathWorks, Inc.). We then consider properties of such models such as linearity, time invariance, and stability, and consider consequences of these properties when manipulating models.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            231.18699938499606
+          ],
+          [
+            47.07881835847694,
+            465.82339667250005
+          ],
+          [
+            638.4557388819958,
+            465.82339667250005
+          ],
+          [
+            638.4557388819958,
+            231.18699938499606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 8,
+      "parent_id": "c39be4f14c11b09ac6d762b02314567a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fd371e492d150851147810a0ef903934",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            364.6869993849961
+          ],
+          [
+            47.07881835847694,
+            390.58699896499616
+          ],
+          [
+            56.14634760543592,
+            390.58699896499616
+          ],
+          [
+            56.14634760543592,
+            364.6869993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 8,
+      "parent_id": "c39be4f14c11b09ac6d762b02314567a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+    "text": "Newtonian Mechanics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            463.44686572000006,
+            106.56259899999998
+          ],
+          [
+            463.44686572000006,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "430be28e1a025d89d8694320b20326ac",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 9,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "248e0f7b1e47829a76df909a92a4ba60",
+    "text": "Modeling position with six degrees of freedom requires including pitch, roll, and yaw, in addition to position.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.948898,
+            461.26151
+          ],
+          [
+            85.948898,
+            501.01151
+          ],
+          [
+            650.2887431999999,
+            501.01151
+          ],
+          [
+            650.2887431999999,
+            461.26151
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 10,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7c3e15e20fd1f9eb48159d43abbf4d20",
+    "text": "How things fly",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            310.14217854,
+            106.56259899999998
+          ],
+          [
+            310.14217854,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 11,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4ecc853712920fe49d10175e74c2d66e",
+    "text": "Roll: rotation around the front to back (x axis) \u2022 Yaw: rotation around the vertical axis \u2022 Pitch: rotation around the side-to-side Where in Airplane: \u2022 Two Ailerons on the outer wings are moving in opposite direction up and down, and the plane roll to left or right. \u2022 Elevator control pitch: on the horizontal tail surface, the elevator tilts up or down, decreasing or increasing lift on the tail. This tilts the nose of the airplane up and down.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            146.59196757010943
+          ],
+          [
+            47.7738203439166,
+            403.798415035
+          ],
+          [
+            655.4087909995236,
+            403.798415035
+          ],
+          [
+            655.4087909995236,
+            146.59196757010943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 11,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3906f8b726253294c3f39dae1ceb80b2",
+    "text": "Rudder on the vertical tail controls Yaw. It swivels from side to side, pushing the tail to left or right directions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            412.0919652351094
+          ],
+          [
+            47.7738203439166,
+            459.29841361
+          ],
+          [
+            646.5883631125989,
+            459.29841361
+          ],
+          [
+            646.5883631125989,
+            412.0919652351094
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 11,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "090cdeb590d17ef03f3ce64d375ab85e",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 12,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c53881c7670e4f25ca57dd292dbade4e",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            178.34842500000002
+          ],
+          [
+            81.02889345320312,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 12,
+      "parent_id": "c24d1eab1e0640cbe58ea927fd4c0c04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "be716dd0d80fdbbebe0038ad4d6a73e4",
+    "text": "Cont., \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            44.52185099999997
+          ],
+          [
+            46.38302830504534,
+            131.642042
+          ],
+          [
+            162.89998967999998,
+            131.642042
+          ],
+          [
+            162.89998967999998,
+            44.52185099999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c7935b9f0dfaa961e3699735c0fc4fc5",
+    "text": "Velocity & Position",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            48.17393500000003
+          ],
+          [
+            56.698818,
+            92.17393500000003
+          ],
+          [
+            391.2183508,
+            92.17393500000003
+          ],
+          [
+            391.2183508,
+            48.17393500000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "020313a80b23156656c69196024250ee",
+    "text": "Velocity is the integral of acceleration.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            121.35809051734373
+          ],
+          [
+            46.38302830504534,
+            150.42449799999997
+          ],
+          [
+            506.5683780568508,
+            150.42449799999997
+          ],
+          [
+            506.5683780568508,
+            121.35809051734373
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 14,
+      "parent_id": "c7935b9f0dfaa961e3699735c0fc4fc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b9edd5917fb712c83a725fd69ab60712",
+    "text": "Position",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            200.2183508,
+            106.56259899999998
+          ],
+          [
+            200.2183508,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8b9ca60f71b5437fecf527ae91965e75",
+    "text": "Using these equations, if you know the initial position and initial velocity of an object and the forces on the object in all three directions as a function of time, you can determine the acceleration, velocity, and position of the object at any time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            328.348426
+          ],
+          [
+            647.5777455303288,
+            328.348426
+          ],
+          [
+            647.5777455303288,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 15,
+      "parent_id": "b9edd5917fb712c83a725fd69ab60712",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+    "text": "Orientation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            261.90585044,
+            106.56259899999998
+          ],
+          [
+            261.90585044,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0bb990399fdb8e1e8e997dbb9633a0af",
+    "text": "By using Torque (N/m), the rotational version of force around an axis.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            203.09841668
+          ],
+          [
+            615.8061631184852,
+            203.09841668
+          ],
+          [
+            615.8061631184852,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 16,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ae9814468df3b27ca0856ae8c04c6ee2",
+    "text": "It is again a three-element vector as a function of time, representing the net rotational force on an object.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            210.78201711734374
+          ],
+          [
+            46.38302830504534,
+            293.84841772000004
+          ],
+          [
+            630.9749030138013,
+            293.84841772000004
+          ],
+          [
+            630.9749030138013,
+            210.78201711734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 16,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7193c15ff6eca79f4335faf28e14f6ed",
+    "text": "It can be related to angular velocity.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            301.5320171173438
+          ],
+          [
+            46.38302830504534,
+            330.59842460000004
+          ],
+          [
+            480.5672997202559,
+            330.59842460000004
+          ],
+          [
+            480.5672997202559,
+            301.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 16,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "51e4ec7ece9618e41783b5b4e79a72e7",
+    "text": "where T is the torque vector in three axes and I(t) is the moment of inertia tensor of the object in 3-D.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            411.7820171173438
+          ],
+          [
+            46.38302830504534,
+            467.84842116
+          ],
+          [
+            660.8286219238123,
+            467.84842116
+          ],
+          [
+            660.8286219238123,
+            411.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 16,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9c5939d6fafce4599f2ffe2c48bb1bb0",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 18,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "687246c2598d18de86529497bbdb6793",
+    "text": "If the object is spherical, for example, this reluctance is the same around all axes, so it reduces to a constant scalar I (or equivalently, to a diagonal matrix I with equal diagonal elements I).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            642.3178444523467,
+            268.34841919999997
+          ],
+          [
+            642.3178444523467,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 18,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7f76d1e3740caa67630a407792bb170b",
+    "text": "The equation then looks much more like :",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            308.84843644
+          ],
+          [
+            544.6737811617566,
+            308.84843644
+          ],
+          [
+            544.6737811617566,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 18,
+      "parent_id": "3ca349fdca02d2922dd889f3f0f9b3be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4773749be1618fab441ae49aa8c84a70",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fb74bafb76ba6a2175debb9097b8ed23",
+    "text": "A helicopter has two rotors, one above, which provides lift, and one on the tail counteracts spinning.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            595.2314339978558,
+            238.3484168
+          ],
+          [
+            595.2314339978558,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 20,
+      "parent_id": "4773749be1618fab441ae49aa8c84a70",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6d773cf049ad0613f573d83b538c8dd4",
+    "text": "The force produced by the tail rotor must counter the torque produced by the main rotor.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            637.0871742844989,
+            308.84842484
+          ],
+          [
+            637.0871742844989,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 20,
+      "parent_id": "4773749be1618fab441ae49aa8c84a70",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8ce00884aae629ecadb8d34d85f65755",
+    "text": "Modeling Physical Dynamics: Feedback Control Problem",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.93759899999998
+          ],
+          [
+            56.698818,
+            130.18759899999998
+          ],
+          [
+            571.71835172,
+            130.18759899999998
+          ],
+          [
+            571.71835172,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "084d40c344cab2991d9cd8158071e978",
+    "text": "A helicopter without a tail rotor, like the one below, will spin uncontrollably due to the torque induced by friction in the rotor shaft.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            170.18435644000004
+          ],
+          [
+            43.198818,
+            251.18435644000004
+          ],
+          [
+            500.24178698,
+            251.18435644000004
+          ],
+          [
+            500.24178698,
+            170.18435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 21,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b768a6f865ad2cdf681851792a9ddc36",
+    "text": "Control system problem: Apply torque using the tail rotor to counterbalance the torque of the top rotor.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            295.93435744
+          ],
+          [
+            43.198818,
+            433.93435744
+          ],
+          [
+            302.57381752000003,
+            433.93435744
+          ],
+          [
+            302.57381752000003,
+            295.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 21,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "49aa92c9d53a55e0dfb973f6b28e981a",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 22,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "24e15162f5a8fcbf3d684267c1515582",
+    "text": "Assume that the helicopter position is fixed at the origin.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            638.9300478671795,
+            208.34841339999997
+          ],
+          [
+            638.9300478671795,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 22,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c70e881c050c6ddb16b20b7a56713f86",
+    "text": "Assume that the helicopter remains vertical, so pitch and roll are fixed at zero.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            608.2791176176939,
+            278.84842484
+          ],
+          [
+            608.2791176176939,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 22,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1f9b49fbbc4213015c8240ca8aad21e7",
+    "text": "The moment of Inertia (I) reduces to a scalar quantity that resist the changes in Yaw.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            349.34843484
+          ],
+          [
+            578.6168053249945,
+            349.34843484
+          ],
+          [
+            578.6168053249945,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 22,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4c4bdb30bc6100c633eab1030b952a54",
+    "text": "The changes in yaw will be due to Newton\u2019s third law, the action-reaction law, which states that every action has an equal and opposite reaction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            360.78202895734375
+          ],
+          [
+            46.38302830504534,
+            449.84844324
+          ],
+          [
+            629.4469529940626,
+            449.84844324
+          ],
+          [
+            629.4469529940626,
+            360.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 22,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fe9dcc419e8d20873b3451d8c267d049",
+    "text": "Cont., \u2022 We can model the simplified helicopter by a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            39.30444699999998
+          ],
+          [
+            46.38302830504534,
+            132.68535400000002
+          ],
+          [
+            572.8006009682085,
+            132.68535400000002
+          ],
+          [
+            572.8006009682085,
+            39.30444699999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 23,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0da2a1d0b1112f6f6e4a2cdc619bb1d0",
+    "text": "system that takes as input a continuous time signal Ty, the torque around the y axis (which causes changes in yaw).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            134.68536428000004
+          ],
+          [
+            74.69881504,
+            222.68536419999998
+          ],
+          [
+            650.5685861672038,
+            222.68536419999998
+          ],
+          [
+            650.5685861672038,
+            134.68536428000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 23,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1995de186b0ecde373ba4c6e2a3828e6",
+    "text": "This torque is the sum of the torque caused by the main rotor and that caused by the tail rotor. \u2022 When these are perfectly balanced, that sum is",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            234.11895895734375
+          ],
+          [
+            46.38302830504534,
+            333.68537643999997
+          ],
+          [
+            645.6886702754555,
+            333.68537643999997
+          ],
+          [
+            645.6886702754555,
+            234.11895895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 23,
+      "parent_id": "8ce00884aae629ecadb8d34d85f65755",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fc58980a738e77685792dc283e245297",
+    "text": "zero.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            335.68534372
+          ],
+          [
+            74.69881504,
+            363.68534483999997
+          ],
+          [
+            130.2127587336611,
+            363.68534483999997
+          ],
+          [
+            130.2127587336611,
+            335.68534372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "87620492deec5479f9fa4d1602212dd1",
+    "text": "The output of our system will be the angular velocity around the y axis:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            375.1189689573437
+          ],
+          [
+            46.38302830504534,
+            434.18534483999997
+          ],
+          [
+            577.4212231392403,
+            434.18534483999997
+          ],
+          [
+            577.4212231392403,
+            375.1189689573437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 23,
+      "parent_id": "fc58980a738e77685792dc283e245297",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0ac62fc40c74aeb8a70cd522ff4ec7d7",
+    "text": "Actor Model of Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            480.13046054000006,
+            106.56259899999998
+          ],
+          [
+            480.13046054000006,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "52ca32b59cb0a69266b482aba794a696",
+    "text": "Is a SW graphical model mirrors for ODE. It is a box, where the inputs are function, and outputs also are functions. A system is a function that accepts an input signal and yields an output signal.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.198818,
+            152.39842278999998
+          ],
+          [
+            31.198818,
+            290.498426265
+          ],
+          [
+            346.86883588215574,
+            290.498426265
+          ],
+          [
+            346.86883588215574,
+            152.39842278999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 24,
+      "parent_id": "0ac62fc40c74aeb8a70cd522ff4ec7d7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "94eb7b2d94bcca6a82bfcf547f6dc161",
+    "text": "The domain represents the time, and the codomain represents the value of the signal at a particular time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.198818,
+            323.398421155
+          ],
+          [
+            31.198818,
+            375.99842857499993
+          ],
+          [
+            328.77624300505465,
+            375.99842857499993
+          ],
+          [
+            328.77624300505465,
+            323.398421155
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 24,
+      "parent_id": "0ac62fc40c74aeb8a70cd522ff4ec7d7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8901d90f0aac7f75d2136f332b00bb8d",
+    "text": "Parameters may affect the definition of the function S.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.198818,
+            408.898421155
+          ],
+          [
+            31.198818,
+            444.99840626499997
+          ],
+          [
+            341.5162454130548,
+            444.99840626499997
+          ],
+          [
+            341.5162454130548,
+            408.898421155
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 24,
+      "parent_id": "0ac62fc40c74aeb8a70cd522ff4ec7d7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6f91b501b3ac3821c281decae343f91f",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5e36d0a8a2fd9f15dc25f3d514d9002c",
+    "text": "The actor model for the helicopter of the above example can be depicted as follows:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            613.9812326485373,
+            208.34841339999997
+          ],
+          [
+            613.9812326485373,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 25,
+      "parent_id": "6f91b501b3ac3821c281decae343f91f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0281bc2ba84ee43ff91db6cd2c6a1f7b",
+    "text": "Characteristics of Actor Model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            596.6324133599999,
+            106.56259899999998
+          ],
+          [
+            596.6324133599999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a3239f081f54a7007494dadd4c47c90e",
+    "text": "1- Composable. \u2022 We can form a cascaded composition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            150.34842388000004
+          ],
+          [
+            46.38302830504534,
+            218.84841644
+          ],
+          [
+            496.5487803471013,
+            218.84841644
+          ],
+          [
+            496.5487803471013,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 26,
+      "parent_id": "0281bc2ba84ee43ff91db6cd2c6a1f7b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9e07ba3ad29e1598a19b6698b85ce94b",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "87e6ccb8c0f3bb175af1631f910ddcdf",
+    "text": "The actor model for the helicopter can be represented as a cascade composition of two actors as follows:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            585.9138150954957,
+            238.3484168
+          ],
+          [
+            585.9138150954957,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 27,
+      "parent_id": "9e07ba3ad29e1598a19b6698b85ce94b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7ef0b01e433f273268c595a49af3e327",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 28,
+      "parent_id": "9e07ba3ad29e1598a19b6698b85ce94b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "268a4fc7f9a308c30136779f4e0cd1ad",
+    "text": "2- Multiple input signals and/or multiple output signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            150.34842388000004
+          ],
+          [
+            56.698818,
+            208.34841339999997
+          ],
+          [
+            598.7754842789278,
+            208.34841339999997
+          ],
+          [
+            598.7754842789278,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 28,
+      "parent_id": "9e07ba3ad29e1598a19b6698b85ce94b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a4f625cf567fc00bc590919de1f997e0",
+    "text": "Properties of Systems:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            28.077207775000034
+          ],
+          [
+            56.698818,
+            67.677205775
+          ],
+          [
+            422.5888777447031,
+            67.677205775
+          ],
+          [
+            422.5888777447031,
+            28.077207775000034
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "19f8019a5055912d46e27d8585225375",
+    "text": "1- Causal Systems A system is causal if its output depends only on current and past inputs. 2- Memoryless Systems if the output depends only on the current inputs. 3- Linearity and Time Invariance Is a system that is both linear and time invariant. 4- Stability If the output signal is bounded for all input signals that are bounded.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            148.17341537249996
+          ],
+          [
+            56.698818,
+            465.0734120875
+          ],
+          [
+            633.9874738134083,
+            465.0734120875
+          ],
+          [
+            633.9874738134083,
+            148.17341537249996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 29,
+      "parent_id": "a4f625cf567fc00bc590919de1f997e0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "736a57a112a530a9ae83ad70607bbaa4",
+    "text": "Example \u2022 In the helicopter system developed in the above",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            38.782714999999996
+          ],
+          [
+            46.38302830504534,
+            117.91370511999997
+          ],
+          [
+            619.7743360388821,
+            117.91370511999997
+          ],
+          [
+            619.7743360388821,
+            38.782714999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 30,
+      "parent_id": "a4f625cf567fc00bc590919de1f997e0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6ff37caea876bc9e818e8269d5d4b913",
+    "text": "Example.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            116.91369356000007
+          ],
+          [
+            74.69881504,
+            144.91369468000005
+          ],
+          [
+            177.91157597264822,
+            144.91369468000005
+          ],
+          [
+            177.91157597264822,
+            116.91369356000007
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "de45e8a27436a6ea04796defeda384e2",
+    "text": "Let the input be Ty = u, where u is the unit step, given by:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            152.59729511734378
+          ],
+          [
+            46.38302830504534,
+            208.66370015999996
+          ],
+          [
+            621.4998213065222,
+            208.66370015999996
+          ],
+          [
+            621.4998213065222,
+            152.59729511734378
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 30,
+      "parent_id": "6ff37caea876bc9e818e8269d5d4b913",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0870bed1818579bbe6f40dbee43feea8",
+    "text": "This means that prior to time zero, there is no torque applied to the system, and starting at time zero, we apply a torque of unit magnitude. This input is clearly bounded.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            253.09729711734377
+          ],
+          [
+            46.38302830504534,
+            363.16369428
+          ],
+          [
+            637.5647471504984,
+            363.16369428
+          ],
+          [
+            637.5647471504984,
+            253.09729711734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 30,
+      "parent_id": "6ff37caea876bc9e818e8269d5d4b913",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8888ec529953f4c979d74a09437fed50",
+    "text": "However, the output velocity grows without bound. \u2022 In practice, a helicopter uses a feedback system to determine how much torque to apply at the tail rotor to keep the body of the helicopter straight.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            370.8472971173437
+          ],
+          [
+            46.38302830504534,
+            490.66369772
+          ],
+          [
+            660.349636332239,
+            490.66369772
+          ],
+          [
+            660.349636332239,
+            370.8472971173437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 30,
+      "parent_id": "6ff37caea876bc9e818e8269d5d4b913",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0d4ab9f99236024e6ec52ab2144a9c20",
+    "text": "Feedback Control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            373.67342768,
+            106.56259899999998
+          ],
+          [
+            373.67342768,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fbaff1c4200f3b81bf057e5eb15e07a5",
+    "text": "A system with feedback has directed cycles, where an output from an actor is fed back to affect an input of the same actor.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            646.8239063760371,
+            238.3484168
+          ],
+          [
+            646.8239063760371,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 31,
+      "parent_id": "0d4ab9f99236024e6ec52ab2144a9c20",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a2b3de952a788c3afe42b848397930ee",
+    "text": "Most control systems use feedback. They make measurements of an error (e), which is a discrepancy between desired behavior and actual behavior and use that measurement to correct the behavior.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            398.84841004
+          ],
+          [
+            648.5852221154555,
+            398.84841004
+          ],
+          [
+            648.5852221154555,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 31,
+      "parent_id": "0d4ab9f99236024e6ec52ab2144a9c20",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d34a3a3d22a8461e33d20217eb182eaf",
+    "text": "Example 2-5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            275.77303736,
+            106.56259899999998
+          ],
+          [
+            275.77303736,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "81c1007fbc00f2e3df684329b54cb2f8",
+    "text": "Recall that the helicopter model of Example 2.1 is not stable.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            635.6629418978747,
+            208.34841339999997
+          ],
+          [
+            635.6629418978747,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 32,
+      "parent_id": "d34a3a3d22a8461e33d20217eb182eaf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a22c55c5e4c0880c0c91f9e2b19a98fd",
+    "text": "We can stabilize it with a simple feedback control system, as shown in the previous Figure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            632.3783917637338,
+            278.84842484
+          ],
+          [
+            632.3783917637338,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 32,
+      "parent_id": "d34a3a3d22a8461e33d20217eb182eaf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "542a2ee3797c09d9352fbd98a9583828",
+    "text": "assume that \u03c8 (t) = 0 for all t; i.e., we wish to control the helicopter simply to keep it from rotating at all.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34844324
+          ],
+          [
+            584.2279310694398,
+            379.34844324
+          ],
+          [
+            584.2279310694398,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 32,
+      "parent_id": "d34a3a3d22a8461e33d20217eb182eaf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fe4d4646d379d30581e1184d3d262fea",
+    "text": "The desired angular velocity is zero.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            390.78202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843644
+          ],
+          [
+            478.7644977791783,
+            419.84843644
+          ],
+          [
+            478.7644977791783,
+            390.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 32,
+      "parent_id": "d34a3a3d22a8461e33d20217eb182eaf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c2faad9e8a2cf3732f0b52698722075e",
+    "text": "Proportional controller",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            464.85897914000003,
+            106.56259899999998
+          ],
+          [
+            464.85897914000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1aef6469cabd3af7191c0d6a2d2bdf3a",
+    "text": "desired",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.5519673,
+            289.21717079153126
+          ],
+          [
+            61.5519673,
+            308.41717159153126
+          ],
+          [
+            124.53134461214061,
+            308.41717159153126
+          ],
+          [
+            124.53134461214061,
+            289.21717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "parent_id": "c2faad9e8a2cf3732f0b52698722075e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ea08f7333d4782d31f78d0e02490c170",
+    "text": "error",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.8438603,
+            289.21717079153126
+          ],
+          [
+            235.8438603,
+            308.41717159153126
+          ],
+          [
+            276.38511242121876,
+            308.41717159153126
+          ],
+          [
+            276.38511242121876,
+            289.21717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2aeaa83eb7519d46d6258c924c341f82",
+    "text": "net",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            427.69568066,
+            289.21717079153126
+          ],
+          [
+            427.69568066,
+            308.41717159153126
+          ],
+          [
+            454.39005674826564,
+            308.41717159153126
+          ],
+          [
+            454.39005674826564,
+            289.21717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "741f3af9347a4fe724cbc425817fafab",
+    "text": "angular",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.5519673,
+            327.46717079153126
+          ],
+          [
+            61.5519673,
+            346.66717159153126
+          ],
+          [
+            125.61321992121876,
+            346.66717159153126
+          ],
+          [
+            125.61321992121876,
+            327.46717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d70cf0c5831700aaee37455cc784f889",
+    "text": "signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            231.34385012,
+            327.46717079153126
+          ],
+          [
+            231.34385012,
+            346.66717159153126
+          ],
+          [
+            281.5169772345469,
+            346.66717159153126
+          ],
+          [
+            281.5169772345469,
+            327.46717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "26b185db4ff6c6f038725e4cc792c436",
+    "text": "torque",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            414.19567012,
+            327.46717079153126
+          ],
+          [
+            414.19567012,
+            346.66717159153126
+          ],
+          [
+            468.6437971246719,
+            346.66717159153126
+          ],
+          [
+            468.6437971246719,
+            327.46717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c1044cd01cd3627795bbc04036b260a2",
+    "text": "velocity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.5519673,
+            365.71717079153126
+          ],
+          [
+            61.5519673,
+            384.91717159153126
+          ],
+          [
+            125.58322001596875,
+            384.91717159153126
+          ],
+          [
+            125.58322001596875,
+            365.71717079153126
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c2732ad7a6f79e811f13f3e1c100b495",
+    "text": "For larger K, it will approach more quickly. For negative K, the system is unstable, and angular velocity will grow without bound",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            433.62283,
+            441.15490307999994
+          ],
+          [
+            433.62283,
+            546.1549030799999
+          ],
+          [
+            668.12380654,
+            546.1549030799999
+          ],
+          [
+            668.12380654,
+            441.15490307999994
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 33,
+      "parent_id": "c1044cd01cd3627795bbc04036b260a2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "663e82d7a5f36665b1107a6098b13dc3",
+    "text": "Example 2.6: \u2022 Assume that helicopter is initially at rest.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            37.73924999999997
+          ],
+          [
+            46.38302830504534,
+            129.55496
+          ],
+          [
+            535.4584652262473,
+            129.55496
+          ],
+          [
+            535.4584652262473,
+            37.73924999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 34,
+      "parent_id": "c1044cd01cd3627795bbc04036b260a2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "967bbf5510b84e21d911af098a314a4d",
+    "text": "Note:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            156.23788072000002,
+            106.56259899999998
+          ],
+          [
+            156.23788072000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 35,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9a852007d450427edf2d40fe7a2fba7d",
+    "text": "The above example is somewhat unrealistic because we cannot independently control the net torque of the helicopter.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            638.7824871371391,
+            238.3484168
+          ],
+          [
+            638.7824871371391,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 35,
+      "parent_id": "967bbf5510b84e21d911af098a314a4d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aa3c11aeec1c2747a110ce9b5839a680",
+    "text": "In particular, the net torque Ty is the sum of the torque Tt due to the top rotor and the torque Tr due to the tail rotor.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            622.5162550726967,
+            338.84841324
+          ],
+          [
+            622.5162550726967,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 35,
+      "parent_id": "967bbf5510b84e21d911af098a314a4d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "120647e7044b906e1a6bde9e8462918c",
+    "text": "Thus, we will actually need to design a control system that controls Tr and stabilizes the helicopter for any Tt.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            390.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84844324
+          ],
+          [
+            656.2843728454903,
+            479.84844324
+          ],
+          [
+            656.2843728454903,
+            390.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 35,
+      "parent_id": "967bbf5510b84e21d911af098a314a4d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6329170a03d0de2c3cea780d13bd1a37",
+    "text": "Example 2.7:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            285.18319307999997,
+            106.56259899999998
+          ],
+          [
+            285.18319307999997,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2bb7da21eeee5d530fd897a56e03a709",
+    "text": "We have to modify the helicopter model so that it has two inputs, Tt and Tr.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            639.8837800915358,
+            208.34841339999997
+          ],
+          [
+            639.8837800915358,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 36,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "03028247b1e5c812fae7be4afc287698",
+    "text": "The feedback control system is now controlling only Tr, and Tt is treated as an external (uncontrolled) input signal.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84841324
+          ],
+          [
+            605.5390856101617,
+            308.84841324
+          ],
+          [
+            605.5390856101617,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 36,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c687121d6c63fd378d7c4450b8d865af",
+    "text": "How well will this control system behave? \u2022 Suppose that the torque due to the top rotor is given by:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843484
+          ],
+          [
+            607.6629409709781,
+            419.84843484
+          ],
+          [
+            607.6629409709781,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 36,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "13ceac7cd66b5130c956238bb5c4b360",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 37,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "738dcb0c5e9f1b46f8c0e38a1c9748c2",
+    "text": "That is, at time zero, the top rotor starts spinning a constant velocity, and then holds that velocity. \u2022 Suppose further that the helicopter is initially at rest.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            649.0764658951052,
+            278.84842484
+          ],
+          [
+            649.0764658951052,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 37,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a0bc0cb2bab8a8a8630f54bcd952f12a",
+    "text": "Find the behavior of the system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            319.34843644
+          ],
+          [
+            439.68744899540684,
+            319.34843644
+          ],
+          [
+            439.68744899540684,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 37,
+      "parent_id": "6329170a03d0de2c3cea780d13bd1a37",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d20f1ccb2f2f2c358df1f0c627797d2b",
+    "text": "Sheet #1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            211.91366208000002,
+            106.56259899999998
+          ],
+          [
+            211.91366208000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 39,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5df2e33e3a0970ac815d7526d2cecb41",
+    "text": "Examples 2-5, 2-6, and 2-7 using MATLAB.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            549.2585745506656,
+            178.34842500000002
+          ],
+          [
+            549.2585745506656,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 2.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-01T14:19:58",
+      "page_number": 39,
+      "parent_id": "d20f1ccb2f2f2c358df1f0c627797d2b",
+      "filetype": "application/pdf"
+    }
+  }
+]

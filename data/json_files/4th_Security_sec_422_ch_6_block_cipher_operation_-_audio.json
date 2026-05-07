@@ -1,0 +1,5102 @@
+[
+  {
+    "type": "Title",
+    "element_id": "85d7c0313375203b329e86a955b23f27",
+    "text": "Cryptography and Network Security Chapter 6",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.112,
+            126.44000000000005
+          ],
+          [
+            53.112,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            126.44000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dd79773d4fd0a284ee3dbb2b2d3c29dc",
+    "text": "Fifth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            388.26160000000004
+          ],
+          [
+            50.352,
+            404.86
+          ],
+          [
+            147.08268,
+            404.86
+          ],
+          [
+            147.08268,
+            388.26160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "parent_id": "85d7c0313375203b329e86a955b23f27",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "992365c3686cca178a17179ca1c63695",
+    "text": "by William Stallings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            68.352,
+            406.18
+          ],
+          [
+            68.352,
+            422.14
+          ],
+          [
+            197.38696,
+            422.14
+          ],
+          [
+            197.38696,
+            406.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "228dabdbb0f8c1e80c4c0bbc3519ba67",
+    "text": "Lecture slides by Lawrie Brown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            440.08464000000004
+          ],
+          [
+            50.352,
+            474.006
+          ],
+          [
+            175.8444,
+            474.006
+          ],
+          [
+            175.8444,
+            440.08464000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "parent_id": "992365c3686cca178a17179ca1c63695",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "baef4a1f45c290941ad95ecc01455db1",
+    "text": "Block Cipher Operation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            280.44,
+            181.49
+          ],
+          [
+            280.44,
+            217.49
+          ],
+          [
+            652.644,
+            217.49
+          ],
+          [
+            652.644,
+            181.49
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "66f1e5ad7e4f7501583b66cc9a3742c9",
+    "text": "Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            285.6,
+            317.59000000000003
+          ],
+          [
+            285.6,
+            370.39
+          ],
+          [
+            647.2320000000001,
+            370.39
+          ],
+          [
+            647.2320000000001,
+            317.59000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "52813778133c3e2b0243869c16db6178",
+    "text": "Multiple Encryption & DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            172.08,
+            96.22199999999998
+          ],
+          [
+            172.08,
+            131.286
+          ],
+          [
+            547.2297360000001,
+            131.286
+          ],
+          [
+            547.2297360000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6a514f2a57f9f0695e5bd58f032e23a3",
+    "text": "a replacement for DES was needed",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            224.84104000000002
+          ],
+          [
+            87.984,
+            249.82600000000002
+          ],
+          [
+            453.334016,
+            249.82600000000002
+          ],
+          [
+            453.334016,
+            224.84104000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 2,
+      "parent_id": "52813778133c3e2b0243869c16db6178",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ff56bda82ed28732761e5804bf36d9f1",
+    "text": "\u2013 theoretical attacks that can break it \u2013 demonstrated exhaustive key search attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            259.44
+          ],
+          [
+            123.98,
+            318.96000000000004
+          ],
+          [
+            574.6759999999998,
+            318.96000000000004
+          ],
+          [
+            574.6759999999998,
+            259.44
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 2,
+      "parent_id": "52813778133c3e2b0243869c16db6178",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e9e90eecb2291632543d2a7d7b1a232d",
+    "text": "AES is a new cipher alternative \u2022 prior to this alternative was to use multiple encryption with DES implementations \u2022 Triple-DES is the chosen form",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            328.56
+          ],
+          [
+            87.984,
+            451.464
+          ],
+          [
+            650.3720000000001,
+            451.464
+          ],
+          [
+            650.3720000000001,
+            328.56
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 2,
+      "parent_id": "52813778133c3e2b0243869c16db6178",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f79523440955a18f09cf525e524421a",
+    "text": "Double-DES?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            274.42,
+            97.49200000000002
+          ],
+          [
+            274.42,
+            132.55600000000004
+          ],
+          [
+            458.084088,
+            132.55600000000004
+          ],
+          [
+            458.084088,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61efb34e060df715dad18f5e7d04789e",
+    "text": "\u27a2 The simplest form of multiple encryption has two encryption stages and two keys e.g. double-DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            93.192,
+            225.1818
+          ],
+          [
+            93.192,
+            351.4316
+          ],
+          [
+            325.69168,
+            351.4316
+          ],
+          [
+            325.69168,
+            225.1818
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 3,
+      "parent_id": "0f79523440955a18f09cf525e524421a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f3b9a7b0f1b4253acfb13641df53299d",
+    "text": "C = EK2(EK1(P))",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            129.19,
+            366.18848
+          ],
+          [
+            129.19,
+            392.17232
+          ],
+          [
+            309.89968,
+            392.17232
+          ],
+          [
+            309.89968,
+            366.18848
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 3,
+      "parent_id": "0f79523440955a18f09cf525e524421a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "424f5e9076079382043f2934095d4a4c",
+    "text": "\u27a2 However, it is subject to the meet in the middle (MitM) attack",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            93.192,
+            406.14272
+          ],
+          [
+            93.192,
+            479.6196
+          ],
+          [
+            333.10504000000003,
+            479.6196
+          ],
+          [
+            333.10504000000003,
+            406.14272
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 3,
+      "parent_id": "0f79523440955a18f09cf525e524421a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e6e837298e059093f510278226f7e5fb",
+    "text": "\u201cMeet-in-the-Middle\u201d Attack (MitM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.91,
+            77.02199999999999
+          ],
+          [
+            159.91,
+            150.58999999999997
+          ],
+          [
+            568.9621360000001,
+            150.58999999999997
+          ],
+          [
+            568.9621360000001,
+            77.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "439acb823f6f9716515f72d1635ee15a",
+    "text": "\u27a2The MitM attack on double encryption for any symmetric cipher such as DES and AES is possible with almost the same computing effort as breaking a single encryption.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            77.616,
+            212.44912
+          ],
+          [
+            77.616,
+            384.216
+          ],
+          [
+            657.948448,
+            384.216
+          ],
+          [
+            657.948448,
+            212.44912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 4,
+      "parent_id": "e6e837298e059093f510278226f7e5fb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "82b3a0fbbf5f58fd1790c63d37e5c20a",
+    "text": "\u27a2This effort is in the order of 2N, where N is the number of bits in the encryption key.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            77.616,
+            392.84000000000003
+          ],
+          [
+            77.616,
+            461.034
+          ],
+          [
+            656.0894,
+            461.034
+          ],
+          [
+            656.0894,
+            392.84000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 4,
+      "parent_id": "e6e837298e059093f510278226f7e5fb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "13b8c2c721667da7c033fab79e3c7878",
+    "text": "\u201cMeet-in-the-Middle\u201d Attack",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            155.16,
+            96.22199999999998
+          ],
+          [
+            155.16,
+            131.286
+          ],
+          [
+            564.3423920000001,
+            131.286
+          ],
+          [
+            564.3423920000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f97c7fe3edd479520be8ae42e007cf86",
+    "text": "Double DES is subject to the \u201cmeet-in-the-middle\u201d (MitM) attack which works whenever a cipher is used twice",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            193.58000000000004
+          ],
+          [
+            87.984,
+            239.3
+          ],
+          [
+            609.72916,
+            239.3
+          ],
+          [
+            609.72916,
+            193.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "parent_id": "13b8c2c721667da7c033fab79e3c7878",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2de63c01ca0b88366a45dea98a317199",
+    "text": "\u27a2 The attacker obtains a pair (P, C) where C is the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            245.39180000000005
+          ],
+          [
+            123.98,
+            268.34000000000003
+          ],
+          [
+            568.5014000000001,
+            268.34000000000003
+          ],
+          [
+            568.5014000000001,
+            245.39180000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "parent_id": "13b8c2c721667da7c033fab79e3c7878",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1e9cb203827f247c43216b858dc205d2",
+    "text": "ciphertext of the plaintext P.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            270.14
+          ],
+          [
+            146.54,
+            292.1
+          ],
+          [
+            397.47692,
+            292.1
+          ],
+          [
+            397.47692,
+            270.14
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f6dd252ef7ef0f3b8e1a1ba16810748e",
+    "text": "\u27a2 in double DES we have: X = EK1(P) = DK2(C) \u27a2 attack by encrypting P with all keys and store then",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            297.558992
+          ],
+          [
+            123.98,
+            350.20000000000005
+          ],
+          [
+            597.6904,
+            350.20000000000005
+          ],
+          [
+            597.6904,
+            297.558992
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "parent_id": "1e9cb203827f247c43216b858dc205d2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3e63e2948b3cb145733c77122dc75429",
+    "text": "decrypt C with keys and match X value",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            352.0
+          ],
+          [
+            146.54,
+            373.96000000000004
+          ],
+          [
+            487.9521200000001,
+            373.96000000000004
+          ],
+          [
+            487.9521200000001,
+            352.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "503bb8966f1f732f773b8a7f3f074a3c",
+    "text": "\u27a2 MitM takes O(256) steps to break the 2 keys \u27a2 a brute force attack takes O(2112) steps to break the 2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            378.78232
+          ],
+          [
+            123.98,
+            431.806
+          ],
+          [
+            642.8718880000001,
+            431.806
+          ],
+          [
+            642.8718880000001,
+            378.78232
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "parent_id": "3e63e2948b3cb145733c77122dc75429",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a6c718ad9dcef59bd1ec0c7c070cbd3",
+    "text": "keys of DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            433.866
+          ],
+          [
+            146.54,
+            455.826
+          ],
+          [
+            247.53404000000003,
+            455.826
+          ],
+          [
+            247.53404000000003,
+            433.866
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a787084775025f06f8f5629273cf8826",
+    "text": "Detailed steps to do a MitM attack:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            101.93,
+            90.96199999999999
+          ],
+          [
+            101.93,
+            126.98599999999999
+          ],
+          [
+            609.7504319999999,
+            126.98599999999999
+          ],
+          [
+            609.7504319999999,
+            90.96199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "8a6c718ad9dcef59bd1ec0c7c070cbd3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2722ee7c20519e4d8cef1bc606807aba",
+    "text": "1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            295.25,
+            203.23999999999995
+          ],
+          [
+            295.25,
+            222.2
+          ],
+          [
+            309.62793999999997,
+            222.2
+          ],
+          [
+            309.62793999999997,
+            203.23999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "8a6c718ad9dcef59bd1ec0c7c070cbd3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "04da548f10d7d235725af2d2e3b50011",
+    "text": "Find a pair of plaintext and ciphertext \u201cP,C\u201d.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            331.25,
+            203.23999999999995
+          ],
+          [
+            331.25,
+            222.2
+          ],
+          [
+            666.43792,
+            222.2
+          ],
+          [
+            666.43792,
+            203.23999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "601373b8336fd8c9888b0cfd714ac4c2",
+    "text": "2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            295.25,
+            234.32
+          ],
+          [
+            295.25,
+            253.28000000000003
+          ],
+          [
+            309.62793999999997,
+            253.28000000000003
+          ],
+          [
+            309.62793999999997,
+            234.32
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "771886fcefe341a0e1343c8385d46d19",
+    "text": "For all possible N values of the 1st unknown key K1 prepare a list {Xe ; e= 1,2,3,\u2026., N}, where Xe = E(ke, P).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            331.25,
+            233.23999999999995
+          ],
+          [
+            331.25,
+            297.47
+          ],
+          [
+            668.82232,
+            297.47
+          ],
+          [
+            668.82232,
+            233.23999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9c2976cf7045cf481bdabab436743833",
+    "text": "3. Generate Xd = D(kd, C) for possible values of the 2nd unknown key k2 , where {d= 1,2,3,\u2026.} Compare each generated Xd with the prepared list until you find a matching value such that E(ke, P) = D(kd, C). The unknown keys are: K1 = Ke and K2 = Kd. 5.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            295.25,
+            306.47
+          ],
+          [
+            295.25,
+            452.29200000000003
+          ],
+          [
+            677.8956800000001,
+            452.29200000000003
+          ],
+          [
+            677.8956800000001,
+            306.47
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b17cd15fd3bc9c656aac95ac3ef04e1a",
+    "text": "4.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            295.25,
+            358.07
+          ],
+          [
+            295.25,
+            377.03
+          ],
+          [
+            309.62793999999997,
+            377.03
+          ],
+          [
+            309.62793999999997,
+            358.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f7cbfbbfce5d1c019b5966ba4ff71d85",
+    "text": "6. Use a second pair of plaintext and ciphertext to verify the obtained keys",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            295.25,
+            461.29200000000003
+          ],
+          [
+            295.25,
+            500.772
+          ],
+          [
+            618.8732,
+            500.772
+          ],
+          [
+            618.8732,
+            461.29200000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 6,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fe32a9785c8c6acb0c5677af0e700c47",
+    "text": "Triple-DES with Two-Keys (standardized in ANSI X9.17 & ISO8732)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.34,
+            68.71000000000004
+          ],
+          [
+            133.34,
+            141.82600000000002
+          ],
+          [
+            582.2191600000001,
+            141.82600000000002
+          ],
+          [
+            582.2191600000001,
+            68.71000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f299c1ea61ceff2eefdc93ebd9514dc9",
+    "text": "\u2022 would seem to need 3 distinct keys but can use 2 keys with E-D-E sequence.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.152,
+            206.52000000000004
+          ],
+          [
+            85.152,
+            289.08
+          ],
+          [
+            640.2699999999999,
+            289.08
+          ],
+          [
+            640.2699999999999,
+            206.52000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dcb9cbcb7cb553e6f9e1bee1103d1008",
+    "text": "to avoid MitM attack we must use 3 encryptions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            112.15,
+            207.48000000000002
+          ],
+          [
+            112.15,
+            231.48000000000002
+          ],
+          [
+            580.3420000000001,
+            231.48000000000002
+          ],
+          [
+            580.3420000000001,
+            207.48000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a7c243f040218933857a9222971e4fc9",
+    "text": "C = EK1(DK2(EK1(P)))",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            290.14,
+            296.78
+          ],
+          [
+            290.14,
+            324.65
+          ],
+          [
+            469.128,
+            324.65
+          ],
+          [
+            469.128,
+            296.78
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "781ff048101dcbd3104b286a9299ad61",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.152,
+            327.5
+          ],
+          [
+            85.152,
+            351.5
+          ],
+          [
+            93.552,
+            351.5
+          ],
+          [
+            93.552,
+            327.5
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "189ff56f404bf19c61e5cf0c84d4a486",
+    "text": "the use of encryption & decryption stages is equivalent in security, but the chosen E-D-E structure allows for compatibility with single-DES implementations. if K1=K2 then can work with single DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            112.15,
+            328.46000000000004
+          ],
+          [
+            112.15,
+            435.986
+          ],
+          [
+            676.244,
+            435.986
+          ],
+          [
+            676.244,
+            328.46000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cce961f61a5972fbdaf88573a67b3885",
+    "text": "\u2022 no current known practical attacks \u2022 suffers from being 3 times slower to run",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.152,
+            411.00104
+          ],
+          [
+            85.152,
+            499.368
+          ],
+          [
+            500.87800000000004,
+            499.368
+          ],
+          [
+            500.87800000000004,
+            411.00104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 7,
+      "parent_id": "04da548f10d7d235725af2d2e3b50011",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f5ef7e7f3ccf7c137eb4bfbf0f87972",
+    "text": "Triple-DES with Two-Keys (The E \u2013 D \u2013 E Structure)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.34,
+            87.892
+          ],
+          [
+            133.34,
+            161.04000000000002
+          ],
+          [
+            582.263056,
+            161.04000000000002
+          ],
+          [
+            582.263056,
+            87.892
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e1e048b97954fb748166ea826062c625",
+    "text": "To break this arrangement using MitM, the attacker needs a computing effort in the order of 2 N+N, where N is the number of bits in the encryption key.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.352,
+            447.876
+          ],
+          [
+            71.352,
+            487.506
+          ],
+          [
+            644.0579999999997,
+            487.506
+          ],
+          [
+            644.0579999999997,
+            447.876
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 8,
+      "parent_id": "9f5ef7e7f3ccf7c137eb4bfbf0f87972",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7bfde0f34c14b1f42c8d7aa5712a2317",
+    "text": "Triple-DES with Three-Keys",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            169.92,
+            96.22199999999998
+          ],
+          [
+            169.92,
+            131.286
+          ],
+          [
+            549.4067359999999,
+            131.286
+          ],
+          [
+            549.4067359999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e3cee5097ad94710a75a37a264952fd5",
+    "text": "although are no practical attacks on two-key, Triple- DES have some concerns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            230.60104
+          ],
+          [
+            87.984,
+            284.4
+          ],
+          [
+            615.971344,
+            284.4
+          ],
+          [
+            615.971344,
+            230.60104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 9,
+      "parent_id": "7bfde0f34c14b1f42c8d7aa5712a2317",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d8ebf1e14a006ae530b6be6206c0b66a",
+    "text": "a preferred alternative is to use Triple-DES with Three- Keys to avoid any concerns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            294.0
+          ],
+          [
+            87.984,
+            347.76
+          ],
+          [
+            642.124,
+            347.76
+          ],
+          [
+            642.124,
+            294.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 9,
+      "parent_id": "7bfde0f34c14b1f42c8d7aa5712a2317",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fd47be4a3fb0e5b2bed0320f2a02b429",
+    "text": "C = EK3(DK2(EK1(P))) \u2022 has been adopted by some Internet applications, e.g.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            355.85251200000005
+          ],
+          [
+            87.984,
+            416.9
+          ],
+          [
+            636.5239999999999,
+            416.9
+          ],
+          [
+            636.5239999999999,
+            355.85251200000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 9,
+      "parent_id": "7bfde0f34c14b1f42c8d7aa5712a2317",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b5d395205e1b6e3c939d89b22be2d836",
+    "text": "PGP, S/MIME",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            421.7
+          ],
+          [
+            114.98,
+            445.7
+          ],
+          [
+            242.25199999999998,
+            445.7
+          ],
+          [
+            242.25199999999998,
+            421.7
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "78baf445ec22382ced69dede2e761edc",
+    "text": "Modes of Operation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            216.5,
+            96.22199999999998
+          ],
+          [
+            216.5,
+            131.286
+          ],
+          [
+            502.902752,
+            131.286
+          ],
+          [
+            502.902752,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5e41accf414ea0d895d238211e9e30fe",
+    "text": "block ciphers encrypt fixed size blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            210.46000000000004
+          ],
+          [
+            87.984,
+            235.42000000000002
+          ],
+          [
+            482.49199999999996,
+            235.42000000000002
+          ],
+          [
+            482.49199999999996,
+            210.46000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "parent_id": "78baf445ec22382ced69dede2e761edc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7aea30617fc9cb8ebad1c20b4ccab465",
+    "text": "\u2013 e.g. DES encrypts 64-bit blocks with 56-bit key \u2022 need some way to encrypt/decrypt arbitrary amounts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            245.04000000000002
+          ],
+          [
+            87.984,
+            304.56
+          ],
+          [
+            643.0039999999999,
+            304.56
+          ],
+          [
+            643.0039999999999,
+            245.04000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "parent_id": "78baf445ec22382ced69dede2e761edc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9051e2012da9f3c6703f61ffeedae610",
+    "text": "of data in practice",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            309.36
+          ],
+          [
+            114.98,
+            333.36
+          ],
+          [
+            290.17999999999995,
+            333.36
+          ],
+          [
+            290.17999999999995,
+            309.36
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "185ac4bda7c99828d3a554165ef9730c",
+    "text": "NIST SP 800-38A defines 5 modes \u2022 have block and stream modes to cover a wide variety of applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            342.94104
+          ],
+          [
+            87.984,
+            431.3
+          ],
+          [
+            639.5060000000001,
+            431.3
+          ],
+          [
+            639.5060000000001,
+            342.94104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "parent_id": "9051e2012da9f3c6703f61ffeedae610",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c549890e970530af9cf6a355eda4349b",
+    "text": "can be used with any block cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            440.904
+          ],
+          [
+            87.984,
+            465.86400000000003
+          ],
+          [
+            443.372,
+            465.86400000000003
+          ],
+          [
+            443.372,
+            440.904
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 10,
+      "parent_id": "9051e2012da9f3c6703f61ffeedae610",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9b7e82b6513843da5c9f6bbccb2e63c4",
+    "text": "Electronic Codebook Book (ECB)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            131.76,
+            96.22199999999998
+          ],
+          [
+            131.76,
+            131.286
+          ],
+          [
+            587.521872,
+            131.286
+          ],
+          [
+            587.521872,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4158b0515f6686aa974561376057aac7",
+    "text": "message is broken into independent blocks which are encrypted",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            209.02000000000004
+          ],
+          [
+            87.984,
+            259.90599999999995
+          ],
+          [
+            638.9480000000001,
+            259.90599999999995
+          ],
+          [
+            638.9480000000001,
+            209.02000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 11,
+      "parent_id": "9b7e82b6513843da5c9f6bbccb2e63c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f11d1b272fd84f2de02de2d4b5726503",
+    "text": "each block is a value which is substituted, like a codebook, hence name",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            266.64
+          ],
+          [
+            87.984,
+            317.52
+          ],
+          [
+            578.852,
+            317.52
+          ],
+          [
+            578.852,
+            266.64
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 11,
+      "parent_id": "9b7e82b6513843da5c9f6bbccb2e63c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "772e47001fb8c2e2584943bf53925e1d",
+    "text": "each block is encoded independently of the other blocks Ci = EK(Pi) this mode is used for secure transmission of single values",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            324.24
+          ],
+          [
+            87.984,
+            464.424
+          ],
+          [
+            608.6119999999999,
+            464.424
+          ],
+          [
+            608.6119999999999,
+            324.24
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 11,
+      "parent_id": "9b7e82b6513843da5c9f6bbccb2e63c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "541ca3dc45368cbaa1d95b5557f25e8d",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            413.53999999999996
+          ],
+          [
+            87.984,
+            437.54
+          ],
+          [
+            96.384,
+            437.54
+          ],
+          [
+            96.384,
+            413.53999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 11,
+      "parent_id": "9b7e82b6513843da5c9f6bbccb2e63c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "79686bab27cad270d1327fc496426416",
+    "text": "Electronic Codebook Mode (ECB)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            37.2,
+            191.42000000000002
+          ],
+          [
+            37.2,
+            357.05
+          ],
+          [
+            193.54416,
+            357.05
+          ],
+          [
+            193.54416,
+            191.42000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c34ea503fc472727c21797ddfb744ffd",
+    "text": "Advantages and Limitations of ECB",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.84,
+            96.22199999999998
+          ],
+          [
+            114.84,
+            131.286
+          ],
+          [
+            604.5438240000001,
+            131.286
+          ],
+          [
+            604.5438240000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8aa117438d057b882fc26741929744a8",
+    "text": "\u27a2 message repetitions may show in ciphertext",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            195.94
+          ],
+          [
+            87.984,
+            221.01999999999998
+          ],
+          [
+            548.0600000000001,
+            221.01999999999998
+          ],
+          [
+            548.0600000000001,
+            195.94
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "parent_id": "c34ea503fc472727c21797ddfb744ffd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1a4297556aa5bfacbc1dd277def726b4",
+    "text": "if aligned with message block \u2022 particularly with data such as graphics \u2022 or with messages that change very little, which become a codebook analysis problem",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            230.60104
+          ],
+          [
+            123.98,
+            353.52
+          ],
+          [
+            607.6519999999999,
+            353.52
+          ],
+          [
+            607.6519999999999,
+            230.60104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "parent_id": "c34ea503fc472727c21797ddfb744ffd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5e687536d38ee393a42c1f8c898bae9b",
+    "text": "\u27a2 weakness is due to the encrypted message blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            363.02
+          ],
+          [
+            87.984,
+            388.1
+          ],
+          [
+            602.132,
+            388.1
+          ],
+          [
+            602.132,
+            363.02
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "parent_id": "c34ea503fc472727c21797ddfb744ffd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e65336e1e945e67d2d78aef3c93f44c2",
+    "text": "being independent",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            392.9
+          ],
+          [
+            114.98,
+            416.9
+          ],
+          [
+            304.69999999999993,
+            416.9
+          ],
+          [
+            304.69999999999993,
+            392.9
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "parent_id": "c34ea503fc472727c21797ddfb744ffd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ffe8b3f93cc5b2b6f67ff91ceb9608ea",
+    "text": "\u27a2 main use is sending a few blocks of data, e.g. a session",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            426.384
+          ],
+          [
+            87.984,
+            451.464
+          ],
+          [
+            648.382,
+            451.464
+          ],
+          [
+            648.382,
+            426.384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "parent_id": "c34ea503fc472727c21797ddfb744ffd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "af77a24f5fa11f10b129240463e997fd",
+    "text": "encryption key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            456.264
+          ],
+          [
+            114.98,
+            480.264
+          ],
+          [
+            258.716,
+            480.264
+          ],
+          [
+            258.716,
+            456.264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16979013a5ddd33e21fda1439e4afe71",
+    "text": "ECB Limitations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            250.22,
+            96.22199999999998
+          ],
+          [
+            250.22,
+            131.286
+          ],
+          [
+            469.33493599999997,
+            131.286
+          ],
+          [
+            469.33493599999997,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "218145934b904d62e5e52505c8d714da",
+    "text": "Alice Hates ECB Mode Alice\u2019s uncompressed image, and ECB encrypted",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            125.47,
+            32.75
+          ],
+          [
+            125.47,
+            119.18
+          ],
+          [
+            594.4060000000001,
+            119.18
+          ],
+          [
+            594.4060000000001,
+            32.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "380c601e7430c90714c1a17dae280427",
+    "text": "\u2751Why does this happen?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            419.826
+          ],
+          [
+            43.2,
+            451.866
+          ],
+          [
+            374.58,
+            451.866
+          ],
+          [
+            374.58,
+            419.826
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 15,
+      "parent_id": "218145934b904d62e5e52505c8d714da",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ba6833f4e6f81fa2cddaf960e73f6678",
+    "text": "\u2751Same plaintext yields same ciphertext!",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            468.06600000000003
+          ],
+          [
+            43.2,
+            500.106
+          ],
+          [
+            571.39504,
+            500.106
+          ],
+          [
+            571.39504,
+            468.06600000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1fed02088e6aa52ad9e4b251b8429271",
+    "text": "Cipher Block Chaining (CBC)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            162.84,
+            96.22199999999998
+          ],
+          [
+            162.84,
+            131.286
+          ],
+          [
+            564.287736,
+            131.286
+          ],
+          [
+            564.287736,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a84f5da9111f7b6cf59d9c0147816106",
+    "text": "message is broken into blocks \u2022 \u2022 each previous cipher blocks is chained with current plaintext block, hence name",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.984,
+            219.24
+          ],
+          [
+            84.984,
+            342.14
+          ],
+          [
+            613.6039999999999,
+            342.14
+          ],
+          [
+            613.6039999999999,
+            219.24
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 16,
+      "parent_id": "1fed02088e6aa52ad9e4b251b8429271",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "87be28a9537f58305033ffbb165060b0",
+    "text": "use Initial Vector (IV) to start process; i=1,2,3,\u2026.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.984,
+            351.72104
+          ],
+          [
+            84.984,
+            376.706
+          ],
+          [
+            581.20432,
+            376.706
+          ],
+          [
+            581.20432,
+            351.72104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 16,
+      "parent_id": "1fed02088e6aa52ad9e4b251b8429271",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "00d21c1dcfdca3001ac2595d5ad36ea9",
+    "text": "Ci = EK(Pi \uf0c5 Ci-1) C0 = IV",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            120.98,
+            385.082
+          ],
+          [
+            120.98,
+            447.76848
+          ],
+          [
+            355.25,
+            447.76848
+          ],
+          [
+            355.25,
+            385.082
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e2054af9da93bf8e066f40cc7e68fee9",
+    "text": "Uses: bulk data encryption, authentication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.984,
+            455.448
+          ],
+          [
+            84.984,
+            480.408
+          ],
+          [
+            524.756,
+            480.408
+          ],
+          [
+            524.756,
+            455.448
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 16,
+      "parent_id": "00d21c1dcfdca3001ac2595d5ad36ea9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "46fc7cf39336ed65cec5a7c6e0170bbc",
+    "text": "Cipher Block Chaining (CBC)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.56,
+            89.53160000000003
+          ],
+          [
+            31.56,
+            273.52664
+          ],
+          [
+            200.23116000000002,
+            273.52664
+          ],
+          [
+            200.23116000000002,
+            89.53160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6911da2b1571385b6d29bef4537f1630",
+    "text": "Ci = EK(Pi \uf0c5 Ci-1)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.56,
+            323.974
+          ],
+          [
+            31.56,
+            345.286
+          ],
+          [
+            207.14000000000001,
+            345.286
+          ],
+          [
+            207.14000000000001,
+            323.974
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "210ffb53ec44077ed9e2ca6577703b63",
+    "text": "C0 = IV",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.56,
+            368.134
+          ],
+          [
+            31.56,
+            389.446
+          ],
+          [
+            108.464,
+            389.446
+          ],
+          [
+            108.464,
+            368.134
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "06b9120518a0d50207492db2d7a6cca6",
+    "text": "Alice Likes CBC Mode Alice\u2019s uncompressed image, Alice CBC encrypted",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            119.71,
+            32.75
+          ],
+          [
+            119.71,
+            119.18
+          ],
+          [
+            600.1179999999999,
+            119.18
+          ],
+          [
+            600.1179999999999,
+            32.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2d371365382768147a5f82da38f1cc04",
+    "text": "\u2751Why does this happen?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            419.826
+          ],
+          [
+            43.2,
+            451.866
+          ],
+          [
+            374.58,
+            451.866
+          ],
+          [
+            374.58,
+            419.826
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 18,
+      "parent_id": "06b9120518a0d50207492db2d7a6cca6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6bc7e72b11d16aeeefdacf4b303831a9",
+    "text": "\u2751Same plaintext yields different ciphertext!",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            468.06600000000003
+          ],
+          [
+            43.2,
+            500.106
+          ],
+          [
+            615.2965200000001,
+            500.106
+          ],
+          [
+            615.2965200000001,
+            468.06600000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "614a40c006f9a2c0b4bd645b36246acc",
+    "text": "Message Padding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            236.3,
+            96.22199999999998
+          ],
+          [
+            236.3,
+            131.286
+          ],
+          [
+            483.1505600000001,
+            131.286
+          ],
+          [
+            483.1505600000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bd9217d5a07adfd0b053a94c367dbea9",
+    "text": "At end of message we must handle a possible last short block.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            184.36
+          ],
+          [
+            87.984,
+            202.36
+          ],
+          [
+            543.6719999999997,
+            202.36
+          ],
+          [
+            543.6719999999997,
+            184.36
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "421b52295cf2e793778341ef89650c68",
+    "text": "\u27a2 which is not as large as block size of cipher \u27a2 pad either with known non-data value (e.g. nulls) \u27a2 or pad last block along with count of pad size",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            207.31
+          ],
+          [
+            123.98,
+            273.66
+          ],
+          [
+            506.171272,
+            273.66
+          ],
+          [
+            506.171272,
+            207.31
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a18ac38d825a27715ef82b82d1046ff6",
+    "text": "Consider the last block containing only 3 bytes of data: [D1] , [D2] , and [D3].",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            278.7
+          ],
+          [
+            159.98,
+            316.86
+          ],
+          [
+            624.8659999999998,
+            316.86
+          ],
+          [
+            624.8659999999998,
+            278.7
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a6cfc4b14b83aa75e2d03df8e94286f0",
+    "text": "To complete the block to be 8 bytes (64 bits) we must add 5 more bytes.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            321.9
+          ],
+          [
+            159.98,
+            360.06
+          ],
+          [
+            617.5759999999998,
+            360.06
+          ],
+          [
+            617.5759999999998,
+            321.9
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4b7156bfb43332c1c44dba6264a7c635",
+    "text": "The padded block will be: {[D1] [D2] [D3] [0] [0] [0] [0] [5]} \u2022 This means we have 3 data bytes, then 4 bytes EACH CONTAINS ZERO + last byte contains the count of added padding bytes (which is 5).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            365.12
+          ],
+          [
+            159.98,
+            446.484
+          ],
+          [
+            648.3739999999999,
+            446.484
+          ],
+          [
+            648.3739999999999,
+            365.12
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6ef75397305ad347eea8ec9504d1757e",
+    "text": "\u27a2 this method may require an extra entire block over those in",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            451.43399999999997
+          ],
+          [
+            123.98,
+            470.244
+          ],
+          [
+            584.7499999999998,
+            470.244
+          ],
+          [
+            584.7499999999998,
+            451.43399999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "parent_id": "614a40c006f9a2c0b4bd645b36246acc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0fa14d56f8e3635bdd2c466ffff0fddf",
+    "text": "message. (Why??)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            471.666
+          ],
+          [
+            146.54,
+            489.69
+          ],
+          [
+            279.41292799999997,
+            489.69
+          ],
+          [
+            279.41292799999997,
+            471.666
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1cb822bfa2086289a01e1787a9dcb373",
+    "text": "Advantages and Limitations of CBC",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            113.88,
+            96.22199999999998
+          ],
+          [
+            113.88,
+            131.286
+          ],
+          [
+            605.4772800000001,
+            131.286
+          ],
+          [
+            605.4772800000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0a58b71f2f48e6a7fe9880b4fb522e63",
+    "text": "\u27a2 a ciphertext block depends on all blocks before it \u27a2 any change to a block affects all following ciphertext blocks \u27a2 need Initialization Vector (IV)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            211.04500000000002
+          ],
+          [
+            87.984,
+            293.49
+          ],
+          [
+            617.174,
+            293.49
+          ],
+          [
+            617.174,
+            211.04500000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 20,
+      "parent_id": "1cb822bfa2086289a01e1787a9dcb373",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e6aa765a0d85ef8137786adeacff5456",
+    "text": "which must be known to sender & receiver \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            301.89
+          ],
+          [
+            123.98,
+            353.13
+          ],
+          [
+            516.6650000000001,
+            353.13
+          ],
+          [
+            516.6650000000001,
+            301.89
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 20,
+      "parent_id": "1cb822bfa2086289a01e1787a9dcb373",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bba48269387e86c2a11264acaac52fde",
+    "text": "if sent in clear, attacker can change bits of first block, and change IV to compensate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            332.97
+          ],
+          [
+            146.54,
+            379.176
+          ],
+          [
+            636.428,
+            379.176
+          ],
+          [
+            636.428,
+            332.97
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 20,
+      "parent_id": "1cb822bfa2086289a01e1787a9dcb373",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b548dee6f6467e866cbfe9b49cc6e989",
+    "text": "hence IV must either be a fixed value (as in EFTPOS) \u2022 or must be sent encrypted in ECB mode before rest of message",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            387.59000000000003
+          ],
+          [
+            123.98,
+            464.874
+          ],
+          [
+            608.393,
+            464.874
+          ],
+          [
+            608.393,
+            387.59000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 20,
+      "parent_id": "1cb822bfa2086289a01e1787a9dcb373",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "96e8976b41a0f79c921280c26a5afe38",
+    "text": "Stream Modes of Operation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.76,
+            96.22199999999998
+          ],
+          [
+            161.76,
+            131.286
+          ],
+          [
+            557.6676240000002,
+            131.286
+          ],
+          [
+            557.6676240000002,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "437416ee841b30561a05c41968160180",
+    "text": "\u27a2 Block modes encrypt entire block \u27a2 Stream modes convert block cipher into stream cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.64,
+            192.19
+          ],
+          [
+            80.64,
+            232.606
+          ],
+          [
+            507.88094400000006,
+            232.606
+          ],
+          [
+            507.88094400000006,
+            192.19
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "96e8976b41a0f79c921280c26a5afe38",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "48d8a244fcc2a33e014069171a00e75b",
+    "text": "1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            116.64,
+            236.22000000000003
+          ],
+          [
+            116.64,
+            254.22000000000003
+          ],
+          [
+            130.32,
+            254.22000000000003
+          ],
+          [
+            130.32,
+            236.22000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "96e8976b41a0f79c921280c26a5afe38",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "997c0b11c9c44346576820a9a6c39853",
+    "text": "2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            116.64,
+            357.2
+          ],
+          [
+            116.64,
+            375.2
+          ],
+          [
+            130.32,
+            375.2
+          ],
+          [
+            130.32,
+            357.2
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "96e8976b41a0f79c921280c26a5afe38",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "44c1758383e2c8a093f763be9d688337",
+    "text": "cipher feedback (CFB) mode \u2022 allows to operate on smaller plaintext units, e.g. real time data \u2022 if a transmission error occurs in one ciphertext block, there will be an error in several blocks of the decrypted plaintext (this is called error propagation) \u2022 it uses a complex structure output feedback (OFB) mode \u2022 is simpler than CFB but preferred to operate on entire data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            152.66,
+            236.22000000000003
+          ],
+          [
+            152.66,
+            396.8
+          ],
+          [
+            635.1139999999999,
+            396.8
+          ],
+          [
+            635.1139999999999,
+            236.22000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "96e8976b41a0f79c921280c26a5afe38",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "741ad503deb412fbf90a6dd73eaa85f6",
+    "text": "blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            171.02,
+            396.08000000000004
+          ],
+          [
+            171.02,
+            414.08000000000004
+          ],
+          [
+            216.704,
+            414.08000000000004
+          ],
+          [
+            216.704,
+            396.08000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7d4055a36640289aff8dac4761908e21",
+    "text": "3.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            116.64,
+            417.68
+          ],
+          [
+            116.64,
+            435.68
+          ],
+          [
+            130.32,
+            435.68
+          ],
+          [
+            130.32,
+            417.68
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "741ad503deb412fbf90a6dd73eaa85f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "52273bf4e807df73bbe2e7f08c4a500d",
+    "text": "counter (CTR) mode \u2022 is like OFB but provides more advantages",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            152.66,
+            417.68
+          ],
+          [
+            152.66,
+            457.284
+          ],
+          [
+            470.86400000000003,
+            457.284
+          ],
+          [
+            470.86400000000003,
+            417.68
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "741ad503deb412fbf90a6dd73eaa85f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "016cc76ba603e576be7aa057f9aeeb43",
+    "text": "\u27a2 Encryption is done by XORing plaintext blocks with random bits \u27a2 Use block cipher as some form of pseudo-random number generator to",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.64,
+            460.05492
+          ],
+          [
+            80.64,
+            500.508
+          ],
+          [
+            635.59,
+            500.508
+          ],
+          [
+            635.59,
+            460.05492
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "parent_id": "741ad503deb412fbf90a6dd73eaa85f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "5af88823fb13ac69c34f5280584310dc",
+    "text": "generate the required random bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            107.64,
+            499.788
+          ],
+          [
+            107.64,
+            517.788
+          ],
+          [
+            360.19800000000004,
+            517.788
+          ],
+          [
+            360.19800000000004,
+            499.788
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8f7170344f9a45944f4f5d9fe957f376",
+    "text": "Output FeedBack (OFB) Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            147.6,
+            96.22199999999998
+          ],
+          [
+            147.6,
+            131.286
+          ],
+          [
+            571.9233439999999,
+            131.286
+          ],
+          [
+            571.9233439999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f3cdd6618ffb4fc0eb440c5438cd9c51",
+    "text": "message is treated as a stream of bits \u2022 output of cipher is added to message \u2022 output is then feed back (hence name) \u2022 feedback is independent of message \u2022 can be computed in advance Oi = EK(Oi-1) Ci = Pi \uf0c5 Oi O0 = IV",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            107.21,
+            212.26840000000004
+          ],
+          [
+            107.21,
+            437.99
+          ],
+          [
+            453.02636000000007,
+            437.99
+          ],
+          [
+            453.02636000000007,
+            212.26840000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 22,
+      "parent_id": "8f7170344f9a45944f4f5d9fe957f376",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4e9530a3e9d1eae43d5129d03f7b7468",
+    "text": "Uses: stream encryption on noisy channels",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            107.21,
+            442.7124
+          ],
+          [
+            107.21,
+            463.554
+          ],
+          [
+            480.62468000000007,
+            463.554
+          ],
+          [
+            480.62468000000007,
+            442.7124
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 22,
+      "parent_id": "8f7170344f9a45944f4f5d9fe957f376",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "487cc6ed9c0001c35b40ba3763733a1c",
+    "text": "Output FeedBack (OFB)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            15.072,
+            64.79160000000002
+          ],
+          [
+            15.072,
+            200.77159999999998
+          ],
+          [
+            206.095552,
+            200.77159999999998
+          ],
+          [
+            206.095552,
+            64.79160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2ebe4413e2a64c92a14025b7eedb9aa5",
+    "text": "Oi = EK(Oi-1) Ci = Pi \uf0c5 Oi O0 = IV",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            15.072,
+            253.54159999999996
+          ],
+          [
+            15.072,
+            332.1644
+          ],
+          [
+            132.93268,
+            332.1644
+          ],
+          [
+            132.93268,
+            253.54159999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "97de148be65c7e1bd92f96fb07ec2f4f",
+    "text": "(IV is the nonce which is a random number used only once)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            15.072,
+            358.08968
+          ],
+          [
+            15.072,
+            412.46968000000004
+          ],
+          [
+            205.44144,
+            412.46968000000004
+          ],
+          [
+            205.44144,
+            358.08968
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 23,
+      "parent_id": "2ebe4413e2a64c92a14025b7eedb9aa5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "314f1d560969d95aca26a28e26d9a75a",
+    "text": "Advantages and Limitations of OFB",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            112.92,
+            96.22199999999998
+          ],
+          [
+            112.92,
+            131.286
+          ],
+          [
+            606.4458000000002,
+            131.286
+          ],
+          [
+            606.4458000000002,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dfd9cf484e6d7afd32b9c0342dd6415c",
+    "text": "\u27a2 needs an IV (nonce) which is unique for each use \u27a2 if ever reuse IV, attacker can recover outputs \u27a2 bit errors do not propagate \u27a2 more vulnerable to message stream modification attack than",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            213.565
+          ],
+          [
+            87.984,
+            326.25
+          ],
+          [
+            638.1320000000001,
+            326.25
+          ],
+          [
+            638.1320000000001,
+            213.565
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "parent_id": "314f1d560969d95aca26a28e26d9a75a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2b07e1d5df540608291fa6f6b06ed4b5",
+    "text": "is CFB",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            330.45
+          ],
+          [
+            114.98,
+            351.45
+          ],
+          [
+            165.023,
+            351.45
+          ],
+          [
+            165.023,
+            330.45
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "parent_id": "314f1d560969d95aca26a28e26d9a75a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b4589b7630c53dd97935a74b6a8f7144",
+    "text": "\u27a2 sender & receiver must remain in synchronism, or all data is",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            359.72592
+          ],
+          [
+            87.984,
+            381.696
+          ],
+          [
+            629.311136,
+            381.696
+          ],
+          [
+            629.311136,
+            359.72592
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "parent_id": "314f1d560969d95aca26a28e26d9a75a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "18177f81fd648abf102015d60e2eafec",
+    "text": "lost",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            385.90999999999997
+          ],
+          [
+            114.98,
+            406.90999999999997
+          ],
+          [
+            145.766,
+            406.90999999999997
+          ],
+          [
+            145.766,
+            385.90999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "parent_id": "314f1d560969d95aca26a28e26d9a75a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f6da66a9f55305c751f67d566e1609b5",
+    "text": "\u27a2 only use with full block feedback, where typically a block is 64",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            415.20500000000004
+          ],
+          [
+            87.984,
+            437.15
+          ],
+          [
+            645.1669999999999,
+            437.15
+          ],
+          [
+            645.1669999999999,
+            415.20500000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "parent_id": "314f1d560969d95aca26a28e26d9a75a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "82e4a21721cec1e23777a6334e6d387e",
+    "text": "or 128 bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            441.354
+          ],
+          [
+            114.98,
+            462.354
+          ],
+          [
+            205.93100000000004,
+            462.354
+          ],
+          [
+            205.93100000000004,
+            441.354
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8ce2629d46d18a97939ccc0dfcb87f1b",
+    "text": "Counter (CTR) Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            214.34,
+            96.22199999999998
+          ],
+          [
+            214.34,
+            131.286
+          ],
+          [
+            505.05562399999997,
+            131.286
+          ],
+          [
+            505.05562399999997,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e1363697c6694be31fb78c85993e77b1",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            213.34000000000003
+          ],
+          [
+            87.984,
+            237.34000000000003
+          ],
+          [
+            96.384,
+            237.34000000000003
+          ],
+          [
+            96.384,
+            213.34000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 25,
+      "parent_id": "8ce2629d46d18a97939ccc0dfcb87f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "91e64e53ac492be24714a649cc149eed",
+    "text": "the Counter (CTR) mode is a variant of OFB, but which encrypts a counter value (hence name) rather than any feedback value",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            214.3
+          ],
+          [
+            114.98,
+            295.91999999999996
+          ],
+          [
+            644.7079999999999,
+            295.91999999999996
+          ],
+          [
+            644.7079999999999,
+            214.3
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 25,
+      "parent_id": "8ce2629d46d18a97939ccc0dfcb87f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7f328c2eb33bcba87ddff825d7d31800",
+    "text": "must have a different key & counter value for every plaintext block (never reused) Oi = EK(Counteri ) Ci = Pi \uf0c5 Oi Uses: high-speed network encryptions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            305.52
+          ],
+          [
+            87.984,
+            462.984
+          ],
+          [
+            618.6439999999999,
+            462.984
+          ],
+          [
+            618.6439999999999,
+            305.52
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 25,
+      "parent_id": "8ce2629d46d18a97939ccc0dfcb87f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "272f30a745d25df8438bb390b8c6398e",
+    "text": "Counter (CTR)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.584,
+            79.22000000000003
+          ],
+          [
+            28.584,
+            158.42504000000002
+          ],
+          [
+            166.71600000000004,
+            158.42504000000002
+          ],
+          [
+            166.71600000000004,
+            79.22000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b1badf440b8bcfd0bfe62bf5e59cffb6",
+    "text": "Oi = EK(Counteri ) Ci = Pi \uf0c5 Oi",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.584,
+            229.94000000000005
+          ],
+          [
+            28.584,
+            277.46
+          ],
+          [
+            164.52212,
+            277.46
+          ],
+          [
+            164.52212,
+            229.94000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "41a06374fbc3fb8eb65a54659a264164",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.944,
+            310.9384
+          ],
+          [
+            28.944,
+            324.97839999999997
+          ],
+          [
+            33.858,
+            324.97839999999997
+          ],
+          [
+            33.858,
+            310.9384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 26,
+      "parent_id": "b1badf440b8bcfd0bfe62bf5e59cffb6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1c66a05a399bc56028952b0da6f00d0f",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.944,
+            344.5384
+          ],
+          [
+            28.944,
+            358.5784
+          ],
+          [
+            33.858,
+            358.5784
+          ],
+          [
+            33.858,
+            344.5384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 26,
+      "parent_id": "b1badf440b8bcfd0bfe62bf5e59cffb6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8d8f3105aaa6553d8682964d6f6358d4",
+    "text": "Counter1 is a random number Counteri+1 = Counteri + 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            51.504,
+            310.62952
+          ],
+          [
+            51.504,
+            377.78968
+          ],
+          [
+            166.18748000000002,
+            377.78968
+          ],
+          [
+            166.18748000000002,
+            310.62952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 26,
+      "parent_id": "b1badf440b8bcfd0bfe62bf5e59cffb6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d3a1fa02cdb5a104c9dc954728123270",
+    "text": "Advantages and Limitations of CTR",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.6,
+            96.22199999999998
+          ],
+          [
+            114.6,
+            131.286
+          ],
+          [
+            604.6544640000001,
+            131.286
+          ],
+          [
+            604.6544640000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "57f830d4818d41c7c94a0cb8e7459520",
+    "text": "\u27a2 efficiency",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            223.62591999999995
+          ],
+          [
+            87.984,
+            245.596
+          ],
+          [
+            196.02752,
+            245.596
+          ],
+          [
+            196.02752,
+            223.62591999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dd26ce2557e731308a53ac66f64a164c",
+    "text": "can do parallel encryptions in h/w or s/w \u2022 can preprocess in advance of need \u2022 good for bursty high speed links \u27a2 random access to encrypted data blocks \u27a2 provable security (good as other modes) \u27a2 but must ensure never reuse key/counter values, otherwise could break (like OFB)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            254.01000000000005
+          ],
+          [
+            87.984,
+            452.274
+          ],
+          [
+            626.1410000000001,
+            452.274
+          ],
+          [
+            626.1410000000001,
+            254.01000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 27,
+      "parent_id": "57f830d4818d41c7c94a0cb8e7459520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f75927bcb847298de28434359411358",
+    "text": "Conclusion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            240.02,
+            85.12199999999996
+          ],
+          [
+            240.02,
+            139.14599999999996
+          ],
+          [
+            479.508392,
+            139.14599999999996
+          ],
+          [
+            479.508392,
+            85.12199999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f7ba504f857af9556850e9b04bee24eb",
+    "text": "Have considered:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            277.32
+          ],
+          [
+            87.984,
+            301.32
+          ],
+          [
+            255.76799999999994,
+            301.32
+          ],
+          [
+            255.76799999999994,
+            277.32
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 28,
+      "parent_id": "0f75927bcb847298de28434359411358",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5ccf1ba6c6fb31d8acc9c9f35513f6a3",
+    "text": "2DES and 3DES \u2022 Encryption modes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.78,
+            340.18104
+          ],
+          [
+            128.78,
+            397.1
+          ],
+          [
+            327.572,
+            397.1
+          ],
+          [
+            327.572,
+            340.18104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 6 Block Cipher Operation - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:52:10",
+      "page_number": 28,
+      "parent_id": "0f75927bcb847298de28434359411358",
+      "filetype": "application/pdf"
+    }
+  }
+]

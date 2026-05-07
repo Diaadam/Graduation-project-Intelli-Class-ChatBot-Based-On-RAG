@@ -1,0 +1,104 @@
+[
+  {
+    "id": "3dbfd728-ab57-4a17-ac96-bb73e64171a9",
+    "text": "Cryptography and Network Security Chapter 5 Fifth Edition by William Stallings Lecture slides by Lawrie Brown Advanced Encryption Standard (AES) Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Origins clear a replacement for DES was needed – have theoretical attacks that can break it – have demonstrated exhaustive key search attacks can use Triple-DES – but slow, has small blocks • US NIST issued call for ciphers in 1997 • 15 candidates accepted in Jun 98 • 5 were shortlisted in Aug-99 • Rijndael was selected as the AES in Oct-2000 • issued as FIPS PUB 197 standard in Nov-2001",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "5f19f902-fcf6-4489-b82b-10872662392e",
+    "text": "The AES Cipher - Rijndael designed by Rijmen-Daemen in Belgium • has 128/192/256-bit keys, 128-bit data • an iterative rather than feistel cipher – processes data as block of 4 columns of 4 bytes – operates on entire data block in every round designed to be: – resistant against known attacks – speed and code compactness on many CPUs – design simplicity",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "575da5ce-3250-4b2d-89e0-6a0098ab4815",
+    "text": "AES Encryption Process AES Structure ➢ data block of 4 columns of 4 bytes is state ➢ key is expanded to array of words (4 bytes each) ➢ initially XOR the input state with the subkey [w0,w1,w2,w3] ➢ has 9/11/13 rounds in which state undergoes: ⚫ byte substitution (1 S-box used on every byte) ⚫ shift rows (permute bytes between groups/columns) ⚫ mix columns (subs using matrix multiply of groups) ⚫ add round key (XOR state with key material) ➢ view as alternating XOR key & scramble data bytes ➢ the last round is incomplete ➢ with fast XOR & table lookup implementation",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "95d5d42b-513d-482d-a556-1aec457b9fa5",
+    "text": "AES Structure AES Computations ➢ The data computation consists of: an “add round key” step, then 9/11/13 rounds with all 4 steps, and a final 10th/12th/14th step of byte substitution + mix columns + add round key. ➢ This can be viewed as alternating XOR key & scramble data bytes operations. ➢ All the steps are easily reversed and can be efficiently implemented using XOR’s & table lookups. 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "f0512bee-acec-42bd-bd02-c47e16b557a7",
+    "text": "Some Comments on AES an iterative rather than feistel cipher the cipher has a simple structure key expanded into array of 4 bytes words in each round, the round key is 4 words (4×4 bytes) Initially, the AddRoundKey stage only uses a key each round, except the last, uses 4 different stages; each stage is easily reversible decryption uses keys in reverse order decryption does recover plaintext final round has only 3 stages",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "46fdfa16-f574-465e-9afc-d4731901dca6",
+    "text": "Substitute Bytes a simple substitution of each byte • uses one table of 16x16 bytes containing a permutation of all 256 8-bit values each byte of state is replaced by byte indexed by row (left 4-bits) & column (right 4-bits) – eg. byte {95} is replaced by byte in row 9 column 5 – which has value {2A} designed to be resistant to all known attacks",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "258733e5-06df-4a58-96e7-4d17a1b668dc",
+    "text": "Substitute Bytes Substitute Bytes Example Shift Rows a circular byte shift in each row – 1st row is unchanged – 2nd row does 1-byte circular shift to left – 3rd row does 2-byte circular shift to left – 4th row does 3-byte circular shift to left decrypt inverts using shifts to right • since state is processed by columns, this step permutes bytes between the columns",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "50bce544-7418-4c0e-9ebf-ba0c19f0d6ea",
+    "text": "Shift Rows Mix Columns each column is processed separately • each byte is replaced by a value dependent on all 4 bytes in the column effectively a matrix multiplication Matrix Equations: For encryption: S’ = M × S For decryption: S = M-1 × S’ Mix Columns (using inverse matrix multiplication for decryption) Mix Columns Example (all computations are done using logical AND & XOR functions)",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "79863939-3c35-4ef2-9119-b674cb2637b4",
+    "text": "Mix Columns ➢ The mix column process is done using the following matrix equations: ▪ ▪ For encryption: S’ = M × S For decryption: S = M-1 × S’ ➢ M is a matrix with small coefficients and hence it is fast and easy to compute S’ in encryption ➢ decryption requires use of inverse matrix M-1 with larger coefficients, hence a slower and a little harder computation of S",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "c22c4ff4-6514-4a80-a20c-7701c3a599ee",
+    "text": "Add Round Key ➢ XOR state with 16 bytes (128-bits) of the round key ➢ again, processed by column (though effectively a series of byte operations) ➢ inverse for decryption identical by XORing ➢ designed to be as simple as possible ➢ MUST be used at start and end of each round, since otherwise a cryptanalyst could undo effect of other stages ➢ other stages (substitution, shift rows, and mix columns) provide confusion/diffusion/non-linearity",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "3475c1ef-ed4b-4b5d-bde7-1f4b94e0d546",
+    "text": "Add Round Key ▪ These are done as column operations using a 32-bit CPU ▪ It can be also done as separate byte operations using an 8-bit CPU AES Round AES Key Expansion ➢ there are three optional lengths for the key: 128/192/256-bit (16/24/32-byte) ➢ takes a key and expands it into a suitable array of",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "611e8af5-736f-4588-964d-812813fcae07",
+    "text": "32-bit words ➢ every 4 consecutive words are used as a subkey ➢ as depicted in the next slide, a simple algorithm is used for expanding the selected key option into an array of words having a corresponding length (44/52/60) AES Key Expansion Key Expansion Rationale designed to resist known attacks • design criteria included – knowing part key insufficient to find many more – invertible transformation – fast on wide range of CPU’s – diffuse key bits into round keys – enough non-linearity to hinder analysis – simplicity of description",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "7d9bc494-0765-4e5d-afa5-cc8ca49ab338",
+    "text": "AES Example Key Expansion AES Example Encryption AES Example Avalanche In any good cipher design, we want the avalanche effect to prevent guessing the key A small change in plaintext or key produces a large change in the ciphertext The table shows result when the eighth bit of the plaintext is changed",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "d53c85b3-d7f4-4bd0-99f3-b06a3804ba72",
+    "text": "AES Decryption AES decryption is not identical to encryption since steps done in reverse ✓ the subkeys are used in a reversed order, starting with the last subkey ✓ a different substitution table is used ✓ shifting rows is to the right direction ✓ multiply by the inverse matrix in the mix columns",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "f0fd11b2-76e1-4b2b-98d6-0f9f19f35be0",
+    "text": "process two separate software or firmware modules are needed for encryption and decryption AES Decryption Implementation On 8-bit CPU can efficiently implement on 8-bit CPU – byte substitution works on bytes using a table of 256 entries – shift rows is simple byte shift – add round key works on byte XOR’s – mix columns requires matrix multiply which works",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "f8f42bd8-847c-4618-af8a-7f252b780961",
+    "text": "on byte values – mix column can be simplified to use table lookups and byte XOR’s & AND’s Implementation On 32-bit CPU ➢ can efficiently implement on 32-bit CPU ⚫ redefine steps to use 32-bit words ⚫ can precompute 4 tables of 256-words ⚫ then each column in each round can be computed using 4 table lookups + 4 XORs at a cost of 4Kb to store tables ➢ designers believe this very efficient implementation was a key factor in its selection as the AES cipher",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  },
+  {
+    "id": "52e8f7f1-79c0-4685-bf8c-ce4ce8666574",
+    "text": "Summary have considered: – the AES selection process – the details of the AES cipher – looked at the steps in each round – the key expansion – implementation aspects",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sec_422_ch_5_aes_-_audio"
+  }
+]

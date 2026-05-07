@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ffb3c676-e1ba-4c3c-8b4a-f00e3cf78465",
+    "text": "Al-Azhar University Faculty of Eng Systems and Computer Eng., Dept ., SCE 409: Computer Architecture Grade 4, 1st Semister Ass. Prof. Khaled Elshafey Course Objectives OBJECTIVES: This course aims to provides a strong foundation to understand modern computer system architecture. Text Books “Computer Architecture, A Quantitative Approach”, by: John L. Hennessy, and David A. Patterson, 5th Edition. “Logic and Computer Design Fundamentals”, by: M. Morris Mano Charles Kime, Fourth Edition",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "d83cd918-55a3-4c5c-86b1-55f380df90d7",
+    "text": "Syllabus Introduction • Quantitative principles of computer design • Memory and PLDs (FPGAs) • Register Transfers and Datapaths • Single-cycle microprogramming control I/O organization • Parallel computer Architecture: Pipeline and Superscalar techniques Course Plan Final Exam: 100 • Mid Term : • Course Project: • Quizzes& Assignments: ---------------------------------------------------- • Total 150 10 20",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "54e31d49-cd73-4a2c-8212-12b443ec15d2",
+    "text": "Basic Terms Computer Architecture includes the study of functional blocks that make up the computer system and the way they are connected. • Computer Organization: concerned with the implementation of computer architecture, and involves # processors, memory size, time to execute an instruction,….etc. Computer engineering: referred to the actual construction of a computer.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "8235c42e-fc83-46f7-b588-557a21625405",
+    "text": "Von-Neumann Architecture The main Features of Von-Neumann Arch., The computer consists of memory, I/O, and CPU • The computer structure is independent of problem Binary signals are used for representing data and instructions The memory is divided into cells of equal size • Instructions and Data are stored in the same memory • The program is a sequence of instructions (control flow)",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "0defa5cb-cdb8-4558-9233-24bef4ba7740",
+    "text": "BASIC MICROPROCESSOR SYSTEM The Microprocessor alone does not serve any useful purpose unless it is supported by memory and I/O ports. • The combination of memory and I/O ports with microprocessor is known as microprocessor-based system. The microprocessor executes the program stored in the memory and transfer data to and from the outside world through I/O ports. The microprocessor is interconnected with memory and I/O ports by busses called: the data bus, the Address bus and the control bus. A bus is basically a communication link between the processing unit and the peripheral devices.",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "0676abbd-f10d-4212-b235-0ab1ed419544",
+    "text": "Control Unit The control unit performs the most important function in a computer. It controls all other units and controls the flow of data from one unit to another for performing computations. It also sequences the operations. • It instructs all the units to perform the task in a particular sequence with the help of clock pulses.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "e348f00e-b86e-4aab-8a7b-a22f05ebe08c",
+    "text": "ALU Microprocessors (Datapath) are defined by their registers and the operations performed on binary data stored in the registers. This operation unit (ALU) is used for performing arithmetic operations such as Addition, Subtraction, Multiplications, division and other logical operations on the data. The control unit guides ALU which of the operations are to be performed. The sequence of the instructions is controlled by the control unit.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "fc886c7f-c70b-447d-a8ca-36100bd8f06e",
+    "text": "Address Bus Data Bus Data bus is bidirectional, that is, data flow occurs both to and from CPU and peripherals. A microprocessor is characterized by the width of its data bus. The size of the internal data bus determines the largest number that can be processed by a microprocessor, for instance, having a 16-bit internal data bus is 65536 (64K). • A microprocessor is specified by its ‘Word Size’, e.g. 4-bit, 8-bit, 16-bit etc. By the term ‘word size” means the number of bits of data that is processed by the microprocessor as a unit. It also specifies the width of the data bus.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "cfddf693-5fac-4903-9081-8d756b44c7da",
+    "text": "Control Bus Control bus contains a number of individual lines carrying synchronizing signals. The control bus sends out control signal to memory, I/O ports and other peripheral devices to ensure proper operation. For instance, if it is desired to read the contents of a particular memory location, the CPU first sends out address of that very location on the address bus and a ‘Memory Read’ control signal on the control bus. The memory responds by outputting data stored in the addressed memory location on the data bus.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "f430a1ad-db08-455c-a7e4-34296410511f",
+    "text": "Summary What are the three main units of a digital computer? Ans. The three main units of a digital computer are: the central processing unit (CPU), the memory unit and the input/output devices. How does the microprocessor communicate with the memory and input/output devices? Ans. The microprocessor communicates with the memory and the Input/ Output devices via",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "2739be76-e302-4576-952b-accf081582a6",
+    "text": "the three buses, data bus, address bus and control bus. What are the different jobs that the CPU is expected to do at any given point of time? Ans. The CPU may perform a memory read or write operation, ALU operations, an I/O read or write operation or an internal activity. Assessment #1 Give a brief about : A- “HARVARD Computer Architecture”. B- Data Flow computers",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "0087e32a-86e8-4a84-b2c8-2780bebe5b02",
+    "text": "The Task of computer Designer Determine what attributes are important for a new computer, then design a computer to maximize performance and energy efficiency and staying within cost, power, while availability constraints. This including instruction set design, functional organization, logic design, and implementation. task has many aspects, .,",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "fc5e7505-c2ba-40ab-a04c-8b3477744f88",
+    "text": "Cont The encompass integrated circuit design, packaging, power, and cooling. implementation may Optimizing the design requires familiarity with a very wide range of technologies, from compilers and operating systems to logic design and packaging. Beyond the Computer In terms of world impact, computers, such as the PC, are not the end of the story. • Smaller, often less powerful, single-chip computers called microcomputers or microcontrollers, or special-purpose computers called digital signal processors (DSPs) actually are more prevalent in our lives. These computers are parts of everyday products (Embedded systems).",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "cf60e3a7-dcfe-4b39-a77c-a6b5ffdbd275",
+    "text": "Classes of Parallelism and Parallel Architectures Parallelism at multiple levels is now the driving force of computer design across all four classes of computers, with energy and cost being the primary constraints. Parallelism can appear in different forms: Lookahead, Pipelining, Multitasking, Multiprogramming,",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "e30fd419-baca-428a-83dd-f405cf4a7ecb",
+    "text": "Concurrency, multithreading, ….etc ., Cont There are basically two kinds of parallelism in applications: 1. Data-Level Parallelism (DLP), which arises because there are many data items that can be operated on at the same time. 2. Task-level parallelism (TLP), which arises because tasks of work are created that can operate independently and largely in parallel. We then explain the four architectural styles that exploit DLP and TLP",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "84c18a8a-1a21-4131-a1e4-752bf76e01d4",
+    "text": "Michael Flynn’s Classifications He looked at the parallelism in the instruction and data streams, and placed all computers into one of four categories: • Single instruction stream, single data stream (SISD) • Single instruction stream, multiple data streams (SIMD) Multiple instruction streams, single data stream (MISD) Multiple instruction streams, multiple data streams (MIMD)",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "d9928b65-b6de-43f7-9add-6d6e54b4fed4",
+    "text": "Quantitative Principles of Computer Design Take Advantage of Parallelism is one of the most important methods for improving performance. • Principle of Locality: Programs tend to reuse data and instructions they have used recently. A widely held rule of thumb is that a program spends 90% of its execution time in only 10% of the code. An implication of locality is that we can predict with reasonable accuracy what instructions and data a program will use in the near future based on its accesses in the recent past. .,",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "e5591847-65e0-42d8-a018-4991a7bb420f",
+    "text": "Cont Two different types of locality have been observed. a) Temporal locality states that recently accessed items are likely to be accessed in the near future. b) Spatial locality says that items whose addresses are near one another tend to be referenced close together in time. ., Cont Focus on the Common (frequent) Case Perhaps the most important and pervasive principle of computer design is to focus on the common case: In making a design trade- off, favor the frequent case over the infrequent case. How much performance can be improved by making that frequent case faster.",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "89291717-91cb-4958-ba10-80d7203b0174",
+    "text": "Amdahl’s Law The performance gain that can be obtained by improving some portion of a computer can be calculated using Amdahl’s law. Amdahl’s law states that the performance improvement to be gained from using some faster mode of execution is limited by the fraction of the time the faster mode can be used. ? What is speedup Suppose that we can make an enhancement to a computer that will improve performance when it is used. Speedup is the ratio: • Speedup = (Execution time for entire task without using enhancement) / (Execution time for the task with using enhancement). .,",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "00271e0f-292d-48e8-9312-c8a6d4754c76",
+    "text": "Cont Amdahl’s law gives us a quick way to find the speedup from some enhancement, which depends on two factors: 1. The fraction enhancement: is the fraction of the computation time in the original computer that can be converted to take advantage of the enhancement— For example, if 20 seconds of the execution time of a program that takes 60 seconds in total can use an enhancement, the fraction is 20/60. Cont.,",
+    "chunk_index": 19,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "fc48e4f2-13d8-48fe-8256-5054af9e52cc",
+    "text": "2- Speedup enhancement: The improvement gained by the enhanced that is, how much faster the task execution mode, would run if the enhanced mode were used for the entire program. For example: • If the enhanced mode takes, say, 2 seconds for a portion of the program, while it is 5 seconds in the original mode, the improvement is 5/2.",
+    "chunk_index": 20,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "608b86cb-be9a-413c-8f2f-1894134798e2",
+    "text": "Speedup Overall The overall speedup is the ratio of the execution times: Speedup overall = Execution time old / Execution time new",
+    "chunk_index": 21,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "3238cd46-c60f-4b24-a12b-4ee8a9c77c97",
+    "text": "Processor Performance Equation CPU time = CPU clock cycles for a program × Clock cycle time CPU time = Instruction count × Cycles per instruction × Clock cycle time. Where: Instruction count (IC): the number of instructions executed Cycles per instruction (CPI): the average number of clock cycles per instruction. Clock cycle time: Hardware technology and organization Cont., As this formula demonstrates, processor performance is dependent upon three characteristics: clock cycle (or rate), clock cycles per instruction, and instruction count. • Furthermore, CPU time is equally dependent on these three characteristics; for example, a 10% improvement in any one of them leads to a 10% improvement in CPU time. Cont.,",
+    "chunk_index": 22,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "d61f465a-bda9-4ccb-81af-bdf75b18bdc9",
+    "text": "Unfortunately, it is difficult to change one parameter in complete isolation from others because the basic technologies involved in changing each characteristic are interdependent: ■ Clock cycle time—Hardware technology and organization ■ CPI—Organization and instruction set architecture ■ Instruction count—Instruction set architecture and compiler technology",
+    "chunk_index": 23,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "3c86c0fa-bb10-48b5-be86-41efc1f8477a",
+    "text": "Benchmarks Natural: real programs used to solve a real task Synthetic: Sequence of instructions constructed for the purpose of measuring performance. Dependability Historically, integrated circuits were one of the most reliable components of a computer. Although their pins may be vulnerable, and faults may occur over communication channels, the error rate inside the chip was very low (such as stuck at zero , stuck at one, or bridging faults). Systems alternate between two states of service: 1. Service accomplishment, where the service is delivered as specified 2. Service interruption, where the delivered service has error. • Quantifying these transitions leads to the two main measures of dependability:",
+    "chunk_index": 24,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "58833cb3-e978-4eef-863b-716d29b99394",
+    "text": "1- Module Reliability The mean time to failure (MTTF) is a reliability measure. The reciprocal of MTTF is a rate of failures λ • Service interruption is measured as mean time to repair (MTTR). Mean time between failures (MTBF) is simply the sum of MTTF + MTTR. Although MTBF is widely used, MTTF is often the more appropriate term.",
+    "chunk_index": 25,
+    "source_file": "4th_Computer_architecture_lec_1"
+  },
+  {
+    "id": "8955db86-7d14-4c46-bdcc-d8a400882f82",
+    "text": "2- Module Availability For nonredundant systems with repair, module availability is: Sheet 1 Examples at pages: 34 , 47, and 50 from Hennessy ‘s book.",
+    "chunk_index": 26,
+    "source_file": "4th_Computer_architecture_lec_1"
+  }
+]

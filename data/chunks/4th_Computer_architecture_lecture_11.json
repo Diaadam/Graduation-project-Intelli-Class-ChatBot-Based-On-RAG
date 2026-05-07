@@ -1,0 +1,182 @@
+[
+  {
+    "id": "f5bd32f1-a029-4374-b9d6-0dacb530fd9b",
+    "text": "Lecture 11 Parallel Processing Introduction Parallel computing is a form of computation in which many calculations are carried out simultaneously, operating on the principle that large problems can often be divided into smaller ones, which are then solved concurrently (\"in parallel\"). There are several different forms of parallel computing: bit-level, instruction level, data level, and task level parallelism. Parallelism appears in various forms, such as lookahead, pipelining, vectorization, concurrency, simultaneity, data parallelism, partitioning, interleaving, overlapping, multiplicity, replication, time sharing, space sharing, multitasking, multiprogramming, multithreading, and distributed computing at different processing levels.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "5cca3fc6-8090-4b45-801f-5f731b5fc923",
+    "text": "Single data Multiple data Flynn's taxonomy Single instruction SISD SIMD Multiple instruction MISD MIMD Multiprocessor and Multicomputer Two categories of parallel computers are architecturally distinguished by having a shared common memory or distributed memories. Computer architectures in which each element of main memory can be accessed with equal latency and bandwidth are known as Uniform Memory Access (UMA) systems. Typically, that can be achieved only by a shared memory system, in which the memory is not physically distributed. A system that does not have this property is known as a Non-Uniform Memory Access (NUMA) architecture. Distributed memory systems have non-uniform memory access.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "119aec8e-4d92-4fb5-86ec-32f5e9f82800",
+    "text": "Interconnection Network Processor–processor processor–memory communication can be implemented in hardware in several ways, including via shared (either multiported or multiplexed) memory, a crossbar switch, a shared bus or an interconnect network of a myriad of topologies including star, ring, tree, hypercube, fat hypercube (a hypercube with more than one processor at a node), or n-dimensional mesh.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "d92509cb-3da7-4e17-8696-2184ebb57178",
+    "text": "and Parallel computers based on interconnect networks need to have some kind of routing to enable the passing of messages between nodes that are not directly connected. The medium used for communication between the processors is likely to be hierarchical in large multiprocessor machines. Crossbar Switch Operational models used in programming multiprocessor systems Multiprogramming. • Traditionally, multiprogramming is defined as multiple independent programs running on a single processor or on a multiprocessor by time- sharing use of the system resources.",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "8d31b3a2-f5df-480c-bb90-e57190f3bf08",
+    "text": "A multiprogrammed multiprocessor allows multiple programs to run concurrently through time sharing of all processors in the system. Multiple programs are interleaved in their CPU and I/O activities. When a program enters I/O mode, the processor switches to another program. Multiprocessing. • When multiprogramming is implemented at the process level on a multiprocessor, it is called multiprocessing. Two types of multiprocessing are specified based on the interprocessor communications: MIMD, and MPMD. Cont., Multitasking. • A single program can be partitioned into multiple interrelated tasks concurrently executed on a multiprocessor. Thus multitasking provides the parallel execution of two or more parts of a single program. Multithreading. •",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "d2cffceb-cba9-4e58-bdfd-f3635326b6be",
+    "text": "The traditional operating system (OS) has a single-threaded kernel in which only one process can receive OS kernel service at a time. Hardware multithreading allows multiple threads to share the functional units in a single processor in an overlapping fashion. In multiprocessor, it is needed to extend the single kernel to be multithreaded to allow multiple threads of lightweight processes to share the same address space and to be executed by the same or different processors simultaneously. Each thread may use a separate program counter. Resource conflicts are the major problem to be resolved in a multithreaded architecture.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "8a6ea35d-0428-49ec-bc65-99e41f4c834c",
+    "text": "Types of parallelism [a] Bit-level parallelism From the advent of very-large-scale integration (VLSI) computer-chip fabrication technology in the 1970s until about 1986, speed-up in computer architecture was driven by doubling computer word size—the amount of information the processor can manipulate per cycle. Increasing the word size reduces the number of instructions the processor must execute to perform an operation on variables whose sizes are greater than the length of the word.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "94f290fc-b307-4fb8-85d7-688080511a5c",
+    "text": "For example, where an 8-bit processor must add two 16-bit integers, the processor must first add the 8 lower-order bits from each integer using the standard addition instruction, then add the 8 higher-order bits using an add- with-carry instruction and the carry bit from the lower order addition; thus, an 8-bit processor requires two instructions to complete a single operation, where a 16-bit processor would be able to complete the operation with a single instruction. Cont.,",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "010237f6-439d-4750-a675-e3b9d4431a4d",
+    "text": "[b] Instruction-level parallelism (Superscalar Processor) A computer program is, in essence, a stream of instructions executed by a processor. These instructions can be re-ordered and combined into groups, only if there is no data dependency between them, which are then executed in parallel without changing the result of the program. This is known as instruction-level parallelism. A superscalar CPU architecture implements a form of instruction level parallelism within a single processor. It therefore allows faster CPU throughput than would otherwise be possible at a given clock rate. A superscalar processor (VLIW) executes more than one instruction during a clock cycle by simultaneously dispatching multiple instructions to redundant functional units on the processor.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "b5bdffaa-94cb-4b58-b17f-00ceedbab852",
+    "text": "Each functional unit is not a separate CPU core but an execution resource within a single CPU such as an arithmetic logic unit, a bit shifter, or a multiplier. Cont.,",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "7e9cd2ba-6d19-4170-9ba2-d41afbba8dca",
+    "text": "[c] Task parallelism Task parallelism (also known as function parallelism and control parallelism) is a form of parallelization of computer code across multiple processors in parallel computing environments. Task parallelism focuses on distributing execution processes (threads) across different parallel computing nodes. In a multiprocessor system, task parallelism is achieved when each processor executes a different thread (or process) on the same or different data. The threads may execute the same or different code. In the general case, different execution threads communicate with one another as they work. Communication usually takes place by passing data from one thread to the next as part of a workflow.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "b055bca9-9323-451d-a278-8d706fc98e25",
+    "text": "As a simple example, if we are running code on a 2-processor system (CPUs \"a\" & \"b\") in a parallel environment and we wish to do tasks \"A\" and \"B\", it is possible to tell CPU \"a\" to do task \"A\" and CPU \"b\" to do task 'B\" simultaneously, thereby reducing the run time of the execution. Cont.,",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "9e4b9f07-aaa6-43d8-bdfc-9b8c73ad5265",
+    "text": "[D] Data Parallelism Data parallelism is a form of parallelization of computing across multiple processors in parallel computing environments. Data parallelism focuses on distributing the data across different parallel computing nodes. In a multiprocessor system executing a single set of instructions (SIMD), data parallelism is achieved when each processor performs the same task on different pieces of distributed data. In some situations, a single execution thread controls operations on all pieces of data. In others, different threads control the operation, but they execute the same code.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "7a84ccda-0ccd-46e8-bf35-1798ec27cbc6",
+    "text": "Classes of parallel computers [1] Multicore computer A multicore computer, also known as a chip multiprocessor, combines two or more processors (called cores) on a single piece of silicon (called die). Typically, each core consists of all components on independent processor, such as registers, ALU, pipeline hardware, and control unit. These processors differ from superscalar processors, which can issue multiple instructions per cycle from one instruction stream (thread); in contrast, a multicore processor can issue multiple instructions per cycle from multiple instruction streams. Each core in a multicore processor can potentially be superscalar is, on every cycle, each core can issue multiple as well—that instructions from one instruction stream.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "4d4f0059-5627-49b2-ae84-cb5ab0f3082e",
+    "text": "Simultaneous multithreading (of which Intel's Hyperthreading is the best known) was an early form of pseudo-multicoreism. A processor capable of simultaneous multithreading has only one execution unit (\"core\"), but when that execution unit is idling (such as during a cache miss), it uses that execution unit to process a second thread. Cont., Simultaneous multithreading (SMT) is one of the two main implementations of multithreading, the other form being temporal multithreading. In temporal multithreading, only one thread of instructions can execute in any given pipeline stage at a time. In simultaneous multithreading, instructions from more than one thread can be executing in any given pipeline stage at a time. This is done without great changes to the basic processor architecture.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "aef0679b-1590-4e03-a048-13098dd2a96b",
+    "text": "The main additions needed are the ability to fetch instructions from multiple threads in a cycle, and a larger register file to hold data from multiple threads. The number of concurrent threads can be decided by the chip designers, but practical restrictions on chip complexity have limited the number to two for most SMT implementations, though there have been as many as 8 threads per core.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "0334804b-b403-4c04-8edd-d31744062983",
+    "text": "Cont. [2] Symmetric multiprocessing A symmetric multiprocessor (SMP) is a computer system with multiple identical processors that share the same memory and connect via a bus. SMP systems are tightly coupled multiprocessor systems with a pool of homogeneous processors running independently, each processor executing different programs and working on different data and with capability of sharing common resources (memory, I/O device, interrupt system and so on) and connected using a system bus or a crossbar. Most common multiprocessor systems today use an SMP architecture.",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "e2c73a37-01f5-4c8b-b465-04e5b2ce1462",
+    "text": "In the case of multi-core processors, the SMP architecture applies to the cores, treating them as separate processors. MPP Architecture",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "17224c01-212b-476e-9fa0-54c9ae045e0f",
+    "text": "MOTIVATIONS BEHIND HETEROGENEOUS CMP Homogenous CMP usually consists of several numbers of processors of same characteristics like same issue width, cache size, clock frequency etc. The processor is designed with moderate number of all resources as it has to cope up with both complex sequential programs with low thread level parallelism (TLP), or simple program with high TLPs. Homogenous CMPs resources are wasted when application with high TLPs is used. On the other hand, Heterogeneous CMPs consist of different type of processors in a single chip. Processors can vary from higher level detail such as instruction set or, micro-architectural detail such as clock frequency, voltage level, issue width, and cache size.",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "133554a9-806b-42c2-bf73-6072cbd5736b",
+    "text": "Software for Parallel Programming Parallel computer programs are more difficult to write than sequential ones, because concurrency introduces several new classes of potential software bugs, of which race conditions are the most common. Communication and synchronization between the different subtasks are typically one of the greatest obstacles to getting good parallel program performance.",
+    "chunk_index": 19,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "d2b60447-f414-4eb0-9ff6-99b0e0204327",
+    "text": "Dependencies Understanding data dependencies implementing parallel algorithms. is fundamental No program can run more quickly than the longest chain of dependent calculations (known as the critical path), since calculations that depend upon prior calculations in the chain must be executed in order. However, most algorithms do not consist of just a long there are usually in calculations chain of dependent opportunities parallel.",
+    "chunk_index": 20,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "ce67bd7a-6b1a-44c8-b3af-a1f8f296d33e",
+    "text": "in Parallel programming languages Concurrent programming languages, libraries, APIs, and parallel programming models (such as Algorithmic Skeletons) have been created for programming parallel computers. These can generally be divided into classes based on the assumptions they make about the underlying memory architecture—shared memory, distributed memory, or shared distributed memory. Shared memory programming languages communicate by manipulating shared memory variables. Distributed memory uses message passing. POSIX Threads and OpenMP are two of most widely used shared memory APIs, whereas Message Passing Interface (MPI) is the most widely used message-passing system API. Cont.,",
+    "chunk_index": 21,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "69783f6f-83ef-482f-a84a-9c30f5cdd63f",
+    "text": "An application programming interface (API) is a protocol intended to be used as an interface by software components to communicate with each other. An API is a library that may include specification for routines, data structures, object classes, and variables. An API specification can take many forms, including an International Standard such as POSIX, vendor documentation such as the Microsoft Windows API, the libraries of a programming language, e.g., Standard Template Library in C++ or Java API.",
+    "chunk_index": 22,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "23476a70-f07b-4ba4-a3c7-2e30c7346a6a",
+    "text": "Automatic parallelization Automatic parallelization of a sequential program by a compiler is the holy grail of parallel computing. Despite decades of work by compiler researchers, automatic parallelization has had only limited success. Mainstream parallel programming languages remain either explicitly parallel or (at best) partially implicit, in which a programmer gives the compiler directives for parallelization. A few fully implicit parallel programming languages exist—SISAL,",
+    "chunk_index": 23,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "2971a565-460a-48c0-b6d6-15d484326b92",
+    "text": "Parallel Haskell, and (for FPGAs) System C, VHDL, and Verilog. Sisal (Streams and Iteration in a Single Assignment Language) is one of the true pioneers of high-level parallel programming. Race conditions Race conditions arise in software when separate computer processes or threads of execution depend on some shared state. Operations upon shared states are critical sections that must be mutually exclusive. This protected section is the critical section or critical region. It cannot be executed by more than one process at a time. Failure to obey this rule opens up the possibility of corrupting the shared state. It is therefore better to avoid race conditions by careful software design rather than attempting to ﬁx them afterwards.",
+    "chunk_index": 24,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "731b1552-8523-4f7e-9ccd-0694ed22a216",
+    "text": "Example Thread A 1A: Read variable V 2A: Add 1 to variable V 3A Write back to variable V Thread B 1B: Read variable V 2B: Add 1 to variable V",
+    "chunk_index": 25,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "fba9da14-ad65-4f45-ae6c-0f4f89581c3b",
+    "text": "3B: Write back to variable V Cont., If instruction 1B is executed between 1A and 3A, or if instruction 1A is executed between 1B and 3B, the program will produce incorrect data. This is known as a race condition. The programmer must use a lock to provide mutual exclusion. A lock is a programming language construct that allows one thread to take control of a variable and prevent other threads from reading or writing it, until that variable is unlocked. The thread holding the lock is free to execute its critical section (the section of a program that requires exclusive access to some variable), and to unlock the data when it is finished. Therefore, to guarantee correct program execution, the above program can be rewritten to use locks:",
+    "chunk_index": 26,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "42837418-af72-4119-9815-b76235251502",
+    "text": "Thread A 1A: Lock variable V 2A: Read variable V 3A: Add 1 to variable V 4A Write back to variable V 5A: Unlock variable V Thread B 1B: Lock variable V 2B: Read variable V 3B: Add 1 to variable V 4B: Write back to variable V 5B: Unlock variable V Cont., Where, One thread will successfully lock variable V, while the other thread will be locked out—unable to proceed until V is unlocked again. This guarantees correct execution of the program. Locks, while necessary to ensure correct program execution, can greatly slow a program.",
+    "chunk_index": 27,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "c3117a67-2c96-46c5-b2c8-091ce28b8292",
+    "text": "CONCLUSION In processor design, there are several ways to improve the performance of the CPU: one is superscalar technique which tries to increase Instruction Level Parallelism (ILP), the other multithreading approach exploiting Thread Level Parallelism (TLP). Superscalar means executing multiple instructions at the same time while chip-level multithreading (CMT) executes instructions from",
+    "chunk_index": 28,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  },
+  {
+    "id": "185f4909-3298-4e8f-bf3c-030c7125f03d",
+    "text": "multiple threads within one processor chip at the same time. is",
+    "chunk_index": 29,
+    "source_file": "4th_Computer_architecture_lecture_11"
+  }
+]

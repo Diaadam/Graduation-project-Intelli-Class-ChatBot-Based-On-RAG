@@ -1,0 +1,1706 @@
+[
+  {
+    "type": "Title",
+    "element_id": "0548b0470f72bf517fb146c029579e92",
+    "text": "LEC 4 Hybrid Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            258.448822,
+            215.02663
+          ],
+          [
+            258.448822,
+            322.97345
+          ],
+          [
+            462.08944692000006,
+            322.97345
+          ],
+          [
+            462.08944692000006,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c037eec686638df7612b2b740ad58c5c",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "74779a0af41025f9594e9e2467b40c0c",
+    "text": "Cyber-physical systems integrate physical dynamics and computational systems, so they commonly combine both discrete and continuous dynamics.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            652.9668215141677,
+            238.3484168
+          ],
+          [
+            652.9668215141677,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 2,
+      "parent_id": "c037eec686638df7612b2b740ad58c5c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3e46c252a69f4b3269df22222fa01636",
+    "text": "In this chapter, we show that the modeling techniques of Chapters 2 and 3 can be combined, yielding what are known as hybrid systems.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            634.2363522297766,
+            338.84841324
+          ],
+          [
+            634.2363522297766,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 2,
+      "parent_id": "c037eec686638df7612b2b740ad58c5c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4ddfaa7099201da4d4e82bdc6fd0dfd4",
+    "text": "Hybrid system models are often much simpler and more understandable.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843484
+          ],
+          [
+            644.7066522665195,
+            409.34843484
+          ],
+          [
+            644.7066522665195,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 2,
+      "parent_id": "c037eec686638df7612b2b740ad58c5c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a706d18373f2eee4c280745fede4c1ef",
+    "text": "They are a powerful tool for understanding real- world systems.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            420.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84843484
+          ],
+          [
+            619.8158230129552,
+            479.84843484
+          ],
+          [
+            619.8158230129552,
+            420.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 2,
+      "parent_id": "c037eec686638df7612b2b740ad58c5c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b7ce95f4d41b85458d2769aeb7eda96",
+    "text": "Modal Models",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            320.93905142,
+            106.56259899999998
+          ],
+          [
+            320.93905142,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b1fd852505a7254881e735b2714d3d5f",
+    "text": "In this section, we show that state machines can be generalized to admit continuous inputs and outputs and to combine discrete and continuous dynamics.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            625.0535663286719,
+            268.34841919999997
+          ],
+          [
+            625.0535663286719,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 3,
+      "parent_id": "2b7ce95f4d41b85458d2769aeb7eda96",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "489b5edc9af7a3eef5ccee7709b5b352",
+    "text": "A hybrid system is sometimes called a modal model because it has a finite number of modes, one for each state of the FSM.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            368.84844324
+          ],
+          [
+            615.1070410232247,
+            368.84844324
+          ],
+          [
+            615.1070410232247,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 3,
+      "parent_id": "2b7ce95f4d41b85458d2769aeb7eda96",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3258267b0aaae8258cfc0ef99f494476",
+    "text": "The states of the FSM may be referred to as modes rather than states",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            380.28202895734375
+          ],
+          [
+            46.38302830504534,
+            439.34843484
+          ],
+          [
+            651.5675761064737,
+            439.34843484
+          ],
+          [
+            651.5675761064737,
+            380.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 3,
+      "parent_id": "2b7ce95f4d41b85458d2769aeb7eda96",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "38d63a286f7da98b1d997916272a9257",
+    "text": "Actor Model for State Machines",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            637.0328040200001,
+            106.56259899999998
+          ],
+          [
+            637.0328040200001,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "297255c935b3c591ef271783ef45561a",
+    "text": "It is natural to think of a state machine as an actor, as illustrated in Figure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            646.0262230048197,
+            208.34841339999997
+          ],
+          [
+            646.0262230048197,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 4,
+      "parent_id": "38d63a286f7da98b1d997916272a9257",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5d3e3ffcc9141846a27142bbe2555dd8",
+    "text": "What About Continuous Inputs?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            642.46639554,
+            106.56259899999998
+          ],
+          [
+            642.46639554,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b9aab2072f87179677c6dc7442af0240",
+    "text": "We have so far assumed that state machines operate in a sequence of discrete reactions. \u2022 We have assumed that inputs and outputs are absent between reactions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            597.0922237384941,
+            278.84842484
+          ],
+          [
+            597.0922237384941,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 5,
+      "parent_id": "5d3e3ffcc9141846a27142bbe2555dd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ccf3d9cadf3209d3871ef123644d27b2",
+    "text": "We will now generalize this to allow inputs and outputs to be continuous-time signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            349.34843484
+          ],
+          [
+            612.844581833416,
+            349.34843484
+          ],
+          [
+            612.844581833416,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 5,
+      "parent_id": "5d3e3ffcc9141846a27142bbe2555dd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "501173424001e6c1a02d8a9312377d2c",
+    "text": "In order to get state machine models to coexist with time-based models, we need to interpret state transitions to occur on the same timeline used for the time-based portion of the system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            360.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84844164000003
+          ],
+          [
+            607.9123347988848,
+            479.84844164000003
+          ],
+          [
+            607.9123347988848,
+            360.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 5,
+      "parent_id": "5d3e3ffcc9141846a27142bbe2555dd8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "606f5fde43fd0576f62740645b3b9b73",
+    "text": "Example 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "14974f81f9901c71af4d16a535ea57d8",
+    "text": "Consider a thermostat modeled as a state machine with states = {heating; cooling}, shown in Figure.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            650.9990143499382,
+            208.34841339999997
+          ],
+          [
+            650.9990143499382,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 6,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "26e771395720879dfa64be295f781fd3",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 7,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "67fad0dd6d35daa8b28121a3456acd6f",
+    "text": "The input is a continuous-time signal \u01ac : R (cid:0) R where \u01ac(t) represents the temperature at time t. \u2022 The initial state is cooling, and the transition out of this state is enabled at the earliest time t after the start time when \u01ac(t) \u2264 18.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            308.84841324
+          ],
+          [
+            628.1768823956735,
+            308.84841324
+          ],
+          [
+            628.1768823956735,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 7,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "510c42d61c28eb51991ef9379c665e23",
+    "text": "In this example, we assume the outputs are pure signals {heatOn and heatOff}.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843484
+          ],
+          [
+            627.5889924893994,
+            379.34843484
+          ],
+          [
+            627.5889924893994,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 7,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b742864b3cd1a57fe03fddf12353a8dd",
+    "text": "What About Continuous Outputs? \u2022 In the above example, the outputs are present only",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            38.93759899999998
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            655.2778401886774,
+            178.34842500000002
+          ],
+          [
+            655.2778401886774,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 8,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "84c235f61dd22a4cd321af54b96583bc",
+    "text": "at the times the transitions are taken. \u2022 We can also generalize FSMs to support",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            180.34841228
+          ],
+          [
+            46.38302830504534,
+            248.84841644
+          ],
+          [
+            523.8331286081303,
+            248.84841644
+          ],
+          [
+            523.8331286081303,
+            180.34841228
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 8,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "502814b56ada185551bf8a95a7de1de2",
+    "text": "continuous-time outputs, but to do this, we need the notion of state refinements.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            250.84842372000003
+          ],
+          [
+            74.69881504,
+            308.84841324
+          ],
+          [
+            633.090272298416,
+            308.84841324
+          ],
+          [
+            633.090272298416,
+            250.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 8,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "31fdc960479fd528908de75e045ae3ff",
+    "text": "A hybrid system associates with each state of an FSM a dynamic behavior, called \u201cstate refinements\u201d that gives the dynamic behavior of the output as a function of the input and (possibly) additional continuous state variables.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            469.34845004
+          ],
+          [
+            652.5425296475404,
+            469.34845004
+          ],
+          [
+            652.5425296475404,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 8,
+      "parent_id": "606f5fde43fd0576f62740645b3b9b73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+    "text": "Example 2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dfb648e3f9f1026038e25561b13ae6d2",
+    "text": "Suppose that instead of discrete outputs as in Example 1 we wish to produce a control signal whose value is 1 when the heat is on and 0 when the heat is off.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            630.4841290355496,
+            268.34841919999997
+          ],
+          [
+            630.4841290355496,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 9,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "99237f1da42819c21c66a2113a48d463",
+    "text": "Such a control signal could directly drive a heater. \u2022 Each state has a refinement that gives the value of the output h while the state machine is in that state.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34844324
+          ],
+          [
+            645.4576617310425,
+            409.34844324
+          ],
+          [
+            645.4576617310425,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 9,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dc026a1d1503fa148da79c9ad8db7809",
+    "text": "Classes of Hybrid Systems: 1- Timed Automata \u2022 Most cyber-physical systems require measuring the passage of time and performing actions at specific times.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            38.93759899999998
+          ],
+          [
+            47.07881835847694,
+            223.57342853750004
+          ],
+          [
+            611.9321702745692,
+            223.57342853750004
+          ],
+          [
+            611.9321702745692,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 12,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "842484b90fe2a249e453951fee9d21ac",
+    "text": "A device that measures the passage of time, a clock, has a particularly simple dynamics: its state progresses linearly in time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            231.18699938499606
+          ],
+          [
+            47.07881835847694,
+            307.57341937999996
+          ],
+          [
+            647.8501294707313,
+            307.57341937999996
+          ],
+          [
+            647.8501294707313,
+            231.18699938499606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 12,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "56a6b3d3ab0bba2011c3b829648aa854",
+    "text": "Timed automata are the simplest non-trivial hybrid systems.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            315.1869993849961
+          ],
+          [
+            47.07881835847694,
+            366.8234120875
+          ],
+          [
+            608.9407917074626,
+            366.8234120875
+          ],
+          [
+            608.9407917074626,
+            315.1869993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 12,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7262bb98388b781c754ae931483b2cb9",
+    "text": "They are modal models where the time-based refinements have very simple dynamics; all they do is measure the passage of time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            374.4369993849961
+          ],
+          [
+            47.07881835847694,
+            450.82339938
+          ],
+          [
+            633.6782852466988,
+            450.82339938
+          ],
+          [
+            633.6782852466988,
+            374.4369993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 12,
+      "parent_id": "5373e3bb4113bddb4bb6825f9514ca8b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6667464102be73bca94735e886e47240",
+    "text": "Clock Model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            54.43480299999999
+          ],
+          [
+            56.698818,
+            98.43480299999999
+          ],
+          [
+            277.63241236,
+            98.43480299999999
+          ],
+          [
+            277.63241236,
+            54.43480299999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e20c2f0a0c12eb126b84e8a219565efc",
+    "text": "A clock is modeled by a first-order differential equation,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            13.056966305045345,
+            122.40154751734377
+          ],
+          [
+            13.056966305045345,
+            151.46795500000002
+          ],
+          [
+            672.5018925968885,
+            151.46795500000002
+          ],
+          [
+            672.5018925968885,
+            122.40154751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 13,
+      "parent_id": "6667464102be73bca94735e886e47240",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "66587bce2267e302f9fe751f639f0c3d",
+    "text": "Example 3",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "47b2d8c313e64a5c1585c45800105457",
+    "text": "Recall the thermostat of Example 1, which uses hysteresis to prevent chattering.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            608.9716693267756,
+            208.34841339999997
+          ],
+          [
+            608.9716693267756,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 14,
+      "parent_id": "66587bce2267e302f9fe751f639f0c3d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fa2d25ceaad33cd1228bf53a9c82cbe3",
+    "text": "An alternative implementation that would also prevent chattering would use a single temperature threshold, but instead would require that the heater remain on or off for at least a minimum amount of time, regardless of the temperature.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            368.84841004
+          ],
+          [
+            649.1094669088391,
+            368.84841004
+          ],
+          [
+            649.1094669088391,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 14,
+      "parent_id": "66587bce2267e302f9fe751f639f0c3d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "345863952ec7c7b683be5782cd45274e",
+    "text": "This can be modeled as a timed automaton.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            380.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843644
+          ],
+          [
+            570.9110535271094,
+            409.34843644
+          ],
+          [
+            570.9110535271094,
+            380.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 14,
+      "parent_id": "66587bce2267e302f9fe751f639f0c3d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "49fa209be9f584129af28dc0d7db77bc",
+    "text": "Example 4",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5f00a5f2d097cfe0c8d21ccd5877bb78",
+    "text": "A timed automaton produces a pure output that will be present every T time units, starting at the time when the system begins executing.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            624.4472893430415,
+            238.3484168
+          ],
+          [
+            624.4472893430415,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 16,
+      "parent_id": "49fa209be9f584129af28dc0d7db77bc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f900a27520ecfb887ba9ade7949d127b",
+    "text": "Example 5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            106.56259899999998
+          ],
+          [
+            239.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0178ee08a83b9bf4ff28fc8d27414dd0",
+    "text": "The traffic light controller is a time triggered machine that assumes it reacts once each second.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            641.3485561515059,
+            208.34841339999997
+          ],
+          [
+            641.3485561515059,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 17,
+      "parent_id": "f900a27520ecfb887ba9ade7949d127b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d88c41953052f89c0d278bc5015015e7",
+    "text": "Sheet 4",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            189.99959936000002,
+            106.56259899999998
+          ],
+          [
+            189.99959936000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "34c5eae0c8b1aca2b5e68553776eaa0c",
+    "text": "Exercises: 2, 4, 6, and 9.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            345.41871305275197,
+            178.34842500000002
+          ],
+          [
+            345.41871305275197,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "Lec 4.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-04-13T13:58:32",
+      "page_number": 19,
+      "parent_id": "d88c41953052f89c0d278bc5015015e7",
+      "filetype": "application/pdf"
+    }
+  }
+]

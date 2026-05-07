@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6ce101ae-450c-48ee-8fa5-99a4dc53de97",
+    "text": "Object Oriented Programming (OOP) Dr. Abdurrahman A. Nasr Al-Azhar University Lecture 4 Encapsulation, composition and overloading Objectives Learn about inheritance Learn about subclasses and superclasses Explore how to override the methods of a superclass Examine how constructors of superclasses and subclasses work Learn about polymorphism Examine abstract classes Become familiar with interfaces Learn about composition 3 | THE THREE PRINCIPLES OF OOP • ENCAPSULATION: • OBJECTS HIDE THEIR FUNCTIONS (METHODS) AND DATA (INSTANCE VARIABLES) Super class • INHERITANCE car • EACH SUBCLASS INHERITS ALL VARIABLES OF ITS SUPERCLASS auto- manual Subclasses matic • POLYMORPHISM draw() draw() • INTERFACE SAME DESPITE DIFFERENT DATA TYPES",
+    "chunk_index": 0,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "0ebd5b5d-8d43-4f5e-8c08-6f73d2738033",
+    "text": "ENCAPSULATION (DATA HIDING): you can combine data and operations on that data in a single unit Operations can (directly) access the data, but the internal state of an object cannot be manipulated directly. 5 Class Instance variables & Method Instance variable: local variables accessed anywhere within the class Method local variable: public Class Computer{ accessed from method private int storage, used; only public boolean canStore (int fileSize){ int freeSpace= storage - used; if ( freeSpace >= fileSize) return true; else return false; } public void storeFile(int fileSize) { if( canStore(fileSize)) used += fileSize; ? else System.out.printlin(“Out of memory”); } }",
+    "chunk_index": 1,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "e09e6310-c2cc-4586-9016-eceece75d75e",
+    "text": "Method Overloading • Multiple methods share the same method name, but each of them have a different parameters set (different method signature) Examples: int method() int method(int a) String method(int a, String b) void method(int a, int b) void method(String a, int b) String method(String a, int b) // are this correct? - java println: System.out.println(5); System.out.println(2.5); System.out.println(“Hi All”); Method Overloading Rectangle.java class Rectangle{ public float l; w; } Square.java class Square{ public float l; } Circle.java class Circle{ public float radius; }",
+    "chunk_index": 2,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "6680d588-8aeb-4e04-b023-4bd7641dc04e",
+    "text": "= =’/ Method Overloading class TestShape{ I TestShape.java TestShape.java public static void main(String arg[]){ Rectangle r1= new Rectangle(); r1.l=2; r1.w=3; Square s1= new Square(); s1.l=5; Circle c1= new Circle(); c1. radius =5; System.out.prinln(“Recarea:” + getArea(r1)); System.out.prinln(“Square area:” + getArea (s1)); System.out.prinln(“Circle area:” + getArea (c1)); public static float getArea (Rectangle r) { float a = r.l * r.w; return a; } public static float getArea (Square x) { float a = x.l * x.l; return a; } public static float getArea (Circle c) { float a = c.radious * c.radius * 3.14; return a; } } ~ / Constructor Overloading •Like methods, constructors can be overloaded •This offers greater flexibility and convenience of creating objects",
+    "chunk_index": 3,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "9b97831a-5254-4a79-a9a7-7273affc1929",
+    "text": "Constructor Overloading public Class TestDate { d1 pubic static void main(String arg[]){ day= Date d1= new Date(); month= Date d2= new Date(12,5,2008); year= Date d3 = new Date(d1); Date d4 = d3; d2 System.out.println(d1); day= month= System.out.println(d2); year= System.out.println(d3); } d3 } day= month= year= Constructor Overloading public class Date { d1 public int day, month, year; Date (){ day= day = 1; month= month= 1; year= year= 2013; } Date (int d, int m, int y){ d2 day = d; month= m; day= month= year= y year= } Date (Date a){ day = a.day; d3 month= a.month; year= a.year; day= } month= } year=",
+    "chunk_index": 4,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "7a24791c-c18d-4849-95c3-b9ddbc860260",
+    "text": "INHERITANCE You can create new classes from an existing classes. • subclass (Circle) can extend base class (Shape). • subclass (Car) can extend base class (vehicle). The new created class is called a subclass /derived class; The original class is called super-class or base-class. The sub-class inherits all attributes and methods of the base-class. Reuse the code and save the programmer time. Inheritance (‘‘is-a’’ relationship) Composition (aggregation) (‘‘has-a’’ relationship) Many common features Best class design to avoid redundancy? 13",
+    "chunk_index": 5,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "a9be400d-9a29-42eb-9780-b8c32aa8a2d0",
+    "text": "COMPOSITION (HAS-A RELATIONSHIP) • EMPLOYEE HAS DATE OF BIRTH • RECTANGLE HAS POINT Point Rectangle -x: int -y:int -width: int has a +count:int -hieght:int - origin: Point +Point(:int, :int) +getX():int + Rectangle(:int, :int, : Point) +getY() :int +setX(:int) +setY(:int) +move(:int,:int)",
+    "chunk_index": 6,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "a2f4b015-6e62-4e8e-8438-5601547eb011",
+    "text": "4 _RETANLE PUBLIC CLASS POINT { RECTANGLE HAS-A POINT // SAME AS POINT CLASS WHICH CONTAIN X,Y PUBLIC CLASS RECTANGLE { PRIVATE INT WIDTH = 0; PRIVATE INT HEIGHT = 0; PRIVATE POINT ORIGIN = NEW POINT(); PUBLIC RECTANGLE(INT W, INT H, POINT P){ WIDTH =W; HEIGHT=H; ORIGIN = P; } } A Paint Object X—| 0 y—»| 0 ARectangle Object APoint Object width — X—»| 0 height — & y—»| 0 origin PUBLIC CLASS TEST { PUBLIC STATIC VOID MAIN(STRING ARG[]){ POINT P1 = NEW POINT (2,2); RECTANGLE REC1 = NEW RECTANGLE (2,3,P1); RECTANGLE REC2 = NEW RECTANGLE (5,6,P1); POINT P2 = NEW POINT (0,0); RECTANGLE REC3 = NEW RECTANGLE (1,4,P2); } } )",
+    "chunk_index": 7,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "900e5387-7218-43d0-b078-907d4fbf7a3e",
+    "text": "4 WHAT DIFFERENCE IN RECTANGLE? PUBLIC CLASS POINT { // SAME AS POINT CLASS WHICH CONTAIN X,Y PUBLIC CLASS RECTANGLE { PRIVATE INT WIDTH = 0; PRIVATE INT HEIGHT = 0; PRIVATE POINT ORIGIN = NEW POINT(); PUBLIC RECTANGLE(INT W, INT H, POINT P){ WIDTH =W; HEIGHT=H; ORIGIN.SETX(P.GETX(); ORIGIN.SETY(P.GETY(); } } A Paint Object X—| 0 y—»| 0 ARectangle Object APoint Object width — X—»| 0 height — & y—»|0 origin PUBLIC CLASS TEST { PUBLIC STATIC VOID MAIN(STRING ARG[]){ POINT P1 = NEW POINT (2,2); RECTANGLE REC1 = NEW RECTANGLE (2,3,P1); RECTANGLE REC2 = NEW RECTANGLE (5,6,P1); POINT P2 = NEW POINT (0,0); RECTANGLE REC3 = NEW RECTANGLE (1,4,P2); } } )",
+    "chunk_index": 8,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "c1c774a3-0805-47e0-9619-024e19eb4445",
+    "text": "INTERFACE The Fundamental means of communications between objects. Each class design specifies the proper interface for its operations (how users of the class interact with the class). Each operation is invoked by a message sent using one of its interfaces. 17 \\ / INTERFACE 18 N & = STATIC FIELD OF THE CLASS • HOW YOU CAN KNOW NO. OF OBJECT CREATED FROM THE CLASS? EXAMPLE: - HOW MANY POINTS OBJECT CREATED FROM THE CLASS POINT? - WE REQUIRES A VARIABLE ASSOCIATED WITH CLASS NOT OBJECTS Point p1 = new Point (2,4); Point p2 = new Point (3,5); Point Class Point p3 = new Point (8,1); count=4 Point p4 = new Point (1,1); point1 point2 point3 point1 x=2, y=4 x=3, y=5 x=8, y=1 x=1, y=1",
+    "chunk_index": 9,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "1682d825-1530-4620-908c-b78d5c5b2a4d",
+    "text": "STATIC FIELD EXAMPLE public class Point { public static int count=0; private int x, int y; Point Class public Point() { int count =0 count ++; } } - Static variable defined inside class using static keyword - Can be initialized STATIC FIELD EXAMPLE public class TestPoint { public static void main (String arg[]){ Point p1,p2,p3, p4; p1= new Point(); p2= new Point(); System.out.println(“No. of points created=”+ Point.count); System.out.println(“No. of points created=”+ p2.count); } Point Class Count= point1 point2 x=0, y=0 x=0, y=0",
+    "chunk_index": 10,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "ddacc156-a615-438c-9504-63b325df2000",
+    "text": "STATIC VARIABLES AND METHODS Static variables are shared by all the instances of the class. To declare static variables, and methods, use the static modifier. Static methods are not tied to a specific object. Constants variables is static with final keyword which shared by all the instances of the class. Preferred to access static variable through static method 22 STATIC FIELD EXAMPLE public class Point { private static int count=0; private static final int max=100; private int x, int y; getCount() public Point() { Point Class count ++; Count= } public static int getCount(){ return count; } } point1 point2 x=0, y=0 x=0, y=0",
+    "chunk_index": 11,
+    "source_file": "2nd_OOP_lec4"
+  },
+  {
+    "id": "96c2a346-bfb3-4ae9-bf59-570b4257d1ff",
+    "text": "Class Variable What is the difference between member(instant) variable & class variable (static)? Instant Variable Class Variable Declaration Inside class Inside class with static keyword int x, int y; int static count; Access Using object Using object or Class p1.x; p1. count; Point. count; Effected in each Change Value Effected for all class instances object Initialized in the class Memory Separate location for Shared location for all class objects allocation each object & the class can we use a class variable without existing of any object? N",
+    "chunk_index": 12,
+    "source_file": "2nd_OOP_lec4"
+  }
+]

@@ -1,0 +1,158 @@
+[
+  {
+    "id": "93ed0353-7187-438d-8eaa-eb4c28107447",
+    "text": "Lecture 6 Register Transfers Background The term register is applied to a set of flip-flops, possibly with added combinational gates, that perform data-processing tasks. Since each flip-flop is capable of storing one bit of information, an n-bit register, composed of n flip-flops, is capable of storing n bits of binary information. The flip-flops hold data, and the gates determine the new or transformed data to be transferred into the flip-flops.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "0299e68d-817a-48ab-ae9c-9eb93168adfb",
+    "text": "Cont., A counter is a register that goes through a predetermined sequence of states upon the application of clock pulses. The gates in the counter are connected in a way that produces the prescribed sequence of binary states. Although counters are a special type of registers, it is common to differentiate them from registers. Registers and counters are sequential functional blocks that are used extensively in the design of digital systems in general and in digital computers in particular.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "36fefec3-af9c-49c0-b0bb-1069788dbf6e",
+    "text": "SR Latch The SR latch is a circuit constructed from two cross-coupled NOR gates. SR latch with a control input The operation of the basic NOR and NAND latches can be modified by providing an additional control input that determines when the state of the latch can be changed. The control input C acts as an enable signal for the other two inputs.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "970e88ac-7b52-4943-a3fb-8642c217a084",
+    "text": "D Latch One way to eliminate the undesirable undefined state in the SR latch is to ensure that inputs S and R are never equal to 1 at the same time. FLIP-FLOPS Flip-flop circuits are constructed in such a way as to make them operate properly when they are part of a sequential circuit that employs a single clock. The key to the proper operation of flip-flops is to prevent them from being transparent. There are two ways that latches are combined to form a flip-flop.",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "84526c13-37f9-4fb0-b679-dcd826f76f60",
+    "text": "Master–Slave Flip-Flops The master–slave SR flip-flop, consisting of two latches and an inverter. Cont., When the clock input C is 0, the output of the inverter is 1. The slave latch is then enabled, and its output Q is equal to the master output Y. When a logic-1 clock pulse is applied ( C = 1), the values on S and R control the value stored in the master latch Y. The slave, however, is disabled as long as the pulse remains at the 1 level, because its C input is equal to 0. Any changes in the external S and R inputs change the master output Y, but cannot affect the slave output Q.",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "89bfd040-db56-4c5f-bb1f-e1aa9e1c1b17",
+    "text": "Edge-Triggered Flip-Flop An edge-triggered flip-flop ignores the pulse while it is at a constant level and triggers only during a transition of the clock signal. Some edge-triggered flip-flops trigger on the positive edge (0-to-1 transition), whereas others trigger on the negative edge (1-to- 0 transition).",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "efc22517-aaab-43c5-ae73-9f7323772101",
+    "text": "SEQUENTIAL CIRCUIT DESIGN The outputs and the next state are a function of the inputs and the present state. The logic diagram of a sequential circuit consists of flip-flops and, usually, combinational gates. The part of the combinational circuit that generates the signals for the inputs of flip-flops can be described by a set of Boolean functions called flip-flop input equations.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "08232afc-9b35-429b-9276-05a8be660445",
+    "text": "Design Procedure Specification: Write a specification for the circuit, if not already available. Formulation: Obtain either a state diagram or a state table from the statement of the problem. State Assignment: If only a state diagram is available from step 2, obtain the state table by assigning binary codes to the states. Flip-Flop Input Equation Determination: Select the flip-flop type or types. Derive the flip-flop input equations from the next-state entries in the encoded state table.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "75eb28bc-2ef5-4616-9a67-ff8615c95ecc",
+    "text": "Cont., Output Equation Determination: Derive output equations from the output entries in the state table. Optimization: Optimize the flip-flop input and output equations. Technology Mapping: Draw a logic diagram of the circuit. Verification: Verify the correctness of the final design. Example Finding a State Diagram for a Sequence Recognizer This “sequence recognizer” has one input X and one output Z. The circuit is to recognize the occurrence of the sequence of bits 1101 on X by making Z equal to 1 when the previous three inputs to the circuit were 110 and current input is a 1.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "00e469f5-184c-4f5f-a24e-bbede53725d7",
+    "text": "Otherwise, Z equals 0. At x =0, when A changed to 1 in the next state, also at x =1. Register with Parallel Load Registers are useful for storing and manipulating information. The transfer of new information into a register is referred to as loading the register. If all the bits of the register are loaded simultaneously with a common clock pulse, we say that the loading is done in parallel.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "513529f4-11d7-448b-8e8c-7306ac29c550",
+    "text": "Digital System A digital system is a sequential circuit made up of interconnected flip-flops and gates. Sequential circuits can be specified by means of state tables. To specify a large digital system with state tables is very difficult, if not impossible, because the number of states is prohibitively large. To overcome this difficulty, digital systems are designed using a modular, hierarchical approach.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "ec1511a6-c746-42ba-8f81-b7c21dad2c5e",
+    "text": "Cont., In most digital system designs, we partition the system into two types of modules: a datapath, which performs data-processing operations, and a control unit, which determines the sequence of those operations. Cont., Datapaths are defined by their registers and the operations performed on binary data stored in the registers. Examples of register operations are load, clear, shift, and count. The registers are assumed to be basic components of the digital system",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "bf1621f4-95dd-4076-8975-d96dc2f79afd",
+    "text": "Register Transfer Operations The movement of the data stored in registers and the processing performed on the data are referred to as register transfer operations. The register transfer operations of digital systems are specified by the following three basic components: 1. The set of registers in the system, 2. The operations that are performed on the data stored in the registers, and 3. The control that supervises the sequence of operations in the system.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "8d58a9e4-bae3-4dff-bb50-bf2393bf8eb7",
+    "text": "Microoperation An elementary operation performed on data stored in registers is called a microoperation. A microoperation is usually, but not always, performed in parallel on a vector of bits during one clock cycle. Examples of microoperations are: loading the contents of one register into another, adding the contents of two registers, and incrementing the contents of a register.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "db6850f7-6170-487b-8dfd-e596967273d4",
+    "text": "Cont., The microoperations most often encountered in digital systems are of four types: 1. Transfer microoperations, which transfer binary data from one register to another. 2. Arithmetic microoperations, which perform arithmetic on data in registers. 3. Logic microoperations, which perform bit manipulation on data in registers. 4. Shift microoperations, which shift data in registers.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "ad379584-bd9e-44c3-908e-1328946e73b3",
+    "text": "Register Transfer Language (RTL) RTL represent registers and specify the operations on their contents. The register transfer language uses a set of expressions and statements that resemble statements used in HDLs and programming languages. We denote the registers in a digital system by uppercase letters.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "bc4a8cbe-dce1-4337-bed0-cfdb2b17d471",
+    "text": "RTL Basic Symbols Cont., Conditional statement A conditional statement, symbolized by the if-then form: if (K1 = 1) then (R2 ← R1) where K1 is a control signal generated in the control unit. A more concise way of writing the If -Then is: K1: R2 ← R1 The HW implementation is shown in the following slide.",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "a70529bf-8b4b-4124-8ac1-f984cb314d03",
+    "text": "Cont., Arithmetic Microoperations The basic arithmetic microoperations such as add, subtract, increment, decrement, and complement. For example, To implement the following statement with hardware, we need three registers and a combinational component that performs the addition, such as a parallel adder. R0 ← R1 + R2",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "938b8fd1-72a0-48a4-957a-f756ae01ab5d",
+    "text": "Cont., Example Cont., Logic Microoperations Logic microoperations are useful in manipulating the bits stored in a register. These operations consider each bit in the register separately and treat it as a binary variable. Example Let the following RTL statement: (K1 +K2): R1 ← R2+R3, R4 ← R5 V R6 Note: (K1 +K2) , the operation is logical OR. R2+R3, the operation is ADD. R5 V R6, the operation is BitwiseOR.",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "8ded0077-4ae9-4b85-9f76-58fffe6eb7cc",
+    "text": "Shift Microoperations Shift microoperations are used for lateral movement of data. The contents of a source register can be shifted either right or left. A left shift is toward the most significant bit, and a right shift is toward the least significant bit. Shift microoperations are used in the serial transfer of data, and for manipulating the contents of registers in arithmetic, logical, and control operations.",
+    "chunk_index": 19,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "c8d36750-a98b-4a17-a937-ffb64c212200",
+    "text": "Assignment 7-1 Design The Following RTL: (K1 +K2) : R1 ← R2+R3, R4 ← R5 V R6 Transfer Microoperations There are three techniques can be used to transfer data between registers: 1- Multiplexer-Based Transfer for single destination register 2- Bus-Based Transfer for Multiple Registers 3- Memory Transfer",
+    "chunk_index": 20,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "fa8695ca-c32f-4ea6-811b-fea0050526fb",
+    "text": "1- Multiplexer-Based Transfer 3.1-Multiplexer-Based Transfer Cont., K1 K2 Selection MUX Load of R0 0 0 R2 -> 0 0 0 1 R2 -> 0 1 1 0 R1 -> 1 1 1 1 R1-> 1 1 HW Implementation The HW will be as follows: 2- Bus-Based Transfer for Multiple Registers A typical digital system has many registers. Paths must be provided to transfer data from one register to another. A more efficient scheme for transferring data between registers is a system that uses a shared transfer path called a bus. A bus is characterized by a set of common lines, with each line driven by selection logic. Control signals for the logic select a single source and one or more destinations on any clock cycle for which a transfer occurs.",
+    "chunk_index": 21,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "5e94fc08-1520-49fe-80f8-6bfcca97f97c",
+    "text": "Example Implement the following RTL using Bus-based : Solution: 1- Set of input registers ={ R0, R1, R2} - we need MUX with 4 inputs , i.e., two selection inputs S0, S1. 2- Set of output registers = {R0, R1, R2} - we need three load signals L0, L1, L2. Cont., Three-State Bus A bus can be constructed with three-state buffers instead of multiplexers. The reason is that many three-state buffer outputs can be connected together to form a bit line of a bus, and this bus is implemented using only one level of logic gates. (MUX has two levels) More important, however, is the fact that signals can travel in two directions on a three-state bus. Thus, the three-state bus can use the same interconnection to carry signals into and out of a logic circuit.",
+    "chunk_index": 22,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "2ea83759-3eb2-443d-85ee-d7dbf12610e1",
+    "text": "3- Memory Transfer Read operation: DR ← M [AR] Where, an address decoder is needed to select the contents of address register AR to be loaded onto address bus. Also a data destination decoder will send the Load signal to the data register DR to load data from memory on data bus. Cont., Write operation:",
+    "chunk_index": 23,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "f1d98fb0-5e43-4652-9762-f89f22951ca1",
+    "text": "M [AR] ← DR Where, an address decoder is needed to select the contents of address register AR to be loaded onto address bus. Also a data source decoder will send an enable signal to the data register DR to transfer its contents through data bus to the memory address denoted by AR. Assignment #7-2 Show the diagram of the hardware that implements the register transfer statements:",
+    "chunk_index": 24,
+    "source_file": "4th_Computer_architecture_lec_6"
+  },
+  {
+    "id": "a8ebf126-268c-4dcd-869a-a82e4f1ab2be",
+    "text": "Assignment # 7-3 Design a memory transfer system that has three address registers, three data registers, address bus , data bidirectional bus, Decoders, and implement the following statements: DR1← M [AR2], M [AR1] ← DR2",
+    "chunk_index": 25,
+    "source_file": "4th_Computer_architecture_lec_6"
+  }
+]

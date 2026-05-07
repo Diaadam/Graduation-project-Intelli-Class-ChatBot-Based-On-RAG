@@ -1,0 +1,284 @@
+[
+  {
+    "id": "febec983-c16d-4464-aa60-d3a1da0f8622",
+    "text": "Digital Communication Systems PROF.DR. SAYED ABD ELHADY NOUH Data Transmission • Basic Model of Data communication system • Data Representation • Data Transmission 4/18/2025 2 Basic Model of Data communication system • The purpose of any type of communication is to exchange information between two entities. Data communication refers to meaningful exchange of information between two entities which can be a human operator on computer terminal and a computer program or two computer programs. • The transmitter converts the binary data into a time varying signal s(t) having characteristics suitable for the transmission medium being used. The signal s(t) presented to the transmission medium is subjected to a number of impairments before it reaches the receiver. 4/18/2025 3",
+    "chunk_index": 0,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "40f2bd21-f6ba-42f8-bfde-b1ce4f80fad8",
+    "text": "V Basic Model of Data communication system The above model of data communication is a simplistic picture of a very complex system. It high lights two important issues which we address in rest of this chapter, these are: 1. Representation of data in binary form. 2. Transmission of data in a time varying signal. 4/18/2025 4",
+    "chunk_index": 1,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "d87fa13f-2d14-4c6d-bd11-c08620d97bb0",
+    "text": "Data Representation • In data communication we deal with exchange of information represented in binary form. A binary digit, called bit, has only 0 and 1, and can represent only two symbols. However, the simplest form of communication between two terminal devices requires much larger set of symbols. For example: 1. 52 upper and lower case letters of English alphabet. 2. 10 numbers from 0 to 9. 3. Punctuation marks and other special symbols. 4. Terminal control characters, carriage return (CR), line feed (LF). 4/18/2025 5",
+    "chunk_index": 2,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "07bb5700-3371-4fc3-bd91-0f7b9ac834c0",
+    "text": "T Data Representation ASCII- American Code For Information Interchange • ASCII is defined by American National Standards Institute (ANSI). It is 7-bit code and all the possible 128 codes • The code set consists of the following symbols: 1- 96 graphic symbols (columns 2 to 7), comprising 94 printable characters, SPACE and DELETE characters, 2- 32 control symbols (columns 0 and 1). • Binary representation of a symbol is readily determined from its hexadecimal coordinates. For example coordinates of symbol K are (4, B) and therefore its binary code is 1001011. Note that bit position count starts from least significant bit (LSB) position. 4/18/2025 6",
+    "chunk_index": 3,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "ad58f911-e522-474b-9602-b6140a2098c5",
+    "text": "Data Representation ASCII- American Code For information Interchange Example: Represent the message 3P.bat in ASCII code, the parity bit position may be kept as 0. Bit position 8 7 6 5 4 3 2 1 3 0 0 1 1 0 0 1 1 P 0 1 0 1 0 0 0 0 . 0 0 1 0 1 1 1 0 b 0 1 1 0 0 0 1 0 a 0 1 1 0 0 0 0 1 t 0 1 1 1 0 1 0 0 4/18/2025 7 Data Representation ASCII- American Code For information Interchange 4/18/2025 8",
+    "chunk_index": 4,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "3b98c5ff-5480-4e76-8ce2-5dbe2877b4da",
+    "text": "Data Transmission Concepts and terminology Transmission Terminology: • Transmission medium: May be classified as guided or unguided, in both cases, communication is in the form of electromagnetic waves. Guided medium (wire medium): In this medium the waves are guided along physical path (e.g. twisted pair, coaxial cable and optical fiber). Unguided medium (wireless medium): It provides means for transmitting electromagnetic wave but not guide them (air, vacuum and sea water). • Direct link: Is used to refer to the transmission path between two devices in which signals propagate directly from transmitter to receiver with no intermediate devices other than amplifiers or repeaters. Note that the term (Direct link) can apply to both guided and unguided media. 4/18/2025 9",
+    "chunk_index": 5,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "163a43b6-6b8f-43a9-a124-180fa055a26e",
+    "text": "Data Transmission Concepts and terminology Transmission Terminology: • Point-to-point: a guided transmission medium is point to point if it provides a direct link between two devices and those are the only two devices sharing the medium. • Multi point: It is guided transmission, in which more than two devices share the same medium. • Simplex transmission: Signals are transmitted in only one direction, one station is transmitter and the other is receiver. • Half-duplex: Both stations may transmit, but only one at a time. • Full-duplex: Both stations may transmit simultaneously in this case the medium is carrying signals in both directions at the same time. 4/18/2025 10",
+    "chunk_index": 6,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "1d71d08a-638e-4685-a688-9dbd2c63dfd6",
+    "text": "Data Transmission Concepts and terminology Frequency, Spectrum, and Bandwidth: In data communication, we are concerned with electromagnetic signals used as a mean to transmit data. • Time domain concepts: signal is viewed as a function of time. Signal can be either “analogue” or” digital”. An analogue signal: is one in which the signal intensity varies in a smooth fashion over time. In other words, there are no breaks or discontinuities in the signal. A digital signal: is one in which the signal intensity maintains a constant level for some period of time and then changes to another constant level. 4/18/2025 11",
+    "chunk_index": 7,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "2eb092f7-5b06-4cce-9757-52b57ca8c9c4",
+    "text": "Data Transmission Concepts and terminology The analogue (continuous) signal might represent speech, and the digital (discrete) signal might represent binary 1s and 0s . The simplest sort of signal is \"a periodic signal\", in which the same signal pattern repeats over time. Figure 1.3 shows an example of a periodic continues signal (sine wave) and a periodic discrete signal (square wave). 4/18/2025 12",
+    "chunk_index": 8,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "237b02fb-98c6-486b-b4cb-ae416e4029df",
+    "text": "Data Transmission Concepts and terminology A general sine wave can be represented by three parameters: * Peak Amplitude: is the maximum value or strength of the signal over time, typically, this value is measured in volts. * Frequency (f): is the rate (in cycles per second, or hertz) at which the signal repeats. An equivalent parameter is the period (T) of a signal, which is the amount of time it takes for one repetition, therefore T=1/f. * Phase (φ): is a measure of the relative position in time within a single period of the signal. More formally, for a periodic signal f(t), phase is the fractional part, t/T of the period T through which t has advanced relative to an arbitrary origin. The general sine wave can be written S(t)=A sin (2πft + φ) 4/18/2025 13",
+    "chunk_index": 9,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "413a4aa8-e4a6-4df6-8b4d-5fb5c2449b99",
+    "text": "Data Transmission Concepts and terminology There is a simple relationship between the two sine waves, one represented as a function of time, and one represented as a function of space (distance). Define the \"wave length\", λ of a signal as the distance occupied by a single cycle assume that the signal is travelling with a velocity ν, then the wave length is related to the period as follow: λ = νT or ν = λ/T = λf where: ν=3*108 m/s , in space . Frequency domain concepts: it can be shown, using a discipline known as Fourier analysis, that any signal (either analog or digital) is made up of components at various frequencies, in which each component is a sinusoid. By adding together enough sinusoidal signals, each with the appropriate amplitude, frequency, and phase, any electromagnetic signal",
+    "chunk_index": 10,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "2c9ffbc9-55e8-4d5c-b46d-7d540c2090ce",
+    "text": "Data Transmission Concepts and terminology 4/18/2025 15 Data Transmission Concepts and terminology Thus, the frequency spectrum of s(t) consists of a DC component having value a0 and frequency components that are harmonics of the fundamental frequency f. Amplitude Cn and the phase θn of the nth harmonic are given 2 + bn 2 ) 1/2 , θn= - tan -1 (bn/ an) by: Cn=(an let us consider a unipolar digital signal consisting of alternating 1s an 0s, if the bit duration is tp, the resulting signal is a square wave having time period T=2tp, Figure 1.4. 4/18/2025 16",
+    "chunk_index": 11,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "7ef2514a-c89f-4a71-be40-c6dbddcfc2f3",
+    "text": "Thus, a repetitive 1 and 0 bit pattern has the fundamental frequency (f) Amplitude which is half the bit rate and odd harmonics of the fundamental frequency. Figure 1.5 shows amplitude blot of the frequency components. It appears at first glance that transmitting this signal would require a channel Frequency f 3f 5f 7f 9f with infinite bandwidth but it is to be noted that the amplitude of the Figure 1.5 Spectral Components of Repetitive 1 and 0 Bit Stream frequency components decrease as we go up in the spectrum. Therefore, a good likeness of the signal can be obtained by sufficient first few frequency components of the spectrum. 4/18/2025 17",
+    "chunk_index": 12,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "0a015dc3-2946-4fb8-8aab-0ac3056204ac",
+    "text": "Note that the above digital signal contains DC component. The transmission media does not allow DC component to pass. Therefore we use polar signals in place of unipolar signals. The spectrum of a signal is the range of frequencies that it contains. For example, suppose we have a continuous signal f(t)=4/π[sin(2πft)+1/3sin (2π3ft)]. Then the spectrum extends from f to 3f. The \"absolute bandwidth\" of a signal is the width of the spectrum. Then, the bandwidth of f (t) is (3f – f) =2f. Many signals, such as that of Figure 1.5, have infinite bandwidth. However, most of the energy in the signal is contained in a relatively narrow band of frequencies. This band is referred to as the effective bandwidth, or just bandwidth. 4/18/2025 18",
+    "chunk_index": 13,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "2a088b4e-00ea-42f7-a0cb-e839f6490ef3",
+    "text": "Relationship between data rate and bandwidth In general, any digital signal will have infinite bandwidth. If we attempt to transmit this signal over any medium, the transmission system (transmitter, medium and receiver) will limit the bandwidth that can be transmitted. Furthermore, for any given medium, the greater the bandwidth transmitted, the greater the cost, thus, on the one hand, economic and practical reasons dictate that digital information be approximated by a signal of limited bandwidth. On the other hand, limiting the bandwidth creates distortions which makes the task of interpreting the received signal more difficult. The more limited the bandwidth, the greater the distortion, and the greater the potential for error by the receiver. Thus, there is a direct relationship between",
+    "chunk_index": 14,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "23c4e1f7-603c-4abd-893a-ad295688b06a",
+    "text": "data rate and bandwidth: the greater the bandwidth of a transmission system, the higher is the data rate that can be transmitted over that system. 4/18/2025 19",
+    "chunk_index": 15,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "6d70f1fa-1fea-4666-ad85-b469ab353150",
+    "text": "Data Transmission Concepts and terminology Analogue and digital data transmission The term analogue and digital correspond roughly, to continuous and discrete, respectively. These two terms are used frequently in data communication in at least three context: data, signaling and transmission. Briefly, we define “Data” as entities that convey meaning, or information. “Signaling” is the physical propagation of the signal along a suitable medium. “Transmission” is the communication of data by the propagation and processing of signals. 4/18/2025 20",
+    "chunk_index": 16,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "ab24ba82-3867-4ccf-a951-63fbda436d3d",
+    "text": "Analogue and Digital data: Analogue data :Take on continuous values in some interval (e.g. voice, video, temperature and pressure). Digital data: Take on discrete values (e.g. text and integers). Analogue and Digital Signals: In a communications system, data ( analogue or digital ) are propagated from one point to another by means of electromagnetic signals. • An analogue signal is a continuously varying electromagnetic wave that may propagated over a variety of media, depending on spectrum • A digital signal is a sequence of voltage pulses that may be transmitted over a wire medium The principal advantages of digital signaling are that it is generally cheaper than the analogue signaling and is less susceptible to noise interference. The principal disadvantages is that digital signals",
+    "chunk_index": 17,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "913de4a0-3fbe-4b10-bea2-a4fc6ca889c4",
+    "text": "suffer more from attenuation than do analog signals. 4/18/2025 21",
+    "chunk_index": 18,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "44ec9f26-f7d2-487d-8c7d-f2315a9116a3",
+    "text": "Data Transmission Concepts and terminology Data and Signals In the foregoing discussion we have looked at analog signals used to represent analog data and digital signals used to represent digital data. Generally, analog data are a function of time and occupy a limited frequency spectrum such data can be represented by an electromagnetic signal occupying the same spectrum. Digital data can be represented by digital signals with a different voltage level for each of the two binary. 4/18/2025 22",
+    "chunk_index": 19,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "32fbcd8b-672a-4ad9-9a1c-039af399425f",
+    "text": "Digital data can also be represented by analog signals by use of a modem (modulator/demodulator). The modem converts a series of binary (two-valued) voltage pulses into an analog signal by encoding the digital data onto a carrier frequency. The resulting signal occupies a certain spectrum of frequency centered about the carrier and may propagated across a medium suitable for the carrier. The most common modems represent digital data in the voice spectrum and hence allow those data to be propagated over ordinary voice-grade telephone lines. At the other end of the line another modem demodulates the signal to recover the original data. In an operation very similar to that performed by a modem analog data can be represented by digital signals, the device that performs this action of voice",
+    "chunk_index": 20,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "cca9e977-4c34-4315-84c3-f093e9d83a16",
+    "text": "data is a codec (coder-decoder). in essence the codec takes an analog signal that directly represents the voice data and approximates that signal by a bit stream. At the receiving end the bit stream is used to reconstruct the analog data. 4/18/2025 23",
+    "chunk_index": 21,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "4eac4f65-0dcd-4089-b560-e82d464f3944",
+    "text": "Analog and Digital Transmission Analog transmission :is a means of transmitting analog signals without regard to their content, the signals may represent analog data (e.g. voice) or digital data (e.g. binary data that pass through a modem). In either case the analog signal will become weaker (attenuate) after a certain distance. To achieve longer distances the analog transmission system includes amplifiers that boost the energy in the signal. Unfortunately the amplifier also boosts the noise components. With amplifiers cascaded to achieve long distances, the signal becomes more and more distorted. For analog data such as voice, quite a bit of distortion can be tolerated and the data remain intelligible. However for digital data cascaded amplifiers will introduce errors. 4/18/2025 24",
+    "chunk_index": 22,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "8bbe5921-1645-42c2-9911-012279b1e757",
+    "text": "Digital transmission: in contrast, is concerned with the content of the signal. A digital signal can be transmitted only a limited distance before attenuation, noise, and other impairments endanger the integrity of the data. To achieve greater distances, repeaters are used. A repeater receives the digital signal, recovers the pattern of 1s and 0s and retransmits a new signal. thus the attenuation is overcome. The same technique may be used with an analog signal if it is assumed that the signal carries digital data. At appropriately spaced points, the transmission systems has repeaters rather than amplifiers. The repeaters recovers the digital data from the analog signal and generates a new clean analog signal. Thus noise is not cumulative. 4/18/2025 25",
+    "chunk_index": 23,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "c9a0d56c-040c-4b35-b05f-c2314cfe9155",
+    "text": "Advantages of digital transmission Low cost : Low cost and size reduction of digital circuitry. Data integrity: with the use of repeaters rather than amplifiers, the effects of noise and other impairments are not cumulative. Capacity utilization: It has become economical to build transmission links of very high bandwidth, including satellites channels and optical fiber. Security and privacy: Encryption techniques can be readily applied to digital data. Integration: By treating both analog and digital data digitally, all signals have the same form and can be treated similarly. Thus economics of scale and convenience can be achieved by integrating voice, video and digital data. 4/18/2025 26",
+    "chunk_index": 24,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "18b9c756-8a0c-4f0a-a777-7e4de762d575",
+    "text": "Transmission Impairments With any communications system, the received signal may differ from the signal that is transmitted due various transmission impairments. The most significant impairments are: • Attenuation and attenuation distortion, • Delay distortion, • Noise. Attenuation and attenuation distortion The strength of a signal falls off with distance over any transmission medium. Attenuation introduces three considerations for the transmission engineer. First, a received signal must have sufficient strength so that the electronic circuitry in the receiver can detect the signal. Second, the signal must maintain a level sufficiently higher than noise to be received without error. Third, attenuation is often an increasing function of frequency. The first and second problems are dealt",
+    "chunk_index": 25,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "a2f8a20a-5875-4cba-987f-8b5085fe0b7d",
+    "text": "with by attenuation to signal strength and the use of amplifiers or repeaters. The third problem is particularly noticeable for analog signals because the attenuation varies as a function of frequency, the received signal is distorted, reducing intelligibility. To overcome this problem techniques are available for equalizing attenuation a cross a band of frequencies, e.g., loading coils that is used to change the electrical properties of the transmission line, the result is to smooth out attenuation effect. Another approach is to use amplifiers that amplify high frequencies more than lower frequencies. 27 4/18/2025",
+    "chunk_index": 26,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "c1df5119-bb6e-4bd2-8860-344dd15ef274",
+    "text": "Delay distortion Delay distortion occurs because of propagation speed of a signal through a guided medium varies with the frequency. For a band limited signal the velocity tends to be highest near the center frequency and fall off towards the two edges of the band. Thus various frequency components of a signal will arrive at the receiver at different times, resulting in phase shifts between the different frequencies. This effect is referred to as delay distortion because the received signal is distorted due to varying delays experienced at its constituent frequencies. Delay distortion is particularly critical for digital data. Consider that a sequence of bits is being transmitted, using either analog or digital signals. Because of delay distortion, some of the signal components of one bit",
+    "chunk_index": 27,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "948e95ef-b9b2-41aa-be2e-8b81b4ad9047",
+    "text": "position will spill over into other bit positions, causing intersymbol interference which is a major limitation to maximum bit rate over a transmission channel. 4/18/2025 28",
+    "chunk_index": 28,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "9492e0df-89f4-4644-9211-3f7cb5034267",
+    "text": "Noise The undesired signals are referred to as noise. It is noise that is the major limiting factor in communication system performance. Noise may be divided into four categories: • Thermal noise • Intermodulation noise • Crosstalk • Impulse noise Thermal noise It is due to thermal agitation of electrons. it is present in all electronic devices and transmission media and is a function of temperature. Thermal noise is uniformly distributed across the bandwidth used in communications systems and hence is often referred to as white noise. 4/18/2025 29",
+    "chunk_index": 29,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "550cf65c-a02a-4cc4-b91d-220db018823a",
+    "text": "Intermodulation noise (non linear distortion) When signals at different frequencies share the same transmission medium, the result may be intermodulation noise. The effect of intermodulation noise is to produce signals at a frequency that is the sum or difference of the two original frequencies or multiplies of those frequencies. For example, the mixing of signals at frequencies f1 and f2 might produce energy at the frequency f1+f2. this derived signal could interfere with an intended signal at the frequency f1+f2. Intermodulation noise is produced by nonlinearities in the transmitter , receiver, and /or intervening transmission medium. Crosstalk Crosstalk has been experienced by anyone who, while using the telephone, has been able to hear another conversation; it is unwanted coupling",
+    "chunk_index": 30,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "abb47831-ccbb-4bc8-b033-03f4a2def3e6",
+    "text": "between signal paths. It can occur by electrical coupling between nearly twisted pairs or coaxial cable lines carrying multiple signals. 4/18/2025 30",
+    "chunk_index": 31,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "af55ce08-d26d-487b-8e17-08908e6fe02d",
+    "text": "Impulse noise It is non continuous, consisting of irregular pulses or noise spikes of short duration and of relatively high amplitude. It is generated from a varity of causes, including external electromagnetic disturbances, such as lighting, and faults and flaws in the communications system. Impulse noise is generally only a miner annoyance for analog data. For example voice transmission may be corrupted by short clicks and crackles with no loss of intelligibility. However, impulse noise is the primary source of error in digital data communication. For example a sharp spike of energy of .01sec duration would not destroy any voice data but would wash out about 560 bits of data being transmitted at 56 k bps. 4/18/2025 31",
+    "chunk_index": 32,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "f7c97f0a-1fbb-4e20-a4c2-03b790b79122",
+    "text": "Channel Capacity We have seen that there are a variety of impairments that distort a signal. For digital data, the question that then arises is to what extent these impairments limit the data rate that can be achieved. The maximum rate at which data can be transmitted over a given communication path, or channel, under given conditions, is referred to as the channel capacity. There are four concepts that we are trying to relate to one another: Data Rate: This is the rate at which digital data can be transmitted. Data rate is measured in the number of transmitted bits per send (bps). Bandwidth: This the bandwidth of the transmitted (digital or analog) signal, which carries digital data, as constrained by the transmitter and the nature of the transmission medium, expressed in cycles per",
+    "chunk_index": 33,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "b051ae5c-56ef-47c1-8ab3-fbe50de13586",
+    "text": "second, or hertz. Noise: This the average level of noise over the communication path. Error rate: This is the rate at which bit errors occur. 4/18/2025 32",
+    "chunk_index": 34,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "ca2caab6-ad2d-4069-8726-2b431ed05e1a",
+    "text": "The problem we are addressing is this: communication facilities are expensive and in general the grater the bandwidth of a facility, the greater the cost. Furthermore, all transmission channels of any practical interest are of limited bandwidth. The limitation arise from the physical properties of the transmission medium. For digital data this means that we would like to get as high a data rate as possible at particular limit of error rate for a given bandwidth, the main constraint on achieving this efficiency is noise. Nyquist Bandwidth Nyquist derived the limit of bit rate considering a perfectly noiseless channel. Nyquist theorem states that if B is the bandwidth of a transmission channel which carries a signal having L levels the maximum bit rate R is given by: R=2 B log2L This",
+    "chunk_index": 35,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "0e7756a9-4dce-4f85-ae39-569cc30a6d29",
+    "text": "limitation is due to the effect of intersymbol interference, such as is produced by delay distortion. If the transmitted digital signal has two levels (L=2) thus R= 2B. in other words the data rate that can be supported by B HZ is 2B bps. 4/18/2025 33",
+    "chunk_index": 36,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "6b5d9e2e-0170-48dc-a1d7-22940b86e568",
+    "text": "Example: consider a voice channel being used via modem to transmit digital data. Assume a bandwidth of 3100 HZ. Then the channel capacity (maximum transmission bit rate), of the channel is R=2B=6200 bps. It appears from Nyquist theorem that for a given limited bandwidth, the data rate can be increased by increasing the number of levels, that is each signal level can represent more than one bit. For example, if four possible voltage levels are used , then each level can represent two bits , and: R= 2Blog2 L =2Blog2 22 = 4B If B=3100 HZ, then, R=12400 bps. Noise and other impairments on the transmission line will limit the practical values of L. 4/18/2025 34",
+    "chunk_index": 37,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "6f780a71-6e33-45e5-b150-82045b2f88be",
+    "text": "Shannon Capacity formula Now consider the relationship among data rate, noise, and error rate. The presence of noise can corrupt one or more bits. If the data rate is increased, then the bits duration become \"shorter\", and more bits will occur during the interval of a noise spike and hence more errors will occurs. Since bit rate can be increased by increasing number of levels of the transmitted signal, then the presence of noise puts a limit on the number of signal levels L. All of these concepts can be tied together neatly in a formula developed by Shannon. As we have just illustrated, the higher the data rate, the more damage that unwanted noise can do. For a given level of noise, we would expect that a greater signal strength would improve the ability to receive data correctly in the",
+    "chunk_index": 38,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "54ec5c23-8417-4be5-8a7b-6ac7416d4f60",
+    "text": "presence of noise. The key parameter involved in this reasoning is the signal-to-noise ratio (SNR), which is the ratio of the power in a signal to the power contained in the noise that is present at a particular point in the transmission typically, this ratio is measured at a receiver, because it is at this point that an attempt is made to process the signal and recover the data. For convenience, this ratio is often reported in decibles: 4/18/2025 35",
+    "chunk_index": 39,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "6b768183-e550-40ce-94d3-256ed491ebc7",
+    "text": "SNR=10 log10 signal power/noise power A higher SNR will mean a high quality signal and a low number of required intermediate repeaters. The signal-to-noise ratio is important in the transmission of digital data because it sets the upper bound on the achievable data rate. Shannon result is that the maximum channel capacity R, in bits per second, obeys the equation: R=B log2 (1+SNR) Where R is the capacity of the channel in bits per second, and B is the bandwidth of the channel in hertz. The Shannon formula represents the theoretical maximum that can be achieved. In practice, however, only much lower rates are achieved. One reason for this is that the formula assume white noise (thermal noise). Impulse noise is not accounted, nor are attenuation distortion or delay distortion. The capacity",
+    "chunk_index": 40,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "e8cb8e8c-4786-46bd-8821-be0f49813cd2",
+    "text": "indicated in the preceding equation is referred to as the error –free capacity. Several other observation concerning the preceding equation may be instructive. For a given level of noise, it would appear that the data rate could be increased by increasing either signal strength or bandwidth. However, as a signal strength increases so do the effects of nonlinearities noise. Note also that, because noise is assumed to be white, the wider the bandwidth the more noise admitted to the system. Thus, as B increases, SNR decrease. 4/18/2025 36",
+    "chunk_index": 41,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "bc826224-b129-4bed-b722-3a268efe9af3",
+    "text": "Bauds: When bits are transmitted as an electrical signal having two levels, the bit rate and the modulation rate of the electrical signal are the same. Figure 1.6, modulation rate is the rate at which the electrical signal changes its level, it is expressed in bauds (per second). It is possible to associate more than one bit to one electrical level. For example, if the electrical signal has four distinct levels (quaternary signal), two bits can be associated with one level of the quaternary electrical signal, Figure 1.7. 4/18/2025 37",
+    "chunk_index": 42,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "5bd5971a-060b-44b3-a91a-cc212888893c",
+    "text": "The four voltage levels are so chosen that there is equal spacing between the levels. Note that the changes in electrical signal take place at half of the bit rate. There for, the bauds rate is half of the bit rate. If the electrical signal is allowed to have L levels, we can associate n bits ( n=log2L) with each level. There for, baud rate r is given by : r=R/n=R/log2L If we substitute the value of R from Nyquist theorem, (R=2Blog2L), we get r=2B. Thus for any band limited channel having bandwidth B by increasing number of levels we can increase the bit rate. 4/18/2025 38",
+    "chunk_index": 43,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "ca91cc6c-9136-4905-bdb3-dc06baaa630d",
+    "text": "Baseband Transmission When a digital signal is transmitted on the medium using one of the signal codes, it is called baseband transmission. In baseband transmission, DC is modulated using one of the line coding schemes. Multiple levels are used to increase the bit rate over a band limited channel. Modem Instead of baseband transmission using a DC signal for level modulation, we can use sinusoidal signal for modulation. A sinusoidal has three basic attributes, amplitude, frequency, and phase. The binary signal modulates one or more of these signals attributes. Phase modulation in particular allows large number of phase states. each phase state can be associated with several bits and bit rate can be very high even 56 kbps on a voice grade line. The sine wave carries the information is called",
+    "chunk_index": 44,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "2846385d-59c1-416b-8375-ca3ccd4ce18c",
+    "text": "(carrier) the device which performs modulation is called (modulator) and the device which recovers the binary signal from the modulated carrier is called (demodulator). 4/18/2025 39",
+    "chunk_index": 45,
+    "source_file": "4th_network2_chapter_one"
+  },
+  {
+    "id": "f94172c5-1fa9-4abf-9dd6-26a83ae3d7aa",
+    "text": "In data transmission, we usually come across devices which perform both modulation as well as demodulation functions and these devices are called modems. Modems are required when data is to be transmitted over long distance. In a modem, the input digital signal (modulating signal) modulates a carrier (modulated signal) which is transmitted to the distant end. At the distant end, another modem demodulates the received modulated carrier to get the digital signal. A pair of modems is, thus, always required. 4/18/2025 40",
+    "chunk_index": 46,
+    "source_file": "4th_network2_chapter_one"
+  }
+]

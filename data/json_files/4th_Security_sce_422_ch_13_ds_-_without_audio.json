@@ -1,0 +1,1138 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "466a0ef51925333e4364fb3135eac0ef",
+    "text": "Lecture slides by Lawrie Brown for \u201cCryptography and Network Security\u201d, 5/e, by William Stallings, Chapter 12 \u2013 \u201cMessage Authentication Codes\u201d.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f1405ff8f9e53cd26add6f474f67f19",
+    "text": "Digital Signatures",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "946b453c13bc1cd76c7db5fc919f92b9",
+    "text": "Arabic Language Audio Comments by",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b53c65b8f5ab448775e1457ea18eb793",
+    "text": "Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d78033f554a763e447b74726b8f7b004",
+    "text": "Cryptography and Network Security\u000bChapter 13",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ec9225a8a6a4ff7f6db1b06c4f6c0ed7",
+    "text": "Fifth Edition",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d78033f554a763e447b74726b8f7b004"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ab49e65ed8aec797288d4db85d5b498a",
+    "text": "by William Stallings\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d78033f554a763e447b74726b8f7b004"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb1670450841c2e6cea0f31aea4692cf",
+    "text": "Lecture slides by",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ab49e65ed8aec797288d4db85d5b498a"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f7f12ae2da31d3f5e64c6e9068755f5e",
+    "text": "Lawrie Brown",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d78033f554a763e447b74726b8f7b004"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a9d696eb3f23accc8ce07eb4952cdf19",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "01cd30a4fd6e26134340204bba7c291c",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ecee27d241efef93d6ef76b6b51dfba1",
+    "text": "Overview of Digital Signatures",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e7bd1fe8b3ccabc5bb0b42ddc5748041",
+    "text": "have looked at message authentication ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ecee27d241efef93d6ef76b6b51dfba1"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "660c3b374d9890cca48885662e8a1b09",
+    "text": "but does not address issues of lack of trust",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7bd1fe8b3ccabc5bb0b42ddc5748041"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5f23a3c3d62ea43f7037d6a8696c339f",
+    "text": "digital signatures provide the ability to: ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ecee27d241efef93d6ef76b6b51dfba1"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "786a4cff6b7076b8a5bdcae8d40908b8",
+    "text": "verify author, date & time of signature",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5f23a3c3d62ea43f7037d6a8696c339f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0419b85eb74f5f607b8597282a3d3c09",
+    "text": "authenticate message contents ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5f23a3c3d62ea43f7037d6a8696c339f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6c5bc76f66804c07c27978a0a58778ae",
+    "text": "be verified by third parties to resolve disputes",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5f23a3c3d62ea43f7037d6a8696c339f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8917b60ac1b385fb576355a8ec21bcf4",
+    "text": "hence include authentication function with additional capabilities",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ecee27d241efef93d6ef76b6b51dfba1"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a8956011a7701e4f121c1a8d265f0572",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b2d30eb7e984f0deefb3da1a9363fec8",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7dbb55710506eefece0f7da8fcaea217",
+    "text": "Digital Signature Model\u000b",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "fcf2a2703c677d5e7fbfdcd2c0cb7e17",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4f1ba23d58c3aaf6e6b120eeca8dcf75",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0628ea7bc2db020889d692a5c2747ac0",
+    "text": "Digital Signature Requirements",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "169fd86d69a8d835df8962e66e5597dc",
+    "text": "must depend on the message signed",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "adb2540071bc48445de87fe9006698a3",
+    "text": "must use information unique to sender",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3c2027680dbdd7c684e7a32bfdca4613",
+    "text": "to prevent both forgery and denial",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "adb2540071bc48445de87fe9006698a3"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "84c8c5640f822b4805674901df6cefad",
+    "text": "must be relatively easy to produce",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "52b01cd2feadea4454ac73390254cb59",
+    "text": "must be relatively easy to recognize & verify",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8037bd834ca114764b65a7a057d700a",
+    "text": "be computationally infeasible to forge ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3cd2df360b2f6f614f2fb17530db58db",
+    "text": "with new message for existing digital signature",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a8037bd834ca114764b65a7a057d700a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "43f34fc5412951259ed419aa94b6835e",
+    "text": "with fraudulent digital signature for given message",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a8037bd834ca114764b65a7a057d700a"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b27cbc6147d68f1eace633c824cf8fff",
+    "text": "be practical save digital signature in storage",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0628ea7bc2db020889d692a5c2747ac0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "aea2d2864cd588686c0d23f2949044ee",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b81259d7414081899dc5ecddfc9b501e",
+    "text": "The term direct digital signature refers to a digital signature scheme that involves only the communicating parties (source, destination). It is assumed that the destination knows the public key of the source. Direct Digital Signatures involve the direct application of public-key algorithms involving only the communicating parties. A digital signature may be formed by encrypting the entire message with the sender\u2019s private key, or by encrypting a hash code of the message with the sender\u2019s private key. Confidentiality can be provided by further encrypting the entire message plus signature using either public or private key schemes. It is important to perform the signature function first and then an outer confidentiality function, since in case of dispute, some third party must view the message and its signature. But these approaches are dependent on the security of the sender\u2019s private-key. Will have problems if it is lost/stolen and signatures forged. The universally accepted technique for dealing with these threats is the use of a digital certificate and certificate authorities. We defer a discussion of this topic until Chapter 14, and focus in this chapter on digital signature algorithms. Also need time-stamps and timely key revocation.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605",
+    "text": "Direct Digital Signatures",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "02798a02695137e63e5803f30f91a35b",
+    "text": "involve only sender & receiver",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "63894bb7592e68f12f83a71c58c1ada1",
+    "text": "assumed receiver has sender\u2019s public-key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "74b47c656eaeffb816589b84de404415",
+    "text": "digital signature made by sender signing entire message or hash with private-key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "860fd0bb09ea4d559fced601fc8cd607",
+    "text": "can encrypt using receiver's public-key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a0b04223b5937e4af4006843279a831e",
+    "text": "important that sign first then encrypt message & signature",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "89b6e6498c5d6c2dc80e639d6f96a8e3",
+    "text": "security depends on sender\u2019s private-key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8c5f3fca73d4c4a64ecb6ebaa81d5605"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0fd54235a9184bc8359f4f836af0be6e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f07c6daaadec3284ab0fe0fb902160b4",
+    "text": "DSA is the US Govt approved signature scheme, which is designed to provide strong signatures without allowing easy use for encryption. The National Institute of Standards and Technology (NIST) published Federal Information Processing Standard FIPS 186, known as the Digital Signature Standard (DSS). The DSS makes use of the Secure Hash Algorithm (SHA) described in Chapter 12 and presents a new digital signature technique, the Digital Signature Algorithm (DSA). The DSS was originally proposed in 1991 and revised in 1993 in response to public feedback concerning the security of the scheme. There was a further minor revision in 1996. In 2000, an expanded version of the standard was issued as FIPS 186-2. This latest version also incorporates digital signature algorithms based on RSA and on elliptic curve cryptography. In this section, we discuss the original DSS algorithm. The DSS uses an algorithm that is designed to provide only the digital signature function. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7fbc5da9641466e3b61960a03bc9ff1b",
+    "text": "Digital Signature Standard (DSS)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "22552e82eaef0abbb951cb82c08dd782",
+    "text": "US Government approved the DSS signature scheme designed by NIST & NSA in early 90's ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "00b6a31a0e0f7cb32610a57c2ce09505",
+    "text": "published as FIPS-186 in 1991 and revised in 1993, 1996 & then 2000",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8bc6ae7bb24537d58d9db39bccb21562",
+    "text": "uses the SHA hash algorithm ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3390fa4fc7efb9fa509daeb348c74ae4",
+    "text": "DSS is the standard, DSA is the algorithm",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ee9b5e989a0a267cbacb78b9a60638b5",
+    "text": "FIPS 186-2 (2000) includes alternative RSA & elliptic curve signature variants",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "626f070245663900f074300690cbc2b8",
+    "text": "DSA is digital signature only unlike RSA which is a public-key technique",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7fbc5da9641466e3b61960a03bc9ff1b"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "110895addbb8d83a57792b0242812d15",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cbc211578a7e4beaf9b54f60305d607d",
+    "text": "DSA is the US Govt approved signature scheme, which is designed to provide strong signatures without allowing easy use for encryption. The National Institute of Standards and Technology (NIST) published Federal Information Processing Standard FIPS 186, known as the Digital Signature Standard (DSS). The DSS makes use of the Secure Hash Algorithm (SHA) described in Chapter 12 and presents a new digital signature technique, the Digital Signature Algorithm (DSA). The DSS was originally proposed in 1991 and revised in 1993 in response to public feedback concerning the security of the scheme. There was a further minor revision in 1996. In 2000, an expanded version of the standard was issued as FIPS 186-2. This latest version also incorporates digital signature algorithms based on RSA and on elliptic curve cryptography. In this section, we discuss the original DSS algorithm. The DSS uses an algorithm that is designed to provide only the digital signature function. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "84587869b827e13e2a5a44bff7d96a2e",
+    "text": "DSS vs RSA Signatures",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "dd1d46a6a8264a16943f1192b2f897f5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4b5d621e1fb1186949525ddde12aa628",
+    "text": "The DSA is based on the difficulty of computing discrete logarithms (see Chapter 8) and is based on schemes originally presented by ElGamal [ELGA85] and Schnorr [SCHN91]. The DSA signature scheme has advantages, being both smaller (320 vs 1024bit) and faster (much of the computation is done modulo a 160 bit number), over RSA. Unlike RSA, it cannot be used for encryption or key exchange. Nevertheless, it is a public-key technique",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf",
+    "text": "Digital Signature Algorithm (DSA)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8841f794f18efa34374e6aaae786f5c",
+    "text": "creates a 320 bit signature",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ae58760560ccff9c6239ef7a857a35f4",
+    "text": "with 512-1024 bit security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "241422996de8307407ca63dc6561011a",
+    "text": "smaller and faster than RSA",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "26a056707213cddce347ad05b25101b3",
+    "text": "a digital signature scheme only",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "994fff80fb75edad6a0541a0907ecb80",
+    "text": "security depends on difficulty of computing discrete logarithms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ebfb9fe1a5ef6e8fe75d5d94f21c29cf"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a24009a0a96fe6ca348694980dd4c033",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6da2908dbefb7d3fc11ab936035e13aa",
+    "text": "Chapter 13 summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "debebef20f30ad99114ec8706a96bd52",
+    "text": "Summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bac3413a75ad3cacaf786f7930fabcb6",
+    "text": "have discussed:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "debebef20f30ad99114ec8706a96bd52"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "18f6e998a601aaa2a654b63b6e61558b",
+    "text": "digital signatures",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bac3413a75ad3cacaf786f7930fabcb6"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0d81216068a894315099387509d7b689",
+    "text": "digital signature algorithm and standard",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 13 DS - without audio.pptx",
+      "last_modified": "2025-01-15T14:22:43",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bac3413a75ad3cacaf786f7930fabcb6"
+    }
+  }
+]

@@ -1,0 +1,2228 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "73bd37cebafe6b800067c1595552d88d",
+    "text": "Lecture slides by Lawrie Brown for \u201cCryptography and Network Security\u201d, 5/e, by William Stallings, Chapter 12 \u2013 \u201cMessage Authentication Codes\u201d.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7bac73d655fbdeffe5e1f05fc37f5cf2",
+    "text": "Transport-Level Security",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4784215999f9faf0ade09abececc3417",
+    "text": "Arabic Language Audio Comments by",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "513f2789463dfb38fe7d65660b817515",
+    "text": "Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7503c5dbe8461fb49f1c2194a3d71a02",
+    "text": "Cryptography and Network Security\u000bChapter 16",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3078ff2075ff3fc0bafd42cf5247e8f9",
+    "text": "Fifth Edition",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7503c5dbe8461fb49f1c2194a3d71a02"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "50449309de9fda7544d241426453c5bf",
+    "text": "by William Stallings\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7503c5dbe8461fb49f1c2194a3d71a02"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4a47d528c739924cb27cc28f0c822394",
+    "text": "Lecture slides by",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "50449309de9fda7544d241426453c5bf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6ef5c30c908389f490d911a3ee5aa5d0",
+    "text": "Lawrie Brown",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7503c5dbe8461fb49f1c2194a3d71a02"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "14e06ec321c9459b5bf2685113af0eed",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2cd5e7ba44368cfe563b001591bece7a",
+    "text": "The World Wide Web is widely used by businesses, government agencies, and many individuals. But the Internet and the Web are extremely vulnerable to compromises of various sorts, with a range of threats as shown briefly above, and in detail in Stallings Table 16.1. These can be described as passive attacks including eavesdropping on network traffic between browser and server and gaining access to information on a Web site that is supposed to be restricted; and active attacks including impersonating another user, altering messages in transit between client and server, and altering information on a Web site. The web needs added security mechanisms to address these threats.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c82d25c0853920e1b3af57fb86397af2",
+    "text": "Web Security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "11b7c671284affa177de69ef65c98c36",
+    "text": "Web now widely used by business, government, individuals",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c82d25c0853920e1b3af57fb86397af2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e29cce923eb1cdc7bb47d913706a6770",
+    "text": "but Internet & Web are vulnerable",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c82d25c0853920e1b3af57fb86397af2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bf7b6347b77334436176a4b18b1d2380",
+    "text": "have a variety of threats",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c82d25c0853920e1b3af57fb86397af2"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7604615feba3962705b9f244bcda5bae",
+    "text": "integrity",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bf7b6347b77334436176a4b18b1d2380"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "356e8ce605373e93a0aa7cd7629a8159",
+    "text": "confidentiality",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bf7b6347b77334436176a4b18b1d2380"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4dd39a25e4bc36af89ba81abab636aef",
+    "text": "denial of service",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bf7b6347b77334436176a4b18b1d2380"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8ca581c4f26bc8908ad0bd77d0ced9a1",
+    "text": "authentication",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bf7b6347b77334436176a4b18b1d2380"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "219ac076b9528eb39bae34f9ddcb72f0",
+    "text": "need added security mechanisms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c82d25c0853920e1b3af57fb86397af2"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "82fc30d2303944deb9aedfa1619a8a51",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "73840ac0af2d43c482c6a66da74fd1c7",
+    "text": "A number of approaches to providing Web security are possible. The various approaches that have been considered are similar in the services they provide and, to some extent, in the mechanisms that they use, but they differ with respect to their scope of applicability and their relative location within the TCP/IP protocol stack.  Stallings Figure 16.1 illustrates this difference. \nOne way to provide Web security is to use IP Security (Figure 16.1a). The advantage of using IPSec is that it is transparent to end users and applications and provides a general-purpose solution. Further, IPSec includes a filtering capability so only selected traffic need incur the IPSec processing overhead.  \nAnother relatively general-purpose solution is to implement security just above TCP (Figure 16.1b). The foremost example of this approach is the Secure Sockets Layer (SSL) and the follow-on Internet standard known as Transport Layer Security (TLS). At this level, there are two implementation choices. For full generality, SSL (or TLS) could be provided as part of the underlying protocol suite and therefore be transparent to applications. Alternatively, SSL can be embedded in specific packages, e.g. both the Netscape and Microsoft Explorer browsers come with SSL, & most Web servers have implemented it.  \nApplication-specific security services are embedded within the particular application. Figure 16.1c shows examples of this architecture. The advantage of this approach is that the service can be tailored to the specific needs of a given application.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce2a5abfdd44c11e52601e983cf7f852",
+    "text": "Web Traffic Security Approaches",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2e3986b99c75fcf39c3c6597af181a4c",
+    "text": "Several approaches to providing Web security are possible. The various approaches that have been considered are similar in the services they provide and, to some extent, in the mechanisms that they use, but they differ with respect to their scope of applicability and their relative location within the TCP/IP protocol stack. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce2a5abfdd44c11e52601e983cf7f852"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b589cb04366005ac7538f9da51553abb",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "31c9f72c6a93064dc47cc6253cdd037a",
+    "text": "SSL probably most widely used Web security mechanism, and it is implemented at the Transport layer (cf. figure 16.1b on previous slide).\nSSL is designed to make use of TCP to provide a reliable end-to-end secure service. Netscape originated SSL. Version 3 of the protocol was designed with public review and input from industry and was published as an Internet draft document. Subsequently, when a consensus was reached to submit the protocol for Internet standardization, the TLS working group was formed within IETF to develop a  common standard. This first published version of TLS can be viewed as essentially an SSLv3.1 and is very close to and backward compatible with SSLv3. SSL is not a single protocol but rather two layers of protocol, as shown next.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c20a8cd674028189de09ee0f63d73a90",
+    "text": "SSL (Secure Socket Layer)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "466caee13465fa9dc98e67d848b2e4f3",
+    "text": "transport layer security service",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c0ab06d923c26b8182cbc9cfa5e54b70",
+    "text": "originally developed by Netscape",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "078e6f549daf2423c97a7308ccd4eb9f",
+    "text": "version 3 designed with public input",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8f1a1ef4fabcc67d468e3f39c69bce94",
+    "text": "subsequently became Internet standard known as TLS (Transport Layer Security)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4fe7a34394ad7bca86e5968c1ef55b0b",
+    "text": "uses TCP to provide a reliable end-to-end service",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8c96785e6e14939001f37f790bdca651",
+    "text": "SSL has two layers of protocols",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c20a8cd674028189de09ee0f63d73a90"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c182376d851fbe52cec2f1478b4b18c2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8e371699c2e556ce4202763451e260c4",
+    "text": "SSL probably most widely used Web security mechanism, and it is implemented at the Transport layer (cf. figure 16.1b on previous slide).\nSSL is designed to make use of TCP to provide a reliable end-to-end secure service. Netscape originated SSL. Version 3 of the protocol was designed with public review and input from industry and was published as an Internet draft document. Subsequently, when a consensus was reached to submit the protocol for Internet standardization, the TLS working group was formed within IETF to develop a  common standard. This first published version of TLS can be viewed as essentially an SSLv3.1 and is very close to and backward compatible with SSLv3. SSL is not a single protocol but rather two layers of protocol, as shown next.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6895bbb6dd0626d98f6abb865d02645a",
+    "text": "SSL Architecture",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ea2983770bc1e2908d01aded46588029",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bd0661fbad481becc7b04428e3869214",
+    "text": "Two important SSL concepts are the SSL connection and the SSL session:\n\u2022 Connection: A connection is a network transport that provides a suitable type of service, such connections are transient, peer-to-peer relationships, associated with one session\n\u2022 Session: An SSL session is an association between a client and a server, created by the Handshake Protocol. Sessions define a set of cryptographic security parameters, which can be shared among multiple connections. Sessions are used to avoid the expensive negotiation of new security parameters for each connection. \nBetween any pair of parties (applications such as HTTP on client and server), there may be multiple secure connections. In theory, there may also be multiple simultaneous sessions between parties, but this feature is not used in practice. \nThere are a number of states associated with each session. Once a session is established, there is a current operating state for both read and write (i.e., receive and send). In addition, during the Handshake Protocol, pending read and write states are created. Upon successful conclusion of the Handshake Protocol, the pending states become the current states.  A session state and a connection state are defined by sets of parameters, see text for details.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d4615899b65e2b3e8dc2a1de3ee046e7",
+    "text": "Two Important SSL Concepts ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1a81661272093e4a625e312dcc6f15b8",
+    "text": "SSL connection",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4615899b65e2b3e8dc2a1de3ee046e7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ca80ae5c8262c1a0aa31f0b3a3a2b060",
+    "text": "a transient, peer-to-peer, communications link",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1a81661272093e4a625e312dcc6f15b8"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "82b7a36ecc0993069d31447fd06b950e",
+    "text": "associated with one SSL session",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1a81661272093e4a625e312dcc6f15b8"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7a6d30208b0c9cc00f784692bd44fcd0",
+    "text": "SSL session",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4615899b65e2b3e8dc2a1de3ee046e7"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "21234740107e2ce56c6457279d5d2b90",
+    "text": "an association between client & server",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7a6d30208b0c9cc00f784692bd44fcd0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "53b54c2f613039cc3261dc0a46b74ffa",
+    "text": "created by the Handshake Protocol",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7a6d30208b0c9cc00f784692bd44fcd0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b262b5fb6e89c50fc2b581c19afa97b3",
+    "text": "define a set of cryptographic parameters",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7a6d30208b0c9cc00f784692bd44fcd0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f475f1871a042403b0ecda1267ea4a40",
+    "text": "may be shared by multiple SSL connections",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7a6d30208b0c9cc00f784692bd44fcd0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0da77d60d72183c653c54ab35d978ec8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4760276963fac3fc828b7439e8e010b6",
+    "text": "SSL Record Protocol defines two services for SSL connections:\n\u2022 Confidentiality: The Handshake Protocol defines a shared secret key that is used for conventional encryption of SSL payloads. The message is compressed before being concatenated with the MAC and encrypted, with a range of ciphers being supported as shown.\n\u2022 Message Integrity: The Handshake Protocol also defines a shared secret key that is used to form a message authentication code (MAC), which is similar to HMAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de154ac46aefa1c3a17714f24f81be36",
+    "text": "SSL Record Protocol Services",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "61cecd030342522824f433b8f645f90f",
+    "text": "confidentiality",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de154ac46aefa1c3a17714f24f81be36"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "14427f0cf0e88a52393a1ae24d153c62",
+    "text": "using symmetric encryption with a shared secret key defined by Handshake Protocol",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61cecd030342522824f433b8f645f90f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb550110e1fbca5fdb3ac58f8c48975a",
+    "text": "can use several encryption ciphers such as: AES, IDEA, RC2-40, DES-40, DES, 3DES, Fortezza, RC4-40, RC4-128",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61cecd030342522824f433b8f645f90f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9c9c5ac8ad636f4581d37b627a20a29a",
+    "text": "message is compressed before encryption",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61cecd030342522824f433b8f645f90f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0e00625a7a203aed9f04e0a0a466c9a9",
+    "text": "message integrity",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "de154ac46aefa1c3a17714f24f81be36"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b1c0625cd5c22fbb9ea29ec0eb623687",
+    "text": "using a MAC with shared secret key",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e00625a7a203aed9f04e0a0a466c9a9"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0f12559f6a3a310f1706733ffe6b47e1",
+    "text": "like HMAC but with different padding",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e00625a7a203aed9f04e0a0a466c9a9"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "18d36e364cf02c22595ab0fed0d590af",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "365ef3e8097992375e6505bd434710ed",
+    "text": "SSL Record Protocol defines two services for SSL connections:\n\u2022 Confidentiality: The Handshake Protocol defines a shared secret key that is used for conventional encryption of SSL payloads. The message is compressed before being concatenated with the MAC and encrypted, with a range of ciphers being supported as shown.\n\u2022 Message Integrity: The Handshake Protocol also defines a shared secret key that is used to form a message authentication code (MAC), which is similar to HMAC",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "62edd234805a4366e52efed8d2f3d866",
+    "text": "SSL Record Protocol Operation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "70bb9fcfd262dc73e7ea4e06029032ca",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c87e44022d020588367cfe527259d26a",
+    "text": "The Change Cipher Spec Protocol is one of the three SSL-specific protocols that use the SSL Record Protocol, and it is the simplest, consisting of a single message (shown in Stallings Figure 16.5a), which consists of a single byte with the value 1. The sole purpose of this message is to cause the pending state to be copied into the current state, which updates the cipher suite to be used on this connection.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6f5e4404eb97cde999dfa67826da40ed",
+    "text": "SSL Change Cipher Spec Protocol",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3a4535698bbfdabc4a9fc97948b13881",
+    "text": "one of 3 SSL specific protocols which use the SSL Record protocol",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6f5e4404eb97cde999dfa67826da40ed"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "38a833852dcce20d8d032f377e0cf3e7",
+    "text": "a single message",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6f5e4404eb97cde999dfa67826da40ed"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5122c91afc9ec1e65953a0fea116f150",
+    "text": "causes pending state to become current",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6f5e4404eb97cde999dfa67826da40ed"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "de9346a63e6ade4cfae34f9f7907b76b",
+    "text": "hence updating the cipher suite in use",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6f5e4404eb97cde999dfa67826da40ed"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "feffae25a89431f6b9404ff0d8eeb00c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a2476c26e4ef99a358e4b4407b3f724a",
+    "text": "The Alert Protocol is used to convey SSL-related alerts to the peer entity. As with other applications that use SSL, alert messages are compressed and encrypted, as specified by the current state.\nEach message in this protocol consists of two bytes (as shown in Stallings Figure 16.5b), the first takes the value warning(1) or fatal(2) to convey the severity of the message. The second byte contains a code that indicates the specific alert. The first group shown are the fatal alerts, the others are warnings.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "db4cb592e8ec25d53c2285bf50fa0544",
+    "text": "SSL Alert Protocol",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b94c46ebc880f8d92d984bb1a7790cc5",
+    "text": "conveys SSL-related alerts to peer entity",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "db4cb592e8ec25d53c2285bf50fa0544"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1402a1eeb9e06ff7a13a53729b7ec34a",
+    "text": "severity",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "db4cb592e8ec25d53c2285bf50fa0544"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c6fa4445295183936205a0db913f1c2d",
+    "text": "warning or fatal",
+    "metadata": {
+      "category_depth": 3,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "db4cb592e8ec25d53c2285bf50fa0544"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e604e77ecfa03436d189de1c5e1ea648",
+    "text": "specific alert",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c6fa4445295183936205a0db913f1c2d"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "875a12a910044fa875f493436853e961",
+    "text": "fatal: unexpected message, bad record mac, decompression failure, handshake failure, illegal parameter",
+    "metadata": {
+      "category_depth": 3,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "db4cb592e8ec25d53c2285bf50fa0544"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ebd380491e44510a590960d993178691",
+    "text": "warning: close notify, no certificate, bad certificate, unsupported certificate, certificate revoked, certificate expired, certificate unknown",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875a12a910044fa875f493436853e961"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "91a6ab40da55b0a9aa514945167c9973",
+    "text": "compressed & encrypted like all SSL data",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "875a12a910044fa875f493436853e961"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "866bcc92439bb0839f6477098e5aa514",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "03585053b8daa6c53b15410b7664185a",
+    "text": "The most complex part of SSL is the Handshake Protocol. This protocol allows the server and client to authenticate each other and to negotiate an encryption and MAC algorithm and cryptographic keys to be used to protect data sent in an SSL record. The Handshake Protocol is used before any application data is transmitted. The Handshake Protocol consists of a series of messages exchanged by client and server, which have the format shown in Stallings Figure 16.5c, and which can be viewed in 4 phases:\nPhase 1. Establish Security Capabilities - this phase is used  by the client to initiate a logical connection and to establish the security capabilities that will be associated with it\nPhase 2. Server Authentication and Key Exchange - the server begins this phase by sending its certificate if it needs to be authenticated.\nPhase 3. Client Authentication and Key Exchange - the client should verify that the server provided a valid certificate if required and check that the server_hello parameters are acceptable\nPhase 4. Finish - this phase completes the setting up of a secure connection. The client sends a change_cipher_spec message and copies the pending CipherSpec into the current CipherSpec. At this point the handshake is complete and the client and server may begin to exchange application layer data.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce4ae67129fa95faa01567ea8637cd29",
+    "text": "SSL Handshake Protocol",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "683ff32276bc12b0391205a51cc85ddb",
+    "text": "allows server & client to:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e34f90a30b48d3704054e9b6eb3e248f",
+    "text": "authenticate each other",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "683ff32276bc12b0391205a51cc85ddb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e715d965bdc14ca38006e757d1d21f9d",
+    "text": "to negotiate encryption & MAC algorithms",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "683ff32276bc12b0391205a51cc85ddb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "895fe017f7b253d8838cd1a426c37181",
+    "text": "to negotiate cryptographic keys to be used",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "683ff32276bc12b0391205a51cc85ddb"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b1454e87480c9fe4e2746b4f39271542",
+    "text": "comprises a series of messages in four phases",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7cc81f314c3da957f79bdcb3d4a00650",
+    "text": "Establish Security Capabilities",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de16969aaf8df5fd877b8f5081258568",
+    "text": "Server Authentication and Key Exchange",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c8b9fa58b4def7df3ecde876dd87025",
+    "text": "Client Authentication and Key Exchange",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1a87772c7ce7d048fa909866fdfcf6ba",
+    "text": "Finish",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ce4ae67129fa95faa01567ea8637cd29"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c91d11aaec3f76f8d88e5736dda3ee3b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0ca1e94c4a5a5627b167111adace6ee1",
+    "text": "Stallings Figure16.6 shows the initial exchange needed to establish a logical connection between client and server. The exchange can be viewed as having the four phases discussed previously. Additional details on the operation of these phases is given in the text.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b53e202dd3e90c0f087ac8c38e210150",
+    "text": "SSL Handshake\u000bProtocol",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2fc483a32fca412d05eef95ba19fb7fa",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "10ff369af9b4d57025bbe02a56d436fb",
+    "text": "Two further items are of interest: the creation of a shared master secret by means of the key exchange, and the generation of cryptographic parameters from the master secret. \nThe shared master secret is a one-time 48-byte value (384 bits) generated for this session by means of secure key exchange. The creation is in two stages. First, a pre_master_secret is exchanged. Second, the master_secret is calculated by both parties. For pre_master_secret exchange, there are two possibilities, using either RSA or Diffie-Hellman. Both sides now compute the master_secret by hashing the relevant information, as detailed in the text.\nCipherSpecs require a client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV, which are generated from the master secret in that order. These parameters are generated from the master secret by hashing the master secret into a sequence of secure bytes of sufficient length for all needed parameters.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "33cb42032825f82da80d278aa7e11bfd",
+    "text": "Cryptographic Computations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "25861b4cd1cbaea7079acd3274a37ede",
+    "text": "master secret creation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "33cb42032825f82da80d278aa7e11bfd"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f524049add9f20d7e1c4a29c3a2aaecf",
+    "text": "a one-time 48-byte value",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "25861b4cd1cbaea7079acd3274a37ede"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7a953e60ed477da3fe4f4074632a92d1",
+    "text": "generated using secure key exchange (RSA / Diffie-Hellman) and then hashing information.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "25861b4cd1cbaea7079acd3274a37ede"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bc9ad690603f498e53fcc3cfd6b94d70",
+    "text": "generation of cryptographic parameters (6 secret values as follows)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "33cb42032825f82da80d278aa7e11bfd"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b20e29f97b0485cfc55149c430c2210f",
+    "text": "client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bc9ad690603f498e53fcc3cfd6b94d70"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "06b932377f5becf80ec581062b2fbd68",
+    "text": " these 6 secrets are generated by hashing the master secret using a simple algorithm and a hash function.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bc9ad690603f498e53fcc3cfd6b94d70"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0ae02fb1ffe632a712aaa41d2a1bc902",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "554ea9437e4fb6823241c79f9a0e7627",
+    "text": "TLS is an IETF standardization initiative whose goal is to produce an Internet standard version of SSL. TLS is defined as a Proposed Internet Standard in RFC 2246. RFC 2246 is very similar to SSLv3, but with a number of minor differences in the areas shown, as discussed in the text.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ed92ef2c5cbf8af7a75d6e60fe6ae05c",
+    "text": "TLS (Transport Layer Security)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e7c7bfd77de12f45ec0ed84e06e63203",
+    "text": "IETF standard RFC 2246 like SSLv3",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ed92ef2c5cbf8af7a75d6e60fe6ae05c"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e35ee224e59ca4167f7e1913b581644f",
+    "text": "with minor differences",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ed92ef2c5cbf8af7a75d6e60fe6ae05c"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f3a9b37dad1f7a63297979f494698818",
+    "text": "in record format version number",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a3a1e072923e52f95585fdd3e4b0f15d",
+    "text": "uses HMAC for MAC",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "84ae3b9ebd72c9f5c9ae55bc5b6afd41",
+    "text": "a pseudo-random function expands secrets",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "75231917f136dead47f56cb55cc51871",
+    "text": "based on HMAC using SHA-1 or MD5",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "84ae3b9ebd72c9f5c9ae55bc5b6afd41"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a9da17af5d5894e3ca789cf7b2979385",
+    "text": "has additional alert codes",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "408324d8185e039900b95b2ce14e2e7e",
+    "text": "some changes in supported ciphers",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8d88edd041b44ec37819023c6b7423a1",
+    "text": "changes in certificate types & negotiations",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b5fc17a600b93f6428ba2e8cf6258f92",
+    "text": "changes in cryptographic computations & padding",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e35ee224e59ca4167f7e1913b581644f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c7c1f9e0a62167f0b89c8a0a04c18c6f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7624a03c0c05a55a8802af487f84ffdb",
+    "text": "HTTPS (HTTP over SSL) refers to the combination of HTTP and SSL to implement secure communication between a Web browser and a Web server. The HTTPS capability is built into all modern Web browsers. Its use depends on the Web server supporting HTTPS communication. The principal difference seen by a user of a web browser is that URL (uniform resource locator) addresses begin with https:// rather than http://. A normal HTTP connection uses port 80. If HTTPS is specified, port 443 is specified, which invokes SSL.  When HTTPS is used, the following elements of the communication are encrypted:  URL of the requested document, Contents of the document, Contents of browser forms (filled in by browser user), Cookies sent from browser to server and from server to browser, and Contents of HTTP header. HTTPS is documented in RFC 2818, HTTP Over TLS. There is no fundamental change in using HTTP over either SSL or TLS, and both implementations are referred to as HTTPS.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ddced5e9347fe4bc95c44e1978cd5130",
+    "text": "HTTPS",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c28c5ac0390c0b17a7f2ab0b95110deb",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4479ce51df61a21fffe718ef9ab53cab",
+    "text": "For HTTPS, the agent acting as the HTTP client also acts as the TLS client. The client initiates a connection to the server on the appropriate port and then sends the TLS ClientHello to begin the TLS handshake. When the TLS handshake has finished. The client may then initiate the first HTTP request. All HTTP data is to be sent as TLS application data. Normal HTTP behavior, including retained connections is followed. \nAn HTTP client or server can indicate the closing of a connection by including in an HTTP record: \u201cConnection: close\u201d. This indicates that the connection will be closed after this record is delivered. The closure of an HTTPS connection requires that TLS close the connection with the peer TLS entity on the remote side, which will involve closing the underlying TCP connection. At the TLS level, the proper way to close a connection is for each side to use the TLS alert protocol to send a close_notify alert. TLS implementations must initiate an exchange of closure alerts before closing a connection. A TLS implementation may, after sending a closure alert, close the connection without waiting for the peer to send its closure alert, generating an \"incomplete close\". Note that an implementation that does this may choose to reuse the session. This should only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about.  HTTP clients must also be able to cope with a situation in which the underlying TCP connection is terminated without a prior close_notify alert and without a Connection: close indicator. Such a situation could be due to a programming error on the server, or a communication error that causes the TCP connection to drop. However, the unannounced TCP closure could be evidence of some sort of attack. So the HTTPS client should issue some sort of security warning when this occurs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f70e8ff9a69eae8150d422937bfae198",
+    "text": "HTTPS Use",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "717c19171d0cb0c9fbc126b024892f5e",
+    "text": "For HTTPS, the agent acting as the HTTP client also acts as the TLS client. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f70e8ff9a69eae8150d422937bfae198"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c95508bad7bb2ebf43b32a3526aba1a8",
+    "text": "connection initiation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f70e8ff9a69eae8150d422937bfae198"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "09e247bf00d7805eb9617238e38ee615",
+    "text": "TLS handshake then HTTP request(s)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c95508bad7bb2ebf43b32a3526aba1a8"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "76d29e54e7bb6260a7d34fb0bd9150f0",
+    "text": "connection closure",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f70e8ff9a69eae8150d422937bfae198"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "faf0594f2b1e8a5b5c6281d9d127063e",
+    "text": "have \u201cConnection: close\u201d in HTTP record",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "76d29e54e7bb6260a7d34fb0bd9150f0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8564dd833c49b71f369c69d195dc050e",
+    "text": "TLS level exchange close_notify alerts",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "76d29e54e7bb6260a7d34fb0bd9150f0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5f3171480862d17da872534ea86d19c5",
+    "text": "can then close TCP connection",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "76d29e54e7bb6260a7d34fb0bd9150f0"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7c0d6a8843309445092dd0a5ef25f905",
+    "text": "must handle TCP close before alert exchange sent or completed",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "76d29e54e7bb6260a7d34fb0bd9150f0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e6932e1ae18f79f6b3319403332d076e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7dd08e61014e674d6ebc79acac71f394",
+    "text": "For HTTPS, the agent acting as the HTTP client also acts as the TLS client. The client initiates a connection to the server on the appropriate port and then sends the TLS ClientHello to begin the TLS handshake. When the TLS handshake has finished. The client may then initiate the first HTTP request. All HTTP data is to be sent as TLS application data. Normal HTTP behavior, including retained connections is followed. \nAn HTTP client or server can indicate the closing of a connection by including in an HTTP record: \u201cConnection: close\u201d. This indicates that the connection will be closed after this record is delivered. The closure of an HTTPS connection requires that TLS close the connection with the peer TLS entity on the remote side, which will involve closing the underlying TCP connection. At the TLS level, the proper way to close a connection is for each side to use the TLS alert protocol to send a close_notify alert. TLS implementations must initiate an exchange of closure alerts before closing a connection. A TLS implementation may, after sending a closure alert, close the connection without waiting for the peer to send its closure alert, generating an \"incomplete close\". Note that an implementation that does this may choose to reuse the session. This should only be done when the application knows (typically through detecting HTTP message boundaries) that it has received all the message data that it cares about.  HTTP clients must also be able to cope with a situation in which the underlying TCP connection is terminated without a prior close_notify alert and without a Connection: close indicator. Such a situation could be due to a programming error on the server, or a communication error that causes the TCP connection to drop. However, the unannounced TCP closure could be evidence of some sort of attack. So the HTTPS client should issue some sort of security warning when this occurs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "11c3ed20d46d71c6b8cfecdbeef56f89",
+    "text": "Summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b98727856cbfe15f7a3b1022481eb6d4",
+    "text": "Have considered:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "11c3ed20d46d71c6b8cfecdbeef56f89"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e82f7e3a30ceec69a141b181d1316e8b",
+    "text": "Web security",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b98727856cbfe15f7a3b1022481eb6d4"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9d29fa02e9cfb2e6d3c284bbe2ffb9c6",
+    "text": "TLS / SSL protocol",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b98727856cbfe15f7a3b1022481eb6d4"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7c109f97bb51b34a73041aeb9c2027e1",
+    "text": "HTTPS",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL without audio.pptx",
+      "last_modified": "2025-01-15T14:25:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b98727856cbfe15f7a3b1022481eb6d4"
+    }
+  }
+]

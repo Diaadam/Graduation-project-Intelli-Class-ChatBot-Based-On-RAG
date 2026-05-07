@@ -1,0 +1,116 @@
+[
+  {
+    "id": "63c31c5f-91b3-44ee-9109-0fb4f528fcb1",
+    "text": "Lecture 3 Dynamic RAM (DRAM) Memory Refreshment Introduction Because of its ability to provide high storage capacity at low cost, dynamic RAM (DRAM) dominates the high-capacity memory applications, including the primary RAM in computers. Further, as the name “dynamic” implies, the storage of information is inherently only temporary. This need for refresh is the primary logical difference in the behavior of DRAM compared to SRAM. We explore this logical difference by examining the dynamic RAM cell, the logic required to perform the refresh operation, and the impact of the need for refresh on memory system operation.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "de0c8434-b8cf-433a-b52d-af9af50e8608",
+    "text": "DRAM Cell The dynamic RAM cell circuit is shown in Figure. It consists of a capacitor C and a transistor T. If sufficient charge is stored on the capacitor, it can be viewed as storing a logical 1, else a logical 0. The transistor acts much like a switch. Cont., When the switch is “open,” the charge on the capacitor roughly remains fixed—in other words, is stored. But when the switch is “closed,” charge can flow into and out of the capacitor from the external Bit (B) line. This charge flow allows the cell to be written with a 1 or 0 and to be read.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "997184dd-faec-4b65-bd19-13fd1907685b",
+    "text": "Cont., To reduce the time and power associated with moving charges from storage capacitor (Cs) to Bit-line capacitor (CBL), the CBL is charged to VDD/2. If Vc> VDD/2  Logic 1 was stored ,and vice versa. Destructive & Non Destructive Memory Readout Destructive>>A read operation that alters the contents of the accessed memory location and must be immediately followed by a rewriting of the contents in order to preserve them. nondestructive >>If the data in a memory is not destroyed in the reading process, the system has nondestructive readout. A flip-flop is an example of nondestructive readout. Sensing the output voltage (reading) from a given side of a flip-flop generally does not change the state of the flip-flop and the stored data is retained.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "4b2a97cc-d2a5-41ac-8f57-cda9d403a9b3",
+    "text": "Dynamic RAM - Bit Slice Model C is driven by Tri-state drivers Sense amplifier is used to measure the minute change in voltage on the Bit-line. Converting from destructive to nondestructive Rewrite after Reading. Array of sense amplifiers acts as a temporary data storage (Row Buffer). Word Select",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "7eb0c45a-b82b-4a4d-bf22-d153d1ec74d6",
+    "text": "select 0 B C D Q Word C DRAM cell select model 0 DRAM cell Word select 1 Word DRAM cell Select select 2 n 1 2 Word Q D select n 1 2 2 C DRAM cell DRAM cell model Read/Write logic Data in Sense Data out amplifier Read/ Bit Data in Write select (b) Symbol",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "2be660d0-db22-4220-ae44-ef75916a3c90",
+    "text": "Write logic Data out Read logic Bit Read/ select Write (a) Logic diagram Block Diagram of a DRAM Coincident selection is a mandatory in DRAM One happens after the other not at the same time HOW row address first is used to select the row of cells to be read within the memory column address secondly is used to select the word to be placed on the output from the data read from the row of cells.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "b79bb197-0bd2-4b75-8b29-60a5d5c9ebb3",
+    "text": "How to handle addressing in DRAMs To reduce the number of pins, the DRAM address is split to roughly halve the large number of address pins on the typical RAM IC. The row address first is used to select the row of cells to be read within the memory. The column address secondly is used to select the word to be placed on the output from the data read from the row of cells.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "c3dbc1af-c2bd-4ccf-9a33-1db19e0881f2",
+    "text": "Cont., This can be done since the row address, which performs the row selection, is actually needed before the column address, which reads out the data from the row selected. In order to hold the row address throughout the read or write cycle, it is stored in a register. The column address is also stored in a register.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "2f904fc0-8587-478f-b7e4-6d6598bea5b8",
+    "text": "Control signals Handle Row Address The row address is applied to the address inputs. RAS changes from 1 to 0, loading the row address into the row address register. This address is applied to the row address decoder and selects a row of DRAM cells. Handle Column Address The column address is applied, Then CAS changes from 1 to 0, loading the column address into the column address register. This address is applied to the column address decoder, which selects a set of columns of the RAM array of size equal to the number of RAM data bits.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "0523cf31-4e9e-466a-a77e-1e9be6f0f605",
+    "text": "For Write Operation Store data into the row register?? Store data into the col register?? For READ Operation Dynamic RAM Read Timing 20 ns Clock T1 T2 T3 T4 T1 Column Row Address Address Address RAS CAS Output enable Read/ Write Data Hi-Z Data valid output 65 ns Read cycle",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "bc503eae-a12f-46f2-8c7f-cb96e5e887e4",
+    "text": "Memory Refresh Is the process of periodically reading information from an area of computer memory and immediately rewriting it to the same area without modification. Each memory refresh cycle refreshes a succeeding area of memory cells, and repeatedly refreshing all the cells in a consecutive cycles. The refreshment process is conducted automatically.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "40f79f51-3ac8-435f-8343-720895337d52",
+    "text": "Cont., While a refresh cycle is occurring, the memory is not available for normal READ & WRITE operations. In modern memories, this overhead time is not large enough. Conclusion: each memory cell must be refreshed repetitively within a maximum interval between refreshes specified by the manufacture.",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "d25f9261-1acd-4660-83f6-c6b1e39b99d6",
+    "text": "Block Diagram of a DRAM Including Refresh Logic How Refresh Works? 1- Refresh cycles are generated by refresh counter( either a refresh counter; as a part of the memory or external counter as a part of DRAM controller), which contains the address of the row to be refreshed. 2- The row address is applied to the row address lines. 3- The refresh cycle can be triggered by one of the following ways: RAS-only refresh, CAS-before-RAS refresh, or Hidden refresh.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "f2f8538a-2bb3-4ca5-b811-91cbf6156cb5",
+    "text": "The standard triggering ways RAS-only refresh. A row address is placed on the address lines and RAS is changed to 0. In this case, the refresh addresses must be applied from outside the DRAM chip, typically by an IC called a DRAM controller. CAS-before-RAS refresh. The CAS is changed from 1 to 0 followed by a change from 1 to 0 on RAS. It appears as an illegal operation. In this case, the incoming external row address will be discard , and the memory will use its internal refresh counter. Additional refresh cycles can be performed by changing RAS by the internal counter without changing CAS.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "64b55f7c-5cf4-4c9c-a77a-b73669203767",
+    "text": "Cont., Hidden refresh. Following a normal read or write, CAS is left at 0 and RAS is cycled, effectively performing a CAS-before-RAS refresh. During a hidden refresh, the output data from the prior read remains valid. Thus, the refresh is hidden. Unfortunately, the time taken by the hidden refresh is significant, so a subsequent read or write operation is delayed. In all cases, note that the initiation of a refresh is controlled externally by using the RAS and CAS signals.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "9a63e228-3f19-4a26-aa04-b55a5e73e1a6",
+    "text": "Refreshing Types Refreshes may be performed at evenly spaced points in time, an approach called distributed refresh. Alternatively, all refreshes may be performed one after the other, an approach called burst refresh Example A 4M × 4 DRAM has a refresh time of 64 ms and the length of time to perform a single refresh per row is 60 ns? What is the refreshment time in case of distributed or burst refreshment. What is the time for Read & Write.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "ee71c46d-232e-4fb1-8577-007a7cdeb8b4",
+    "text": "Solution: - no. of rows = 4096 rows to be refreshed. A- Burst Refreshment: - A total time out for refresh = 4096 x 60 ns = 0.25 ms - The rest time for R/W = 64ms – 0.25 ms = 63.75 ms The DRAM controller must initiate 4096 refreshes sequentially every 64 ms for burst refresh. 4M × 4 = 2^24 >>sqr(ANS)>>/2>> rows",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "7ad9e8ae-114f-4e11-a3fe-1d9a407a9713",
+    "text": "Cont., B- Distributed Refreshment the refresh interval for distributed refresh = 64 ms/4096 = 15.6 microseconds (μs). Time R/W = 15.6 μs – 60 ns - The DRAM controller must initiate a refresh every 15.6 μs for distributed refresh Since use of burst refresh would halt computer operation for a fairly long period, distributed refresh is more commonly used.",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lec_3"
+  },
+  {
+    "id": "60cac539-1ddc-4950-a307-9c7c192c0864",
+    "text": "Assignment The refresh cycle is similar to READ cycle, but executing faster, Why? Sheet Text book",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lec_3"
+  }
+]

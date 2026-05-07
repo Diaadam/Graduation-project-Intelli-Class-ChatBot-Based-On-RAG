@@ -1,0 +1,561 @@
+[
+  {
+    "type": "Image",
+    "element_id": "4f63b945a46856d480329dfd2b1ac123",
+    "text": "Chapter Five  Bridges and Layer-2   Switches ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 1,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "e8f64b6687dfa203e7d772fd9c4b2630",
+    "text": "5.1 Motivation for Using LAN Bridges  A local area network is the stand-alone network with capability  to provide communication services to the end systems. There is  however, always need to communicate with the stations  connected on the other local area networks. LAN Bridge,  Layer-2 Switch, and Router are the devices required to  interconnect two or more local area networks.  Bridge is intermediary device that interconnect two or more  local area networks. One would think that it should be simpler to  form a bigger LAN that spans all the stations but it may not  always be possible because:  \u27a2 There is limit on the maximum number of stations that can be  connected on a single LAN.  \u27a2 The maximum physical size of a LAN is limited.  \u27a2 Upgrading the existing infrastructure can be very costly and  the investments already made are wasted.  1/15/2022  2 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 2,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "adb7661ca59c9cd4325a0fd583b3bda1",
+    "text": "Therefore, the solution is to interconnect two LANs as  separate entitles using a bridge. At  times, bridge  installations may be done from a different perspective.  There may be reasons to partition an existing LAN into  several LANs using bridges. For  example,  if  the  performance of a LAN is poor because of too many  collisions, it can be improved by partitioning a LAN into  several  interconnected LANs using Bridges. Bridge  partitions  the  collision  domain and  therefore  the  performance improves.  A bridge is to be differentiated from a repeater, hup and  router.  A repeater merely regenerates electrical signals  and extends the physical medium domain of a LAN. It  works at the physical layer level. Thus a network having  repeaters still constitutes one single LAN and single  collision domain.  1/15/2022  3 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 3,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "fefbb57df1f0ff3ce8da2944632da0b0",
+    "text": "Router is a packet switch implemented at the layer-3.  The packets are routed and forwarded at layer-3.Thus  all physical  layers and data link layer protocol  differences are taken care of. The addressing scheme at  the layer-3 is structured address. A layer-3 address is  composed of two parts: - network part and host (end-  system) part.  Therefore, unlike LAN networks, which work in  broadcast mode, more intelligent and dynamic routing  decisions are possible at layer-3 networks.  1/15/2022  4 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 4,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "99d1a3366c0538ce3b8016cbfb8a36e1",
+    "text": "A  A  B  Hup  A  B  C  One Collision Domain   1/15/2022  D  Shared Medium Bus   B  C  D  One Collision Domain   Repeater  C  D  Bridge  A  B  C  D  Separate  Collision Domains   5 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 5,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "ee711acd3207c17e7935dba0775c85ac",
+    "text": "5.2 LAN Bridge  Bridge is the device that is attached to two or more local area  networks. It takes MAC frames from one LAN and sends them  across to the other LAN. Note the difference between a bridge  and a repeater. A repeater does not look at the address field and  regenerates all the frames.  Due to the differences in the LAN technologies make it  impractical to use the bridge to interconnect two dissimilar  local area networks for the following reasons:   Each type of LAN has its own MAC protocol and MAC  frame format.   The maximum size of MAC frame is different in LAN  technologies.  The data rates are different   LAN management and priority management functions are  different.  1/15/2022  6 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 6,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "d89f7507155bd087e00daf96ab54a890",
+    "text": "Therefore, Bridges generally interconnect LANs of the same   MAC protocol type. Interconnection of dissimilar LAN types   is nowadays dealt with using Router.  5.2.1 Bridge Architecture  LLC   LLC   Sub layer  Sub layer  MAC  R&R  MAC  MAC  MAC  Sublayer  Sublayer  Sub layer  Sub layer  Physical  Physical   Physical   Physical  Layer  Layer  Layer  Layer  Port A  MAC Bridge Port B  R & R: Relay and Routing functions  1/15/2022  7 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 7,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "cffb710de8a3e28095c338540e2d65de",
+    "text": "The two physical layers and MAC sub layers are matched  (similar) with those of two LANs. The two MAC sub layers  of the bridge have relay and routing functions between them.  When a MAC frame is received by the bridge at its one port,  it examines its destination address. If the bridge decides that  the frame should be transferred across, it forwards the frame  to the other port using relay and routing function.  The decision whether to forward the frame or not is either  taken by the bridge (transparent bridge) or alternatively, the  MAC frame itself contains the routing instruction (source  routing bridge). It is to be noted that:  \u26ab The bridged LANs maintain their identity although the  user may not perceive so.  \u26ab A bridge does not extend the collision domain of one  Ethernet to the other interconnected Ethernet.  1/15/2022  8 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 8,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "fa0a639a3d24681449f4683dd7165b24",
+    "text": "5.2.2 Types of Bridges  The most widely deployed bridges are of two types:   Transparent bridges   Source routing bridges  Transparent bridges are also known as spanning tree  bridges. They are used in Ethernet environment. Source  routing bridges are used for Token Ring LANs. Source  routing is part of IEEE 802.5 token ring specifications.  Besides the protocol differences, these two types of bridge  differ in the way the routing decisions is made. A transparent  bridge is invisible to the stations in the network. The stations  perceive the network as an extended network. The routing  decisions are made by the bridge. A transparent bridge  creates and maintains a comprehensive forwarding table of  all destination stations.  1/15/2022  9 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 9,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a065044c60f952b07c42212af6caea77",
+    "text": "In source routing bridges, as the name suggests, the  routing is decided by the station sending a frame .The  sending station incorporates the route to be followed to  the destination in the frame. The bridge merely follows  the routing instructions incorporated by the source. The  source routing bridges, therefore, do not require any  for  routing table  forwarding frames. Transparent  bridges,  therefore, are more complex than source  routing bridges.  1/15/2022  10 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 10,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "713c921c223bfafd18ba3ee1d511223f",
+    "text": "5.3 Transparent Bridges  A transparent bridge works in \"Plug and Play\" mode, i.e.,  when the bridge is attached to two Ethernet LANs it starts  working. The network software configurations of the station  need not be altered in any way. The bridge achieves this  result by operating in promiscuous mode, i.e., it receives all  the frames whether or not they are addressed to it. It builds a  forwarding table by looking at the source address of the  frame that hits its port. Based on the table, the bridge can,  then, forward the frames from one Ethernet to the other. Thus  the description of the operation the transparent bridge as  consisting of the following two basic functions:   Frame filtering and forwarding the frames based on the  forwarding table.   Learning the addresses of  the stations and creating  forwarding table.  1/15/2022  11 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 11,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "e4f99e13730053e14fe27728ea58e1da",
+    "text": "5.3.1 Frame Filtering and Forwarding  As Ethernet LANs operate in broadcast mode, all the frames,  irrespective of their destination, appear at the port of the  bridge connect to the LAN, as shown in figure below.  SA            Bridge  The bridge maintains a table of the MAC address of the all  stations on the extended bridge network. The table is  maintained port-wise. In other words, by looking at the table,  it  is possible to find out  the port on which a particular  destination address is available. When abridge receives a  frame at any of its ports, it takes one of the following actions:  1/15/2022  12 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 12,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "91f2b8521fe3894f488a4873e327f56c",
+    "text": "1. Filtering: If the destination address is available on the same  port through which it received the frame, the bridge filters  the frame.  2. Forwarding: If the bridge determines that the destination  address is available on the different physical port than the  one through which the frame was received, it forwards the  frame onto that port. If the destination address on the frame  is global address or multicast address, the bridge sends the  frame on all its ports except the one from which it received  the frame.  3. Flooding: If the bridge does not find the address in its  forwarding table, it floods (sends) the frame on to all the  physical ports except the one from which it received the  frame.  1/15/2022  13 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 13,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "43b83fd3db03048f7e32255cc0c88073",
+    "text": "5.3.2 Learning Address  When a bridge comes up for the first time, its forwarding table  is empty. It builds up the address database by examining the  source address field of the MAC frames that hits its ports.  Whenever the bridge finds that the source address is not in its  forwarding table, it updates the forwarding table with the  source address and the identity of the port at which the frame  was seen. Thus as the stations exchange the frames, the bridge  gradually builds up its forwarding table. The process can be  understood through the following example:  There are three LANs L1, L2, and L3, two bridges B1and B2,  and five stations, A, C, D, E, and F on the networks, as shown  in the figure below.  1/15/2022  14 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 14,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "ff434764546f0cc44d16d23455936995",
+    "text": "A  F  A  F  L1  L2  L1  L2  A  F  D  E  A  F  D  E  B1  p1  p2  C  p1  p2  B2  B1  p1  p2  C  p1  p2  B2  Ft, B1  P2  P1  A  Fig. a  L3  P1  P2  A  Ft, B2  Ft, B1  P1  P2  A  F  Fig. b  L3  P1  P2  A  Ft, B2  \u27a2To start with, the forwarding table of bridges B1, and B2 are empty. Station A sends a  frame to station F on L1.  \u27a2Bridge B1 receives the frames on its port P1. It floods the frame through its port P2.  It also adds updates to its forwarding table. It adds station A under port P1, Fig. a.  \u27a2Bridge B2 receives the frame on its port P2. It floods the frame through its port P1. It  also updates its forwarding table. It adds stationA under port P2, Fig. a.  \u27a2Station F replies to A on L1. Bridge B1 filters the frame because station A is available  on the same LAN. It also updates its forwarding table. It adds station F under port P1,  Fig. b.  1/15/2022  15 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 15,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "b15461be862452c23ac0f89385681fed",
+    "text": "E   F  L1  L2  A  F  D  E  p1  p1  B1  p2  C  p2  B2  L3  P1  P2  A  F  Fig. c  P1  P2  A  F  Ft, B1  Ft, B2  Fig. c, represents scenario  where Station F sends a  frame to Station E.  The process continues and  the bridges build up their  forwarding tables, Fig. e  P2  P1  EA  CF  D  Ft, B1  1/15/2022  Fig. e  F  E  L1  L2  A  F  D  E  p1  p1  B1  p2  C  p2  B2  P1  P2  EA  F  Fig. d  L3  P1  P2  AE  F  Ft, B1  Ft, B2  P2  P1  AE  FD  C  Ft, B2  Fig. d, represents scenario  where Station E sends a  frame to Station F.  16 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 16,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "9011128869fd7adda9c7cba0c1b5262b",
+    "text": "5.3.3 Multiple Paths Learning.   If the topology of the interconnected Ethernet LANs has loops,  there will be more than one path interconnecting two segments of a  network. Multiple interconnecting paths can affect network  operations in three ways:  \u27a2 Confusion during address learning.   \u27a2 Endless circulation of frames with unknown destination.  \u27a2 Broadcast storm.  A  L1  P1  P1  B1  B2  P2  P2  L2  B  Multiple paths affect address learning.  (Confusion during address learning)  1/15/2022  17 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 17,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "c56785aadfa87a61f91b87c170559bd8",
+    "text": "Anther situation where a broadcast frame, transmitted by   station P, creates a storm of frames.   P  Q  P  Q  L1  L1  B1  B1  B2  B4  B2  B4  L2  L2  B3  B3  L3  L3  Frame storm due to parallel paths  1/15/2022  18 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 18,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a21fc318037ac9a95c4ca8dbbd7615e8",
+    "text": "Multiple paths are built into the network to improve network  resilience against failure of segment or a bridge of a network.  When one path fails,  the alternative path takes over. But  multiple paths can not be allowed to coexist. Therefore, what  we need to ensure is that there is only one path interconnecting  any two segments of network at any point of time in the  network. If there is a failure in any section of the network, an  alternative path is automatically built through the redundant  network resources. This is achieved through the spanning tree  protocol.  1/15/2022  19 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 19,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "44cb7e3069488a9522b84f7388d1ccad",
+    "text": "5.4 Spanning Tree Protocol  A spanning tree is a graph structure that includes all the  bridges and stations on an extended network but it never has  more than one active path connecting any two stations.  Therefore, the complication of multiple path never occur. The  figure below shows the original network and its spanning tree  topology. Note that all the multiple paths have been removed  from the network.  L1  L1  11  27  45  11  27  45  L2  L2  63  63  L3  L3  75  75  L4  L4  1/15/2022  20  Original network                            Spanning tree ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 20,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "f288d314389e42c6c8915b53c70ca140",
+    "text": "What do we need?   an algorithm by which the bridges will be able to drive the  spanning tree automatically.   The algorithm must be such that topological changes in the  network due to additions, deletions of stations or faults are  automatically  discovered  and  spanning  tree  is  reworked  dynamically.  Before we go to the algorithm, let us understand some of the  definitions associated with the algorithm.  Root Bridge: the bridge with the lowest identifier is called the root  bridge.  Port cost: each port of a bridge has an associated cost parameter,  which is the cost of transmitting a frame through the particular  port. The default value of the port cost is 1000/ (bit rate-Mbs). The  port cost is associated with the bits transmission through a port.  Reception of bits through a port has no cost attached to it.  1/15/2022  21 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 21,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "3297e7027e00e123f5a5ec107feb8832",
+    "text": "Root path cost: Root path cost is the cost associated with a path to a  root bridge from a port of another bridge. It is the sum of all the  intervening port cost parameters. Note that cost of the transmitting  ports only is added to arrive at the root path cost.  Root port: A bridge may have several paths emanating from its ports  to the root bridge. The port having the least root path cost is called  \u201cRoot Port.\u201d If there are more than such ports, the port with the  lowest port identification number is chosen as the root port.  Designated bridge: If there are several bridges connected to a LAN  segment, one of the bridges is designated bridge for forwarding the  data frames from that LAN segment. Selection of the designated  bridge is based on the root path cost. The bridge that offers least root  path cost from the LAN segment is selected as the designated bridge  for that LAN segment. If more than one bridge have the same root  path cost, the bridge with lower identifier number is chosen as the  designated bridge.  Designated Port: the port of the designated bridge that connects to the  LAN segment is called designated port.  1/15/2022  22 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 22,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "e83646942e10eb9fad52380fbffa8540",
+    "text": "5.4.1 Bridge Protocol Data Unit (BPDU)  To construct the spanning tree and for other management functions,  a control frame called configuration Bridge Protocol Data Unit  (BPDU) is exchanged by the bridges. Configuration BPDUs are  generated by the bridges and have MAC multicast address. A  configuration BPDU generated by a bridge contains the following  fields:  \u27a2 Bridge Identifier (B-ID).  \u27a2 Root Identifier (R-ID) as perceived by bridge.  \u27a2 Root Path Cost (RPC) of the bridge.  \u27a2 Port Identifier (P-ID).  \u27a2 Any other information.  2  1  1  1  8  4  8  2  8  bytes  Protocol  Port  BPDU   other  R-Id  RPC  B-Id  P-Id  other  Id  ver  type  Format of BPDU  1/15/2022  23 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 23,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "9a00c91d6706ed0fba8ad30a96477da7",
+    "text": "5.4.2 Constructing the Spanning Tree  Constructing the spanning tree involves the following steps:  \u26ab Identification of the root bridge,  \u26ab Identification of the root ports, and  \u26ab Selecting of the designated bridges for every LAN.  After the above steps are carried out, the root ports and the  designated ports of the bridges are set in forwarding mode  ( i.e. they become active for the data frames) and all other  ports are retained in blocked mode. Once this is done, the goal  of spanning tree algorithm is achieved and there will be only  one path from any station in the network.  To understand the spanning tree algorithm, consider  the  following network, Figure 1.  1/15/2022  24 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 24,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "2a8697f867a9a48639ffdf611aa81dec",
+    "text": "L1  P1,  C=10  P1,  C=5  P1,  C=10  27  45  11  P2,  C=10  P2,  C=10  P2,  C=5  L2  P1,  C=5  63  P2,  C=5  L3  P1,  C=10  75  P2,  C=5  L4  Fig. 1  To begin with, all the ports of all the bridges are in blocked  mode. A port in blocked mode does not accept any data frame  but it accepts BPDUs.  1/15/2022  25 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 25,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "d5617bf1ff8fa3617e4fbcb45ae8ce51",
+    "text": "Selection of the root bridge  The bridge with the lowest bridge identifier (B-Id) is selected as  Root Bridge. Root Bridge is identified as follows:  \u27a2 Each bridge asserts that  it  is the root bridge by sending  configuration BPDU on all its ports, Figure 2. It indicates its  identity (B-Id), root bridge identity (R-Id) which is its own  identity, root path cost (RPC) which is zero and port identity (P-Id)  in the BPDUs.  \u27a2 If a bridge receives a configuration BPDU with lower root bridge  identity than its own identity (R-Id < B-Id) on any of its ports,  it  stops sending its configuration BPDU and forwards the received  BPDU on its other ports. When forwarded by a bridge, a BPDU  undergoes the following changes:  \u2013 The bridge puts its own identity in the (B-Id) field.  \u2013 The bridge puts its own port identity in the (P-Id) field.  \u2013 The root path cost is incremented by the cost of the port  through which the BPDU is received because later it will be  transmitting through this port. The root bridge identity (R-Id) is  retained as it is.  1/15/2022  26 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 26,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "3dc7b1fc0db4bd279aae8696566efc3d",
+    "text": "\u27a2 If a bridge receives a configuration BPDU with higher root  bridge identity (R-Id) than its own identity (B-Id) on a port, it  continues sending its configuration BPDUs.  Thus all  the bridges except bridge 11 stop sending their  configuration BPDUs. Bridge 11 is identified as the root  bridge by all the other bridges.  1/15/2022  27 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 27,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "8e7b4cffbe8b3bcf86d2c2a972f8cd3b",
+    "text": "L1  R-Id=11  RPC=0  B-Id=11  P1  10  P-Id=p1  11  R-Id=11  P2  10  RPC=0  B-Id=11  P-Id=p2  L3  Fig. 2  1/15/2022  11  P1  10  R-Id=27  R-Id=27  RPC=0  B-Id=27  27  27  RPC=0  B-Id=27  P-Id=p1  P2  10  P-Id=p2  L2  R-Id=63  P1   RPC=0  B-Id=63  P-Id=p2  P2   P1  10  R-Id=75  RPC=0  R-Id=75  RPC=0  75  75  B-Id=75  P-Id=p2  L4  B-Id=75  P-Id=p1  P2   5  P1   5  R-Id=45  R-Id=45  RPC=0  B-Id=45  45  45  RPC=0  B-Id=45  P-Id=p1  P2   5  P-Id=p2  5  R-Id=63  75  63  RPC=0  B-Id=63  5  P-Id=p1  R-Id: Root Identifier  RPC: Root Path Cost  B-Id: Bridge identifier  P-Id: Port Identifier  28 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 28,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "566811df762213c581ac869ded24acd4",
+    "text": "Identification of the root ports  Every bridge other than the root bridge determines its root port,  which is the port with the lowest root path cost. It involves the  following steps:  \u27a2 The configuration BPDUs generated by the root bridge are  forwarded by all the other bridges on their ports. After making the  necessary changes in the B-Id, P-Id, and RPC fields, Figure 3. The  root path cost is incremented by the cost of the port through which  the BPDU is received.  \u27a2 Each bridge determines which of its ports has the lowest root  path cost and that port is selected as the root port. For example,  bridge 27 receives three BPDUs, one from Root Bridge 11 on port  P1, second from bridge 45 on port P2, and the third from bridge 63  also on port P2. It calculates the root path cost as 10, 15, and 15  from these BPDUs, respectively. It decides P1 as its root port. If  there is a tie, the port with the lower port identifier is selected as  root port.  \u27a2 The root ports are put in the forwarding mode. Other ports  remain in the blocked mode.  1/15/2022  29 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 29,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a8da0ecd59ece93705b86f81a3475f7c",
+    "text": "L1  R-Id=11  RPC=0  B-Id=11  P-Id=p1  11  R-Id=11  RPC=0  B-Id=11  P-Id=p2  L3  Fig. 3  1/15/2022  Root port     10  27  27  10  10  11  Root bridge  10  L2  Root port     10  75  75  L4  5  R-Id=11  RPC=10  B-Id=27  P-Id=p2  63  45  Root port     5  R-Id=11  RPC=10  B-Id=75  P-Id=p2  5  Root port     5  R-Id=11  45  45  RPC=5  B-Id=45  5  P-Id=p2  R-Id=11  RPC=5  B-Id=63  P-Id=p1  R-Id: Root Identifier  RPC: Root Path Cost  B-Id: Bridge identifier  P-Id: Port Identifier  30 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 30,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "7fd9a7166649e98b9a138b1a6370244c",
+    "text": "Selection of the designated bridges and the designated ports  A bridge is designated for each LAN segment to carry its data  frame to the other LAN segments. If there are several bridges  connected to a LAN, the bridge that has the lowest RPC is selected  as the designated bridge. For example, LAN2 has three bridges 27,  45, and 63attached to it, bridge 45 is the designated bridge for  LAN2. Port, P2, of bridge 45 that connects to LAN2, is called the  designated port.  The decision of selecting the designated bridge is made by the  bridges themselves. For example, in case of LAN2 the bridges 27,  45, 63 decide as follows:  \u26ab When bridge 45 receives BPDUs offering RPC of 10 from bridge  27 and RPC of 5 from bridge 63, it decides as follows:  \u2660 Bridge 27 has higher RPC and therefore it can not be the  designated bridge for LAN2.  \u2660 Bridge 63 has the same RPC but it has higher B-Id and  therefore it can not be designated bridge for LAN2.  1/15/2022  31 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 31,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "2220f4b7c038c4d16a73fa2e11b2b2ab",
+    "text": "Having carried out this exercise, bridge 45 assumes the role of  the designated bridge and puts its port P2 (designated port) in  the forwarding mode.  \u26ab Bridges 27 and 63 carry out similar exercise and decides to  keep their ports that connect to LAN2 in the blocked mode.  The ultimate network scenario is shown in Figure 4. The  dotted lines the blocked link. Note that the root bridge is the  designated bridge for all the LANs connected to it directly.  From this moment onwards, normal network operation is  possible. Every station will have only one path to any other  station on the network.  1/15/2022  32 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 32,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "5490c97460634aee2d716ea08d26dec8",
+    "text": "L1  Designated  11  Bridge     L3  Fig. 4  1/15/2022  10  11  10  Root port    10  27  27  10  Root bridge  L2  Root port     10  75  75  5  L4  5  45  Root port     5  Designated  Bridge     Root port     5  45  45  63  5  Designated  bridge  33 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 33,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "7f84d9d909b34f3b991bb7dfa16fc6d5",
+    "text": "5.5 Layer 2 Ethernet Switches  We have seen three types of Ethernet devices so far-  repeater, hub, and transparent bridge. These devices are  required when there is need to expand a local area network  in terms of the number of stations and their geographic  distribution. During 1990s, these Ethernet devices replaced  by Ethernet switches, also called layer-2 switches.  5.5.1 Motivations Behind Ethernet Layer-2 Switches.  Layer-2 switches were introduced in the network when the  required data rate, geographic coverage, and number of  stations could not be supported on the Ethernet. In the  following there are some issues involved and how layer -2  switches could address these issues. ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 34,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f0f0c073ab3de8095729359f973c931d",
+    "text": "1/15/2022",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 34,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1eb03d4e0585332abb6ec76621f99267",
+    "text": "34",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 34,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "5dfaa8681c78f41dd3999a9eb8b75cbf",
+    "text": "Collision domain  As shown in the following figure, in case of repeater or a  hub, there is one Ethernet and one collision domain. As the  numbers of stations and transmission rate increases, so  does the collisions and eventually a stage comes the  throughput performance deteriorates. At  this stage it  becomes necessary to partition the local area network using  a bridge.  A bridge has buffer and it uses a store and forward  mechanisms  to send the frames. Store and forward  mechanism does not allow frames on one segment of the  network to collide with the frames on the other segment of  the network.  1/15/2022  35 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 35,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "fd993a1006415d3ed405bbdf280d2b86",
+    "text": "One ethernet one  colision domain  (a) Repeater.  1/15/2022  Two ethernets   Two colision   domains  (c) Bridge  One ethernet one  colision domain  (b) Hub  36 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 36,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "a1e7ce693a9016b72d40eb94b88932be",
+    "text": "Therefore, a bridge effectively partitions the network into separate  Ethernets, each having its own collision domain. Thus the  constraint of supporting large number of stations on one local area  network is overcome. But a bridge has limitations of number of  ports. It can partition a LAN in a few segments, say two or four,  which does not meet the requirement.  Layer-2 switch is functionally a multi-port bridge. It can have a  number of ports ranging from 12 to a few hundreds. With such  large number of ports it is possible to create big collision free  network. Each station is connected to the switch on point-to-point  full duplex Ethernet link.  Multi-rate adaptation  Repeaters and hub do not support different speeds at their ports,  i.e., 10 Mbps Ethernet can not be interconnected with100 Mbps  Ethernet using a hub or repeater. A transparent bridge can do this  because it has buffer to store the frames temporarily. But this  capability is fully made use of in layer-2 switches.  1/15/2022  37 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 37,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "71a5828ddbdbcdae5acb7155e1e6a931",
+    "text": "5.5.2 Latency in Ethernet Layer-2 Switch  When a frame is received on a port of a switch , the source address  is added to the forwarding table, if it is not already there. The  destination address in the frame is searched in the forwarding table  for determining the output port of the switch. The frame is put in  the queue for subsequent transmission on that port. Such layer2  switch is categorized as store and forward switch.  In a store and forward switch, the latency time is the time taken  from ingress of the frame to its egress from switch. Minimum  latency will be when there are no frames in the queue. For a 1500  octets frame at 10 Mbps the latency comes to over 1ms. Latency of  the switch can be reduced by starting to forward the frame on the  output port as soon as the source and the destination address have  been received. Such layer-2 switch is called cut-through switch  and it reduces the switch latency to less than 50\u00b5s.  1/15/2022  38 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 38,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "1a81ce1ef29adcb2cb1067eb3d6fbbee",
+    "text": "However,  there are several situations where cut-through  switching will not work or may not be desirable. For example:  \u27a2 If the destination port is busy, the frame must put in the  queue, so there is no advantage gained.  \u27a2 The source and the destination ports must be operating at  the same data rate for cut-through to work.  \u27a2 If an error is detected in a frame, a store and forward switch  will  filter  the frame but a cut-through switch will not.  Therefore, if error rate is above a defined threshold, the cut-  through switches are designed to change over to store and  forward mode.  1/15/2022  39 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 39,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "07e297931ce25b09e2fbc8c95d01c209",
+    "text": "5.5.3 Basic Features of Ethernet Layer-2 Switch  Considering that layer-2 switch is functionally similar to a  multiple port bridge, so the basic features of layer-2  switch can be summarized as follows:  -2 switches operate in the same way as  1. Layer  transparent bridges for functions like address learning,  filtering, and forwarding frames. They also have  forwarding tables like bridges.  2. Spanning tree protocol is used to remove multiple paths  between two stations.  3. Most of the stations are connected to switches on full  duplex point to point links.  4. They support rate adaptation, i.e., a switch can send  with the transmission rate at 100 Mbps on a port to  another port of rate 10 Mbps.  1/15/2022  40 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 40,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  },
+  {
+    "type": "Image",
+    "element_id": "ce93d4a4a2a2115e100b45ffe7d47657",
+    "text": "5. The network is collision free if only point-to-point full  duplex links are used.  6. a switch can have large number of ports. Several  switches can be interconnected to meet  the port  requirements.  As compared to a bridge, a switch is faster because several  of its functions are implemented in hardware. The  current  implementation of  layer-2 networks use  switches instead of bridges.  1/15/2022  41 ",
+    "metadata": {
+      "filetype": "application/pdf",
+      "languages": [
+        "eng"
+      ],
+      "page_number": 41,
+      "filename": "network1\\Chapter_Five_layer_2_switches.pdf"
+    }
+  }
+]

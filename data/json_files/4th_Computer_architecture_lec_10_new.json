@@ -1,0 +1,3373 @@
+[
+  {
+    "type": "Title",
+    "element_id": "e9bcfb6b79cefe82afd2f19dd944fd6c",
+    "text": "Lecture 10 Pipelining: Basic Concepts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            229.198822,
+            215.02663
+          ],
+          [
+            229.198822,
+            384.97345
+          ],
+          [
+            489.855072,
+            384.97345
+          ],
+          [
+            489.855072,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+    "text": "What Is Pipelining?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            406.59530194,
+            106.56259899999998
+          ],
+          [
+            406.59530194,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3baa72911c34df8832c2229ee24a378a",
+    "text": "Pipelining is an implementation technique whereby multiple instructions are overlapped in execution.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            620.1123687655064,
+            238.3484168
+          ],
+          [
+            620.1123687655064,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 2,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "93a41df26c8909572c8b0f904800d97f",
+    "text": "If the system repeatedly executes a basic function, it divides the execution of an operation into a sequential independent stages.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            645.0569343177723,
+            338.84841324
+          ],
+          [
+            645.0569343177723,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 2,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "56259f200d381409ee4bb29562280c3e",
+    "text": "In a computer pipeline, each stage in the pipeline completes a part of an instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843484
+          ],
+          [
+            633.291578345089,
+            409.34843484
+          ],
+          [
+            633.291578345089,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 2,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "92b3c1ec4e5cf4624aae72ecb0ff62f2",
+    "text": "The stages are connected one to the next to form a pipe through a register for synchronization.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            420.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84843484
+          ],
+          [
+            653.904052681312,
+            479.84843484
+          ],
+          [
+            653.904052681312,
+            420.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 2,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b653780008a8b23f8964e64ef123b572",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 3,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "92945d0d5fd46a439ad09530db74503d",
+    "text": "Although it is critical to ensure that instructions in the pipeline do not attempt to use the hardware resources at the same time, we must also ensure that instructions in different stages of the pipeline do not interfere with one another.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            284.09842335999997
+          ],
+          [
+            641.981233478882,
+            284.09842335999997
+          ],
+          [
+            641.981233478882,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 3,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f2b3c5665e06b94f493691007c02192d",
+    "text": "This separation is done by introducing pipeline registers between successive stages of the pipeline, so that at the end of a clock cycle all the results from a given stage are stored into a register that is used as the input to the next stage on the next clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            291.7820171173438
+          ],
+          [
+            46.38302830504534,
+            455.84840740000004
+          ],
+          [
+            658.2420913639454,
+            455.84840740000004
+          ],
+          [
+            658.2420913639454,
+            291.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 3,
+      "parent_id": "8a515ac1e1c6e5a3a4b0cd1ef94ae906",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "992127564b29edacf86b34cf5afb96a8",
+    "text": "Optimization of a Pipeline",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            517.7437404,
+            106.56259899999998
+          ],
+          [
+            517.7437404,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "19ff59c76c8eed84ef8d774a5a1b5293",
+    "text": "Because the pipe stages are hooked together, all the stages must be ready to proceed at the same time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.7918413,
+            149.87966892000003
+          ],
+          [
+            44.7918413,
+            252.09841900000004
+          ],
+          [
+            595.980068,
+            252.09841900000004
+          ],
+          [
+            595.980068,
+            149.87966892000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 5,
+      "parent_id": "992127564b29edacf86b34cf5afb96a8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "25b83438502df87024637760d35a641a",
+    "text": "Because all stages proceed at the same time, the length of a processor cycle is determined by the time required for the slowest pipe stage.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.7918413,
+            263.12966992
+          ],
+          [
+            44.7918413,
+            399.84842000000003
+          ],
+          [
+            655.23006824,
+            399.84842000000003
+          ],
+          [
+            655.23006824,
+            263.12966992
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 5,
+      "parent_id": "992127564b29edacf86b34cf5afb96a8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6865ca03269a3d0cce1db80682bacb9c",
+    "text": "The pipeline designer\u2019s goal is to balance the length of each pipeline stage.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.7918413,
+            410.87966991999997
+          ],
+          [
+            44.7918413,
+            478.59842
+          ],
+          [
+            604.7769434400001,
+            478.59842
+          ],
+          [
+            604.7769434400001,
+            410.87966991999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 5,
+      "parent_id": "992127564b29edacf86b34cf5afb96a8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5417edf07b164d2d3b8dcf4a2d1df46f",
+    "text": "Speedup",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            213.17538116000003,
+            106.56259899999998
+          ],
+          [
+            213.17538116000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2ff59d288c3711c7f7bbd1e1558bb3f6",
+    "text": "The throughput of an instruction pipeline is determined by how often an instruction exits the pipeline.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            631.205909434076,
+            238.3484168
+          ],
+          [
+            631.205909434076,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 6,
+      "parent_id": "5417edf07b164d2d3b8dcf4a2d1df46f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "16026c48d2dfa2edc8ce4ef23702459b",
+    "text": "Let a pipeline of depth k, can process n items in \u2018n+ k\u2019 steps (throughput), where, without pipeline it takes \u2018n x k\u2019, therefore, Speedup = (n x k) / (n + k)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            650.480641947644,
+            338.84841324
+          ],
+          [
+            650.480641947644,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 6,
+      "parent_id": "5417edf07b164d2d3b8dcf4a2d1df46f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fae43fde13e35861b40a4f861480c71f",
+    "text": "Example: Add 100 pairs of numbers, one Add takes 5 cycles, i. e., k = 5, n = 100. Speedup = 5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            351.34843532
+          ],
+          [
+            56.698818,
+            490.34843644
+          ],
+          [
+            649.5042711232517,
+            490.34843644
+          ],
+          [
+            649.5042711232517,
+            351.34843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 6,
+      "parent_id": "5417edf07b164d2d3b8dcf4a2d1df46f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b332b4e7ae2b1dd030e42516d0271d4",
+    "text": "Major Areas in Computer Design",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            636.8003824,
+            106.56259899999998
+          ],
+          [
+            636.8003824,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f1637c43aaf4fae31a399315ef12d2b9",
+    "text": "Pipelines are used in two major areas in computer design: \u2022 Instruction Level Processing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.7918413,
+            149.87966892000003
+          ],
+          [
+            44.7918413,
+            257.34842000000003
+          ],
+          [
+            589.8550682399999,
+            257.34842000000003
+          ],
+          [
+            589.8550682399999,
+            149.87966892000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 7,
+      "parent_id": "0b332b4e7ae2b1dd030e42516d0271d4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b6c8e7a2b263e6581031f7d01cb351e1",
+    "text": "Arithmetic Operations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.791841,
+            303.62966991999997
+          ],
+          [
+            80.791841,
+            336.84842
+          ],
+          [
+            398.41756828,
+            336.84842
+          ],
+          [
+            398.41756828,
+            303.62966991999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 7,
+      "parent_id": "0b332b4e7ae2b1dd030e42516d0271d4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a98249ef8b35c79ce285b5aea2d7c87b",
+    "text": "Which yields, what we called \u2018 Reduced Instruction Set Computer (RISC)\u2019.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            384.34842
+          ],
+          [
+            92.698818,
+            450.84842
+          ],
+          [
+            601.3238181600001,
+            450.84842
+          ],
+          [
+            601.3238181600001,
+            384.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d28826517d7cb5f074a8af4d11fb8679",
+    "text": "The Basics of a RISC Instruction Set",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            63.68759899999998
+          ],
+          [
+            56.698818,
+            103.68759899999998
+          ],
+          [
+            633.3355366,
+            103.68759899999998
+          ],
+          [
+            633.3355366,
+            63.68759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0d100adcd99483e131eab5d34c5fe440",
+    "text": "All operations on data apply to data in registers and typically change the entire register (32 or 64 bits per register).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            624.4619038470744,
+            238.3484168
+          ],
+          [
+            624.4619038470744,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 8,
+      "parent_id": "d28826517d7cb5f074a8af4d11fb8679",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "941dcadbf769216a24b6c946cc397d7e",
+    "text": "The only operations that affect memory are load and store operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            624.1516942581143,
+            308.84842484
+          ],
+          [
+            624.1516942581143,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 8,
+      "parent_id": "d28826517d7cb5f074a8af4d11fb8679",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8a7c2aa7af93e2ad9c248e4e980f8e39",
+    "text": "The instruction formats are few in number, with all instructions typically being one size.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843484
+          ],
+          [
+            649.3767762574622,
+            379.34843484
+          ],
+          [
+            649.3767762574622,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 8,
+      "parent_id": "d28826517d7cb5f074a8af4d11fb8679",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "37c1bccff3e6a674da9781b4a4a261c5",
+    "text": "Classes of Instructions:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            463.56210072,
+            106.56259899999998
+          ],
+          [
+            463.56210072,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fe19d19965c89d3af7fa894fa2f794f0",
+    "text": "Most RISC architectures, like MIPS, have three classes of instructions: 1- ALU instructions\u2014These instructions take either two registers or a register and a sign-extended immediate. 2- Load and store instructions 3- Branches and jumps",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            150.34842388000004
+          ],
+          [
+            56.698818,
+            389.84843644
+          ],
+          [
+            630.3432870010231,
+            389.84843644
+          ],
+          [
+            630.3432870010231,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 9,
+      "parent_id": "37c1bccff3e6a674da9781b4a4a261c5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12f8cc28b061318cfd2e73b54176f701",
+    "text": "A Simple Implementation of a RISC Instruction Set",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            45.68759899999998
+          ],
+          [
+            56.698818,
+            120.68759899999998
+          ],
+          [
+            575.63631844,
+            120.68759899999998
+          ],
+          [
+            575.63631844,
+            45.68759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8f73cc4ee010f42eef11dcb0a452629",
+    "text": "To understand how a RISC instruction set can be implemented in a pipelined fashion, we need to understand how it is implemented without pipelining.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            618.9295087085371,
+            268.34841919999997
+          ],
+          [
+            618.9295087085371,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 10,
+      "parent_id": "12f8cc28b061318cfd2e73b54176f701",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e4f5611a7f0b27686410268b4ca89483",
+    "text": "Every instruction in this RISC subset can be implemented in at most 5 clock cycles.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            558.1019201650888,
+            338.84843484
+          ],
+          [
+            558.1019201650888,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 10,
+      "parent_id": "12f8cc28b061318cfd2e73b54176f701",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "46165dea5e25470285953f2a0d054409",
+    "text": "The 5 clock cycles are as follows: IF(cid:0) ID/ OF(cid:0)EX(cid:0) MEM(cid:0)WB",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843644
+          ],
+          [
+            443.1511483698169,
+            419.84843644
+          ],
+          [
+            443.1511483698169,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 10,
+      "parent_id": "12f8cc28b061318cfd2e73b54176f701",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+    "text": "Instruction Level Pipeline",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            504.74374120000004,
+            106.56259899999998
+          ],
+          [
+            504.74374120000004,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7459c5eea1b328b84f47378833b8c1e1",
+    "text": "We can pipeline the execution described above with almost no changes by simply starting a new instruction on each clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            623.3615540003017,
+            238.3484168
+          ],
+          [
+            623.3615540003017,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 11,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "07b9d838855406b0910823a081ce5606",
+    "text": "Each of the clock cycles from the previous section becomes a pipe stage\u2014a cycle in the pipeline. \u2022 Although each instruction takes 5 clock cycles to complete, during each clock cycle the hardware will initiate a new instruction and will be executing some part of the five different instructions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            439.34844164000003
+          ],
+          [
+            648.1953371233083,
+            439.34844164000003
+          ],
+          [
+            648.1953371233083,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 11,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8150df4332f3e721ca41b3eff9989ff0",
+    "text": "Problems that pipelining introduces \u2022 To start with, we have to determine what happens on every clock cycle of the processor and make sure we don\u2019t try to perform two different operations with the same data path resource on the same clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            38.93759899999998
+          ],
+          [
+            46.38302830504534,
+            298.34842260000005
+          ],
+          [
+            644.9485030003316,
+            298.34842260000005
+          ],
+          [
+            644.9485030003316,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 13,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dec6d378969979d810645185a458849f",
+    "text": "For example, a single ALU cannot be asked to compute an effective address (for memory operation) and perform a subtract operation at the same time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            309.78202895734375
+          ],
+          [
+            46.38302830504534,
+            428.84844164000003
+          ],
+          [
+            652.4472903664899,
+            428.84844164000003
+          ],
+          [
+            652.4472903664899,
+            309.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 13,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4390c6c190f9024cb3e0c2749165117c",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 14,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7611d54a0f1e1c17798c09c469f1b075",
+    "text": "We use separate instruction and data memories, which we would typically implement with separate instruction and data caches to eliminates a conflict for a single memory that would arise between instruction fetch and data memory access.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            298.34842260000005
+          ],
+          [
+            650.9952434256493,
+            298.34842260000005
+          ],
+          [
+            650.9952434256493,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 14,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bb51ac2777d559b612120f4fbd89ae81",
+    "text": "The register file is used in the two stages: one for reading in ID and one for writing in WB. To handle reads and a write to the same register, we perform the register write in the first half of the clock cycle and the read in the second half.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            309.78202895734375
+          ],
+          [
+            46.38302830504534,
+            458.84845004
+          ],
+          [
+            649.752988868373,
+            458.84845004
+          ],
+          [
+            649.752988868373,
+            309.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 14,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c914deac03898d97c198d2c798c06ee3",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 15,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c3e540c359413da5c2d97b364a9a050b",
+    "text": "To start a new instruction every clock, we must increment and store the PC every clock, and this must be done during the IF stage in preparation for the next instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            653.6706879754256,
+            268.34841919999997
+          ],
+          [
+            653.6706879754256,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 15,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ccecc7cee4ff450f8c24b00390aea539",
+    "text": "Furthermore, we must also have an adder to compute the potential branch target during ID. \u2022 One further problem is that a branch does not",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843644
+          ],
+          [
+            605.0044672411908,
+            379.34843644
+          ],
+          [
+            605.0044672411908,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 15,
+      "parent_id": "1794a94b2f1c3ba4d36eef6fe6206929",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4b1814290b138c5ef7f6cdaec4fd05b4",
+    "text": "change the PC until the ID stage.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881504,
+            381.34843372
+          ],
+          [
+            74.69881504,
+            409.34843484
+          ],
+          [
+            442.01826737829475,
+            409.34843484
+          ],
+          [
+            442.01826737829475,
+            381.34843372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "026177cecb5816491a042246766f56bd",
+    "text": "Pipeline Registers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            367.66561604000003,
+            106.56259899999998
+          ],
+          [
+            367.66561604000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "53c496831282462724c613ea266fe63e",
+    "text": "Although it is critical to ensure that instructions in the pipeline do not attempt to use the hardware resources at the same time, and also ensure that instructions in different stages of the pipeline do not interfere with one another.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            284.09842335999997
+          ],
+          [
+            640.3882245489548,
+            284.09842335999997
+          ],
+          [
+            640.3882245489548,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 17,
+      "parent_id": "026177cecb5816491a042246766f56bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5dc8cc532603c452aa7163df896cb3c0",
+    "text": "This separation is done by introducing pipeline registers between successive stages of the pipeline.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            291.7820171173438
+          ],
+          [
+            46.38302830504534,
+            347.84842116
+          ],
+          [
+            658.3241526872266,
+            347.84842116
+          ],
+          [
+            658.3241526872266,
+            291.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 17,
+      "parent_id": "026177cecb5816491a042246766f56bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5988294675d7fe8de5a239c0a25c09fe",
+    "text": "So that at the end of a clock cycle all the results from a given stage are stored into a register that is used as the input to the next stage on the next clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            355.5320171173438
+          ],
+          [
+            46.38302830504534,
+            465.59841428
+          ],
+          [
+            644.352596935116,
+            465.59841428
+          ],
+          [
+            644.352596935116,
+            355.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 17,
+      "parent_id": "026177cecb5816491a042246766f56bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "146f1823da90708c6bd96875c1c8e1e0",
+    "text": "Pipeline Hazards",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            358.10311572000006,
+            106.56259899999998
+          ],
+          [
+            358.10311572000006,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "30f312ff6316ea304a3cd811e9102bb5",
+    "text": "There are situations, called hazards, that prevent the next instruction in the instruction stream from executing during its designated clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            645.2761631168858,
+            238.3484168
+          ],
+          [
+            645.2761631168858,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 19,
+      "parent_id": "146f1823da90708c6bd96875c1c8e1e0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d2e114e4cf45e471fa6e54c2ebd1212d",
+    "text": "Hazards reduce the performance from the ideal speedup gained by pipelining.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            620.090675706708,
+            308.84842484
+          ],
+          [
+            620.090675706708,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 19,
+      "parent_id": "146f1823da90708c6bd96875c1c8e1e0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+    "text": "Classes of hazards",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            377.68905414,
+            106.56259899999998
+          ],
+          [
+            377.68905414,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b9cd56b148a8a58a8503b3f01f287474",
+    "text": "There are three classes of hazards: \u2022 1. Structural hazards arise from resource conflicts when the hardware cannot support all possible combinations of instructions simultaneously in overlapped execution.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            308.84841164000005
+          ],
+          [
+            637.7744025731135,
+            308.84841164000005
+          ],
+          [
+            637.7744025731135,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 20,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8daa4fef5297ac460a448a70e7fa6306",
+    "text": "2. Data hazards arise when an instruction depends on the results of a previous instruction .",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843484
+          ],
+          [
+            650.8301450287736,
+            379.34843484
+          ],
+          [
+            650.8301450287736,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 20,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ebdbdddf49be0eee80dcac4b0a435ca2",
+    "text": "3. Control hazards arise from the pipelining of branches and other instructions that change the PC.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            390.78202895734375
+          ],
+          [
+            46.38302830504534,
+            479.84844324
+          ],
+          [
+            620.5852273195933,
+            479.84844324
+          ],
+          [
+            620.5852273195933,
+            390.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 20,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7df6ce0c6a72983b0ff173035b390560",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 21,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c27a1d32321c55413fb255f1c6e23b0c",
+    "text": "Hazards in pipelines can make it necessary to stall the pipeline.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            638.7923944999326,
+            208.34841339999997
+          ],
+          [
+            638.7923944999326,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 21,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "66187b06a1abaf9ee4597554ef458ddd",
+    "text": "Instructions issued earlier than the stalled instruction\u2014and hence farther along in the pipeline\u2014must continue, since otherwise the hazard will never clear.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            338.84841164000005
+          ],
+          [
+            589.6886443595931,
+            338.84841164000005
+          ],
+          [
+            589.6886443595931,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 21,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d24d5404d2e446029cacbe7ba9069631",
+    "text": "As a result, no new instructions are fetched during the stall.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34843484
+          ],
+          [
+            645.4458754685022,
+            409.34843484
+          ],
+          [
+            645.4458754685022,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 21,
+      "parent_id": "f06fb304ce1fff3cb0ad6bedea6c9c9b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "887da4137dbb8b7b00a9a7a18541aa8a",
+    "text": "Solution for Structural Hazards",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            601.9859286399999,
+            106.56259899999998
+          ],
+          [
+            601.9859286399999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "834f06d529d7a30c82b1dd75838fe7fb",
+    "text": "When a processor is pipelined, the overlapped execution of instructions requires pipelining of functional units and duplication of resources to allow all possible combinations of instructions in the pipeline.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            284.09842335999997
+          ],
+          [
+            623.9744696579203,
+            284.09842335999997
+          ],
+          [
+            623.9744696579203,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 22,
+      "parent_id": "887da4137dbb8b7b00a9a7a18541aa8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "322cc31c3bf613aa2b004dd2fe62fa7c",
+    "text": "Structural hazards arise when some functional unit is not fully pipelined.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            291.7820171173438
+          ],
+          [
+            46.38302830504534,
+            347.84842116
+          ],
+          [
+            650.964599114079,
+            347.84842116
+          ],
+          [
+            650.964599114079,
+            291.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 22,
+      "parent_id": "887da4137dbb8b7b00a9a7a18541aa8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8370f463fb0917d3a7ee162627dd7a7d",
+    "text": "Another common way that structural hazards appear is when some resource has not been duplicated enough to allow all combinations of instructions in the pipeline to execute.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            355.5320171173438
+          ],
+          [
+            46.38302830504534,
+            465.59841428
+          ],
+          [
+            605.8714536372496,
+            465.59841428
+          ],
+          [
+            605.8714536372496,
+            355.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 22,
+      "parent_id": "887da4137dbb8b7b00a9a7a18541aa8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bc3bcb6accace036a02bc48a2386b7d4",
+    "text": "Example: a load with one memory port \u2022 Some pipelined processors have shared a single-memory",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            38.93759899999998
+          ],
+          [
+            47.698818,
+            174.34841900000004
+          ],
+          [
+            626.58553788,
+            174.34841900000004
+          ],
+          [
+            626.58553788,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "parent_id": "887da4137dbb8b7b00a9a7a18541aa8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf3ca21f9b55c7c11447775183affcf8",
+    "text": "pipeline for data and instructions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            176.59841900000004
+          ],
+          [
+            74.698818,
+            200.59841900000004
+          ],
+          [
+            402.35506946000004,
+            200.59841900000004
+          ],
+          [
+            402.35506946000004,
+            176.59841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2b4f3af5ad805f5ae459ecc0797293bd",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "parent_id": "cf3ca21f9b55c7c11447775183affcf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bb4655276d815d29c903f4d3fc634fce",
+    "text": "As a result, when an instruction contains a data memory reference, it will conflict with the instruction reference for a later instruction, as shown in Figure C.4.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            212.59842000000003
+          ],
+          [
+            74.698818,
+            289.09842000000003
+          ],
+          [
+            654.1949133399997,
+            289.09842000000003
+          ],
+          [
+            654.1949133399997,
+            212.59842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "parent_id": "cf3ca21f9b55c7c11447775183affcf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4fe36058a0470cf12eed73ad0f384953",
+    "text": "To resolve this hazard, we stall the pipeline for 1 clock cycle when the data memory access occurs.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            351.34842
+          ],
+          [
+            650.00350626,
+            351.34842
+          ],
+          [
+            650.00350626,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "parent_id": "cf3ca21f9b55c7c11447775183affcf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a9090959578955811b61a0009a0264b5",
+    "text": "For the following figure, the load instruction uses the memory for a data access, and at the same time instruction 3 wants to fetch an instruction from memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            362.43435744
+          ],
+          [
+            47.698818,
+            439.84842
+          ],
+          [
+            651.9097567,
+            439.84842
+          ],
+          [
+            651.9097567,
+            362.43435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 23,
+      "parent_id": "cf3ca21f9b55c7c11447775183affcf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e354b9a83fc5ec3d6b8b6347ca61a56",
+    "text": "Data Hazards",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            296.10311492,
+            106.56259899999998
+          ],
+          [
+            296.10311492,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1286de20e79e46b8979a8394005f083f",
+    "text": "Consider the pipelined execution of these instructions: I1: ADD R1,R2,R3 I2: SUB R4,R1,R5 Where, R1 is the output of I1, and input in I2. Solution: By using Forwarding (Bypassing) hardware. When it detects that the previous ALU operation has the source for the current ALU operation, control logic (MUX) selects the forwarded result as an ALU input rather than the value read from the register file.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            148.17341537249996
+          ],
+          [
+            56.698818,
+            455.32339667250005
+          ],
+          [
+            648.720629482646,
+            455.32339667250005
+          ],
+          [
+            648.720629482646,
+            148.17341537249996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 26,
+      "parent_id": "5e354b9a83fc5ec3d6b8b6347ca61a56",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0c6d7d28f5bd6cfc119d322207f70455",
+    "text": "Branch Hazards (sol: Branch Prediction)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            38.93759899999998
+          ],
+          [
+            56.698818,
+            130.18759899999998
+          ],
+          [
+            559.83535108,
+            130.18759899999998
+          ],
+          [
+            559.83535108,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+    "text": "Pipelined Datapath",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            406.09530172000007,
+            106.56259899999998
+          ],
+          [
+            406.09530172000007,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a6999e67a1779a7d5d37d9360b1c95f2",
+    "text": "The following Figure (a) illustrates maximum delay values for each of the components of a typical datapath.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            644.1668493304447,
+            238.3484168
+          ],
+          [
+            644.1668493304447,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 29,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a44abe72fb530d61e3d6096ddf80634c",
+    "text": "We find that 2.4 ns is required to perform a single microoperation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            638.5378075342484,
+            308.84842484
+          ],
+          [
+            638.5378075342484,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 29,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6279362447c4a287a8ced4245631296e",
+    "text": "The resulting datapath, sketched in Figure (b), is referred to as a pipelined datapath, or just a pipeline.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34844324
+          ],
+          [
+            617.3181131916677,
+            409.34844324
+          ],
+          [
+            617.3181131916677,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 29,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d5164ca7eedf488c655d2776812c8bc8",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 31,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9936d216693ded92640350a235643d52",
+    "text": "The first stage, OF, is the operand fetch stage. The operand fetch consists of reading register values to be used from the register file and, for Bus B, selecting between a register value or a constant by using MUX B.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            284.09842335999997
+          ],
+          [
+            651.8141407659914,
+            284.09842335999997
+          ],
+          [
+            651.8141407659914,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 31,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d4b20234c30dcb386e47f834e2a06b76",
+    "text": "Following the OF stage is the first pipeline platform.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            291.7820171173438
+          ],
+          [
+            46.38302830504534,
+            347.84842116
+          ],
+          [
+            554.1191611919854,
+            347.84842116
+          ],
+          [
+            554.1191611919854,
+            291.7820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 31,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8bc8b4929b9051036f01664915d6932c",
+    "text": "The pipeline registers store the operand or operands for use in the next stage during the next clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            355.5320171173438
+          ],
+          [
+            46.38302830504534,
+            438.59841772000004
+          ],
+          [
+            640.0912144308676,
+            438.59841772000004
+          ],
+          [
+            640.0912144308676,
+            355.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 31,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6baadcbb1bb1636f11e55c7e16916d64",
+    "text": "And so on for the next stages.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            446.2820171173438
+          ],
+          [
+            46.38302830504534,
+            475.34842460000004
+          ],
+          [
+            411.4536105970878,
+            475.34842460000004
+          ],
+          [
+            411.4536105970878,
+            446.2820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 31,
+      "parent_id": "64eeee3ac08ff8ccc60cb86a61a0f385",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c5803bfdfc1b6b1a6d351eafe62fde52",
+    "text": "Pipelined Control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            371.67342828,
+            106.56259899999998
+          ],
+          [
+            371.67342828,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c4ec14443021304e6e078db1d0082349",
+    "text": "The control has an added stage for instruction fetch that includes the PC and instruction memory. \u2022 This becomes stage 1 of the combined pipeline. \u2022 The instruction decoder and register file read are now",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            147.18698954249606
+          ],
+          [
+            47.07881835847694,
+            267.82342479499994
+          ],
+          [
+            639.3740662415655,
+            267.82342479499994
+          ],
+          [
+            639.3740662415655,
+            147.18698954249606
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 33,
+      "parent_id": "c5803bfdfc1b6b1a6d351eafe62fde52",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4614075df7e125026dfb3c3b0961d613",
+    "text": "in stage 2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881993999999,
+            266.6734125075
+          ],
+          [
+            74.69881993999999,
+            292.5734120875
+          ],
+          [
+            181.03143184391809,
+            292.5734120875
+          ],
+          [
+            181.03143184391809,
+            266.6734125075
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0b740da0c3043479aadfa78be10d873b",
+    "text": "The function unit and data memory read and write are in stage 3,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            300.1869993849961
+          ],
+          [
+            47.07881835847694,
+            351.8234120875
+          ],
+          [
+            646.6068832295074,
+            351.8234120875
+          ],
+          [
+            646.6068832295074,
+            300.1869993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 33,
+      "parent_id": "4614075df7e125026dfb3c3b0961d613",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6cdbd8c2ac4e4b221e002909a59fa159",
+    "text": "And the register file write back is in stage 4. \u2022 The control information held in the final pipeline platform consists of DA, MD, and RW, which are used in the final write-back stage, WB.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            359.4369993849961
+          ],
+          [
+            47.07881835847694,
+            470.32339938
+          ],
+          [
+            656.0829919229946,
+            470.32339938
+          ],
+          [
+            656.0829919229946,
+            359.4369993849961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 33,
+      "parent_id": "4614075df7e125026dfb3c3b0961d613",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8abc861089c0110cd8c470a2db3914b0",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 35,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0960f48d04c764cfde94e38fe945a9dc",
+    "text": "Text Book \u2018Hennessy",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            306.35648983182386,
+            178.34842500000002
+          ],
+          [
+            306.35648983182386,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 10 new.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:32",
+      "page_number": 35,
+      "parent_id": "8abc861089c0110cd8c470a2db3914b0",
+      "filetype": "application/pdf"
+    }
+  }
+]

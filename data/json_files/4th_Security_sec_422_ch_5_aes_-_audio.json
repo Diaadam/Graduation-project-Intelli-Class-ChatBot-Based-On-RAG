@@ -1,0 +1,4134 @@
+[
+  {
+    "type": "Title",
+    "element_id": "de23a77db673f6cb5f014e5308c2a4b5",
+    "text": "Cryptography and Network Security Chapter 5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.112,
+            126.44000000000005
+          ],
+          [
+            53.112,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            126.44000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f353d0f249a1d9a4877a7895c8d07235",
+    "text": "Fifth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            388.26160000000004
+          ],
+          [
+            50.352,
+            404.86
+          ],
+          [
+            147.08268,
+            404.86
+          ],
+          [
+            147.08268,
+            388.26160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "parent_id": "de23a77db673f6cb5f014e5308c2a4b5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7ddaac86771fee03472e518a64ed1fb1",
+    "text": "by William Stallings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            68.352,
+            406.18
+          ],
+          [
+            68.352,
+            422.14
+          ],
+          [
+            197.38696,
+            422.14
+          ],
+          [
+            197.38696,
+            406.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6684e21a3ce261e4e164d973d79e0bbb",
+    "text": "Lecture slides by Lawrie Brown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            440.08464000000004
+          ],
+          [
+            50.352,
+            474.006
+          ],
+          [
+            175.8444,
+            474.006
+          ],
+          [
+            175.8444,
+            440.08464000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "parent_id": "7ddaac86771fee03472e518a64ed1fb1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8b80730353a845c4f08cae0a286c666b",
+    "text": "Advanced Encryption Standard (AES)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            302.18,
+            160.7384
+          ],
+          [
+            302.18,
+            227.33840000000004
+          ],
+          [
+            639.81752,
+            227.33840000000004
+          ],
+          [
+            639.81752,
+            160.7384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9b281fcffe364995fa731309518a8e1d",
+    "text": "Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            285.6,
+            295.75
+          ],
+          [
+            285.6,
+            348.55
+          ],
+          [
+            647.2320000000001,
+            348.55
+          ],
+          [
+            647.2320000000001,
+            295.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "94d1e15a3813bd28143896b6bd9afa9a",
+    "text": "Origins",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            309.74,
+            96.22199999999998
+          ],
+          [
+            309.74,
+            131.286
+          ],
+          [
+            409.812656,
+            131.286
+          ],
+          [
+            409.812656,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ced492f6067f1b63fef75bd0281157c8",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            206.11
+          ],
+          [
+            87.984,
+            227.11
+          ],
+          [
+            95.33399999999999,
+            227.11
+          ],
+          [
+            95.33399999999999,
+            206.11
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 2,
+      "parent_id": "94d1e15a3813bd28143896b6bd9afa9a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "13a2ff31401ab6eec6fff50fdf872c7f",
+    "text": "clear a replacement for DES was needed \u2013 have theoretical attacks that can break it \u2013 have demonstrated exhaustive key search attacks can use Triple-DES \u2013 but slow, has small blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            206.95
+          ],
+          [
+            114.98,
+            318.69
+          ],
+          [
+            566.4350000000001,
+            318.69
+          ],
+          [
+            566.4350000000001,
+            206.95
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 2,
+      "parent_id": "94d1e15a3813bd28143896b6bd9afa9a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "67c8f81c5180bceaeab24d0f0b7bf54b",
+    "text": "\u2022 US NIST issued call for ciphers in 1997 \u2022 15 candidates accepted in Jun 98 \u2022 5 were shortlisted in Aug-99 \u2022 Rijndael was selected as the AES in Oct-2000 \u2022 issued as FIPS PUB 197 standard in Nov-2001",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            296.85
+          ],
+          [
+            87.984,
+            469.914
+          ],
+          [
+            502.096,
+            469.914
+          ],
+          [
+            502.096,
+            296.85
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 2,
+      "parent_id": "94d1e15a3813bd28143896b6bd9afa9a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a8ec5c96d623783c1a190d4349ab941",
+    "text": "The AES Cipher - Rijndael",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            181.8,
+            96.22199999999998
+          ],
+          [
+            181.8,
+            131.286
+          ],
+          [
+            545.4934880000001,
+            131.286
+          ],
+          [
+            545.4934880000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1ecd69485e92acd9c2bcb29c015143b1",
+    "text": "designed by Rijmen-Daemen in Belgium \u2022 has 128/192/256-bit keys, 128-bit data \u2022 an iterative rather than feistel cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            190.99
+          ],
+          [
+            87.984,
+            273.33
+          ],
+          [
+            458.597,
+            273.33
+          ],
+          [
+            458.597,
+            190.99
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 3,
+      "parent_id": "8a8ec5c96d623783c1a190d4349ab941",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9945be41f007461c8554f73801e7ed7e",
+    "text": "\u2013 processes data as block of 4 columns of 4 bytes \u2013 operates on entire data block in every round",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            281.73
+          ],
+          [
+            123.98,
+            333.81
+          ],
+          [
+            548.1770000000001,
+            333.81
+          ],
+          [
+            548.1770000000001,
+            281.73
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 3,
+      "parent_id": "8a8ec5c96d623783c1a190d4349ab941",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e0a0cb6f85f25a03b9c7c4cdb51ff512",
+    "text": "designed to be:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            342.19104000000004
+          ],
+          [
+            87.984,
+            364.05600000000004
+          ],
+          [
+            246.48512000000005,
+            364.05600000000004
+          ],
+          [
+            246.48512000000005,
+            342.19104000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 3,
+      "parent_id": "8a8ec5c96d623783c1a190d4349ab941",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "98cab0889a45668614e9b5269098c797",
+    "text": "\u2013 resistant against known attacks \u2013 speed and code compactness on many CPUs \u2013 design simplicity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            372.47
+          ],
+          [
+            123.98,
+            454.794
+          ],
+          [
+            523.6370000000001,
+            454.794
+          ],
+          [
+            523.6370000000001,
+            372.47
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 3,
+      "parent_id": "8a8ec5c96d623783c1a190d4349ab941",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "02ad20fa8fac07cd12ad36a18764f4e0",
+    "text": "AES Encryption Process",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            59.472,
+            185.02999999999997
+          ],
+          [
+            59.472,
+            334.7
+          ],
+          [
+            262.2762,
+            334.7
+          ],
+          [
+            262.2762,
+            185.02999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "515fcd08e2e3537c74426f9d51871665",
+    "text": "AES Structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            262.94,
+            96.22199999999998
+          ],
+          [
+            262.94,
+            131.286
+          ],
+          [
+            456.52834400000006,
+            131.286
+          ],
+          [
+            456.52834400000006,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a15a822eba96d2306840e7558cb568a9",
+    "text": "\u27a2 data block of 4 columns of 4 bytes is state \u27a2 key is expanded to array of words (4 bytes each) \u27a2 initially XOR the input state with the subkey [w0,w1,w2,w3] \u27a2 has 9/11/13 rounds in which state undergoes:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            198.685
+          ],
+          [
+            87.984,
+            296.23
+          ],
+          [
+            608.107,
+            296.23
+          ],
+          [
+            608.107,
+            198.685
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 5,
+      "parent_id": "515fcd08e2e3537c74426f9d51871665",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b32e013988f0e6b8ecf435b0e1bd1947",
+    "text": "\u26ab byte substitution (1 S-box used on every byte) \u26ab shift rows (permute bytes between groups/columns) \u26ab mix columns (subs using matrix multiply of groups) \u26ab add round key (XOR state with key material) \u27a2 view as alternating XOR key & scramble data bytes \u27a2 the last round is incomplete \u27a2 with fast XOR & table lookup implementation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            299.46592
+          ],
+          [
+            87.984,
+            472.674
+          ],
+          [
+            598.88,
+            472.674
+          ],
+          [
+            598.88,
+            299.46592
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 5,
+      "parent_id": "515fcd08e2e3537c74426f9d51871665",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5ab953c87bae2d76fbf7e0729cc25267",
+    "text": "AES Structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            238.18,
+            48.379999999999995
+          ],
+          [
+            238.18,
+            92.42000000000002
+          ],
+          [
+            481.67715999999996,
+            92.42000000000002
+          ],
+          [
+            481.67715999999996,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "27a4758bfc2643e63b59a78aa37846be",
+    "text": "AES Computations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            229.22,
+            96.22199999999998
+          ],
+          [
+            229.22,
+            131.286
+          ],
+          [
+            490.30654400000003,
+            131.286
+          ],
+          [
+            490.30654400000003,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6c8d761f95b25700f87d70e09ed24519",
+    "text": "\u27a2 The data computation consists of:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            204.9882
+          ],
+          [
+            87.984,
+            225.93
+          ],
+          [
+            389.56808000000007,
+            225.93
+          ],
+          [
+            389.56808000000007,
+            204.9882
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "27a4758bfc2643e63b59a78aa37846be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "75b32f5d9b11e4ab4fc46c4867fa6fb3",
+    "text": "an \u201cadd round key\u201d step,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.34,
+            238.6884
+          ],
+          [
+            115.34,
+            259.53
+          ],
+          [
+            334.12148,
+            259.53
+          ],
+          [
+            334.12148,
+            238.6884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "27a4758bfc2643e63b59a78aa37846be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "35a708b31fc7ec1bb4e1ed8b98644faf",
+    "text": "then 9/11/13 rounds with all 4 steps,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.34,
+            272.40840000000003
+          ],
+          [
+            115.34,
+            293.25
+          ],
+          [
+            432.73832000000004,
+            293.25
+          ],
+          [
+            432.73832000000004,
+            272.40840000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "27a4758bfc2643e63b59a78aa37846be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ffb6116c074f22465f40dbd08f879422",
+    "text": "and a final 10th/12th/14th step of byte substitution + mix columns + add round key.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.34,
+            305.952
+          ],
+          [
+            115.34,
+            352.66999999999996
+          ],
+          [
+            588.530768,
+            352.66999999999996
+          ],
+          [
+            588.530768,
+            305.952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "27a4758bfc2643e63b59a78aa37846be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "31cc69fbae3f17389646ce818bfe157c",
+    "text": "\u27a2 This can be viewed as alternating XOR key & scramble data bytes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            365.3282
+          ],
+          [
+            87.984,
+            386.27
+          ],
+          [
+            643.9157600000001,
+            386.27
+          ],
+          [
+            643.9157600000001,
+            365.3282
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "27a4758bfc2643e63b59a78aa37846be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c03057057b421c73c1b3adf10ef3777e",
+    "text": "operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            391.90999999999997
+          ],
+          [
+            114.98,
+            411.95
+          ],
+          [
+            207.30428,
+            411.95
+          ],
+          [
+            207.30428,
+            391.90999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "26838490b2abc70606f08fa06e6716b8",
+    "text": "\u27a2 All the steps are easily reversed and can be efficiently",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            424.71312
+          ],
+          [
+            87.984,
+            445.68
+          ],
+          [
+            552.9369919999998,
+            445.68
+          ],
+          [
+            552.9369919999998,
+            424.71312
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "c03057057b421c73c1b3adf10ef3777e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4e35f2dd326b05b43859d22eff97bc36",
+    "text": "implemented using XOR\u2019s & table lookups.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            451.33799999999997
+          ],
+          [
+            114.98,
+            471.378
+          ],
+          [
+            458.2652000000001,
+            471.378
+          ],
+          [
+            458.2652000000001,
+            451.33799999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 7,
+      "parent_id": "c03057057b421c73c1b3adf10ef3777e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdde68d9d4b31b6cb00b42bb80832364",
+    "text": "1. 2. 3. 4. 5. 6.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            217.0
+          ],
+          [
+            87.984,
+            361.38
+          ],
+          [
+            102.36193999999999,
+            361.38
+          ],
+          [
+            102.36193999999999,
+            217.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 8,
+      "parent_id": "c03057057b421c73c1b3adf10ef3777e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6fa8eaa16f9ddfe1e269d9f3be0bb298",
+    "text": "7. 8. 9.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            388.03999999999996
+          ],
+          [
+            87.984,
+            457.164
+          ],
+          [
+            102.36193999999999,
+            457.164
+          ],
+          [
+            102.36193999999999,
+            388.03999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 8,
+      "parent_id": "c03057057b421c73c1b3adf10ef3777e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "34f7b03575bcdc2d89306f69cfb244cb",
+    "text": "Some Comments on AES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.76,
+            96.22199999999998
+          ],
+          [
+            185.76,
+            131.286
+          ],
+          [
+            533.840328,
+            131.286
+          ],
+          [
+            533.840328,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "079cf8c7c2963edc9d1b9e1289fffb15",
+    "text": "an iterative rather than feistel cipher the cipher has a simple structure key expanded into array of 4 bytes words in each round, the round key is 4 words (4\u00d74 bytes) Initially, the AddRoundKey stage only uses a key each round, except the last, uses 4 different stages; each stage is easily reversible decryption uses keys in reverse order decryption does recover plaintext final round has only 3 stages",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.54,
+            217.0
+          ],
+          [
+            128.54,
+            457.164
+          ],
+          [
+            628.9679199999999,
+            457.164
+          ],
+          [
+            628.9679199999999,
+            217.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 8,
+      "parent_id": "34f7b03575bcdc2d89306f69cfb244cb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "17f9f1886176f3348687ef0f1aa107ea",
+    "text": "Substitute Bytes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            244.82,
+            96.22199999999998
+          ],
+          [
+            244.82,
+            131.286
+          ],
+          [
+            474.594392,
+            131.286
+          ],
+          [
+            474.594392,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aab4baea69a6553d9ba2730f046a6eeb",
+    "text": "a simple substitution of each byte \u2022 uses one table of 16x16 bytes containing a permutation of all 256 8-bit values",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            219.08104000000003
+          ],
+          [
+            87.984,
+            301.68
+          ],
+          [
+            532.5319999999999,
+            301.68
+          ],
+          [
+            532.5319999999999,
+            219.08104000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 9,
+      "parent_id": "17f9f1886176f3348687ef0f1aa107ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3e834480b8337a47599ab3035ce0fdfc",
+    "text": "each byte of state is replaced by byte indexed by row (left 4-bits) & column (right 4-bits) \u2013 eg. byte {95} is replaced by byte in row 9 column 5 \u2013 which has value {2A}",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            308.4
+          ],
+          [
+            87.984,
+            422.65999999999997
+          ],
+          [
+            635.732,
+            422.65999999999997
+          ],
+          [
+            635.732,
+            308.4
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 9,
+      "parent_id": "17f9f1886176f3348687ef0f1aa107ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fce3d744d722c40c9bcfa70225207cc8",
+    "text": "designed to be resistant to all known attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            429.384
+          ],
+          [
+            87.984,
+            454.344
+          ],
+          [
+            546.5239999999999,
+            454.344
+          ],
+          [
+            546.5239999999999,
+            429.384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 9,
+      "parent_id": "17f9f1886176f3348687ef0f1aa107ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3d4f84f3c6d5402b5406c6719258c122",
+    "text": "Substitute Bytes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            215.38,
+            48.379999999999995
+          ],
+          [
+            215.38,
+            92.42000000000002
+          ],
+          [
+            504.41452,
+            92.42000000000002
+          ],
+          [
+            504.41452,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4b196f874b84a78e7d9b621fa12615b6",
+    "text": "Substitute Bytes Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            134.95,
+            48.379999999999995
+          ],
+          [
+            134.95,
+            92.42000000000002
+          ],
+          [
+            584.9947599999999,
+            92.42000000000002
+          ],
+          [
+            584.9947599999999,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2d039e36ec3b806831af0331fbadecf4",
+    "text": "Shift Rows",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            285.74,
+            96.22199999999998
+          ],
+          [
+            285.74,
+            131.286
+          ],
+          [
+            433.639952,
+            131.286
+          ],
+          [
+            433.639952,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f2ca1767951dcbca5b578e391f307c7f",
+    "text": "a circular byte shift in each row",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.072,
+            212.66103999999996
+          ],
+          [
+            87.072,
+            234.52599999999995
+          ],
+          [
+            379.81336,
+            234.52599999999995
+          ],
+          [
+            379.81336,
+            212.66103999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 14,
+      "parent_id": "2d039e36ec3b806831af0331fbadecf4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "55f1d5b729e3bd66bfc089b19bd06c7e",
+    "text": "\u2013 1st row is unchanged \u2013 2nd row does 1-byte circular shift to left \u2013 3rd row does 2-byte circular shift to left \u2013 4th row does 3-byte circular shift to left",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.07,
+            242.65000000000003
+          ],
+          [
+            123.07,
+            355.51599999999996
+          ],
+          [
+            479.83000000000004,
+            355.51599999999996
+          ],
+          [
+            479.83000000000004,
+            242.65000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 14,
+      "parent_id": "2d039e36ec3b806831af0331fbadecf4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "673e3469e1e625b79685d8019183573d",
+    "text": "decrypt inverts using shifts to right \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.072,
+            363.93
+          ],
+          [
+            87.072,
+            415.16999999999996
+          ],
+          [
+            409.39300000000014,
+            415.16999999999996
+          ],
+          [
+            409.39300000000014,
+            363.93
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 14,
+      "parent_id": "2d039e36ec3b806831af0331fbadecf4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38bfb0c582cdba2a2b78341b6b3be424",
+    "text": "since state is processed by columns, this step permutes bytes between the columns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.07,
+            395.01
+          ],
+          [
+            114.07,
+            441.21
+          ],
+          [
+            639.3849999999999,
+            441.21
+          ],
+          [
+            639.3849999999999,
+            395.01
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 14,
+      "parent_id": "2d039e36ec3b806831af0331fbadecf4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e4a57b0d90a94accf55b8c4e9768347b",
+    "text": "Shift Rows",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            266.86,
+            48.379999999999995
+          ],
+          [
+            266.86,
+            92.42000000000002
+          ],
+          [
+            453.06112,
+            92.42000000000002
+          ],
+          [
+            453.06112,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "36469ebf65bc1a57de0f56336adb9546",
+    "text": "Mix Columns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            243.82,
+            48.379999999999995
+          ],
+          [
+            243.82,
+            92.42000000000002
+          ],
+          [
+            476.0869600000001,
+            92.42000000000002
+          ],
+          [
+            476.0869600000001,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d7291d4c6d1bdf1aba868edc1af9da88",
+    "text": "each column is processed separately \u2022 each byte is replaced by a value dependent on all 4 bytes in the column",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            133.10000000000002
+          ],
+          [
+            43.2,
+            221.45
+          ],
+          [
+            654.5279999999999,
+            221.45
+          ],
+          [
+            654.5279999999999,
+            133.10000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 16,
+      "parent_id": "36469ebf65bc1a57de0f56336adb9546",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ce4db61bdd9636b0427acb84cb5b5c3c",
+    "text": "effectively a matrix multiplication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            231.05
+          ],
+          [
+            43.2,
+            256.01
+          ],
+          [
+            396.048,
+            256.01
+          ],
+          [
+            396.048,
+            231.05
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 16,
+      "parent_id": "36469ebf65bc1a57de0f56336adb9546",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4d71005e959e654fd6380b2a4dc87798",
+    "text": "Matrix Equations: For encryption: S\u2019 = M \u00d7 S For decryption: S = M-1 \u00d7 S\u2019",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            78.096,
+            268.97
+          ],
+          [
+            78.096,
+            350.57
+          ],
+          [
+            356.73599999999993,
+            350.57
+          ],
+          [
+            356.73599999999993,
+            268.97
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 16,
+      "parent_id": "36469ebf65bc1a57de0f56336adb9546",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c91be6bed7150f5a78b2c82a4638b979",
+    "text": "Mix Columns (using inverse matrix multiplication for decryption)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            113.59,
+            33.98000000000002
+          ],
+          [
+            113.59,
+            107.08999999999997
+          ],
+          [
+            606.3340000000001,
+            107.08999999999997
+          ],
+          [
+            606.3340000000001,
+            33.98000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 17,
+      "parent_id": "36469ebf65bc1a57de0f56336adb9546",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0360af624369000f08c1ccf6de2ff2cd",
+    "text": "Mix Columns Example (all computations are done using logical AND & XOR functions)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            65.352,
+            33.98000000000002
+          ],
+          [
+            65.352,
+            107.08999999999997
+          ],
+          [
+            654.7160000000001,
+            107.08999999999997
+          ],
+          [
+            654.7160000000001,
+            33.98000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 18,
+      "parent_id": "36469ebf65bc1a57de0f56336adb9546",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c8857cf2cb6f18980c250a7d822c25aa",
+    "text": "Mix Columns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            267.5,
+            96.22199999999998
+          ],
+          [
+            267.5,
+            131.286
+          ],
+          [
+            451.971704,
+            131.286
+          ],
+          [
+            451.971704,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d7656d06cf4e5830ad0fbaaaa0bce580",
+    "text": "\u27a2 The mix column process is done using the following",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.512,
+            220.15000000000003
+          ],
+          [
+            97.512,
+            245.23000000000002
+          ],
+          [
+            629.1340000000001,
+            245.23000000000002
+          ],
+          [
+            629.1340000000001,
+            220.15000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "parent_id": "c8857cf2cb6f18980c250a7d822c25aa",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "835e5e40fffae016877204859ce7e32c",
+    "text": "matrix equations: \u25aa \u25aa",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            124.51,
+            250.02999999999997
+          ],
+          [
+            124.51,
+            330.58
+          ],
+          [
+            295.558,
+            330.58
+          ],
+          [
+            295.558,
+            250.02999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a2bf1e53dee0d79573237719026a2122",
+    "text": "For encryption: S\u2019 = M \u00d7 S For decryption: S = M-1 \u00d7 S\u2019",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            164.71,
+            278.812
+          ],
+          [
+            164.71,
+            331.65999999999997
+          ],
+          [
+            443.376,
+            331.65999999999997
+          ],
+          [
+            443.376,
+            278.812
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "parent_id": "835e5e40fffae016877204859ce7e32c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d3129f28f8351edba14dcfd1efe38ad",
+    "text": "\u27a2 M is a matrix with small coefficients and hence it is",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.512,
+            335.38
+          ],
+          [
+            97.512,
+            360.46000000000004
+          ],
+          [
+            624.1659999999999,
+            360.46000000000004
+          ],
+          [
+            624.1659999999999,
+            335.38
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "parent_id": "835e5e40fffae016877204859ce7e32c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6fc200d92f86f650d6cb45889ff0a57f",
+    "text": "fast and easy to compute S\u2019 in encryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            124.51,
+            365.26
+          ],
+          [
+            124.51,
+            389.26
+          ],
+          [
+            525.792,
+            389.26
+          ],
+          [
+            525.792,
+            365.26
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "parent_id": "835e5e40fffae016877204859ce7e32c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1f356351cf3fbafb615ca99b4aad07de",
+    "text": "\u27a2 decryption requires use of inverse matrix M-1 with larger coefficients, hence a slower and a little harder computation of S",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.512,
+            392.89
+          ],
+          [
+            97.512,
+            475.68
+          ],
+          [
+            617.0127440000001,
+            475.68
+          ],
+          [
+            617.0127440000001,
+            392.89
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 19,
+      "parent_id": "835e5e40fffae016877204859ce7e32c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dd6bee76e2abf04c0c69e86803ddce45",
+    "text": "Add Round Key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            252.02,
+            96.22199999999998
+          ],
+          [
+            252.02,
+            131.286
+          ],
+          [
+            467.31296000000003,
+            131.286
+          ],
+          [
+            467.31296000000003,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2b635d4b5c72c1264120001b6fad08c0",
+    "text": "\u27a2 XOR state with 16 bytes (128-bits) of the round key \u27a2 again, processed by column (though effectively a series of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            207.76180000000005
+          ],
+          [
+            87.984,
+            262.41
+          ],
+          [
+            633.785,
+            262.41
+          ],
+          [
+            633.785,
+            207.76180000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "parent_id": "dd6bee76e2abf04c0c69e86803ddce45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0863e7784df9c46075c99e52dcb3307d",
+    "text": "byte operations)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            266.85
+          ],
+          [
+            114.98,
+            288.81
+          ],
+          [
+            261.8924,
+            288.81
+          ],
+          [
+            261.8924,
+            266.85
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f9e0b290f6b213569b2adcb1f73648ab",
+    "text": "\u27a2 inverse for decryption identical by XORing \u27a2 designed to be as simple as possible \u27a2 MUST be used at start and end of each round, since",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            297.54179999999997
+          ],
+          [
+            87.984,
+            383.99
+          ],
+          [
+            589.13648,
+            383.99
+          ],
+          [
+            589.13648,
+            297.54179999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "parent_id": "0863e7784df9c46075c99e52dcb3307d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1932b16e60a0a81ae829af2355fec95a",
+    "text": "otherwise a cryptanalyst could undo effect of other stages",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            388.31
+          ],
+          [
+            114.98,
+            410.27
+          ],
+          [
+            632.4893600000001,
+            410.27
+          ],
+          [
+            632.4893600000001,
+            388.31
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "parent_id": "0863e7784df9c46075c99e52dcb3307d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57119f9c7d78f4e81a5192b8ae73bb7d",
+    "text": "\u27a2 other stages (substitution, shift rows, and mix columns)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            419.0018
+          ],
+          [
+            87.984,
+            441.95
+          ],
+          [
+            613.4500400000001,
+            441.95
+          ],
+          [
+            613.4500400000001,
+            419.0018
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "parent_id": "0863e7784df9c46075c99e52dcb3307d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "841799843e720638f912fe6a89e8a53d",
+    "text": "provide confusion/diffusion/non-linearity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            446.394
+          ],
+          [
+            114.98,
+            468.354
+          ],
+          [
+            484.42504,
+            468.354
+          ],
+          [
+            484.42504,
+            446.394
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 20,
+      "parent_id": "0863e7784df9c46075c99e52dcb3307d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c31978e9b73adddacb6d0ebb2fc3a355",
+    "text": "Add Round Key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            224.5,
+            48.379999999999995
+          ],
+          [
+            224.5,
+            92.42000000000002
+          ],
+          [
+            495.56620000000004,
+            92.42000000000002
+          ],
+          [
+            495.56620000000004,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ab856def1998715b01fedaf7051a6354",
+    "text": "\u25aa These are done as column operations using a 32-bit CPU \u25aa It can be also done as separate byte operations using an 8-bit CPU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            122.59,
+            408.11
+          ],
+          [
+            122.59,
+            448.524
+          ],
+          [
+            627.284,
+            448.524
+          ],
+          [
+            627.284,
+            408.11
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 21,
+      "parent_id": "c31978e9b73adddacb6d0ebb2fc3a355",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "43a685e2cdf0e71393314cb44df838ad",
+    "text": "AES Round",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            263.74,
+            48.379999999999995
+          ],
+          [
+            263.74,
+            92.42000000000002
+          ],
+          [
+            456.15076,
+            92.42000000000002
+          ],
+          [
+            456.15076,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fc7b38df996f57fc17a5a31004def359",
+    "text": "AES Key Expansion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            227.78,
+            96.22199999999998
+          ],
+          [
+            227.78,
+            131.286
+          ],
+          [
+            491.63660000000004,
+            131.286
+          ],
+          [
+            491.63660000000004,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "22464f05700d58f73eb463186592ec3b",
+    "text": "\u27a2 there are three optional lengths for the key:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.22,
+            220.75
+          ],
+          [
+            115.22,
+            245.82999999999998
+          ],
+          [
+            574.076,
+            245.82999999999998
+          ],
+          [
+            574.076,
+            220.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "parent_id": "fc7b38df996f57fc17a5a31004def359",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "79c66b52203a9a5c68790eff281085ff",
+    "text": "128/192/256-bit (16/24/32-byte)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            142.22,
+            250.63
+          ],
+          [
+            142.22,
+            274.63
+          ],
+          [
+            465.19,
+            274.63
+          ],
+          [
+            465.19,
+            250.63
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "parent_id": "fc7b38df996f57fc17a5a31004def359",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6bffc2f34fe0fc6dbca4233862f10b04",
+    "text": "\u27a2 takes a key and expands it into a suitable array of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.22,
+            284.14
+          ],
+          [
+            115.22,
+            309.22
+          ],
+          [
+            623.6839999999999,
+            309.22
+          ],
+          [
+            623.6839999999999,
+            284.14
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "parent_id": "fc7b38df996f57fc17a5a31004def359",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "08a5043f923b4f10369fc16f95c16adb",
+    "text": "32-bit words",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            142.22,
+            314.02
+          ],
+          [
+            142.22,
+            338.02
+          ],
+          [
+            264.884,
+            338.02
+          ],
+          [
+            264.884,
+            314.02
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8bfa47bed789fac75a28f36932c605ad",
+    "text": "\u27a2 every 4 consecutive words are used as a subkey \u27a2 as depicted in the next slide, a simple algorithm is used for expanding the selected key option into an array of words having a corresponding length (44/52/60)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.22,
+            347.5
+          ],
+          [
+            115.22,
+            493.56
+          ],
+          [
+            638.972,
+            493.56
+          ],
+          [
+            638.972,
+            347.5
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 23,
+      "parent_id": "08a5043f923b4f10369fc16f95c16adb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a4df9064b83c02654d2c87589c01b963",
+    "text": "AES Key Expansion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            193.87,
+            48.379999999999995
+          ],
+          [
+            193.87,
+            92.42000000000002
+          ],
+          [
+            526.19584,
+            92.42000000000002
+          ],
+          [
+            526.19584,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7e73bea0856e69c6cf108e3a7d5beade",
+    "text": "Key Expansion Rationale",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            187.22,
+            96.22199999999998
+          ],
+          [
+            187.22,
+            131.286
+          ],
+          [
+            532.354952,
+            131.286
+          ],
+          [
+            532.354952,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "793b1bc7a15b914f7088bc2ca2a76bc5",
+    "text": "designed to resist known attacks \u2022 design criteria included",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            94.872,
+            223.85104
+          ],
+          [
+            94.872,
+            283.42
+          ],
+          [
+            438.14596000000006,
+            283.42
+          ],
+          [
+            438.14596000000006,
+            223.85104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 25,
+      "parent_id": "7e73bea0856e69c6cf108e3a7d5beade",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fa4121e4526696609c984a7607d883cd",
+    "text": "\u2013 knowing part key insufficient to find many more \u2013 invertible transformation \u2013 fast on wide range of CPU\u2019s \u2013 diffuse key bits into round keys \u2013 enough non-linearity to hinder analysis \u2013 simplicity of description",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            130.87,
+            293.02
+          ],
+          [
+            130.87,
+            490.806
+          ],
+          [
+            619.054,
+            490.806
+          ],
+          [
+            619.054,
+            293.02
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 25,
+      "parent_id": "7e73bea0856e69c6cf108e3a7d5beade",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f221aaafa3d8842673922a98c04e90c3",
+    "text": "AES Example Key Expansion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            19.248,
+            199.41199999999998
+          ],
+          [
+            19.248,
+            296.29999999999995
+          ],
+          [
+            274.50383999999997,
+            296.29999999999995
+          ],
+          [
+            274.50383999999997,
+            199.41199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "43523209431b2357faac5a8259a24c32",
+    "text": "AES Example Encryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            32.928,
+            199.41199999999998
+          ],
+          [
+            32.928,
+            296.29999999999995
+          ],
+          [
+            270.87359999999995,
+            296.29999999999995
+          ],
+          [
+            270.87359999999995,
+            199.41199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "87881ce1b1cdce2af53f65b7a0b3cfd2",
+    "text": "AES Example Avalanche",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            32.928,
+            67.40999999999997
+          ],
+          [
+            32.928,
+            164.26999999999998
+          ],
+          [
+            270.83208,
+            164.26999999999998
+          ],
+          [
+            270.83208,
+            67.40999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "268f5d34cc1a95740952cfd3af1a277f",
+    "text": "In any good cipher design, we want the avalanche effect to prevent guessing the key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2,
+            202.03999999999996
+          ],
+          [
+            40.2,
+            262.78999999999996
+          ],
+          [
+            276.94524,
+            262.78999999999996
+          ],
+          [
+            276.94524,
+            202.03999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 28,
+      "parent_id": "87881ce1b1cdce2af53f65b7a0b3cfd2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "adfd846e461725cda85df33d971b1720",
+    "text": "A small change in plaintext or key produces a large change in the ciphertext",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.288,
+            300.23
+          ],
+          [
+            42.288,
+            360.95
+          ],
+          [
+            281.25600000000003,
+            360.95
+          ],
+          [
+            281.25600000000003,
+            300.23
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 28,
+      "parent_id": "87881ce1b1cdce2af53f65b7a0b3cfd2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "801854cb433083922af2b6d8dfdb1e07",
+    "text": "The table shows result when the eighth bit of the plaintext is changed",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.288,
+            407.51
+          ],
+          [
+            42.288,
+            468.228
+          ],
+          [
+            248.24399999999994,
+            468.228
+          ],
+          [
+            248.24399999999994,
+            407.51
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 28,
+      "parent_id": "87881ce1b1cdce2af53f65b7a0b3cfd2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e790a4c84a1cb7b5290a1070c517694",
+    "text": "AES Decryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            250.7,
+            96.22199999999998
+          ],
+          [
+            250.7,
+            131.286
+          ],
+          [
+            468.62275999999997,
+            131.286
+          ],
+          [
+            468.62275999999997,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7af1dcc17885cdf355231a217c72e1aa",
+    "text": "AES decryption is not identical to encryption since steps done in reverse",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            211.78000000000003
+          ],
+          [
+            87.984,
+            262.66
+          ],
+          [
+            606.164,
+            262.66
+          ],
+          [
+            606.164,
+            211.78000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "parent_id": "5e790a4c84a1cb7b5290a1070c517694",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "721ab47e49be5e7f3720f2b8db4eb121",
+    "text": "\u2713 the subkeys are used in a reversed order, starting",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.1,
+            269.26
+          ],
+          [
+            133.1,
+            294.34000000000003
+          ],
+          [
+            641.8759999999999,
+            294.34000000000003
+          ],
+          [
+            641.8759999999999,
+            269.26
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "parent_id": "5e790a4c84a1cb7b5290a1070c517694",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f481ad48a711e92098c2ee0eb11ec7f6",
+    "text": "with the last subkey",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            296.24199999999996
+          ],
+          [
+            159.98,
+            320.26599999999996
+          ],
+          [
+            353.61344,
+            320.26599999999996
+          ],
+          [
+            353.61344,
+            296.24199999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "12a10c2003f3a414041caf247e05efb4",
+    "text": "\u2713 a different substitution table is used \u2713 shifting rows is to the right direction \u2713 multiply by the inverse matrix in the mix columns",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.1,
+            326.88
+          ],
+          [
+            133.1,
+            415.32
+          ],
+          [
+            644.06,
+            415.32
+          ],
+          [
+            644.06,
+            326.88
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "parent_id": "f481ad48a711e92098c2ee0eb11ec7f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ec6e55839b7a08059d7193b6bc000a66",
+    "text": "process",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            417.222
+          ],
+          [
+            159.98,
+            441.246
+          ],
+          [
+            234.190136,
+            441.246
+          ],
+          [
+            234.190136,
+            417.222
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e05f866bff41c5115509aa6d0c391df6",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            447.98400000000004
+          ],
+          [
+            87.984,
+            471.98400000000004
+          ],
+          [
+            96.384,
+            471.98400000000004
+          ],
+          [
+            96.384,
+            447.98400000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "parent_id": "ec6e55839b7a08059d7193b6bc000a66",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b3965598039ea43a8a26a733a03ed61a",
+    "text": "two separate software or firmware modules are needed for encryption and decryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            448.944
+          ],
+          [
+            114.98,
+            498.864
+          ],
+          [
+            585.3559999999999,
+            498.864
+          ],
+          [
+            585.3559999999999,
+            448.944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 29,
+      "parent_id": "ec6e55839b7a08059d7193b6bc000a66",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf052942114becb6d4a0bc7f9ca50e34",
+    "text": "AES Decryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.312,
+            202.51999999999998
+          ],
+          [
+            72.312,
+            290.486
+          ],
+          [
+            251.52028800000005,
+            290.486
+          ],
+          [
+            251.52028800000005,
+            202.51999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "22db7c896abadcfe0695da05413ff6b8",
+    "text": "Implementation On 8-bit CPU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.0,
+            96.22199999999998
+          ],
+          [
+            150.0,
+            131.286
+          ],
+          [
+            569.5071919999999,
+            131.286
+          ],
+          [
+            569.5071919999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5645c2611269f83dc05d07adab023bc4",
+    "text": "can efficiently implement on 8-bit CPU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            206.14000000000004
+          ],
+          [
+            87.984,
+            231.10000000000002
+          ],
+          [
+            489.982,
+            231.10000000000002
+          ],
+          [
+            489.982,
+            206.14000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "parent_id": "22db7c896abadcfe0695da05413ff6b8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f1b0ba2336489f7f125ab2604d5d8fde",
+    "text": "\u2013 byte substitution works on bytes using a table of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            237.84000000000003
+          ],
+          [
+            123.98,
+            262.8
+          ],
+          [
+            622.5799999999999,
+            262.8
+          ],
+          [
+            622.5799999999999,
+            237.84000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "parent_id": "22db7c896abadcfe0695da05413ff6b8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2c40e6ee48c2ca81ed3d517c9b1d0f55",
+    "text": "256 entries",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            264.72
+          ],
+          [
+            146.54,
+            288.72
+          ],
+          [
+            255.93200000000002,
+            288.72
+          ],
+          [
+            255.93200000000002,
+            264.72
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ed6afa35bcee8c603600b9a94c464d88",
+    "text": "\u2013 shift rows is simple byte shift \u2013 add round key works on byte XOR\u2019s \u2013 mix columns requires matrix multiply which works",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            295.44
+          ],
+          [
+            123.98,
+            383.76599999999996
+          ],
+          [
+            639.7726960000001,
+            383.76599999999996
+          ],
+          [
+            639.7726960000001,
+            295.44
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "parent_id": "2c40e6ee48c2ca81ed3d517c9b1d0f55",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7eaa8582608bf106e3f09ea3f31ceeab",
+    "text": "on byte values",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            385.7
+          ],
+          [
+            146.54,
+            409.7
+          ],
+          [
+            287.108,
+            409.7
+          ],
+          [
+            287.108,
+            385.7
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aac7c22f3d892106a2d184381a582a43",
+    "text": "\u2013 mix column can be simplified to use table lookups",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            416.41999999999996
+          ],
+          [
+            123.98,
+            441.38
+          ],
+          [
+            635.6840000000001,
+            441.38
+          ],
+          [
+            635.6840000000001,
+            416.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "parent_id": "7eaa8582608bf106e3f09ea3f31ceeab",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf62c630bb9a6da0aa3753cdf0ca3807",
+    "text": "and byte XOR\u2019s & AND\u2019s",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            443.304
+          ],
+          [
+            146.54,
+            467.304
+          ],
+          [
+            377.06000000000006,
+            467.304
+          ],
+          [
+            377.06000000000006,
+            443.304
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "785494ddb615f0cb84f46953a3b88045",
+    "text": "Implementation On 32-bit CPU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            141.12,
+            96.22199999999998
+          ],
+          [
+            141.12,
+            131.286
+          ],
+          [
+            578.3871919999999,
+            131.286
+          ],
+          [
+            578.3871919999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c2f5db984372f206bc95151eb6b2399",
+    "text": "\u27a2 can efficiently implement on 32-bit CPU \u26ab redefine steps to use 32-bit words \u26ab can precompute 4 tables of 256-words \u26ab then each column in each round can be computed using 4 table lookups + 4 XORs at a cost of 4Kb to store tables",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            213.22000000000003
+          ],
+          [
+            87.984,
+            399.62
+          ],
+          [
+            639.668,
+            399.62
+          ],
+          [
+            639.668,
+            213.22000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 32,
+      "parent_id": "785494ddb615f0cb84f46953a3b88045",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4f9a16461349c34a4cf768f1a3be8943",
+    "text": "\u27a2 designers believe this very efficient implementation was a key factor in its selection as the AES cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            409.1
+          ],
+          [
+            87.984,
+            462.984
+          ],
+          [
+            623.636,
+            462.984
+          ],
+          [
+            623.636,
+            409.1
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 32,
+      "parent_id": "785494ddb615f0cb84f46953a3b88045",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f0c35fd725131942bc9557900bac8c51",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            291.98,
+            96.22199999999998
+          ],
+          [
+            291.98,
+            131.286
+          ],
+          [
+            427.32704,
+            131.286
+          ],
+          [
+            427.32704,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "396efd11bbc68de69e88b257a36236b7",
+    "text": "have considered:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            209.02000000000004
+          ],
+          [
+            87.984,
+            233.98000000000002
+          ],
+          [
+            280.364,
+            233.98000000000002
+          ],
+          [
+            280.364,
+            209.02000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 33,
+      "parent_id": "f0c35fd725131942bc9557900bac8c51",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c5f0acbe700a6020ab052e76d93bc118",
+    "text": "\u2013 the AES selection process \u2013 the details of the AES cipher \u2013 looked at the steps in each round \u2013 the key expansion \u2013 implementation aspects",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            243.60000000000002
+          ],
+          [
+            123.98,
+            406.82
+          ],
+          [
+            469.72400000000005,
+            406.82
+          ],
+          [
+            469.72400000000005,
+            243.60000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 5 AES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:34",
+      "page_number": 33,
+      "parent_id": "f0c35fd725131942bc9557900bac8c51",
+      "filetype": "application/pdf"
+    }
+  }
+]

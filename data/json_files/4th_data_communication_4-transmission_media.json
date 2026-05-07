@@ -1,0 +1,6267 @@
+[
+  {
+    "type": "Title",
+    "element_id": "6d68c0a71290ad10377d5854f3c18ee7",
+    "text": "CHAPTER 4",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            366.82,
+            158.03160000000003
+          ],
+          [
+            366.82,
+            197.9916
+          ],
+          [
+            593.29776,
+            197.9916
+          ],
+          [
+            593.29776,
+            158.03160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "135b1cba522c129c450e3697a1c1d7bc",
+    "text": "Transmission Media",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            301.87,
+            281.10159999999996
+          ],
+          [
+            301.87,
+            321.0616
+          ],
+          [
+            658.19332,
+            321.0616
+          ],
+          [
+            658.19332,
+            281.10159999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ed03d520985468c542027b3f50c9b5e3",
+    "text": "Physical Layer Characteristics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            229.27,
+            60.02199999999999
+          ],
+          [
+            229.27,
+            104.08600000000001
+          ],
+          [
+            730.9386399999999,
+            104.08600000000001
+          ],
+          [
+            730.9386399999999,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a57dfd840b4967c750bf26898ecda1e5",
+    "text": "Physical Layer Standards address three functional areas: \u2022 Physical Components \u2022 Encoding \u2022 Signaling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            149.09936
+          ],
+          [
+            73.2,
+            308.834
+          ],
+          [
+            518.1834000000002,
+            308.834
+          ],
+          [
+            518.1834000000002,
+            149.09936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 2,
+      "parent_id": "ed03d520985468c542027b3f50c9b5e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ab8a9d7ff8e8194fbf053529d40cfa38",
+    "text": "The Physical Components are the hardware devices, media, and other connectors that transmit the signals that represent the bits.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            78.96,
+            352.414
+          ],
+          [
+            78.96,
+            434.014
+          ],
+          [
+            631.606,
+            434.014
+          ],
+          [
+            631.606,
+            352.414
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 2,
+      "parent_id": "ed03d520985468c542027b3f50c9b5e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7eb88edc472e6ed4f97fb8a3960032a9",
+    "text": "Classes of Transmission Media",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            208.85,
+            70.44200000000001
+          ],
+          [
+            208.85,
+            114.50600000000003
+          ],
+          [
+            731.7134239999999,
+            114.50600000000003
+          ],
+          [
+            731.7134239999999,
+            70.44200000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cad8bb25ca22aeafe6a8e233a47cd200",
+    "text": "Types of Copper Cabling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.504,
+            156.73000000000002
+          ],
+          [
+            57.504,
+            327.4
+          ],
+          [
+            245.96399999999994,
+            327.4
+          ],
+          [
+            245.96399999999994,
+            156.73000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "427727a9a59260527d08b9dc095dcdfe",
+    "text": "Unshielded Twisted Pair (UTP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            215.95,
+            75.42999999999995
+          ],
+          [
+            215.95,
+            119.46999999999997
+          ],
+          [
+            735.2696799999999,
+            119.46999999999997
+          ],
+          [
+            735.2696799999999,
+            75.42999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ea08a2685c746dabb2727c89d8dc612a",
+    "text": "UTP is the most common networking media. \u2022 Terminated with RJ-45 connectors \u2022 Interconnects hosts with intermediary network devices. Key Characteristics of UTP 1. The outer jacket protects the copper wires from physical damage. 2. Twisted pairs protect the signal from interference. 3. Color-coded plastic insulation electrically isolates the wires from each other and identifies each pair.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.56,
+            145.70000000000005
+          ],
+          [
+            79.56,
+            371.47918400000003
+          ],
+          [
+            843.0200000000002,
+            371.47918400000003
+          ],
+          [
+            843.0200000000002,
+            145.70000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 5,
+      "parent_id": "427727a9a59260527d08b9dc095dcdfe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "29dccc1b99e968f67a872dc09c0e2446",
+    "text": "Shielded Twisted Pair (STP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            240.79,
+            55.891999999999996
+          ],
+          [
+            240.79,
+            99.95600000000002
+          ],
+          [
+            705.0483039999999,
+            99.95600000000002
+          ],
+          [
+            705.0483039999999,
+            55.891999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "01af833829b2cd40ada278ed1449e3e5",
+    "text": "Better noise protection than UTP \u2022 More expensive than UTP \u2022 Harder to install than UTP \u2022 Terminated with RJ-45 connectors \u2022 Interconnects hosts with intermediary network devices",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.432,
+            107.98000000000002
+          ],
+          [
+            63.432,
+            247.329184
+          ],
+          [
+            610.267976,
+            247.329184
+          ],
+          [
+            610.267976,
+            107.98000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 6,
+      "parent_id": "29dccc1b99e968f67a872dc09c0e2446",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f3bb642e25bb23f40c19954d200955e7",
+    "text": "Key Characteristics of STP 1. The outer jacket protects the copper wires from physical damage 2. Braided or foil shield provides EMI/RFI protection 3. Foil shield for each pair of wires provides EMI/RFI protection 4. Color-coded plastic insulation electrically isolates the wires from each other and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.432,
+            280.944
+          ],
+          [
+            63.432,
+            420.164
+          ],
+          [
+            878.47,
+            420.164
+          ],
+          [
+            878.47,
+            280.944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 6,
+      "parent_id": "29dccc1b99e968f67a872dc09c0e2446",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "26d09fcdb3c6fea5652df1fdb9b910a0",
+    "text": "identifies each pair",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            90.432,
+            424.968
+          ],
+          [
+            90.432,
+            448.968
+          ],
+          [
+            272.74,
+            448.968
+          ],
+          [
+            272.74,
+            424.968
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "96b50318504386170774a45204f56077",
+    "text": "Properties of UTP Cabling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            126.26,
+            58.120000000000005
+          ],
+          [
+            126.26,
+            102.15999999999997
+          ],
+          [
+            567.9812000000001,
+            102.15999999999997
+          ],
+          [
+            567.9812000000001,
+            58.120000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "010c1b75eef2f32c6c377d40d9406e85",
+    "text": "UTP has four pairs of color-coded copper wires twisted together and encased in a flexible plastic sheath. No shielding is used. UTP relies on the following properties to limit crosstalk: \u2022 Cancellation - Each wire in a pair of wires uses opposite polarity. One wire is negative, the other wire is positive. They are twisted together, and the magnetic fields effectively cancel each other and outside EMI/RFI.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.424,
+            151.990544
+          ],
+          [
+            80.424,
+            386.65936
+          ],
+          [
+            874.116,
+            386.65936
+          ],
+          [
+            874.116,
+            151.990544
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 7,
+      "parent_id": "96b50318504386170774a45204f56077",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a6fc107e89ef25b6b4c709a532368e76",
+    "text": "Variation in twists per foot in each wire - Each wire is twisted a different amount, which helps prevent crosstalk amongst the wires in the cable.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.184,
+            393.79264
+          ],
+          [
+            86.184,
+            482.43936
+          ],
+          [
+            874.116,
+            482.43936
+          ],
+          [
+            874.116,
+            393.79264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 7,
+      "parent_id": "96b50318504386170774a45204f56077",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bc429ae73544ad03a2329f203aa902c9",
+    "text": "Straight-through and Crossover UTP Cables",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            132.19,
+            50.19200000000001
+          ],
+          [
+            132.19,
+            90.17599999999999
+          ],
+          [
+            829.884624,
+            90.17599999999999
+          ],
+          [
+            829.884624,
+            50.19200000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "25019d38d445b7b67bd6989a5c19741b",
+    "text": "Cable Type",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.984,
+            277.239824
+          ],
+          [
+            72.984,
+            297.30382399999996
+          ],
+          [
+            169.531968,
+            297.30382399999996
+          ],
+          [
+            169.531968,
+            277.239824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "755b69cf14e5ad25e43dbf63451ff905",
+    "text": "Standard",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            325.06,
+            277.239824
+          ],
+          [
+            325.06,
+            297.30382399999996
+          ],
+          [
+            405.41632,
+            297.30382399999996
+          ],
+          [
+            405.41632,
+            277.239824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f0904cd0881529702421d8ced9209d35",
+    "text": "Application",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            586.75,
+            277.239824
+          ],
+          [
+            586.75,
+            297.30382399999996
+          ],
+          [
+            687.009808,
+            297.30382399999996
+          ],
+          [
+            687.009808,
+            277.239824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "68d6cf5814b93f788bb6000cf2d962b2",
+    "text": "Ethernet Straight-through",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.984,
+            308.47864
+          ],
+          [
+            72.984,
+            328.51864
+          ],
+          [
+            277.97432,
+            328.51864
+          ],
+          [
+            277.97432,
+            308.47864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1f1a6e6aa0d77d8c50cfb7bfadcefcfe",
+    "text": "Both ends T568A or T568B",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            325.06,
+            308.47864
+          ],
+          [
+            325.06,
+            328.51864
+          ],
+          [
+            547.84468,
+            328.51864
+          ],
+          [
+            547.84468,
+            308.47864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "parent_id": "68d6cf5814b93f788bb6000cf2d962b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f243c8fc32c4e974a3bbf7bdd142fdb",
+    "text": "Host to Network Device",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            586.75,
+            308.47864
+          ],
+          [
+            586.75,
+            328.51864
+          ],
+          [
+            781.71916,
+            328.51864
+          ],
+          [
+            781.71916,
+            308.47864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60141351fe1f076802f4df41ce602a81",
+    "text": "Ethernet Crossover *",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.984,
+            361.75864
+          ],
+          [
+            72.984,
+            381.79864
+          ],
+          [
+            241.60056,
+            381.79864
+          ],
+          [
+            241.60056,
+            361.75864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3aa03475f3da5c2c49eb95260832dad8",
+    "text": "One end T568A, other T568B Host-to-Host, Switch-to-Switch,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            325.06,
+            361.75864
+          ],
+          [
+            325.06,
+            381.79864
+          ],
+          [
+            851.13076,
+            381.79864
+          ],
+          [
+            851.13076,
+            361.75864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "parent_id": "60141351fe1f076802f4df41ce602a81",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12a57f87326880c0977d81a46486e6b4",
+    "text": "Router-to-Router",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            586.75,
+            385.75864
+          ],
+          [
+            586.75,
+            405.79864
+          ],
+          [
+            724.2386799999999,
+            405.79864
+          ],
+          [
+            724.2386799999999,
+            385.75864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "23f9f2b54c2d681a5eb88a24cc92728b",
+    "text": "Considered Legacy due to most NICs using Auto-MDIX to sense cable type and complete connection",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.984,
+            425.96736
+          ],
+          [
+            72.984,
+            444.92736
+          ],
+          [
+            858.3944800000002,
+            444.92736
+          ],
+          [
+            858.3944800000002,
+            425.96736
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 8,
+      "parent_id": "12a57f87326880c0977d81a46486e6b4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "53421339d82a8003fbdf018eb81545b7",
+    "text": "Coaxial Cable",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            376.8,
+            37.572
+          ],
+          [
+            376.8,
+            77.55599999999998
+          ],
+          [
+            589.354944,
+            77.55599999999998
+          ],
+          [
+            589.354944,
+            37.572
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b19fa1d608cb434adc502935b82b74c2",
+    "text": "Consists of the following: 1. Outer cable jacket to prevent minor physical damage 2. A woven copper braid, or metallic foil, acts as the second wire in the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.424,
+            99.952
+          ],
+          [
+            53.424,
+            195.15000000000003
+          ],
+          [
+            860.1453599999999,
+            195.15000000000003
+          ],
+          [
+            860.1453599999999,
+            99.952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 9,
+      "parent_id": "53421339d82a8003fbdf018eb81545b7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e66d003db0503d942458787b33b43664",
+    "text": "circuit and as a shield for the inner conductor.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.424,
+            200.78999999999996
+          ],
+          [
+            80.424,
+            228.75
+          ],
+          [
+            599.22592,
+            228.75
+          ],
+          [
+            599.22592,
+            200.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8a0a88868074dc00cd508263c17dccef",
+    "text": "3. A layer of flexible plastic insulation 4. A copper conductor is used to transmit the electronic signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.424,
+            234.40999999999997
+          ],
+          [
+            53.424,
+            295.97
+          ],
+          [
+            774.44592,
+            295.97
+          ],
+          [
+            774.44592,
+            234.40999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 9,
+      "parent_id": "e66d003db0503d942458787b33b43664",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5a2ab18a3837b075a54e13a68dbf24e5",
+    "text": "Categories of Coaxial Cables",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            256.78,
+            60.289999999999964
+          ],
+          [
+            256.78,
+            100.25
+          ],
+          [
+            705.7306000000001,
+            100.25
+          ],
+          [
+            705.7306000000001,
+            60.289999999999964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f25a509970b24f88fb972b54468573f",
+    "text": "BNC connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            413.52,
+            314.11864
+          ],
+          [
+            413.52,
+            334.15864
+          ],
+          [
+            545.46336,
+            334.15864
+          ],
+          [
+            545.46336,
+            314.11864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9121159cb8336c0812b875aea914de8a",
+    "text": "Optical Fiber",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            369.94,
+            64.88999999999999
+          ],
+          [
+            369.94,
+            108.93
+          ],
+          [
+            590.31616,
+            108.93
+          ],
+          [
+            590.31616,
+            64.88999999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1aee835644ad47dbbf1340f8043a16a2",
+    "text": "A light source shines a light into the core. The core is surrounded by optical material called the cladding that keeps the light in the core using an optical technique called total internal reflection. the layer Outer interior and makes the cable stronger and easier to install and manage.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.048,
+            139.35935999999998
+          ],
+          [
+            63.048,
+            402.56935999999996
+          ],
+          [
+            544.096,
+            402.56935999999996
+          ],
+          [
+            544.096,
+            139.35935999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 11,
+      "parent_id": "9121159cb8336c0812b875aea914de8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6f4dc25208cba34165b2c111820929e8",
+    "text": "coating",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.25,
+            307.40936
+          ],
+          [
+            163.25,
+            335.36936000000003
+          ],
+          [
+            248.77964,
+            335.36936000000003
+          ],
+          [
+            248.77964,
+            307.40936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 11,
+      "parent_id": "9121159cb8336c0812b875aea914de8a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fe43d3c411092e182906f456818c0563",
+    "text": "protects",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            377.83,
+            307.40936
+          ],
+          [
+            377.83,
+            335.36936000000003
+          ],
+          [
+            473.53000000000003,
+            335.36936000000003
+          ],
+          [
+            473.53000000000003,
+            307.40936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f43f1eaabf5d99fed25c258443e11dbf",
+    "text": "Properties of Fiber-Optic Cabling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            207.79,
+            36.26999999999998
+          ],
+          [
+            207.79,
+            76.23000000000002
+          ],
+          [
+            731.1070799999999,
+            76.23000000000002
+          ],
+          [
+            731.1070799999999,
+            36.26999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d154a2b7cd9d1f0b998179ada0e6309a",
+    "text": "Transmits data over longer distances at higher bandwidth than any other networking media",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.44,
+            102.28264000000001
+          ],
+          [
+            61.44,
+            164.05935999999997
+          ],
+          [
+            902.37448,
+            164.05935999999997
+          ],
+          [
+            902.37448,
+            102.28264000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 12,
+      "parent_id": "f43f1eaabf5d99fed25c258443e11dbf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "26795dbbc98ad0af9683ea95e809e15c",
+    "text": "Less susceptible to attenuation, and completely immune to EMI/RFI \u2022 Made of flexible, extremely thin strands of very pure glass \u2022 Uses a laser or LED to encode bits as pulses of light \u2022 The fiber-optic cable acts as a wave guide to transmit light between the two ends with minimal signal loss",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.44,
+            176.2516
+          ],
+          [
+            61.44,
+            358.964544
+          ],
+          [
+            891.28124,
+            358.964544
+          ],
+          [
+            891.28124,
+            176.2516
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 12,
+      "parent_id": "f43f1eaabf5d99fed25c258443e11dbf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+    "text": "Fiber-Optic Cabling Usage",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            258.22,
+            54.25200000000001
+          ],
+          [
+            258.22,
+            94.23599999999999
+          ],
+          [
+            671.6922400000002,
+            94.23599999999999
+          ],
+          [
+            671.6922400000002,
+            54.25200000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "be5561dcd75b5f356440d7240e352aee",
+    "text": "Fiber-optic cabling is now being used in four types of industry: 1. Enterprise Networks - Used for backbone cabling applications and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.096,
+            110.69936000000001
+          ],
+          [
+            72.096,
+            178.98454399999997
+          ],
+          [
+            924.376,
+            178.98454399999997
+          ],
+          [
+            924.376,
+            110.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "parent_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e1b4d3788e674a5e1eb60ff1e6f18dec",
+    "text": "interconnecting infrastructure devices",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            99.096,
+            184.64936
+          ],
+          [
+            99.096,
+            212.60935999999998
+          ],
+          [
+            521.57612,
+            212.60935999999998
+          ],
+          [
+            521.57612,
+            184.64936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "parent_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3bab76009ba2e6324c15bcf09e3309ac",
+    "text": "2. Fiber-to-the-Home (FTTH) - Used to provide always-on broadband services to homes and small businesses",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.096,
+            224.96936
+          ],
+          [
+            72.096,
+            286.534544
+          ],
+          [
+            924.37,
+            286.534544
+          ],
+          [
+            924.37,
+            224.96936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "parent_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "85b07e828ea58ef1d9b6ccc6cdc14c9d",
+    "text": "3. Long-Haul Networks - Used by service providers to connect countries and cities",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.096,
+            298.90936
+          ],
+          [
+            72.096,
+            360.46936
+          ],
+          [
+            924.37,
+            360.46936
+          ],
+          [
+            924.37,
+            298.90936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "parent_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f8bc7523a82d923b481c95da8316a538",
+    "text": "4. Submarine Cable Networks - Used to provide reliable high-speed, in harsh undersea high-capacity solutions capable of surviving environments at up to transoceanic distances.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.096,
+            372.82936
+          ],
+          [
+            72.096,
+            468.01536
+          ],
+          [
+            924.376,
+            468.01536
+          ],
+          [
+            924.376,
+            372.82936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 13,
+      "parent_id": "c0320f7df3b0f1bdbf3ce29ce1d3fdb9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a561bb19c6121a5a483eefff74bea364",
+    "text": "Fiber-Optic Connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            290.52,
+            58.04199999999997
+          ],
+          [
+            290.52,
+            98.02599999999995
+          ],
+          [
+            661.569216,
+            98.02599999999995
+          ],
+          [
+            661.569216,
+            58.04199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "087c3f14ec0f9f062efa0766423c2078",
+    "text": "Straight-Tip (ST) Connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            203.3,
+            242.462
+          ],
+          [
+            203.3,
+            260.486
+          ],
+          [
+            406.91904800000003,
+            260.486
+          ],
+          [
+            406.91904800000003,
+            242.462
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ef1617b48ee5a5aa11cff9cd7ac52ea8",
+    "text": "Lucent Connector (LC) Simplex Connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            533.69,
+            235.12
+          ],
+          [
+            533.69,
+            253.12
+          ],
+          [
+            843.338,
+            253.12
+          ],
+          [
+            843.338,
+            235.12
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f848ff638bb1658a98f900b1a781af83",
+    "text": "Subscriber Connector (SC) Connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            175.22,
+            421.04
+          ],
+          [
+            175.22,
+            439.04
+          ],
+          [
+            452.6,
+            439.04
+          ],
+          [
+            452.6,
+            421.04
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "abd9c395730af87676708cb8a622dd8c",
+    "text": "Duplex Multimode LC Connectors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            566.23,
+            418.36
+          ],
+          [
+            566.23,
+            436.36
+          ],
+          [
+            810.754,
+            436.36
+          ],
+          [
+            810.754,
+            418.36
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "42bf1331531e9b5e0b095c09b4a0e8ba",
+    "text": "Fiber Patch Cords",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            340.06,
+            50.25999999999999
+          ],
+          [
+            340.06,
+            90.22000000000003
+          ],
+          [
+            619.78,
+            90.22000000000003
+          ],
+          [
+            619.78,
+            50.25999999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8eafade87db2ac8798eda691926537ca",
+    "text": "SC-SC MM Patch Cord",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.43,
+            338.07
+          ],
+          [
+            150.43,
+            354.03
+          ],
+          [
+            291.41548000000006,
+            354.03
+          ],
+          [
+            291.41548000000006,
+            338.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d4a475f744f0abfb307d231f5d39b81f",
+    "text": "LC-LC SM Patch Cord",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            333.1,
+            338.07
+          ],
+          [
+            333.1,
+            354.03
+          ],
+          [
+            466.28704000000005,
+            354.03
+          ],
+          [
+            466.28704000000005,
+            338.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf4e95fa6dd21c3332c0533bdf3de9f8",
+    "text": "ST-LC MM Patch Cord",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            515.74,
+            338.07
+          ],
+          [
+            515.74,
+            354.03
+          ],
+          [
+            655.02484,
+            354.03
+          ],
+          [
+            655.02484,
+            338.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a6719d339414f238673b6605115a858b",
+    "text": "ST-SC SM Patch Cord",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            677.59,
+            338.07
+          ],
+          [
+            677.59,
+            354.03
+          ],
+          [
+            811.4963200000001,
+            354.03
+          ],
+          [
+            811.4963200000001,
+            338.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "21b9f55800e3ced66feaf1728e1b5148",
+    "text": "A yellow jacket is for single-mode fiber cables and orange for multimode fiber cables.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            138.82,
+            393.63
+          ],
+          [
+            138.82,
+            455.196
+          ],
+          [
+            833.7946000000001,
+            455.196
+          ],
+          [
+            833.7946000000001,
+            393.63
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 15,
+      "parent_id": "a6719d339414f238673b6605115a858b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b61d7dc8e81d556d0edd84ad78766df1",
+    "text": "Implementation Issues",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            128.59864
+          ],
+          [
+            97.992,
+            148.63864
+          ],
+          [
+            290.55636,
+            148.63864
+          ],
+          [
+            290.55636,
+            128.59864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e4ac680025fc709cf481bac67b38c1ea",
+    "text": "Bandwidth supported",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            160.51864
+          ],
+          [
+            97.992,
+            180.55864000000003
+          ],
+          [
+            269.86791999999997,
+            180.55864000000003
+          ],
+          [
+            269.86791999999997,
+            160.51864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "parent_id": "b61d7dc8e81d556d0edd84ad78766df1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6804bebdb7aa1918196f43cc03f9e829",
+    "text": "Distance",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            205.03864
+          ],
+          [
+            97.992,
+            225.07864
+          ],
+          [
+            168.05184,
+            225.07864
+          ],
+          [
+            168.05184,
+            205.03864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d1a6e8442d1116981379c39d74e208bb",
+    "text": "Immunity to EMI and RFI",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            261.84864
+          ],
+          [
+            97.992,
+            281.88864
+          ],
+          [
+            308.80384,
+            281.88864
+          ],
+          [
+            308.80384,
+            261.84864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7aec5ee43496764b7b10b2472d7a531b",
+    "text": "Media and connector costs",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            318.609824
+          ],
+          [
+            97.992,
+            338.67382399999997
+          ],
+          [
+            311.788,
+            338.67382399999997
+          ],
+          [
+            311.788,
+            318.609824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1f53f41da430ae67080f4d5cac50d624",
+    "text": "Installation skills required",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.992,
+            375.43864
+          ],
+          [
+            97.992,
+            395.47864000000004
+          ],
+          [
+            306.397,
+            395.47864000000004
+          ],
+          [
+            306.397,
+            375.43864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "parent_id": "7aec5ee43496764b7b10b2472d7a531b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e5b68475e64d89e37943bf0505fba205",
+    "text": "Fiber versus Copper",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            308.54,
+            48.14999999999998
+          ],
+          [
+            308.54,
+            88.11000000000001
+          ],
+          [
+            627.221,
+            88.11000000000001
+          ],
+          [
+            627.221,
+            48.14999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bade428423647392bae23eb6e7298fe4",
+    "text": "UTP Cabling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            423.65,
+            128.59864
+          ],
+          [
+            423.65,
+            148.63864
+          ],
+          [
+            535.64564,
+            148.63864
+          ],
+          [
+            535.64564,
+            128.59864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b2411a81aea35cc1e0ac5b41fc1afe38",
+    "text": "10 Mb/s - 10 Gb/s",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            406.82,
+            160.51864
+          ],
+          [
+            406.82,
+            180.55864000000003
+          ],
+          [
+            552.43556,
+            180.55864000000003
+          ],
+          [
+            552.43556,
+            160.51864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "parent_id": "bade428423647392bae23eb6e7298fe4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "577d9de53a6faedf67d378909c0b8b1a",
+    "text": "Relatively short (1 - 100 meters)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            415.61,
+            193.03864
+          ],
+          [
+            415.61,
+            237.07864
+          ],
+          [
+            548.3,
+            237.07864
+          ],
+          [
+            548.3,
+            193.03864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "47a37b1aa1628d8212a6162f6a2a749c",
+    "text": "Low",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            461.21,
+            261.84864
+          ],
+          [
+            461.21,
+            281.88864
+          ],
+          [
+            497.94331999999997,
+            281.88864
+          ],
+          [
+            497.94331999999997,
+            261.84864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a24ea3de81c07ce170974be8c87975a",
+    "text": "Lowest",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            450.17,
+            318.609824
+          ],
+          [
+            450.17,
+            338.67382399999997
+          ],
+          [
+            509.278544,
+            338.67382399999997
+          ],
+          [
+            509.278544,
+            318.609824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ee428c944972fedc06639970fe7b6b07",
+    "text": "Lowest",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            450.17,
+            375.43864
+          ],
+          [
+            450.17,
+            395.47864000000004
+          ],
+          [
+            509.24792,
+            395.47864000000004
+          ],
+          [
+            509.24792,
+            375.43864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a086e5afa01e3b35083c9629003e4662",
+    "text": "Fiber-Optic Cabling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            637.63,
+            128.59864
+          ],
+          [
+            637.63,
+            148.63864
+          ],
+          [
+            810.73564,
+            148.63864
+          ],
+          [
+            810.73564,
+            128.59864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7f392aa04f54eeb9736e66f649c00f0c",
+    "text": "Up to 100 Gb/s or more",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            628.99,
+            160.51864
+          ],
+          [
+            628.99,
+            180.55864000000003
+          ],
+          [
+            819.53176,
+            180.55864000000003
+          ],
+          [
+            819.53176,
+            160.51864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b5469ede297996a560e70e5bd5d2556d",
+    "text": "Relatively long ( 1 - 100,000 meters)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            640.15,
+            193.03864
+          ],
+          [
+            640.15,
+            237.07864
+          ],
+          [
+            808.14892,
+            237.07864
+          ],
+          [
+            808.14892,
+            193.03864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f5056910353595f537f4acc74a527494",
+    "text": "High",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            704.11,
+            261.84864
+          ],
+          [
+            704.11,
+            281.88864
+          ],
+          [
+            744.1899999999999,
+            281.88864
+          ],
+          [
+            744.1899999999999,
+            261.84864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "10457b8b6d2b60713f7125f861d9acdd",
+    "text": "Highest",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            693.07,
+            318.609824
+          ],
+          [
+            693.07,
+            338.67382399999997
+          ],
+          [
+            755.5492960000001,
+            338.67382399999997
+          ],
+          [
+            755.5492960000001,
+            318.609824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "67b4d7ef84bf132323758cebf1530622",
+    "text": "Highest",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            693.07,
+            375.43864
+          ],
+          [
+            693.07,
+            395.47864000000004
+          ],
+          [
+            755.51464,
+            395.47864000000004
+          ],
+          [
+            755.51464,
+            375.43864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2e570051a859779590c1fae6fa683597",
+    "text": "Advantages and Disadvantages of Optical Fiber",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            76.632,
+            60.02199999999999
+          ],
+          [
+            76.632,
+            104.08600000000001
+          ],
+          [
+            883.7963520000008,
+            104.08600000000001
+          ],
+          [
+            883.7963520000008,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ae011c2458e418c077ae77e55f78287e",
+    "text": "Advantages \u2022 High bandwidth \u2022 Long distances \u2022 Immunity to interference \u2022 Smaller size and lighter weight \u2022 Security \u2022 Durability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.344,
+            152.97254399999997
+          ],
+          [
+            73.344,
+            438.32782399999996
+          ],
+          [
+            451.81751999999994,
+            438.32782399999996
+          ],
+          [
+            451.81751999999994,
+            152.97254399999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 17,
+      "parent_id": "2e570051a859779590c1fae6fa683597",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c01975e7dc9ff5b6c7b9b591931ef915",
+    "text": "Disadvantages \u2022 Cost \u2022 Installation \u2022 Complexity \u2022 Fragility",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            524.69,
+            157.03718399999997
+          ],
+          [
+            524.69,
+            368.65063999999995
+          ],
+          [
+            746.8500080000001,
+            368.65063999999995
+          ],
+          [
+            746.8500080000001,
+            157.03718399999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9ccb77090fc03c8fa0e6397b20363242",
+    "text": "Propagation Modes: Single Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            166.75,
+            59.843823999999984
+          ],
+          [
+            166.75,
+            103.907824
+          ],
+          [
+            793.0756960000002,
+            103.907824
+          ],
+          [
+            793.0756960000002,
+            59.843823999999984
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a0c6d324d651868c3b5b4b2f2f8422be",
+    "text": "The light is traveling straightway as the core of the diameter is very less.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.096,
+            138.63063999999997
+          ],
+          [
+            84.096,
+            205.23582399999998
+          ],
+          [
+            886.85358,
+            205.23582399999998
+          ],
+          [
+            886.85358,
+            138.63063999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 18,
+      "parent_id": "9ccb77090fc03c8fa0e6397b20363242",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aa453e669abfff6cc3911b20479f2843",
+    "text": "Single-Mode Fiber (SMF)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            247.13,
+            414.11
+          ],
+          [
+            247.13,
+            432.11
+          ],
+          [
+            450.058,
+            432.11
+          ],
+          [
+            450.058,
+            414.11
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "453b1d654ddae8cb15aaeec6443e539b",
+    "text": "Propagation Modes: Multimode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            179.59,
+            59.843823999999984
+          ],
+          [
+            179.59,
+            103.907824
+          ],
+          [
+            780.2263840000003,
+            103.907824
+          ],
+          [
+            780.2263840000003,
+            59.843823999999984
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bff0074f536594db6d9b0366c7d3a820",
+    "text": "Multimode fiber optic cable has a large diameter core, so multiple modes of light propagate in it. It has more data carrying capacity due to multiple reflection inside.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            135.441824
+          ],
+          [
+            73.2,
+            244.33064000000002
+          ],
+          [
+            894.81,
+            244.33064000000002
+          ],
+          [
+            894.81,
+            135.441824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 19,
+      "parent_id": "453b1d654ddae8cb15aaeec6443e539b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b7d100f55bcdd076adfe7b3dd390103f",
+    "text": "Multimode fiber (MMF).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            155.81,
+            463.116
+          ],
+          [
+            155.81,
+            481.116
+          ],
+          [
+            348.988,
+            481.116
+          ],
+          [
+            348.988,
+            463.116
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0d1d53676e1cc35d60548aa8009be52f",
+    "text": "Ethernet evolution through four generations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.592,
+            59.05135999999999
+          ],
+          [
+            95.592,
+            99.01135999999997
+          ],
+          [
+            830.1065600000001,
+            99.01135999999997
+          ],
+          [
+            830.1065600000001,
+            59.05135999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "500c8472af8f3903c99fc4515a1a3c93",
+    "text": "Wi-Fi, WiMAX, Bluetooth, ZigBee, LiFi",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            180.31,
+            206.24
+          ],
+          [
+            180.31,
+            246.2
+          ],
+          [
+            767.72768,
+            246.2
+          ],
+          [
+            767.72768,
+            206.24
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7d961fbcf97c1fb37d9c29fe303ee8cf",
+    "text": "Unguided Media: Wireless",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            230.47,
+            58.883824000000004
+          ],
+          [
+            230.47,
+            102.94782400000003
+          ],
+          [
+            729.4948,
+            102.94782400000003
+          ],
+          [
+            729.4948,
+            58.883824000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "de2c037723ade47d0cd99137db0053c2",
+    "text": "Unguided media transport electromagnetic waves without",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            141.28182400000003
+          ],
+          [
+            73.2,
+            173.345824
+          ],
+          [
+            886.9510720000001,
+            173.345824
+          ],
+          [
+            886.9510720000001,
+            141.28182400000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 22,
+      "parent_id": "7d961fbcf97c1fb37d9c29fe303ee8cf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "864430c07d4cf8bba34b86cc8cadb9ff",
+    "text": "using a physical conductor. This type of communication is",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            198.92064000000005
+          ],
+          [
+            73.2,
+            230.96064
+          ],
+          [
+            894.81,
+            230.96064
+          ],
+          [
+            894.81,
+            198.92064000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 22,
+      "parent_id": "7d961fbcf97c1fb37d9c29fe303ee8cf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e408b83035c37203e15ca87974efd96e",
+    "text": "often referred to as wireless communication.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            256.501824
+          ],
+          [
+            73.2,
+            288.565824
+          ],
+          [
+            644.4459999999999,
+            288.565824
+          ],
+          [
+            644.4459999999999,
+            256.501824
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 22,
+      "parent_id": "7d961fbcf97c1fb37d9c29fe303ee8cf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a9cbd0b12cbf6ce73f1c21d492eb20b2",
+    "text": "Properties of Wireless Media",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            195.07,
+            43.71382399999999
+          ],
+          [
+            195.07,
+            87.77782400000001
+          ],
+          [
+            738.1147360000001,
+            87.77782400000001
+          ],
+          [
+            738.1147360000001,
+            43.71382399999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "94ab673fea4d2c38c0e9220eb07481f2",
+    "text": "It carries electromagnetic signals using radio or microwave frequencies. Some of the limitations of wireless: \u2022 Coverage area - Effective coverage can be impacted by the physical",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.112,
+            133.83936
+          ],
+          [
+            62.112,
+            240.764544
+          ],
+          [
+            889.4259999999999,
+            240.764544
+          ],
+          [
+            889.4259999999999,
+            133.83936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 23,
+      "parent_id": "a9cbd0b12cbf6ce73f1c21d492eb20b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce81976a564e27016e39c35f4fa11ff9",
+    "text": "characteristics of the deployment location.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            90.336,
+            246.41935999999998
+          ],
+          [
+            90.336,
+            274.37935999999996
+          ],
+          [
+            564.89,
+            274.37935999999996
+          ],
+          [
+            564.89,
+            246.41935999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "56bc9759171e5132a0e9961a8334144b",
+    "text": "Interference - Wireless is susceptible to interference and can be disrupted by many common devices.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.872,
+            284.8916
+          ],
+          [
+            67.872,
+            346.624544
+          ],
+          [
+            889.42,
+            346.624544
+          ],
+          [
+            889.42,
+            284.8916
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 23,
+      "parent_id": "ce81976a564e27016e39c35f4fa11ff9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "26be0864c919aadad6536100e287d707",
+    "text": "Security - Wireless communication coverage requires no access to a physical strand of media, so anyone can gain access to the transmission.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.872,
+            357.0416
+          ],
+          [
+            67.872,
+            452.36736
+          ],
+          [
+            889.42,
+            452.36736
+          ],
+          [
+            889.42,
+            357.0416
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 23,
+      "parent_id": "ce81976a564e27016e39c35f4fa11ff9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4eec388eab64e21d8aa3a17de0b8d01d",
+    "text": "Wireless Standards",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            297.94,
+            48.51264000000003
+          ],
+          [
+            297.94,
+            92.55264
+          ],
+          [
+            661.9306000000001,
+            92.55264
+          ],
+          [
+            661.9306000000001,
+            48.51264000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a298b4c8e6d46b7f813ea9a0652e3f7f",
+    "text": "The IEEE and telecommunications industry standards for wireless data communications cover both the data link and physical layers. Wireless Standards: \u2022 Wi-Fi (IEEE 802.11) - Wireless LAN (WLAN) technology \u2022 Bluetooth (IEEE 802.15) - Wireless Personal Area network (WPAN) standard \u2022 WiMAX (IEEE 802.16) - Uses a point-to-multipoint topology to provide broadband",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.24,
+            144.14054399999998
+          ],
+          [
+            57.24,
+            349.874
+          ],
+          [
+            917.5559999999999,
+            349.874
+          ],
+          [
+            917.5559999999999,
+            144.14054399999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 24,
+      "parent_id": "4eec388eab64e21d8aa3a17de0b8d01d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f7ef3c31ed3aa8e88009d37008ebb006",
+    "text": "wireless access",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.8,
+            354.674
+          ],
+          [
+            79.8,
+            378.674
+          ],
+          [
+            225.836,
+            378.674
+          ],
+          [
+            225.836,
+            354.674
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e8d25dfacff6ae80fc01484c7193df51",
+    "text": "Zigbee (IEEE 802.15.4) - Low data-rate, low power-consumption communications, primarily for Internet of Things (IoT) applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.24,
+            389.07104000000004
+          ],
+          [
+            57.24,
+            442.054
+          ],
+          [
+            916.5659999999999,
+            442.054
+          ],
+          [
+            916.5659999999999,
+            389.07104000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 24,
+      "parent_id": "f7ef3c31ed3aa8e88009d37008ebb006",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ab52bc7785959950655dc8cbc41fc839",
+    "text": "Wireless LAN",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            354.14,
+            43.71382399999999
+          ],
+          [
+            354.14,
+            87.77782400000001
+          ],
+          [
+            617.86304,
+            87.77782400000001
+          ],
+          [
+            617.86304,
+            43.71382399999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "396f945363cf0a377f0715b2b62a8afc",
+    "text": "In general, a Wireless LAN (WLAN) requires the following devices: \u2022 Wireless Access Point (AP) - Concentrate wireless signals from users",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.112,
+            139.28936
+          ],
+          [
+            62.112,
+            207.57454399999995
+          ],
+          [
+            889.55792,
+            207.57454399999995
+          ],
+          [
+            889.55792,
+            139.28936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 25,
+      "parent_id": "ab52bc7785959950655dc8cbc41fc839",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fb8be903e626f55bbd531773eb531145",
+    "text": "and connect to the existing copper-based network infrastructure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            89.136,
+            213.22935999999999
+          ],
+          [
+            89.136,
+            241.18935999999997
+          ],
+          [
+            814.8541999999999,
+            241.18935999999997
+          ],
+          [
+            814.8541999999999,
+            213.22935999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 25,
+      "parent_id": "ab52bc7785959950655dc8cbc41fc839",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "05c276f741d2ecb6350d6495d35f0271",
+    "text": "Wireless NIC Adapters - Provide wireless communications capability to network hosts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.112,
+            253.38160000000005
+          ],
+          [
+            62.112,
+            315.10936
+          ],
+          [
+            889.8583200000003,
+            315.10936
+          ],
+          [
+            889.8583200000003,
+            253.38160000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 25,
+      "parent_id": "ab52bc7785959950655dc8cbc41fc839",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59293b363f526e0f0366428744cd25ac",
+    "text": "Network Administrators must develop and apply stringent security policies and processes to protect WLANs from unauthorized access and damage.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.112,
+            367.81936
+          ],
+          [
+            62.112,
+            429.37936
+          ],
+          [
+            907.9579200000003,
+            429.37936
+          ],
+          [
+            907.9579200000003,
+            367.81936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 25,
+      "parent_id": "ab52bc7785959950655dc8cbc41fc839",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "06bac943409fcdda925f04d3c0768c28",
+    "text": "Wireless Transmission Waves",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            205.22,
+            59.633824000000004
+          ],
+          [
+            205.22,
+            103.69782400000003
+          ],
+          [
+            758.7960320000002,
+            103.69782400000003
+          ],
+          [
+            758.7960320000002,
+            59.633824000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "827825ed0067ae1c47c1fc8a230cfd3e",
+    "text": "Wireless Transmission Waves",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            203.11,
+            58.883824000000004
+          ],
+          [
+            203.11,
+            102.94782400000003
+          ],
+          [
+            756.7741600000002,
+            102.94782400000003
+          ],
+          [
+            756.7741600000002,
+            58.883824000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c3f001b3e992155a80b51adb1f713ff2",
+    "text": "Radio waves are used for multicast communications, such as radio and television. They can penetrate through walls. Use omni directional antennas.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            145.64840000000004
+          ],
+          [
+            73.2,
+            221.76982399999997
+          ],
+          [
+            893.31,
+            221.76982399999997
+          ],
+          [
+            893.31,
+            145.64840000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 27,
+      "parent_id": "827825ed0067ae1c47c1fc8a230cfd3e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2850cc704f744241f8026f49363d2074",
+    "text": "Microwaves are used for unicast communication such as cellular telephones, satellite networks, and wireless LANs. Higher frequency ranges cannot penetrate walls. Use directional antennas - point to point line of sight communications.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            265.5584
+          ],
+          [
+            73.2,
+            366.65464
+          ],
+          [
+            893.3159999999999,
+            366.65464
+          ],
+          [
+            893.3159999999999,
+            265.5584
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 27,
+      "parent_id": "827825ed0067ae1c47c1fc8a230cfd3e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "beac905c2d4364a8a224753fdd2e78a7",
+    "text": "Infrared signals can be used for short-range communication in a closed area using line-of-sight propagation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            410.4184
+          ],
+          [
+            73.2,
+            461.581824
+          ],
+          [
+            846.8268400000001,
+            461.581824
+          ],
+          [
+            846.8268400000001,
+            410.4184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 27,
+      "parent_id": "827825ed0067ae1c47c1fc8a230cfd3e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3bdc9d4c1f50298ecc8729a2e65c4436",
+    "text": "Antennas",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            398.14,
+            60.02199999999999
+          ],
+          [
+            398.14,
+            104.08600000000001
+          ],
+          [
+            562.190272,
+            104.08600000000001
+          ],
+          [
+            562.190272,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6b6a0205388d5ecc9869db9e1b12532b",
+    "text": "Electrical conductor used to radiate or collect electromagnetic energy \u2022 Transmitter Radio frequency electrical energy is converted into electromagnetic energy by the antenna and radiated into the surrounding environment",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.712,
+            142.0016
+          ],
+          [
+            47.712,
+            270.94936
+          ],
+          [
+            900.566,
+            270.94936
+          ],
+          [
+            900.566,
+            142.0016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 28,
+      "parent_id": "3bdc9d4c1f50298ecc8729a2e65c4436",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a03d1f1d93bba82f1cb115f86154e687",
+    "text": "Reception occurs when the electromagnetic signal intersects the antenna \u2022 In two-way communication, the same antenna can be used for both transmission and reception",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.712,
+            283.02160000000003
+          ],
+          [
+            47.712,
+            381.61936000000003
+          ],
+          [
+            900.566,
+            381.61936000000003
+          ],
+          [
+            900.566,
+            283.02160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 28,
+      "parent_id": "3bdc9d4c1f50298ecc8729a2e65c4436",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4c6f92b3f33bec82a981b90642a7052b",
+    "text": "Omnidirectional antenna",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            106.9,
+            407.78864
+          ],
+          [
+            106.9,
+            427.82864
+          ],
+          [
+            307.88116,
+            427.82864
+          ],
+          [
+            307.88116,
+            407.78864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9a92829ad2c6eda5ad6d35a372ce6432",
+    "text": "Unidirectional antennas",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            530.76,
+            408.41864
+          ],
+          [
+            530.76,
+            428.45864
+          ],
+          [
+            725.0478,
+            428.45864
+          ],
+          [
+            725.0478,
+            408.41864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "952551073055b339a23f61cfcf6caafb",
+    "text": "Antenna Gain",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            65.16,
+            229.51999999999998
+          ],
+          [
+            65.16,
+            312.70000000000005
+          ],
+          [
+            207.77723999999998,
+            312.70000000000005
+          ],
+          [
+            207.77723999999998,
+            229.51999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d6f4b7af1367c72248ede546f6e90593",
+    "text": "A measure of the directionality of an antenna",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.13,
+            124.03400000000005
+          ],
+          [
+            298.13,
+            148.03400000000005
+          ],
+          [
+            730.7079999999999,
+            148.03400000000005
+          ],
+          [
+            730.7079999999999,
+            124.03400000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2a80717d00dbb487214eea975183cde2",
+    "text": "Defined as the power output versus that produced by an antenna",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            336.31,
+            211.514
+          ],
+          [
+            336.31,
+            260.35400000000004
+          ],
+          [
+            848.856,
+            260.35400000000004
+          ],
+          [
+            848.856,
+            211.514
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 30,
+      "parent_id": "d6f4b7af1367c72248ede546f6e90593",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e60a7621378967f4ffbb8297fb1acc9a",
+    "text": "Measured in decibels (dB)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            336.31,
+            323.834
+          ],
+          [
+            336.31,
+            347.834
+          ],
+          [
+            590.212,
+            347.834
+          ],
+          [
+            590.212,
+            323.834
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 30,
+      "parent_id": "d6f4b7af1367c72248ede546f6e90593",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0cf87b923ab4f3ec85cac69d8095421a",
+    "text": "Effective area of an antenna is related to the physical size of the antenna and to its shape",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.13,
+            411.31399999999996
+          ],
+          [
+            298.13,
+            460.152
+          ],
+          [
+            855.4600000000002,
+            460.152
+          ],
+          [
+            855.4600000000002,
+            411.31399999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 30,
+      "parent_id": "d6f4b7af1367c72248ede546f6e90593",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "96b7020c1b1f9c018168b9466e88696d",
+    "text": "Terrestrial Microwave",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            66.48,
+            199.10199999999998
+          ],
+          [
+            66.48,
+            290.71
+          ],
+          [
+            258.498464,
+            290.71
+          ],
+          [
+            258.498464,
+            199.10199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "44a5b1586988cb412ca44f9d0c693207",
+    "text": "Most common type is the parabolic \u201cdish\u201d, size is about 3 m in diameter",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.5,
+            116.95864
+          ],
+          [
+            306.5,
+            136.99864000000002
+          ],
+          [
+            885.1513600000001,
+            136.99864000000002
+          ],
+          [
+            885.1513600000001,
+            116.95864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 31,
+      "parent_id": "96b7020c1b1f9c018168b9466e88696d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f6ee7e092382a29942ef6d331f3df5d5",
+    "text": "Antenna is fixed rigidly and focuses a narrow beam to achieve line- of-sight transmission to the receiving antenna",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            343.03,
+            202.18863999999996
+          ],
+          [
+            343.03,
+            242.98864000000003
+          ],
+          [
+            884.61332,
+            242.98864000000003
+          ],
+          [
+            884.61332,
+            202.18863999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 31,
+      "parent_id": "96b7020c1b1f9c018168b9466e88696d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "101a115ae90be52ef9a2b4d9831ef464",
+    "text": "Usually located at substantial heights above ground level",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            343.03,
+            308.09864
+          ],
+          [
+            343.03,
+            328.13864
+          ],
+          [
+            799.24648,
+            328.13864
+          ],
+          [
+            799.24648,
+            308.09864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 31,
+      "parent_id": "96b7020c1b1f9c018168b9466e88696d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7da36fd4fede55caa9af284dfaf1b4f1",
+    "text": "A series of microwave relay towers is used to achieve long-distance transmission",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.5,
+            393.31864
+          ],
+          [
+            306.5,
+            434.11864
+          ],
+          [
+            854.02108,
+            434.11864
+          ],
+          [
+            854.02108,
+            393.31864
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 31,
+      "parent_id": "96b7020c1b1f9c018168b9466e88696d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b63cc98a6dbe9c0e40cfbd31f655b9f3",
+    "text": "Terrestrial Microwave Applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            182.71,
+            64.16999999999996
+          ],
+          [
+            182.71,
+            108.20999999999998
+          ],
+          [
+            777.56856,
+            108.20999999999998
+          ],
+          [
+            777.56856,
+            64.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "86daa2574fd90031db51b3fea85d0251",
+    "text": "Used for long telecommunications service as an alternative to coaxial",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.456,
+            151.31264
+          ],
+          [
+            84.456,
+            179.464544
+          ],
+          [
+            902.776,
+            179.464544
+          ],
+          [
+            902.776,
+            151.31264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "parent_id": "b63cc98a6dbe9c0e40cfbd31f655b9f3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fce97bdd91327f66ec1d220c0fdded87",
+    "text": "cable or optical fiber",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            102.46,
+            201.92936000000003
+          ],
+          [
+            102.46,
+            229.88936
+          ],
+          [
+            334.66032,
+            229.88936
+          ],
+          [
+            334.66032,
+            201.92936000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0f7dcb514d7fa6039a7ccdec3d337668",
+    "text": "Used for both voice and TV transmission",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.456,
+            262.10264
+          ],
+          [
+            84.456,
+            290.254544
+          ],
+          [
+            563.1591199999999,
+            290.254544
+          ],
+          [
+            563.1591199999999,
+            262.10264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "parent_id": "fce97bdd91327f66ec1d220c0fdded87",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f88bc91cfe8cf17a7106430054e0cb43",
+    "text": "1-40GHz frequencies, with higher frequencies having higher data rates",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.456,
+            322.6216
+          ],
+          [
+            84.456,
+            350.74936
+          ],
+          [
+            895.7384800000001,
+            350.74936
+          ],
+          [
+            895.7384800000001,
+            322.6216
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "parent_id": "fce97bdd91327f66ec1d220c0fdded87",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f3a434103a20585bbccf675abee101b4",
+    "text": "Main source of loss is attenuation caused mostly by distance, rainfall",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.456,
+            382.96263999999996
+          ],
+          [
+            84.456,
+            411.114544
+          ],
+          [
+            902.776,
+            411.114544
+          ],
+          [
+            902.776,
+            382.96263999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "parent_id": "fce97bdd91327f66ec1d220c0fdded87",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9c3a23ce701a11d79097a52ab3ba6881",
+    "text": "and interference",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            102.46,
+            433.57536
+          ],
+          [
+            102.46,
+            461.53535999999997
+          ],
+          [
+            283.44492,
+            461.53535999999997
+          ],
+          [
+            283.44492,
+            433.57536
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "13dec5676c0b01eb6b78ec4caa917483",
+    "text": "Satellite Microwave",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            304.9,
+            41.952
+          ],
+          [
+            304.9,
+            86.01600000000002
+          ],
+          [
+            643.5759039999999,
+            86.01600000000002
+          ],
+          [
+            643.5759039999999,
+            41.952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d11731b00901ec5cbcb04eea677a207a",
+    "text": "A communication satellite is in effect a microwave relay station",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.968,
+            131.24
+          ],
+          [
+            67.968,
+            161.42000000000002
+          ],
+          [
+            852.24,
+            161.42000000000002
+          ],
+          [
+            852.24,
+            131.24
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 33,
+      "parent_id": "13dec5676c0b01eb6b78ec4caa917483",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6a0f980c22a14ad7579ff2b664047094",
+    "text": "Used to link two or more ground stations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.968,
+            195.18104
+          ],
+          [
+            67.968,
+            225.38518399999998
+          ],
+          [
+            578.543128,
+            225.38518399999998
+          ],
+          [
+            578.543128,
+            195.18104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 33,
+      "parent_id": "13dec5676c0b01eb6b78ec4caa917483",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7b155e97dc42d636d66521a1dede1d7a",
+    "text": "Receives transmissions on one frequency band, amplifies or",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.968,
+            259.19
+          ],
+          [
+            67.968,
+            289.37
+          ],
+          [
+            880.76,
+            289.37
+          ],
+          [
+            880.76,
+            259.19
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 33,
+      "parent_id": "13dec5676c0b01eb6b78ec4caa917483",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "72483c962ed97bb99a35ddd75664fad0",
+    "text": "repeats the signal, and transmits it on another frequency",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.968,
+            313.351184
+          ],
+          [
+            85.968,
+            343.375184
+          ],
+          [
+            757.5058799999999,
+            343.375184
+          ],
+          [
+            757.5058799999999,
+            313.351184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 33,
+      "parent_id": "13dec5676c0b01eb6b78ec4caa917483",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f258c0b23fd38f4cb23b4a86c793e39c",
+    "text": "Satellite Microwave Applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            200.23,
+            23.951999999999998
+          ],
+          [
+            200.23,
+            68.01600000000002
+          ],
+          [
+            760.0000319999999,
+            68.01600000000002
+          ],
+          [
+            760.0000319999999,
+            23.951999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0fb2605b4d96cd77671bb921fccb777e",
+    "text": "Most important applications for satellites are:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            95.17160000000001
+          ],
+          [
+            97.224,
+            123.29935999999998
+          ],
+          [
+            623.6166800000001,
+            123.29935999999998
+          ],
+          [
+            623.6166800000001,
+            95.17160000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "parent_id": "f258c0b23fd38f4cb23b4a86c793e39c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e9d57474035f7eb65ea0ab875d4d557f",
+    "text": "Long-distance telephone transmission",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            227.5,
+            192.52999999999997
+          ],
+          [
+            227.5,
+            245.93600000000004
+          ],
+          [
+            473.236,
+            245.93600000000004
+          ],
+          [
+            473.236,
+            192.52999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8dadb61c022e0e7ef4344c9dc8e57bc6",
+    "text": "Private business networks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            650.88,
+            192.52999999999997
+          ],
+          [
+            650.88,
+            245.93600000000004
+          ],
+          [
+            812.904,
+            245.93600000000004
+          ],
+          [
+            812.904,
+            192.52999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "145baeef9b720e191107ba7371a563ed",
+    "text": "Television distribution",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            227.5,
+            382.39
+          ],
+          [
+            227.5,
+            406.39
+          ],
+          [
+            441.48400000000004,
+            406.39
+          ],
+          [
+            441.48400000000004,
+            382.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7abf9387aef856aa2be19ab546d0f63a",
+    "text": "Global Positioning System (GPS)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            650.88,
+            367.75
+          ],
+          [
+            650.88,
+            421.15
+          ],
+          [
+            832.2719999999999,
+            421.15
+          ],
+          [
+            832.2719999999999,
+            367.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "256c78ce8381f008d445f685e1a9e03c",
+    "text": "Transmission Characteristics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            236.83,
+            60.02199999999999
+          ],
+          [
+            236.83,
+            104.08600000000001
+          ],
+          [
+            723.869392,
+            104.08600000000001
+          ],
+          [
+            723.869392,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 35,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "42c5a96a91235f5947f8f2b9fd4956c6",
+    "text": "The optimum frequency range for satellite transmission is 1 to 10 GHz",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            51.456,
+            131.15264000000002
+          ],
+          [
+            51.456,
+            159.30454399999996
+          ],
+          [
+            860.9794239999999,
+            159.30454399999996
+          ],
+          [
+            860.9794239999999,
+            131.15264000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 35,
+      "parent_id": "256c78ce8381f008d445f685e1a9e03c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d97a15eb511ab7d75467a4f4c9ea26cb",
+    "text": "Satellites use a frequency bandwidth range of 5.925 to 6.425 GHz from earth to satellite (uplink) and a range of 3.7 to 4.2 GHz from satellite to earth (downlink)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            51.456,
+            211.72160000000002
+          ],
+          [
+            51.456,
+            300.334544
+          ],
+          [
+            875.93068,
+            300.334544
+          ],
+          [
+            875.93068,
+            211.72160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 35,
+      "parent_id": "256c78ce8381f008d445f685e1a9e03c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "170aedd185a9db48ca284e1c5fa5df8a",
+    "text": "Wireless Propagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            296.86,
+            60.02199999999999
+          ],
+          [
+            296.86,
+            104.08600000000001
+          ],
+          [
+            663.6046719999999,
+            104.08600000000001
+          ],
+          [
+            663.6046719999999,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f88a60512926c452ba1207729272ff09",
+    "text": "Ground Wave Propagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            511.25,
+            174.0
+          ],
+          [
+            511.25,
+            198.0
+          ],
+          [
+            767.878,
+            198.0
+          ],
+          [
+            767.878,
+            174.0
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "540b2a000d8527deada08eab044866e4",
+    "text": "Wireless Propagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            208.27,
+            296.21000000000004
+          ],
+          [
+            208.27,
+            320.21000000000004
+          ],
+          [
+            414.7180000000001,
+            320.21000000000004
+          ],
+          [
+            414.7180000000001,
+            296.21000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a1a2c56a81481e764dadefd32d282f2e",
+    "text": "Sky Wave Propagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            531.65,
+            294.78999999999996
+          ],
+          [
+            531.65,
+            318.78999999999996
+          ],
+          [
+            752.882,
+            318.78999999999996
+          ],
+          [
+            752.882,
+            294.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f3e4dfedd27f47574f28a29789fe3ca9",
+    "text": "Line-of-Sight Propagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            516.29,
+            415.61
+          ],
+          [
+            516.29,
+            439.61
+          ],
+          [
+            768.2620000000001,
+            439.61
+          ],
+          [
+            768.2620000000001,
+            415.61
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cd8195688173c94e452e0b2c59e0769f",
+    "text": "EarthFigure 4.11 Wireless Propagation Modes(a) Ground-wave propagation (below 2 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.41998646393608,
+            35.99976633578996
+          ],
+          [
+            191.41998646393608,
+            339.69
+          ],
+          [
+            762.00111341728,
+            339.69
+          ],
+          [
+            762.00111341728,
+            35.99976633578996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fad8de1e1b6b8d309c70f465b105eb3f",
+    "text": "Earth(c) Line-of-sight (LOS) propagation (above 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.41998646393608,
+            35.99976633578996
+          ],
+          [
+            191.41998646393608,
+            339.69
+          ],
+          [
+            762.00111341728,
+            339.69
+          ],
+          [
+            762.00111341728,
+            35.99976633578996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4fd295865f901bf272207824f45c63c9",
+    "text": "EarthIonosphere(b) Sky-wave propagation (2 to 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.41998646393608,
+            35.99976633578996
+          ],
+          [
+            191.41998646393608,
+            339.69
+          ],
+          [
+            762.00111341728,
+            339.69
+          ],
+          [
+            762.00111341728,
+            35.99976633578996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "24dba1eec585f91d965068e91b2723e6",
+    "text": "EarthIonosphere(b) Sky-wave propagation (2 to 30 MHz)transmitantennareceiveantennasignalpropagationEarthFigure 4.11 Wireless Propagation Modes(a) Ground-wave propagation (below 2 MHz)transmitantennareceiveantennasignalpropagationEarth(c) Line-of-sight (LOS) propagation (above 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            263.9999728557115,
+            306.001874747084
+          ],
+          [
+            263.9999728557115,
+            340.37001353642734
+          ],
+          [
+            681.2891731714999,
+            340.37001353642734
+          ],
+          [
+            681.2891731714999,
+            306.001874747084
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 37,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "53593a1e1eae173233b991f1c0b934b9",
+    "text": "Ground wave propagation follows the contour of the earth \u2022 The best-known example of ground wave communication is AM radio",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.712,
+            374.56264
+          ],
+          [
+            80.712,
+            436.33936
+          ],
+          [
+            894.4886800000005,
+            436.33936
+          ],
+          [
+            894.4886800000005,
+            374.56264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 37,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "e6bd44af283c26b72609825a4de21d34",
+    "text": "EarthIonosphere(b) Sky-wave propagation (2 to 30 MHz)transmitantennareceiveantennasignalpropagationEarthFigure 4.11 Wireless Propagation Modes(a) Ground-wave propagation (below 2 MHz)transmitantennareceiveantennasignalpropagationEarth(c) Line-of-sight (LOS) propagation (above 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            185.99998646378586,
+            17.997387784099942
+          ],
+          [
+            185.99998646378586,
+            309.53002714485694
+          ],
+          [
+            805.5219573466,
+            309.53002714485694
+          ],
+          [
+            805.5219573466,
+            17.997387784099942
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 38,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2f85938301f1ce7dde32679f56dc71f8",
+    "text": "EarthIonosphere(b) Sky-wave propagation (2 to 30 MHz)transmitantennareceiveantennasignalpropagationEarthFigure 4.11 Wireless Propagation Modes(a) Ground-wave propagation (below 2 MHz)transmitantennareceiveantennasignalpropagationEarth(c) Line-of-sight (LOS) propagation (above 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            275.9999728557115,
+            276.001874747084
+          ],
+          [
+            275.9999728557115,
+            310.3700271448569
+          ],
+          [
+            693.2891731714999,
+            310.3700271448569
+          ],
+          [
+            693.2891731714999,
+            276.001874747084
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 38,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0bff06285d1eb97a255279ece594182b",
+    "text": "A signal from an earth-based antenna is reflected from the ionized layer of the upper atmosphere back down to earth",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.456,
+            320.5816
+          ],
+          [
+            63.456,
+            382.30935999999997
+          ],
+          [
+            911.77,
+            382.30935999999997
+          ],
+          [
+            911.77,
+            320.5816
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 38,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "45c8b7bc81cfebcb175a2b4bd3975cfa",
+    "text": "Sky wave signals can travel through a number of hops, bouncing back and forth between the ionosphere and the earth\u2019s surface",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.456,
+            387.76264000000003
+          ],
+          [
+            63.456,
+            449.53535999999997
+          ],
+          [
+            911.776,
+            449.53535999999997
+          ],
+          [
+            911.776,
+            387.76264000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 38,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "e7e216567d1b29cfd0048d28d59ca43d",
+    "text": "EarthIonosphere(b) Sky-wave propagation (2 to 30 MHz)transmitantennareceiveantennasignalpropagationEarthFigure 4.11 Wireless Propagation Modes(a) Ground-wave propagation (below 2 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646391964,
+            47.99603248574999
+          ],
+          [
+            161.99998646391964,
+            312.0
+          ],
+          [
+            803.1802410649999,
+            312.0
+          ],
+          [
+            803.1802410649999,
+            47.99603248574999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 39,
+      "parent_id": "4fd295865f901bf272207824f45c63c9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "18600fb5cc97c1503163cf6c59c4f1dd",
+    "text": "Earth(c) Line-of-sight (LOS) propagation (above 30 MHz)transmitantennareceiveantennasignalpropagation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646391964,
+            47.99603248574999
+          ],
+          [
+            161.99998646391964,
+            312.0
+          ],
+          [
+            803.1802410649999,
+            312.0
+          ],
+          [
+            803.1802410649999,
+            47.99603248574999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 39,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "36bccc7160f35f7f6a865e8472a0ac21",
+    "text": "The term optical line of sight refers to the straight-line propagation with no obstacles of light waves The propagation of radio waves bent by the curvature of the earth.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            91.872,
+            363.480544
+          ],
+          [
+            91.872,
+            458.67936
+          ],
+          [
+            881.846,
+            458.67936
+          ],
+          [
+            881.846,
+            363.480544
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "4-Transmission Media.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:18:00",
+      "page_number": 39,
+      "parent_id": "18600fb5cc97c1503163cf6c59c4f1dd",
+      "filetype": "application/pdf"
+    }
+  }
+]

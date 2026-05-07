@@ -1,0 +1,98 @@
+[
+  {
+    "id": "f901e673-ce6b-4644-888f-8e8a8e9237a0",
+    "text": "Lecture 9 INSTRUCTION SET ARCHITECTURE (ISA) Introduction In this chapter, we will study material dealing with instruction set architecture for general-purpose computers. We will examine the operations that the instructions perform and focus particularly on how the operands are obtained and where the results are stored. We will contrast two distinct classes of architectures: reduced instruction set computers (RISCs) and complex instruction set computers (CISCs). Cont., The binary language in which instructions are defined and stored in memory is referred to as machine language. A symbolic language that replaces binary opcodes and addresses with symbolic names is referred to as assembly language. A computer usually has a variety of instructions and multiple instruction formats.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "ab48e8e9-4b68-4f63-bec2-cf8483ae140f",
+    "text": "Instruction Format Instruction format is a binary format which specifies a computer instruction. The format of an instruction is depicted in a rectangular box symbolizing the bits of the binary instruction. The bits are divided into groups called fields. • The following are typical fields found in instruction formats: Cont., 1. An opcode field, which specifies the operation to be performed. 2. An address field, which provides either a memory address or an address that selects a processor register. 3. A mode field, which specifies the way the address field is to be interpreted.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "5de4f2ad-a6ef-407c-912f-5ce7e5c8594a",
+    "text": "Basic Computer Operation Cycle The computer’s control unit is designed to execute each instruction of a program in the following sequence of steps: • Fetch the instruction from memory (Program counter). • Decode the instruction ( Instruction Decoder). • Locate the operands used by the instruction. • Fetch operands from memory (if necessary). • Execute the operation in processor registers. • Store the results in the proper place. • Go back to step 1 to fetch the next instruction.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "cffdad1c-476a-498a-875f-11e6af2bea2a",
+    "text": "Note A register in the computer called the program counter (PC) keeps track of the instructions in the program stored in memory. The PC holds the address of the instruction to be executed next and is incremented each time a word is read from the program in memory. The decoding done in Step 2 determines the operation to be performed and the addressing mode or modes of the instruction. The operands in Step 3 are located from the addressing modes and the address fields of the instruction. The computer executes the instruction, storing the result, and returns to Step 1 to fetch the next instruction in sequence. Instructions Classification according to operand addressing: 1. Three-Address Instructions • Consider an instruction such as ADD, which",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "da88c2c4-505c-48aa-bf73-f90f60382637",
+    "text": "specifies the addition of two operands to produce a result. Suppose that the result of the addition is treated as just another operand. Then the ADD instruction has three operands. ADD T1, A, B , M[T1] <-- M[A] + M[B] 2- Two-Address Instructions For two-address instructions, each address field can again specify either a possible register or a memory address. The first operand address listed in the symbolic instruction also serves as the implied address to which the result of the operation is transferred. The program is as follows:",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "af767f5b-eb7c-4da4-80a7-b2823520a62c",
+    "text": "3- One-Address Instructions 4- Zero-Address Instructions To perform an ADD instruction with zero addresses, all three addresses in the instruction must be implied. A conventional way of achieving this goal is to use a stack, which is a mechanism or structure that stores information such that the item stored last is the first retrieved.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "54d08ac6-5f1f-42e7-90b3-cce918979cc8",
+    "text": "ADDRESSING MODES The operation field of an instruction specifies the operation to be performed. This operation must be executed on data stored in computer registers or memory words. How the operands are selected during program execution is dependent on the addressing mode of the instruction. An addressing mode is how we tell the processor where to find the data that it needs to use with each instruction.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "8948b792-35b9-4ab0-ab76-8f862b7f5aed",
+    "text": "1- Immediate Mode In the immediate mode, the operand is specified in the instruction itself. It has an operand field rather than an address field. Immediate-mode instructions are useful, for example, for initializing registers to a constant value. Ex: MOV AX, 0005H Examples 2- Register Direct Addressing When the address field specifies a processor register, the instruction is said to be in the register mode. In this mode, the operands are in registers that reside within the processor of the computer. Ex: MOV AX, BX",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "fd432953-eccd-472f-a490-81cb953fd7f0",
+    "text": "3- Register-indirect mode In the register-indirect mode, the instruction specifies a register in the processor whose content gives the address of the operand in memory. Ex: MOV AX, [BX] 4- Direct Addressing Mode • In the direct addressing mode, the address field of the instruction gives the address of the operand in memory in a data-transfer or data-manipulation instruction. Ex: ADD R1, 000F",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "9cfa8b72-415c-499a-ad95-2fc4b3476c2b",
+    "text": "5- Indirect Addressing Mode In the indirect addressing mode, the address field of the instruction gives the address at which the effective address is stored in memory. 6- Indexed Addressing Mode • The content of an index register is added to the address part of the instruction to obtain the effective address. The index register may be a special CPU register or simply a register in a register file.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "9507d1a7-3b6e-4162-a1b6-4d8b118b28df",
+    "text": "7-Relative Addressing Mode Relative addressing is often used in branching. • Effective address = Address part of the instruction + Contents of PC",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "f179cecc-644c-49d2-8a11-4862a3f8b6ee",
+    "text": "Note Table 1 lists the value of the effective address and the operand loaded into the ACC for the seven addressing modes. The table also shows the operation with a register transfer statement and a symbolic convention for each addressing mode. LDA is the symbol for the load-to-accumulator opcode. • In the direct mode, we use the symbol ADRS for the address part of the instruction. The # symbol precedes the operand NBR (is a number or operand) in the immediate mode. The symbol ADRS enclosed in square brackets symbolizes an indirect address, which some compilers or assemblers designate with the symbol @. Cont., The symbol $ before the address makes the effective address relative to the PC.",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "d326412f-819b-4176-8f7d-bab3fe619205",
+    "text": "An index-mode instruction is recognized by the symbol of a register placed in parentheses after the address symbol. The register mode is indicated by giving the name of the processor register following LDA. In the register- indirect mode, the name of the register that holds the effective address is enclosed in parentheses. Complex Instruction Set Computer (CISC) A purely CISC architecture has the following properties: 1. Memory access is directly available to most types of instructions. 2. Addressing modes are substantial. 3. Instruction formats are of different lengths. 4. Instructions perform both elementary and complex operations.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "211b6d71-db30-42b5-a244-8453e38d4724",
+    "text": "Reduced instruction set computers (RISCs) A RISC architecture has the following properties: 1. All operations on data apply to data in registers and typically change the entire register (32 or 64 bits per register). 2. Memory accesses are restricted to load and store instructions, and data manipulation instructions are register-to-register. 3. Addressing modes are limited. 4. Instruction formats are all of the same length. 5. Instructions perform elementary operations.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "a6a29435-163f-405d-a0f0-cecede64fd86",
+    "text": "Classes of Instructions: The goal of a RISC architecture is high throughput and fast execution. To achieve these goals, accesses to memory, which typically take longer than other elementary operations, are to be avoided, except for fetching instructions. Most RISC architectures, have three classes of instructions: 1- ALU instructions—These instructions take either two registers or a register and a sign-extended immediate. 2- Load and store instructions 3- Branches and jumps",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_9"
+  },
+  {
+    "id": "801dcec6-ba75-474a-a9b6-92e25b0b34f6",
+    "text": "A Simple Implementation of a RISC Instruction Set To understand how a RISC instruction set can be implemented in a pipelined fashion, we need to understand how it is implemented without pipelining. Every instruction in this RISC subset can be implemented in at most 5 clock cycles. The 5 clock cycles are as follows: IF(cid:0) ID/ OF(cid:0)EX(cid:0) MEM(cid:0)WB Cont., IF (cid:0) instruction fetch • ID / OF (cid:0) instruction decoding / operand fetch • EX (cid:0) ALU execution • MEM (cid:0) memory access if the current instruction is by Ex WB (cid:0) write the result in a register file.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_9"
+  }
+]

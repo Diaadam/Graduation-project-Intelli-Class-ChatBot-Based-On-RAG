@@ -1,0 +1,74 @@
+[
+  {
+    "id": "17d700da-df83-413f-813a-1c4dc01acd16",
+    "text": "Object Oriented Programming (OOP) Dr. Abdurrahman A. Nasr Al-Azhar University Lecture 4 Inheritance, polymorphism and overriding Objectives Learn about inheritance Learn about subclasses and superclasses Explore how to override the methods of a superclass Examine how constructors of superclasses and subclasses work Learn about polymorphism Examine abstract classes Become familiar with interfaces Learn about method overriding 3",
+    "chunk_index": 0,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "e10cf299-0d8e-470f-be2b-95abe3f22b38",
+    "text": "Inheritance You can create new classes from an existing classes. • subclass (Circle) can extend base class (Shape). • subclass (Car) can extend base class (vehicle). The new created class is called a subclass /derived class; The original class is called super-class or base-class. The sub-class inherits all attributes and methods of the base-class. Reuse the code and save the programmer time. Inheritance (‘‘is-a’’ relationship) Composition (aggregation) (‘‘has-a’’ relationship) Many common features Constructor is called in order from the oldest parent to the newest child Best class design to avoid redundancy? 4 “ public protected default private Class only All classes )",
+    "chunk_index": 1,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "24c51acc-6540-4965-8302-b472d5a96603",
+    "text": "= \" - Inheritance Single inheritance: the subclass is derived from a single superclass; Multiple inheritance, the subclass is derived from more than one superclass. Java supports only single inheritance; that is, in Java a class can extend the definition of only one class. 6 )",
+    "chunk_index": 2,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "09587645-5dc5-4078-ac98-b9d8aebc182c",
+    "text": "= = = Method overriding A class SubClass is derived from a class SuperClass. The SubClass operations = SuperClass + own methods. Method overriding an inheritance feature that allows a child class to provide a specific implementation of a method that is already provided by the parent class Same signature (name, parameters, order) Base (Class // class Parent { void show() { System.out.println(“Parent’s show()\"); ¥ } // Inherited class class Child extends Parent { // This method overrides show() of Parent @0verride void show() System.out.println(“Childs show()\"); ¥ } e’ - Method overriding A class SubClass is derived from a class SuperClass. The SubClass operations = SuperClass + own methods. 8",
+    "chunk_index": 3,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "68c77f29-250a-4db7-a0bd-f9e232b97257",
+    "text": "Overriding rules Private method are not overridden Final method can’t be overridden Static methods can not be overridden (only hidden) You can invoke overridden method using “super” keyword Constructor can’t be overridden 9 Overriding rules ivae Private method are not overridden class Parent { // private methods are not overridden private void ml() { System.out.println(“From parent ml()\"); } protected void m2() { System.out.println(“From parent m2()\"); } = (U class Child extends Parent { // new m1() method // unigue to Child class private void m() System.out.println(“From child m()\"); } // overriding method // with more accessibility @0verride public void m2() { System.out.printIn(“From child m2()\"); 10 o 4 Overriding rules Final method can’t be overridden 11",
+    "chunk_index": 4,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "a3cb62c3-58c9-4fd7-afe1-ee1f9aaf3f05",
+    "text": "\\ Overriding rules Static methods can not be overridden (only hidden) I class Parent L // Static method in base class // which will be hidden in subclass static void ml() { System.out.println(“From parent \" + \"static ml()\"); } // Non-static method which will // be overridden in derived class void m2() { \" System.out.println(“From parent + \"non-static(instance) m2()\"); class // class Child extends Parent { // This method hides m1() in Parent static void ml() { System.out.println(“From child static m1)\"); } 12 < Overriding rules Static methods can not be overridden (only hidden) 13",
+    "chunk_index": 5,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "1887dbb5-506f-4cbb-9274-9c15d257338a",
+    "text": "Overriding rules Access modifiers can only be elevated The overriding method must have same return type (or subtype, covariant) You have to override abstract method Or otherwise mark your class abstract Overriding and Exception-Handling if the super-class overridden method does not throw an exception, subclass overriding method can only throws the unchecked exception If the super-class overridden method does throws an exception, subclass overriding method can only throw same or subclass exception 14 = I Final variable, method and class 4 15 )",
+    "chunk_index": 6,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "0b7e3a7f-73bd-43a9-adc3-30fc4ffb2382",
+    "text": "o Overload vs. Override Overloading is about same method have different signatures. Overriding is about same method, same signature but different classes = connected through inheritance. Overloading is an example of compiler-time polymorphism and 16 Overriding is an example of run time polymorphism.",
+    "chunk_index": 7,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "b6157f1f-b296-4598-8843-9157e22afed7",
+    "text": "/\" Overload vs. Override Overriding class Dog{ public void [ bark({ System.out.println(\"woof \"); } Some Method Name, } Same parameter class Hound extends Dog{ public void sniff(){ System.out.prip In(\"sniff \"); } public void { System.out.println(\"bowl\"); } } • Overriding a method redefine it in the child-class • A method overrides another if both have the same signature Overloading class Dog{ public void System.out.p: } Same Method Name, Different Parameter //overloadi public void B mt for(int i=0; i<num; i++) System.out.println(\"woof \") — • A method overloads another if both have the same name and return type but different parameter lists \\ ). . ) _",
+    "chunk_index": 8,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "0675625f-ae66-48bc-8f32-a0537cb889c0",
+    "text": "_ Dynamic binding and inheritance You can assign a child object to an object of parent type The opposite requires you an explicit casting 18 4 Dynamic binding and inheritance 19 Polymorphism Greek word means “Many forms” The ability of an object to behave in different forms based on the current context Types Compile time Polymorphism (aka static binding, early binding) Method overloading Runtime Polymorphism (aka dynamic binding, late binding) Method overriding 20 Polymorphism 21 )",
+    "chunk_index": 9,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "e25bf4ed-f05a-407e-bf7b-b9542c009b6d",
+    "text": "Abstract class & interface Abstraction: Identifying only the required characteristics of an object ignoring the irrelevant details Abstraction is achieved by abstract class and interface An abstract class declared with “abstract” keyword. Abstract class can not be directly instantiated with the “new” operator. An abstract method is a method without an implementation. An abstract class may or may not have all methods abstract. A method defined abstract must always be redefined in the subclass An abstract class can have parametrized constructors (default 22 constructor is always present) N’ Abstract class & interface 23 \\ 4 \\ N",
+    "chunk_index": 10,
+    "source_file": "2nd_OOP_lec5"
+  },
+  {
+    "id": "3990f882-64fe-44b7-8d70-9e1bbe28f229",
+    "text": "When to use abstract class & interface Abstract Class You want to share code among several closely related classes. You expect that classes that extend your abstract class have many common methods or fields You want to define state that is non-static or non-final fields. Class is good for large functionalities Interfaces You need to add a dynamic behavior for different classes. For example, the interfaces Comparable and Cloneable are implemented by many unrelated classes. You want to specify a contract, but not concerned about who implements its behavior. You want to take advantage of multiple inheritances. 24 Interface is good for small functionalities",
+    "chunk_index": 11,
+    "source_file": "2nd_OOP_lec5"
+  }
+]

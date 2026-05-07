@@ -1,0 +1,812 @@
+[
+  {
+    "id": "b825e3ef-d0c9-4d3b-b9cb-d20c18204acb",
+    "text": "|Slide number 1 |Instructor notes |The content in this module is covered in the AWS Academy Cloud Foundations course and should be review for students in this course. You might treat this module as optional, or ask students to review it on their own time, based on the needs of the individual class. | |Student notes Welcome to the Securing Access module. This module reviews key security principles and concepts for securing access to your cloud resources.",
+    "chunk_index": 0,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4f7d6044-549c-44eb-8fdf-6ac8a88d3b7f",
+    "text": "Securing Access AWS Academy Cloud Architecting 1 |Slide number 2 |Instructor notes | |Student notes This introduction section describes the content of this module. Introduction Securing Access 2 |Slide number 3 |Instructor notes | |Student notes This module reviews key concepts that are related to security in the Amazon Web Services (AWS) Cloud. This includes cloud security principles and the use of AWS Identity and Access Management (IAM) users, groups, roles, and policies to secure access to cloud resources.",
+    "chunk_index": 1,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "73b5ea04-f181-46fa-9664-91dfe1903b0a",
+    "text": "Module objectives This module prepares you to do the following:",
+    "chunk_index": 2,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b3ae72a2-ff3c-48b2-9ac3-a258bb6c1b03",
+    "text": "Describe the security principles in the AWS Cloud. Explain the purpose of AWS Identity and Access Management (IAM) users, groups, and roles. Explain how IAM policies determine permissions in an AWS account. 3 |Slide number 4 |Instructor notes |Each module has an introduction, content sections, and a wrap-up. The wrap-up for this module contains a sample exam question for you to review with the students. | |Student notes The objectives of this module are presented across multiple sections. You will also participate in an activity to examine IAM policies and answer questions about the access that the policies provide. The module wraps up with a sample exam question and an online knowledge check that covers the presented material. The lab in this module is described on the next slide.",
+    "chunk_index": 3,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "0ac7b758-f4fc-4a9e-a2a7-2d3f06e2eb41",
+    "text": "Module overview Presentation sections Security principles Authenticating and securing access Authorizing users Parts of an IAM policy Activity Examining IAM Policies Knowledge checks Knowledge check Sample exam question 4 |Slide number 5 |Instructor notes |This module includes guided labs. These labs provide step-by-step instructions and are stand-alone labs. They do not depend on the café scenario or related architecture. Introductions to each lab are include in the lab sections within the module. | |Student notes This module includes the guided lab listed. Additional information about this lab is included in the student guide where the lab takes place, and detailed instructions are provided in the lab environment.",
+    "chunk_index": 4,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b3a763a3-a941-49f0-9ec5-83c4a0de3b72",
+    "text": "Hands-on labs in this module Guided lab Exploring AWS Identity and Access Management (IAM) 5",
+    "chunk_index": 5,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "9930e987-85f3-43c9-b072-481a33f440eb",
+    "text": "| |Instructor notes: This slide presents key overarching design considerations that should guide decision-making for this layer of a cloud architecture. Emphasize how a cloud architect must always start with the business case and work backward to choose the best components for that use case. Also, remind students that the decisions are likely to evolve over time to optimize cost and performance as needs change or are better understood. At the end of the module, an optional discussion is included in the wrap-up section to prompt the students to consider these factors in the context of the café scenario. | |Student notes This slide asks you to take the perspective of a cloud architect as you think about how to secure access to your cloud resources. Keep these considerations in mind as you",
+    "chunk_index": 6,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "1d3c0def-7c73-4aeb-a8b3-7e30338856ac",
+    "text": "progress through this module. Remember that the cloud architect should work backward from the business need to design the best architecture for a specific use case. As you progress through the module, consider the café scenario in the course as an example business need, and think about how you would address these needs.",
+    "chunk_index": 7,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4e513c39-a276-4b6a-afcb-4fe01425ac5c",
+    "text": "As a cloud architect: I need to apply security best practices when I grant access to cloud resources so that I can minimize the risk of unwanted access at each layer of an architecture. 6",
+    "chunk_index": 8,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "d0aee8eb-2acd-4cf8-9801-c6456ed5bb9b",
+    "text": "|Slide number 7 |Instructor notes |This material is covered briefly and should be a review of cloud foundations concepts. You might choose to go deeper into these topics depending on when your students took that course. | |Student notes This section reviews the following principles, which are important for securing your AWS architectures: Consider the AWS shared responsibility model when you determine how you need to apply security to your cloud architectures. Use the security pillar of the Well-Architected Framework to identify the design principles that apply to your architectures. Always apply the principle of least privilege when you secure your AWS resources.",
+    "chunk_index": 9,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "dba9fe5e-7a2c-40d3-9174-82bef617826b",
+    "text": "|Slide number 8 |Instructor notes | |Student notes Image description: Shared responsibility model of customer and AWS responsibilities. The customer is responsible for security in the cloud. This includes customer data. Platform, applications, identity and access management. Operating system, network and firewall configurations. Client-side data encryption and data integrity, authentication. Server-side encryption of the file system and data. Networking traffic protection, to include encryption, integrity, and identity. AWS is responsible for security of the cloud. This includes the AWS foundation services for compute, storage, databases, and networking, and the AWS Global Infrastructure, which includes Regions, Availability Zones, and Edge Locations. End description. Security and",
+    "chunk_index": 10,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "cd82ad06-a68e-469d-a319-5779cfd841fe",
+    "text": "compliance are shared responsibilities between AWS and our customers. AWS operates, manages, and controls security of the cloud. This responsibility includes securing components, from the host operating system and virtualization layer to the physical security of the facilities where services operate. AWS is responsible for protecting the global infrastructure that runs all the services that are offered in the AWS Cloud. This infrastructure is composed of the hardware, software, networking, and facilities that run AWS Cloud services. You assume responsibility and management in the cloud. The security steps that you must take depend on the services that you use and the complexity of your system. Customer responsibilities include selecting and securing operating systems that run on Amazon",
+    "chunk_index": 11,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "05b5d352-a908-4560-929b-e5d2e6997ab6",
+    "text": "Elastic Compute Cloud (Amazon EC2) instances, and securing the applications that are launched on AWS resources. Customers must also select and handle the configuration of security groups, firewalls, and networks. Customers are also responsible for managing accounts and their data, including encryption options.",
+    "chunk_index": 12,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "7624f820-1814-46a6-9b02-f75d094d977e",
+    "text": "AWS shared responsibility model Customer Responsible for security IN the cloud Customer data Platform, applications, identity and access management Operating system, network and firewall configurations Client-side data encryption and data integrity, authentication Server-side encryption (file system and/or data) Networking traffic protection (encryption, integrity, identity)",
+    "chunk_index": 13,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b3ec0831-ac56-4894-bbd5-dbef2751c5b2",
+    "text": "AWS Responsible for security OF the cloud AWS foundation services Compute Storage Database Networking AWS Global Infrastructure Regions Availability Zones Availability Zones Edge locations Edge locations 8",
+    "chunk_index": 14,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "517ec630-cb8d-4096-b237-579d44c66416",
+    "text": "|Slide number 9 |Instructor notes |Suggestion: Show students where to find the security information for the AWS Well-Architected Framework, and the appendix with questions and best practices. Direct links are provided on the content resources page of the online course. | |Student notes The AWS Academy Cloud Foundations course introduced the Well-Architected Framework. You might find it helpful to open the website now to look at how the pillars are organized. Security is one of the six pillars of the framework. The other pillars are operational excellence, reliability, performance efficiency, cost optimization, and sustainability. The framework provides best practices and design guidance across each pillar to help you make choices and review existing architectures. You can use the AWS",
+    "chunk_index": 15,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4e4ccd12-2377-4a79-8f00-eedf9d0c964a",
+    "text": "Well-Architected Tool to help you implement best practices that are part of the Well-Architected Framework. The AWS WA Tool is a self-service tool that provides you with on-demand access to current AWS best practices. These best practices can help you build solutions that meet the well-architected security design principles as well as design principles that are associated with the other pillars. Links to the AWS Well-Architected Framework site, and to an appendix of questions and best practices that can help you follow the framework, are provided on the content resources page of your online course.",
+    "chunk_index": 16,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "a2ff036e-c804-49ba-a9d7-e1224be8fdde",
+    "text": "|Slide number 10 |Instructor notes |The security pillar addresses the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies. This module doesn’t address all of these design principles but calls out the key aspects of limiting access to resources, specifically looking at granting access and protecting data at rest and in transit. | |Student notes Your architecture will present a much stronger security presence if you follow these design principles from the security pillar of the Well-Architected Framework: Implement a strong identity foundation: Implement the principle of least privilege and enforce separation of duties with appropriate authorization for each interaction with your AWS resources. Centralize",
+    "chunk_index": 17,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "e6e1c4ce-7b26-4598-8b86-14a2bebe0afa",
+    "text": "identity management, and aim to eliminate reliance on long-term, static credentials. Protect data in transit and at rest: Classify your data into sensitivity levels, and use mechanisms, such as encryption, tokenization, and access control, where appropriate. Apply security at all layers: Apply a defense-in-depth approach with multiple security controls, and apply it to all layers (for example, edge of network, virtual private cloud [VPC], load balancing, every instance and compute service, operating system, application, and code). Keep people away from data: Use mechanisms and tools to reduce or eliminate the need for direct access or manual processing of data. This reduces the risk of mishandling or modification and human error when handling sensitive data. Maintain traceability: Monitor,",
+    "chunk_index": 18,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b058ae12-935e-4760-9d2b-6785ecfa7d07",
+    "text": "alert, and audit actions and changes to your environment in real time. Integrate log and metric collection with systems to automatically investigate and take action. Prepare for security events: Prepare for an incident by having incident management and investigation policies and processes that align to your organizational requirements. Run incident response simulations, and use tools with automation to increase your speed for detection, investigation, and recovery. Automate security best practices: Automated software-based security mechanisms improve your ability to securely scale more rapidly and cost-effectively. Create secure architectures, which includes implementing controls that are defined and managed as code in version-controlled templates. The security pillar of the",
+    "chunk_index": 19,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "35895426-bf23-493f-bd1e-c24702be3017",
+    "text": "Well-Architected Framework describes how to take advantage of cloud technologies to protect data, systems, and assets in a way that can improve your security posture. For more information, see the Security Pillar of the AWS Well-Architected Framework link on the content resources page of your online course. The next few slides review key aspects of the first two design principles.",
+    "chunk_index": 20,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "9a129f74-7726-4504-a62a-1ac294e2e5bb",
+    "text": "Design principles for the security pillar Implement a strong identity foundation. Protect data in transit and at rest. Apply security at all layers. Keep people away from data. Maintain traceability. Prepare for security events. Automate security best practices. 10 |Slide number 11 |Instructor notes | |Student notes Part of implementing a strong identity foundation is using policies to grant or deny access to your AWS resources, such as Amazon Simple Storage Service (Amazon S3) buckets. In this example, John can read, write, and delete objects in S3 bucket 1. However, he can only read the objects in S3 bucket 2, and he is explicitly denied access to a specific Amazon DynamoDB table.",
+    "chunk_index": 21,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "cab545ad-ad98-4cd8-83e4-66c362b199c4",
+    "text": "User permissions to access resources Allow S3 bucket 1 Read only John S3 bucket 2 Explicit deny DynamoDB table 1 IAM policy 11",
+    "chunk_index": 22,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "00da69f6-c5d9-44be-8eac-a745fa21f9d1",
+    "text": "|Slide number 12 |Instructor notes |In this example, John (administrator user) and Mary (marketing user) have access to the same S3 buckets through different policies and permissions. Reinforce that a best practice is to grant only the permissions that are required to perform a task. Start with a minimum set of permissions, grant additional permissions as necessary, and revoke unnecessary permissions. | |Student notes Image description: Diagram of John, an administrator user, receiving permissions from a policy. The policy allows full access to S3 buckets 1 and 2. Mary, a marketing user, receives read-only access to S3 bucket 1 and is explicitly denied access to S3 bucket 2 through policies. End description. Another key aspect to implementing a strong identity foundation is to apply the",
+    "chunk_index": 23,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "ed1f771a-2528-4d2a-9f6e-99fce80bedf7",
+    "text": "principle of least privilege to the permissions that you set. This means granting only the permissions that are needed to perform a task. It’s more secure to start with a minimum set of permissions and grant additional permissions as needed. This provides better security than starting with permissions that are too permissive and then trying to restrict them later. To define the correct set of permissions, you must research what access is needed to accomplish a specific task. When you create access policies, determine what your users need to do, and then craft policies that allow them to perform only those tasks. Similarly, create policies for individual resources that identify precisely who is allowed to access the resource, and allow only the minimal permissions for those users. For",
+    "chunk_index": 24,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4006e16f-69c9-46b7-b5f3-1602f292792c",
+    "text": "example, perhaps developers should be allowed to create EC2 instances in production environments but not to stop or terminate the instances. For more information, see the Apply Least-Privilege Permissions link on the content resources page of your online course.",
+    "chunk_index": 25,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "8d6de0ee-d3bf-42b8-bb7c-59c4951ac7c3",
+    "text": "Principle of least privilege Mary (Marketing) John (Administrator) Best practices: Grant only the permissions that are required to perform a task. Start with a minimum set of permissions. Grant additional permissions as necessary. Revoke unnecessary permissions. Allow Read only S3 bucket 1",
+    "chunk_index": 26,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3a3a9886-3a03-4e45-a2ba-7341ece5cfba",
+    "text": "IAM policy with full permissions Policies with some permissions Allow Explicit deny S3 bucket 2 12",
+    "chunk_index": 27,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b99c9c87-460e-46c7-abea-c8edafeb5551",
+    "text": "|Slide number 13 |Instructor notes | |Student notes Image description: Diagram of protecting data in transit by using cryptographic protocol. TLS protects the data as it moves to and from the client and cloud storage. End description. In addition to limiting who has permissions to access data, you should prevent access to data through encryption. This practice relates to the design principle of protecting data in transit and at rest. Data in transit is data that is actively moving from one location to another, such as across the internet or through a private network. To protect data in transit, you protect data while it's traveling from network to network or being transferred from a local storage device to a cloud storage device. Wherever data is moving, protection measures are critical",
+    "chunk_index": 28,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "d885040f-82f0-4d1d-a629-ed1a062f21af",
+    "text": "because data is often considered less secure while in motion. An example of protecting data in transit is encrypting pictures as they are uploaded to a cloud service. The pictures don’t need to be encrypted; however, by using TLS, you can ensure the privacy of the transfer.",
+    "chunk_index": 29,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4481eaab-4936-431d-b44f-ef25122cbb24",
+    "text": "Use encryption Protect data in transit by using a cryptographic protocol TLS AWS Cloud storage bucket Client Send data encrypted When data is stored, it is stored encrypted Accessed only with the key AWS encrypt data at rest (already stored in) When you send a request, they decrypt the data and send it decrypted 13",
+    "chunk_index": 30,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "76d23509-5f5f-47a7-95e5-37e6c7eb5b36",
+    "text": "|Slide number 14 |Instructor notes | |Student notes Image description: Diagram of client-side encryption. The client encrypts data before sending it. The encrypted data is sent through a secure pipe from the client to cloud storage. The client retrieves encrypted data from cloud storage and decrypts the data for use. End description. Protecting data at rest means using encryption to protect data that is stored anywhere in your cloud solution. Client-side encryption provides end-to-end protection for your object, in transit and at rest, from its source to storage. An example is encrypting data on a mobile device. Because mobile devices can be easily lost or stolen, encryption will ensure that data is scrambled and isn’t accessible to unintended users.",
+    "chunk_index": 31,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "681d2562-804a-41be-8c46-6303f6f017b7",
+    "text": "Protecting data at rest with client-side encryption Client encrypts data before it is sent Encrypted data",
+    "chunk_index": 32,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "a157eb28-2b0c-4ebe-a686-47e21b799f6d",
+    "text": "AWS Cloud storage bucket Client retrieves encrypted data and decrypts it for use 14 |Slide number 15 |Instructor notes | |Student notes Image description: Diagram of server-side encryption. Unencrypted data is sent through a secure pipe. The server encrypts data when storing it and decrypts data when you request it. Data is returned to the client through the secure pipe. End description. With server-side encryption, data is encrypted before it’s stored. Amazon S3 provides server-side encryption. The service encrypts your data at the object level as it writes the data to disks in AWS data centers and decrypts the data when you access it. An example is encryption of personal user data, such as a Social Security Number, that is stored in a cloud database.",
+    "chunk_index": 33,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "c4c24e83-31b6-4622-925c-799058c10b48",
+    "text": "Protecting data at rest with server-side encryption Server encrypts data when it is stored Unencrypted data Client AWS Cloud storage bucket Server decrypts data when it is requested 15 |Slide number 16 |Instructor notes | |Student notes These key takeaways summarize this section.",
+    "chunk_index": 34,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "dcf58d87-6be7-42ca-b69b-49d80025a7f8",
+    "text": "Key takeaways: Security principles Security and compliance are shared responsibilities between AWS and customers. The security pillar of the Well-Architected Framework provides design principles to architect secure solutions. The principle of least privilege is a key part of implementing a strong identity foundation. Another key security design principle is protecting data at rest and in transit. Encryption is one important mechanism for protecting data. 16 |Slide number 17 |Instructor notes |This material is covered briefly and should be a review of cloud foundations concepts. You might choose to go deeper into these topics depending on when your students took that course. | |Student notes This section covers authentication and the importance of securing access.",
+    "chunk_index": 35,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "afb6048b-5b7b-4dfd-84e9-37662cf4955e",
+    "text": "Authenticating and securing access Securing Access 17",
+    "chunk_index": 36,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "6a50e77f-291f-4182-acea-1f99f67c0db3",
+    "text": "|Slide number 18 |Instructor notes |This slide is intended for a quick review of the concepts of authentication and authorization. | |Student notes With authentication, you can use the identity of requesters to control who can use your AWS resources. With authorization, you can also use access management to control what resources requesters can use and in what ways. To understand the fundamental aspects of authentication and authorization, consider a banking analogy. Think of a bank that allows their customers (users) to access their accounts online. Suppose that you are a bank customer. You have money in a checking account at that bank, and you want to pay a bill online. Should any random person be able to log in to your bank account and pay their bills with the money in your account? No,",
+    "chunk_index": 37,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "91a8f4f8-f71c-4ece-9adb-6e0d02340050",
+    "text": "of course not! Before the bank allows you to access your checking account, the bank must ensure that the person accessing the account is you. The bank wants to authenticate that you are who you claim to be. They typically accomplish this authentication by requiring you to enter your username and a password that is supposed to be known only to you. For extra security, they might have configured multi-factor authentication (MFA). Thus, in addition to typing in a password, you also must receive a code on your phone and enter that code on the bank’s website. Now, suppose that you are successfully logged in to the bank website (authenticated). Can you pay your bill by using the money in another customer's account? No, of course not! You don’t have the authorization to access accounts that don’t",
+    "chunk_index": 38,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "7fcaab93-5402-4c6c-98c8-07e2c1ce8961",
+    "text": "belong to you. However, you are authorized to access the money in your account, and you are authorized to pay bills by using your money.",
+    "chunk_index": 39,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5a3ffd68-b9c9-4ea3-9e87-e18b095feecb",
+    "text": "Authentication and authorization Authentication Authorization Who is requesting access to the AWS account and the resources in it? It’s important to establish the identity of the requester through credentials. The requester could be a person or an application. After the requester has been authenticated, what they are allowed to do? Determine whether to allow or deny the request. 18",
+    "chunk_index": 40,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b7634735-193c-478a-b59d-513412386991",
+    "text": "|Slide number 19 |Instructor notes | |Student notes AWS Identity and Access Management is also known as IAM. With this service, you can configure fine-grained access control to AWS resources. You can use IAM to follow security best practices by granting unique security credentials to users and groups. These credentials specify which AWS service APIs and resources the users and groups can access. IAM is secure by default—users don’t have access to AWS resources until permissions are explicitly granted. IAM is integrated into most AWS services. You can define access controls from one place in the AWS Management Console, and they will take effect throughout your AWS environment. You can use IAM to grant your employees and applications access to the console and to AWS service APIs by using",
+    "chunk_index": 41,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "37b842d9-d455-4b22-b5e4-84dc8860422d",
+    "text": "your existing identity systems. AWS supports federation from corporate systems such as Microsoft Active Directory, and standards-based identity providers. IAM also supports multi-factor authentication (MFA). If MFA is enabled and an IAM user attempts to log in, they will be prompted for an authentication code. The authentication code is delivered to an MFA device, such as a hardware or virtual device. For example, Google Authenticator is a virtual MFA device that runs as an application on a user's smartphone. You can create accounts that have permissions that are similar to the AWS account root user. However, a best practice is to create administrative accounts that grant only the account permissions that are needed. Follow the principle of least privilege. For example, ask yourself",
+    "chunk_index": 42,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "abb55062-5222-4320-b50d-e4d92b947e65",
+    "text": "whether your database administrator (DBA) should be able to provision EC2 instances. If the answer is no, then provision accounts accordingly.",
+    "chunk_index": 43,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "60fccf2d-d1d1-4cf1-8fd8-97b003404379",
+    "text": "AWS Identity and Access Management (IAM) Controls individual and group access to your AWS resources Integrates with other AWS services Provides federated identity management Supports multi-factor authentication (MFA) Allows granular permissions IAM 19",
+    "chunk_index": 44,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5cef5142-7a71-4776-acbf-754c8c07c160",
+    "text": "|Slide number 20 |Instructor notes | |Student notes The following terms are specific to IAM, and you will use them throughout this course: An IAM resource is the user, group, role, policy, or identity provider object that is stored in IAM. As with other AWS services, you can add, edit, and remove resources from IAM. An IAM entity is the IAM resource object that AWS uses for authentication. Entities include IAM users and roles. Through an IAM entity, you can be provided the ability to sign in to the console and make programmatic requests to AWS services by using the APIs or AWS Command Line Interface (AWS CLI). An IAM identity is the IAM resource object that is used to identify and group. You can attach a policy to an IAM identity. Identities include users, groups, and roles. A principal is",
+    "chunk_index": 45,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "79c177ab-f5d7-49f9-be48-af31528e3b65",
+    "text": "a person or application that uses the AWS account root user, an IAM user, or an IAM role to authenticate and make requests to AWS. Principals include assumed roles and federated users—external identities that don’t have an AWS account.",
+    "chunk_index": 46,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b32cd7bd-565b-4373-b618-42e69677b2bd",
+    "text": "IAM terminology Term Definition IAM resource User, group, role, policy and identity-provider objects stored in IAM IAM entity IAM resource objects that are used by AWS for authentication (users and roles) ”object that can be authenticated and authorized to use AWS resources” If an IAM user john_doe tries to access an S3 bucket, john_doe is considered an entity. (The one that take actions(use the services) IAM identity IAM resource objects that can be authorized in policies to perform actions and access resources (user, group, or role) ” user, group, or role that you can use to log in and interact with AWS” Principal Person or application that can sign in and make requests to AWS 20",
+    "chunk_index": 47,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5ff32c11-87d9-4f9a-b5b2-faa6d9b2f4ee",
+    "text": "|Slide number 21 |Instructor notes | |Student notes You can use IAM to control access to your AWS resources. You achieve this access control by creating users, groups, and roles. You can also enforce access control by attaching policies to IAM entities. For IAM, these terms are defined as follows: An IAM user is an entity that you create in AWS to represent a person or application that interacts with AWS account services and resources. A user is given a permanent set of credentials, which stay with the user until a forced rotation occurs. An IAM group is a collection of IAM users. You can use groups to grant the same set of permissions to multiple users. An IAM role is similar to a user. It’s an AWS identity that you can attach permissions policies to. These policies determine what the",
+    "chunk_index": 48,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "6c4f4d09-c7b0-4e6b-ac51-f0f4366dfda5",
+    "text": "identity can and can’t do in AWS. However, a role doesn’t have long-term credentials (such as a password or access keys) associated with it. Instead, when a person or application assumes a role, they are provided with temporary security credentials for the role session. An IAM policy is a document that explicitly lists permissions. The policy can be attached to an IAM user, group, role, or any combination of these resources.",
+    "chunk_index": 49,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "89f7ea4a-3c27-4924-97ea-50d7903989cf",
+    "text": "Using IAM to control access to AWS resources IAM user IAM group IAM role IAM policy A person or application that can authenticate with an AWS account A collection of IAM users who are granted identical authorization An identity that is used to grant a temporary set of permissions to make AWS service requests attached to a task rather than someone(user) The document that defines which resources can be accessed and the level of access to each resource 21",
+    "chunk_index": 50,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "bc78eb15-c2c8-47b9-84ab-96bb65344ea0",
+    "text": "|Slide number 22 |Instructor notes | |Student notes When you interact with AWS you must provide AWS credentials. Two primary types of credentials are used for authentication, and which credential type you use depends on how you access AWS: To authenticate from the console, you must sign in with your username and password. To authenticate through the AWS CLI, SDKs, or direct API calls, you must provide an AWS access key. The AWS access key is the combination of an access key ID and a secret access key. You cannot use a username and password to authenticate through these methods. This is a very simplified introduction to using security credentials. For more information, see the AWS Security Credentials link on the content resources page of your online course.",
+    "chunk_index": 51,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "566050fa-082d-4f15-880c-d9aa24a9dbf0",
+    "text": "IAM credentials for authentication Action Credentials needed Sign in to the AWS Management Console Username and password Run commands from the AWS Command Line Interface (AWS CLI) AWS access key* Make programmatic calls to AWS (SDK) AWS access key* AWS access key => access key ID + secret key. 22",
+    "chunk_index": 52,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "c2317e5a-e988-4400-b5e7-28fceeb793c2",
+    "text": "|Slide number 23 |Instructor notes | |Student notes The following are some best practices for securing access: Follow the principle of least privilege: Assign users, groups, and roles with the minimum necessary permissions to perform their tasks, and avoid providing unnecessary permissions. Enable MFA: MFA adds an extra layer of security for your root user by requiring a code that is generated by a hardware or software token during sign-in. Require human users to access AWS by using temporary credentials: Instead of granting long-term credentials to users, use an identity to provide federated access to AWS accounts by assuming IAM roles, which provide temporary credentials. For centralized access management, use AWS IAM Identity Center to manage access to your accounts and permissions",
+    "chunk_index": 53,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "7277e328-832f-44c9-b4fa-45fe2acc5a00",
+    "text": "within those accounts. Rotate access keys: for scenarios in which you need IAM users with programmatic access and long-term credentials, use access key last used information to rotate and remove access keys regularly. Use strong, complex passwords: Ensure that the root user and IAM users have strong, unique passwords that follow AWS password policy guidelines. Secure local credentials: Secure access keys, passwords, and MFA tokens by storing them in a secure password manager or hardware tokens. Use AWS Organizations: Use Organizations to consolidate multiple AWS accounts to manage billing, access control, and resources centrally. Enable AWS CloudTrail: By enabling CloudTrail, you can have a record of all the actions that are taken in an account, which makes it easier to identify possible",
+    "chunk_index": 54,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "ab6f9023-8048-43f5-a9c0-181dadd2eb7a",
+    "text": "security risks and comply with auditing requirements. Protect the root user: When you first create an AWS account, you have a single sign-in identity that has complete access to all AWS services and resources in the account. This is the root user, and it’s important to minimize the risk of access through this account given its power. Limit the use of the root user and monitor activity using CloudTrail logs, AWS Trusted Advisor recommendations, and console sign-in events for any suspicious activity related to your root user. By following these best practices, you can enhance the security of your account setup. For more details and a complete list of current best practices, see the link titled Security best practices in IAM on the content resources page of your online course.",
+    "chunk_index": 55,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "e2d64d6c-a986-4965-9705-90a0b96424b1",
+    "text": "Best practices to secure access Follow the principle of least privilege. Enable Multifactor authentication (MFA). Require human users to access AWS by using temporary credentials (IAM roles). Rotate access keys for use cases that require long-term credentials. Use strong, complex passwords. Secure local credentials.",
+    "chunk_index": 56,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "1ab9c950-ce92-4943-a83e-846bfbed4f37",
+    "text": "Use AWS Organizations. Enable AWS CloudTrail. Protect the root user. 23",
+    "chunk_index": 57,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "cc064c3b-9e8b-47bf-acde-b63f61f2d2ff",
+    "text": "|Slide number 24 |Instructor notes |Refer students to the link on the content resources page of the online course for information about tasks that can only be performed by the root user. | |Student notes Protect your root user credentials like you would protect your credit card number, or any other sensitive or secret data. Rather than using the root user to do day-to-day administrative tasks, create an administrative user with permissions to perform most administrative tasks. If you use the AWS IAM Identity Center (successor to AWS Single Sign-On) to create the administrative user, temporary rather than long term credentials are used. For instructions, see the AWS IAM Identity Center User Guide link on the content resources page of your online course. Only use the root user to perform",
+    "chunk_index": 58,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "92bb224f-ebbb-4adf-b874-1aa8fa5ba8fc",
+    "text": "those tasks that cannot be performed by any other user. For more information, see the Tasks That Require Root User Credentials link on the content resources page of your online course.",
+    "chunk_index": 59,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "380aadb1-ee75-40eb-a7df-648f9b279d20",
+    "text": "Protecting the root user For daily tasks, create an administrative user in AWS IAM Identity Center (successor to AWS Single Sign-On). Only use the root user for tasks that other users cannot perform. 24",
+    "chunk_index": 60,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "43ed98d0-626d-4d14-b1b2-cf1d1b3599b6",
+    "text": "|Slide number 25 |Instructor notes |Review each step. Communicate that AWS strongly recommends not using the root user for day-to-day interactions with AWS. Enable MFA for an extra layer of protection. After doing so, lock away the root user credentials in a secure location to protect your account. Create a new admin user account with MFA, and download the programmatic keys—but don’t use them or store them on your system. Login as the admin user to create new users or groups. Use the admin user for your day-to-day interactions. | |Student notes Instead of using the root user to perform administrative tasks, follow these steps to create an administrator (admin) user: Log in as the root user, and set up MFA on the root user. Create a new admin user, add MFA, and download the programmatic",
+    "chunk_index": 61,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "bd49b289-7600-4d1e-80d8-b4c32d47e9aa",
+    "text": "keys. In the example on the slide, John is the admin user. Log out as the root user. Log in as the admin user (in this example, John). Create user accounts. Each user has a separate policy with permissions. In the example on the slide, user accounts are created for John, Ji, and Nikki. For more information, see the Security Best Practices in IAM link on the content resources page of your online course.",
+    "chunk_index": 62,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "f29ca018-6074-4a43-8f37-29661216577a",
+    "text": "Steps to set up an admin user As the root user, create an admin user. Use the admin user for daily tasks. 1 Log in as the root user. Set up MFA for the root user. Create additional users. 5 John Ji Nikki 2 Create a new admin user (John) with permissions, add MFA, and download the programmatic keys. Each user has a separate policy",
+    "chunk_index": 63,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "86900933-8e16-47cc-bd2e-786f6f5ec643",
+    "text": "with permissions. Download programmatic keys John 4 Log in as the admin user. 3 Log out as the root user. John 25",
+    "chunk_index": 64,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b3214bd7-4714-46ec-9003-ea60a003cf8d",
+    "text": "|Slide number 26 |Instructor notes |Emphasize that the best practice is to attach IAM policies to IAM groups, and then assign IAM users to these IAM groups. The diagram shows users being placed in different groups, which have different IAM policies attached, based on access requirements. | |Student notes Image description: Diagram of IAM policy 1 attached to an IAM group for sales users and IAM policy 2 attached to a group of IT users. IAM users 1 and 2 are members of the IAM sales group and receive the permissions from the policy that is attached to that group. IAM users 3, 4, and 5 are assigned to the IAM IT group and receive different permissions through the policy that is attached to that group. End description. You can attach an IAM policy to an IAM user, group, role, or any",
+    "chunk_index": 65,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "1e63ff19-155f-4717-b991-43e07d96879e",
+    "text": "combination of these resources. To configure long-term access, a best practice is to attach IAM policies to IAM groups, and then assign IAM users to these IAM groups. An IAM user who is a member of an IAM group inherits the permissions that are attached to that group. You can also attach IAM policies directly to an IAM user to further customize the access that is granted through the group.",
+    "chunk_index": 66,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "54cffe26-68ce-40db-bfaa-c8b82f422f1e",
+    "text": "Best practices: IAM users and groups Group: IT Group: Sales Assign IAM users to IAM groups. User 1 User 2 User 3 User 4 User 5 Attach IAM policies to IAM groups. IAM policy 2 IAM policy 1 26",
+    "chunk_index": 67,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "d369a0f3-9948-43fd-bac9-40db6a113c20",
+    "text": "|Slide number 27 |Instructor notes |Emphasize that IAM roles provide temporary access. This is great for users outside an organization. | |Student notes By using an IAM role, you can define a set of permissions for the resources that a user or service needs to access. However, the permissions aren’t attached to an IAM user or group. Instead, the permissions are attached to a role, and the user or service assumes the role. When a user assumes a role, the user's prior permissions are temporarily forgotten. AWS returns temporary security credentials that the user can then use to make programmatic requests to AWS. When you use IAM roles, you don’t need to grant long-term security credentials to each entity that requires access to a resource. The following examples describe situations when you",
+    "chunk_index": 68,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "6bef4400-9c90-4c00-89bf-162ad61ae8dd",
+    "text": "might need to use temporary security credentials: An IAM user in one AWS account needs temporary access to resources in another AWS account. User identities that were authenticated by a system outside of AWS (federated users) need to perform AWS tasks and access your AWS resources. You don’t want to create and manage IAM users for people outside your organization. A mobile app needs access to your AWS resources. You don’t want to store AWS credentials with the application, where they can be difficult to rotate and users can potentially extract them. An application that runs on an EC2 instance needs access to AWS resources. You don’t want to store long-term credentials locally. When you need to provide an IAM user in another account or a federated user access to your AWS resources, create",
+    "chunk_index": 69,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "484bbda6-7896-42be-b094-58ae3441d277",
+    "text": "an IAM role with temporary credentials instead of creating an IAM user in your account. Similarly, for an application that runs on an EC2 instance and requires access to AWS resources, create an IAM role, add the role to an instance profile, and attach the profile to the instance. The application can then programmatically assume the role at runtime.",
+    "chunk_index": 70,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "669a111b-dd49-437c-8cb5-be7809b14f2a",
+    "text": "IAM roles Characteristics Common use cases Provides temporary security credentials Isn’t uniquely associated with one person Can be assumed by a person, application, or service Is often used to delegate access Application that runs on Amazon Elastic Compute Cloud (Amazon EC2) Cross-account access for an IAM user",
+    "chunk_index": 71,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "2b6cad66-ab90-483a-bcb7-8ef256280e2f",
+    "text": "|Slide number 28 |Instructor notes | |Student notes The diagram on this slide illustrates three uses cases of an IAM role: In the first use case, an IAM user in AWS account 1 needs temporary access to an application that runs on an EC2 instance. You first create an IAM policy with the necessary permissions. You then create an IAM role and attach the policy to the role. The IAM user can now assume the role and access the EC2 instance. In the second use case, an application that runs on an EC2 instance needs access to an S3 bucket. After you create an IAM role with the necessary permissions, you add the role to an instance profile and attach the profile to the instance. The application can then access the S3 bucket. In the third use case, an IAM user in AWS account 2 needs to access an S3",
+    "chunk_index": 72,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "abc49607-4cca-41e5-be40-19eec7b602f2",
+    "text": "bucket in AWS account 1. You create a cross-account IAM role in account 1 that defines account 2 as a trusted entity. An IAM user in account 2 can then switch roles to the cross-account role and access the S3 bucket in account 1.",
+    "chunk_index": 73,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "505a9fe5-ddc2-4fc5-946a-a876d6d95817",
+    "text": "Three examples of using an IAM role AWS account 2 IAM user account 2 AWS account 1 IAM cross-account bucket role S3 bucket IAM user account 1 IAM instance access role IAM bucket role EC2 Instance IAM pol icy 28 |Slide number 29 |Instructor notes | |Student notes These key takeaways summarize this section. Key takeaways: Authenticating and securing access Use the IAM service to configure fine-grained access control to AWS resources. The account root user has full access to all AWS account resources. Don’t use the root user for day-to-day interactions. A best practice is to",
+    "chunk_index": 74,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4dc8df37-c131-4386-bea2-80461c0bd14b",
+    "text": "attach IAM policies to IAM groups and assign IAM users to these IAM groups. An IAM role provides temporary security credentials. With a role, you can define a set of permissions to access the resources that a user or service needs. 29 |Slide number 30 |Instructor notes |This material is covered briefly and should be a review of cloud foundations concepts. You might choose to go deeper into these topics depending on when your students took that course. | |Student notes This section covers authorizing users. Authorizing users",
+    "chunk_index": 75,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b10b7c58-ba32-438d-93da-87595c04aff3",
+    "text": "|Slide number 31 |Instructor notes |Discuss that policies are important because they are what you use to grant specific access. Without policies, a principal wouldn’t have access to resources. | |Student notes A policy is an object that defines permissions for the identity or resource that it’s associated with. By using policies, you can fine-tune permissions that are granted to principals. Examples of principals include IAM users, IAM roles, and AWS services. Two types of policies exist: identity-based policies and resource-based policies. The biggest difference is where they are applied. Identity-based policies are attached to an IAM user, group, or role and indicate what the user is permitted to do. Resource-based policies are attached to a resource and indicate what a specified user",
+    "chunk_index": 76,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "e48a4269-b40a-466d-b7d8-3d536cb3dcaa",
+    "text": "(or group of users) is permitted to do with the resource. Most policies are stored in AWS as JSON documents. AWS evaluates these policies when an IAM principal makes a request. Permissions in the policies determine whether the request is allowed or denied. A best practice is to follow the principle of least privilege, which was covered earlier in the module.",
+    "chunk_index": 77,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "58e4d266-de24-4d39-9190-44fd1f505c62",
+    "text": "IAM policies and permissions Use policies to fine-tune the permissions that are granted to principals. Define permissions in IAM policy documents. Two types of policies: Identity-based: Attach to an IAM user, group, or role. Resource-based: Attach to an AWS resource. The document is formatted in JSON. The policy defines which resources and operations are allowed or denied. Follow the principle of least privilege. 31",
+    "chunk_index": 78,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "03233fc0-841b-4530-91da-731c6872a7b5",
+    "text": "|Slide number 32 |Instructor notes |Walk through the flowchart to help students better understand how policies are evaluated. Point out the two key decision points: explicit deny and explicit allow. | |Student notes When IAM determines whether an action is allowed, the service first checks for the existence of any applicable explicit denial policy. If an explicit denial doesn’t exist, then IAM checks for any applicable explicit allow policy. If an explicit deny or explicit allow policy doesn’t exist, IAM reverts to the default and denies access. This process is referred to as an implicit deny. A user will be permitted to take the action only if the requested action is not explicitly denied and is explicitly allowed. The diagram on the slide shows the logic that AWS uses to evaluate IAM",
+    "chunk_index": 79,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "13af8ee6-0cc0-4b1e-8a71-70c0d06f218c",
+    "text": "policies. AWS evaluates all applicable policies and uses the following evaluation logic: By default, all requests are denied. An explicit allow overrides the default deny. An explicit deny overrides any explicit allow. The order that the policies are evaluated in has no effect on the outcome of the evaluation. All policies are evaluated, and the result is ​always​ that the request is either allowed or denied. Suppose that a conflict occurs (one policy allows an ​action​ and another policy denies an ​action​). Then, the most restrictive policy (that is, the policy that denies the ​action​) is applied. When you develop IAM policies, it can be difficult to determine whether access to a resource will be granted to an IAM entity. The IAM policy simulator is a helpful tool to test and",
+    "chunk_index": 80,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "60b9e0f3-cb3c-4b46-9620-52228e7417a1",
+    "text": "troubleshoot IAM policies. For more information, see the Testing IAM Policies with the IAM Policy Simulator link on the content resources page of your online course.",
+    "chunk_index": 81,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4d6c0051-f6b0-40e2-b37a-0b14848a1b33",
+    "text": "Determining permissions at the time of request Deny Yes Explicit deny? Explicit allow? Evaluate all applicable policies Allow No Yes No Implicit deny 32",
+    "chunk_index": 82,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5b8ad3c7-5928-4cd3-8a91-54df75a9f374",
+    "text": "|Slide number 33 |Instructor notes |Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. | |Review the differences between identity-based policies and resource-based policies: |Identity-based policies are attached to an IAM user, group, or role. They indicate what that identity can do. For example, you could grant a user the ability to access an Amazon DynamoDB table. |Resource-based policies are attached to a resource. They indicate what a specified user (or group of users) is permitted to do with the resource. For example, you could grant access to an S3 bucket or grant cross-account access between two trusted AWS accounts. | |Review the policy tables with the students. Reiterate that, by default, all",
+    "chunk_index": 83,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5b7d1099-c53c-44cc-87a1-66c736be99a2",
+    "text": "requests are denied. An explicit allow overrides the default deny; an explicit deny overrides any explicit allow. | |Student notes Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. To reiterate, two types of IAM policies can grant permissions: identity-based policies and resource-based policies. The difference between the two types is where they are applied, which depends on the type of access that you're authorizing or restricting. Identity-based policies are attached to an IAM user, group, or role. They indicate what that identity can do. For example, you could grant a user the ability to access a DynamoDB table. Resource-based policies are attached to a resource. They indicate what a specified user (or",
+    "chunk_index": 84,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "ed209613-be58-4169-88f6-7305ce551393",
+    "text": "group of users) is permitted to do with the resource. For example, you could use a resource-based policy to grant access to an S3 bucket or to grant cross-account access between two trusted AWS accounts. For more information, see the Identity-Based Policies and Resource-Based Policies link on the content resources page of your online course.",
+    "chunk_index": 85,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "35c2bae6-9141-4acc-9da5-4f18987c5c6c",
+    "text": "Identity-based and resource-based policies Identity-based (Attached to an IAM user, group, or role) Resource-based (Attached to an AWS resource) What does a particular identity have access to? Who has access to a particular resource? Carlos Resource Read Write List Resource X Allow Allow Allow",
+    "chunk_index": 86,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "94ebadb7-521d-44b7-aba1-815357bf6704",
+    "text": "Resource X User Read Write List Ana Allow Allow Allow Akua Allow Allow Allow Richard Resource Read Write List Resource Y Allow N/A N/A Resource Z Allow N/A N/A Resource Y User Read Write List Paulo Allow Allow Allow Nikki Allow N/A N/A Mateo N/A Allow Allow Managers Resource Read Write List Resource X N/A N/A Allow Resource Y N/A N/A Allow Resource Z N/A N/A Allow 33",
+    "chunk_index": 87,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "80ba3524-3506-4332-9902-b211c5a61e21",
+    "text": "|Slide number 34 |Instructor notes |Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. | |Review the question with students. Allow them time to discuss whether Bob can GET PUT, or LIST for bucket X. | |Student notes Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. Amazon S3 supports two types of access control mechanisms: identity-based (or user based) and resource-based. In the example on the slide, an IAM user named Bob has an identity-based policy attached. The policy allows him to use the GET, PUT, and LIST APIs for S3 bucket X. However, the resource-based policy for bucket X allows him to use GET and LIST, but denies",
+    "chunk_index": 88,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "33d1fe96-da1e-4544-8149-46a56a9195f0",
+    "text": "the ability to use PUT. This means that Bob cannot PUT objects into bucket X, even though his identity-based policy allows it.",
+    "chunk_index": 89,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "79ded84a-3b7d-42ce-8737-27007f57e81b",
+    "text": "Policies: Example 1 Identity-based (Attached to an user, group, or role) Resource-based (Attached to an AWS resource) User Get Put List Bob Allow Deny Allow Bucket X Resource Get Put List Bucket X Allow Allow Allow Bucket Y N/A N/A Allow Bob User Get Put List Bob Allow N/A Allow Bucket Y Can Bob GET, PUT, or LIST for bucket X? The identity-based policy allows him to use the GET, PUT, and LIST APIs for bucket X. However, the resource-based policy for bucket X allows him to use GET and LIST, but denies the ability to use PUT. This means that Bob cannot PUT objects into bucket X, even though his identity-based policy allows it. 34",
+    "chunk_index": 90,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "796410ad-f67b-4578-a6b8-d482bf00a193",
+    "text": "|Slide number 35 |Instructor notes |Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. | |Review the question with students. Allow them time to discuss whether Bob can GET or LIST for bucket Y. | |Student notes Note: In the tables on the slide, N/A means not applicable because the policy doesn't specify permissions for that particular action. The example on this slide focuses on Bob’s permissions for bucket Y. Bob's identity-based policy allows the LIST action. The policy doesn’t explicitly allow or deny the GET and PUT actions on bucket Y. The resource-based policy for bucket Y allows Bob to use GET and LIST, but doesn’t specify the PUT action. Therefore, Bob can read objects from the bucket, even though",
+    "chunk_index": 91,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "e3e37e79-22ed-4ffd-b474-edf0d9e546c0",
+    "text": "his identity-based policy doesn't explicitly allow it.",
+    "chunk_index": 92,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5505cc7e-9259-45f8-a588-4430f1581dc4",
+    "text": "Policies: Example 2 Identity-based (Attached to an user, group, or role) Resource-based (Attached to an AWS resource) User Get Put List Bob Allow Deny Allow Bucket X Resource Get Put List Bucket X Allow Allow Allow Bucket Y N/A N/A Allow Bob User Get Put List Bob Allow N/A Allow Bucket Y",
+    "chunk_index": 93,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "1e8ac232-6c3d-4bc5-8392-5ab662a8ddcb",
+    "text": "Can Bob GET or LIST for bucket Y? The identity-based policy allows the LIST action but doesn’t explicitly allow or deny the GET and PUT actions on bucket Y. The resource-based policy for bucket Y allows Bob to use GET and LIST, but doesn’t specify the PUT action. Therefore, Bob can read objects from the bucket, even though his identity-based policy doesn't explicitly allow it. 35 |Slide number 36 |Instructor notes | |Student notes These key takeaways summarize this section. Key takeaways: Authorizing users A policy defines permissions for the identity or resource that it’s associated with. IAM provides two types of policies: identity-based, which is attached to an IAM principal, and resource-based, which is attached to an AWS resource.",
+    "chunk_index": 94,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5fe08eea-38bc-423a-88bc-60b27f8dfaf8",
+    "text": "Permissions in policies determine whether a request is allowed or denied. By default, all requests are denied. An explicit allow overrides the default deny; an explicit deny overrides any explicit allow. 36 |Slide number 37 |Instructor notes | |Student notes This section focuses on the structure and elements of an IAM policy.",
+    "chunk_index": 95,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3fce3384-2866-452b-93b3-aa4303dfc70b",
+    "text": "|Slide number 38 |Instructor notes | |Student notes IAM policies are stored in AWS as JSON documents. Each statement includes information about a single permission. If a policy includes multiple statements, AWS applies a logical OR across the statements when evaluating them. The following are common elements that are found in an IAM policy document: Version: Specify the version of the policy language that you want to use. Statement: Use this main policy element as a container for the following elements. You can include more than one statement in a policy: Effect: Use Allow or Deny to indicate whether the policy allows or denies access. Principal: If you create a resource-based policy, you must indicate the account, user, role, or federated user that you would like to allow or deny access",
+    "chunk_index": 96,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "a1e95bba-e1f0-40b4-a6b0-8298db1c0ca4",
+    "text": "If you are creating an IAM policy to attach to a user or role, you cannot include this element. The principal is implied as the user or role that the policy is attached to. Action: Include a list of actions that the policy allows or denies. Resource: If you are creating an IAM policy to attach to a user or role, you must specify a list of resources to which the actions apply. If you create a resource-based policy, this element is optional. Condition (optional): Specify the circumstances where the policy grants permissions.",
+    "chunk_index": 97,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "2b4bb341-2777-412f-a3fa-1b435f18c985",
+    "text": "IAM policy document structure Element Information Version Version of the policy language that you want to use Statement Defines what is allowed or denied based on conditions Effect Allow or deny Principal For a resource-based policy, the account, user, role, or federated user to allow or deny access to. Action Action that is allowed or denied Resource Resource or resources that the action applies to Condition Conditions that must be met for the rule to apply 38",
+    "chunk_index": 98,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "698b4e3c-84ba-4841-bac4-e407560a3afd",
+    "text": "|Slide number 39 |Instructor notes | |Student notes The policy uses a combination of an explicit allow and an explicit deny to limit access within an AWS account. The example IAM policy on this slide allows access only to the following resources: The DynamoDB table course-notes. The S3 buckets course-notes-web and course-notes-mp3. The explicit deny (\"Effect\":\"Deny\") element uses the NotResource element to ensure that users cannot use any other DynamoDB or S3 actions or resources, except those that are specified in the policy. This is the case even if permissions have been granted in another policy. An explicit deny statement takes precedence over an allow statement. In its totality, this IAM policy allows access to specific DynamoDB and Amazon S3 resources. It then explicitly denies",
+    "chunk_index": 99,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "974e0139-9465-4677-86d7-d53db62e3c92",
+    "text": "access to any other DynamoDB or Amazon S3 resources in the account.",
+    "chunk_index": 100,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "eb677311-4bc5-43a7-a3d8-73e677c7dfa3",
+    "text": "Example: resource-based policy { \"Version\":\"2012-10-17\", \"Statement\":[{ \"Effect\":\"Allow\", \"Action\":[\"dynamoDB:*\",\"s3:*\" ], \"Resource\":[ \"arn:aws:dynamodb:region:account-number-without-hyphens:table/course-notes\", \"arn:aws:s3:::course-notes-web\", \"arn:aws:s3:::course-notes-mp3/*\"] }, Explicitly allow any (*) DynamoDB or S3 action on the DynamoDB table course-notes, the S3 bucket course-notes-web and any object in the S3 bucket course-notes-mp3. { \"Effect\":\"Deny\", \"Action\":[\"dynamodb:*\",\"s3:*\" ],",
+    "chunk_index": 101,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "2f90e5cb-434c-491b-9415-47d27ed58986",
+    "text": "\"NotResource\":[ \"arn:aws:dynamodb:region:account-number-without-hyphens:table/course-notes\", \"arn:aws:s3:::course-notes-web\", \"arn:aws:s3:::course-notes-mp3/*\"] } ] } Deny any (*) DynamoDB or S3 action on tables or S3 buckets except for those listed under NotResource. 39",
+    "chunk_index": 102,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "f6ff972c-6f4f-413e-bfdf-f11e16ef398f",
+    "text": "|Slide number 40 |Instructor notes | |Student notes After you apply an identity-based policy to a user, group, or role, the policy allows or denies the ability for the entity to perform specific actions. The slide shows an example of an identity-based policy. If this policy was attached to an IAM user, the user would be able to perform the following actions: Create, delete, get, or update their own password by using IAM LoginProfile actions. Create, delete, list, or update their own access key by using IAM AccessKey actions. Create, delete, get, list, or update their own Secure Shell (SSH) keys by using IAM SSHPublicKey actions. The actions in the policy include wildcards, which are indicated with an asterisk (*). This format provides a convenient way to include a set of related actions.",
+    "chunk_index": 103,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "44692ac6-f167-4254-9769-6ec5d57503fb",
+    "text": "Notice that the policy gets the AWS username dynamically, as defined in the Resource key.",
+    "chunk_index": 104,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "91100ce0-d1d9-4316-bb48-780ea478bb25",
+    "text": "Example: Identity-based policy { \"Version\":\"2012-10-17\", \"Statement\":[{ \"Effect\":\"Allow\", \"Action\":[ \"iam:*LoginProfile\", \"iam:*AccessKey*\", \"iam:*SSHPublicKey*\" ], \"Resource\":[ \"arn:aws:iam::account-id-without-hyphens:user/${aws:username}\" } } The Action element lists all the actions that are allowed by the Effect: Allow. The Resource element lists the AWS resources that the allowed actions can be performed on. 40",
+    "chunk_index": 105,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "6d2681fa-fcf9-4dbc-b9fc-7aba347a4c1f",
+    "text": "|Slide number 41 |Instructor notes | |Student notes The slide provides an example of a resource-based policy that allows cross-account access. In this scenario, account A created the resource-based policy. The policy grants account B access to perform any Amazon S3 API operation—which is indicated by the asterisk (*)—on the S3 bucket named DOC-EXAMPLE-BUCKET in account A. This S3 bucket policy doesn’t specify any IAM users, groups, or roles. Instead, it specifies account B (AWS account number 111122223333). Account B should create an IAM user policy to allow a user in account B to access account A's bucket.",
+    "chunk_index": 106,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "d3718f5e-feb7-49fa-a082-e7dc26f0794f",
+    "text": "Example: Cross-account, resource-based policy Policy created by account A { \"Version\": \"2012-10-17\", \"Statement\": { \"Sid\": \"AccountBAccess1\", \"Principal\": {\"AWS\": \"111122223333\"}, Account number of Account B \"Effect\": \"Allow\", \"Action\": \"s3:*\", \"Resource\": [ \"arn:aws:s3:::DOC-EXAMPLE-BUCKET,",
+    "chunk_index": 107,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "7f9ee991-10aa-46a6-82d1-b6740df0a59d",
+    "text": "\"arn:aws:s3:::DOC-EXAMPLE-BUCKET/* ] } } Allow account B to take any S3 action on the DOC-EXAMPLE-BUCKET. 41 |Slide number 42 |Instructor notes | |Student notes In this educator-led activity, you will review a few examples of IAM policies. For each policy, you will be asked questions about what the policy allows you to do. Your educator will lead you in a discussion of each question and reveal the correct answers one at a time.",
+    "chunk_index": 108,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "84476957-9297-432d-8e83-b6cf1f629b97",
+    "text": "Activity: Examining IAM Policies IAM policy statements are presented on the following 3 slides. Answer the questions as they relate to each IAM policy. 42",
+    "chunk_index": 109,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "8ac561f2-87dd-4697-8eb2-edf1330f2a32",
+    "text": "|Slide number 43 |Instructor notes |Note that the student guide that is provided to students has the answers revealed. |The direct link to the resource for question 3 is the service authorization reference, Actions, resources, and condition keys for AWS Identity and Access Management (IAM) which is provided on the content resources page of your online course. | |Have the students review the IAM policy. Click to reveal question 1 and allow students to review and discuss as a group. After discussion, click to reveal the answer. Continue with the same format for question 2. | |Click to reveal question 3. Have students follow the steps on the slide to access the AWS Identity and Access Management User Guide to see the actions that are available for the IAM service. Have students identify",
+    "chunk_index": 110,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "371f37f2-f9a8-4878-a92a-8f489b03a7b7",
+    "text": "specific actions that the iam:Get* action allows. After the discussion, reveal the answer. | |Student notes Look at the example IAM policy. Your educator will ask a series of questions to assess whether you understand what actions this policy will allow and deny. Use the link provided in the content resources page of your online course to answer the question.",
+    "chunk_index": 111,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "08254bd6-a6d8-47d3-8acd-5bda4d495f5c",
+    "text": "Activity: IAM policy analysis (1 of 3) Consider this IAM policy, and then answer the questions as they are presented. { \"Version\":\"2012-10-17\", \"Statement\":{ \"Effect\":\"Allow\", \"Action\":[ \"iam:Get*\", \"iam:List*\" ], \"Resource\":\"*\" } } Which AWS service does this policy grant access to? Answer: The IAM service. Does the policy allow the user to create an IAM user, group, policy, or role? Answer: No. Access is limited to get and list requests. The policy effectively grants read-only permissions. What are at least three specific actions that the iam:Get* action allows? Answer: iam:Get* allows actions such as GetGroup, GetPolicy, and GetRole. 43",
+    "chunk_index": 112,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "831e4d26-24f0-49ef-98f0-4249a70e8129",
+    "text": "|Slide number 44 |Instructor notes |Have the students review the IAM policy. Click to reveal question 1 and allow students to review and discuss as a group. After discussion, click to reveal the answer. Continue with the same format for questions 2 and 3. | |Student notes Analyze this second example of an IAM policy. Your educator will ask a series of questions to assess whether you understand what actions this policy will allow and deny. For question 3, to calculate the range of a CIDR block, you can use a CIDR to IPv4 Conversion tool resource located in the content resources page of your online course.",
+    "chunk_index": 113,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3600319b-9d2b-4bae-ab39-016e7b321771",
+    "text": "Activity: IAM policy analysis (2 of 3) Consider this IAM policy, and then answer the questions as they are presented. Does the policy allow the user to terminate any EC2 instance at any time without conditions? Answer: No. The policy allows the action but applies a condition. Does the policy allow the user to terminate an EC2 instance from anywhere? Answer: No. The call must come from one of the two IP address ranges that are specified in aws:SourceIp. If the user’s IP address is 192.0.2.243, could they terminate an EC2 instance according to this policy? Answer: Yes, because the 192.0.2.0/24 IP address range includes addresses 192.0.2.0 through 192.0.2.255. { \"Version\":\"2012-10-17\",",
+    "chunk_index": 114,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "790b525c-3d38-4a12-82b9-0633438d9fca",
+    "text": "\"Statement\":[{ \"Effect\":\"Allow\", \"Action\":\"ec2:TerminateInstances\", \"Resource\":\"*\" }, { \"Effect\":\"Deny\", \"Action\":\"ec2:TerminateInstances\", \"Condition\":{ \"NotIpAddress\":{ \"aws:SourceIp\":[ \"192.0.2.0/24\", \"203.0.113.0/24\" ] } }, \"Resource\":\"*\" ... 44 |Slide number 45 |Instructor notes |Have the students review the IAM policy. Click to reveal question 1 and allow students to review and discuss as a group. After discussion, click to reveal the answer. Continue with the same format for questions 2 and 3. | |Student notes Observe this example of an IAM policy. Your educator will ask a series of questions to assess whether you understand what actions this policy will allow and deny.",
+    "chunk_index": 115,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "9126ce9d-604d-4284-a707-8ae973f26766",
+    "text": "Activity: IAM policy analysis (3 of 3) Consider this IAM policy, and then answer the questions as they are presented. { \"Version\":\"2012-10-17\", \"Statement\":[{ \"Condition\":{ \"StringNotEquals\":{ \"ec2:InstanceType\":[ \"t2.micro\", \"t2.small\"] } }, \"Resource\":\"arn:aws:ec2:*:*:instance/*\", \"Action\":[ \"ec2:RunInstances\",",
+    "chunk_index": 116,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "4bf17963-0667-4768-8853-15c0140435a9",
+    "text": "\"ec2:StartInstances\" ], \"Effect\":\"Deny\" } ] } What actions does the policy allow? Answer: It doesn’t allow any actions. The effect is to deny. If the policy also included the following statement, what would be the impact? { \"Effect\": \"Allow\",",
+    "chunk_index": 117,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "592be722-9b09-4c65-bc04-03968a09e970",
+    "text": "\"Action\": \"ec2:*\" } Answer: The policy would allow full access to Amazon EC2. However, the policy would only allow a user to launch or start EC2 instances of type t2.micro or t2.small. The allow would be independent of the deny statement with its conditions. If the policy included the statement from question 2, would the user be able to terminate an m3.xlarge instance in the account? Answer: Yes. The policy would only deny running or starting a t2.micro or t2.small instance. 45 |Slide number 46 |Instructor notes | |Student notes These key takeaways summarize this section.",
+    "chunk_index": 118,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3533024e-c841-467d-add5-421922f5a83a",
+    "text": "Key takeaways: Parts of an IAM policy IAM policies are stored as JSON documents. Each statement includes information about a single permission. Key elements of an IAM policy statement include the effect, action, and resources. Together, these elements determine policy permissions. 46 |Slide number 47 |Instructor notes | |Student notes You will now complete a lab. The next slides summarize what you will do in the lab, and you will find the detailed instructions in the lab environment.",
+    "chunk_index": 119,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "19f568b2-faa0-43b5-bc45-e10dab2ada1d",
+    "text": "Guided lab: Exploring AWS Identity and Access Management (IAM) (Exploring IAM lab) 47 |Slide number 48 |Instructor notes |<Add directions to find the lab guide information.> | |Student notes Access the lab environment through your online course to get additional details and complete the lab. Exploring IAM lab tasks: In this lab, you perform the following main tasks:",
+    "chunk_index": 120,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "ea428639-bb62-441a-a92e-032c07b7ff31",
+    "text": "Experiment with IAM policies Add users to IAM groups Use the IAM sign-in URL 48",
+    "chunk_index": 121,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "94076efa-9510-493f-b69e-deeaf20585f7",
+    "text": "|Slide number 49 |Instructor notes |Relevant before and after architectural diagrams are included in the lab instructions for each lab. You might find it helpful to pull the lab diagrams up as part of debriefing this lab. |Suggested responses for question 1: Where do you access the AWS Identity and Access Management (IAM) service? | |Choose the Services menu, choose Security, Identity, & Compliance, and then choose IAM. | |Suggested responses for question 2: What is a managed policy, and what happens when it is updated? | |Managed policies are pre-built policies (built either by AWS or by your administrators) that can be attached to IAM users and groups. When the policy is updated, the changes to the policy are immediately applied against all users and groups that are attached to the",
+    "chunk_index": 122,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3be077ea-86d9-4328-bbd6-7e94374a2f7c",
+    "text": "policy. | |In this lab, you examined a group with a managed policy called AmazonEC2ReadOnlyAccess. | |Student notes Your instructor might review these questions with you, or you might review them on your own. Use this opportunity to extend your thinking about the tasks that you performed during the lab.",
+    "chunk_index": 123,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "49e85cbe-21ed-4412-b1eb-21b424083b18",
+    "text": "Debrief: Exploring IAM Where do you access the AWS Identity and Access Management (IAM) service? What happens when a managed policy is updated? 49 |Slide number 50 |Instructor notes | |Student notes This section summarizes what you have learned and brings the module to a close. Module wrap-up Securing Access 50 |Slide number 51 |Instructor notes | |Student notes This module reviewed key security concepts that are applicable across all parts of your cloud solutions.",
+    "chunk_index": 124,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "2f89700c-744f-4a6c-9fdc-2f93f2a4d533",
+    "text": "Module summary This module prepared you to do the following: Describe the security principles in the AWS Cloud. Explain the purpose of IAM users, groups, and roles. Explain how IAM policies determine permissions in an AWS account. 51 Use the cafe business as an example to apply what you’ve learned in this module to building a cloud architecture. What types of access considerations might be needed for the café staff?",
+    "chunk_index": 125,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "48af28ce-8ffe-479d-b336-8ce4a72107e8",
+    "text": "Considerations for the cafe Discuss how you as a cloud architect might advise the café based on the key cloud architect concern presented at the start of this module. 52 |Slide number 53 |Instructor notes | |Student notes Use your online course to access the knowledge check for this module.",
+    "chunk_index": 126,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "c58e9f8c-ba51-406a-837d-a168d7598718",
+    "text": "Module knowledge check The knowledge check is delivered online within your course. The knowledge check includes 10 questions based on material presented on the slides and in the slide notes. You can retake the knowledge check as many times as you like. 53 |Slide number 54 |Instructor notes |The key words section is animated to be revealed on click. | |Student notes The question identifies the need for a team of developers to access resources for a specific duration. The fact that they are a team of developers implies that the developers would need similar access to the resources. The specified duration suggests that these users won’t require access after this period ends. The question also asks that you think in terms of key security principles Sample exam question",
+    "chunk_index": 127,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "b953017e-5fef-45fb-9807-b7f0d164db53",
+    "text": "A team of developers needs access to several services and resources in a virtual private cloud (VPC) for 9 months. Team members are likely to change during the project. Which option fulfills this requirement and follows key security principles? Identify the key words and phrases before continuing. The following are the key words and phrases: Team of developers likely to change Needs access for 9 months Follows key security principles 54 |Slide number 55 |Instructor notes | |Student notes Use the key words that you identified on the previous slide, and review each of the possible responses to determine which one best addresses the question.",
+    "chunk_index": 128,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "8bebc618-9aec-4504-9946-bfc66c794c6c",
+    "text": "Sample exam question: Response choices A team of developers needs access to several services and resources in a virtual private cloud (VPC) for 9 months. Which option fulfills this requirement and follows key security principles? Choice Response A Create a single IAM user for the developer team, and attach the required IAM policies to the user.",
+    "chunk_index": 129,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "f63f76ad-4a38-4683-9d3f-6ef698260edf",
+    "text": "B Create an IAM user for each developer, and attach the required IAM policies to each user. C Create an IAM user for each developer, put them all in an IAM group, and attach the required IAM policies to the group. D Create a single IAM user for the developer team, place it in an IAM group, and attach the required IAM policies to the group. 55",
+    "chunk_index": 130,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "2d2a1e30-6a54-4d35-aee3-1c028b714b54",
+    "text": "|Slide number 56 |Instructor notes | |Student notes Choices A and D (creating a single shared IAM user for the team) shouldn’t be implemented. Having multiple users share a single user account is generally a bad security practice. The password is shared by all users, and you lose individual accountability for actions that are performed by the user account. Choice B ( IAM users for each developer, and IAM policies attached to each user) will work but it is not the most efficient option for managing a team, especially when it is likely that developers will be added or removed during the project. Choice C (putting users into a group, and attaching the policy to the group) is the best choice. Attaching a policy to a group applies the same access rules to all members of the group. This method",
+    "chunk_index": 131,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "da5f21c3-b1b8-4103-9b6a-fe205a669961",
+    "text": "also automatically applies the access rules to new users that are added to the group and removes those access rules from users that are removed from the group.",
+    "chunk_index": 132,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "3bbf15c8-216a-4074-8cd1-a058fdc5f029",
+    "text": "Sample exam question: Answer The answer is C. Choice Response C Create an IAM user for each developer, put them all in an IAM group, and attach the required IAM policies to the group. 56 |Slide number 57 |Instructor notes | |Student notes That concludes this module. The Content Resources page of your course includes links to additional resources that are related to this module.",
+    "chunk_index": 133,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  },
+  {
+    "id": "5f2836f8-4e8f-494c-8a86-d582c8753e55",
+    "text": "Thank you Corrections, feedback, or other questions? Contact us at https://support.aws.amazon.com/#/contacts/aws-academy. 57",
+    "chunk_index": 134,
+    "source_file": "4th_SW_AWS_M03_Securing_Access"
+  }
+]

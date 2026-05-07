@@ -1,0 +1,308 @@
+[
+  {
+    "id": "be0d5eae-ed31-4ed4-840a-1a85165ffecf",
+    "text": "Chapter 2 – Software Processes 30/10/2014 Chapter 2 SoftwareProcesses 1 Topics covered ❑ Software process models ❑ Process activities ❑ Coping with change ❑ Process improvement 30/10/2014 Chapter 2 SoftwareProcesses 2 The software process ➢ What ➢ set of activities required to develop software.",
+    "chunk_index": 0,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "b4a92110-9eeb-4afa-9d5b-5667c091418c",
+    "text": "➢ Activities: ➢ Specification (What) ➢ Design and implementation (How) ➢ Validation – checking that it does what the customerwants; ➢ Evolution – changing the system in response to changing customer needs. ➢ Model ➢ abstract representation of a process. ➢ describes process from perspective. 30/10/2014 Chapter 2 SoftwareProcesses 3",
+    "chunk_index": 1,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "8b2e43e5-811f-481b-af1c-6844ee22db28",
+    "text": "The software process types ➢ Plan-driven processes ➢ all of the process activities are planned in advance ➢ progress is measured against this plan. ➢ Agile processes ➢ planning is incremental ➢ easier to change the process to reflect changing customer requirements. ➢ Hybrid ➢ Practically, most processes include mixture of both types 30/10/2014 Chapter 2 SoftwareProcesses 5 30/10/2014",
+    "chunk_index": 2,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "e972ec1d-f9ae-4c73-9b4f-ca7ccdd21b8a",
+    "text": "Software process models Chapter 2 SoftwareProcesses 6 Process models ➢ The waterfall model ▪ Plan-driven model. ▪ Phases are separated ➢ Incremental development ▪ Specification, development and validation are interleaved. ▪ Plan-driven or agile. ➢ Integration and configuration ▪ The system is assembled from existing configurable",
+    "chunk_index": 3,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "c8338124-03ab-4c29-965b-4549b9a916fa",
+    "text": "components. ▪ Plan-driven or agile. ➢ Practically? 30/10/2014 Chapter 2 SoftwareProcesses 7 The waterfallmodel phases 30/10/2014 Chapter 2 SoftwareProcesses The output of each phase is a signed-off document (approved) 8 Waterfall modelproblems ❑ Drawbacks? ➢ difficulty to adapt to changes",
+    "chunk_index": 4,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "c3ef130f-2993-4a7b-89be-11b6aa42b521",
+    "text": "➢ Sequential phases ➢ Phases takes long to execute ❑ Usage ➢ Appropriate when the requirements are well- understood ➢ Appropriate when changes are limited ➢ Appropriate for large critical systems & large systems 30/10/2014 Chapter 2 SoftwareProcesses 9 Incremental development 30/10/2014 Chapter 2 SoftwareProcesses 10",
+    "chunk_index": 5,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "3ee52bfd-69e1-41e0-a9ef-c60241e5ddc0",
+    "text": "Incremental development ➢ Pros ➢ cost of requirement changes is reduced. ➢ The amount of analysis and documentation that has to be redone is much less than that in waterfallmodel. ➢ Easy to get customer feedback ➢ Rapid delivery ➢ Working software 30/10/2014 Chapter 2 SoftwareProcesses 11 Incremental development",
+    "chunk_index": 6,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "fecfa321-1386-416d-92ae-65a9784ff45c",
+    "text": "➢ Cons ➢ The process is not visible. Managers always need deliverables, not documentation ➢ Documentation is costly if system is developed quickly ➢ System structure tends to degrade with new increments. ➢ Unless time and money are spent on refactoring ➢ Inefficient for large, complex and long-lived projects 30/10/2014 Chapter 2 SoftwareProcesses 12",
+    "chunk_index": 7,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "fa6fb060-4a8a-4e5a-be9b-1247934bd8f7",
+    "text": "Integration and configuration ➢ Based on software reusability ➢ Don’t reinvent the wheel ➢ Integration ➢ COTS: Stand-alone application systems ➢ Package/library ➢ Web services ➢ Configuration ➢ Adapt functions to customer requirements 30/10/2014 Chapter 2 SoftwareProcesses 13 Reuse-oriented software engineering 30/10/2014 Chapter 2 SoftwareProcesses 14",
+    "chunk_index": 8,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "8a3d4237-a5b2-470e-a686-d06c6cb61166",
+    "text": "Reuse-oriented software ➢ Pros ▪ Less software is developed ▪ Reduced cost ▪ Faster delivery and deployment ➢ Cons ▪ New requirements (CR) are inevitable ▪ Loss of control over evolution of reused system elements ▪ High learning curve for enterprise components ▪ Tracking system versions for updates",
+    "chunk_index": 9,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "37835583-33bd-42d9-95d1-3a9559ce1574",
+    "text": "▪ Integration bugs 30/10/2014 Chapter 2 SoftwareProcesses 16 30/10/2014 Process activities Chapter 2 SoftwareProcesses 17 Process activities ❑ Inter-leaved sequences of technical, collaborative and managerial activities ➢ Specification ➢ Development ➢ Validation ➢ Evolution 30/10/2014 Chapter 2 SoftwareProcesses 18",
+    "chunk_index": 10,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "25d7993b-1c65-4c84-8fcf-ca70dfa69dd7",
+    "text": "Software specification (requirement engineering) ➢ What ➢ services are required? ➢ constraints are there (operational & development) ➢ Steps (process) ➢ Pre ➢ Feasibility study ➢ Market survey ➢ Requirements elicitation and analysis ➢ What do the system stakeholders require or expect from the system?",
+    "chunk_index": 11,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "df51d744-d4c4-4f4b-8aa4-dd2965b35809",
+    "text": "➢ Requirements specification ➢ Defining the requirements in detail ➢ Requirements validation ➢ Checking the validity of the requirements 19 The requirements engineering process 30/10/2014 Chapter 2 SoftwareProcesses 20 The requirements engineering process checks the requirements for realism, consistency, and completeness. During this process, errors in the requirements document are inevitably discovered may involve the development of one or more system models and prototypes 30/10/2014 Chapter 2 SoftwareProcesses 21",
+    "chunk_index": 12,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "4cd5c1b9-e566-40ad-8d8e-dcbdc64134ec",
+    "text": "Software design andimplementation ➢ What ➢ converting specs to exe. ➢ Design ➢ Design a software structure that realises thespecification; ➢ Implementation ➢ Translate this structure into an executable program; ➢ Interleaved activities 30/10/2014 Chapter 2 SoftwareProcesses 22 A general model of the design process if an agile approach to development is used, design and implementation are interleaved, with no formal design documents produced during the process 23 30/10/2014 Chapter 2 SoftwareProcesses",
+    "chunk_index": 13,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "8145cd0f-e99f-4902-a65a-89d92d893d86",
+    "text": "Design activities  Architectural design ▪ overall structure of the system, ▪ principal components (subsystems or modules), ▪ relationships & distribution.  Database design ▪ data representation in DB  Interface design ▪ contract implementation  Component selection ▪ search for reusable components. ▪ design reusable components 30/10/2014 Chapter 2 SoftwareProcesses 24",
+    "chunk_index": 14,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "6ef448f8-359e-418f-ac39-f7de25640cbd",
+    "text": "System implementation by developing a program by configuring an application system. Programming is an individual activity with no standard process. Debugging is the activity of finding program faults and correcting these faults. 30/10/2014 Chapter 2 SoftwareProcesses 26 Software validation",
+    "chunk_index": 15,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "50acd8c7-070a-4be9-8eea-7313d56ba32d",
+    "text": " Verification and validation (V & V) system conforms to its specification and • meets the requirements of the system customer.  Activities System Checking Process review Testing  Testing is the most commonly used V & V activity. 30/10/2014 Chapter 2 SoftwareProcesses 27 Software testing types Manual software testing",
+    "chunk_index": 16,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "98320a6e-2857-4e7b-8624-c945a180763f",
+    "text": "Functional testing ❑ Unit testing Unit testing is done on an individual unit or component to test its corrections. Unit testing is done by the developer. Each unit can be viewed as a method, function, procedure, or object. Developers use test automation tools such as JUnit for the test execution.",
+    "chunk_index": 17,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "e639bdbf-250f-4d4b-aaa0-9511c407d0dc",
+    "text": "❑ Integration Testing two or more modules of an application are logically grouped together and tested as a whole. The focus of this type of testing is to find the defect on interface, communication, and data flow among modules Functional testing ❑ System testing End to end testing: testing a complete application environment to mimic real- world use, such as interacting with a database, using network communications, or interacting with other hardware, applications, or systems if appropriate Smoke testing: is performed to verify that basic and critical functionality of the system is working fine at a very high level, whenever a new build is provided by",
+    "chunk_index": 18,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "e5689448-9e46-4e79-93bb-51d32b922543",
+    "text": "the development team Sanity testing: is performed on a system to verify that newly added functionality or bug fixes are working fine. Sanity testing is done on stable build. It is a subset of the regression test Monkey testing: is to check if an application or system gets crashed by providing random input values/data. Monkey Testing is performed randomly",
+    "chunk_index": 19,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "699b098b-b736-48d9-a941-beea3432441c",
+    "text": "Functional testing ❑ Acceptance testing Alpha testing: a type of acceptance testing performed by the team in an organization to find as many defects as possible before releasing software to customers Beta testing (aka UAT): a type of software testing which is carried out by the clients/customers. It is performed in the Real Environment before releasing the",
+    "chunk_index": 20,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "b70f4fb1-4f80-4aee-b536-04bc692763c9",
+    "text": "product to the market for the actual end-users Non-Functional testing ❑ Penetration testing o Pen testing is the type of security testing performed as an authorized cyberattack on the system to find out the weak points of the system in terms of security o Pen testing is performed by outside contractors, generally known as ethical hackers. That is why it is also known as ethical hacking o Contractors perform different operations like SQL injection, URL manipulation, Privilege Elevation, session expiry, and provide reports to the organization",
+    "chunk_index": 21,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "9c6758b5-4932-4c98-849f-5db462959ecb",
+    "text": "Non-Functional testing ❑ Performance testing Load testing: testing of an application’s stability and response time by applying load, which is equal to or less than the designed number of users for an application Stress testing: testing an application’s stability and response time by applying load, which is more than the designed number of users for an application Scalability testing: same as stress testing, but increasing load gradually until finding the avalanche point of the system",
+    "chunk_index": 22,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "32350f75-849e-4dcc-8d8c-50a49f10b19e",
+    "text": "Usability & Compatibility testing Testing phases in a plan-driven software process (V-model) 30/10/2014 Chapter 2 SoftwareProcesses 36 System evolution CR (customer request / requirement change) → software should evolve 30/10/2014 Chapter 2 SoftwareProcesses 37 30/10/2014 Coping with change Chapter 2 SoftwareProcesses 38 Coping with change  Change is inevitable in all large software projects.",
+    "chunk_index": 23,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "a10b2b96-79f5-4b48-b73f-548b54f4ec22",
+    "text": "▪ Business changes ▪ New technologies ▪ Changing platforms  Change → rework → cost re-analysing requirements re-implementing new functionality 30/10/2014 Chapter 2 SoftwareProcesses 39 Reducing the costs of rework  Change anticipation. ▪ By experience ▪ Community trends ▪ Similar products",
+    "chunk_index": 24,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "ed196d1f-fc53-47e1-8019-b830ebe1c2e5",
+    "text": "▪ Flexible architecture ▪ System prototype for next project phase  Change tolerance ▪ Adopt process that welcomes changes at low costs ▪ Incremental delivery ▪ Change avoidance and tolerance ▪ Prevents premature commitment to requirements 30/10/2014 Chapter 2 SoftwareProcesses 40 Software prototyping",
+    "chunk_index": 25,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "9e759112-9c32-4ea1-ac69-8f91d875fe2d",
+    "text": " What ▪ initial version of a system used to demonstrate concepts and try out design options.  Usage: ▪ The requirements engineering process to help with requirements elicitation and validation; ▪ In design processes to explore options and develop a UI design; ▪ In the testing process to run back-to-backtests. 30/10/2014 Chapter 2 SoftwareProcesses 41 Benefits of prototyping",
+    "chunk_index": 26,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "6ecc04cf-8fc3-4bfe-a7a8-a3d08234007f",
+    "text": " Improved system usability.  A closer match to users’ realneeds.  Improved design quality.  Improved maintainability.  Reduced development effort.  Reduced cost of changes 30/10/2014 Chapter 2 SoftwareProcesses 42 Prototype development  May be based on rapid prototyping languages or tools  May involve leaving out functionality ▪ Prototype should focus on areas of the product that are notwell-",
+    "chunk_index": 27,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "41aabce4-a8cd-4151-975d-5d43223c1f51",
+    "text": "understood; ▪ Error checking and recovery may not be included in the prototype; ▪ Focus on functional rather than non-functional requirements such as reliability and security 30/10/2014 Chapter 2 SoftwareProcesses 44 Throw-away prototypes  Prototypes should be discarded after development ▪ Not good basis for a production system: ▪ It may be impossible to tune the system to meet non-functional",
+    "chunk_index": 28,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "749514e6-e9bc-493c-8b48-9c65e6d2f96d",
+    "text": "requirements; ▪ Normally undocumented; ▪ Structure is usually degraded through rapid change; ▪ Probably will not meet normal organizational quality standards. 30/10/2014 Chapter 2 SoftwareProcesses 45 Incremental development and delivery ❑ Development and delivery are broken down into increments ❑ Each increment delivering part of the required functionality. ❑ User requirements are prioritized ❑ Highest priority requirements are included in early",
+    "chunk_index": 29,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "c1166108-b22f-4100-8033-29b89896a1e1",
+    "text": "increments. ❑ Requirements are frozen once development is underway. 30/10/2014 Chapter 2 SoftwareProcesses 46 Incremental development and delivery ❑ Evaluate each increment before proceeding to the development of the next increment ❑ Evaluation is done by user/customer proxy ❑ Normally used in agile methods",
+    "chunk_index": 30,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "a44a9674-ba2e-479f-98bc-22bf14b1abae",
+    "text": "❑ More realistic evaluation about practical use of software ❑ Difficult to implement for replacement systems 30/10/2014 Chapter 2 SoftwareProcesses 47 30/10/2014 Process improvement Chapter 2 SoftwareProcesses 51 Process improvement  Why 1. Enhancing software quality 2. Cost reduction 3. Development acceleration  SPI means understanding existing processes and changing these processes to meet the items above 30/10/2014 Chapter 2 SoftwareProcesses 52",
+    "chunk_index": 31,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "1f32cb4b-01ec-47e6-b074-c871e9515900",
+    "text": "Approaches to improvement  CMM approach focuses on improving process and project management and introducing good software engineering practice. The level of process maturity reflects the extent to which good technical and management practice has been adopted in organizational software development processes.",
+    "chunk_index": 32,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "fa4e6a1d-c5ea-4e98-b666-854f6aef9ed5",
+    "text": " Agile approach focuses on iterative development and the reduction of overheads in the software process. The primary characteristics of agile methods are rapid delivery of functionality and responsiveness to changing customer requirements. 53 The process improvement cycle 30/10/2014 Chapter 2 SoftwareProcesses 54",
+    "chunk_index": 33,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "42ba66c9-40c4-4261-ba13-7be341b69ad1",
+    "text": "Process improvement activities  Process measurement ▪ You measure one or more attributes of the software process or product. These measurements forms a baseline that helps you decide if process improvements have been effective.  Process analysis ▪ The current process is assessed, and process weaknessesand bottlenecks are identified. Process models (sometimes called process maps) that describe the process may bedeveloped.",
+    "chunk_index": 34,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "bf343216-3c6d-4a9d-97b0-f4adbf77116d",
+    "text": " Process change ▪ Process changes are proposed to address some of theidentified process weaknesses. These are introduced and the cycle resumes to collect data about the effectiveness of the changes. 30/10/2014 Chapter 2 SoftwareProcesses 55 Process measurement  Wherever possible, quantitative process data should be collected ▪ However, where organisations do not have clearly defined process standards this is very difficult as you don’t know what to measure. A process may have to be defined before any measurement is possible.  Process measurements should be used to",
+    "chunk_index": 35,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "a919ec62-c3eb-4120-9464-da04626dc007",
+    "text": "assess process improvements ▪ But this does not mean that measurements should drive the improvements. The improvement driver should be the organizational objectives. 30/10/2014 Chapter 2 SoftwareProcesses 56 Capability maturity levels 30/10/2014 Chapter 2 SoftwareProcesses 57 Level 1. Initial 2. Managed 3. Defined 4. Quantitatively Managed 5. Optimizing Focus Key Process Area Process is informal and Adhoc",
+    "chunk_index": 36,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "6db574b5-b131-4d44-9a41-84cdfda5c240",
+    "text": "Basic Project Management ❖ Requirements Management ❖ Project Planning ❖ Project Monitoring and Control ❖ Measurement and Analysis ❖ Process and Product Quality Assurance ❖ Configuration Management Process Standardization ❖ Requirements Development ❖ Technical Solution ❖ Verification ❖ Validation ❖ Organizational Training ❖ Risk Management",
+    "chunk_index": 37,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "44140d07-22cc-41c5-b976-c63e2c13da1b",
+    "text": "Quantitatively Managed ❖ Organizational Process Performance ❖ Quantitative Project Management Continuous Process Improvement ❖ Organizational Deployment Innovation ❖ Causal Analysis and Resolution and Result Lowest Quality / Highest Risk Low Quality / High Risk Medium Quality / Medium Risk",
+    "chunk_index": 38,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "8a91603d-d329-470a-a9ae-34e4eda40177",
+    "text": "Higher Quality /Lower Risk Highest Quality / Lowest Risk Business activity categorization Turnover < 1M • 10-40 emp Micro Small Enterprise Medium Turnover > 200M • 500+ emp 30/10/2014 Chapter 2 SoftwareProcesses Turnover < 50M Turnover 50- 200M 50-200 emp 59 ITIL (IT Infrastructure Library) ▪ A set of best practices",
+    "chunk_index": 39,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "94559556-ac02-4f6f-a3f3-e8857ae24849",
+    "text": "for IT service management (ITSM). ▪ Focuses on delivering value to customers through IT services. ▪ Provides a structured approach to managing the entire IT service lifecycle. ▪ Includes the process of managing the lifecycle of IT assets (ITAM) throughout their acquisition, deployment, utilization, and disposal. 30/10/2014 Chapter 2 SoftwareProcesses 60",
+    "chunk_index": 40,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "c6eae58d-e16f-427f-a02f-bfb2899688ac",
+    "text": "Enterprise Architecture, ToGAF ▪ Organizations are complex systems with business elements and interconnected processes, technology. like systems, information ▪ Enterprise Architecture (EA) provides a unified their the view of relationships and how organization's strategy. these elements, showing they support ▪ Without EA, managing this complexity can be inefficiencies, leading challenging, misalignment, and missed opportunities.",
+    "chunk_index": 41,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "1230242d-a4ce-45d8-aa2c-95f70233d52c",
+    "text": "to 30/10/2014 Chapter 2 SoftwareProcesses 61 TOGAF (The Open Group Architecture Framework) ▪ A widely adopted framework for and managing developing enterprise architecture ▪ It offers a structured approach Architecture its through Development method (ADM) 30/10/2014 Chapter 2 SoftwareProcesses 62",
+    "chunk_index": 42,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "6ddaaaa4-9c1a-4626-ad85-f6f06540feb9",
+    "text": "TOGAF phases 1. Vision: Defines the overall vision and goals for the enterprise architecture. 2. Business Architecture: Analyzes business processes, capabilities, and information needs. Information Systems Architecture: Defines the architecture of information systems and data. 2. Business Architecture: Analyzes business processes, capabilities, and information needs. Information Systems Architecture: Defines the architecture of information systems and data. 4. Technology Architecture: Describes the infrastructure and technology components. 5. Opportunities & Solutions: Identifies potential solutions and opportunities.",
+    "chunk_index": 43,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "ebda8b48-5607-453a-9b97-bc5d1d360499",
+    "text": "Requirements Management: Defines and manages requirements for the architecture. Implementation Governance: Establishes processes for implementing and overseeing changes. 6. Requirements Management: Defines and manages requirements for the architecture. Implementation Governance: Establishes processes for implementing and overseeing changes. 8. Architecture Change Management: Controls and manages changes 63 to the architecture.",
+    "chunk_index": 44,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "42d78be1-dc17-4d11-be5d-7b3b2826a19c",
+    "text": "Questions 1. What is the software process? what is software process model? 2. Mention some perspectives for the software process model 3. What are the categories of software process? 4. Practically, do you think that Agile is the mostly widely used process type? 5. Mention some of software process models 6. Based on your understanding, what are the common phases of waterfall process model? 30/10/2014 Chapter 2 SoftwareProcesses 64",
+    "chunk_index": 45,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "c3fcc174-fbf6-4a4f-87f5-a15484a21f1c",
+    "text": "Questions 7. Do you think that waterfall model are no longer used? why? 8. What is incremental development model? 9. Incremental software development could be very effectively used for customers who do not have a clear idea about the systems needed for their operations. Discuss! 10. What are the possible activities of any software process model? 11. Based on your understanding, what is requirements elicitation and analysis? why it's so important in the requirement engineering process? 65",
+    "chunk_index": 46,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "ffa60d19-c258-4bda-a737-11d30a861695",
+    "text": "Questions 12. What are the possible documents produced from the requirement engineering process? 13. Why it is important to make a distinction between developing the user requirements and developing system requirements in the requirements engineering process? 14. What are the common design activities in software design and implementation activity? 15. Based on your understanding, mention the difference between software verification and validation? 16. Explain why software testing should always be an incremental, staged activity? 30/10/2014 Chapter 2 SoftwareProcesses 66",
+    "chunk_index": 47,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "fd14e7f3-b553-45b0-bb8a-fcd499732941",
+    "text": "Questions 17. Are programmers the best people to test the programs that they have developed? Dicuss! 18. What is the differnce between component testing, system testing and UAT? 19. Based on your understaing about software evolution and requirement changes, how do you anticipate/tolerate with changes? Dicuss 20. Based on your understanding, what is software prototype? why is it used? What are the possible uses for it? 21. Based on your understanding, what are the possible steps/process you would follow to develop a prototype? 30/10/2014 Chapter 2 SoftwareProcesses 67",
+    "chunk_index": 48,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "a8abc884-b2aa-4dbe-9da9-0cb25036dd4b",
+    "text": "Questions You have developed a prototype of a software system and your manager is very impressed by it. He proposes that it should be put into use as a production system!, with new features added as required. This avoids the expense of system development and makes the system immediately useful. Discuss with your manager explaining why prototype systems should not normally be used as production systems 30/10/2014 Chapter 2 SoftwareProcesses 68",
+    "chunk_index": 49,
+    "source_file": "4th_SW_chapter2"
+  },
+  {
+    "id": "003e5144-3051-4129-beaa-c1f3a231a469",
+    "text": "Questions 22. Based on your understanding, What is incremental delivery and development? what is the pros of using it? 23. Based on your understanding, why we need continous software process improvement? what is the role of SPI engineer? 24. What are the possible approaches for software process improvements? 25. What are the major difference between CMM and Agile approach for software process improvement? 30/10/2014 Chapter 2 SoftwareProcesses 69",
+    "chunk_index": 50,
+    "source_file": "4th_SW_chapter2"
+  }
+]

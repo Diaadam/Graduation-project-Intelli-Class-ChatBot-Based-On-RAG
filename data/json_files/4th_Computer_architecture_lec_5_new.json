@@ -1,0 +1,3006 @@
+[
+  {
+    "type": "Title",
+    "element_id": "a942bea377bd4c48cb195c3af630d612",
+    "text": "Lecture 5",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fe963a05920ec70121c4d69e251f8bbc",
+    "text": "Cache Memory",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a942bea377bd4c48cb195c3af630d612"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "41a58950f8fd13e09c3b7cd1c44e3aa9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a680edb31e672a0598ca5361131e95e9",
+    "text": "Von Neumann bottleneck",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d4469ab20a99ebb6d5783418ea1f3b91",
+    "text": "The separation of memory and CPU is often called the von Neumann bottleneck, since the interconnect determines the rate at which instructions and data can be accessed. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a680edb31e672a0598ca5361131e95e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f269c372128ea83228e235618c041a60",
+    "text": "The potentially vast quantity of data and instructions needed to run a program is effectively isolated from the CPU.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a680edb31e672a0598ca5361131e95e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a0fd0780c4f5b475da29dee15eb378f1",
+    "text": "In 2021, CPUs are capable of executing instructions more than one hundred times faster than they can fetch items from main memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a680edb31e672a0598ca5361131e95e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "31dd041c59eceeeded04a36fcf271a88",
+    "text": "To address the von Neumann bottleneck and, more generally, improve computer performance, many modifications to the basic von Neumann architecture has been done.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a680edb31e672a0598ca5361131e95e9"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a96b3066526b82d21542d9013e679ccf",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c1927d32904e38fe69c58e3baa30f520",
+    "text": "Modifications to the von Neumann model",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4d6ee0b0bef5510672059a8a5218d609",
+    "text": "As we noted earlier, since the first electronic digital computers were developed back in the 1940s, computer scientists and computer engineers have made many improvements to the basic von Neumann architecture.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c1927d32904e38fe69c58e3baa30f520"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4c83cf2ebffcc171f008ba53070ce12a",
+    "text": "Many are targeted at reducing the problem of the von Neumann bottleneck, but many are also targeted at simply making CPUs faster. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c1927d32904e38fe69c58e3baa30f520"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d107f399179503ff08a269e6601ef0db",
+    "text": "In this section, we\u2019ll look one of these improvements: caching.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c1927d32904e38fe69c58e3baa30f520"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "3fbb5cfe5a21e358192c8de7db0ff57a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "596933a62b53d2f10cb5b846c703d9c2",
+    "text": "Principle of Locality",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9956de659f556f27b8286d5665d98b4c",
+    "text": "Two different types of locality have been observed:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "596933a62b53d2f10cb5b846c703d9c2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3796e09063c677ae081d7a0810bb1a1c",
+    "text": "Temporal locality states that recently accessed items are likely to be accessed in \tthe near future. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "596933a62b53d2f10cb5b846c703d9c2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aff18dce77e23cd2aa004efabb8f7436",
+    "text": "b) Spatial locality says that items whose addresses are near one another tend to be referenced close together in time.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "596933a62b53d2f10cb5b846c703d9c2"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f1549d2616a21adad6cb718637c616bf",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7067906bad5dc9328099313109d9e457",
+    "text": "MEMORY HIERARCHY",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6c80ea065d6d80d7c01deb2dbc68071a",
+    "text": "The lowest level of the hierarchy is a small, fast memory called a cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7067906bad5dc9328099313109d9e457"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e1f557c4f95e15e4e8133241771dadc9",
+    "text": "At the next level upward in the hierarchy is the main memory. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7067906bad5dc9328099313109d9e457"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0614d7eae884e297226b79a38346baa2",
+    "text": "The main memory serves directly most of the CPU instructions and operand fetches not satisfied by the cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7067906bad5dc9328099313109d9e457"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "03a04f090ed7250f83d8443d6c400290",
+    "text": "At the top level of the hierarchy is the hard drive, which is accessed only in the very infrequent cases where a CPU instruction or a operand fetch is not found in main memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7067906bad5dc9328099313109d9e457"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e4826e45ff15d1377f2799d9e028b6f6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e8be32432b69d45f4eabcec6d25a0a8e",
+    "text": "The use of these two caches permits one instruction and one operand to be fetched, or one instruction to be fetched and one result to be stored, in a single clock cycle if the caches are fast enough.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "79b89320eafb5dacdc5a5681048fe5e1",
+    "text": "Example of Memory Hierarchy with Two Caches",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "931b19e9eb8f862874d9427298c73de3",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce",
+    "text": "Multiple-Level Caches",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "97e6913040e870803605e2ca7be3e91a",
+    "text": "Two levels of cache, often referred to as L1 and L2, with L1 closest to the CPU, are often used. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "74cf2575af346a53c83b602850ba8543",
+    "text": "In order to satisfy the demand of the CPU for instruction and operands, a very fast L1 cache is needed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "237647a7e5f7ec531297242652450101",
+    "text": "The L1 cache is placed in the processor IC together with the CPU and is referred to as the internal cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aa632e3a7c5ca0369fd659e87151e43e",
+    "text": "The L1 cache can be designed to specific CPU access needs including the possibility of separate instruction and data caches.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6389ba78a9351ae27b2501ef8034f4fb",
+    "text": "A larger L2 cache is added outside the processor IC.  If more space is available in the IC, then the L2 cache can also be an internal cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "12a43795e781bd22620efcb12c92baab",
+    "text": "L2 rather than providing instructions and operands to a CPU, it primarily provides instructions and operands to the first-level cache L1.  The L2 cache is accessed only on L1 misses,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d52ddac9f35f8b0b78b1b4dcbc57f6ce"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "7efe06a74c3f27a4897e1d78e08149d4",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e586b60964a17cc2cc283f0bc7d75059",
+    "text": "Cache Memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "27ffe4b6eb8899da6a37f003e95034bb",
+    "text": "To illustrate the concept of cache memory, we assume a very small cache of:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e586b60964a17cc2cc283f0bc7d75059"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c620e97248e0cb1d58c7f421bea05f56",
+    "text": " Eight (32-bit) words,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e586b60964a17cc2cc283f0bc7d75059"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0fe2bf10217a74fa7620e10941073f73",
+    "text": "A small main memory with 1 KB (256 words of 32-bit).",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e586b60964a17cc2cc283f0bc7d75059"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fa03ae9189c3247c33174b3d7a892a55",
+    "text": "The cache address lines = 3 bits, ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0fe2bf10217a74fa7620e10941073f73"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1e9378639d589ec153b1123bab1fa4f4",
+    "text": "The memory address lines = 10 bits,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0fe2bf10217a74fa7620e10941073f73"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fb37d37043415749547ca3e6ff06f8ea",
+    "text": "Out of the 256 words of size 32 bit / word, in the main memory, only 8 at a time may lie in the cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0fe2bf10217a74fa7620e10941073f73"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ac611ba78515aad61266ad7ab20c4fac",
+    "text": " In order for the CPU to address a word in the cache, there must be information in the cache to identify the address of the word in main memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0fe2bf10217a74fa7620e10941073f73"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "00130771361d35a8116676c63ec7532f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2dbd2cf4bdda4c804ce802a16d65c775",
+    "text": "Cache Mappings",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "983ee545ce4d46908d80686a5728ee7d",
+    "text": "Mapping is between the main memory address and the cache address.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e675b0a5c87ded7fe26fb0dd1002b3d7",
+    "text": "There are many cache mapping technologies:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "652d6da676df75612ec915284f278abe",
+    "text": "\t- Direct cache Mapping",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f1ea878c2c55cba8217805b942861a99",
+    "text": "\t- Fully Associative Cache mapping",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60ff6a85beb9b95af5aa31966656c4e9",
+    "text": "\t-Associative Memory",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fcacbcede22df893e5c5c2876e81eac4",
+    "text": "\t- Set-associative Cache mapping",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2dbd2cf4bdda4c804ce802a16d65c775"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "431915f8e1f28939d8f3575aa1d1a132",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ac76d9d0154308e280f55a19b6606735",
+    "text": "1- Direct Cache Mapping",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ddb21a9c9c9d40c7241e88291082498",
+    "text": "The main memory address is partitioned into three sections:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac76d9d0154308e280f55a19b6606735"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "01bcb6f93203a9d0c6aa33b863a5c1ec",
+    "text": "\t1- No., of Bytes",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac76d9d0154308e280f55a19b6606735"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4d55ec75a0a19bc154d30e1087a03d8c",
+    "text": "\t2- Index",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac76d9d0154308e280f55a19b6606735"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7217515ee1f4d28573aa60c193c80a5d",
+    "text": "\t3 Tag",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac76d9d0154308e280f55a19b6606735"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ee770468547c1de861e47b31f1de4763",
+    "text": "For Example: ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac76d9d0154308e280f55a19b6606735"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e1a41504f0123410bc46913e0999edcf",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "49bce7da493292a624ab9a772a42f038",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "672d3fad1e4800539af6ecd034279be1",
+    "text": "Byte Field: has the lowest two bits to be able to map 4 succeeded bytes from the main memory to one cache memory location (32-bit size).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "49bce7da493292a624ab9a772a42f038"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3e6d3e067fa7f0a180ba8516063703f0",
+    "text": "Index Field:  has the next three bits because the cache memory has eight memory locations ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "49bce7da493292a624ab9a772a42f038"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6403a6dcc300b12abb380fc8521f4fe3",
+    "text": "Upper 5 bits of the main memory address, called the tag, are stored in the cache along with the data.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "49bce7da493292a624ab9a772a42f038"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f2d38e8b12674bf6a48fe1e29a2ab8c4",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "edc6eddf1fb1aa6578b2d38ebb7fd51d",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3f117a7d870f93eb07fca8dd8427e296",
+    "text": "Mapping Process",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "48a74ce36f77f49c72df61b13a6083c2",
+    "text": "Suppose that the CPU is to fetch an instruction from location 000001100 in main memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f117a7d870f93eb07fca8dd8427e296"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "39251de9757706a896865ae03274f30c",
+    "text": "The CPU start fetches in his cache, as follows:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f117a7d870f93eb07fca8dd8427e296"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3a04744e86605d560f2ca19bcc35d566",
+    "text": "\t- Compare Index \uf0e0 sure matched",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f117a7d870f93eb07fca8dd8427e296"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8dda476d7a15956d0a8d4f53251ab877",
+    "text": "\t- Compare Tag, If tag matched, called \tcache hit, else called cache miss and looks for the address in the main memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f117a7d870f93eb07fca8dd8427e296"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0faa8be41fa67d68d4becf12f5a63a2f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7f72dc58641011be64c51115611c65f3",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d98605c97b134949989ee2a8261c5fb5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4948f6b0856c9e0fb3d2575657be0625",
+    "text": "2- fully associative mapping",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aaeb0e5c8c25733ef79b81f8db343e66",
+    "text": "In contrast to direct mapping, suppose that we let locations in main memory map into an arbitrary location in the cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4948f6b0856c9e0fb3d2575657be0625"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "17bdca7a20308e4a2530faa1342f51ca",
+    "text": " Then any location in memory can be mapped to any one of the eight addresses in the cache. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4948f6b0856c9e0fb3d2575657be0625"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3057c5aa71ee96ae873d6e5a420d5c9f",
+    "text": "This means that the tag will now be the full main memory word address.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4948f6b0856c9e0fb3d2575657be0625"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "631554e3afb085fe97b702ef66a5ccf1",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "732405e352b5e7e4f83ce78ac6d4a893",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "478b494fa3cec2b6af736a273b10c719",
+    "text": "Mapping Process",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d1b70ddf735bba54747262283bb96e80",
+    "text": "Suppose that the CPU is to fetch an instruction from location 0000010000 in cache memory:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "478b494fa3cec2b6af736a273b10c719"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1ff5c66bd2258ee1212edea7191bf507",
+    "text": "The cache must compare 00000100 to each of its eight tags. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "478b494fa3cec2b6af736a273b10c719"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b39360bd48ce90becb50a012afe9eb3c",
+    "text": "One way to do this is to successively read each tag and the associated word from the cache memory and compare the tag to 00000100.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "478b494fa3cec2b6af736a273b10c719"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d62433fd1b6b5f7f89524d5fc9636c5",
+    "text": "If a match occurs, a cache hit occurs, and the cache control then places the word on the bus to the CPU, completing the fetch operation.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "478b494fa3cec2b6af736a273b10c719"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fc10f448f08aade57984bb4981ac8f8b",
+    "text": "If the tag fetched from the cache is not matched, then there is a tag mismatch, and the cache control fetches the next successive tag and word.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "478b494fa3cec2b6af736a273b10c719"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "033b86ec5f6b9c0cd9e032817bd68684",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "21e0326595eaec303116b924a5dabab0",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "519777b468ed8c7b272330b237f3c808",
+    "text": "In the worst case, a match on the tag in cache address, eight fetches from the cache are required before the cache hit occurs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "21e0326595eaec303116b924a5dabab0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b09d7ae913de257acf2303e79cfca24b",
+    "text": " At 2 ns a fetch, this requires at least 16 ns, about half the time it would take to obtain the instruction from main memory (cons). ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "21e0326595eaec303116b924a5dabab0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "19a552939af918e6bba67ee1e785c3bc",
+    "text": "So successive reads of tags and words from the cache memory to find a match is not a very desirable approach",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "21e0326595eaec303116b924a5dabab0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "bf570f7d72ed9067270641d405bf0277",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc",
+    "text": "3- Associative Memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0b33e23768a97d3ea1b56f3094b02eed",
+    "text": "A structure called associative memory implements the tag portion of the cache memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "55154e87c581bdc2dbc866361fdaa9d6",
+    "text": "An associative memory is known as content-addressable memory (CAM). The subfield chosen to address the memory (TAG) is called the key.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "173b0ccd3ae9f188a66b6d1285318434",
+    "text": "The idea is to minimize the fetching time by adding an associative memory for fetching Tags.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "48033cb2ae116ffec7e7ef0b5026a3ef",
+    "text": "Let : T \uf0e0 is the Tag address, and A \uf0e0 is the applied CPU address.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "454cade134fa5d8a1cc22278bd9247b3",
+    "text": "The matching logic circuit does an equality comparison between the Tag \u2018T\u2019, and the applied address \u2018A\u2019, for the eight cache memory locations at the same time.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6314ac76c7e5b343ee9d4ecb1bcf25fc"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d958964f482fdd6d4fcc5eb28174dd72",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a7b22ec707fb5ed071fb014823dcefda",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4c06d211557143499cd7469b894862da",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0bcbbc381f4d826d9e7105a449f0afc9",
+    "text": "The match logic does an equality comparison or match between the tag T and the applied address A from the CPU.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4c06d211557143499cd7469b894862da"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fd24888e011e2932b9ad65e8e3379f89",
+    "text": "The match logic for each tag is composed of an exclusive-OR gate for each bit and a NOR gate that combines the outputs of the exclusive-ORs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4c06d211557143499cd7469b894862da"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c12c532d1b04c0febd774203b8d7dd15",
+    "text": " If all of the bits of the tag and the address match, then the outputs of all the exclusive-ORs are 0 and the NOR output is a 1, indicating a match.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4c06d211557143499cd7469b894862da"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b3d8bb176b6758b1be3189fdffea91a6",
+    "text": " If there is a mismatch between any of the bits in the tag and the address, then at least one exclusive-OR has a 1 output, which causes the output of the NOR gate to be 0, indicating a mismatch.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4c06d211557143499cd7469b894862da"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ebbbe25ab79674fa7ed2160900bd8510",
+    "text": "The drawback of the method is the matching logic circuit cost and size.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4c06d211557143499cd7469b894862da"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c41051d304e9d510294f4d564c3843a9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "83edd89b6b8813342fc84b7a5548a71f",
+    "text": "4- Set-associative Cache mapping ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "608dc0ee8e4917cfdc0729cef15dbd59",
+    "text": "An alternative mapping that has better performance and eliminates the cost of most of the matching logic is a compromise between a direct-mapped cache and a fully associative cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "83edd89b6b8813342fc84b7a5548a71f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ddf59002b0bb54ccb9aabff382031051",
+    "text": "For such a mapping, lower-order address bits (Index) act much as they do in direct mapping; however, for each combination of lower-order address bits, instead of having one location, there is a set of s locations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "83edd89b6b8813342fc84b7a5548a71f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0244a711b0a7f443d59199ddb4ed73e0",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eacb14430c33da17eba40b4eaa187af0",
+    "text": "Two-Way set Associative Cache",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a14f2e3320a08977efb7a591682422ea",
+    "text": "For example, if the set size  equals two, then two tags and the two accompanying data words are read simultaneously.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eacb14430c33da17eba40b4eaa187af0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "50a5910b644374650412f386b69c4bb2",
+    "text": "The tags are then simultaneously compared to the CPU-supplied address using just two matching logic structures.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eacb14430c33da17eba40b4eaa187af0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "81059ab196ef7686bc13ace2e511cf5c",
+    "text": "Eight cache locations are arranged in four rows of two locations each.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eacb14430c33da17eba40b4eaa187af0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61d618cab8a42c752f28f1852faecc6b",
+    "text": " The rows are addressed by a 2-bit index and contain tags made up of the remaining six bits of the main memory address.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eacb14430c33da17eba40b4eaa187af0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d4763a28f54c85925aaeecb257d07316",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "357de65c79d292689d27d546d247599a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "61f727152e6deb775928b90de489b1bb",
+    "text": "Mapping Process",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9d4b660f4a808bb9c19e37bc03dc0d11",
+    "text": "The index is used to address each row of the cache memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61f727152e6deb775928b90de489b1bb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eedc265716fcecaed544c76b85301cd2",
+    "text": " The two tags read from the tag memories are compared to the tag part of the address on the address bus from the CPU. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61f727152e6deb775928b90de489b1bb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c808dc3a5da0d6f059ec0f63e4b1ed3",
+    "text": "If a match occurs, then the three-state buffer on the corresponding data memory output is activated, placing the data onto the data bus to the CPU as shown in the following figure. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61f727152e6deb775928b90de489b1bb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ea3bf19665b37606d3d28368c44772d2",
+    "text": "In addition, the match signal causes the output of the Hit/miss OR gate to become 1, indicating a hit. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61f727152e6deb775928b90de489b1bb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c307621ae39290898e0afecbf7c2d804",
+    "text": "If a match does not occur, then Hit/miss is 0, informing the main memory that it must supply the word to the CPU, and informing the CPU that the word will be delayed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61f727152e6deb775928b90de489b1bb"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a8355afa5dab3742ed414ba7788c4b24",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7ad9bb0e3681df146718738e1d683883",
+    "text": "Cache Controller",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "04b1dffa42415b43e8e494f7998fb5ea",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "66bcc8ac087cc7381cb0c5c9f1b65b46",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "95f1b507a2c5456c1e7f0953952b1abd",
+    "text": "Line Size",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dd92cc434cc9b58d0c157bf9026bd6cc",
+    "text": "In real caches, spatial locality is to be exploited, so additional words close to the one addressed are included in the cache entry. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95f1b507a2c5456c1e7f0953952b1abd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "857d5f5fff897732a99592735f55c472",
+    "text": "Then, rather than a single word being fetched from main memory when a cache miss occurs, a block of l words called a line is fetched.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95f1b507a2c5456c1e7f0953952b1abd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4c7bdf6826d8afcf10e2f63e0c4dd934",
+    "text": "Bits 2 and 3, the Word field, are used to address the word within the line. In this case, two bits are used, so there are four words per line.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95f1b507a2c5456c1e7f0953952b1abd"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a2c62fbf4a0c1867407772466ba68cc1",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9fc5ae177d92c658acf5bcdb206f4f0e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5efb9e83fa1814fa917f91bf0626fddd",
+    "text": "Cache Replacement Approaches",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5c640cf557b36e2c48791e4818d26e4a",
+    "text": "In addition to selecting a cache mapping, the cache designer must select a replacement approach that determines the location in the cache to be used for the incoming tag and data.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5efb9e83fa1814fa917f91bf0626fddd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "34f778f6a75490f7203eec33547082e2",
+    "text": "One possibility is to select a random replacement location",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5efb9e83fa1814fa917f91bf0626fddd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ede95edc8aea597c34b7759f2f7dcd8",
+    "text": "A somewhat more thoughtful approach is to use a first-in, first-out (FIFO) location.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5efb9e83fa1814fa917f91bf0626fddd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f43ae99e36b5c0d3488e3ff9af66ecb",
+    "text": "An approach that appears to attack the replacement problem even more directly is the least recently used (LRU) location approach.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5efb9e83fa1814fa917f91bf0626fddd"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1c2563e044cb679bac5ee05dd4c541d5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "93d95cf9ff97d526b7fe81ddcb5d7496",
+    "text": "Cache Write Methods",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a589f7980d240b98126e958b529d8d5b",
+    "text": "We have focused so far on reading instructions and operands from the cache. What happens when a write occurs?",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "93d95cf9ff97d526b7fe81ddcb5d7496"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f7748d2588ee14b529b827d210737ee3",
+    "text": "Following are three possible write actions from which we can select:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "93d95cf9ff97d526b7fe81ddcb5d7496"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b3b471ad3a916880f13d57cfdb7e740a",
+    "text": "\t1. Write the result into main memory.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "93d95cf9ff97d526b7fe81ddcb5d7496"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "39f49faf8fcd20bfb9108c060fe1046a",
+    "text": "\t2. Write the result into the cache.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "93d95cf9ff97d526b7fe81ddcb5d7496"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4f8874e0ad564d14de7f5e53ecba5cda",
+    "text": "\t3. Write the result into both main memory and the \tcache.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "93d95cf9ff97d526b7fe81ddcb5d7496"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "72110b0e02af798f215a6a0a4e966c22",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ca9ce686c87c3b054c74b5e67d7dce61",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8f8991e743dd8d7df7f9df18b7750b91",
+    "text": "Various realistic cache write methods employ one or more of these actions. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ca9ce686c87c3b054c74b5e67d7dce61"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "faf063034d4d21d070c003f0708967fa",
+    "text": "Such methods fall into two main categories: ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ca9ce686c87c3b054c74b5e67d7dce61"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b66044f092631282822ee995a36546f2",
+    "text": "\t- Write-through.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ca9ce686c87c3b054c74b5e67d7dce61"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "08ffbe558c1b37794b6ab19ed9a23922",
+    "text": "\t- Write-back.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ca9ce686c87c3b054c74b5e67d7dce61"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2de8d0db91ee75a271f1f87a0a321957",
+    "text": "In cache memory, \"write back\" and \"write through\" are two different strategies for managing how data is written to both the cache and the underlying main memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "08ffbe558c1b37794b6ab19ed9a23922"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d391ee4fcf232be79f40fa8497fd8676",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "95601a9185c2155544a24381bce7fcb6",
+    "text": "Write Through",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e754eeb8663fafe3f53b125f6ecc906c",
+    "text": "Definition: In the write-through cache strategy, every time data is written to the cache, it is also written simultaneously to the main memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95601a9185c2155544a24381bce7fcb6"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cfac807aa51ad1ca0c9665b199c8b09f",
+    "text": "Advantages:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95601a9185c2155544a24381bce7fcb6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c2c00b59662c68e3e035e8f4fd88de2c",
+    "text": "Simplicity: Easy to implement and understand.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cfac807aa51ad1ca0c9665b199c8b09f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f055dc19b6a539d8a0bd2544395ec9ba",
+    "text": "Data Consistency: The main memory always contains the most up-to-date data.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cfac807aa51ad1ca0c9665b199c8b09f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b7af3281958fe0859550abf9bbf5f366",
+    "text": "Disadvantages:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "95601a9185c2155544a24381bce7fcb6"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c7494004ac177f84927e1c87633e754f",
+    "text": "Performance: Slower write operations because every write operation involves accessing both cache and main memory.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b7af3281958fe0859550abf9bbf5f366"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "08dd37054395744b6e358039189d2b96",
+    "text": "Increased memory traffic: More frequent writes to the main memory can lead to higher bandwidth usage.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b7af3281958fe0859550abf9bbf5f366"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "cd34e74d9110dc6e16de3869f72ee64a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8ffe3f2648f81f7322d5dcf81d3c6e6d",
+    "text": "Write Back",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9577d9f3510cd54db9651be3bcc1ff80",
+    "text": "Definition: In the write-back cache strategy, data is written to the cache first, and updates are only written to main memory later, typically when the cache line is evicted.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8ffe3f2648f81f7322d5dcf81d3c6e6d"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2a127fe8018ba5337f89e71603ac1a5b",
+    "text": "Advantages:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8ffe3f2648f81f7322d5dcf81d3c6e6d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d5d44b3c2efedd4bf467bcc41a053197",
+    "text": "Performance: Faster write operations since the write to main memory is delayed.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a127fe8018ba5337f89e71603ac1a5b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e45729976c4d92e6ba4f805b6dac87ab",
+    "text": "Reduced memory traffic: Fewer writes to main memory can improve overall system performance, especially for applications with frequent writes.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a127fe8018ba5337f89e71603ac1a5b"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "04a6010b9bce18cbcd8679f2475b7166",
+    "text": "Disadvantages:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8ffe3f2648f81f7322d5dcf81d3c6e6d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "45dfc6212ff37332a20c4253e575b8dd",
+    "text": "Complexity: More complex to manage, as the system must track which cache lines have been modified.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "04a6010b9bce18cbcd8679f2475b7166"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9cf315b97e575f9c1828618a0a04eca3",
+    "text": "Potential for Data Loss: If the system crashes before the cache is written back to memory, changes could be lost.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "04a6010b9bce18cbcd8679f2475b7166"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ae4d9bcf724fdcacc5cc11b47c5f1463",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf8cdab49d04a1a602fda807280dcaca",
+    "text": "Assignment 1 \u000b",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "951eca7dfdf30f066a35c0e3b69e6203",
+    "text": "Explain the concept of Cache Coherence.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bf8cdab49d04a1a602fda807280dcaca"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0d60a24f3258ce27429b26458e721425",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d6b8b3dc90f45aac2be61c0a4419d720",
+    "text": "Assignment 2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "56a18eb34908ec8071642093d2d195ab",
+    "text": "A CPU produces the following sequence of read addresses in hexadecimal: 54, 58, 104, 5C, 108, 60, F0, 64, 54, 58, 10C, 5C, 110, 60, F0, 64. Supposing that the cache is empty to begin with, and assuming an LRU replacement, determine whether each address produces a hit or a miss for each of the following caches: (a) direct mapped (b) fully associative , and (c) two-way set associative.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d6b8b3dc90f45aac2be61c0a4419d720"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "95fecf70f79cc9c7da44757ad1cdbb2b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d6dd00a5e8d31adffe1202f130fab374",
+    "text": "Assignment #3",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9b30a80bf936abed95e4577fb458f9a7",
+    "text": " A two-way set-associative cache in a system with 32-bit addresses has four 4-byte words per line and a capacity of 1 MB. Addressing is to the byte level. How many bits are there in the index and the tag?\t\t\t\t\t\t\t\u00a0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d6dd00a5e8d31adffe1202f130fab374"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "aa2a2501d043884b0f6d8c7ea05324ca",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aa74c9b4353aeeb061adc21c6773c501",
+    "text": "Sheet",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8cecbbe945139f4db7386494e8331caf",
+    "text": "Text Book ch., 12",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 5 new.pptx",
+      "last_modified": "2024-10-26T13:03:14",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aa74c9b4353aeeb061adc21c6773c501"
+    }
+  }
+]

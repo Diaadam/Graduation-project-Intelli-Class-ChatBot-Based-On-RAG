@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ebcf1784-5e70-47c9-98f7-3ae1f698999c",
+    "text": "Cryptography and Network Security Overview & Chapter 1 Fifth Edition by William Stallings Lecture slides by Lawrie Brown Objectives ❑ To define three security goals ❑ To define security attacks that threaten security goals ❑ To define security services and how they are related to the three security goals ❑ To define security mechanisms to provide security services ❑ To introduce two techniques, cryptography and steganography, to implement security mechanisms. 1.2",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "48446f2a-2886-492d-ae73-064fa93f7eb1",
+    "text": "Key Security Concepts Examples of Security Requirements confidentiality – student grades • integrity – patient information • availability – The loss of the service translates into a large financial loss Aspects of Security consider 3 aspects of information security: – security attack – security mechanism – security service note terms – threat – a potential for violation of security – attack – an assault on system security, a deliberate attempt to evade security services 1.6",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "bfa51299-4f4a-40e6-844c-5fbda6266621",
+    "text": "Taxonomy of security goals Confidentiality Confidentiality is probably the most common aspect of information security. We need to protect our confidential information. An organization needs to guard against those malicious actions that endanger the confidentiality of its information. 1.7 Integrity Information needs to be changed constantly. Integrity means that changes need to be done only by authorized entities and through authorized mechanisms. 1.8 Availability The information created and stored by an organization needs to be available to authorized entities. Information needs to be constantly changed, which means it must be accessible to authorized entities. 1.9",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "a329d9d0-74e6-4d63-8e66-4c1dacbb49b0",
+    "text": "ATTACKS The three goals of security⎯confidentiality, integrity, and availability⎯can be threatened by security attacks. Topics discussed in this section: 1.2.1 Attacks Threatening Confidentiality 1.2.2 Attacks Threatening Integrity 1.2.3 Attacks Threatening Availability 1.2.4 Passive versus Active Attacks 1.10 1.11",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "1cf20f19-ca83-45ac-9cf5-5706b5164377",
+    "text": "Taxonomy of attacks with relation to security goals passive Attacks Threatening Confidentiality Snooping refers to unauthorized access to or interception of data. Traffic analysis refers to obtaining some other type of information by monitoring online traffic. 1.12 Attacks Threatening Integrity Modification means that the attacker intercepts the message and changes it. Masquerading or spoofing happens when the attacker impersonates somebody else. Replaying means of a message sent by a user and later tries to replay it.",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "c10ed9f9-af00-440d-9a55-4d7fc081758d",
+    "text": "the attacker obtains a Repudiation means that sender of the message might later deny that she has sent the message; the receiver of the message might later deny that he has received the message. 1.13 copy Attacks Threatening Availability Denial of service (DoS) is a very common attack. It may slow down or totally interrupt the service of a system. A sever class of this attack is the Distributed Denial of service (DDoS) attack. In this class very large number (thousands or even millions) of attacking machines are coordinated and synchronized to attack a victim system simultaneously. 1.14",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "e3f151ae-76ef-41a8-b34f-71df2d260b99",
+    "text": "Passive Versus Active Attacks Passive attacks 1. Release of message contents (Snooping - لفطتلا ): unauthorized reading of a message. Traffic analysis: useful in guessing the nature of the communication between two parties. 2. Active attacks 1. Masquerade: to impersonate the identity of someone. 2. Replay: to get an unauthorized copy of a message and resend it afterwards. 3. Modification of messages: to add, delete , or modify some contents of a message. Repudiation: The sender of a message will deny sending; or the recipient will deny receiving. Denial of Service (DoS): to prevent authorized users from accessing resources such as data or servers or networks.",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "0c7e172e-f2fe-453e-b9d9-422415a66ee3",
+    "text": "Modification of messages: to add, delete , or modify some contents of a message. Repudiation: The sender of a message will deny sending; or the recipient will deny receiving. Denial of Service (DoS): to prevent authorized users from accessing resources such as data or servers or networks. 4. 1.16 Passive Versus Active Attacks",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "4279bc06-5ad4-492d-b3f3-102ceb70d536",
+    "text": "Summary Passive Attacks Release of message contents (Snooping) Active Attacks Replay attack SERVICES AND MECHANISMS As standardized by the International Telecommunication Union; Telecommunication Standardization Sector (ITU-T) ITU-T provides some security services and some mechanisms to implement those services. Security services and mechanisms are closely related because a mechanism or combination of mechanisms are used to provide a service. Topics discussed in this section: 1.3.1 Security Services 1.3.2 Security Mechanism 1.3.3 Relation between Services and Mechanisms 1.19",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "31121e07-669a-4c0a-8f2b-21adf6c63f26",
+    "text": "Security Services (As recommended in the X.800 Protocol of the ITU-T) Authentication - assurance that communicating entity is the one claimed – peer-entity authentication – data origin authentication Access Control - prevention of the unauthorized use of a resource Data Confidentiality –protection of data from unauthorized disclosure Data Integrity - assurance that data received is as sent by an authorized entity Non-Repudiation - protection against denial by one of the parties in a communication Availability – resource accessible and usable Security Services",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "3b3d3376-ef08-412b-b220-5fad4d7ad0b7",
+    "text": "Availability The security service is defined in the Internet document RFC 2828 as follows: “A processing or communication service provided by a system to give a specific kind of protection to system resources” 1.21 Security Mechanisms in the X.800 Protocol Specific Security Mechanisms ▪ Encryption, ▪ Digital signatures, ▪ Access controls, ▪ Data integrity, ▪ Authentication exchange, ▪ Traffic padding, ▪ Routing control, ▪ Notarization. )",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "fd430bb8-26f0-48a0-bb35-7667ac6d135e",
+    "text": "قيثوتلا ( X.800 Definitions of the Mechanisms Encryption The cryptographic transformation of data to produce ciphertext. Digital signatures Data appended to, or a cryptographic transformation of a data unit that allows a recipient of the data unit to prove the source and integrity of the data unit and protect against forgery e.g. by the recipient. Access controls Access control mechanisms may be applied at either end of a communications association and/or at any intermediate point. Access controls involved at the origin or any intermediate point are used to determine whether the sender is authorized to communicate with the recipient and/or to use the required communications resources.",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "e8348c74-3c96-4fb7-8853-5cec5f382118",
+    "text": "Data integrity Two aspects of data integrity are: the integrity of a single data unit or field; and the integrity of a stream of data units or fields. X.800 Definitions of the Mechanisms Authentication exchange A mechanism intended to ensure the identity of an entity by means of information exchange. Traffic padding The generation of spurious instances of communication, spurious data units and/or spurious data within data units. Routing control The application of rules during the process of routing to chose or avoid specific networks, links or relays. Notarization The registration of data with a trusted third party that allows the later assurance of the accuracy of its characteristics such as content, origin, time and delivery. Relation between Services and Mechanisms",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "5701edac-0f8a-43de-8df4-b9263be6db40",
+    "text": "Table 1.2 Relation between security services and mechanisms Encipherment: this another name for encryption. 1.25 Characteristics of a Security Service 1. Enhance security of data processing systems and information transfers of an organization 2. Intended to counter security attacks 3. Using one or more security mechanisms 4. Often replicates functions normally associated with physical documents which, for example, have signatures, dates; need protection from disclosure, tampering, or destruction; be notarized or witnessed; be recorded or licensed",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "ba4fe3d4-fd03-4f61-a69e-dad541fbc478",
+    "text": "1-4 TECHNIQUES Mechanisms discussed in the previous sections are only theoretical recipes to implement security. The actual implementation of security goals needs some techniques. Two techniques are prevalent today: 1. Cryptography 2. Steganography 1.27 Cryptography Cryptography, a word with Greek origins, means “secret writing.” However, we use the term to refer to the science and art of transforming messages to make them secure and immune to attacks. 1.28 Steganography The word steganography, with origin in Greek, means “covered writing,” in contrast with cryptography, which means “secret writing.”",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "84cc843b-5cfd-42c8-b43f-843fe810a53a",
+    "text": "Example 1. Convert your data into a stream of “N” bits, say N=10000 bits. 2. Use an image, audio or video file to carry the data bits. The carrying file must have a number of bytes much more than “N”. 3. To carry the data bits, select “N” bytes of the carrying file and replace the least significant bit in each selected byte by a single data bit. There will be minor distortion in the carrying file that would not be noticed. 4. Send the carrying file to its recipient. 5. At the receiving side, the data bits can be extracted in a reverse order. 1.29",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "7badd559-665a-4a2d-a986-2cad01d8b1a2",
+    "text": "Model for Network Security Topics Related to the Network Security Model Using this model requires us to: 1. Design a suitable algorithm for the security transformation 2. Generate the secret information (keys) used by the algorithm 3. Develop methods to distribute and share the secret information 4. Specify a protocol enabling the principals to use the transformation and secret information for a security service",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "06f4253f-2b92-4bbb-94ce-5e64dc8d360d",
+    "text": "Model for Network Access Security ▪ The gatekeeper is typically a firewall. ▪ The internal security controls ensure that only authorized users can access designated information or resources, for example username and password, or biometric authentication such as sound identification. Summary Topics covered in this chapter are: 1. Security concepts: confidentiality, integrity,",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  },
+  {
+    "id": "fba0fd9a-cc5b-4163-adb6-c3f630c6e287",
+    "text": "and availability. 2. X.800 security architecture. 3. Security attacks, services, mechanisms. 4. Models for network (access) security.",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sec_422_ch_1__introduction_2020_-_audio"
+  }
+]

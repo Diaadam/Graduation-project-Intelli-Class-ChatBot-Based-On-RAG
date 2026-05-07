@@ -1,0 +1,3523 @@
+[
+  {
+    "type": "Title",
+    "element_id": "d22f40f75343596b4d865b4e7bc855db",
+    "text": "Lecture 3\u000b",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dafa3fffb780165efb09b9b244e05839",
+    "text": "Dynamic RAM (DRAM)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d22f40f75343596b4d865b4e7bc855db"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "45d5bd588cd302ee9ae8cc7d0809cecd",
+    "text": "Memory Refreshment",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d22f40f75343596b4d865b4e7bc855db"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e22b05ffde8aa8613ffccb6d5ab30c51",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "37b3c0c63adf21e29ea58ebfb4cff758",
+    "text": "Introduction",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "75aa97fb1ad30cce59eb2f3bc840ecb1",
+    "text": "Because of its ability to provide high storage capacity at low cost, dynamic RAM (DRAM) dominates the high-capacity memory applications, including the primary RAM in computers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "37b3c0c63adf21e29ea58ebfb4cff758"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ed950a40d072feb6d80cc3b245e547c5",
+    "text": "Further, as the name \u201cdynamic\u201d implies, the storage of information is inherently only temporary. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "37b3c0c63adf21e29ea58ebfb4cff758"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4dc8067dab658f1f4a3c59f5d1c0a654",
+    "text": "This need for refresh is the primary logical difference in the behavior of DRAM compared to SRAM. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "37b3c0c63adf21e29ea58ebfb4cff758"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e158ce1e7713f73afbb8f5b989b2c811",
+    "text": "We explore this logical difference by examining the dynamic RAM cell, the logic required to perform the refresh operation, and the impact of the need for refresh on memory system operation.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "37b3c0c63adf21e29ea58ebfb4cff758"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "664dcde4e59ab54d81703a28c35cfeea",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aa615bf8f0185dffc7a6edcc315d1302",
+    "text": "DRAM Cell",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "34a5f16c3e20841f6b4eba642678dc0c",
+    "text": "The dynamic RAM cell circuit is shown in Figure. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aa615bf8f0185dffc7a6edcc315d1302"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61208b205dc328b095ba8073413cff08",
+    "text": "It consists of a capacitor C and a transistor T.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aa615bf8f0185dffc7a6edcc315d1302"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9d3990770bdf607abfb23d37ab29e39d",
+    "text": "If sufficient charge is stored on the capacitor, it can be viewed as storing a logical 1, else a logical 0. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aa615bf8f0185dffc7a6edcc315d1302"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "04b015b615d754f60eb68877ee025a00",
+    "text": "The transistor acts much like a switch.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aa615bf8f0185dffc7a6edcc315d1302"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "bcdf524dd6db65b8a24f57e796ada8cc",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5a042cd95f9980e6f6e190de2228d020",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a1dee7d59503b44f4b20551109cce35d",
+    "text": "When the switch is \u201copen,\u201d the charge on the capacitor roughly remains fixed\u2014in other words, is stored. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5a042cd95f9980e6f6e190de2228d020"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9841bc194595bbdf5ca6ae4c318d47fb",
+    "text": "But when the switch is \u201cclosed,\u201d charge can flow into and out of the capacitor from the external Bit (B) line. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5a042cd95f9980e6f6e190de2228d020"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3b1284ce6bb6d71c254b2c0960065e3d",
+    "text": "This charge flow allows the cell to be written with a 1 or 0 and to be read.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5a042cd95f9980e6f6e190de2228d020"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "54d0c1bfe1a0d04149ba885536e6c687",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "56a391c37f8319263897923e16219082",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0587b6b52dc39808710c3c26c62116dc",
+    "text": "To reduce the time and power associated with moving charges from storage capacitor (Cs) to Bit-line capacitor (CBL), the CBL is charged to VDD/2.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "56a391c37f8319263897923e16219082"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e3a0d213ca62474d3bfbd0270cece43a",
+    "text": "If Vc> VDD/2 \uf0e0 Logic 1 was stored ,and vice versa.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "56a391c37f8319263897923e16219082"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "81c82ccd2b61566fa410b239f80f4e72",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "772e4b2118c6216b443e0406fdecaa94",
+    "text": "Destructive & Non Destructive Memory Readout",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c1f81e59a5bca7bd24a9c1919afe58ff",
+    "text": "Destructive>>A read operation that alters the contents of the accessed memory location and must be immediately followed by a rewriting of the contents in order to preserve them.\u00a0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "772e4b2118c6216b443e0406fdecaa94"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f66cf9583cfedb4834a7b10d5a0a54c6",
+    "text": "nondestructive >>If the data in a memory is not destroyed in the reading process, the system \u00a0has \u00a0nondestructive \u00a0readout. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "772e4b2118c6216b443e0406fdecaa94"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d108685a17edd77ff4109ad7ba7c8488",
+    "text": "A flip-flop is an example of nondestructive readout. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "772e4b2118c6216b443e0406fdecaa94"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "16ac64b4676c63b46a9480814a7e7bb0",
+    "text": "Sensing the output voltage (reading) from a given side of a flip-flop generally does not change the state of the flip-flop and the stored data is retained. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "772e4b2118c6216b443e0406fdecaa94"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9b1f94e453f89bbf5bd990908f6279f8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f1402bdaf316f871ea36acf8c47899aa",
+    "text": "Dynamic RAM - Bit Slice Model",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "199f2a2292095c10040f143bf2117609",
+    "text": "C is driven by Tri-state drivers",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "afcbb4894f547119868e39a88b97018c",
+    "text": "Sense amplifier is used to measure the minute change in voltage on the Bit-line. Converting from destructive to nondestructive",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f979be86c8cd754f1a2289101eba6599",
+    "text": "Rewrite after Reading.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "93f53d35118ca9d99d486abd593c6ea5",
+    "text": "Array of sense amplifiers acts as a temporary data storage (Row Buffer).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f979be86c8cd754f1a2289101eba6599"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "94bd51e3f45622e0327ee7201cd708df",
+    "text": "Word",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "50a051bcbfc1ed0e61d5eb56d8aaf2c3",
+    "text": "Select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "39e76fab3be186dbdb79ef7abd2e55fa",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "16f576c059973849f27fc08fce04884d",
+    "text": "0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "39e76fab3be186dbdb79ef7abd2e55fa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "364d83dbe8b83f420fbe9dd8f0ae79a4",
+    "text": "B",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2e08244480c514fcb55eea9a5bb90bf5",
+    "text": "C",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "75b57f6b46835b6a5ea9698bc4cf1b1d",
+    "text": "D",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "979ee5f6dd1736974b9a19da41f3f536",
+    "text": "Q",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3225c7fe312991837e819e6163412b56",
+    "text": "Word",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "417326f55cf2bbf3ec28b837f4e0f382",
+    "text": "C",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e0262e89851104107068cad4391a71b6",
+    "text": "DRAM cell",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "001d78eb605ec3bc54794f70d3b0bb80",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a6ad76cbdac2d45565611ee72aef1a01",
+    "text": "model",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4d6b279fdea1d13eee711c7f68406c70",
+    "text": "0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a6ad76cbdac2d45565611ee72aef1a01"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "41d6caeadfd1ba26b77286641bf70238",
+    "text": "DRAM cell",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bddddcb79a10558a968ce50724223ca1",
+    "text": "Word",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b0b737a85c53dc299641afdcd9a6938",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f574a9d662c26c1c750465bf562b4843",
+    "text": "1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b0b737a85c53dc299641afdcd9a6938"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "62d922b77a164d15466033959ade06a9",
+    "text": "Word",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "911159c32fcb4d7bd26fd834458db112",
+    "text": "DRAM cell",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7aa4589f444306410c6489695cf07cb9",
+    "text": "Select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "33255d43f1a66a0d5284df536c3725a2",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "27f466b7777a4b202dd990d7dda1bf95",
+    "text": "2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "33255d43f1a66a0d5284df536c3725a2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2afbad1b8a95f736f51f30dda024f0e6",
+    "text": "n",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5111fe12085cbccfd2d6942afd11aec4",
+    "text": " 1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2afbad1b8a95f736f51f30dda024f0e6"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1574878bc5cd094ad976c48c879c8fc9",
+    "text": "2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2afbad1b8a95f736f51f30dda024f0e6"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cb4cdcd3df5c117e73a60df315a84131",
+    "text": "Word",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "90328ee6c50ef89cd9fafb460f3d0c5f",
+    "text": "Q",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9ba7b2f5fb84590dec41c4be8cd6c2d6",
+    "text": "D",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f1f882db5c212da404e1da869d4e16fe",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1820e607529b585e5065cf3ba380499f",
+    "text": "n",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c4d4c6f903264b86f5b08cc827eb8fac",
+    "text": " 1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1820e607529b585e5065cf3ba380499f"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "e973be227f1a3b494f302dd482f0477d",
+    "text": "2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1820e607529b585e5065cf3ba380499f"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d07ddc5e3b680b0f6aa952476c21d766",
+    "text": "2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1820e607529b585e5065cf3ba380499f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6ffc44b301196547106f5345f3fe48b9",
+    "text": "C",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c930622641f5ced1f8d29c3457aef901",
+    "text": "DRAM cell",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d58780869c90d6b75f4c714f624faaa9",
+    "text": "DRAM cell",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0d6bd436ae8420b0161827a4a4b8a2d5",
+    "text": "model",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e1da2093ca02f1aad269bc682783f6f7",
+    "text": "Read/Write",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "501770c778e86e9a12d2bf2a08faca25",
+    "text": "logic",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12e85833ecfad0918a9b13fdf376f70d",
+    "text": "Data in",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4d4e37d2428631632d1cf18c8a997338",
+    "text": "Sense",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c7e2fb57f37abdf8898ed0450a52b3aa",
+    "text": "Data out",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "30c8d4d15211c35024a86aabd3fc0c3e",
+    "text": "amplifier",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16bc3c101afac0a5c498fbefa9ca313b",
+    "text": "Read/",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f95783e07d1a572a4bcf095ee141de89",
+    "text": "Bit",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a9b8b6278ab24679760e2d0ba36cb910",
+    "text": "Data in",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d41d67c79762932651104400022ebf88",
+    "text": "Write",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ea8fe38339423d380c76bc2f474551ed",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "532e2fe60dfb9c1dbd4da9cefc50a233",
+    "text": "(b) Symbol",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3e8e59df800ff006310bd200c4277964",
+    "text": "Write logic",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "372efebec165804cec779a375613d26c",
+    "text": "Data out",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b9633e5565aa77f58ecd20737d81313",
+    "text": "Read logic",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3f9ab46b91b8074b0300fcd8db2e8736",
+    "text": "Bit",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "210963d376c48709fea2c3173c875190",
+    "text": "Read/",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4157bbdfb03ef631a9b26da1ce1d9185",
+    "text": "select",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6d579f17553afb54d10ffc1ea5cabf66",
+    "text": "Write",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "413fe4f880b35f65cadb3f54262bab55",
+    "text": "(a) Logic diagram",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f1402bdaf316f871ea36acf8c47899aa"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "84d9a4003263c0e49a9b509641b790bb",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e6f49defba930f4297a706bdfd49433a",
+    "text": "Block Diagram of a DRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0111b5c9a660a8cfc077811d1eb30910",
+    "text": "Coincident selection is a mandatory in DRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f49defba930f4297a706bdfd49433a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "88c9e8b11ff77730ddd495789d336338",
+    "text": "One happens after the other not at the same time HOW",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f49defba930f4297a706bdfd49433a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b8c12861b1a2f8113057f292754dfb56",
+    "text": "row address first is used to select the row of cells to be read within the memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f49defba930f4297a706bdfd49433a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d06e975cd13b951ab3427599f614f658",
+    "text": "column address secondly is used to select the word to be placed on the output from the data read from the row of cells.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e6f49defba930f4297a706bdfd49433a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f9f73abf81dbb5b41d420cd0adcb92b1",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b8808bff6710b4a4f1652a8c1dd6bc9",
+    "text": "How to handle addressing in DRAMs",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f944d76dbd07f15b20f64905231052b2",
+    "text": "To reduce the number of pins, the DRAM address is split to roughly halve the large number of address pins on the typical RAM IC.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b8808bff6710b4a4f1652a8c1dd6bc9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e75c45957ecbbb46a0887e5670a014d9",
+    "text": "The row address first is used to select the row of cells to be read within the memory.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b8808bff6710b4a4f1652a8c1dd6bc9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5d7fc1e8daaa4ad30f929f3d0adcfc2d",
+    "text": "The column address secondly is used to select the word to be placed on the output from the data read from the row of cells.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b8808bff6710b4a4f1652a8c1dd6bc9"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a1721c9a654d0af563f185d72527b1ca",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "070fc1f1308e9c70fe45e06a4314fb98",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0ad4da81903f4a26385b9f2265f2d9f6",
+    "text": "This can be done since the row address, which performs the row selection, is actually needed before the column address, which reads out the data from the row selected.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "070fc1f1308e9c70fe45e06a4314fb98"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d17cbe9c97a91d984def205465697be3",
+    "text": "In order to hold the row address throughout the read or write cycle, it is stored in a register. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "070fc1f1308e9c70fe45e06a4314fb98"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7af8c66d6a700b036b4979c8630493b6",
+    "text": "The column address is also stored in a register.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "070fc1f1308e9c70fe45e06a4314fb98"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "3eb06e042fb45bc83401aca2181294d5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e202cdc8b5f51c1c0f4d5636f6abd7d4",
+    "text": "Control signals",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "79897f945f2b439914528755ce03d5ae",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e41b594c9ee09f59185ab7479c892ae0",
+    "text": "Handle Row Address",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "64a4efd7a7b925c16f39fcbed6cf8aec",
+    "text": "The row address is applied to the address inputs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e41b594c9ee09f59185ab7479c892ae0"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "dfcf526a4ad711324d7e9ebb8a7c282f",
+    "text": "RAS changes from 1 to 0,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e41b594c9ee09f59185ab7479c892ae0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0bce20d62827c3f0959838a327227e13",
+    "text": "loading the row address into the row address register. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e41b594c9ee09f59185ab7479c892ae0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5324b4d180262b8884372ec6b137a49f",
+    "text": "This address is applied to the row address decoder and selects a row of DRAM cells.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e41b594c9ee09f59185ab7479c892ae0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "76ba2f6cb3c71cc02b3374ffa10a9600",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "29628fc95e3abbf1fdba3dbe28da9f5a",
+    "text": "Handle Column Address",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "82d462f9d8ef145216251886aa2db3f7",
+    "text": "The column address is applied,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "29628fc95e3abbf1fdba3dbe28da9f5a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b5b96ceb4559d3f30d648a6ec19584a4",
+    "text": "Then CAS changes from 1 to 0, loading the column address into the \tcolumn address register. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "29628fc95e3abbf1fdba3dbe28da9f5a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b95b383b188c1cda4a51360d804859e2",
+    "text": "This address is applied to the column address decoder, which selects a set of columns of the RAM array of size equal to the number of RAM data bits.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "29628fc95e3abbf1fdba3dbe28da9f5a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a7ae6564cd4ec0d2405e280c00b97129",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5836518e95b177fa658be0f6e37062a6",
+    "text": "For Write Operation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1758c3fe381ab6468a881353f03f41b3",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a7f06d7dd79184e627976a8b9544ab88",
+    "text": "Store data into the row register??",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "52b172f0cdcdeb89f6247113b59eb906",
+    "text": "Store data into the col register??",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "63dbd1ec0d3edec1ba45a99e336a88da",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e9a5dd175fb9a423465dee42495550ef",
+    "text": "For READ Operation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1b1b5d514157bd1a43a2515c37fa82d2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "081b40ecc1621e12de77a8c665542e44",
+    "text": "Dynamic RAM Read Timing ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0cc0f8e30fb07d9a98a56b5a876df5d0",
+    "text": "20 ns",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a6b0fe84cc2af0d41ff5d905372068e0",
+    "text": "Clock",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e921ca790881444eb666e71ba55b7bba",
+    "text": "T1",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e5da8204ac0047eb80ece896c545910a",
+    "text": "T2",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ed7d8b5ccbad438492328d2c42faa600",
+    "text": "T3",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1fc652d108699eeb40b1a72913beed42",
+    "text": "T4",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "be2515c2492966d15eeff28b40f98bd6",
+    "text": "T1",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "49f379280a75f72cbbf73ce9872a180d",
+    "text": "Column",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8f539e89d43275ebc24ec98319f92bd7",
+    "text": "Row",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c20359a1833bb99e09665888ea2c18c7",
+    "text": "Address",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7276daa720e34b2277576d99aeec6569",
+    "text": "Address",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ad2ae8e063cf404d965c5e110a3d2e50",
+    "text": "Address",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "937160eb3ba432611d390a1185e1e9b2",
+    "text": "RAS",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3964d8cb57c512cbec143f1aaf519d2d",
+    "text": "CAS",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1ada094e5b58dc90df08401773fefcec",
+    "text": "Output",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "537ca6b5be5f81a1c8bdf20e550449c3",
+    "text": "enable",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ae85ef9effe978d65d788a47d491b994",
+    "text": "Read/",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "358dc14cbef36b32ee27b030f4c73577",
+    "text": "Write",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "206d78e4009604c54ba44fb192a316c3",
+    "text": "Data",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a81aad3ccc77486a1151946c95f4d4a5",
+    "text": "Hi-Z",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "46f8ad5f3f993281d37ec0edf58ade9a",
+    "text": "Data valid",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b23b541e96911c6c9cbc0f601c7358e5",
+    "text": "output",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9c7f81aceef2fcf56e7a5a95f8beb201",
+    "text": "65 ns",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e1a6ffc5f956c4a8c11274933d494ebb",
+    "text": "Read cycle",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "081b40ecc1621e12de77a8c665542e44"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "27a5721b16e61078a4f43d50e65da0d6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d735dfee5e8a860fcc0d7ed7f97734a7",
+    "text": "Memory Refresh",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1ef70a0a1050a8c7e1695a51e9eeee24",
+    "text": "Is the process of periodically reading information from an area of computer memory and immediately rewriting it to the same area without modification.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d735dfee5e8a860fcc0d7ed7f97734a7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "54d0679d6270826f527c22dc98e76b23",
+    "text": "Each memory refresh cycle refreshes a succeeding area of memory cells, and repeatedly refreshing all the cells in a consecutive cycles.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d735dfee5e8a860fcc0d7ed7f97734a7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a987ce785885e4ce3c215f9b09fa85c5",
+    "text": "The refreshment process is conducted automatically.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d735dfee5e8a860fcc0d7ed7f97734a7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f78e342d56d9d3e0eaaeab1f0ed9bd60",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d45782c7525da51c623580bbafd47af7",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "08313fb81c687cb32c37ee6ead922773",
+    "text": "While a refresh cycle is occurring, the memory is not available for normal READ & WRITE operations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d45782c7525da51c623580bbafd47af7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "621f7da325b400117580892d2b5e2561",
+    "text": "In modern memories, this overhead time is not large enough.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d45782c7525da51c623580bbafd47af7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9cf0ee83983e5c3fbb6b3521b1377671",
+    "text": "Conclusion: each memory cell must be refreshed repetitively within a maximum interval between refreshes specified by the manufacture.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d45782c7525da51c623580bbafd47af7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d83752f930d9b6e0ca8dbb015dd7f255",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ed3ec44d0663b1f5929fea7916996e30",
+    "text": "Block Diagram of a DRAM Including Refresh Logic",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "88b35cc004c24b376ee020bf5e5669b2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e03c8cfe06947b24b21db3a035a8af1e",
+    "text": "How Refresh Works?",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "98e5fd3432c976e2fc2b7c3b8dcde8e8",
+    "text": "1- Refresh cycles are generated by refresh counter( either a refresh counter; as a part of the memory or external counter as a part of DRAM controller), which contains the address of the row to be refreshed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e03c8cfe06947b24b21db3a035a8af1e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4a6e657498ee681a95c980c59f2ca32f",
+    "text": "2- The row address is applied to the row address lines.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e03c8cfe06947b24b21db3a035a8af1e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4c06ffb1a8de610ed4236e0ad79754d3",
+    "text": "3- The refresh cycle can be triggered by one of the following ways: RAS-only refresh, CAS-before-RAS refresh, or Hidden refresh.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e03c8cfe06947b24b21db3a035a8af1e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "bf2218a0eb9f02e71e5d45ec64ba703c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7d8042f7ef4715d869cc4c306040895a",
+    "text": "The standard triggering ways",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38d74bae167231229afdc9d68951e5f4",
+    "text": "RAS-only refresh. A row address is placed on the address lines and RAS is changed to 0. In this case, the refresh addresses must be applied from outside the DRAM chip, typically by an IC called a DRAM controller.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7d8042f7ef4715d869cc4c306040895a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "058f7c44fb9a7d83d0781fccdd945e60",
+    "text": "CAS-before-RAS refresh. The CAS is changed from 1 to 0 followed by a change from 1 to 0 on RAS. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7d8042f7ef4715d869cc4c306040895a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8975d5f41ef43d21e933ae6da0e52739",
+    "text": "It appears as an illegal operation. In this  case, the incoming external row address will be discard , and the memory will use its internal refresh counter. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7d8042f7ef4715d869cc4c306040895a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d1abd194bb70b837df51d6e66328460",
+    "text": "Additional refresh cycles can be performed by changing RAS by the internal counter without changing CAS. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7d8042f7ef4715d869cc4c306040895a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "bd12a9a7272f1d325288b84acc469823",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5932dc09d970d9c5fe6d76d748481164",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61c8df42f162626dad5afc0b35caeb2d",
+    "text": "Hidden refresh. Following a normal read or write, CAS is left at 0 and RAS is cycled, effectively performing a CAS-before-RAS refresh. During a hidden refresh, the output data from the prior read remains valid. Thus, the refresh is hidden. Unfortunately, the time taken by the hidden refresh is significant, so a subsequent read or write operation is delayed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5932dc09d970d9c5fe6d76d748481164"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b936fe288da49b779bcbf6cd95868e31",
+    "text": "In all cases, note that the initiation of a refresh is controlled externally by using the RAS and CAS signals.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5932dc09d970d9c5fe6d76d748481164"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9ec7020e5b40193812ab43c4ca65aaae",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "61387f92026f5e3d123c0b3b5cfe2b27",
+    "text": "Refreshing Types",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "26d3bb18eb43b0c912953c061c2d108c",
+    "text": "Refreshes may be performed at evenly spaced points in time, an approach called distributed refresh.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61387f92026f5e3d123c0b3b5cfe2b27"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ba5a5923c719dc6326d1c2ff3b77bbec",
+    "text": "Alternatively, all refreshes may be performed one after the other, an approach called burst refresh",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "61387f92026f5e3d123c0b3b5cfe2b27"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "2f88c3cf29e21202f194cf0528e91c93",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "edeacce370cab9049e37557d6eab44ef",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "de6bea3edf9929f02bef2039c5adbd28",
+    "text": " A 4M \u00d7 4 DRAM has a refresh time of 64 ms and the length of time to perform a single refresh per row is 60 ns?",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "edeacce370cab9049e37557d6eab44ef"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5e7ede3c712d81d9158067870be8dbe4",
+    "text": "What is the refreshment time in case of distributed or burst refreshment.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "edeacce370cab9049e37557d6eab44ef"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d5f1b46e08af1c4e3d8256e5144862be",
+    "text": "What is the time for Read & Write.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "edeacce370cab9049e37557d6eab44ef"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d13467b4f20d78bacc3b63ff10b18f19",
+    "text": "Solution:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "edeacce370cab9049e37557d6eab44ef"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f09b247222d2db97d003b14fbb518f0f",
+    "text": "- no. of rows =  4096 rows to be refreshed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d13467b4f20d78bacc3b63ff10b18f19"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8bfa6dc8181eaca9341ee01722c92442",
+    "text": "A- Burst Refreshment:\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "edeacce370cab9049e37557d6eab44ef"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f75b3831a23dc020946ca0377c660410",
+    "text": "- A total time out for refresh = 4096 x 60 ns = 0.25 ms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8bfa6dc8181eaca9341ee01722c92442"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7afe6aae106fe774c010ee5d83b42cef",
+    "text": "- The rest time for R/W = 64ms \u2013 0.25 ms = 63.75 ms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8bfa6dc8181eaca9341ee01722c92442"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "32dc5046b6fe55b27b434ed061db2f48",
+    "text": "The DRAM controller must initiate 4096 refreshes sequentially every 64 ms for burst refresh.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8bfa6dc8181eaca9341ee01722c92442"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "884b8e262d7769ef7abb2a202e6e7465",
+    "text": "4M \u00d7 4  = 2^24 >>sqr(ANS)>>/2>> rows",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8bfa6dc8181eaca9341ee01722c92442"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "aa67c02ae41d3eee8b711e62580e7107",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "92bf9a0978b5e98a7add56547ffbe78e",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e7d0df01d94323f6d62b6e8eed36fcd5",
+    "text": "B- Distributed Refreshment",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "92bf9a0978b5e98a7add56547ffbe78e"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c28be5b15a88b1a86b4cb90c4956f0b8",
+    "text": "the refresh interval for distributed refresh = 64 ms/4096 = 15.6 microseconds (\u03bcs).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7d0df01d94323f6d62b6e8eed36fcd5"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9c8bd39a74f2c83315b085ff4801ceb2",
+    "text": "Time R/W = 15.6 \u03bcs \u2013 60 ns",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7d0df01d94323f6d62b6e8eed36fcd5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bfcf3bb65d995964c0110299d70eab87",
+    "text": "- The DRAM controller must initiate a refresh every 15.6 \u03bcs for \tdistributed refresh ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7d0df01d94323f6d62b6e8eed36fcd5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a48926ffdc25f1022eafb69f4e66c626",
+    "text": "Since use of burst refresh would halt computer operation for a fairly long period, distributed refresh is more commonly used.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7d0df01d94323f6d62b6e8eed36fcd5"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5fcc94634f31d8f07daec099fa711d32",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6504a4a2c16837ae6490e64e2a3f5ca0",
+    "text": "Assignment",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "05036a37803b4c7eda7f73d54061bee5",
+    "text": "The refresh cycle is similar to READ cycle, but executing faster, Why?",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6504a4a2c16837ae6490e64e2a3f5ca0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1b8cb4e4c7e03c3a04a63983f8829519",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f7e5c049d9d844237c78d5303731694a",
+    "text": "Sheet",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b43eb28d4516c046dcf5010697ac6b7e",
+    "text": "Text book",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 3.pptx",
+      "last_modified": "2024-11-14T23:44:31",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f7e5c049d9d844237c78d5303731694a"
+    }
+  }
+]

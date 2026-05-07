@@ -1,0 +1,6794 @@
+[
+  {
+    "type": "Title",
+    "element_id": "188ba6cfa071be43f6a412af1d1b1f38",
+    "text": "CHAPTER 5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            366.82,
+            156.16160000000002
+          ],
+          [
+            366.82,
+            196.1216
+          ],
+          [
+            593.23336,
+            196.1216
+          ],
+          [
+            593.23336,
+            156.16160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0fc487aa56234c6e556c068f18ebd27d",
+    "text": "Signal Encoding Techniques",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            152.93,
+            305.57
+          ],
+          [
+            152.93,
+            353.57000000000005
+          ],
+          [
+            805.9219999999997,
+            353.57000000000005
+          ],
+          [
+            805.9219999999997,
+            305.57
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "654eb97e5e67483ae690ce9edaf2035d",
+    "text": "\u201cThus one says, in general, that the function of the transmitter is to encode, and that of the receiver to decode, the message. The theory provides for for example, as very sophisticated transmitters and receivers\u2014such, possess \u2018memories,\u2019 so that the way they encode a certain symbol of the message depends not only upon this one symbol but also upon previous symbols of the message and the way they have been encoded.\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            71.33936
+          ],
+          [
+            43.2,
+            250.52936
+          ],
+          [
+            892.94304,
+            250.52936
+          ],
+          [
+            892.94304,
+            71.33936
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 2,
+      "parent_id": "0fc487aa56234c6e556c068f18ebd27d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "219865b1d5deb1da6c8d280b8d62f10c",
+    "text": "\u2014The Mathematics of Communication, Scientific American, July 1949, Warren Weaver",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            445.97,
+            303.10936000000004
+          ],
+          [
+            445.97,
+            421.073584
+          ],
+          [
+            892.887448,
+            421.073584
+          ],
+          [
+            892.887448,
+            303.10936000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "344279a08982d845fbf7d27c93d217c5",
+    "text": "Encoder",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646398765,
+            17.998367194679986
+          ],
+          [
+            161.99998646398765,
+            492.306
+          ],
+          [
+            810.0246969,
+            492.306
+          ],
+          [
+            810.0246969,
+            17.998367194679986
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4df8a2e02863f0c231ec353bd62f3c42",
+    "text": "Decoder(a) Encoding onto a digital signalx(t)x(t)tg(t)g(t)digital oranalog",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646398765,
+            17.998367194679986
+          ],
+          [
+            161.99998646398765,
+            492.306
+          ],
+          [
+            810.0246969,
+            492.306
+          ],
+          [
+            810.0246969,
+            17.998367194679986
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "22612e5565db74b45fc88412cfe2fd38",
+    "text": "Modulator",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646398765,
+            17.998367194679986
+          ],
+          [
+            161.99998646398765,
+            492.306
+          ],
+          [
+            810.0246969,
+            492.306
+          ],
+          [
+            810.0246969,
+            17.998367194679986
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d8be9d42026341cd80f54893c23b3ff7",
+    "text": "Demodulator(b) Modulation onto an analog signalFigure 5.1 Encoding and Modulation Techniquess(t)fc(t)carrieranalogdigitalS(f)ffcm(t)m(t)digital oranalog",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.99998646398765,
+            17.998367194679986
+          ],
+          [
+            161.99998646398765,
+            492.306
+          ],
+          [
+            810.0246969,
+            492.306
+          ],
+          [
+            810.0246969,
+            17.998367194679986
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a11bd87837881720bf446e269e40099",
+    "text": "Digital data, digital signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            251.09,
+            112.30999999999995
+          ],
+          [
+            251.09,
+            153.34999999999997
+          ],
+          [
+            665.8812800000001,
+            153.34999999999997
+          ],
+          [
+            665.8812800000001,
+            112.30999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "992532abfe9a17f1cd5a1dc5c7a1a0bd",
+    "text": "Digital data, analog signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            286.8,
+            205.74
+          ],
+          [
+            286.8,
+            246.77999999999997
+          ],
+          [
+            710.7432000000001,
+            246.77999999999997
+          ],
+          [
+            710.7432000000001,
+            205.74
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 4,
+      "parent_id": "8a11bd87837881720bf446e269e40099",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d9b828ec533745c33b46d8a125671e2a",
+    "text": "Analog data, digital signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            286.8,
+            299.16999999999996
+          ],
+          [
+            286.8,
+            340.21
+          ],
+          [
+            711.1536000000001,
+            340.21
+          ],
+          [
+            711.1536000000001,
+            299.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9170f4689914f8e9216d4821da410b4c",
+    "text": "Analog data, analog signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            251.09,
+            392.582
+          ],
+          [
+            251.09,
+            433.646
+          ],
+          [
+            684.72584,
+            433.646
+          ],
+          [
+            684.72584,
+            392.582
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 4,
+      "parent_id": "d9b828ec533745c33b46d8a125671e2a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "547c02b2dccebd772d700056809af29d",
+    "text": "Digital Data, Digital Signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            260.02,
+            60.02199999999999
+          ],
+          [
+            260.02,
+            104.08600000000001
+          ],
+          [
+            699.9990399999998,
+            104.08600000000001
+          ],
+          [
+            699.9990399999998,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d857344deec8e58c6a0c9afcae557945",
+    "text": "\u27a2Digital signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            167.34092000000004
+          ],
+          [
+            73.2,
+            203.76118400000001
+          ],
+          [
+            296.897912,
+            203.76118400000001
+          ],
+          [
+            296.897912,
+            167.34092000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "470c45f7111d3fb8d0189e0367fd5248",
+    "text": "Sequence of discrete voltage pulses",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            235.1384
+          ],
+          [
+            109.22,
+            267.37064
+          ],
+          [
+            582.5083999999998,
+            267.37064
+          ],
+          [
+            582.5083999999998,
+            235.1384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "parent_id": "d857344deec8e58c6a0c9afcae557945",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "24e70c7fb84dbe29af99afcc9a2fc73d",
+    "text": "Each pulse is a signal element",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            297.63944000000004
+          ],
+          [
+            109.22,
+            329.895824
+          ],
+          [
+            512.5330880000001,
+            329.895824
+          ],
+          [
+            512.5330880000001,
+            297.63944000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "parent_id": "d857344deec8e58c6a0c9afcae557945",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5d64a03ad2f38631c50961cc55df289a",
+    "text": "\u27a2Binary data are transmitted by encoding each data bit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            367.45
+          ],
+          [
+            73.2,
+            403.846
+          ],
+          [
+            878.7440000000003,
+            403.846
+          ],
+          [
+            878.7440000000003,
+            367.45
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "parent_id": "d857344deec8e58c6a0c9afcae557945",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7ec64a1be700c667870ec0d9a2d610c0",
+    "text": "into signal elements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            91.224,
+            432.629184
+          ],
+          [
+            91.224,
+            468.653184
+          ],
+          [
+            379.01973599999997,
+            468.653184
+          ],
+          [
+            379.01973599999997,
+            432.629184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b51ca2184edcfb03f7eb667d5247af9",
+    "text": "Line coding and decoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            260.14,
+            53.799999999999955
+          ],
+          [
+            260.14,
+            97.83999999999997
+          ],
+          [
+            700.3198000000001,
+            97.83999999999997
+          ],
+          [
+            700.3198000000001,
+            53.799999999999955
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "52622540668b17036bd6c9dd7740539a",
+    "text": "Converting a digital data of 1\u2019s and 0\u2019s into a sequence of signals (voltage level (+V) and a low voltage level (0 or -V)).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            125.11000000000001
+          ],
+          [
+            73.2,
+            195.55
+          ],
+          [
+            912.04104,
+            195.55
+          ],
+          [
+            912.04104,
+            125.11000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 6,
+      "parent_id": "2b51ca2184edcfb03f7eb667d5247af9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c07f0f95b53aef9a8b0a25554fb5c713",
+    "text": "Key Data Transmission Terms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            231.07,
+            53.75
+          ],
+          [
+            231.07,
+            97.78999999999996
+          ],
+          [
+            729.1624000000002,
+            97.78999999999996
+          ],
+          [
+            729.1624000000002,
+            53.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "85120223e75aa7c1815e6fa9462a6ed9",
+    "text": "Analog: a pulse of constant",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f264f7ce4580a2972f2186b9ff6134e0",
+    "text": "(baud)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "72b4b5552b096a5728b8ca839accb1e7",
+    "text": "Digital: a voltage pulse of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3ecf0a3d70f319ab498c1ff1e00f77ff",
+    "text": "That part of a signal that",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "23008d82415353b61429f339027aaa79",
+    "text": "Term",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "00e1133e74260fc44c0adda1ff369363",
+    "text": "occupies the shortest interval",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "parent_id": "23008d82415353b61429f339027aaa79",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a57f561dc22f70bdd804a4687c69cf59",
+    "text": "Signal element",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "011982827845f371bc1f01b0e4843020",
+    "text": "elements are transmitted",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "parent_id": "a57f561dc22f70bdd804a4687c69cf59",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d9496afc7cecc4f8ffae72fc89ad6820",
+    "text": "frequency, phase, and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c681f8e33da6d2436e7bc993bc36f421",
+    "text": "Signal elements per second",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "accd71e3daba0a52e39a2c8a30583b94",
+    "text": "modulation rate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "15e1aa06bf5da28b930ed631ee387ba2",
+    "text": "Data rate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f4d6f053718defc6091534db032f25b8",
+    "text": "The rate at which signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1e94ebf286aa1d3114f6f3fc64d1df88",
+    "text": "of a signaling code",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "23e67505e4adec61a8caa15dddc5e655",
+    "text": "Data element",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "23c93f8f95c959782b15dcd7dae46c7d",
+    "text": "constant amplitude",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4c5bd6be686c77fa3e86563a221fb643",
+    "text": "Definition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dc13897789ca9d428a37473f501e28c8",
+    "text": "amplitude",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2aacf05ea356e2bf8d215bbbee88a0a2",
+    "text": "Signaling rate or",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "parent_id": "dc13897789ca9d428a37473f501e28c8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7ca61c3b630ebc917b27e2099b029f8c",
+    "text": "Bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0332e8c7a485b0b669fa45aa8f8d61c6",
+    "text": "Units",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "87a9b2707bc3129f4fb0dc23d7e90c6e",
+    "text": "The rate at which data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf15bf6600b1e9fa26abba2e43b10293",
+    "text": "Bits per second (bps)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ded6800f525cfe255103fbfc319c355b",
+    "text": "A single binary one or zero",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1928b01193bc7c9367076b0c471f5f3b",
+    "text": "elements are transmitted",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.99999661601255,
+            120.00178354060006
+          ],
+          [
+            53.99999661601255,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            493.09000000000003
+          ],
+          [
+            919.7204537375999,
+            120.00178354060006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 7,
+      "parent_id": "ded6800f525cfe255103fbfc319c355b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+    "text": "Relationship between data rate and signal rate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            60.792,
+            54.47000000000003
+          ],
+          [
+            60.792,
+            98.50999999999999
+          ],
+          [
+            863.5090800000003,
+            98.50999999999999
+          ],
+          [
+            863.5090800000003,
+            54.47000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f44a1d05a448ed11cd88572d4a5e8c11",
+    "text": "The data rate defines the number of bits sent per sec - bps. \u2022 The signal rate is the number of signal elements sent in a second and is measured in bauds.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            149.40944000000002
+          ],
+          [
+            73.2,
+            260.77064
+          ],
+          [
+            845.413024,
+            260.77064
+          ],
+          [
+            845.413024,
+            149.40944000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 8,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9a93f1f4a3192ed7ee59c43fb426d1ae",
+    "text": "Bit rate = (number of bits per pulse) x (baud rate)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            317.7184
+          ],
+          [
+            73.2,
+            349.95064
+          ],
+          [
+            724.1741999999999,
+            349.95064
+          ],
+          [
+            724.1741999999999,
+            317.7184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 8,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "04998d141d2752a7d592e8644e858a1d",
+    "text": "Mapping Data symbols onto Signal levels",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            136.75,
+            54.289999999999964
+          ],
+          [
+            136.75,
+            94.25
+          ],
+          [
+            775.3108,
+            94.25
+          ],
+          [
+            775.3108,
+            54.289999999999964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "877a969d0d401a47f97fcf9407b0899f",
+    "text": "A data symbol (or element) can consist of a number of data bits:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.992,
+            137.15264000000002
+          ],
+          [
+            79.992,
+            165.30454399999996
+          ],
+          [
+            822.5817119999997,
+            165.30454399999996
+          ],
+          [
+            822.5817119999997,
+            137.15264000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "53f688ff4bcb04fa456f29e886ad286c",
+    "text": "1 , 0 or \u2022 11, 10, 01, \u2026\u2026",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.99,
+            172.25
+          ],
+          [
+            115.99,
+            227.23400000000004
+          ],
+          [
+            289.15,
+            227.23400000000004
+          ],
+          [
+            289.15,
+            172.25
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bec781e18b47cde7da746a721a4997da",
+    "text": "A data symbol can be coded into a single signal element or multiple signal elements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.992,
+            239.32160000000005
+          ],
+          [
+            79.992,
+            297.694544
+          ],
+          [
+            862.47432,
+            297.694544
+          ],
+          [
+            862.47432,
+            239.32160000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4fd8158178241909730a154564f56e1f",
+    "text": "1 -> +V, 0 -> -V \u2022 1 -> +V and -V, 0 -> -V and +V",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.99,
+            304.51
+          ],
+          [
+            115.99,
+            359.61400000000003
+          ],
+          [
+            438.79599999999994,
+            359.61400000000003
+          ],
+          [
+            438.79599999999994,
+            304.51
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "224cbca8f966ea696b9faafb8ec25e67",
+    "text": "The ratio \u2018r\u2019 is the number of data elements carried by a signal element.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.992,
+            371.7016
+          ],
+          [
+            79.992,
+            399.82935999999995
+          ],
+          [
+            898.0394399999999,
+            399.82935999999995
+          ],
+          [
+            898.0394399999999,
+            371.7016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 9,
+      "parent_id": "2b9ad8c2a2d3e5959e2bd3a7621bab73",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3232399297dd4dc58a30ade169e80561",
+    "text": "Signal element versus data element",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            170.72935999999999
+          ],
+          [
+            49.2,
+            299.494544
+          ],
+          [
+            186.00828,
+            299.494544
+          ],
+          [
+            186.00828,
+            170.72935999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4dce3e60c85cc4090698c8c724c32ccd",
+    "text": "Definition of Digital Signal Encoding Formats",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            709.7,
+            195.67999999999995
+          ],
+          [
+            709.7,
+            314.38
+          ],
+          [
+            856.74164,
+            314.38
+          ],
+          [
+            856.74164,
+            195.67999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dff0b8b0de92a93f3cc6777378482a9a",
+    "text": "0NRZ-LNRZIBipolar-AMI(most recentpreceding 1 bit hasnegative voltage)Pseudoternary(most recentpreceding 0 bit hasnegative voltage)ManchesterDifferentialManchesterFigure 5.2 Digital Signal Encoding Formats1001100011",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            167.99998646443467,
+            16.169702605600037
+          ],
+          [
+            167.99998646443467,
+            523.847
+          ],
+          [
+            810.0240033807601,
+            523.847
+          ],
+          [
+            810.0240033807601,
+            16.169702605600037
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 12,
+      "parent_id": "4dce3e60c85cc4090698c8c724c32ccd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c124e39008fbaa18f0e830eae07ba9a6",
+    "text": "Nonreturn to Zero",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            322.42,
+            60.02199999999999
+          ],
+          [
+            322.42,
+            104.08600000000001
+          ],
+          [
+            637.874176,
+            104.08600000000001
+          ],
+          [
+            637.874176,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c8df23c9969de50636eb50eefc8d8f44",
+    "text": "\u27a2Voltage level is constant during a bit interval",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            131.24912
+          ],
+          [
+            49.2,
+            163.665824
+          ],
+          [
+            647.567808,
+            163.665824
+          ],
+          [
+            647.567808,
+            131.24912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "763999bbcc94c5f1d3fcc7f3c946f746",
+    "text": "No return to a zero-voltage level \u2022 Negative voltage represents 1 and a positive voltage represents 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.2,
+            170.8016
+          ],
+          [
+            85.2,
+            234.20936
+          ],
+          [
+            827.3560400000001,
+            234.20936
+          ],
+          [
+            827.3560400000001,
+            170.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f660c0fb5fbabc966705c5fde8e1e66f",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            253.42,
+            275.98
+          ],
+          [
+            253.42,
+            287.02
+          ],
+          [
+            259.01727999999997,
+            287.02
+          ],
+          [
+            259.01727999999997,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4e8a018925f7ddf6369320713f009659",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            313.27,
+            275.98
+          ],
+          [
+            313.27,
+            287.02
+          ],
+          [
+            318.86728,
+            287.02
+          ],
+          [
+            318.86728,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "203e2dc418c05408cdc15bc85ad222c4",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            373.13,
+            275.98
+          ],
+          [
+            373.13,
+            287.02
+          ],
+          [
+            378.72728,
+            287.02
+          ],
+          [
+            378.72728,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ac5c654c2032d283151cb2effbe14a71",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            432.98,
+            275.98
+          ],
+          [
+            432.98,
+            287.02
+          ],
+          [
+            438.57728000000003,
+            287.02
+          ],
+          [
+            438.57728000000003,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a74a1175e14fd4d573d8a73f32377779",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            492.84,
+            275.98
+          ],
+          [
+            492.84,
+            287.02
+          ],
+          [
+            498.43728,
+            287.02
+          ],
+          [
+            498.43728,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d491d56c06d43184f81984416a6dc185",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            552.7,
+            275.98
+          ],
+          [
+            552.7,
+            287.02
+          ],
+          [
+            558.29728,
+            287.02
+          ],
+          [
+            558.29728,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4f79647b7a8a25b123bfebc4c01243aa",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            612.55,
+            275.98
+          ],
+          [
+            612.55,
+            287.02
+          ],
+          [
+            618.1472799999999,
+            287.02
+          ],
+          [
+            618.1472799999999,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2cf191e101147a866f878f359b913fa2",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            672.41,
+            275.98
+          ],
+          [
+            672.41,
+            287.02
+          ],
+          [
+            678.0072799999999,
+            287.02
+          ],
+          [
+            678.0072799999999,
+            275.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 13,
+      "parent_id": "c124e39008fbaa18f0e830eae07ba9a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f9f9173d21aab169ef065aca46d90d51",
+    "text": "Nonreturn to Zero",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            322.42,
+            60.02199999999999
+          ],
+          [
+            322.42,
+            104.08600000000001
+          ],
+          [
+            637.874176,
+            104.08600000000001
+          ],
+          [
+            637.874176,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "184fd7e5f6c5a82dbae3434dff1a7a68",
+    "text": "\u27a2Voltage level is constant during a bit interval",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            131.24912
+          ],
+          [
+            67.2,
+            163.665824
+          ],
+          [
+            665.5597439999999,
+            163.665824
+          ],
+          [
+            665.5597439999999,
+            131.24912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 14,
+      "parent_id": "f9f9173d21aab169ef065aca46d90d51",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "07e2d1489d5e8da38c79a3d0a4da8591",
+    "text": "No return to a zero-voltage level \u2022 Negative voltage represents 1 and a positive voltage represents 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            170.8016
+          ],
+          [
+            103.22,
+            234.20936
+          ],
+          [
+            845.3560400000001,
+            234.20936
+          ],
+          [
+            845.3560400000001,
+            170.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 14,
+      "parent_id": "f9f9173d21aab169ef065aca46d90d51",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f3681f0039196740e568ab8375c2b907",
+    "text": "Non-return to Zero Inverted (NRZI)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            180.43,
+            60.02199999999999
+          ],
+          [
+            180.43,
+            104.08600000000001
+          ],
+          [
+            779.813728,
+            104.08600000000001
+          ],
+          [
+            779.813728,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "99c4e0fff7c64e9828b0e65d37162468",
+    "text": "\u27a2Non-return to zero, invert on ones",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            143.6082
+          ],
+          [
+            97.224,
+            176.00063999999998
+          ],
+          [
+            558.0573199999999,
+            176.00063999999998
+          ],
+          [
+            558.0573199999999,
+            143.6082
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9c900f6910d4300e10b040e5523f838a",
+    "text": "Transition (low to high, high to low) denotes binary 1 \u2022 No transition denotes binary 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.22,
+            183.1116
+          ],
+          [
+            133.22,
+            246.51936
+          ],
+          [
+            751.4652800000003,
+            246.51936
+          ],
+          [
+            751.4652800000003,
+            183.1116
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f7fc51218d4be946e77a2aea518e90d0",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            267.67,
+            284.33000000000004
+          ],
+          [
+            267.67,
+            295.37
+          ],
+          [
+            273.26728,
+            295.37
+          ],
+          [
+            273.26728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3fc1831f32ccccfac76fb9f00b86f233",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            327.53,
+            284.33000000000004
+          ],
+          [
+            327.53,
+            295.37
+          ],
+          [
+            333.12728,
+            295.37
+          ],
+          [
+            333.12728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "664fd36a73c67c78847cc314abb0493d",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            387.38,
+            284.33000000000004
+          ],
+          [
+            387.38,
+            295.37
+          ],
+          [
+            392.97728,
+            295.37
+          ],
+          [
+            392.97728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1812f32790509dc69b9fc482603289be",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            447.24,
+            284.33000000000004
+          ],
+          [
+            447.24,
+            295.37
+          ],
+          [
+            452.83728,
+            295.37
+          ],
+          [
+            452.83728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a707c425a6188489aab38a7a84c8a38c",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            507.1,
+            284.33000000000004
+          ],
+          [
+            507.1,
+            295.37
+          ],
+          [
+            512.69728,
+            295.37
+          ],
+          [
+            512.69728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2739375cd245cae3c5c25e7c759cd163",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            566.95,
+            284.33000000000004
+          ],
+          [
+            566.95,
+            295.37
+          ],
+          [
+            572.54728,
+            295.37
+          ],
+          [
+            572.54728,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9eed8cee3b45f7bead8af728bbd30de4",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            626.81,
+            284.33000000000004
+          ],
+          [
+            626.81,
+            295.37
+          ],
+          [
+            632.4072799999999,
+            295.37
+          ],
+          [
+            632.4072799999999,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5875062385067881224621c5bae4e00c",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            686.66,
+            284.33000000000004
+          ],
+          [
+            686.66,
+            295.37
+          ],
+          [
+            692.2572799999999,
+            295.37
+          ],
+          [
+            692.2572799999999,
+            284.33000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 15,
+      "parent_id": "99c4e0fff7c64e9828b0e65d37162468",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "75f868531cb725b8630922f389cd7b26",
+    "text": "Non-return to Zero Inverted (NRZI)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            180.43,
+            60.02199999999999
+          ],
+          [
+            180.43,
+            104.08600000000001
+          ],
+          [
+            779.813728,
+            104.08600000000001
+          ],
+          [
+            779.813728,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2002139729ff33b0f55ad42baa9fa217",
+    "text": "\u27a2Non-return to zero, invert on ones",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            84.432,
+            125.24912
+          ],
+          [
+            84.432,
+            157.665824
+          ],
+          [
+            545.4458559999999,
+            157.665824
+          ],
+          [
+            545.4458559999999,
+            125.24912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2bbcfe5d57164d16ed1edae31b2114fb",
+    "text": "Transition (low to high, high to low) denotes binary 1 \u2022 No transition denotes binary 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            120.43,
+            164.8016
+          ],
+          [
+            120.43,
+            228.20936
+          ],
+          [
+            738.7052800000004,
+            228.20936
+          ],
+          [
+            738.7052800000004,
+            164.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 16,
+      "parent_id": "2002139729ff33b0f55ad42baa9fa217",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+    "text": "Multilevel Binary: Bipolar-AMI",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            220.03,
+            60.02199999999999
+          ],
+          [
+            220.03,
+            104.08600000000001
+          ],
+          [
+            740.144,
+            104.08600000000001
+          ],
+          [
+            740.144,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f09880db78a4022dab767a3c0b567b67",
+    "text": "Binary 0 represented by no line signal \u2022 Binary 1 represented by positive or negative pulse \u2022 Binary 1 pulses alternate in polarity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            121.22,
+            137.40944000000002
+          ],
+          [
+            121.22,
+            248.77064000000001
+          ],
+          [
+            782.03852,
+            248.77064000000001
+          ],
+          [
+            782.03852,
+            137.40944000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4f3107c545541df131563c65479e20c3",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.61,
+            303.58000000000004
+          ],
+          [
+            277.61,
+            314.62
+          ],
+          [
+            283.20728,
+            314.62
+          ],
+          [
+            283.20728,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1ce7ec7358b89a02e3153dc41bdf56c2",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            357.17,
+            303.58000000000004
+          ],
+          [
+            357.17,
+            314.62
+          ],
+          [
+            362.76728,
+            314.62
+          ],
+          [
+            362.76728,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5000fd64c431c608c4e5139badb9066c",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            436.73,
+            303.58000000000004
+          ],
+          [
+            436.73,
+            314.62
+          ],
+          [
+            442.32728000000003,
+            314.62
+          ],
+          [
+            442.32728000000003,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4e35ebf803d48978859d285f3a273aa8",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            516.31,
+            303.58000000000004
+          ],
+          [
+            516.31,
+            314.62
+          ],
+          [
+            521.9072799999999,
+            314.62
+          ],
+          [
+            521.9072799999999,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ba6d535bc915e0849f86c44659cf3f25",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            595.87,
+            303.58000000000004
+          ],
+          [
+            595.87,
+            314.62
+          ],
+          [
+            601.46728,
+            314.62
+          ],
+          [
+            601.46728,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "24e139e85994515b87132bb2a8253530",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            675.43,
+            303.58000000000004
+          ],
+          [
+            675.43,
+            314.62
+          ],
+          [
+            681.0272799999999,
+            314.62
+          ],
+          [
+            681.0272799999999,
+            303.58000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 17,
+      "parent_id": "a2350537c9e3f43927671c3ebaaeb7eb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f7a03fcb5cc4dcbc7ed9131d3f96015d",
+    "text": "Multilevel Binary: Bipolar-AMI",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            220.03,
+            60.02199999999999
+          ],
+          [
+            220.03,
+            104.08600000000001
+          ],
+          [
+            740.144,
+            104.08600000000001
+          ],
+          [
+            740.144,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1f33a8326dddbf965dbb56526b1619d9",
+    "text": "Binary 0 represented by no line signal \u2022 Binary 1 represented by positive or negative pulse \u2022 Binary 1 pulses alternate in polarity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            149.1884
+          ],
+          [
+            109.22,
+            260.53064
+          ],
+          [
+            770.0070079999998,
+            260.53064
+          ],
+          [
+            770.0070079999998,
+            149.1884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 18,
+      "parent_id": "f7a03fcb5cc4dcbc7ed9131d3f96015d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "583c0852655033d8f923afbe9d7014bb",
+    "text": "Multilevel Binary: Pseudoternary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            207.79,
+            47.84000000000003
+          ],
+          [
+            207.79,
+            87.80000000000001
+          ],
+          [
+            722.59468,
+            87.80000000000001
+          ],
+          [
+            722.59468,
+            47.84000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b6b0e317f637e9f466ab4b85205d8d73",
+    "text": "Binary 1 represented by absence of line signal \u2022 Binary 0 represented by alternating positive and negative pulses",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.2,
+            137.22104000000002
+          ],
+          [
+            79.2,
+            209.93
+          ],
+          [
+            866.41,
+            209.93
+          ],
+          [
+            866.41,
+            137.22104000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "cb59193a27d000307a0bb822d5d63d37",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.61,
+            281.98
+          ],
+          [
+            277.61,
+            293.02
+          ],
+          [
+            283.20728,
+            293.02
+          ],
+          [
+            283.20728,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "83bbc9bc3c8b97ffca6d0fba3a23e04b",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            357.17,
+            281.98
+          ],
+          [
+            357.17,
+            293.02
+          ],
+          [
+            362.76728,
+            293.02
+          ],
+          [
+            362.76728,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3036c8d859d2add1d9866384a486e0d5",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            436.73,
+            281.98
+          ],
+          [
+            436.73,
+            293.02
+          ],
+          [
+            442.32728000000003,
+            293.02
+          ],
+          [
+            442.32728000000003,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "728d4d39ebf895f3fda3ca68a0a06e66",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            516.31,
+            281.98
+          ],
+          [
+            516.31,
+            293.02
+          ],
+          [
+            521.9072799999999,
+            293.02
+          ],
+          [
+            521.9072799999999,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a4fbe7b4477916f7a2fe7af74b2f770f",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            595.87,
+            281.98
+          ],
+          [
+            595.87,
+            293.02
+          ],
+          [
+            601.46728,
+            293.02
+          ],
+          [
+            601.46728,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8d843a7a1a68db86d699f2100cb9cfb5",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            675.43,
+            281.98
+          ],
+          [
+            675.43,
+            293.02
+          ],
+          [
+            681.0272799999999,
+            293.02
+          ],
+          [
+            681.0272799999999,
+            281.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 19,
+      "parent_id": "583c0852655033d8f923afbe9d7014bb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f883a1033f697dc8d146a1eea54deffb",
+    "text": "Multilevel Binary: Pseudoternary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            207.79,
+            47.84000000000003
+          ],
+          [
+            207.79,
+            87.80000000000001
+          ],
+          [
+            722.59468,
+            87.80000000000001
+          ],
+          [
+            722.59468,
+            47.84000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "86460c0aa7788a798facc1de17df0cc1",
+    "text": "Binary 1 represented by absence of line signal \u2022 Binary 0 represented by alternating positive and negative pulses",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.2,
+            137.22104000000002
+          ],
+          [
+            79.2,
+            209.93
+          ],
+          [
+            866.41,
+            209.93
+          ],
+          [
+            866.41,
+            137.22104000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 20,
+      "parent_id": "f883a1033f697dc8d146a1eea54deffb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4af84bfbfa923c11a909703b90756710",
+    "text": "Manchester Encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            291.94,
+            35.952
+          ],
+          [
+            291.94,
+            80.01600000000002
+          ],
+          [
+            668.5550079999998,
+            80.01600000000002
+          ],
+          [
+            668.5550079999998,
+            35.952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "79247b41a7e80b101a9e7c64521dfa2c",
+    "text": "There is a transition at the middle of each bit period Low to high transition represents a 1 High to low transition represents a 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            55.2,
+            107.38063999999997
+          ],
+          [
+            55.2,
+            228.465824
+          ],
+          [
+            718.3959599999997,
+            228.465824
+          ],
+          [
+            718.3959599999997,
+            107.38063999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5cc84ecc38b0d21897e43f25f10052bc",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            278.33,
+            310.39
+          ],
+          [
+            278.33,
+            321.42999999999995
+          ],
+          [
+            283.92728,
+            321.42999999999995
+          ],
+          [
+            283.92728,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "514bd2a1f67610a6459363e2be552d4b",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            357.89,
+            310.39
+          ],
+          [
+            357.89,
+            321.42999999999995
+          ],
+          [
+            363.48728,
+            321.42999999999995
+          ],
+          [
+            363.48728,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4802cb6a7c5b0c779ee6705b56ad502a",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            437.47,
+            310.39
+          ],
+          [
+            437.47,
+            321.42999999999995
+          ],
+          [
+            443.06728000000004,
+            321.42999999999995
+          ],
+          [
+            443.06728000000004,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a5bad5e00abc1f014dd18928483b789f",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            517.03,
+            310.39
+          ],
+          [
+            517.03,
+            321.42999999999995
+          ],
+          [
+            522.6272799999999,
+            321.42999999999995
+          ],
+          [
+            522.6272799999999,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "23be5bf3c0cb5a80f3da1f973442949f",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            596.59,
+            310.39
+          ],
+          [
+            596.59,
+            321.42999999999995
+          ],
+          [
+            602.18728,
+            321.42999999999995
+          ],
+          [
+            602.18728,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a107751de0f50935792edd6dd2c982b2",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            676.18,
+            310.39
+          ],
+          [
+            676.18,
+            321.42999999999995
+          ],
+          [
+            681.7772799999999,
+            321.42999999999995
+          ],
+          [
+            681.7772799999999,
+            310.39
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 21,
+      "parent_id": "4af84bfbfa923c11a909703b90756710",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "21d2ae5382798eb7514459ada4c5304b",
+    "text": "Manchester Encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            291.94,
+            35.952
+          ],
+          [
+            291.94,
+            80.01600000000002
+          ],
+          [
+            668.5550079999998,
+            80.01600000000002
+          ],
+          [
+            668.5550079999998,
+            35.952
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b55fb07cdbcb2f85b2e1a45729fb984e",
+    "text": "There is a transition at the middle of each bit period Low to high transition represents a 1 High to low transition represents a 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            107.38063999999997
+          ],
+          [
+            67.2,
+            228.465824
+          ],
+          [
+            730.4279999999998,
+            228.465824
+          ],
+          [
+            730.4279999999998,
+            107.38063999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 22,
+      "parent_id": "21d2ae5382798eb7514459ada4c5304b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+    "text": "Differential Manchester Encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            236.59,
+            63.5
+          ],
+          [
+            236.59,
+            100.46000000000004
+          ],
+          [
+            724.462,
+            100.46000000000004
+          ],
+          [
+            724.462,
+            63.5
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aaa3f3c8c5de1f66b99be27bf30e83f9",
+    "text": "The encoding of a 0 is represented by the presence of a transition at the beginning of a bit period",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            138.37
+          ],
+          [
+            73.2,
+            200.95518400000003
+          ],
+          [
+            894.3,
+            200.95518400000003
+          ],
+          [
+            894.3,
+            138.37
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9deb854b5251f176662eca303ce46c1d",
+    "text": "A 1 is represented by the absence of a transition at the beginning of a bit period",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            213.28000000000003
+          ],
+          [
+            73.2,
+            275.86
+          ],
+          [
+            894.3,
+            275.86
+          ],
+          [
+            894.3,
+            213.28000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "64f416f39e268f4e75dcb2719800979f",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.61,
+            351.6
+          ],
+          [
+            277.61,
+            362.64
+          ],
+          [
+            283.20728,
+            362.64
+          ],
+          [
+            283.20728,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d29b1b710af52d0a597911e7a5d1e8c5",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            357.17,
+            351.6
+          ],
+          [
+            357.17,
+            362.64
+          ],
+          [
+            362.76728,
+            362.64
+          ],
+          [
+            362.76728,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "fea9fcf3fc0679b2cbba6c7ab6216b6b",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            436.73,
+            351.6
+          ],
+          [
+            436.73,
+            362.64
+          ],
+          [
+            442.32728000000003,
+            362.64
+          ],
+          [
+            442.32728000000003,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c2b94ed3a8801f98dd43e03ed8435cf3",
+    "text": "0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            516.31,
+            351.6
+          ],
+          [
+            516.31,
+            362.64
+          ],
+          [
+            521.9072799999999,
+            362.64
+          ],
+          [
+            521.9072799999999,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "13fff0178713f1e3cc0872cc8ce6a81a",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            595.87,
+            351.6
+          ],
+          [
+            595.87,
+            362.64
+          ],
+          [
+            601.46728,
+            362.64
+          ],
+          [
+            601.46728,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1c23a432b4d1d81fbcb0005d63ffb9ce",
+    "text": "1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            675.43,
+            351.6
+          ],
+          [
+            675.43,
+            362.64
+          ],
+          [
+            681.0272799999999,
+            362.64
+          ],
+          [
+            681.0272799999999,
+            351.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 23,
+      "parent_id": "a897fb6da3dd36b6ecc25637e6ff6d4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5f53dac9550693193160be727510ff72",
+    "text": "Differential Manchester Encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            236.59,
+            49.28199999999998
+          ],
+          [
+            236.59,
+            86.26599999999996
+          ],
+          [
+            724.298008,
+            86.26599999999996
+          ],
+          [
+            724.298008,
+            49.28199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6c1e6af827ed297f021604015bbafbdc",
+    "text": "\u27a2The encoding of a 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            137.01272
+          ],
+          [
+            43.2,
+            165.30454399999996
+          ],
+          [
+            369.686,
+            165.30454399999996
+          ],
+          [
+            369.686,
+            137.01272
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0571c2bfbfb47fc1905e0643f4e9a36b",
+    "text": "is represented by the presence of a transition at the beginning of a bit period",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.2,
+            137.32054399999998
+          ],
+          [
+            61.2,
+            256.04936
+          ],
+          [
+            413.726,
+            256.04936
+          ],
+          [
+            413.726,
+            137.32054399999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 24,
+      "parent_id": "6c1e6af827ed297f021604015bbafbdc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9a7849eed702bc012507023e41c0987e",
+    "text": "\u27a2A 1 is represented by the absence of a transition at the beginning of a bit period",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            268.08272
+          ],
+          [
+            43.2,
+            356.86936000000003
+          ],
+          [
+            413.726,
+            356.86936000000003
+          ],
+          [
+            413.726,
+            268.08272
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 24,
+      "parent_id": "6c1e6af827ed297f021604015bbafbdc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7d9aa85ff2802a47dbd10ea569f08979",
+    "text": "Digital Data, Analog Signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.86,
+            60.02199999999999
+          ],
+          [
+            254.86,
+            104.08600000000001
+          ],
+          [
+            705.326272,
+            104.08600000000001
+          ],
+          [
+            705.326272,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b4cf1d665a7007c4bdf74b3534c03f03",
+    "text": "Digital data needs to be carried on an analog signal.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.2,
+            143.40944000000002
+          ],
+          [
+            61.2,
+            175.665824
+          ],
+          [
+            743.469888,
+            175.665824
+          ],
+          [
+            743.469888,
+            143.40944000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 25,
+      "parent_id": "7d9aa85ff2802a47dbd10ea569f08979",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "755edbd000f5c7ccdefc6e5e02967dcb",
+    "text": "A carrier signal (frequency fc) performs the function of transporting the digital data in an analog waveform.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            182.8016
+          ],
+          [
+            97.224,
+            241.16935999999998
+          ],
+          [
+            879.1226000000001,
+            241.16935999999998
+          ],
+          [
+            879.1226000000001,
+            182.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 25,
+      "parent_id": "7d9aa85ff2802a47dbd10ea569f08979",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "93322e5bf341709abb72aac87c1ca451",
+    "text": "Uses modem (modulator-demodulator) to convert digital data to analog signals and vice versa",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            61.2,
+            253.47944
+          ],
+          [
+            61.2,
+            320.31064
+          ],
+          [
+            906.96968,
+            320.31064
+          ],
+          [
+            906.96968,
+            253.47944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 25,
+      "parent_id": "7d9aa85ff2802a47dbd10ea569f08979",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c4aa81698ac5df4264c52bbd948aefa0",
+    "text": "Figure 5.7 Modulation of Analog Signals for Digital Data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            239.99997285681945,
+            23.88265804872003
+          ],
+          [
+            239.99997285681945,
+            522.662
+          ],
+          [
+            707.997894,
+            522.662
+          ],
+          [
+            707.997894,
+            23.88265804872003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b26a97f59b8b34368129d6c71b96c5ef",
+    "text": "(a) ASK(b) BFSK(c) BPSK00110100010",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            239.99997285681945,
+            23.88265804872003
+          ],
+          [
+            239.99997285681945,
+            522.662
+          ],
+          [
+            707.997894,
+            522.662
+          ],
+          [
+            707.997894,
+            23.88265804872003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 26,
+      "parent_id": "c4aa81698ac5df4264c52bbd948aefa0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "496ccd50fd969ff720c9616dd0466f1b",
+    "text": "Amplitude Shift Keying (ASK)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            218.47,
+            41.012
+          ],
+          [
+            218.47,
+            85.07600000000002
+          ],
+          [
+            711.5902239999999,
+            85.07600000000002
+          ],
+          [
+            711.5902239999999,
+            41.012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "39093656453d325c806c76bef444dbd8",
+    "text": "ASK is implemented by changing the amplitude of a carrier signal to reflect amplitude levels in the digital signal.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            119.24000000000001
+          ],
+          [
+            67.2,
+            181.82518399999998
+          ],
+          [
+            891.3300000000003,
+            181.82518399999998
+          ],
+          [
+            891.3300000000003,
+            119.24000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 27,
+      "parent_id": "496ccd50fd969ff720c9616dd0466f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b41783ded6e4b9afe46f40e44e5a0cd4",
+    "text": "Encode 0/1 by different carrier amplitudes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            194.15000000000003
+          ],
+          [
+            67.2,
+            224.33000000000004
+          ],
+          [
+            594.8999999999999,
+            224.33000000000004
+          ],
+          [
+            594.8999999999999,
+            194.15000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 27,
+      "parent_id": "496ccd50fd969ff720c9616dd0466f1b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "76e4fa2398725065c425579949af6ee7",
+    "text": "Binary Frequency Shift Keying (BFSK)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            164.35,
+            59.059999999999945
+          ],
+          [
+            164.35,
+            103.09999999999997
+          ],
+          [
+            796.0157200000002,
+            103.09999999999997
+          ],
+          [
+            796.0157200000002,
+            59.059999999999945
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "28cf47c30555ff17a4e36a1f81720ff8",
+    "text": "Two binary values are represented by two different frequencies",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            165.52160000000003
+          ],
+          [
+            67.2,
+            193.64936
+          ],
+          [
+            792.3643200000001,
+            193.64936
+          ],
+          [
+            792.3643200000001,
+            165.52160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 28,
+      "parent_id": "76e4fa2398725065c425579949af6ee7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "baf9f386785bd8219579507908a25276",
+    "text": "Phase Shift Keying (PSK)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            273.58,
+            60.02199999999999
+          ],
+          [
+            273.58,
+            104.08600000000001
+          ],
+          [
+            686.812192,
+            104.08600000000001
+          ],
+          [
+            686.812192,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3fce16d9ea9f9d008c98ab66379dfc9f",
+    "text": "The phase of the carrier signal is shifted to represent data \u2022 Binary PSK",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            155.45839999999998
+          ],
+          [
+            67.2,
+            232.21064
+          ],
+          [
+            818.78784,
+            232.21064
+          ],
+          [
+            818.78784,
+            155.45839999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 29,
+      "parent_id": "baf9f386785bd8219579507908a25276",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8abc0e973bcc9082c8ee1bee64e7ad82",
+    "text": "Two phases represent the two binary digits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            239.32160000000005
+          ],
+          [
+            103.22,
+            267.44936
+          ],
+          [
+            599.3919200000001,
+            267.44936
+          ],
+          [
+            599.3919200000001,
+            239.32160000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 29,
+      "parent_id": "baf9f386785bd8219579507908a25276",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9f3eb7e82a25371a100030323011915c",
+    "text": "Differential PSK",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            279.7984
+          ],
+          [
+            67.2,
+            312.03064
+          ],
+          [
+            300.92532,
+            312.03064
+          ],
+          [
+            300.92532,
+            279.7984
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 29,
+      "parent_id": "baf9f386785bd8219579507908a25276",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3731b967b1bf87481726421ffc179b13",
+    "text": "Phase shifted relative to previous transmission rather than some reference signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            103.22,
+            319.1416
+          ],
+          [
+            103.22,
+            377.50936
+          ],
+          [
+            840.9104000000002,
+            377.50936
+          ],
+          [
+            840.9104000000002,
+            319.1416
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 29,
+      "parent_id": "baf9f386785bd8219579507908a25276",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "367756ac00c27cb52db2ef8ce27d0fa7",
+    "text": "Analog Data, Digital Signal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.86,
+            60.02199999999999
+          ],
+          [
+            254.86,
+            104.08600000000001
+          ],
+          [
+            705.3262719999999,
+            104.08600000000001
+          ],
+          [
+            705.3262719999999,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "39b6e82a5dd8433985733209670e6438",
+    "text": "Digitization is the conversion of analog data into digital data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            165.26839999999999
+          ],
+          [
+            73.2,
+            197.50063999999998
+          ],
+          [
+            867.3289199999997,
+            197.50063999999998
+          ],
+          [
+            867.3289199999997,
+            165.26839999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 31,
+      "parent_id": "367756ac00c27cb52db2ef8ce27d0fa7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bb53f856f2d936159e18e869ed36c53c",
+    "text": "Analog to digital conversion is done using a codec",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            232.85840000000002
+          ],
+          [
+            73.2,
+            265.09064
+          ],
+          [
+            738.5281200000001,
+            265.09064
+          ],
+          [
+            738.5281200000001,
+            232.85840000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 31,
+      "parent_id": "367756ac00c27cb52db2ef8ce27d0fa7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e0d800807c5e965f0aa52c125ff2ba89",
+    "text": "Pulse code modulation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            293.3216
+          ],
+          [
+            109.22,
+            321.44935999999996
+          ],
+          [
+            381.90763999999996,
+            321.44935999999996
+          ],
+          [
+            381.90763999999996,
+            293.3216
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 31,
+      "parent_id": "367756ac00c27cb52db2ef8ce27d0fa7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "360299704b16301a220fc0fa63797af1",
+    "text": "Delta modulation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            348.7816
+          ],
+          [
+            109.22,
+            376.90936
+          ],
+          [
+            322.04528,
+            376.90936
+          ],
+          [
+            322.04528,
+            348.7816
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 31,
+      "parent_id": "367756ac00c27cb52db2ef8ce27d0fa7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "be229245540f292737c6bbb62240e6e7",
+    "text": "Figure 5.16 Digitizing Analog Data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            77.99999323183667,
+            95.99389420402264
+          ],
+          [
+            77.99999323183667,
+            414.76
+          ],
+          [
+            862.798686441,
+            414.76
+          ],
+          [
+            862.798686441,
+            95.99389420402264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b54531493179d492a90a290e06b684f",
+    "text": "Modulator",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            77.99999323183667,
+            95.99389420402264
+          ],
+          [
+            77.99999323183667,
+            414.76
+          ],
+          [
+            862.798686441,
+            414.76
+          ],
+          [
+            862.798686441,
+            95.99389420402264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c3e01167490f7d98b176a482eb4885a0",
+    "text": "DigitizerAnalog data(voice)Digital dataAnalog signal(ASK)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            77.99999323183667,
+            95.99389420402264
+          ],
+          [
+            77.99999323183667,
+            414.76
+          ],
+          [
+            862.798686441,
+            414.76
+          ],
+          [
+            862.798686441,
+            95.99389420402264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c93aa4833277f3698c22f8cde04960a",
+    "text": "Pulse Code Modulation (PCM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            220.27,
+            42.47000000000003
+          ],
+          [
+            220.27,
+            86.50999999999999
+          ],
+          [
+            740.0741200000001,
+            86.50999999999999
+          ],
+          [
+            740.0741200000001,
+            42.47000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 33,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "db3dbdc9f92ce5647e5ae85aa9c701f1",
+    "text": "PCM consists of three steps to digitize an analog signal:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            113.42840000000001
+          ],
+          [
+            49.2,
+            145.66064
+          ],
+          [
+            785.0241599999998,
+            145.66064
+          ],
+          [
+            785.0241599999998,
+            113.42840000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 33,
+      "parent_id": "8c93aa4833277f3698c22f8cde04960a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9f10aed8952149178f578dae0aca44ea",
+    "text": "1. Sampling 2. Quantization 3. Binary encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            116.78,
+            153.08182400000004
+          ],
+          [
+            116.78,
+            264.37064
+          ],
+          [
+            369.99764000000005,
+            264.37064
+          ],
+          [
+            369.99764000000005,
+            153.08182400000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 33,
+      "parent_id": "8c93aa4833277f3698c22f8cde04960a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a6d8e0a097c7fbe1e7b3d0b6f36fc61f",
+    "text": "Before we sample, we have to filter the signal to remove high frequency components that affect the signal shape.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            276.63944
+          ],
+          [
+            49.2,
+            343.47064
+          ],
+          [
+            864.792,
+            343.47064
+          ],
+          [
+            864.792,
+            276.63944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 33,
+      "parent_id": "8c93aa4833277f3698c22f8cde04960a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "eb14fc285fef9246fef98e86763dc05a",
+    "text": "QuantizerContinuous-time,continuous amplitude(analog) input signalDiscrete-timecontinuous-amplitude signal(PAM pulses)Discrete-timediscrete-amplitude signal(PCM pulses)Digital bitstream outputsignal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.666996616052124,
+            92.201477351
+          ],
+          [
+            50.666996616052124,
+            447.804
+          ],
+          [
+            909.3147210492,
+            447.804
+          ],
+          [
+            909.3147210492,
+            92.201477351
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 34,
+      "parent_id": "8c93aa4833277f3698c22f8cde04960a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "47ed3506019c64cbc0c167452ccb046c",
+    "text": "Encoder",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.666996616052124,
+            92.201477351
+          ],
+          [
+            50.666996616052124,
+            447.804
+          ],
+          [
+            909.3147210492,
+            447.804
+          ],
+          [
+            909.3147210492,
+            92.201477351
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6927d5baed7e285d5d35b4bcf6528523",
+    "text": "PAMsamplerFigure 5.18 PCM Block Diagram",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.666996616052124,
+            92.201477351
+          ],
+          [
+            50.666996616052124,
+            447.804
+          ],
+          [
+            909.3147210492,
+            447.804
+          ],
+          [
+            909.3147210492,
+            92.201477351
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce03d48ad9cdeb8734ab4c07db137792",
+    "text": "Components of PCM Encoder",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            224.81,
+            65.75
+          ],
+          [
+            224.81,
+            109.78999999999996
+          ],
+          [
+            735.49784,
+            109.78999999999996
+          ],
+          [
+            735.49784,
+            65.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 35,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cae63b127d21a38bd5aabf4f2466230c",
+    "text": "Three different sampling methods for PCM",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            21.83000000000004
+          ],
+          [
+            97.224,
+            65.87
+          ],
+          [
+            835.5546000000003,
+            65.87
+          ],
+          [
+            835.5546000000003,
+            21.83000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 36,
+      "parent_id": "ce03d48ad9cdeb8734ab4c07db137792",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4c2b0df3e8bafc6e3223f8ecc158026d",
+    "text": "\u27a2Pulse Amplitude Modulation (PAM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            55.2,
+            72.6918
+          ],
+          [
+            55.2,
+            100.95936
+          ],
+          [
+            484.77720000000005,
+            100.95936
+          ],
+          [
+            484.77720000000005,
+            72.6918
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 36,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dc8004d0cbfb2e3638454ffe1e8f3aff",
+    "text": "To convert to digital, each of these analog samples must be assigned a binary code",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            91.224,
+            103.23936000000003
+          ],
+          [
+            91.224,
+            161.43935999999997
+          ],
+          [
+            861.6618000000001,
+            161.43935999999997
+          ],
+          [
+            861.6618000000001,
+            103.23936000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 36,
+      "parent_id": "4c2b0df3e8bafc6e3223f8ecc158026d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "597d0fa94c238f219cee5008298c70c6",
+    "text": "Quantized PAM Signal \u2022 The result of PAM is a series of pulses with amplitude values between the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            45.672000000000025
+          ],
+          [
+            49.2,
+            133.964
+          ],
+          [
+            892.8,
+            133.964
+          ],
+          [
+            892.8,
+            45.672000000000025
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 37,
+      "parent_id": "4c2b0df3e8bafc6e3223f8ecc158026d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f9a63507070532f5dcb33fae1a40e606",
+    "text": "maximum and minimum amplitudes of the signal with real values.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            76.2,
+            138.745184
+          ],
+          [
+            76.2,
+            162.769184
+          ],
+          [
+            712.786,
+            162.769184
+          ],
+          [
+            712.786,
+            138.745184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9e4f260a20e6617c5be44f71ce323622",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            181.49
+          ],
+          [
+            49.2,
+            205.49
+          ],
+          [
+            57.6,
+            205.49
+          ],
+          [
+            57.6,
+            181.49
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 37,
+      "parent_id": "f9a63507070532f5dcb33fae1a40e606",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f0b1f6e13d67fbec1f4089532778dee7",
+    "text": "Quantization: is a method of assigning integer values in a specific range to sampled instances.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            76.2,
+            181.63400000000001
+          ],
+          [
+            76.2,
+            234.43400000000003
+          ],
+          [
+            892.8,
+            234.43400000000003
+          ],
+          [
+            892.8,
+            181.63400000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 37,
+      "parent_id": "f9a63507070532f5dcb33fae1a40e606",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "676c7ef91dfe48f893066c34f8e37b2f",
+    "text": "37",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            874.56,
+            510.3264
+          ],
+          [
+            874.56,
+            521.3664
+          ],
+          [
+            886.81828,
+            521.3664
+          ],
+          [
+            886.81828,
+            510.3264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c7dcaf7d6e09f3e1c0a9f07df12e0877",
+    "text": "Binary Encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            313.08,
+            36.620000000000005
+          ],
+          [
+            313.08,
+            80.65999999999997
+          ],
+          [
+            591.5449199999999,
+            80.65999999999997
+          ],
+          [
+            591.5449199999999,
+            36.620000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 38,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4a59b410c960de139591f039f057c058",
+    "text": "Each quantized samples is translated into equivalent binary codes.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            67.2,
+            130.02160000000003
+          ],
+          [
+            67.2,
+            157.98160000000001
+          ],
+          [
+            903.09288,
+            157.98160000000001
+          ],
+          [
+            903.09288,
+            130.02160000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 38,
+      "parent_id": "c7dcaf7d6e09f3e1c0a9f07df12e0877",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ef5f653d4806a1db8f789ebe399d5434",
+    "text": "012345678910111213Normalized magnitude14150time1Ts =1/(2B)1.1PAM value9.215.210.85.62.82.71quantized code number915105220001PCM code10011111101001010010001023456789101112131415Codenumber16",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            167.9999864642629,
+            18.012993554560012
+          ],
+          [
+            167.9999864642629,
+            522.248
+          ],
+          [
+            783.494716144,
+            522.248
+          ],
+          [
+            783.494716144,
+            18.012993554560012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 39,
+      "parent_id": "c7dcaf7d6e09f3e1c0a9f07df12e0877",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "61126f71234554ecd4f3baceec4810bf",
+    "text": "Figure 5.17 Pulse-Code Modulation Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            167.9999864642629,
+            18.012993554560012
+          ],
+          [
+            167.9999864642629,
+            522.248
+          ],
+          [
+            783.494716144,
+            522.248
+          ],
+          [
+            783.494716144,
+            18.012993554560012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 39,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "52d2448ffa4f15a79da9b78b6cd9dc4b",
+    "text": "Delta Modulation (DM)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            279.34,
+            60.02199999999999
+          ],
+          [
+            279.34,
+            104.08600000000001
+          ],
+          [
+            680.9392959999999,
+            104.08600000000001
+          ],
+          [
+            680.9392959999999,
+            60.02199999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 40,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ac7056e94c8940a01c12e170ee90e834",
+    "text": "Analog input is approximated by a staircase function \u2022 Move up or down one level (\uf064) at each sample interval \u2022 Binary behavior",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.2,
+            125.40944000000002
+          ],
+          [
+            73.2,
+            246.73064
+          ],
+          [
+            791.9089599999999,
+            246.73064
+          ],
+          [
+            791.9089599999999,
+            125.40944000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 40,
+      "parent_id": "52d2448ffa4f15a79da9b78b6cd9dc4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "261617be636ef3f5e480fdcb8b380157",
+    "text": "Function moves up or down at each sample interval \u2022 Moving up: generating 1 \u2022 Moving down: generating 0",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            109.22,
+            253.94263999999998
+          ],
+          [
+            109.22,
+            352.54936
+          ],
+          [
+            705.0616159999998,
+            352.54936
+          ],
+          [
+            705.0616159999998,
+            253.94263999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 960.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "5-Signal Encoding Techniques.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:17:43",
+      "page_number": 40,
+      "parent_id": "52d2448ffa4f15a79da9b78b6cd9dc4b",
+      "filetype": "application/pdf"
+    }
+  }
+]

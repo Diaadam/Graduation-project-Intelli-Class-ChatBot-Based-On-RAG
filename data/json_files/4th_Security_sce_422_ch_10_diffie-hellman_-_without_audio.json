@@ -1,0 +1,2540 @@
+[
+  {
+    "type": "NarrativeText",
+    "element_id": "87c9a28273ae3d811c920d17a48568d5",
+    "text": "Lecture slides by Lawrie Brown for \u201cCryptography and Network Security\u201d, 5/e, by William Stallings, Chapter 10 \u2013 \u201cOther Public Key Cryptosystems\u201d.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0478b90238f43a5a5522c1b7062f7206",
+    "text": "Other Public Key Cryptosystems",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d50f5003c74b4cd29855aa82c462cb33",
+    "text": "Arabic Language Audio Comments by",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c2a14fc62b4ead92ff53f76e9516e8cb",
+    "text": "Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "34372c1be099dd9169a44e3c6b12537f",
+    "text": "Cryptography and Network Security\u000bChapter 10",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b8500592a86bd052da4d106c30592ded",
+    "text": "Fifth Edition",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "34372c1be099dd9169a44e3c6b12537f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "08853efec6b80b37c28a62ca986cf33f",
+    "text": "by William Stallings\t",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "34372c1be099dd9169a44e3c6b12537f"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5e71428e40d78800c799e2bfaa509034",
+    "text": "Lecture slides by",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "08853efec6b80b37c28a62ca986cf33f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "55f5bc23fd58bfdae0b927e9b1a945eb",
+    "text": "Lawrie Brown",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "34372c1be099dd9169a44e3c6b12537f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "34e5236ec15a307ae65c6666fe3c2fa9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "edb2594d35fb33fc5e0004667aa60949",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie\nand Hellman that defined public-key cryptography [DIFF76b] and is generally\nreferred to as Diffie-Hellman key exchange.  A number of commercial products\nemploy this key exchange technique.\n\nThe purpose of the algorithm is to enable two users to securely exchange a\nkey that can then be used for subsequent symmetric encryption of messages. The\nalgorithm itself is limited to the exchange of secret values.\n\nThe Diffie-Hellman algorithm depends for its effectiveness on the difficulty of\ncomputing discrete logarithms. Briefly, we can define the discrete logarithm in the\nfollowing way. Recall from Chapter 8 that a primitive root of a prime number p is\none whose powers modulo p generate all the integers from 1 to p -  1. That is, if a\n is a primitive root of the prime number p , then the numbers\n\na  mod p , a2  mod p , . . .  , ap-1  mod p\n\n are distinct and consist of the integers from 1 through p -  1 in some permutation.\n\nFor any integer b  and a primitive root a of prime number p , we can find a\nunique exponent i such that\n\nb = ai  (mod p ) where 0 \u2264  i \u2264 (p -  1)\n\nThe exponent i  is referred to as the discrete logarithm  of b  for the base a , mod p .\nWe express this value as dloga,p (b ). See Chapter 8 for an extended discussion of\ndiscrete logarithms.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "282f14e25349c85ed2e24b17efb611aa",
+    "text": "Diffie-Hellman Key Exchange",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "02c7f318dc657794214bd64f8da2ced7",
+    "text": "First published public-key algorithm",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "282f14e25349c85ed2e24b17efb611aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b5f8115d5853485b44f5675901fab265",
+    "text": "A number of commercial products employ this key exchange technique",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "282f14e25349c85ed2e24b17efb611aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a01562fff0969dddbbc5060279df6c4e",
+    "text": "Purpose is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "282f14e25349c85ed2e24b17efb611aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "97bf420c06ec82aef508d39128288bd2",
+    "text": "The algorithm itself is limited to the exchange of secret values",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "282f14e25349c85ed2e24b17efb611aa"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bc5cf26498ced35a067e14a9865853bc",
+    "text": "Its effectiveness depends on the difficulty of computing discrete logarithms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "282f14e25349c85ed2e24b17efb611aa"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f150ca14b5c3a6ae2cf65f62674906a2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ca6d1968aae16b3df245e5e99fd96f7",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie\nand Hellman that defined public-key cryptography [DIFF76b] and is generally\nreferred to as Diffie-Hellman key exchange.  A number of commercial products\nemploy this key exchange technique.\n\nThe purpose of the algorithm is to enable two users to securely exchange a\nkey that can then be used for subsequent symmetric encryption of messages. The\nalgorithm itself is limited to the exchange of secret values.\n\nThe Diffie-Hellman algorithm depends for its effectiveness on the difficulty of\ncomputing discrete logarithms. Briefly, we can define the discrete logarithm in the\nfollowing way. Recall from Chapter 8 that a primitive root of a prime number p is\none whose powers modulo p generate all the integers from 1 to p -  1. That is, if a\n is a primitive root of the prime number p , then the numbers\n\na  mod p , a2  mod p , . . .  , ap-1  mod p\n\n are distinct and consist of the integers from 1 through p -  1 in some permutation.\n\nFor any integer b  and a primitive root a of prime number p , we can find a\nunique exponent i such that\n\nb = ai  (mod p ) where 0 \u2264  i \u2264 (p -  1)\n\nThe exponent i  is referred to as the discrete logarithm  of b  for the base a , mod p .\nWe express this value as dloga,p (b ). See Chapter 8 for an extended discussion of\ndiscrete logarithms.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "84bf1fd358ae48f5c6bf58f7d4902a45",
+    "text": "Diffie-Hellman Key Exchange",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2bbdbd1edfe124241986ad4e86db1f67",
+    "text": "a public-key distribution scheme ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "84bf1fd358ae48f5c6bf58f7d4902a45"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aba9adc740106d35737357b65471dcb0",
+    "text": "cannot be used to exchange an arbitrary message ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "23df9234aa64d3c090fbcc0151254eac",
+    "text": "rather it can establish a common key ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b022141011d639d8e9b4f858aae0329b",
+    "text": "known only to the two participants ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8812cf5ab8478c2979e060d7ddc2a924",
+    "text": "value of key depends on the participants (and their private and public key information) ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2e642d74ca4d63029c0d1a4c42fd1d3f",
+    "text": "based on exponentiation in a finite field (modulo a prime or a polynomial) - easy",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "076b44578446ceef8be4966cfdec6363",
+    "text": "security relies on the difficulty of computing discrete logarithms (similar to factoring) \u2013 hard",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2bbdbd1edfe124241986ad4e86db1f67"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5d1ea745cbbb42612b75e515f035bf53",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8ed5ffeac5f3dd7cd2ead3717ef6bfa4",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie\nand Hellman that defined public-key cryptography [DIFF76b] and is generally\nreferred to as Diffie-Hellman key exchange.  A number of commercial products\nemploy this key exchange technique.\n\nThe purpose of the algorithm is to enable two users to securely exchange a\nkey that can then be used for subsequent symmetric encryption of messages. The\nalgorithm itself is limited to the exchange of secret values.\n\nThe Diffie-Hellman algorithm depends for its effectiveness on the difficulty of\ncomputing discrete logarithms. Briefly, we can define the discrete logarithm in the\nfollowing way. Recall from Chapter 8 that a primitive root of a prime number p is\none whose powers modulo p generate all the integers from 1 to p -  1. That is, if a\n is a primitive root of the prime number p , then the numbers\n\na  mod p , a2  mod p , . . .  , ap-1  mod p\n\n are distinct and consist of the integers from 1 through p -  1 in some permutation.\n\nFor any integer b  and a primitive root a of prime number p , we can find a\nunique exponent i such that\n\nb = ai  (mod p ) where 0 \u2264  i \u2264 (p -  1)\n\nThe exponent i  is referred to as the discrete logarithm  of b  for the base a , mod p .\nWe express this value as dloga,p (b ). See Chapter 8 for an extended discussion of\ndiscrete logarithms.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "639e471b5bb816832219798769057f5d",
+    "text": "Diffie-Hellman Setup",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "653e3427071fdfe4721fe9736c669f96",
+    "text": "all users agree on global parameters:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "639e471b5bb816832219798769057f5d"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a1917ff50711680d287d291581362f03",
+    "text": "large prime integer or polynomial q",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "639e471b5bb816832219798769057f5d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e39cb3c5369284c43e8e880ee955d699",
+    "text": "\u03b1 being a primitive root mod q",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a1917ff50711680d287d291581362f03"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "26ef8b8995aeccbdbfab80cf3a8cd751",
+    "text": "each user (e.g., A) generates their key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a1917ff50711680d287d291581362f03"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3b9a5633fd145a0d833b2428e2e6af29",
+    "text": "chooses a secret number xA to be the private key: ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "26ef8b8995aeccbdbfab80cf3a8cd751"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fa3127cb03f45190436f821cff64726c",
+    "text": "     xA < q ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "639e471b5bb816832219798769057f5d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "936786df04b6da0d65a45c913789439e",
+    "text": "compute their public key: ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fa3127cb03f45190436f821cff64726c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16128357c776fdc8955cca6d58d86e13",
+    "text": "     yA = \u03b1xA mod q",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "639e471b5bb816832219798769057f5d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "60dd3c0882c63577b001767c64daaa29",
+    "text": " each user makes public that key yA",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "16128357c776fdc8955cca6d58d86e13"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c9bab86157a935e476fa4e4402c731ae",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "535c4af9ccc242285fbe3a4e890420c1",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie\nand Hellman that defined public-key cryptography [DIFF76b] and is generally\nreferred to as Diffie-Hellman key exchange.  A number of commercial products\nemploy this key exchange technique.\n\nThe purpose of the algorithm is to enable two users to securely exchange a\nkey that can then be used for subsequent symmetric encryption of messages. The\nalgorithm itself is limited to the exchange of secret values.\n\nThe Diffie-Hellman algorithm depends for its effectiveness on the difficulty of\ncomputing discrete logarithms. Briefly, we can define the discrete logarithm in the\nfollowing way. Recall from Chapter 8 that a primitive root of a prime number p is\none whose powers modulo p generate all the integers from 1 to p -  1. That is, if a\n is a primitive root of the prime number p , then the numbers\n\na  mod p , a2  mod p , . . .  , ap-1  mod p\n\n are distinct and consist of the integers from 1 through p -  1 in some permutation.\n\nFor any integer b  and a primitive root a of prime number p , we can find a\nunique exponent i such that\n\nb = ai  (mod p ) where 0 \u2264  i \u2264 (p -  1)\n\nThe exponent i  is referred to as the discrete logarithm  of b  for the base a , mod p .\nWe express this value as dloga,p (b ). See Chapter 8 for an extended discussion of\ndiscrete logarithms.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8278390165a0e4097173ee02ca28da60",
+    "text": "Background for Primitive Roots",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f13110399519a7c1ab75d84b64866ccb",
+    "text": "For a prime integer q, the number \u03b1 will be a primitive root of q if for every positive integer number X < q the computation  {Y = \u03b1X mod q} will yield a different value for each value of X.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8278390165a0e4097173ee02ca28da60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "904767502cea0a0a4edd670771aaad4b",
+    "text": "This ensures that for any secret key XA there will be a different public key YA.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8278390165a0e4097173ee02ca28da60"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "52c8053f3d6c9a56ac7b0992935a24e3",
+    "text": "Example: let q=5 and \u03b1=3, then for all values of X<5 we have different values of Y.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8278390165a0e4097173ee02ca28da60"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "4d4dfc0ee7f0625f7eae73a7a475516e",
+    "text": "q=5 & a=3 XA YA 1 3 2 4 3 2 4 1",
+    "metadata": {
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "text_as_html": "<table><tr><td>q=5 &amp; a=3</td><td/></tr><tr><td>XA</td><td>YA</td></tr><tr><td>1</td><td>3</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>2</td></tr><tr><td>4</td><td>1</td></tr></table>",
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8278390165a0e4097173ee02ca28da60"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d8ca2b20c67161067b8cc632808445c9",
+    "text": "(The computed values are shown in the table) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8278390165a0e4097173ee02ca28da60"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f8ff0f977b29550cbc3048f7c319cf4a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "204f0296066af072020a581ab7087b6e",
+    "text": "The actual key exchange for either party consists of raising the others \"public key' to power of their private key. The resulting number (or as much of as is necessary) is used as the key for a block cipher or other private key scheme. For an attacker to obtain the same value they need at least one of the secret numbers, which means solving a discrete log, which is computationally infeasible given large enough numbers. Note that if Alice and Bob subsequently communicate, they will have the same key as before, unless they choose new public-keys.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c0bbe2359ee810f1f7527ea2fd29c160",
+    "text": "Diffie-Hellman Key Exchange",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "03cd9d2242ff78803e19e970bd011b0e",
+    "text": "shared session key for users Alice & Bob is KAB: ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c0bbe2359ee810f1f7527ea2fd29c160"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3f843ccad5eaedbeeb10ba4f8767e92e",
+    "text": "KAB = \u03b1xA.xB mod q",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c0bbe2359ee810f1f7527ea2fd29c160"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a20095b699e3c2bc640ff4b25728d33f",
+    "text": "= yAxB mod q  (which Bob can compute) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c27566da23fac47660d67eef057e1113",
+    "text": "= yBxA mod q  (which Alice can compute) ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e1d7618e7c21e26f93eeb6cbc4f85d2b",
+    "text": "KAB is used as session key in private-key encryption scheme between Alice and Bob",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "20da8ff1afb46233fc0b42512c68bc54",
+    "text": "if Alice and Bob subsequently communicate, they will have the same key as before, unless they choose new public-keys ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8c9b900f9ff5958ed4c0f83ac14379f9",
+    "text": "knowing a public key \u201cY\u201d, if an attacker needs the corresponding secret private key \u201cX\u201d he must solve a discrete logarithmic equation as follows, which is very difficult when using large numbers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6af701f0beaa1d11788db18d16d63481",
+    "text": "X = log\u03b1 Y  (mod q)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3f843ccad5eaedbeeb10ba4f8767e92e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "8c8ac528d8782a877fc12910c42416e7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cbf28782f87c340ed0133ca6403d6770",
+    "text": "Figure 10.1 summarizes the Diffie-Hellman key exchange algorithm. For this\nscheme, there are two publicly known numbers: a prime number q  and an integer a\n that is a primitive root of q .",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "71c96e8a42bdfe622bbbeac6ac7ad347",
+    "text": "Exchanged public keys",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7ee134bd833b17306dac4a39e7b1b551",
+    "text": "Computed shared key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a235b487603218c73334374cc33e9b82",
+    "text": "Computed shared key",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c5e5bd99945a635d9a8796e266a63534",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cb02f4a5a98db722f561e49f72619633",
+    "text": "Here is an example of Diffie-Hellman from the text using prime q=353, showing how each computes its public key, and then how after they exchange public keys, each can compute the common secret key.I n this simple example, it would be possible by brute force to determine the secret key 160. In particular, an attacker E can determine the common key by discovering a solution to the equation 3a mod 353 = 40 or the equation 3b mod 353 = 248. The brute-force approach is to calculate powers of 3 modulo 353, stopping when the result equals either 40 or 248. The desired answer is reached with the exponent value of 97, which provides 397 mod 353 = 40.  With larger numbers, the problem becomes impractical.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b8a3b7764f2f07395c32d8e4ca68300",
+    "text": "Diffie-Hellman Example ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d935df546edcf1d7d12a206b978af289",
+    "text": "users Alice & Bob who wish to swap keys:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2b8a3b7764f2f07395c32d8e4ca68300"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2344883902b8e11329fa7ec8e844a4d2",
+    "text": "agree on prime q=353 and \u03b1=3",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2b8a3b7764f2f07395c32d8e4ca68300"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7956956d3073926cc65560da3122827b",
+    "text": "select random secret keys:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2b8a3b7764f2f07395c32d8e4ca68300"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5868e6d7582c187f73e14d8253f84ba7",
+    "text": "Alice chooses xA=97 & Bob chooses xB=233",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7956956d3073926cc65560da3122827b"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "03dece61195b8a2769fa782016b762f7",
+    "text": "compute respective public keys:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2b8a3b7764f2f07395c32d8e4ca68300"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5ee694d24259c42430b9ffe7a91f5ff2",
+    "text": "yA=397  mod 353 = 40\t(Alice)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "03dece61195b8a2769fa782016b762f7"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "94d77a5a847af81a38ab0db8370004d4",
+    "text": "yB=3233 mod 353 = 248\t(Bob)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "03dece61195b8a2769fa782016b762f7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "be52da1391cc98e701372300786274af",
+    "text": "compute shared session key as:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "03dece61195b8a2769fa782016b762f7"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "81667a4bb9fca40cc5c95f7a34a0f5eb",
+    "text": "KAB= yBxA mod 353 = 24897 = 160\t(Alice)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "03dece61195b8a2769fa782016b762f7"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "d435851305cdb013db770f9f716c303a",
+    "text": "KAB= yAxB mod 353 = 40233 = 160\t(Bob)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "03dece61195b8a2769fa782016b762f7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "3f4f701107893c3d100bc25c47e91f15",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "336083d382b70d78638b1002ac592d6b",
+    "text": "Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9b05b87e02b2f9ee056d4fc7f8b7cff8",
+    "text": "Key Exchange Protocols",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e975601802d701bd185f76ae6eea15ba",
+    "text": "Users could create random private/public Diffie-Hellman keys each time they communicate",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9b05b87e02b2f9ee056d4fc7f8b7cff8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4ac67cc31cc0fddcce2ef62723f3dc7d",
+    "text": "Users could create a known private/public Diffie-Hellman key and publish in a directory, then consulted and used to securely communicate with them",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9b05b87e02b2f9ee056d4fc7f8b7cff8"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "134ac4ea5792174561035edee7392549",
+    "text": "Vulnerable to Man-in-the-Middle-Attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9b05b87e02b2f9ee056d4fc7f8b7cff8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3dccb6aaeddcf1274de77dba42d6409e",
+    "text": "Authentication of the keys is needed",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "134ac4ea5792174561035edee7392549"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f75919d63eaeab5d023270dd6b20e557",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aada0d8af1083440af83e5968c89ce50",
+    "text": "Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eafbb22afc6c6ad68b4d13786a04cad9",
+    "text": "Security of Diffie-Hellman",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e03ea30217cf7e598d3d1d0d3bfe06f7",
+    "text": "Two attacks are possible:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eafbb22afc6c6ad68b4d13786a04cad9"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4189a80fd2bccee6900a5ab25bf7cb35",
+    "text": "Discrete Logarithm Attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eafbb22afc6c6ad68b4d13786a04cad9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "305dcf0ac4948a61fda90686a0de2c24",
+    "text": "by trying to solve the equation:  X = log\u03b1 Y  (mod q)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4189a80fd2bccee6900a5ab25bf7cb35"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "209e78dd5253efad39ff569b05077295",
+    "text": "where Y is a known public key and X is the required private key.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4189a80fd2bccee6900a5ab25bf7cb35"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "05a735575e54a67689b2d236bcba6680",
+    "text": "Man-in-the-Middle Attack",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "eafbb22afc6c6ad68b4d13786a04cad9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "738e5f0e5957bcd4c796d193a114c44b",
+    "text": "an attacker intercepts the messages exchanged between Alice and Bob and builds a shared key with Alice and another shared key with Bob. Both Alice and Bob know nothing and exchange encrypted messages through the attacker.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "05a735575e54a67689b2d236bcba6680"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "45385d1f99cb4d5fe13a5d6521387872",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c20cb15583cfefc7be3dad72748468f3",
+    "text": "The protocol depicted in Figure 10.1 is insecure against a man-in-the-middle attack.\nSuppose Alice and Bob wish to exchange keys, and Darth is the adversary. The\nattack proceeds as follows (Figure 10.2).\n\nDarth prepares for the attack by generating two random private keys XD1 and XD2 and then computing the corresponding public keys YD1 and YD2\n Alice transmits YA to Bob. \n Darth intercepts YA and transmits YD1 to Bob. Darth also calculates K2 = (YA  )^ XD2 mod q  \nBob receives YD1 and calculates K1=(YD1 )^ XB mod q\nBob transmits YB to Alice.  \nDarth intercepts YB and transmits YD2 to Alice. Darth calculates K1=(YB )^ XD1  mod q\nAlice receives YD2 and calculates K2=(YD2 )^ XA mod q .   \n\nAt this point, Bob and Alice think that they share a secret key, but instead Bob and Darth share secret key K1 and Alice and Darth share secret key K2. All future communication between Bob and Alice is compromised in the following way:   \n\nAlice sends an encrypted message M: E(K2, M).  \nDarth intercepts the encrypted message and decrypts it, to recover M.  \nDarth sends Bob E(K1, M) or E(K1, M'), where M' is any message. In the first case, Darth simply wants to eavesdrop on the communication without altering it. In the second case, Darth wants to modify the message going to Bob.   \n\nThe key exchange protocol is vulnerable to such an attack because it does not authenticate the participants. This vulnerability can be overcome with the use of digital signatures and public- key certificates.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "150812c6386bbea5dd09d438b29bee09",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3e6bfb92758d4555eaf0b722078ff8db",
+    "text": "Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3a562f6390e2c97e1b578fe490c255e7",
+    "text": "Man-in-the-Middle Attack",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6148291b4efae9e871e33949a2e98bf4",
+    "text": "Darth prepares by creating two private / public  keys ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b0a7a92e2344fabf26591b9cee71c205",
+    "text": "Alice transmits her public key to Bob",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d00fe91dce9fe3fde77b07b3d81dda50",
+    "text": "Darth intercepts this and transmits his first public key to Bob. Darth also calculates a shared key with Alice",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4aea4674b1bb904066bf6358374ab993",
+    "text": "Bob receives the public key and calculates the shared key (with Darth instead of Alice) ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cfec18d3f39cae91a3945509528fa546",
+    "text": "Bob transmits his public key  to Alice  ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "29f6e102b372f35d6134d4412ebdb73c",
+    "text": "Darth intercepts this and transmits his second public key to Alice. Darth calculates a shared key with Bob",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4f2bff6f40e020d7c67eb3086a0ab03d",
+    "text": "Alice receives the key and calculates the shared key (with Darth instead of Bob)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "53c40a4cc70297423d202d5f4ce3e49d",
+    "text": "Darth can then intercept, decrypt, re-encrypt, forward all messages between Alice & Bob",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3a562f6390e2c97e1b578fe490c255e7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f9a86375948baa88507bd40ca61a6b2f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d2a55ce1d2dd49f7b3919a51374fc6b",
+    "text": "In 1984, T. Elgamal announced a public-key scheme based on discrete logarithms, closely related to the Diffie-Hellman technique [ELGA84, ELGA85]. The ElGamal cryptosystem is used in some form in a number of standards including the digital signature standard (DSS) and the S/MIME email standard.  As with Diffie-Hellman, the global elements of ElGamal are a prime number q and a, which is a primitive root of q. User A generates a private/public key pair as shown. The security of ElGamal is based on the difficulty of computing discrete logarithms, to recover either x given y, or k given K (next slide).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "98f52a94b5a9e91f975bd08af40d0ac8",
+    "text": "ElGamal Cryptography",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "01326ac9ee69a4cc6a5d4899da02da9d",
+    "text": "public-key cryptosystem related to D-H",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "98f52a94b5a9e91f975bd08af40d0ac8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6be0726e8e4b84fba2b217a4c259677b",
+    "text": "like RSA, this algorithm provides the three basic applications, namely:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "98f52a94b5a9e91f975bd08af40d0ac8"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "119f87498b8c0392253b4184f5ace529",
+    "text": "encryption/decryption",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "98f52a94b5a9e91f975bd08af40d0ac8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "52febc5004fade3990b253fc2156387e",
+    "text": "key sharing",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "119f87498b8c0392253b4184f5ace529"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "22cb1cf249df867b60e3f0b7f40431cc",
+    "text": "digital signature",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "98f52a94b5a9e91f975bd08af40d0ac8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e61e6da1267fedb01054f4b05208b007",
+    "text": "with security-based difficulty of computing discrete logarithms, as in D-H",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "22cb1cf249df867b60e3f0b7f40431cc"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c474c666c00c23015c88ed6efb5374fa",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "836380e73301e013ca500ab13804d5e8",
+    "text": "A major issue with the use of Public-Key Cryptography, is the size of numbers used, and hence keys being stored. Recently, an alternate approach has emerged, elliptic curve cryptography (ECC), which performs the computations using elliptic curve arithmetic instead of integer or polynomial arithmetic. Already, ECC is showing up in standardization efforts, including the IEEE P1363 Standard for Public-Key Cryptography. The principal attraction of ECC, compared to RSA, is that it appears to offer equal security for a far smaller key size, thereby reducing processing overhead. Although the theory of ECC has been around for some time, it is only recently that products have begun to appear and that there has been sustained cryptanalytic interest in probing for weaknesses. Accordingly, the confidence level in ECC is not yet as high as that in RSA.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "70ec2a9f3fdf4ec8317a115ac89bc75d",
+    "text": "Elliptic Curve Cryptography (ECC)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "31cc5ca42d57112c980dab52643464b4",
+    "text": "majority of public-key cryptography (RSA, D-H) use either integer or polynomial arithmetic with very large numbers/polynomials",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "70ec2a9f3fdf4ec8317a115ac89bc75d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "50bb3fb299ffe37167c50e4bedaa65f6",
+    "text": "using very large numbers/polynomials imposes a significant load in storing and processing keys and messages",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "70ec2a9f3fdf4ec8317a115ac89bc75d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "61ff156dfd80a9e921c885b7e7a0e681",
+    "text": "an alternative to RSA is to use elliptic curve arithmetic that offers same security with smaller bit sizes",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "70ec2a9f3fdf4ec8317a115ac89bc75d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cd32400077e1df79b0af3989411a17e5",
+    "text": "ECC is newer, but not as well analyzed",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "70ec2a9f3fdf4ec8317a115ac89bc75d"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e2ee28886bd600bea15f3a1d9a132102",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d0cee158d25ffcc3e1c773e799ad24f6",
+    "text": "The security of ECC depends on how difficult it is to determine k given kP and P. This is referred to as the elliptic curve logarithm problem. The fastest known technique for taking the elliptic curve logarithm is known as the Pollard rho method. Compared to factoring integers or polynomials, can use much smaller numbers for equivalent levels of security.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0ca663fe295290568acef83305486889",
+    "text": "ECC Security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b45eaf6a41aec74bb1b7b29c57e34624",
+    "text": "relies on elliptic curve logarithm problem",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0ca663fe295290568acef83305486889"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "62518a4817ca2c17b15c9df688f01557",
+    "text": "compared to factoring, can use much smaller key sizes than with RSA etc.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b45eaf6a41aec74bb1b7b29c57e34624"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f86e252924a32a00a13ff2f8a35ffbc1",
+    "text": "for similar security ECC offers significant computational advantages",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b45eaf6a41aec74bb1b7b29c57e34624"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "da1ee6283bccb2f302650d92d139a007",
+    "text": "ECC provides the same applications as with RSA and ElGamal algorithms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b45eaf6a41aec74bb1b7b29c57e34624"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "16f31f8b6ad216eef1b237e7ecfab7eb",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3b4b09dd68cbb324421d4ce9a5000e24",
+    "text": "Stallings Table 10.3 - \u201c Comparable Key Sizes in Terms of Computational Effort for Cryptanalysis\u201d ompares various algorithms by showing comparable key sizes in terms of computational effort for cryptanalysis. As can be seen, a considerably smaller key size can be used for ECC compared to RSA. Furthermore, for equal key lengths, the computational effort required for ECC and RSA is comparable. Thus, there is a computational advantage to using ECC with a shorter key length than a comparably secure RSA.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8bb2757686be078b37e58c4070aa2ce2",
+    "text": "Each row in the table represents the needed number of bits \u201cn\u201d for the three shown encryption schemes.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d060a62be49b7d44878d6080af6855c8",
+    "text": "Smaller values of \u201cn\u201d means faster computations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "82ad2d1102b3f33932fc8e9421df5d9d",
+    "text": "Comparable Key Sizes for Equivalent Security",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "48faff4ec924a938a220913afe5c39d4",
+    "text": "Symmetric scheme ECC-based scheme RSA/DSA 56 112 512 80 160 1024 112 224 2048 128 256 3072 192 384 7680 256 512 15360",
+    "metadata": {
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "text_as_html": "<table><tr><td>Symmetric scheme<br/></td><td>ECC-based scheme<br/></td><td>RSA/DSA<br/></td></tr><tr><td>56</td><td>112</td><td>512</td></tr><tr><td>80</td><td>160</td><td>1024</td></tr><tr><td>112</td><td>224</td><td>2048</td></tr><tr><td>128</td><td>256</td><td>3072</td></tr><tr><td>192</td><td>384</td><td>7680</td></tr><tr><td>256</td><td>512</td><td>15360</td></tr></table>",
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "82ad2d1102b3f33932fc8e9421df5d9d"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d8aed011fedcd1f1f59d9ae062f29e87",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "04a9c778908a548a6f50da45e182b408",
+    "text": "We noted in Chapter 7 that, because a symmetric block cipher produces an apparently random output, it can serve as the basis of a pseudorandom number generator (PRNG). Similarly, an asymmetric encryption algorithm produces apparently random output and can be used to build a PRNG. Because asymmetric algorithms are typically much slower than symmetric algorithms, asymmetric algorithms are not used to generate open-ended PRNG bit streams. Rather, the asymmetric approach is useful for creating a pseudorandom function (PRF) for generating a short pseudorandom bit sequence.  In this section, we examine two PRNG designs based on pseudorandom functions.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b4ec300e6f16ac739ba364b541834de",
+    "text": "Pseudorandom Number Generation (PRNG) based on Asymmetric Ciphers",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f7391e0d558ff6b4603394ffcc0483bd",
+    "text": "asymmetric encryption algorithm such as RSA and ECC produce apparently random output ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b4ec300e6f16ac739ba364b541834de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8965f1f5a64cbc634dbcb33efd370d48",
+    "text": "hence can be used to build a pseudorandom number generator (PRNG)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b4ec300e6f16ac739ba364b541834de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bb5935485946646e3426c308db3c8a0d",
+    "text": "much slower than symmetric algorithms",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b4ec300e6f16ac739ba364b541834de"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f0e17dc111322ac3d3020ba7a3d8ecfe",
+    "text": "hence only use to generate a short pseudorandom bit sequence (e.g., key)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0b4ec300e6f16ac739ba364b541834de"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "68dfc1b34074068937513597045b96e4",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "55397401c3ac157452dbc3955b746d40",
+    "text": "For a sufficient key length, the RSA algorithm is considered secure and is a good candidate to form the basis of a PRNG. Such a PRNG, known as the Micali-Schnorr PRNG  is recommended in the ANSI standard X9.82 (Random Number Generation) and in the ISO standard 18031 (Random Bit Generation).  The PRNG is illustrated in Stallings Figure 10.8. This PRNG has much the same structure as the output feedback (OFB) mode used as a PRNG but using RSA instead of a block cipher. We can define the PRNG as follows:\nSETUP Select parameters per normal RSA key setup, with r + k =bitlength of n\nSEED   Select a random seed x  of bitlength the same as n\nGENERATE a pseudorandom sequence of length k x m using the loop:   \nfor i from 1 to m do the following:  \nyi  = xei-1  mod n   \nxi = r most significant bits of yi   \nzi = k least significant bits of yi  \nOUTPUT The output sequence is z1 || z2 || \u2026 || zm   \nThe parameters n, r, e, and k are selected to satisfy the six conditions detailed in the text. There is clearly a tradeoff between r and k. Because RSA is computationally intensive, we would like to generate as many pseudorandom bits per iteration as possible, and therefore would like a large value of k. However, for cryptographic strength, we would like r to be as large as possible.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0648053d9147798ebf8964a1b584c287",
+    "text": "       Micali-Schnorr PRNG using RSA",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fe2b8c24ea9559a7af15d2797133fbfd",
+    "text": "in ANSI X9.82 and ISO 18031",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0648053d9147798ebf8964a1b584c287"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "97b5cb3ddefac223f4b37e4b264e0bb2",
+    "text": "Zi = k least significant bits of encrypted value at ith step",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0648053d9147798ebf8964a1b584c287"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "19257283ee64b0573e28156a419d1ead",
+    "text": "",
+    "metadata": {
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "170a4691cf48a8185ef0b2cc8a0effaf",
+    "text": "Chapter 10 summary.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1b461aae6edb672632c905f2bbef96f2",
+    "text": "Summary",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "10173df84e38e29e28d407c7493c9e7f",
+    "text": "have considered:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1b461aae6edb672632c905f2bbef96f2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "228f8f1d436f72f340f5dca401dceaed",
+    "text": "Diffie-Hellman key exchange",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1b461aae6edb672632c905f2bbef96f2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9cda52c6d342e5a29e130ef69d8a7535",
+    "text": "ElGamal cryptography",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1b461aae6edb672632c905f2bbef96f2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2fbc758ee644a9ee9036ed089a7b2d48",
+    "text": "Elliptic Curve cryptography",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1b461aae6edb672632c905f2bbef96f2"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4450fc27ca535b68951d18f51f264a99",
+    "text": "Pseudorandom Number Generation (PRNG) based on Asymmetric Ciphers (RSA & ECC)",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 10 Diffie-Hellman - without audio.pptx",
+      "last_modified": "2025-01-15T14:23:13",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1b461aae6edb672632c905f2bbef96f2"
+    }
+  }
+]

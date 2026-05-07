@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bba7e88e-efd3-4bf8-99d1-ce907a367aee",
+    "text": "Object Oriented Programming (OOP) Dr. Abdurrahman A. Nasr Al-Azhar University Lecture 2 JDK and Data types Java Development Kit (JDK) • java: Serves as a Java interpreter used to run Java applications by reading and interpreting bytecode files • javac: Serves as a Java compiler used to translate Java source code files. • javadoc: Creates HTML documentation for Java source code files • javap: Serves as a Java disassemble used to convert bytecode files into a Java program description • jdb: Serves as a Java debugger used to find errors in Java programs • jar: Serves as archive used to package related class libraries into a single executable JAR file. = Java Virtual Machine (JVM)",
+    "chunk_index": 0,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "f1f4aa0a-af4e-481c-b472-92c0f9f77295",
+    "text": "Java Tokens Smallest individual element in java Keywords Identifiers Literals Constants Separators Operators l Java Tokens: Keywords Not to be used as identifiers List of reserved words for java compiler Java Tokens: Identifiers Symbolic name that refers to name of variables, methods, classes, packages, interfaces Consist of alphabets, numbers, underscore(_), and the dollar sign $ Can’t start with number Case sensitive, so move and Move are 2 different identifiers Camel case",
+    "chunk_index": 1,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "b9d64815-6766-4224-a322-debf87b14bdd",
+    "text": "\" Java Tokens: Literals Value assigned to a variable Can be changed depending on program requirement Based on the datatype, the literals can be ° Integer Literals • Floating Point Literals • Boolean Literals 24 124.543 true |l v ] \"hello” // an int literal // a double literal // boolean literal // a char literal // a string literal • Character Literals Insert a tab in the text at this point. Insert backspace in the text at this point. = Insert newline in the text at this point. Insert carriage return in the text at this point. Insert formfeed in the text at this point. Insert single quote character in the text at this point Insert oint. double quote character in the text at this p backslash character in the tet at this point. \\b • String Literals \\ ~ / t _af \\\\ N",
+    "chunk_index": 2,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "3910d4d7-e6e1-4abe-8fbd-06c03b8b4195",
+    "text": "= = Java Tokens: Separators S’ Separators and symbols that are used to structure a java program in a well defined manner • Parentheses ( ) • Braces [ ] • Brackets { } public class HelloWorld{ • Semicolon ; Colon: public static void main(String []args){ - - String hi \"Hello World!\"; boolean longWlord = hi.length() > 2@ ? true : false; System.out.printf( (-] s %s\", data, longlord); } Period. } Comma, • Question mark ? ~ = Data types Primitive datatypes - Integer, Floating, Character, Boolean. Referential datatypes - Arrays, Class objects",
+    "chunk_index": 3,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "222e9510-1403-4389-9fe0-f79876c9bebd",
+    "text": "’ o Integer datatypes. Data types byte x short sum; int age long milliseconds; Data Type Representation Width (Bytes) Range T s -9.223,372,036,854,775,808(-263) to 9,223 372,036,854,775,80(23 -1) Floating point datatypes. Data Type Representation Range float -1.5* 10245 to 1.5 * 10445 double TR . -5.0* 107324 to 5.0 * 104324 — float height //incorrect float height = //correct double pi 3 //correc t double pi n 3.14d; //correc =4 Data types Reference datatypes Created using defined constructors of the classes Default value is `null` Animal animal = new Animal(\"giraffe\"); Default values Data Type Default Value (for fields) 0 short byte 0 int 0 long OL float 0.0f double 0.0d char 'm0000\" String (or any object) null boolean false ~ ) Operators Operators",
+    "chunk_index": 4,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "1f01fcf4-c5a8-44e1-8326-4e5908587082",
+    "text": "W \\ / Operators Boolean logical » These operators operate on boolean operands only ° Logical AND {&) o Logical OR ([} 0 Logical XOR (%) Bitwise 0 0 0 0 0 0 Logical Unary NOT (1) Short circuit AND (&&) Short circuit OR (][ AND assignment (&=) OR assignment ([=) XOR assignment (=) » These operators perform on the individual bits of their operands ° AND (&) L- - - OR () XOR () Right Shift (>>) Left Shift(<<) 0 Equal to (==) © Not Equal to {1=) Increment and Decrement = Unary operators. There are two kinds, prefix and postfix. In prefix method, the value of the operand is incremented or decremented before assigning the postfix method the value of the operand is incremented or decremented after assigning it to a variable. in o Increment(++x, x++) o Decrement(-x, x—) Conditional « |tis aternary",
+    "chunk_index": 5,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "796ab290-88aa-4717-bbfd-8d8d51df9521",
+    "text": "operator and works as an if else statement (?:) o operand! ? operand2 : operand3 o operand is a valid boolean expression. If it is true then is evalated, h operand3 will be o Ega={x<y)?x:y L ) \\ = it N ).",
+    "chunk_index": 6,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "eb7e1129-f6c9-478b-b199-a7971afa2292",
+    "text": "Branching and looping IF o = 4 s e _ Xpression 5 t ue IFELSE e when the) [Boolean expression is true} when the) Boolean expression is fal = W2 se} ° ul IF ELSE ‘Booleanexpression { when the Bool ey pression else if(Boolean expressi Jxecutes when the Boo pression 2 true} if(Booleanexpression ____ = when) th Boolean @Xp = _. = LUL 551on 3 ds true} Wi when [none ©f he bove condition 4s rue. o Nested IF ELSE Wi 2){ } ) /4",
+    "chunk_index": 7,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "bb93afee-72e3-4a22-b436-78baa2f0a50f",
+    "text": "o Branching and looping switch{expression){ case value [ JStatements break; //optional ase valug [ Statements break //optional #¥ou can have any number’ ©of case stat ements. L= default @ //Optional Statements WHILE When executing, if the boolean_expression result is true then the actions inside the loop will be executed. This will DO-WHILE The Boolean expression appears at the end of the loop, so the statements in the loop execute once before the Boolean do, and the statements in the loop execute again. This process repeats until the Boolean expression is false. oot contin FOR FOR EACH Stack and Heap ’ Stack and Heap",
+    "chunk_index": 8,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "b716ce43-011d-44d2-b2ef-9d9dac4d2d36",
+    "text": "Stack and Heap Heap String[] String char] char[] value = J'h'o i «_ @@ @@ Employee String charf] name = char[] value = _ Ssn = Employee el = emailAddress = String char] char] value = ,,, l|l|l|ll earOfBirth = 0 L L Employee String name = char[] value = | |I | Ssn = cecscscsessce emailAddress = nul | String char(] P i hd r Employee €3 = |I earOfBirth = 1974 char[] value = '4'5' 6\" - 7' 8- 9\" \" || | |",
+    "chunk_index": 9,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "cb5b99d7-86e4-4057-919a-27d660a6170e",
+    "text": "/\" String class Array of characters | Declaration 𝑆𝑡𝑟𝑖𝑛𝑔 𝑛𝑎𝑚𝑒; //𝑏𝑦 𝑑𝑒𝑓𝑎𝑢𝑙𝑡 ′𝑛𝑢𝑙𝑙′ Initialization 𝑆𝑡𝑟𝑖𝑛𝑔 𝑛𝑎𝑚𝑒 = \"Mohamed\"; | Class publie final class String { // constructors public String(): public String(String value): // instance methods = public String concat(String str); public int length(); char newChar) : public String replace(char oldChar public String toUpperCase(): ~ ) Method and Parameters SYNTAX Method nu modifier(s) return-type method-name(formal-parameter-1ist)| Modifiers: visibility of the method, public, private, package, and protected Return-type: value data type returned after method exec Parameter-list: declares the data variables that are passed to and used by the method method-name ~ N",
+    "chunk_index": 10,
+    "source_file": "2nd_OOP_lec2"
+  },
+  {
+    "id": "3d1d2345-3257-4cae-bcc2-d48144d9682f",
+    "text": "/\" Constructor Used to instantiate and instance of a class (i.e. object) Allocate a new memory storage using “new” keyword Special shortcut for the String class SYNTAX IO OO Instantiation: object-name = mnew lass-constructor() object-name = ~— new class-constructor(argument-1ist); where argument-1ist consists of one or more values used by the con- structor to initialize the data of the object. alphabet — — new String(): — alphabet new String(\"abedefghijklmnopqretuvwxyz\") : Strin alphabet = . \"abcdefghijklmnopqrstuvwxyz N \\ ) Instance method Method inside class that behaves differently for each class instance (i.e. object) ) Lab Instance method References Tutorials point How to do in Java OOP course notes",
+    "chunk_index": 11,
+    "source_file": "2nd_OOP_lec2"
+  }
+]

@@ -1,0 +1,5230 @@
+[
+  {
+    "type": "Title",
+    "element_id": "7d6098a902207a6387eb653e9fdf0168",
+    "text": "Protocol Architecture, TCP/IP, and Internet- Based Applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.416,
+            109.86000000000001
+          ],
+          [
+            79.416,
+            315.32
+          ],
+          [
+            654.8899200000001,
+            315.32
+          ],
+          [
+            654.8899200000001,
+            109.86000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "85a6845ba44ce0720691c43eaa204d56",
+    "text": "CHAPTER 2",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            553.3,
+            368.962
+          ],
+          [
+            553.3,
+            392.986
+          ],
+          [
+            663.017608,
+            392.986
+          ],
+          [
+            663.017608,
+            368.962
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "af7823b9936092aaacfb2dd32c37df45",
+    "text": "The Need for a Protocol Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            75.84,
+            63.76600000000002
+          ],
+          [
+            75.84,
+            99.76600000000002
+          ],
+          [
+            644.438,
+            99.76600000000002
+          ],
+          [
+            644.438,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "68712a8bf86eb7e15add1ae8d5fb148d",
+    "text": "1) The source must activate communications path or inform the network of destination",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.896,
+            136.05200000000002
+          ],
+          [
+            85.896,
+            230.54000000000002
+          ],
+          [
+            336.19536000000005,
+            230.54000000000002
+          ],
+          [
+            336.19536000000005,
+            136.05200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "parent_id": "af7823b9936092aaacfb2dd32c37df45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a7454712c5d2b945ef4c79fa55611baa",
+    "text": "2) The source system must check the destination is prepared to receive data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            393.02,
+            148.16999999999996
+          ],
+          [
+            393.02,
+            218.51
+          ],
+          [
+            634.99724,
+            218.51
+          ],
+          [
+            634.99724,
+            148.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "parent_id": "af7823b9936092aaacfb2dd32c37df45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ec7b2ee568cfddaceb8363a0daf94877",
+    "text": "To transfer data several tasks must be performed:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            251.71,
+            260.66400000000004
+          ],
+          [
+            251.71,
+            334.36400000000003
+          ],
+          [
+            474.340408,
+            334.36400000000003
+          ],
+          [
+            474.340408,
+            260.66400000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "parent_id": "af7823b9936092aaacfb2dd32c37df45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4a6c78aac88ff25c85638669655ee3a3",
+    "text": "3) The file transfer application on the source must check destination file management system is prepared to accept and store the file for this user",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.976,
+            352.78999999999996
+          ],
+          [
+            74.976,
+            471.498
+          ],
+          [
+            347.04148000000004,
+            471.498
+          ],
+          [
+            347.04148000000004,
+            352.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "parent_id": "af7823b9936092aaacfb2dd32c37df45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "63b16ae7e30d2f16a005d00905635708",
+    "text": "4) May need file format translation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            406.46,
+            389.06
+          ],
+          [
+            406.46,
+            435.26
+          ],
+          [
+            621.49664,
+            435.26
+          ],
+          [
+            621.49664,
+            389.06
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 2,
+      "parent_id": "af7823b9936092aaacfb2dd32c37df45",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bf97cf75247af6bfe2aac1729d8394af",
+    "text": "Communications Protocols",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            152.9,
+            63.76600000000002
+          ],
+          [
+            152.9,
+            99.76600000000002
+          ],
+          [
+            567.116,
+            99.76600000000002
+          ],
+          [
+            567.116,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "09483671699ee3c37d441ae7b31d3fbf",
+    "text": "All communications are governed by protocols.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            130.01000000000005
+          ],
+          [
+            49.2,
+            154.15400000000005
+          ],
+          [
+            525.142,
+            154.15400000000005
+          ],
+          [
+            525.142,
+            130.01000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 3,
+      "parent_id": "bf97cf75247af6bfe2aac1729d8394af",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "38ee1b57482a20bb411b8abf3d8917b7",
+    "text": "Protocols are the rules that communications will follow.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            184.15000000000003
+          ],
+          [
+            49.2,
+            208.29400000000004
+          ],
+          [
+            622.66,
+            208.29400000000004
+          ],
+          [
+            622.66,
+            184.15000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 3,
+      "parent_id": "bf97cf75247af6bfe2aac1729d8394af",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9d39a0ea89891db09c7a020c067527b9",
+    "text": "These rules will vary depending on the protocol.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            238.15000000000003
+          ],
+          [
+            49.2,
+            262.29400000000004
+          ],
+          [
+            547.63,
+            262.29400000000004
+          ],
+          [
+            547.63,
+            238.15000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 3,
+      "parent_id": "bf97cf75247af6bfe2aac1729d8394af",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c9f56d10ab949c4044433b120c55eebe",
+    "text": "Rule Establishment (Cont.)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.5,
+            39.21600000000001
+          ],
+          [
+            150.5,
+            75.21600000000001
+          ],
+          [
+            569.642,
+            75.21600000000001
+          ],
+          [
+            569.642,
+            39.21600000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "039476c984e61c98675e373aca4cbc0a",
+    "text": "Protocols must account for the following requirements:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.912,
+            127.48054400000001
+          ],
+          [
+            27.912,
+            155.464544
+          ],
+          [
+            646.162512,
+            155.464544
+          ],
+          [
+            646.162512,
+            127.48054400000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "parent_id": "c9f56d10ab949c4044433b120c55eebe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cd751d41839466c5cbaa86f6efad38d0",
+    "text": "An identified sender and receiver",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.912,
+            181.72160000000002
+          ],
+          [
+            54.912,
+            209.84936
+          ],
+          [
+            441.12124,
+            209.84936
+          ],
+          [
+            441.12124,
+            181.72160000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "parent_id": "c9f56d10ab949c4044433b120c55eebe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a23f8bb5179645ffbb3a7e81a8b53f6e",
+    "text": "Common language and grammar",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.912,
+            236.20160000000004
+          ],
+          [
+            54.912,
+            264.32936
+          ],
+          [
+            435.5682,
+            264.32936
+          ],
+          [
+            435.5682,
+            236.20160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "parent_id": "c9f56d10ab949c4044433b120c55eebe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a7f2a1d7dfeca5764d53fc65ecc1c0ee",
+    "text": "Speed and timing of delivery",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.912,
+            290.5816
+          ],
+          [
+            54.912,
+            318.70935999999995
+          ],
+          [
+            393.3654,
+            318.70935999999995
+          ],
+          [
+            393.3654,
+            290.5816
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "parent_id": "c9f56d10ab949c4044433b120c55eebe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f7e969af8aae2b812042bb34875f1ef1",
+    "text": "Confirmation or acknowledgment requirements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.912,
+            344.9416
+          ],
+          [
+            54.912,
+            373.06935999999996
+          ],
+          [
+            600.51664,
+            373.06935999999996
+          ],
+          [
+            600.51664,
+            344.9416
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 4,
+      "parent_id": "c9f56d10ab949c4044433b120c55eebe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5aec08bb1e318440b1ca1acc8a4fe905",
+    "text": "Network Protocol Requirements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            111.6,
+            51.21600000000001
+          ],
+          [
+            111.6,
+            87.21600000000001
+          ],
+          [
+            608.402,
+            87.21600000000001
+          ],
+          [
+            608.402,
+            51.21600000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "95b033026c564f87c3ab9e7b3e98bd81",
+    "text": "Common computer protocols must agree and include the following",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.184,
+            143.185184
+          ],
+          [
+            44.184,
+            167.209184
+          ],
+          [
+            693.2884559999999,
+            167.209184
+          ],
+          [
+            693.2884559999999,
+            143.185184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "5aec08bb1e318440b1ca1acc8a4fe905",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "742144080299be04d6e29fcab8bbcda8",
+    "text": "requirements:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.184,
+            186.43400000000003
+          ],
+          [
+            44.184,
+            210.43400000000003
+          ],
+          [
+            182.184,
+            210.43400000000003
+          ],
+          [
+            182.184,
+            186.43400000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "68ba5abf3f6ba6c1602a0b920b4119e1",
+    "text": "Message encoding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.184,
+            233.45000000000005
+          ],
+          [
+            71.184,
+            257.59400000000005
+          ],
+          [
+            262.778,
+            257.59400000000005
+          ],
+          [
+            262.778,
+            233.45000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "742144080299be04d6e29fcab8bbcda8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0e4a8de27bc66e8c2aced49263fa22db",
+    "text": "Message formatting and encapsulation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.184,
+            280.71104
+          ],
+          [
+            71.184,
+            304.879184
+          ],
+          [
+            454.59363199999996,
+            304.879184
+          ],
+          [
+            454.59363199999996,
+            280.71104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "742144080299be04d6e29fcab8bbcda8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ceef6abe80f882bf3b50f256570eb471",
+    "text": "Message size",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.184,
+            327.90999999999997
+          ],
+          [
+            71.184,
+            352.054
+          ],
+          [
+            212.114,
+            352.054
+          ],
+          [
+            212.114,
+            327.90999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "742144080299be04d6e29fcab8bbcda8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "62b9c16d3237b3143cf20f5a043ea636",
+    "text": "Message timing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.184,
+            375.07
+          ],
+          [
+            71.184,
+            399.214
+          ],
+          [
+            237.36200000000002,
+            399.214
+          ],
+          [
+            237.36200000000002,
+            375.07
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "742144080299be04d6e29fcab8bbcda8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2560c599f02330b106446d804b820574",
+    "text": "Message delivery options",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.184,
+            422.376
+          ],
+          [
+            71.184,
+            446.52
+          ],
+          [
+            329.95400000000006,
+            446.52
+          ],
+          [
+            329.95400000000006,
+            422.376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 5,
+      "parent_id": "742144080299be04d6e29fcab8bbcda8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2bc72955dff011d5f3b493966945132d",
+    "text": "Network Protocol Functions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.92,
+            40.90063999999995
+          ],
+          [
+            40.92,
+            72.94063999999997
+          ],
+          [
+            426.26084,
+            72.94063999999997
+          ],
+          [
+            426.26084,
+            40.90063999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "54d94409d921d91b63a9a8620efc9475",
+    "text": "Devices use agreed-upon protocols to communicate.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.768,
+            115.10840000000002
+          ],
+          [
+            27.768,
+            156.86864000000003
+          ],
+          [
+            326.75775999999996,
+            156.86864000000003
+          ],
+          [
+            326.75775999999996,
+            115.10840000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "parent_id": "2bc72955dff011d5f3b493966945132d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "287f1918fa28a500eafc5f4cbe25a588",
+    "text": "Protocols may have one or more functions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.768,
+            166.32944000000003
+          ],
+          [
+            27.768,
+            208.13864
+          ],
+          [
+            310.492192,
+            208.13864
+          ],
+          [
+            310.492192,
+            166.32944000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "parent_id": "2bc72955dff011d5f3b493966945132d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f92143ba75c721de1386be7cf44b933",
+    "text": "Function",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            256.84999999999997
+          ],
+          [
+            36.912,
+            272.81
+          ],
+          [
+            94.63932000000001,
+            272.81
+          ],
+          [
+            94.63932000000001,
+            256.84999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c3eb1bc36de3c225d694c33957c65ffc",
+    "text": "Description",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            256.84999999999997
+          ],
+          [
+            222.1,
+            272.81
+          ],
+          [
+            297.95788,
+            272.81
+          ],
+          [
+            297.95788,
+            256.84999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c18d6ff620f4cfe3ea16451f81ce0730",
+    "text": "Addressing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            283.25
+          ],
+          [
+            36.912,
+            299.21000000000004
+          ],
+          [
+            108.22044000000001,
+            299.21000000000004
+          ],
+          [
+            108.22044000000001,
+            283.25
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "baafa6f48a8562c60aaac04b7b0aac02",
+    "text": "Identifies sender and receiver",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            283.25
+          ],
+          [
+            222.1,
+            299.21000000000004
+          ],
+          [
+            414.52204,
+            299.21000000000004
+          ],
+          [
+            414.52204,
+            283.25
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "10c63ab8b084db280c25caf47d084b86",
+    "text": "Reliability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            309.632
+          ],
+          [
+            36.912,
+            325.616
+          ],
+          [
+            100.36089599999998,
+            325.616
+          ],
+          [
+            100.36089599999998,
+            309.632
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7ded2ab9db2c17faaf2ed889a98f1c8a",
+    "text": "Provides guaranteed delivery",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            309.632
+          ],
+          [
+            222.1,
+            325.616
+          ],
+          [
+            410.695216,
+            325.616
+          ],
+          [
+            410.695216,
+            309.632
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "parent_id": "10c63ab8b084db280c25caf47d084b86",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2171ea4f773583281822894241d4abdb",
+    "text": "Flow Control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            336.08000000000004
+          ],
+          [
+            36.912,
+            352.04
+          ],
+          [
+            119.38764,
+            352.04
+          ],
+          [
+            119.38764,
+            336.08000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "500156bd27f330a5c4340dc9abd5e113",
+    "text": "Ensures data flows at an efficient rate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            336.08000000000004
+          ],
+          [
+            222.1,
+            352.04
+          ],
+          [
+            465.51096,
+            352.04
+          ],
+          [
+            465.51096,
+            336.08000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "459385d686a5c57e9ba246de24e40503",
+    "text": "Sequencing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            362.48
+          ],
+          [
+            36.912,
+            378.44
+          ],
+          [
+            111.58320000000002,
+            378.44
+          ],
+          [
+            111.58320000000002,
+            362.48
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d09a53479750a0ee37aaaa87c3d56f42",
+    "text": "Uniquely labels each transmitted segment of data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            362.48
+          ],
+          [
+            222.1,
+            378.44
+          ],
+          [
+            544.10896,
+            378.44
+          ],
+          [
+            544.10896,
+            362.48
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "parent_id": "459385d686a5c57e9ba246de24e40503",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6d24123c58feb09e9021903e9e588111",
+    "text": "Error Detection",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            388.88
+          ],
+          [
+            36.912,
+            404.84000000000003
+          ],
+          [
+            136.92888,
+            404.84000000000003
+          ],
+          [
+            136.92888,
+            388.88
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c77ca4731237a188c05a8b584c011c06",
+    "text": "Determines if data became corrupted during transmission",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            388.88
+          ],
+          [
+            222.1,
+            404.84000000000003
+          ],
+          [
+            596.69716,
+            404.84000000000003
+          ],
+          [
+            596.69716,
+            388.88
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "parent_id": "6d24123c58feb09e9021903e9e588111",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5423071369a21f1853e828b0b1172cda",
+    "text": "Application Interface",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            36.912,
+            415.262
+          ],
+          [
+            36.912,
+            431.246
+          ],
+          [
+            171.70632,
+            431.246
+          ],
+          [
+            171.70632,
+            415.262
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dfafa28280facbfdb4a55139c26adabc",
+    "text": "Process-to-process communications between network applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            222.1,
+            415.262
+          ],
+          [
+            222.1,
+            431.246
+          ],
+          [
+            655.9703679999998,
+            431.246
+          ],
+          [
+            655.9703679999998,
+            415.262
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5c9b1548c3af419db9a1f99477fc6b63",
+    "text": "Protocol Interaction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            199.61,
+            58.17599999999999
+          ],
+          [
+            199.61,
+            94.17599999999999
+          ],
+          [
+            509.966,
+            94.17599999999999
+          ],
+          [
+            509.966,
+            58.17599999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "15b7844b96d263594284817780130aa9",
+    "text": "Networks require the use of several protocols. \u2022Each protocol has its own function and format.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.424,
+            137.15264000000002
+          ],
+          [
+            41.424,
+            203.60935999999998
+          ],
+          [
+            580.23,
+            203.60935999999998
+          ],
+          [
+            580.23,
+            137.15264000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "parent_id": "5c9b1548c3af419db9a1f99477fc6b63",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "29ec84ee9422c527a1d1a20be94e1630",
+    "text": "Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.624,
+            239.29000000000002
+          ],
+          [
+            57.624,
+            257.29
+          ],
+          [
+            120.49800000000002,
+            257.29
+          ],
+          [
+            120.49800000000002,
+            239.29000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1f34ca37e26e9c42ddff57fbe297342b",
+    "text": "Hypertext Transfer Protocol (HTTP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.624,
+            268.12
+          ],
+          [
+            57.624,
+            286.12
+          ],
+          [
+            317.0759999999999,
+            286.12
+          ],
+          [
+            317.0759999999999,
+            268.12
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7c8575f9dc56bf887df893d60c77d199",
+    "text": "Transmission Control Protocol (TCP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.624,
+            296.91999999999996
+          ],
+          [
+            57.624,
+            314.91999999999996
+          ],
+          [
+            322.7639999999999,
+            314.91999999999996
+          ],
+          [
+            322.7639999999999,
+            296.91999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e401acef3f8e25a90758731488a475f",
+    "text": "Internet Protocol (IP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.624,
+            325.72
+          ],
+          [
+            57.624,
+            343.72
+          ],
+          [
+            214.368,
+            343.72
+          ],
+          [
+            214.368,
+            325.72
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8f7a5e9b9623337fd37566a05859138e",
+    "text": "Ethernet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            57.624,
+            354.52
+          ],
+          [
+            57.624,
+            372.52
+          ],
+          [
+            122.406,
+            372.52
+          ],
+          [
+            122.406,
+            354.52
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f0757796effa9dd8bc916d9aa1bd4d76",
+    "text": "Elements of a Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            192.91,
+            38.636000000000024
+          ],
+          [
+            192.91,
+            74.63600000000002
+          ],
+          [
+            539.158,
+            74.63600000000002
+          ],
+          [
+            539.158,
+            38.636000000000024
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "289f2f7c7de5c907e779194693a10f84",
+    "text": "A protocol is a set of rules that allow peer layers to communicate The key features of a protocol are:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.2,
+            101.084
+          ],
+          [
+            49.2,
+            159.04400000000004
+          ],
+          [
+            672.0000000000002,
+            159.04400000000004
+          ],
+          [
+            672.0000000000002,
+            101.084
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "parent_id": "f0757796effa9dd8bc916d9aa1bd4d76",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "61b57768f7e120d27b168728105af526",
+    "text": "Syntax",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.416,
+            230.35000000000002
+          ],
+          [
+            85.416,
+            266.35
+          ],
+          [
+            180.456,
+            266.35
+          ],
+          [
+            180.456,
+            230.35000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a4cb831e607a2f1901cf3875e50178a",
+    "text": "Semantics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            279.65,
+            230.35000000000002
+          ],
+          [
+            279.65,
+            266.35
+          ],
+          [
+            428.40200000000004,
+            266.35
+          ],
+          [
+            428.40200000000004,
+            230.35000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d027f521d490c5d511815309767d8335",
+    "text": "Timing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            525.74,
+            230.35000000000002
+          ],
+          [
+            525.74,
+            266.35
+          ],
+          [
+            624.452,
+            266.35
+          ],
+          [
+            624.452,
+            230.35000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8c9d0bc793384012dd65190f7da9fb21",
+    "text": "Format of data blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            60.744,
+            359.64
+          ],
+          [
+            60.744,
+            410.03999999999996
+          ],
+          [
+            210.38400000000001,
+            410.03999999999996
+          ],
+          [
+            210.38400000000001,
+            359.64
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "80cb9a8b99ea412d57511b9d1c8e8405",
+    "text": "Control information and error handling",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            296.52,
+            333.26
+          ],
+          [
+            296.52,
+            436.346
+          ],
+          [
+            417.072,
+            436.346
+          ],
+          [
+            417.072,
+            333.26
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f8d999ed93f868641ea3f429fc93474f",
+    "text": "Speed matching and sequencing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            508.87,
+            346.44
+          ],
+          [
+            508.87,
+            423.14
+          ],
+          [
+            646.8158080000001,
+            423.14
+          ],
+          [
+            646.8158080000001,
+            346.44
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "22e1febcd0ac9deded77c659e82a25f9",
+    "text": "Elements of a Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            186.86,
+            63.76600000000002
+          ],
+          [
+            186.86,
+            99.76600000000002
+          ],
+          [
+            533.1080000000001,
+            99.76600000000002
+          ],
+          [
+            533.1080000000001,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2b3e1fc8693b8f1f98395e099dffd2b8",
+    "text": "Syntax: structure or format of data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.2,
+            130.85840000000002
+          ],
+          [
+            70.2,
+            154.03663999999998
+          ],
+          [
+            403.6292,
+            154.03663999999998
+          ],
+          [
+            403.6292,
+            130.85840000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7e1be0d744ae3d2ee8c3a763407fb956",
+    "text": "Example: 8-bits address of sender, 8-bits address of receiver",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            159.57103999999998
+          ],
+          [
+            97.224,
+            180.721184
+          ],
+          [
+            617.394832,
+            180.721184
+          ],
+          [
+            617.394832,
+            159.57103999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "47b8e648f6f5bba8c0278bfc1750a4c6",
+    "text": "Semantics: meaning of each section of bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.2,
+            213.08840000000004
+          ],
+          [
+            70.2,
+            236.26664
+          ],
+          [
+            481.14344000000006,
+            236.26664
+          ],
+          [
+            481.14344000000006,
+            213.08840000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f2d7fd3d47d5c05604fa21f17f5455b7",
+    "text": "Example: Does the address is a route to be taken or the final destination of the message",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            241.82000000000005
+          ],
+          [
+            97.224,
+            285.63118399999996
+          ],
+          [
+            621.7520000000002,
+            285.63118399999996
+          ],
+          [
+            621.7520000000002,
+            241.82000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f2261fd02a46339a331c500a8ea58d49",
+    "text": "Timing: when data should be sent and how fast they can be sent",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.2,
+            317.9884
+          ],
+          [
+            70.2,
+            366.00664
+          ],
+          [
+            642.17176,
+            366.00664
+          ],
+          [
+            642.17176,
+            317.9884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e0ee98833438247d24ed17c7d03af7cb",
+    "text": "Example: sender produces data at 100 Mbps but the receiver can process data at only 1 Mbps \uf0de overload and data loose",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            97.224,
+            371.56
+          ],
+          [
+            97.224,
+            415.491184
+          ],
+          [
+            658.9849999999999,
+            415.491184
+          ],
+          [
+            658.9849999999999,
+            371.56
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 9,
+      "parent_id": "22e1febcd0ac9deded77c659e82a25f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fae7c485bfb0b4ddd865e64fb3561753",
+    "text": "Network Models",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.18,
+            59.69943999999998
+          ],
+          [
+            191.18,
+            103.76344
+          ],
+          [
+            528.7983680000001,
+            103.76344
+          ],
+          [
+            528.7983680000001,
+            59.69943999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "90c2b3d6309c0b4e10dffcb4d7b90840",
+    "text": "Seven layers of the OSI model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            139.22,
+            41.410639999999944
+          ],
+          [
+            139.22,
+            73.45063999999996
+          ],
+          [
+            536.9004799999999,
+            73.45063999999996
+          ],
+          [
+            536.9004799999999,
+            41.410639999999944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "30d8dfc5306d5487b86496c7d872a836",
+    "text": "An exchange using the OSI model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            130.56,
+            33.46064000000001
+          ],
+          [
+            130.56,
+            65.50063999999998
+          ],
+          [
+            583.1890799999999,
+            65.50063999999998
+          ],
+          [
+            583.1890799999999,
+            33.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 12,
+      "parent_id": "90c2b3d6309c0b4e10dffcb4d7b90840",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "e70da25465c0d58e0155535de4f302f2",
+    "text": "2.13",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1725435440b339dcbc8d3a20698518ef",
+    "text": "Physical layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            265.25,
+            44.69936000000001
+          ],
+          [
+            265.25,
+            72.65935999999999
+          ],
+          [
+            427.52984000000004,
+            72.65935999999999
+          ],
+          [
+            427.52984000000004,
+            44.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8a289cd86b23e633d78b8e4a3159e42f",
+    "text": "The physical layer is responsible for movements of individual bits from one hop (node) to the next.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.67,
+            102.50400000000002
+          ],
+          [
+            114.67,
+            155.30400000000003
+          ],
+          [
+            605.2540000000001,
+            155.30400000000003
+          ],
+          [
+            605.2540000000001,
+            102.50400000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 13,
+      "parent_id": "1725435440b339dcbc8d3a20698518ef",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8e5c016fa9f75ca3c5a37c87e10adcfb",
+    "text": "Data link layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            228.63048,
+            71.50063999999998
+          ],
+          [
+            228.63048,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d96bb7bd8db9a40ebab22615898aaf5d",
+    "text": "The data link layer is responsible for moving frames from one hop (node) to the next.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            144.67,
+            423.288
+          ],
+          [
+            144.67,
+            476.08799999999997
+          ],
+          [
+            581.1820000000001,
+            476.08799999999997
+          ],
+          [
+            581.1820000000001,
+            423.288
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 14,
+      "parent_id": "8e5c016fa9f75ca3c5a37c87e10adcfb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "4adcf9c17c568af775fa28074c668dc1",
+    "text": "2.14",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eea1b3b1f2bcd558c51866565c12fb72",
+    "text": "Hop-to-hop delivery",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            295.31672,
+            71.50063999999998
+          ],
+          [
+            295.31672,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "13eefe38e930c28b360337aed5b24af0",
+    "text": "2.15",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "452464d205eb760f60d86ae5ce70d444",
+    "text": "Network layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            217.22424000000004,
+            71.50063999999998
+          ],
+          [
+            217.22424000000004,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e6c0f810f77c365e92829bbf567ca447",
+    "text": "The network layer is responsible for the delivery of individual packets from the source host to the destination host.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            156.79,
+            400.534
+          ],
+          [
+            156.79,
+            482.13599999999997
+          ],
+          [
+            545.0380000000001,
+            482.13599999999997
+          ],
+          [
+            545.0380000000001,
+            400.534
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 16,
+      "parent_id": "452464d205eb760f60d86ae5ce70d444",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f3eb1973f924c837fc25bcef1f604efd",
+    "text": "2.16",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cfbd082d90d399ccf0552ef8bb562c83",
+    "text": "Source-to-destination delivery",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            38.69936000000001
+          ],
+          [
+            31.2,
+            66.65935999999999
+          ],
+          [
+            377.03900000000004,
+            66.65935999999999
+          ],
+          [
+            377.03900000000004,
+            38.69936000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "ee13be5d77e10da73e66a4400c553a0a",
+    "text": "2.17",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bcb3cae52379d03c82eeb0e28a511125",
+    "text": "Transport layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            33.46064000000001
+          ],
+          [
+            31.2,
+            65.50063999999998
+          ],
+          [
+            235.58316,
+            65.50063999999998
+          ],
+          [
+            235.58316,
+            33.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "21fa38c5f826cb2eff782475e89be392",
+    "text": "The transport layer is responsible for the delivery of a message from one process to another.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            118.49,
+            106.964
+          ],
+          [
+            118.49,
+            159.764
+          ],
+          [
+            598.0820000000002,
+            159.764
+          ],
+          [
+            598.0820000000002,
+            106.964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 18,
+      "parent_id": "bcb3cae52379d03c82eeb0e28a511125",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "610fdfa8fdbf4c1365a2db6fa4129d4b",
+    "text": "2.18",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4268a447225045aed92ce8b886216e23",
+    "text": "Session layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.22,
+            51.46064000000001
+          ],
+          [
+            235.22,
+            83.50063999999998
+          ],
+          [
+            408.97292,
+            83.50063999999998
+          ],
+          [
+            408.97292,
+            51.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "06703a21c5cd745ce4ff9608b754c9c0",
+    "text": "The session layer is responsible for dialog control and synchronization.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            151.13,
+            115.964
+          ],
+          [
+            151.13,
+            168.769184
+          ],
+          [
+            560.8820000000002,
+            168.769184
+          ],
+          [
+            560.8820000000002,
+            115.964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 19,
+      "parent_id": "4268a447225045aed92ce8b886216e23",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "28efd730853bdac63fd12e33e8882d67",
+    "text": "Presentation layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            272.20488,
+            71.50063999999998
+          ],
+          [
+            272.20488,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "781ea397ce9a5ef5713e80abc3dcb432",
+    "text": "The presentation layer is responsible for translation, compression, and encryption.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            107.47,
+            397.995184
+          ],
+          [
+            107.47,
+            450.84000000000003
+          ],
+          [
+            612.4732799999999,
+            450.84000000000003
+          ],
+          [
+            612.4732799999999,
+            397.995184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 20,
+      "parent_id": "28efd730853bdac63fd12e33e8882d67",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e269a002fc175e5e49b23f2fc891cf52",
+    "text": "Application layer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            258.01116,
+            71.50063999999998
+          ],
+          [
+            258.01116,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fdba4d4f0ed70c507368fe67464e6ce2",
+    "text": "The application layer is responsible for providing services to the user.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            161.47,
+            91.964
+          ],
+          [
+            161.47,
+            144.764
+          ],
+          [
+            542.1340000000001,
+            144.764
+          ],
+          [
+            542.1340000000001,
+            91.964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 21,
+      "parent_id": "e269a002fc175e5e49b23f2fc891cf52",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5889acf5bdf155457f7476753f0aafed",
+    "text": "Summary of layers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            33.46064000000001
+          ],
+          [
+            31.2,
+            65.50063999999998
+          ],
+          [
+            280.24692,
+            65.50063999999998
+          ],
+          [
+            280.24692,
+            33.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "d289203be829f01ded9297a2a67a2f39",
+    "text": "2.22",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "104239214edfe89b95698fa9d30c9cc0",
+    "text": "OSI and TCP/IP Model Comparison",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.28,
+            63.76600000000002
+          ],
+          [
+            80.28,
+            99.76600000000002
+          ],
+          [
+            639.7199999999999,
+            99.76600000000002
+          ],
+          [
+            639.7199999999999,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b2ee69837f730003fdaf18b75e237a8e",
+    "text": "TCP/IP Five-Layer Model",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.38,
+            63.55000000000001
+          ],
+          [
+            150.38,
+            99.55000000000001
+          ],
+          [
+            569.7620000000001,
+            99.55000000000001
+          ],
+          [
+            569.7620000000001,
+            63.55000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5a5637e594b612f38323b64cf7d4c5e8",
+    "text": "Relationship of layers and addresses in TCP/IP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            31.2,
+            39.46064000000001
+          ],
+          [
+            31.2,
+            71.50063999999998
+          ],
+          [
+            655.71184,
+            71.50063999999998
+          ],
+          [
+            655.71184,
+            39.46064000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f1fa11571d68b947e7751dbaad4701db",
+    "text": "2.25",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.712,
+            511.152
+          ],
+          [
+            56.712,
+            520.152
+          ],
+          [
+            72.612,
+            520.152
+          ],
+          [
+            72.612,
+            511.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0345cec00c0703d6ee77208d0e2de8ff",
+    "text": "User data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            29.999996616073222,
+            24.01090529999999
+          ],
+          [
+            29.999996616073222,
+            528.0
+          ],
+          [
+            702.0105047733,
+            528.0
+          ],
+          [
+            702.0105047733,
+            24.01090529999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7cfe0c01e0193bb7364c9e1ae7faf75a",
+    "text": "IPheader",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            29.999996616073222,
+            24.01090529999999
+          ],
+          [
+            29.999996616073222,
+            528.0
+          ],
+          [
+            702.0105047733,
+            528.0
+          ],
+          [
+            702.0105047733,
+            24.01090529999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ff7fd580ba64dfc9e429cc75e98a302d",
+    "text": "NetworkheaderApplicationbyte streamTCPsegmentIPdatagramNetwork-levelpacketFigure 2.5 Protocol Data Units (PDUs) in the TCP/IP Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            29.999996616073222,
+            24.01090529999999
+          ],
+          [
+            29.999996616073222,
+            528.0
+          ],
+          [
+            702.0105047733,
+            528.0
+          ],
+          [
+            702.0105047733,
+            24.01090529999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "da21b5edcbe5d22265720955537d8aa5",
+    "text": "TCPheader",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            29.999996616073222,
+            24.01090529999999
+          ],
+          [
+            29.999996616073222,
+            528.0
+          ],
+          [
+            702.0105047733,
+            528.0
+          ],
+          [
+            702.0105047733,
+            24.01090529999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fbd68a677e9326b33b6fca847492a565",
+    "text": "Traditional Internet-Based Applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.232,
+            39.67718400000001
+          ],
+          [
+            53.232,
+            75.70118400000001
+          ],
+          [
+            666.687288,
+            75.70118400000001
+          ],
+          [
+            666.687288,
+            39.67718400000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ab63a308af899e9e204e1ff36bc4fbf1",
+    "text": "Three common applications that have been standardized to operate on top of TCP are:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            124.79000000000002
+          ],
+          [
+            43.2,
+            168.601184
+          ],
+          [
+            650.388,
+            168.601184
+          ],
+          [
+            650.388,
+            124.79000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "parent_id": "fbd68a677e9326b33b6fca847492a565",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1eee065523620c4b993ca9132fef812c",
+    "text": "Simple Mail Transfer Protocol (SMTP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.976,
+            194.16999999999996
+          ],
+          [
+            86.976,
+            213.13
+          ],
+          [
+            372.3050400000001,
+            213.13
+          ],
+          [
+            372.3050400000001,
+            194.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ddffde21e1fde28e77c2f167bd73d831",
+    "text": "Provides a mechanism for transferring messages among separate hosts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.56,
+            235.74200000000002
+          ],
+          [
+            85.56,
+            275.63
+          ],
+          [
+            603.6387840000001,
+            275.63
+          ],
+          [
+            603.6387840000001,
+            235.74200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "parent_id": "1eee065523620c4b993ca9132fef812c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9ca8acdcbf6cecaac4f4e6d2106110c5",
+    "text": "File Transfer Protocol (FTP)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.976,
+            309.18
+          ],
+          [
+            86.976,
+            328.14
+          ],
+          [
+            292.63512000000003,
+            328.14
+          ],
+          [
+            292.63512000000003,
+            309.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3f49d63efc0c9b75e2a48440f4d70468",
+    "text": "Used to send files from one system to another under user command \u2022 Both text and binary files are accommodated",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.56,
+            350.8
+          ],
+          [
+            85.56,
+            394.12
+          ],
+          [
+            624.4068,
+            394.12
+          ],
+          [
+            624.4068,
+            350.8
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "parent_id": "9ca8acdcbf6cecaac4f4e6d2106110c5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "27f723933f832b4092471ec4a2582af0",
+    "text": "Secure Shell (SSH)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.976,
+            426.54
+          ],
+          [
+            86.976,
+            445.5
+          ],
+          [
+            225.2892,
+            445.5
+          ],
+          [
+            225.2892,
+            426.54
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "61b78c38977425fee539ec5950c0c2f3",
+    "text": "Provides a secure remote logon capability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.56,
+            468.156
+          ],
+          [
+            85.56,
+            487.116
+          ],
+          [
+            420.11280000000005,
+            487.116
+          ],
+          [
+            420.11280000000005,
+            468.156
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 27,
+      "parent_id": "27f723933f832b4092471ec4a2582af0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fb09bbd44497d15d56bb544eecc0ba02",
+    "text": "Table 2.2 Multimedia Terminology",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            168.55,
+            39.45600000000002
+          ],
+          [
+            168.55,
+            114.33600000000001
+          ],
+          [
+            551.59,
+            114.33600000000001
+          ],
+          [
+            551.59,
+            39.45600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "af840b43c3d99fe2fb566078a79c2b26",
+    "text": "Media Types",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            262.18,
+            39.67718400000001
+          ],
+          [
+            262.18,
+            75.70118400000001
+          ],
+          [
+            457.934416,
+            75.70118400000001
+          ],
+          [
+            457.934416,
+            39.67718400000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "00f89ab5160d824406a61dc8b4da63f1",
+    "text": "audio generally encompasses sounds that are produced by the human speech mechanism",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            99.408,
+            174.892
+          ],
+          [
+            99.408,
+            260.96999999999997
+          ],
+          [
+            342.982736,
+            260.96999999999997
+          ],
+          [
+            342.982736,
+            174.892
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 29,
+      "parent_id": "af840b43c3d99fe2fb566078a79c2b26",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b2b2208bf5ac494a31b7d71cb240d9c9",
+    "text": "video service carries sequences of pictures in time",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            99.408,
+            322.77
+          ],
+          [
+            99.408,
+            364.89
+          ],
+          [
+            337.10244,
+            364.89
+          ],
+          [
+            337.10244,
+            322.77
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 29,
+      "parent_id": "af840b43c3d99fe2fb566078a79c2b26",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "41dee5ea8df52b4672c06176084756fb",
+    "text": "image supports the communication of individual pictures, charts, or drawings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            455.54,
+            185.882
+          ],
+          [
+            455.54,
+            250.0
+          ],
+          [
+            691.29056,
+            250.0
+          ],
+          [
+            691.29056,
+            185.882
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 29,
+      "parent_id": "af840b43c3d99fe2fb566078a79c2b26",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1fef68e35b78ee1ff03aa9510ccd4946",
+    "text": "text is information that can be entered via a keyboard and is directly readable and printable",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            455.54,
+            300.78999999999996
+          ],
+          [
+            455.54,
+            386.836
+          ],
+          [
+            706.08608,
+            386.836
+          ],
+          [
+            706.08608,
+            300.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 29,
+      "parent_id": "af840b43c3d99fe2fb566078a79c2b26",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c4450dee4bc5e42357a1fc83efa678a6",
+    "text": "Multimedia Technologies",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            167.47,
+            33.67718400000001
+          ],
+          [
+            167.47,
+            69.70118400000001
+          ],
+          [
+            552.422464,
+            69.70118400000001
+          ],
+          [
+            552.422464,
+            33.67718400000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dfdd11a58ecff036b0333b03fa086f83",
+    "text": "Some technologies that are relevant to the support of multimedia applications are:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.2,
+            100.79000000000002
+          ],
+          [
+            43.2,
+            144.596
+          ],
+          [
+            606.7080000000001,
+            144.596
+          ],
+          [
+            606.7080000000001,
+            100.79000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "parent_id": "c4450dee4bc5e42357a1fc83efa678a6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "933fac9343b4cf58d93d88dab675a9bf",
+    "text": "Compression",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            58.128,
+            223.31
+          ],
+          [
+            58.128,
+            243.34999999999997
+          ],
+          [
+            166.0434,
+            243.34999999999997
+          ],
+          [
+            166.0434,
+            223.31
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a5f18a0ac37a8daf19a39622ff3bb649",
+    "text": "Communications /networking",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            205.46,
+            212.32000000000005
+          ],
+          [
+            205.46,
+            254.44600000000003
+          ],
+          [
+            345.27908,
+            254.44600000000003
+          ],
+          [
+            345.27908,
+            212.32000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "02cf2384a25a8074d08b11a54d4b2ead",
+    "text": "Protocols",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            399.72,
+            223.31
+          ],
+          [
+            399.72,
+            243.34999999999997
+          ],
+          [
+            477.53532000000007,
+            243.34999999999997
+          ],
+          [
+            477.53532000000007,
+            223.31
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9954d4521c2b0a0ef4b06beb9352000f",
+    "text": "Quality of service (QoS)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            547.42,
+            212.32000000000005
+          ],
+          [
+            547.42,
+            254.44600000000003
+          ],
+          [
+            656.6082879999999,
+            254.44600000000003
+          ],
+          [
+            656.6082879999999,
+            212.32000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f42844b7bb35673f2fa08bdff91f1c3c",
+    "text": "JPG for still images",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            73.896,
+            311.84000000000003
+          ],
+          [
+            73.896,
+            347.48
+          ],
+          [
+            154.08624000000003,
+            347.48
+          ],
+          [
+            154.08624000000003,
+            311.84000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7da165703d0487ad43b4e38a0b51e88e",
+    "text": "MPG for video",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            62.256,
+            432.516
+          ],
+          [
+            62.256,
+            449.55600000000004
+          ],
+          [
+            161.75256,
+            449.55600000000004
+          ],
+          [
+            161.75256,
+            432.516
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "003dd63fdc154ec2670c8e23cb28bdec",
+    "text": "Refers to the transmission and networking technologies that can support high- volume multimedia traffic",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            228.94,
+            292.78999999999996
+          ],
+          [
+            228.94,
+            477.876
+          ],
+          [
+            323.356,
+            477.876
+          ],
+          [
+            323.356,
+            292.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "parent_id": "7da165703d0487ad43b4e38a0b51e88e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1a7a29677848c0014ff28b7e89cc1d7e",
+    "text": "RTP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            425.57,
+            321.18
+          ],
+          [
+            425.57,
+            338.22
+          ],
+          [
+            451.79456,
+            338.22
+          ],
+          [
+            451.79456,
+            321.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "072a022c69a13571978b74e9ddf4fc47",
+    "text": "SIP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            428.21,
+            432.516
+          ],
+          [
+            428.21,
+            449.55600000000004
+          ],
+          [
+            449.13512,
+            449.55600000000004
+          ],
+          [
+            449.13512,
+            432.516
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a21bc2765c4e2aa7e3f61ff5c215b843",
+    "text": "Can deal with priority, delay constraints, delay variability constraints, and other similar requirements",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            554.54,
+            302.102
+          ],
+          [
+            554.54,
+            468.612
+          ],
+          [
+            653.35496,
+            468.612
+          ],
+          [
+            653.35496,
+            302.102
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 30,
+      "parent_id": "072a022c69a13571978b74e9ddf4fc47",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "28aaa934286bd8efe64f640f3f2f921b",
+    "text": "ADDRESSING",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            25.2,
+            15.421824000000015
+          ],
+          [
+            25.2,
+            47.48582399999998
+          ],
+          [
+            228.10099199999996,
+            47.48582399999998
+          ],
+          [
+            228.10099199999996,
+            15.421824000000015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ab61471be40f445d617d66165de895a8",
+    "text": "Four levels of addresses are used in an internet employing the TCP/IP protocols: physical, logical, port, and specific.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            13.2,
+            92.74936000000002
+          ],
+          [
+            13.2,
+            154.31454399999996
+          ],
+          [
+            707.77,
+            154.31454399999996
+          ],
+          [
+            707.77,
+            92.74936000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 31,
+      "parent_id": "28aaa934286bd8efe64f640f3f2f921b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4a30fccab9975cb65015c40c1d2192d8",
+    "text": "Protocol Data Units",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            192.79,
+            26.275999999999954
+          ],
+          [
+            192.79,
+            62.27600000000001
+          ],
+          [
+            496.1619999999999,
+            62.27600000000001
+          ],
+          [
+            496.1619999999999,
+            26.275999999999954
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 32,
+      "parent_id": "28aaa934286bd8efe64f640f3f2f921b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "343bf901c51a55aebff50b3137804579",
+    "text": "At each stage of the process, a PDU has a different name to reflect its new functions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            366.62,
+            85.94
+          ],
+          [
+            366.62,
+            161.92400000000004
+          ],
+          [
+            677.156,
+            161.92400000000004
+          ],
+          [
+            677.156,
+            85.94
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 32,
+      "parent_id": "4a30fccab9975cb65015c40c1d2192d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0d7d30ef585dccdf8a5379c0783217aa",
+    "text": "PDUs passing down the stack are as follows: 1. Data (Data Stream) 2. Segment 3. Packet 4. Frame 5. Bits (Bit Stream)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            366.62,
+            171.77000000000004
+          ],
+          [
+            366.62,
+            371.374
+          ],
+          [
+            706.82,
+            371.374
+          ],
+          [
+            706.82,
+            171.77000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 32,
+      "parent_id": "4a30fccab9975cb65015c40c1d2192d8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ea20c940660a042f388d2033e69008b7",
+    "text": "Encapsulation Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            177.5,
+            63.76600000000002
+          ],
+          [
+            177.5,
+            99.76600000000002
+          ],
+          [
+            542.468,
+            99.76600000000002
+          ],
+          [
+            542.468,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 33,
+      "parent_id": "28aaa934286bd8efe64f640f3f2f921b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6dc0b52a094232992eea79c5e9dc3d74",
+    "text": "Encapsulation is a top-down process. \u2022 The level above does its process and then passes it down to the next level of the model. This process is repeated by each layer until it is sent out as a bit stream.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            16.944,
+            140.76103999999998
+          ],
+          [
+            16.944,
+            406.299184
+          ],
+          [
+            239.472,
+            406.299184
+          ],
+          [
+            239.472,
+            140.76103999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 33,
+      "parent_id": "ea20c940660a042f388d2033e69008b7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1bb020f3854d3c7f1c5bcfe271986482",
+    "text": "De-encapsulation Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.46,
+            63.76600000000002
+          ],
+          [
+            154.46,
+            99.76600000000002
+          ],
+          [
+            565.508,
+            99.76600000000002
+          ],
+          [
+            565.508,
+            63.76600000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 34,
+      "parent_id": "28aaa934286bd8efe64f640f3f2f921b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "74684f2f99dd590c92d3c939a1aa8832",
+    "text": "Data is de-encapsulated as it moves up the stack.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            16.944,
+            140.59159999999997
+          ],
+          [
+            16.944,
+            177.90536000000003
+          ],
+          [
+            304.75856,
+            177.90536000000003
+          ],
+          [
+            304.75856,
+            140.59159999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 34,
+      "parent_id": "1bb020f3854d3c7f1c5bcfe271986482",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bb408b9a3fb28545b57f01fc78705b1c",
+    "text": "When a layer completes its process, that layer strips off its header and passes it up to the next level to be processed. This is repeated at each layer until it is a data stream that the application can process. 1. Received as Bits (Bit Stream) 2. Frame 3. Packet 4. Segment 5. Data (Data Stream)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            16.944,
+            185.11159999999995
+          ],
+          [
+            16.944,
+            406.55536
+          ],
+          [
+            310.84656000000007,
+            406.55536
+          ],
+          [
+            310.84656000000007,
+            185.11159999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\data_communication",
+      "filename": "2-Protocol Architecture, TCP-IP, and Internet-Based Applications sum.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:19:02",
+      "page_number": 34,
+      "parent_id": "1bb020f3854d3c7f1c5bcfe271986482",
+      "filetype": "application/pdf"
+    }
+  }
+]

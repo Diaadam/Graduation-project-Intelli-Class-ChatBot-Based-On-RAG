@@ -1,0 +1,266 @@
+[
+  {
+    "id": "bb8fe437-3330-4074-b20b-a1e051f3d5ff",
+    "text": "Lecture slides by Lawrie Brown for “Cryptography and Network Security”, 5/e, by William Stallings, Chapter 11 – “Cryptographic Hash Functions”. Cryptographic Hash Functions Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Cryptography and Network Security Chapter 11 Fifth Edition by William Stallings Lecture slides by",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "85d130b1-52a0-46d9-a799-1c653d005578",
+    "text": "A hash function H accepts a variable-length block of data M as input and produces a fixed-size hash value h = H(M). A \"good\" hash function has the property that the results of applying the function to a large set of inputs will produce outputs that are evenly distributed, and apparently random. In general terms, the principal object of a hash function is data integrity. A change to any bit or bits in M results, with high probability, in a change to the hash code. The kind of hash function needed for security applications is referred to as a cryptographic hash function. A cryptographic hash function is an algorithm for which it is computationally infeasible (because no attack is significantly more efficient than brute force) to find either (a) a data object that maps to a pre-specified hash",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "3d017597-f743-43b0-8c81-06f60e61044d",
+    "text": "result (the one-way property) or (b) two data objects that map to the same hash result (the collision-free property). Because of these characteristics, hash functions are often used to determine whether or not data has changed.",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "00767ff8-79e9-4cb8-83c0-cca40e0d5b98",
+    "text": "Hash Functions condenses arbitrary message to fixed size h = H(M) usually assume hash function is public hash used to detect changes to message want a cryptographic hash function computationally infeasible to find data mapping to specific hash (one-way property) computationally infeasible to find two data to same hash (collision-free property)",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "0ba86456-1c33-4f38-9df6-216452919605",
+    "text": "A hash function H accepts a variable-length block of data M as input and produces a fixed-size hash value h = H(M). A \"good\" hash function has the property that the results of applying the function to a large set of inputs will produce outputs that are evenly distributed, and apparently random. In general terms, the principal object of a hash function is data integrity. A change to any bit or bits in M results, with high probability, in a change to the hash code. The kind of hash function needed for security applications is referred to as a cryptographic hash function. A cryptographic hash function is an algorithm for which it is computationally infeasible (because no attack is significantly more efficient than brute force) to find either (a) a data object that maps to a pre-specified hash",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "8091b72b-7b4f-4bcb-b681-a559e045367e",
+    "text": "result (the one-way property) or (b) two data objects that map to the same hash result (the collision-free property). Because of these characteristics, hash functions are often used to determine whether or not data has changed.",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "33d7b875-7bcd-42b0-9a7b-7fee2a79d585",
+    "text": "Cryptographic Hash Function The cryptographic hash function accepts an input message of arbitrary long size and computes a fixed length hash value that depends on every bit of the input message. The input message can be any document such as text, image, video, etc. Figure 11.1 depicts the general operation of a cryptographic hash function. Typically, the input is padded out to an integer multiple of some fixed length (e.g., 1024 bits), and the padding includes the value of the length of the original message in bits. The length field is a security measure to increase the difficulty for an attacker to produce an alternative message with the same hash value.",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "78335a98-c359-41cd-bd7d-87253e218c2c",
+    "text": "Message authentication is a mechanism or service used to verify the integrity of a message. Message authentication assures that data received are exactly as sent (i.e., contain no modification, insertion, deletion, or replay). In many cases, there is a requirement that the authentication mechanism assures that purported identity of the sender is valid. When a hash function is used to provide message authentication, the hash function value is often referred to as a message digest . The essence of the use of a hash function for message authentication is as follows. The sender computes a hash value as a function of the bits in the message and transmits both the hash value and the message. The receiver performs the same hash calculation on the message bits and compares this value with the",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "45945783-9934-4ae1-9928-119983d4442b",
+    "text": "incoming hash value. If there is a mismatch, the receiver knows that the message (or possibly the hash value) has been altered (Figure 11.2a). The hash function must be transmitted in a secure fashion. That is, the hash function must be protected so that if an adversary alters or replaces the message, it is not feasible for adversary to also alter the hash value to fool the receiver. This type of attack is shown in Figure 11.2b. In this example, Alice transmits a data block and attaches a hash value. Darth intercepts the message, alters or replaces the data block, and calculates and attaches a new hash value. Bob receives the altered data with the new hash value and does not detect the change. To prevent this attack, the hash value generated by Alice must be protected.",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "9a8a9d4f-7719-478d-a6ed-6920a061c14d",
+    "text": "Another important application, which is similar to the message authentication application, is the digital signature. The operation of the digital signature is similar to that of the MAC. In the case of the digital signature, the hash value of a message is encrypted with a user's private key. Anyone who knows the user's public key can verify the integrity of the message that is associated with the digital signature. In this case an attacker who wishes to alter the message would need to know the user's private key. As we shall see in Chapter 14, the implications of digital signatures go beyond just message authentication. Stallings Figure 11.3 illustrates, in a simplified fashion, how a hash code is used to provide a digital signature: The hash code is encrypted, using public-key encryption",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "b839f552-4ad6-4645-b72d-183e66043eb7",
+    "text": "and using the sender's private key. As with Figure 11.2b, this provides authentication. It also provides a digital signature, because only the sender could have produced the encrypted hash code. In fact, this is the essence of the digital signature technique. If confidentiality as well as a digital signature is desired, then the message plus the private-key-encrypted hash code can be encrypted using a symmetric secret key. This is a common technique.",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "33488376-0b8d-4fb7-8487-a35d256b8891",
+    "text": "Hash Functions & Digital Signatures M || E(PRa, H(M)) E(k, M || E(PRa, H(M)))",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "3a76a3da-55c7-44d8-bbb5-eecdfcc24c3a",
+    "text": "Hash functions are commonly used to create a one-way password file. Chapter 20 explains a scheme in which a hash of a password is stored by an operating system rather than the password itself. Thus, the actual password is not retrievable by a hacker who gains access to the password file. In simple terms, when a user enters a password, the hash of that password is compared to the stored hash value for verification. This approach to password protection is used by most operating systems. Hash functions can be used for intrusion detection and virus detection. Store H(F) for each file on a system and secure the hash values (e.g., on a CD-R that is kept secure). One can later determine if a file has been modified by recomputing H(F). An intruder would need to change F without changing H(F). A",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "0260c2ec-e46f-4e6f-93c3-04e42231fd2f",
+    "text": "cryptographic hash function can be used to construct a pseudorandom function (PRF) or a pseudorandom number generator (PRNG). A common application for a hash-based PRF is for the generation of symmetric keys. We discuss this application in Chapter 12.",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "4287f2fd-bcef-492d-89b3-6af8a5ad04fa",
+    "text": "Other Hash Function Uses to create a one-way password file store hash of password not actual password for intrusion detection and virus detection keep & check hash of files on system pseudorandom function (PRF) or pseudorandom number generator (PRNG)",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "5884b86e-3b25-4da8-8604-b7b0bd33390d",
+    "text": "Stallings Table 11.1 lists the generally accepted requirements for a cryptographic hash function. The first three properties are requirements for the practical application of a hash function. The fourth property, preimage (for a hash value h = H(x), we say that x is the preimage of h) resistant, is the one-way property: it is easy to generate a code given a message, but virtually impossible to generate a message given a code. This property is important if the authentication technique involves the use of a secret value (Figure 11.2c). The fifth property, second preimage resistant, guarantees that it is impossible to find an alternative message with the same hash value as a given message. This prevents forgery when an encrypted hash code is used (Figure 11.2b and Figure 11.3a). A hash",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "c9df7d84-d481-418c-8674-08985d12ad3c",
+    "text": "function that satisfies the first five properties in Table 11.1 is referred to as a weak hash function. If the sixth property, collision resistant, is also satisfied, then it is referred to as a strong hash function. A strong hash function protects against an attack in which one party generates a message for another party to sign. The final requirement, pseudorandomness, has not traditionally been listed as a requirement of cryptographic hash functions, but is more or less implied.",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "55f7f65f-ede1-4859-b0b4-3391cfc579a3",
+    "text": "As with encryption algorithms, there are two categories of attacks on hash functions: brute-force attacks and cryptanalysis. A brute-force attack does not depend on the specific algorithm but depends only on bit length. In the case of a hash function, a brute-force attack depends only on the bit length of the hash value. A cryptanalysis, in contrast, is an attack based on weaknesses in a particular cryptographic algorithm. For a preimage or second preimage attack, an adversary wishes to find a value y such that H(y) is equal to a given hash value h. The brute force method is to pick values of y at random and try each value until a collision occurs. For an m-bit hash value, the level of effort is proportional to 2m. Specifically, the adversary would have to try, on average, 2m–1 values of y",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "b115854d-e575-43a7-bc2e-53c15c7ee576",
+    "text": "to find one that generates a given hash value h. For a collision resistant attack, an adversary wishes to find two messages or data blocks, x and y, that yield the same hash function: H(x) = H(y). This requires much less effort than a preimage or second preimage attack. The effort required is explained by a mathematical result referred to as the birthday paradox (next slide). If collision resistance is required, then the value 2m/2 determines the strength of the hash code against brute-force attacks. Van Oorschot and Wiener presented a design for a $10 million collision search machine for MD5, which has a 128-bit hash length, that could find a collision in 24 days. Thus a 128-bit code may be viewed as inadequate. The next step up, if a hash code is treated as a sequence of 32 bits, is a",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "5f134b09-9408-4763-b907-b92dfc363649",
+    "text": "160-bit hash length. With a hash length of 160 bits, the same search machine would require over four thousand years to find a collision. With today's technology, the time would be much shorter, so that 160 bits now appears suspect.",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "3c59405e-90d1-4769-a3b3-87a1a95ab1b7",
+    "text": "Attacks on Hash Functions For an m-bit hash value, attackers have brute-force attacks and cryptanalysis attacks: a preimage or second preimage attack find y such that H(y) equals a given hash value. (The level of effort is proportional to 2m) collision resistance attack find two messages x & y with same hash i.e., H(x) = H(y) (The value 2m/2 determines the strength of the hash code against brute-force Birthday Attack)",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "d63b7c41-a013-410f-9e04-150d4646b43e",
+    "text": "hence value 2m/2 determines strength of hash code against brute-force attacks 128-bits inadequate, 160-bits suspect The Birthday Attack exploits the birthday paradox – the chance that in a group of people two will share the same birthday – only 23 people are needed for a Pr>0.5 of this. Can generalize the problem to one wanting a matching pair from any two sets, and show need 2m/2 in each to get a matching m-bit hash. Yuval proposed the strategy shown to exploit the birthday paradox in a collision resistant attack. Note that creating many message variants is relatively easy, either by rewording or just varying the amount of white-space in the message. All of which indicates that larger MACs/Hashes are needed.",
+    "chunk_index": 21,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "08c53b46-a540-4670-8192-7208cb18082f",
+    "text": "Birthday Attacks one might think a 64-bit hash is secure, but by Birthday Paradox it is not. Birthday attack works thus: given user prepared to sign a valid message x opponent generates 2m/2 variations x’ of x, all with essentially the same meaning, and saves them opponent generates 2m/2 variations y’ of a desired fraudulent message y two sets of messages are compared to find pair with same hash (probability > 0.5 by birthday paradox) have user sign the valid message, then substitute the forgery which will have a valid signature conclusion is that need to use larger hash Class Activity Assignment Write a short C.V. in about 5 lines to summarize your educational path. There should be at least 1024 variations (i.e., use 10 groups as shown above).",
+    "chunk_index": 22,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "dafce42a-f3a1-44dd-956b-288206123a0b",
+    "text": "As with symmetric encryption, there are two approaches to attacking a secure hash function: cryptanalysis and brute-force attack. As with symmetric encryption algorithms, cryptanalysis of a hash function involves exploiting logical weaknesses in the algorithm. The strength of a hash function against brute-force attacks depends solely on the length of the hash code produced by the algorithm. For a hash code of length n, the level of effort required is proportional to the following: Preimage resistant 2n Second preimage resistant 2n Collision resistant 2n/2 If collision resistance is required (and this is desirable for a general-purpose secure hash code), then the value 2n/2 determines the strength of the hash code against brute-force attacks. Van Oorschot and Wiener [VANO94] pre sented a",
+    "chunk_index": 23,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "5b850891-a5ff-472d-b304-78f843b82c69",
+    "text": "design for a $10 million collision search machine for MD5, which has a 128-bit hash length, that could find a collision in 24 days. Thus a 128-bit code may be viewed as inadequate. The next step up, if a hash code is treated as a sequence of 32 bits, is a 160-bit hash length. With a hash length of 160 bits, the same search machine would require over four thousand years to find a collision. With today’s technology, the time would be much shorter, so that 160 bits now appears suspect. In recent years, the most widely used hash function has been the Secure Hash Algorithm (SHA). SHA was developed by the National Institute of Standards and Technology (NIST) and published as a federal information processing standard (FIPS 180) in 1993. When weaknesses were discovered in SHA, a revised version",
+    "chunk_index": 24,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "befc72e7-e584-43ec-a667-862f432b626d",
+    "text": "was issued as FIPS 180-1 in 1995 and is generally referred to as SHA-1. SHA-1 produces a hash value of 160 bits. In 2002, NIST produced a revised version of the standard, FIPS 180–2, that defined three new versions of SHA, with hash value lengths of 256, 384, and 512 bits, known as SHA-256, SHA-384, and SHA-512. These new versions have the same underlying structure and use the same types of modular arithmetic and logical binary operations as SHA-1. In 2005, NIST announced the intention to phase out approval of SHA-1 and move to a reliance on the other SHA versions by 2010. As discussed in Chapter 21, researchers have demonstrated that SHA-1 is far weaker than its 160-bit hash length suggests, necessitating the move to the newer versions of SHA. We have discussed the use of hash functions",
+    "chunk_index": 25,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "ad239f80-80c4-4773-a08f-5ecd3c433c04",
+    "text": "for message authentication and for the creation of digital signatures (the latter is discussed in more detail later in this chapter). Here are two other examples of secure hash function applications: • Passwords: Chapter 3 explains a scheme in which a hash of a password is stored by an operating system rather than the password itself. Thus, the actual password is not retrievable by a hacker who gains access to the password file. In simple terms, when a user enters a password, the hash of that password is compared to the stored hash value for verification. This application requires preimage resistance and perhaps second preimage resistance. • Intrusion detection: Store H(F) for each file on a system and secure the hash values (e.g., on a CD-R that is kept secure). One can later determine if",
+    "chunk_index": 26,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "9be373df-685c-4e7b-916d-52a18cd77cee",
+    "text": "a file has been modified by recomputing H(F). An intruder would need to change F without changing H(F). This application requires weak second preimage resistance",
+    "chunk_index": 27,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "f6261f91-d89d-454f-8ffb-29bc12c44d2e",
+    "text": "Security of Hash Functions (and additional applications) Passwords Hash of a password is stored by an operating system Cryptanalysis Exploit logical weaknesses in the algorithm There are two approaches to attacking a secure hash function: Intrusion detection Store H(F) for each file on a system and secure the hash values",
+    "chunk_index": 28,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "3e5a087c-69a1-4c64-b020-e3c35c4b3179",
+    "text": "Brute-force attack Strength of hash function depends solely on the length of the hash code produced by the algorithm Additional secure hash function applications: SHA is the most widely used hash algorithm Hash Function Cryptanalysis hash functions use iterative structure process message in blocks (including length) cryptanalytic attacks exploit some property of algorithm so faster than exhaustive search attacks focus on collisions in function f",
+    "chunk_index": 29,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "8830b398-afad-4ff9-9829-049f77a27219",
+    "text": "In recent years, the most widely used hash function has been the Secure Hash Algorithm (SHA). The Secure Hash Algorithm (SHA) was developed by the National Institute of Standards and Technology (NIST) and published as a federal information processing standard (FIPS 180) in 1993; a revised version was issued as FIPS 180-1 in 1995 and is generally referred to as SHA-1. The actual standards document is entitled Secure Hash Standard. SHA is based on the hash function MD4 and its design closely models MD4. SHA-1 produces a hash value of 160 bits. In 2005, a research team described an attack in which two separate messages could be found that deliver the same SHA-1 hash using 2^69 operations, far fewer than the 2^80 operations previously thought needed to find a collision with an SHA-1 hash",
+    "chunk_index": 30,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "bca01676-02bd-4574-b7f1-882ea0e23072",
+    "text": "[WANG05]. This result has hastened the transition to newer, longer versions of SHA.",
+    "chunk_index": 31,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "81e299b1-a599-40c3-a2e2-6ce9fbaff589",
+    "text": "Secure Hash Algorithm (SHA) SHA originally designed by NIST & NSA in 1993 was revised in 1995 as SHA-1 US standard for use with DSA signature scheme standard is FIPS 180-1 1995, also Internet RFC3174 NOTE: the algorithm is SHA, the standard is SHS based on design of MD4 with key differences produces 160-bit hash values recent 2005 results on security of SHA-1 have raised concerns on its use in future applications",
+    "chunk_index": 32,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "5a69f6e2-e3ce-48c6-a278-5d05d04a6f0a",
+    "text": "In 2002, NIST produced a revised version of the standard, FIPS 180-2, that defined three new versions of SHA, with hash value lengths of 256, 384, and 512 bits, known as SHA-256, SHA-384, and SHA-512. Collectively, these hash algorithms are known as SHA-2. These new versions have the same underlying structure and use the same types of modular arithmetic and logical binary operations as SHA-1, hence analyses should be similar. A revised document was issued as FIP PUB 180-3 in 2008, which added a 224-bit version. SHA-2 is also specified in RFC 4634, which essentially duplicates the material in FIPS 180-3, but adds a C code implementation. In 2005, NIST announced the intention to phase out approval of SHA-1 and move to a reliance on the other SHA versions by 2010.",
+    "chunk_index": 33,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "2e5f8f77-7ce8-453a-ad8c-92d44cbb4706",
+    "text": "Revised Secure Hash Standard (SHA-2) NIST issued revision FIPS 180-2 in 2002 adds 3 additional versions of SHA SHA-256, SHA-384, SHA-512 designed for compatibility with increased security provided by the AES cipher structure & detail is like SHA-1 hence analysis should be similar but security levels are rather higher Stallings Table 11.3 provides a comparison of the various parameters for the SHA hash functions.",
+    "chunk_index": 34,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "160a5329-9d1e-41e1-9c18-253ebdaaceaf",
+    "text": "SHA Versions SHA-1 SHA-224 SHA-256 SHA-384 SHA-512 Message digest size 160 224 256 384 512 Message size < 264 < 264 < 264 < 2128 < 2128 Block size 512 512 512 1024 1024 Word size 32 32 32 64 64 Number of steps 80 64 64 80 80",
+    "chunk_index": 35,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "02e093f2-39ce-465c-95da-55549988d383",
+    "text": "Now examine the structure of SHA-512, noting that the other versions are quite similar. SHA-512 follows the structure depicted in Stallings Figure 11.8. The processing consists of the following steps: • Step 1: Append padding bits, consists of a single 1-bit followed by the necessary number of 0-bits, so that its length is congruent to 896 modulo 1024 • Step 2: Append length as an (big-endian) unsigned 128-bit integer • Step 3: Initialize hash buffer to a set of 64-bit integer constants (see text) • Step 4: Process the message in 1024-bit (128-word) blocks, which forms the heart of the algorithm. Each round takes as input the 512-bit buffer value Hi, and updates the contents of that buffer. • Step 5: Output the final state value as the resulting hash See text for more details.",
+    "chunk_index": 36,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "d8bc2117-c114-446c-a4dd-4fbf6883c3a8",
+    "text": "The SHA-512 Compression Function is the heart of the algorithm. In this Step 4, it processes the message in 1024-bit (128-word) blocks, using a module that consists of 80 rounds, labeled F in Stallings Figure 11.8, and is shown in detail in Figure 11.9. Each round takes as input the 512-bit buffer value, and updates the contents of the buffer. At input to the first round, the buffer has the value of the intermediate hash value. Each round t makes use of a 64-bit value Wt derived using a message schedule from the current 1024-bit block being processed. Each round also makes use of an additive constant Kt, based on the fractional parts of the cube roots of the first eighty prime numbers. The constants provide a “randomized” set of 64-bit patterns, which should eliminate any regularities in",
+    "chunk_index": 37,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "c123c3d8-80cd-4a0f-a6aa-e909dd78f826",
+    "text": "the input data. The output of the eightieth round is added to the input to the first round to produce the final hash value for this message block, which forms the input to the next iteration of this compression function, as shown on the previous slide.",
+    "chunk_index": 38,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "a24ccc2b-1b80-4429-9b07-862eb69e07a5",
+    "text": "SHA-512 Compression Function the compression function “F” is the heart of the SHA algorithm. SHA processes each message in 1024-bit blocks the compression function “F” consists of 80 rounds",
+    "chunk_index": 39,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "0b2caae7-a47c-49b9-aec8-86a16108de0d",
+    "text": "As yet, SHA-1 has not yet been \"broken\". That is, no one has demonstrated a technique for producing collisions in less than brute-force time. However, because SHA-1 is very similar in structure and in the basic mathematical operations used to MD5 and SHA-0, both of which have been broken, SHA-1 is considered insecure and has been phased out for SHA-2. SHA-2, particularly the 512-bit version, would appear to provide unassailable security. However, SHA-2 shares the same structure and mathematical operations as its predecessors, and this is a cause for concern. Because it will take years to find a suitable replacement for SHA-2, should it become vulnerable, NIST decided to begin the process of developing a new hash standard. Accordingly, NIST announced in 2007 a competition to produce the",
+    "chunk_index": 40,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "f3605457-00d5-426c-8307-04f1a36037ff",
+    "text": "next generation NIST hash function, to be called SHA-3. NIST would like to have a new standard in place by the end of 2012, but emphasizes that this is not a fixed timeline.",
+    "chunk_index": 41,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "42571d5e-a58b-4881-a2bf-2570a60fac72",
+    "text": "SHA-3 SHA-1 not yet \"broken” but like broken MD5 & SHA-0 so considered insecure SHA-2 (esp. SHA-512) seems secure shares same structure and mathematical operations as predecessors so have concern SHA-3 (Secure Hash Algorithm 3) is the latest member of the Secure Hash Algorithm family of standards, released by NIST on August 5, 2015. Chapter 11 summary.",
+    "chunk_index": 42,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  },
+  {
+    "id": "71055b1a-bf12-41ea-b2e0-4b427b0dd0ab",
+    "text": "Summary have considered: hash functions uses, requirements, security hash functions based on block ciphers SHA-1, SHA-2, SHA-3",
+    "chunk_index": 43,
+    "source_file": "4th_Security_sce_422_ch_11.1_hash_-_without_audio"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "9b39f5ca-9812-42be-91e5-2bf66671c043",
+    "text": "Lecture 10 Pipelining: Basic Concepts What Is Pipelining? Pipelining is an implementation technique whereby multiple instructions are overlapped in execution. If the system repeatedly executes a basic function, it divides the execution of an operation into a sequential independent stages. In a computer pipeline, each stage in the pipeline completes a part of an instruction. The stages are connected one to the next to form a pipe through a register for synchronization. Cont., Although it is critical to ensure that instructions in the pipeline do not attempt to use the hardware resources at the same time, we must also ensure that instructions in different stages of the pipeline do not interfere with one another.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "7d0ecd8f-c477-48ce-8a57-9cbc5d7d6f3d",
+    "text": "This separation is done by introducing pipeline registers between successive stages of the pipeline, so that at the end of a clock cycle all the results from a given stage are stored into a register that is used as the input to the next stage on the next clock cycle. Optimization of a Pipeline Because the pipe stages are hooked together, all the stages must be ready to proceed at the same time. Because all stages proceed at the same time, the length of a processor cycle is determined by the time required for the slowest pipe stage. The pipeline designer’s goal is to balance the length of each pipeline stage.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "cfbd91e4-b7a5-4545-9c10-a3ee5900b485",
+    "text": "Speedup The throughput of an instruction pipeline is determined by how often an instruction exits the pipeline. Let a pipeline of depth k, can process n items in ‘n+ k’ steps (throughput), where, without pipeline it takes ‘n x k’, therefore, Speedup = (n x k) / (n + k) Example: Add 100 pairs of numbers, one Add takes 5 cycles, i. e., k = 5, n = 100. Speedup = 5",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "1778f1dc-df95-4800-be76-94f640f60ef4",
+    "text": "Major Areas in Computer Design Pipelines are used in two major areas in computer design: • Instruction Level Processing Arithmetic Operations Which yields, what we called ‘ Reduced Instruction Set Computer (RISC)’. The Basics of a RISC Instruction Set All operations on data apply to data in registers and typically change the entire register (32 or 64 bits per register). The only operations that affect memory are load and store operations. The instruction formats are few in number, with all instructions typically being one size.",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "0733d791-f5f4-47cb-b359-de2f12413b78",
+    "text": "Classes of Instructions: Most RISC architectures, like MIPS, have three classes of instructions: 1- ALU instructions—These instructions take either two registers or a register and a sign-extended immediate. 2- Load and store instructions 3- Branches and jumps A Simple Implementation of a RISC Instruction Set To understand how a RISC instruction set can be implemented in a pipelined fashion, we need to understand how it is implemented without pipelining. Every instruction in this RISC subset can be implemented in at most 5 clock cycles. The 5 clock cycles are as follows: IF(cid:0) ID/ OF(cid:0)EX(cid:0) MEM(cid:0)WB",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "ef0c7d13-ac60-4ace-9906-117ea07b970e",
+    "text": "Instruction Level Pipeline We can pipeline the execution described above with almost no changes by simply starting a new instruction on each clock cycle. Each of the clock cycles from the previous section becomes a pipe stage—a cycle in the pipeline. • Although each instruction takes 5 clock cycles to complete, during each clock cycle the hardware will initiate a new instruction and will be executing some part of the five different instructions. Problems that pipelining introduces • To start with, we have to determine what happens on every clock cycle of the processor and make sure we don’t try to perform two different operations with the same data path resource on the same clock cycle.",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "87694883-2472-4739-af57-489c155ae391",
+    "text": "For example, a single ALU cannot be asked to compute an effective address (for memory operation) and perform a subtract operation at the same time. Cont., We use separate instruction and data memories, which we would typically implement with separate instruction and data caches to eliminates a conflict for a single memory that would arise between instruction fetch and data memory access. The register file is used in the two stages: one for reading in ID and one for writing in WB. To handle reads and a write to the same register, we perform the register write in the first half of the clock cycle and the read in the second half. Cont.,",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "0ea52d3b-6e5f-450a-90ce-5b438850dd5a",
+    "text": "To start a new instruction every clock, we must increment and store the PC every clock, and this must be done during the IF stage in preparation for the next instruction. Furthermore, we must also have an adder to compute the potential branch target during ID. • One further problem is that a branch does not",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "2b71a5da-1c16-419d-bd22-cfbf92cb5e5c",
+    "text": "change the PC until the ID stage. Pipeline Registers Although it is critical to ensure that instructions in the pipeline do not attempt to use the hardware resources at the same time, and also ensure that instructions in different stages of the pipeline do not interfere with one another. This separation is done by introducing pipeline registers between successive stages of the pipeline. So that at the end of a clock cycle all the results from a given stage are stored into a register that is used as the input to the next stage on the next clock cycle.",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "78189c33-2ed6-4cd2-938d-f1c8156ea171",
+    "text": "Pipeline Hazards There are situations, called hazards, that prevent the next instruction in the instruction stream from executing during its designated clock cycle. Hazards reduce the performance from the ideal speedup gained by pipelining.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "43e6ea9a-2660-4977-b1da-97b55f084fa0",
+    "text": "Classes of hazards There are three classes of hazards: • 1. Structural hazards arise from resource conflicts when the hardware cannot support all possible combinations of instructions simultaneously in overlapped execution. 2. Data hazards arise when an instruction depends on the results of a previous instruction . 3. Control hazards arise from the pipelining of branches and other instructions that change the PC. Cont., Hazards in pipelines can make it necessary to stall the pipeline. Instructions issued earlier than the stalled instruction—and hence farther along in the pipeline—must continue, since otherwise the hazard will never clear. As a result, no new instructions are fetched during the stall.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "82bd826e-7d75-4f5a-b2a0-b8ef0e1f2b40",
+    "text": "Solution for Structural Hazards When a processor is pipelined, the overlapped execution of instructions requires pipelining of functional units and duplication of resources to allow all possible combinations of instructions in the pipeline. Structural hazards arise when some functional unit is not fully pipelined. Another common way that structural hazards appear is when some resource has not been duplicated enough to allow all combinations of instructions in the pipeline to execute. Example: a load with one memory port • Some pipelined processors have shared a single-memory",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "f96e92ac-fef9-4ff4-8745-63a3c1df87b3",
+    "text": "pipeline for data and instructions. As a result, when an instruction contains a data memory reference, it will conflict with the instruction reference for a later instruction, as shown in Figure C.4. To resolve this hazard, we stall the pipeline for 1 clock cycle when the data memory access occurs. For the following figure, the load instruction uses the memory for a data access, and at the same time instruction 3 wants to fetch an instruction from memory.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "516be19e-6ff6-4f91-9df3-dc847e6dc4e6",
+    "text": "Data Hazards Consider the pipelined execution of these instructions: I1: ADD R1,R2,R3 I2: SUB R4,R1,R5 Where, R1 is the output of I1, and input in I2. Solution: By using Forwarding (Bypassing) hardware. When it detects that the previous ALU operation has the source for the current ALU operation, control logic (MUX) selects the forwarded result as an ALU input rather than the value read from the register file.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "7d8d43eb-c78d-4af6-a541-902747e4b022",
+    "text": "Branch Hazards (sol: Branch Prediction) Pipelined Datapath The following Figure (a) illustrates maximum delay values for each of the components of a typical datapath. We find that 2.4 ns is required to perform a single microoperation. The resulting datapath, sketched in Figure (b), is referred to as a pipelined datapath, or just a pipeline. Cont., The first stage, OF, is the operand fetch stage. The operand fetch consists of reading register values to be used from the register file and, for Bus B, selecting between a register value or a constant by using MUX B. Following the OF stage is the first pipeline platform. The pipeline registers store the operand or operands for use in the next stage during the next clock cycle. And so on for the next stages.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  },
+  {
+    "id": "8ef5ec10-a722-496d-8b35-8fd262fffbf8",
+    "text": "Pipelined Control The control has an added stage for instruction fetch that includes the PC and instruction memory. • This becomes stage 1 of the combined pipeline. • The instruction decoder and register file read are now in stage 2. The function unit and data memory read and write are in stage 3, And the register file write back is in stage 4. • The control information held in the final pipeline platform consists of DA, MD, and RW, which are used in the final write-back stage, WB.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_10_new"
+  }
+]

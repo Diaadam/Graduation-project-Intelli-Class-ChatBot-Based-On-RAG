@@ -1,0 +1,2890 @@
+[
+  {
+    "type": "Title",
+    "element_id": "dac69ac9d1a2c39d15ec6dd5778814b4",
+    "text": "Cryptography and Network Security Chapter 16",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.112,
+            126.44000000000005
+          ],
+          [
+            53.112,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            126.44000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d84f3e71d72fbbdf98d1947d1f0be6b1",
+    "text": "Fifth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            388.26160000000004
+          ],
+          [
+            50.352,
+            404.86
+          ],
+          [
+            147.08268,
+            404.86
+          ],
+          [
+            147.08268,
+            388.26160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "parent_id": "dac69ac9d1a2c39d15ec6dd5778814b4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "668065e5090072c1980540f4dc22af94",
+    "text": "by William Stallings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            68.352,
+            406.18
+          ],
+          [
+            68.352,
+            422.14
+          ],
+          [
+            197.38696,
+            422.14
+          ],
+          [
+            197.38696,
+            406.18
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6b9fa684372b8e14817d0cebf15dbce1",
+    "text": "Lecture slides by Lawrie Brown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.352,
+            440.08464000000004
+          ],
+          [
+            50.352,
+            474.006
+          ],
+          [
+            175.8444,
+            474.006
+          ],
+          [
+            175.8444,
+            440.08464000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "parent_id": "668065e5090072c1980540f4dc22af94",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9923b1fb3f5b005eb676199a438fa691",
+    "text": "Transport-Level Security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            290.76,
+            180.64999999999998
+          ],
+          [
+            290.76,
+            216.64999999999998
+          ],
+          [
+            642.404,
+            216.64999999999998
+          ],
+          [
+            642.404,
+            180.64999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5bdf22d39ee8be1f84b0ab536fd276d3",
+    "text": "Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            285.6,
+            307.99
+          ],
+          [
+            285.6,
+            360.78999999999996
+          ],
+          [
+            647.2320000000001,
+            360.78999999999996
+          ],
+          [
+            647.2320000000001,
+            307.99
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c70f09c8143168732ed7bacf0a0cbec1",
+    "text": "Web Security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            265.7,
+            96.22199999999998
+          ],
+          [
+            265.7,
+            131.286
+          ],
+          [
+            453.71316799999994,
+            131.286
+          ],
+          [
+            453.71316799999994,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6469c7146994446160ca982722972d13",
+    "text": "\u27a2 Web now widely used by business, government, individuals \u27a2 but Internet & Web are vulnerable \u27a2 have a variety of threats",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            221.10591999999997
+          ],
+          [
+            87.984,
+            303.57
+          ],
+          [
+            620.1656960000001,
+            303.57
+          ],
+          [
+            620.1656960000001,
+            221.10591999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 2,
+      "parent_id": "c70f09c8143168732ed7bacf0a0cbec1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2013221842a1a2cb660a4b55797443cb",
+    "text": "\u2022 confidentiality \u2022 denial of service \u2022 authentication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            311.97
+          ],
+          [
+            123.98,
+            424.55
+          ],
+          [
+            285.53900000000004,
+            424.55
+          ],
+          [
+            285.53900000000004,
+            311.97
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 2,
+      "parent_id": "c70f09c8143168732ed7bacf0a0cbec1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9097ccc503a022b0cfe80d6b0e56d8e6",
+    "text": "integrity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            312.81
+          ],
+          [
+            146.54,
+            333.81
+          ],
+          [
+            217.982,
+            333.81
+          ],
+          [
+            217.982,
+            312.81
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "19f4003d93119bfd7fd828c7730ebba6",
+    "text": "\u27a2 need added security mechanisms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            432.849
+          ],
+          [
+            87.984,
+            454.794
+          ],
+          [
+            399.2780000000001,
+            454.794
+          ],
+          [
+            399.2780000000001,
+            432.849
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 2,
+      "parent_id": "9097ccc503a022b0cfe80d6b0e56d8e6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16f856a2121881a00e76f704b3d7146f",
+    "text": "Web Traffic Security Approaches",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            136.99,
+            95.41999999999996
+          ],
+          [
+            136.99,
+            130.45999999999998
+          ],
+          [
+            595.4884000000001,
+            130.45999999999998
+          ],
+          [
+            595.4884000000001,
+            95.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0777b7d6bfb979f9e1231c3c7334d306",
+    "text": "Several approaches to providing Web security are possible. The various approaches that have been considered are similar in the services they provide and, to some extent, in the mechanisms that they use, but they differ with respect to their scope of applicability and their relative location within the TCP/IP protocol stack.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            91.368,
+            387.53200000000004
+          ],
+          [
+            91.368,
+            494.01
+          ],
+          [
+            676.2353999999999,
+            494.01
+          ],
+          [
+            676.2353999999999,
+            387.53200000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 3,
+      "parent_id": "16f856a2121881a00e76f704b3d7146f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eb09741d13e3866ff2e22e63beb14879",
+    "text": "\u27a2 Confidentiality \u27a2 message integrity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            139.22,
+            232.59500000000003
+          ],
+          [
+            139.22,
+            280.19
+          ],
+          [
+            297.97999999999996,
+            280.19
+          ],
+          [
+            297.97999999999996,
+            232.59500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "91257a942e429e1808e77708f62adcc0",
+    "text": "SSL (Secure Socket Layer)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            176.52,
+            95.86199999999997
+          ],
+          [
+            176.52,
+            131.88599999999997
+          ],
+          [
+            543.208296,
+            131.88599999999997
+          ],
+          [
+            543.208296,
+            95.86199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e0f051df48e5418b59e53ab9b9959fce",
+    "text": "\u27a2 transport layer security service \u27a2 originally developed by Netscape \u27a2 version 3 designed with public input \u27a2 subsequently became Internet standard known as TLS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            238.78500000000003
+          ],
+          [
+            87.984,
+            351.45
+          ],
+          [
+            586.949,
+            351.45
+          ],
+          [
+            586.949,
+            238.78500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 5,
+      "parent_id": "91257a942e429e1808e77708f62adcc0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1c8aec571e31d05ace25e524a91c6cdf",
+    "text": "(Transport Layer Security)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            124.34,
+            355.632
+          ],
+          [
+            124.34,
+            376.656
+          ],
+          [
+            342.48502400000007,
+            376.656
+          ],
+          [
+            342.48502400000007,
+            355.632
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "32e3b512c949221924474cfc0ea066de",
+    "text": "\u27a2 uses TCP to provide a reliable end-to-end service \u27a2 SSL has two layers of protocols",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            384.96500000000003
+          ],
+          [
+            87.984,
+            437.15
+          ],
+          [
+            539.644,
+            437.15
+          ],
+          [
+            539.644,
+            384.96500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 5,
+      "parent_id": "1c8aec571e31d05ace25e524a91c6cdf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6e69744cce23203012c02dba6ae21496",
+    "text": "SSL Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            240.98,
+            95.86199999999997
+          ],
+          [
+            240.98,
+            131.88599999999997
+          ],
+          [
+            478.34213600000004,
+            131.88599999999997
+          ],
+          [
+            478.34213600000004,
+            95.86199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cb254e136bc41a3711e8a6baef4a9fde",
+    "text": "Two Important SSL Concepts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            132.6,
+            95.05944
+          ],
+          [
+            132.6,
+            130.12344000000002
+          ],
+          [
+            596.49672,
+            130.12344000000002
+          ],
+          [
+            596.49672,
+            95.05944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "512587a5a816f6c737b28cf1d601bf71",
+    "text": "\u27a2 SSL connection",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            221.10591999999997
+          ],
+          [
+            87.984,
+            243.07600000000002
+          ],
+          [
+            245.244704,
+            243.07600000000002
+          ],
+          [
+            245.244704,
+            221.10591999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "20694a24c66f553efe109e190b701fe3",
+    "text": "a transient, peer-to-peer, communications link \u2022 associated with one SSL session",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            251.49
+          ],
+          [
+            123.98,
+            303.57
+          ],
+          [
+            541.2500000000001,
+            303.57
+          ],
+          [
+            541.2500000000001,
+            251.49
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 7,
+      "parent_id": "512587a5a816f6c737b28cf1d601bf71",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e2cc92ab69f43cd6dbf3315c4123bad4",
+    "text": "\u27a2 SSL session",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            311.865
+          ],
+          [
+            87.984,
+            333.81
+          ],
+          [
+            211.79000000000002,
+            333.81
+          ],
+          [
+            211.79000000000002,
+            311.865
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5192624129337d05d6591f35809590cd",
+    "text": "an association between client & server \u2022 created by the Handshake Protocol \u2022 define a set of cryptographic parameters \u2022 may be shared by multiple SSL connections",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            342.19104000000004
+          ],
+          [
+            123.98,
+            454.794
+          ],
+          [
+            513.0530000000001,
+            454.794
+          ],
+          [
+            513.0530000000001,
+            342.19104000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 7,
+      "parent_id": "e2cc92ab69f43cd6dbf3315c4123bad4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "732752e73351770ebbd5e2f8b4d40443",
+    "text": "SSL Record Protocol Services",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            157.44,
+            96.22199999999998
+          ],
+          [
+            157.44,
+            131.286
+          ],
+          [
+            561.9733679999999,
+            131.286
+          ],
+          [
+            561.9733679999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "956c78f14589a21cdb176c408d31538e",
+    "text": "\u27a2 confidentiality",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            211.04500000000002
+          ],
+          [
+            87.984,
+            232.99
+          ],
+          [
+            241.10600000000002,
+            232.99
+          ],
+          [
+            241.10600000000002,
+            211.04500000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "12743406d1e98b92a117dae9b632854f",
+    "text": "using symmetric encryption with a shared secret key defined by Handshake Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            241.41000000000003
+          ],
+          [
+            123.98,
+            288.45
+          ],
+          [
+            597.599,
+            288.45
+          ],
+          [
+            597.599,
+            241.41000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "parent_id": "956c78f14589a21cdb176c408d31538e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0bee128cdfaeb1054de11907bcc503e8",
+    "text": "can use several encryption ciphers such as: AES, IDEA, RC2-40, DES-40, DES, 3DES, Fortezza, RC4-40, RC4-128",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            296.85
+          ],
+          [
+            123.98,
+            343.89
+          ],
+          [
+            608.309,
+            343.89
+          ],
+          [
+            608.309,
+            296.85
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "parent_id": "956c78f14589a21cdb176c408d31538e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1696d06b38c88148efcf3a210531a4fe",
+    "text": "message is compressed before encryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            352.27103999999997
+          ],
+          [
+            123.98,
+            374.13599999999997
+          ],
+          [
+            503.86390400000005,
+            374.13599999999997
+          ],
+          [
+            503.86390400000005,
+            352.27103999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "parent_id": "956c78f14589a21cdb176c408d31538e",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6c6a51d5f4def528493382b6c8c3a470",
+    "text": "\u27a2 message integrity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            382.445
+          ],
+          [
+            87.984,
+            404.39
+          ],
+          [
+            268.6580000000001,
+            404.39
+          ],
+          [
+            268.6580000000001,
+            382.445
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d13ae6762d70f7fd0097bfb75248decc",
+    "text": "using a MAC with shared secret key \u2022 like HMAC but with different padding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            412.78999999999996
+          ],
+          [
+            123.98,
+            464.874
+          ],
+          [
+            463.17799999999994,
+            464.874
+          ],
+          [
+            463.17799999999994,
+            412.78999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 8,
+      "parent_id": "6c6a51d5f4def528493382b6c8c3a470",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b0b9be52ae9b6540d04baeb2ab4cc180",
+    "text": "SSL Record Protocol Operation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            137.52,
+            95.86199999999997
+          ],
+          [
+            137.52,
+            131.88599999999997
+          ],
+          [
+            581.8400160000001,
+            131.88599999999997
+          ],
+          [
+            581.8400160000001,
+            95.86199999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f06d18e8378ae532670a26001e0ab62",
+    "text": "SSL Change Cipher Spec Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.16,
+            96.22199999999998
+          ],
+          [
+            128.16,
+            131.286
+          ],
+          [
+            591.145056,
+            131.286
+          ],
+          [
+            591.145056,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f6ae6e14917e164015ec7bbdf3a460f",
+    "text": "\u27a2 one of 3 SSL specific protocols which use the SSL",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            209.81
+          ],
+          [
+            87.984,
+            234.89
+          ],
+          [
+            599.684,
+            234.89
+          ],
+          [
+            599.684,
+            209.81
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 10,
+      "parent_id": "0f06d18e8378ae532670a26001e0ab62",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38bea127dc5d6e37b87af0e572139fc7",
+    "text": "Record protocol \u27a2 a single message \u27a2 causes pending state to become current \u27a2 hence updating the cipher suite in use",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            239.67200000000003
+          ],
+          [
+            87.984,
+            367.39599999999996
+          ],
+          [
+            512.9959999999999,
+            367.39599999999996
+          ],
+          [
+            512.9959999999999,
+            239.67200000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 10,
+      "parent_id": "0f06d18e8378ae532670a26001e0ab62",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b04b2b812f1c0b5da8ff182f2fa2d488",
+    "text": "SSL Alert Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            233.9,
+            96.22199999999998
+          ],
+          [
+            233.9,
+            131.286
+          ],
+          [
+            485.449136,
+            131.286
+          ],
+          [
+            485.449136,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "09dbfd50839ce262ba3d6439b73ec9da",
+    "text": "\u27a2 conveys SSL-related alerts to peer entity \u27a2 severity",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            211.58680000000004
+          ],
+          [
+            87.984,
+            258.76599999999996
+          ],
+          [
+            423.79136000000005,
+            258.76599999999996
+          ],
+          [
+            423.79136000000005,
+            211.58680000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "parent_id": "b04b2b812f1c0b5da8ff182f2fa2d488",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d64731a53be435877cac494b49834f69",
+    "text": "warning or fatal",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            266.42159999999996
+          ],
+          [
+            159.98,
+            286.14
+          ],
+          [
+            299.55152,
+            286.14
+          ],
+          [
+            299.55152,
+            266.42159999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "parent_id": "b04b2b812f1c0b5da8ff182f2fa2d488",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5fbfbec0ac01550fcea8993a242a89e4",
+    "text": "\u27a2 specific alert",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            293.6868
+          ],
+          [
+            87.984,
+            313.5
+          ],
+          [
+            212.5292,
+            313.5
+          ],
+          [
+            212.5292,
+            293.6868
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6726cb9737e47c91838c410004e1826e",
+    "text": "fatal: unexpected message, bad record mac, decompression failure, handshake failure, illegal parameter",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            321.14160000000004
+          ],
+          [
+            159.98,
+            363.65999999999997
+          ],
+          [
+            642.6896,
+            363.65999999999997
+          ],
+          [
+            642.6896,
+            321.14160000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "parent_id": "5fbfbec0ac01550fcea8993a242a89e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7183b21fdcd08393248f7a2ed584015c",
+    "text": "warning: close notify, no certificate, bad certificate, unsupported certificate, certificate revoked, certificate expired, certificate unknown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            159.98,
+            371.3216
+          ],
+          [
+            159.98,
+            436.64
+          ],
+          [
+            602.3995999999999,
+            436.64
+          ],
+          [
+            602.3995999999999,
+            371.3216
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "parent_id": "5fbfbec0ac01550fcea8993a242a89e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ebdbbfe9fbb70c44eea202059be3ba1c",
+    "text": "\u27a2 compressed & encrypted like all SSL data",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            444.19079999999997
+          ],
+          [
+            87.984,
+            464.004
+          ],
+          [
+            428.67320000000007,
+            464.004
+          ],
+          [
+            428.67320000000007,
+            444.19079999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 11,
+      "parent_id": "5fbfbec0ac01550fcea8993a242a89e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "07f5a1bce691580ce9033996ef8522a7",
+    "text": "SSL Handshake Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            190.58,
+            96.22199999999998
+          ],
+          [
+            190.58,
+            131.286
+          ],
+          [
+            528.737216,
+            131.286
+          ],
+          [
+            528.737216,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fe1e40513ff3d75e6bc313fec401bd3d",
+    "text": "\u27a2 allows server & client to:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            212.1682
+          ],
+          [
+            87.984,
+            233.11
+          ],
+          [
+            315.88100000000003,
+            233.11
+          ],
+          [
+            315.88100000000003,
+            212.1682
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 12,
+      "parent_id": "07f5a1bce691580ce9033996ef8522a7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a20ae94d16ff30994f39a372d97eed12",
+    "text": "authenticate each other \u2022 \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            241.08840000000004
+          ],
+          [
+            123.98,
+            318.7284
+          ],
+          [
+            342.21056,
+            318.7284
+          ],
+          [
+            342.21056,
+            241.08840000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 12,
+      "parent_id": "07f5a1bce691580ce9033996ef8522a7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "12245037498b58dec4b951b07d040b54",
+    "text": "to negotiate encryption & MAC algorithms to negotiate cryptographic keys to be used \u27a2 comprises a series of messages in four phases Establish Security Capabilities Server Authentication and Key Exchange Client Authentication and Key Exchange Finish",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            270.69
+          ],
+          [
+            87.984,
+            463.554
+          ],
+          [
+            493.3935200000001,
+            463.554
+          ],
+          [
+            493.3935200000001,
+            270.69
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 12,
+      "parent_id": "07f5a1bce691580ce9033996ef8522a7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "598a43d5b49037073fbd30a951e0ef18",
+    "text": "1. 2. 3. 4.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            357.072
+          ],
+          [
+            123.98,
+            463.554
+          ],
+          [
+            139.236176,
+            463.554
+          ],
+          [
+            139.236176,
+            357.072
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 12,
+      "parent_id": "07f5a1bce691580ce9033996ef8522a7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "51b119cd95244bd09696d372f97acae4",
+    "text": "SSL Handshake Protocol",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            63.816,
+            75.24000000000001
+          ],
+          [
+            63.816,
+            148.086
+          ],
+          [
+            275.17728,
+            148.086
+          ],
+          [
+            275.17728,
+            75.24000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ab393e13b1c19a571e8613303b5ad8dd",
+    "text": "Cryptographic Computations",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            156.12,
+            96.22199999999998
+          ],
+          [
+            156.12,
+            131.286
+          ],
+          [
+            563.318232,
+            131.286
+          ],
+          [
+            563.318232,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ec6be67fd8abc0674360cad7f3a8c347",
+    "text": "\u27a2 master secret creation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            225.24771999999996
+          ],
+          [
+            87.984,
+            245.08599999999996
+          ],
+          [
+            287.63948000000005,
+            245.08599999999996
+          ],
+          [
+            287.63948000000005,
+            225.24771999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "54055fa348576731ea87d5ce4abded0a",
+    "text": "a one-time 48-byte value \u2022 generated using secure key exchange (RSA / Diffie-Hellman) and then hashing information.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            252.7416
+          ],
+          [
+            123.98,
+            322.62
+          ],
+          [
+            642.65824,
+            322.62
+          ],
+          [
+            642.65824,
+            252.7416
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "parent_id": "ec6be67fd8abc0674360cad7f3a8c347",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "22c55f3b2a514300eb7720b58f627365",
+    "text": "\u27a2 generation of cryptographic parameters (6 secret values as follows)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            330.1668
+          ],
+          [
+            87.984,
+            349.98
+          ],
+          [
+            631.1648799999999,
+            349.98
+          ],
+          [
+            631.1648799999999,
+            330.1668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "parent_id": "ec6be67fd8abc0674360cad7f3a8c347",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ab25a61bd78716acb7984f2234dd0283",
+    "text": "client write MAC secret, a server write MAC secret, a client write key, a server write key, a client write IV, and a server write IV these 6 secrets are generated by hashing the master secret using a simple algorithm and a hash function.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            357.60264
+          ],
+          [
+            123.98,
+            450.324
+          ],
+          [
+            647.541632,
+            450.324
+          ],
+          [
+            647.541632,
+            357.60264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "parent_id": "ec6be67fd8abc0674360cad7f3a8c347",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "59ca43e4805fd7a0be436f02abeb7e3b",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            407.8016
+          ],
+          [
+            123.98,
+            426.7616
+          ],
+          [
+            130.616,
+            426.7616
+          ],
+          [
+            130.616,
+            407.8016
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 14,
+      "parent_id": "ec6be67fd8abc0674360cad7f3a8c347",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e69fa98f8d859e5271764ab5fa4e5c2f",
+    "text": "TLS (Transport Layer Security)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.0,
+            96.22199999999998
+          ],
+          [
+            150.0,
+            131.286
+          ],
+          [
+            569.3303759999999,
+            131.286
+          ],
+          [
+            569.3303759999999,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c7b09000879b24efe83b3fe4fac5eee3",
+    "text": "\u27a2 IETF standard RFC 2246 like SSLv3 \u27a2 with minor differences",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            200.96500000000003
+          ],
+          [
+            87.984,
+            250.63599999999997
+          ],
+          [
+            399.8450000000001,
+            250.63599999999997
+          ],
+          [
+            399.8450000000001,
+            200.96500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "894d401878b5a139f1a5a78dc4a29f29",
+    "text": "\u2022 uses HMAC for MAC \u2022 a pseudo-random function expands secrets \u25aa based on HMAC using SHA-1 or MD5",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            256.53000000000003
+          ],
+          [
+            123.98,
+            361.536
+          ],
+          [
+            513.3830000000002,
+            361.536
+          ],
+          [
+            513.3830000000002,
+            256.53000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 15,
+      "parent_id": "c7b09000879b24efe83b3fe4fac5eee3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "041ceb2b4cfa991c19d72c663bfea9ed",
+    "text": "in record format version number",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            257.37
+          ],
+          [
+            146.54,
+            278.37
+          ],
+          [
+            424.6430000000001,
+            278.37
+          ],
+          [
+            424.6430000000001,
+            257.37
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a1171d915d909e2578f5a276f568de77",
+    "text": "has additional alert codes \u2022 some changes in supported ciphers \u2022 changes in certificate types & negotiations \u2022 changes in cryptographic computations & padding",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            367.43
+          ],
+          [
+            123.98,
+            472.43399999999997
+          ],
+          [
+            573.3859999999999,
+            472.43399999999997
+          ],
+          [
+            573.3859999999999,
+            367.43
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 15,
+      "parent_id": "041ceb2b4cfa991c19d72c663bfea9ed",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dfece7b1d64bce8a5f6dd33d49cfd5b5",
+    "text": "HTTPS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            329.98,
+            97.49200000000002
+          ],
+          [
+            329.98,
+            132.55600000000004
+          ],
+          [
+            420.62044000000003,
+            132.55600000000004
+          ],
+          [
+            420.62044000000003,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a2d8112754506324fb5ff90050559fe",
+    "text": "HTTPS (HTTP over SSL)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.76,
+            209.43200000000002
+          ],
+          [
+            128.76,
+            225.416
+          ],
+          [
+            278.945664,
+            225.416
+          ],
+          [
+            278.945664,
+            209.43200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6e088e98bf6fdd6d04c01c3c7ec304a1",
+    "text": "combination of HTTP & SSL/TLS to secure communications between browser & server \u2022 documented in RFC2818 \u2022 no fundamental change using either SSL or TLS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            127.61,
+            244.48999999999995
+          ],
+          [
+            127.61,
+            319.04
+          ],
+          [
+            583.8684800000001,
+            319.04
+          ],
+          [
+            583.8684800000001,
+            244.48999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "parent_id": "8a2d8112754506324fb5ff90050559fe",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "442f71b306ce7b414de8845e98208bb3",
+    "text": "use https:// URL rather than http://",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.76,
+            347.962
+          ],
+          [
+            128.76,
+            363.946
+          ],
+          [
+            358.79345600000005,
+            363.946
+          ],
+          [
+            358.79345600000005,
+            347.962
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9536caf128bbe913c69c9fb009739d91",
+    "text": "and port 443 rather than 80",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            127.61,
+            383.02
+          ],
+          [
+            127.61,
+            398.98
+          ],
+          [
+            321.84174,
+            398.98
+          ],
+          [
+            321.84174,
+            383.02
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "parent_id": "442f71b306ce7b414de8845e98208bb3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "02dc76186eaccdaad5722cb8fbaa87bc",
+    "text": "encrypts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            128.76,
+            426.99
+          ],
+          [
+            128.76,
+            442.95
+          ],
+          [
+            184.6998,
+            442.95
+          ],
+          [
+            184.6998,
+            426.99
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2663968b157ad007859893cf406adb82",
+    "text": "URL, document contents, form data, cookies, HTTP headers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            127.61,
+            461.988
+          ],
+          [
+            127.61,
+            477.972
+          ],
+          [
+            525.553232,
+            477.972
+          ],
+          [
+            525.553232,
+            461.988
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 16,
+      "parent_id": "02dc76186eaccdaad5722cb8fbaa87bc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "77abe094b0bd638da38b933e62695b94",
+    "text": "HTTPS Use",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            283.7,
+            96.22199999999998
+          ],
+          [
+            283.7,
+            131.286
+          ],
+          [
+            435.772568,
+            131.286
+          ],
+          [
+            435.772568,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0ef88a11dcad504274a702d07ad4d00f",
+    "text": "\u27a2 For HTTPS, the agent acting as the HTTP client also acts as the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            202.5682
+          ],
+          [
+            87.984,
+            223.51
+          ],
+          [
+            621.5711600000002,
+            223.51
+          ],
+          [
+            621.5711600000002,
+            202.5682
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "parent_id": "77abe094b0bd638da38b933e62695b94",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "34e9b2fddf25e43089ed77a1fa547cc4",
+    "text": "TLS client.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            227.452
+          ],
+          [
+            114.98,
+            247.51600000000002
+          ],
+          [
+            201.114752,
+            247.51600000000002
+          ],
+          [
+            201.114752,
+            227.452
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b50770408e210eba477f07bbcbee3517",
+    "text": "\u27a2 connection initiation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            255.38819999999998
+          ],
+          [
+            87.984,
+            276.33
+          ],
+          [
+            282.85508000000004,
+            276.33
+          ],
+          [
+            282.85508000000004,
+            255.38819999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "459b2d79ae24fe7073b51930b1a2c8d5",
+    "text": "TLS handshake then HTTP request(s)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            284.2884
+          ],
+          [
+            123.98,
+            305.13
+          ],
+          [
+            441.8494399999999,
+            305.13
+          ],
+          [
+            441.8494399999999,
+            284.2884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "parent_id": "b50770408e210eba477f07bbcbee3517",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2094b800c3dd1fa34f6b4bd062d92316",
+    "text": "\u27a2 connection closure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            312.9882
+          ],
+          [
+            87.984,
+            333.92999999999995
+          ],
+          [
+            268.82707999999997,
+            333.92999999999995
+          ],
+          [
+            268.82707999999997,
+            312.9882
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "883f8fcc1f82bd7ca38ac362bfdb81b2",
+    "text": "have \u201cConnection: close\u201d in HTTP record \u2022 TLS level exchange close_notify alerts \u2022 can then close TCP connection \u2022 must handle TCP close before alert exchange sent or completed",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            341.86944
+          ],
+          [
+            123.98,
+            473.154
+          ],
+          [
+            575.4360800000001,
+            473.154
+          ],
+          [
+            575.4360800000001,
+            341.86944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 17,
+      "parent_id": "2094b800c3dd1fa34f6b4bd062d92316",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1fe90d7cc1a549b93abf5ad6c8244a9a",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            291.98,
+            96.22199999999998
+          ],
+          [
+            291.98,
+            131.286
+          ],
+          [
+            427.32704,
+            131.286
+          ],
+          [
+            427.32704,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6ee31f9cf90e8b975ada30b5c665a10b",
+    "text": "\u27a2 Have considered: \u2022 Web security \u2022 TLS / SSL protocol \u2022 HTTPS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            230.19092
+          ],
+          [
+            87.984,
+            358.99
+          ],
+          [
+            318.64399999999995,
+            358.99
+          ],
+          [
+            318.64399999999995,
+            230.19092
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SCE 422 CH 16 SSL - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:51:52",
+      "page_number": 18,
+      "parent_id": "1fe90d7cc1a549b93abf5ad6c8244a9a",
+      "filetype": "application/pdf"
+    }
+  }
+]

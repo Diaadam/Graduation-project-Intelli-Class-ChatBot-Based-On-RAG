@@ -1,0 +1,164 @@
+[
+  {
+    "id": "f8568fa6-6bbd-4b36-9e0d-b7bbcdce063e",
+    "text": "10/30/2021 By: Computer Networks Prof. Dr. Eng. Sayed Nouh Chapter One Network Architecture 10/30/2021 Communication is based on transfer of information having a wider scope. For establishing a meaningfull communication a functional requirements should be identified. A man to man communication is an example from which these functional requirements can be identified. In the context of these requirements, a model for communication in a computer network is developed. The model is based on the concept of the layered architecture. Open System Interconnection (OSI) reference model is the earliest one of the layered architecture, this model will be explained in detail in this chapter. 10/30/2021 3",
+    "chunk_index": 0,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "f7f83748-754c-4dd1-8366-9a5e7c0ab154",
+    "text": "Topology of a Computer Network A computer network consists of end systems which are information, sources of and and which sinks (called system, a through communicate transit subnetwork), interconnecting them. End system subnetwork End system subnetwork A B End system (a) (b) A: application entity : Node :Interconnection point Computer Network 10/30/2021 4",
+    "chunk_index": 1,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "70b17e13-7fd1-44a6-9c6d-292932526aa6",
+    "text": "An end system consists of computers, terminals, software, and peripherals (e.g. disk drive, CD, HDD) forming an autonomous device capable of performing information processing. Each end system has an interconnection point through which it is physically connected to the transmission medium. The interconnection point has an address by which the end system is identified. Each end system hosts one or more application entities. It is due to these application entities that communication takes place between the end systems. They determine the subject and the duration of their communication. 10/30/2021 5",
+    "chunk_index": 2,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "40532e31-d6c0-4a6c-9cb5-c5200a3ff0e3",
+    "text": "The subnetwork, (without any application entity), performs all transmission and switching activities required for transporting messages between the end systems. Subnetwork consists of nodes the that process messages for routing them towards their destination. Nodes are interconnected to the end systems at the the sub network through a transmission edges of medium that carries electrical signals. 10/30/2021 6",
+    "chunk_index": 3,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "e29e21d2-f468-4c64-b287-dddac168f43a",
+    "text": "Elements of Meaningful Communication There are some basic elements of the communication process which must be present in any communication to make it meaningful. This is true for any type of communication, between human beings or between computers. These essential elements are: Common theme (i.e. the communicating entities should have common subject), Common language (i.e. the communicating entities should have the same language), and an orderly session (i.e. disciplined dialogue exchange which required flow control, error control, and synchronization). 10/30/2021 7",
+    "chunk_index": 4,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "1f318319-0b39-4348-99af-d53b5b72adda",
+    "text": "Transport- Oriented Functions In a computer network, the subnetwork provides means transporting the messages. But some additional of functions must also be built into the end systems for through the the message enabling transport of subnetwork without any error. These functions are assigned for: Interaction with the subnetwork, Quality of transport service, Conversion of signals, and Error control. 10/30/2021 8",
+    "chunk_index": 5,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "2b67eb32-35d1-42a2-9a94-3edab2daaeaf",
+    "text": "Components of a Computer Network There are certain functional capabilities that must be built into an end system for meaningful communication. These capabilities are: Authentication and login. Common syntax. Establishment of an orderly exchange of messages with markers for forward and backward synchronization. Establishing transport connection of required quality, flow control. Interacting with the subnetwork. Error control. Conversion of bits into electrical signals and vice versa. 10/30/2021 9",
+    "chunk_index": 6,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "7a3f639b-730c-4631-87c3-c1eac08a6b97",
+    "text": "Architecture of a Computer Network The architecture of a computer network, describes how the computer network has been assembled using its various components. It defines the specifications of the components and their interrelationship. The architecture of a computer network specifies a complete set of rules for the connections and interactions of its physical and logical components for providing and utilizing communication services. The architecture of a computer network is layered architecture. A computer network is portioned into end systems interconnected using a subnetwork and communication process is decomposed into hierarchical functional layers 10/30/2021 10",
+    "chunk_index": 7,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "d4b33fbe-8ffa-4841-82f6-aa9941fb97a9",
+    "text": "Need for Standardization of Network Architecture Standardization of network architecture makes us move from \"closed systems\" to \"open systems\". Standardization can solve many problems and solve a lot of effort required for developing interfaces for networking different architectures. There are several network architectures developed by manufacturers and by standardization organizations. Some of the important network architectures are: IBM's System network Architecture (SNA). Digital's Digital Network Architecture (DNA). Open System Interconnection (OSI) reference model developed by ISO (International Organization for Standardization) and ITu-T. Internet architecture. 10/30/2021 11",
+    "chunk_index": 8,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "489d77f8-e73c-4c0e-b92e-2e127abbc60e",
+    "text": "Open System Interconnection represents Open System Interconnection (OSI) a concepts of generalization of inter-process communication so that any open system may be technically able to communicate with another open system. Systems achieve openness by following certain architecture and obeying standard protocols. These standards are open for anybody to use and implement. is first architecture the The OSI step towards the communication It decomposes standardization. process into hierarchical functional layers and identifies necessary standards open the for system interconnection. It does not specify the standards but provides a reference model for development of standards. The OSI architecture is, therefore, called reference model for open system interconnection. 10/30/2021 12",
+    "chunk_index": 9,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "6452cc45-3d9d-4757-a647-408d0dec6793",
+    "text": "Layered Architecture of the OSI Reference Model End system End system Application Protocol Application Application Layer 7 layer layer Presentation Presentation Presentation Protocol Layer 6 layer layer Session Protocol Session Session Layer 5 layer layer Transport Protocol Transport Transport Layer 4 layer layer Network Network Network Network Layer 3 layer layer layer layer Data Link Data Link Data Link Data Link Layer 2 layer layer layer layer Physical Physical Physical Physical Layer 1 layer layer layer layer Subnetwork Interconnecting Interconnecting medium medium OSI Reference Model 10/30/2021 13",
+    "chunk_index": 10,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "0f012553-0953-4681-ace0-55d07ce4e3c9",
+    "text": "Application Layer The application layer provides a means for application programs to access the OSI environment, in other word, the application layer is the interface for the distributed applications (programs). Some examples of the applications programs; Internet explorer, File transfer, Electronic mail, Terminal access to remote computer, and the World Wide Web (WWW). Each one of the above mentioned applications has a part of it that resides in the application layer, for example: File transfer: It uses File Transfer protocol (FTP). Electronic mail: It uses Simple Mail Transfer (SMT) protocol to send message. 10/30/2021 14",
+    "chunk_index": 11,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "e4c68bd6-a451-4896-9b0b-47ca811819a4",
+    "text": "It uses HTTP protocol of Internet explorer: the application layer for exchanging messages. Remote login: It uses Telenet protocol for remote login. World Wide Web (WWW): It uses the application additional some above with protocols mentioned components. In addition to information transfer, the application layer provides such services as: Identification of the intended communication partner (s) by name or by address. Establishment of authority to communicate. Agreement on privacy (encryption) mechanisms. Authentication of an intended communication partner. Agreement on responsibility for error recovery. 10/30/2021 15",
+    "chunk_index": 12,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "aa167d0b-fbac-41e9-8347-d27f94209cde",
+    "text": "Presentation Layer The purpose of the presentation layer is to present the information to the communicating application entities in a way that preserves the meaning while resolving the syntax (code and data format) differences. There are three syntactic versions of data being transferred, syntax used by the application entity of the originator of the data, the syntax used the application entity of the recipient of data, and the \"transfer\" syntax the data between the presentation used to transfer entities. 10/30/2021 16",
+    "chunk_index": 13,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "1d6e0933-51a6-4615-a65e-1cde0ee35967",
+    "text": "The syntax may be same or different. When they are not same, the presentation layer contains functions necessary to transform the transfer syntax to the required syntax used by the application entities preserving the meaning. There is no fixed transfer syntax, and is to be negotiated by the presentation entities. Encryption of data, if required, is also carried out by the presentation layer. Local syntax Application layer Local syntax Presentation layer Transfer syntax Local and transfer syntax of the presentation layer 10/30/2021 17",
+    "chunk_index": 14,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "fe109f09-6426-47b8-8497-852c17d74595",
+    "text": "Session Layer The session layer provides the necessary means for the two cooperating application layer protocol entities to: Organize their dialogue (session), Synchronize their dialogue (data exchange), and Mange their data exchange (interaction management). Session organization For session organization, the session layer provides functions which are necessary for setting up (opening) and clearing (terminating) the session (dialogue). 10/30/2021 18",
+    "chunk_index": 15,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "1e74f107-2bad-4802-a0f2-65c6c988a814",
+    "text": "Dialogue synchronization A lengthy transaction-processing application might require checkpoints in the data transfer stream to permit backup and recovery. The session layer provides a check pointing mechanism ( e.g. –ve ack & +ve ack), so if some sort occurs between a failure of that checkpoints, the session entity can retransmit all data since the last checkpoint. Interaction management The data exchange associated with a dialogue may be full duplex (two-way simultaneous) or half duplex (two- way alternate). In the half duplex the session layer protocol provides facilities for controlling the exchange of data (dialogue units) in a synchronization way. 10/30/2021 19",
+    "chunk_index": 16,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "f7b97b61-d602-4c79-84c5-6b62a1631c30",
+    "text": "Transport Layer The overall function of the transport layer is to provide transport service of the quality required by the session entities in a cost-effective manner. The basic function of the transport layer is to: Accept data from the session layer, Split it up into smaller units if need be, Pass these units to the network layer, and Ensure that the pieces (the small units) all arrive correctly at the session layer of the other end system. Furthermore, all this must be done efficiently, and in a way that isolates the upper layers, from the inevitable changes in the hardware technology. 10/30/2021 20",
+    "chunk_index": 17,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "9723604c-60a8-4ae7-a220-918cf3ff51af",
+    "text": "Under normal conditions, the transport layer: ➢creates a distinct network connection for each transport connection required by the session layer. ➢If the transport connection requires a high throughput, however, the transport layer might create multiple network connections, dividing the data among the network connections to improve throughput. On the other hand, if creating a network connection is expensive, the transport layer might multiplex several transport connections onto the same network connection to reduce the cost. In all cases, the transport layer is required to make the multiplexing transparent to the session layer. 10/30/2021 21",
+    "chunk_index": 18,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "801a84e9-c12b-4bfa-906e-d7a567457c10",
+    "text": "Two types of transport service are provided by the transport layer to the session layer, and ultimately, the users of the network. These two types are concerned with the type of the transport connection: Connection-oriented transport service: which ensures that data are delivered error free, in sequence, with no loss or duplications. Connectionless transport service: where the transported messages have no guarantee about the order of delivery. The type of service (connection-oriented or connectionless) is determined when the connection is established. 10/30/2021 22",
+    "chunk_index": 19,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "3513e4aa-2f5e-495a-8df2-281559aef24e",
+    "text": "The transport layer is a true end-to-end layer, from source to destination. In other words, a program on the source machine carries on conversation with a similar program on the destination machine, using the messages header and control messages In the lower layers (from the physical layer to the network layer), the protocols are between each machine and its immediate neighbors, and not by the ultimate source and destination machines, which may be separated by many nodes. Also the transport layer provides a mechanism to regulate the flow of information, so that a fast end system can not overrun a slow one. Such a mechanism is called flow control. 10/30/2021 23",
+    "chunk_index": 20,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "54c8eb9f-06a8-4182-8a3a-8b6407837a09",
+    "text": "Network Layer The network layer provides the means to access the subnetwork for routing the message to the destination end system. Network layer relives the higher layers (from transport layer to the application layer) of need to know anything about the underlying data transmission and switching technologies used to connect end systems. The network layer of an end system interacts with the network layer of the access node of the subnetwork. This interaction represents the dialogue between an end system and the subnetwork to specify the destination address and to request certain network facilities, such as priority. 10/30/2021 24",
+    "chunk_index": 21,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "04a9109b-0902-4930-9396-c5e054725526",
+    "text": "10/30/2021 N.L DLL Phy.L End System N End System Phy.L Phy.L DLL N.L Phy.L DLL Phy.L DLL DLL N.L N.L Phy.L N.L DLL N.L Routing of Packets by the Network Layer 25",
+    "chunk_index": 22,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "b0b6057f-cfd4-4a43-ab56-9fa6f3e6c630",
+    "text": "An access node of a subnetwork facing the end system must support the three lower layers of the OSI model. The packets that are created by the end system pass through one or more network nodes that act as relays between the end systems. The network nodes implement layers 1 through 3 of the architecture. Routing decisions at each node are taken by the network layer. When a packet has to travel from one network to another (different) one, to get to its destination, many problems can rise. The addressing used by the second network may be different from the first one. The second one may not accept the packet at all because it is too large. The protocols may differ, and so on. It is up to the network layer to overcome all these problems to allow heterogeneous networks to be interconnected. This",
+    "chunk_index": 23,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "2c428905-2cf7-43a7-b02a-b52199c14821",
+    "text": "case requires the use of some sort of interconnecting technique. Also the congestion control is carried out by the network layer. 10/30/2021 26",
+    "chunk_index": 24,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "1556fe03-077a-4191-9ea5-655d33883986",
+    "text": "Data Link Layer ➢The main task of the data link layer is to take a stream of bits transmission facility, from the physical layer, and transform it into a frame that appears free of undetected errors to the network layer. ➢It accomplishes this task having the data link layer, at the sender breaks the incoming data packet, from the network layer, into up data frames, and transmits the frames sequentially using the physical layer. ➢Another important function of the data link layer is error detection & correction, and flow control mechanism. ➢In local area networks, end systems are having a common transmission medium. Medium Access Control (MAC) function is carried out by the data link layer. MAC determines which user can use the media for its transmission. 10/30/2021 27",
+    "chunk_index": 25,
+    "source_file": "4th_network1_chapter_one"
+  },
+  {
+    "id": "5bea64ed-51ef-4324-a09e-ad7af0973f5b",
+    "text": "Physical Layer The physical layer is concerned with transmitting raw bits over a transmission medium. Typical questions here are how many volts should be used to represent a \"1\" and how many volts for a \"0\", how many microseconds a bit lasts, how many pins the network connector has and what each pin is used for, and what is the type of the used transmission medium. To the end systems, the physical layer carries out the following functions: Conversion of the bits into electrical signals having characteristics suitable for transmission over the medium. Signal encoding, if required. Relaying of the digital signals using intermediary devices, like modems. 10/30/2021 28",
+    "chunk_index": 26,
+    "source_file": "4th_network1_chapter_one"
+  }
+]

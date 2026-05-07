@@ -1,0 +1,152 @@
+[
+  {
+    "id": "2dbfe4ea-44ae-4a0a-ba90-a5b56ba6e91c",
+    "text": "Lecture 5 Cache Memory Von Neumann bottleneck The separation of memory and CPU is often called the von Neumann bottleneck, since the interconnect determines the rate at which instructions and data can be accessed. The potentially vast quantity of data and instructions needed to run a program is effectively isolated from the CPU. In 2021, CPUs are capable of executing instructions more than one hundred times faster than they can fetch items from main memory. To address the von Neumann bottleneck and, more generally, improve computer performance, many modifications to the basic von Neumann architecture has been done.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "41a45a0f-b0a8-4741-9678-20815432d474",
+    "text": "Modifications to the von Neumann model As we noted earlier, since the first electronic digital computers were developed back in the 1940s, computer scientists and computer engineers have made many improvements to the basic von Neumann architecture. Many are targeted at reducing the problem of the von Neumann bottleneck, but many are also targeted at simply making CPUs faster. In this section, we’ll look one of these improvements: caching.",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "33d949cc-cb04-49a8-afcc-97dab006a7fa",
+    "text": "Principle of Locality Two different types of locality have been observed: Temporal locality states that recently accessed items are likely to be accessed in the near future. b) Spatial locality says that items whose addresses are near one another tend to be referenced close together in time.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "424f275b-7610-4e68-b65d-b6f1ac7d1a14",
+    "text": "MEMORY HIERARCHY The lowest level of the hierarchy is a small, fast memory called a cache. At the next level upward in the hierarchy is the main memory. The main memory serves directly most of the CPU instructions and operand fetches not satisfied by the cache. At the top level of the hierarchy is the hard drive, which is accessed only in the very infrequent cases where a CPU instruction or a operand fetch is not found in main memory. The use of these two caches permits one instruction and one operand to be fetched, or one instruction to be fetched and one result to be stored, in a single clock cycle if the caches are fast enough.",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "cf092ab8-37b3-4240-8523-ca130648cc7a",
+    "text": "Multiple-Level Caches Two levels of cache, often referred to as L1 and L2, with L1 closest to the CPU, are often used. In order to satisfy the demand of the CPU for instruction and operands, a very fast L1 cache is needed. The L1 cache is placed in the processor IC together with the CPU and is referred to as the internal cache. The L1 cache can be designed to specific CPU access needs including the possibility of separate instruction and data caches. A larger L2 cache is added outside the processor IC. If more space is available in the IC, then the L2 cache can also be an internal cache. L2 rather than providing instructions and operands to a CPU, it primarily provides instructions and operands to the first-level cache L1. The L2 cache is accessed only on L1 misses,",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "100bb588-fa35-49e5-8fcb-c0d9715e3f38",
+    "text": "Cache Memory To illustrate the concept of cache memory, we assume a very small cache of: Eight (32-bit) words, A small main memory with 1 KB (256 words of 32-bit). The cache address lines = 3 bits, The memory address lines = 10 bits, Out of the 256 words of size 32 bit / word, in the main memory, only 8 at a time may lie in the cache. In order for the CPU to address a word in the cache, there must be information in the cache to identify the address of the word in main memory",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "473d994f-0ef5-4803-b594-cbb16a1f6ddd",
+    "text": "Cache Mappings Mapping is between the main memory address and the cache address. There are many cache mapping technologies: - Direct cache Mapping - Fully Associative Cache mapping -Associative Memory - Set-associative Cache mapping 1- Direct Cache Mapping The main memory address is partitioned into three sections:",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "4731947b-3a81-4638-8cbd-1cc3ef876ea6",
+    "text": "1- No., of Bytes 2- Index 3 Tag For Example: Cont., Byte Field: has the lowest two bits to be able to map 4 succeeded bytes from the main memory to one cache memory location (32-bit size). Index Field: has the next three bits because the cache memory has eight memory locations Upper 5 bits of the main memory address, called the tag, are stored in the cache along with the data.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "ece32453-cda5-452c-8d44-4b73efd54769",
+    "text": "Mapping Process Suppose that the CPU is to fetch an instruction from location 000001100 in main memory. The CPU start fetches in his cache, as follows: - Compare Index  sure matched - Compare Tag, If tag matched, called cache hit, else called cache miss and looks for the address in the main memory",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "df60c771-2e84-497b-a6d6-a61464adb51e",
+    "text": "Cont., 2- fully associative mapping In contrast to direct mapping, suppose that we let locations in main memory map into an arbitrary location in the cache. Then any location in memory can be mapped to any one of the eight addresses in the cache. This means that the tag will now be the full main memory word address.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "e0c74c80-8b0b-4c06-91eb-24eb754386aa",
+    "text": "Mapping Process Suppose that the CPU is to fetch an instruction from location 0000010000 in cache memory: The cache must compare 00000100 to each of its eight tags. One way to do this is to successively read each tag and the associated word from the cache memory and compare the tag to 00000100. If a match occurs, a cache hit occurs, and the cache control then places the word on the bus to the CPU, completing the fetch operation. If the tag fetched from the cache is not matched, then there is a tag mismatch, and the cache control fetches the next successive tag and word.",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "10f1c96d-ca16-42a2-acae-562c44583bf6",
+    "text": "Cont., In the worst case, a match on the tag in cache address, eight fetches from the cache are required before the cache hit occurs. At 2 ns a fetch, this requires at least 16 ns, about half the time it would take to obtain the instruction from main memory (cons). So successive reads of tags and words from the cache memory to find a match is not a very desirable approach",
+    "chunk_index": 11,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "7e356302-da18-4f35-a4c0-8bb9fb20d818",
+    "text": "3- Associative Memory A structure called associative memory implements the tag portion of the cache memory. An associative memory is known as content-addressable memory (CAM). The subfield chosen to address the memory (TAG) is called the key. The idea is to minimize the fetching time by adding an associative memory for fetching Tags. Let : T  is the Tag address, and A  is the applied CPU address. The matching logic circuit does an equality comparison between the Tag ‘T’, and the applied address ‘A’, for the eight cache memory locations at the same time.",
+    "chunk_index": 12,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "a5efc3bf-b94a-445d-a653-a31e7b7575f9",
+    "text": "Cont., The match logic does an equality comparison or match between the tag T and the applied address A from the CPU. The match logic for each tag is composed of an exclusive-OR gate for each bit and a NOR gate that combines the outputs of the exclusive-ORs. If all of the bits of the tag and the address match, then the outputs of all the exclusive-ORs are 0 and the NOR output is a 1, indicating a match. If there is a mismatch between any of the bits in the tag and the address, then at least one exclusive-OR has a 1 output, which causes the output of the NOR gate to be 0, indicating a mismatch. The drawback of the method is the matching logic circuit cost and size.",
+    "chunk_index": 13,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "f536d86b-ed97-4d12-b2cb-1a705f877135",
+    "text": "4- Set-associative Cache mapping An alternative mapping that has better performance and eliminates the cost of most of the matching logic is a compromise between a direct-mapped cache and a fully associative cache. For such a mapping, lower-order address bits (Index) act much as they do in direct mapping; however, for each combination of lower-order address bits, instead of having one location, there is a set of s locations.",
+    "chunk_index": 14,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "0b1841a5-5d88-4150-8256-0bf11cebe7fc",
+    "text": "Two-Way set Associative Cache For example, if the set size equals two, then two tags and the two accompanying data words are read simultaneously. The tags are then simultaneously compared to the CPU-supplied address using just two matching logic structures. Eight cache locations are arranged in four rows of two locations each. The rows are addressed by a 2-bit index and contain tags made up of the remaining six bits of the main memory address.",
+    "chunk_index": 15,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "738bb148-6382-41e1-a1bd-c194fc25c5a3",
+    "text": "Mapping Process The index is used to address each row of the cache memory. The two tags read from the tag memories are compared to the tag part of the address on the address bus from the CPU. If a match occurs, then the three-state buffer on the corresponding data memory output is activated, placing the data onto the data bus to the CPU as shown in the following figure. In addition, the match signal causes the output of the Hit/miss OR gate to become 1, indicating a hit. If a match does not occur, then Hit/miss is 0, informing the main memory that it must supply the word to the CPU, and informing the CPU that the word will be delayed.",
+    "chunk_index": 16,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "f81dcab0-a7d0-492d-83f5-174af2ce2033",
+    "text": "Cache Controller Line Size In real caches, spatial locality is to be exploited, so additional words close to the one addressed are included in the cache entry. Then, rather than a single word being fetched from main memory when a cache miss occurs, a block of l words called a line is fetched. Bits 2 and 3, the Word field, are used to address the word within the line. In this case, two bits are used, so there are four words per line.",
+    "chunk_index": 17,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "b0492390-4e0d-4678-ab6b-b4e5cf231268",
+    "text": "Cache Replacement Approaches In addition to selecting a cache mapping, the cache designer must select a replacement approach that determines the location in the cache to be used for the incoming tag and data. One possibility is to select a random replacement location A somewhat more thoughtful approach is to use a first-in, first-out (FIFO) location. An approach that appears to attack the replacement problem even more directly is the least recently used (LRU) location approach.",
+    "chunk_index": 18,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "4502cc45-80f7-494d-9a0e-2d3343551e78",
+    "text": "Cache Write Methods We have focused so far on reading instructions and operands from the cache. What happens when a write occurs? Following are three possible write actions from which we can select: 1. Write the result into main memory. 2. Write the result into the cache. 3. Write the result into both main memory and the cache.",
+    "chunk_index": 19,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "35ca66f3-32e3-46bb-ab83-00f1a3073b40",
+    "text": "Cont., Various realistic cache write methods employ one or more of these actions. Such methods fall into two main categories: - Write-through. - Write-back. In cache memory, \"write back\" and \"write through\" are two different strategies for managing how data is written to both the cache and the underlying main memory.",
+    "chunk_index": 20,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "4ace6fe1-49ac-43b9-af72-2e99722d0f51",
+    "text": "Write Through Definition: In the write-through cache strategy, every time data is written to the cache, it is also written simultaneously to the main memory. Advantages: Simplicity: Easy to implement and understand. Data Consistency: The main memory always contains the most up-to-date data. Disadvantages: Performance: Slower write operations because every write operation involves accessing both cache and main memory. Increased memory traffic: More frequent writes to the main memory can lead to higher bandwidth usage.",
+    "chunk_index": 21,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "b315ef46-91b0-47c4-b22c-544ca18b3ffe",
+    "text": "Write Back Definition: In the write-back cache strategy, data is written to the cache first, and updates are only written to main memory later, typically when the cache line is evicted. Advantages: Performance: Faster write operations since the write to main memory is delayed. Reduced memory traffic: Fewer writes to main memory can improve overall system performance, especially for applications with frequent writes.",
+    "chunk_index": 22,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "0d53d99f-d7c8-4288-ad06-66b2baa718f1",
+    "text": "Disadvantages: Complexity: More complex to manage, as the system must track which cache lines have been modified. Potential for Data Loss: If the system crashes before the cache is written back to memory, changes could be lost. Assignment 1 Explain the concept of Cache Coherence. Assignment 2 A CPU produces the following sequence of read addresses in hexadecimal: 54, 58, 104, 5C, 108, 60, F0, 64, 54, 58, 10C, 5C, 110, 60, F0, 64. Supposing that the cache is empty to begin with, and assuming an LRU replacement, determine whether each address produces a hit or a miss for each of the following caches: (a) direct mapped (b) fully associative , and (c) two-way set associative.",
+    "chunk_index": 23,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  },
+  {
+    "id": "f5ce1454-b143-4b92-8554-1a77c5b77e07",
+    "text": "Assignment #3 A two-way set-associative cache in a system with 32-bit addresses has four 4-byte words per line and a capacity of 1 MB. Addressing is to the byte level. How many bits are there in the index and the tag? Sheet Text Book ch., 12",
+    "chunk_index": 24,
+    "source_file": "4th_Computer_architecture_lec_5_new"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "58437028-e560-46ac-be52-23dbcee79aae",
+    "text": "CHAPTER 8 Multiplexing “It was impossible to get a conversation going, everybody was talking too much.” Yogi Berra MULTIPLEXING Bandwidth utilization is the wise use of available bandwidth. Efficiency can be achieved by multiplexing; i.e., sharing of the bandwidth between multiple users. Categories of Multiplexing",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "943b3403-d4e9-43a3-a681-acd480595129",
+    "text": "Frequency-division multiplexing (FDM) FDM is an analog multiplexing technique that combines analog signals. 1- Frequency-division multiplexing (FDM) Process FDM demultiplexing example Example Assume that a voice channel occupies a bandwidth of 4 kHz. We need to combine three voice channels into a link with a bandwidth of 12 kHz, from 20 to 32 kHz. Show the configuration, using the frequency domain. Assume there are no guard bands. Solution We shift (modulate) each of the three voice channels to a different bandwidth. We use the 20- to 24-kHz bandwidth for the first channel, the 24- to 28-kHz bandwidth for the second channel, and the 28- to 32-kHz bandwidth for the third one.",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "ce09d1c6-19cc-4645-903d-2ed9b1827f0a",
+    "text": "Example Five channels, each with a 100-kHz bandwidth, are to be multiplexed together. What is the minimum bandwidth of the link if there is a need for a guard band of 10 kHz between the channels to prevent interference? Solution 5 × 100 + 4 × 10 = 540 kHz, 2- Wavelength Division Multiplexing (WDM) WDM is an analog multiplexing technique.",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "fa6ea027-cc16-468f-8aaa-ef080b9fcc55",
+    "text": "Multiple beams of light at different frequencies Carried over optical fiber links Dense Wavelength Division Multiplexing (DWDM) 3- Time Division Multiplexing (TDM) TDM is a digital multiplexing technique for combining several digital channels into one high-rate one. Synchronous time-division multiplexing",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "33b4e77b-c880-43d4-9bbf-a1aa6372f7ed",
+    "text": "modulatedTDM stream n mn(t)m1(t)m2(t)mn(t)mc(t) Modems(t)mc(t) modulatedTDM stream N ScanOperationBuffer Framem1(t) m2(t)s(t) mn(t) TDM stream TDM stream BufferFrameTime slot: may beempty or occupied Buffer BufferBuffer1 BufferScanOperation 2 Modem 2 1 m2(t) m1(t) Figure 8.6 Synchronous TDM System(a) Transmitter(c) Receiver(b) TDM Frames",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "431cedb3-f844-4423-888e-d0775c62a208",
+    "text": "Interleaving The process of taking a group of bits from each input line for multiplexing is called interleaving. Example Four channels are multiplexed using TDM. If each channel sends 100 bytes /s and we multiplex 1 byte per channel, show • The frame traveling on the link, • The size of the frame • The duration of a frame, the frame rate, and • The bit rate for the link. Solution Each frame carries 1 byte from each channel; • The size of each frame, therefore, is 4 bytes, or 32 bits. • Because each channel is sending 100 bytes/s and a frame carries 1 byte from each channel, the frame rate must be 100 frames per second. • Frame duration=1/ frame rate • The bit rate is 100 × 32, or 3200 bps.",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "9bd4a446-a8df-46ef-9dfb-80bbecdb2ae1",
+    "text": "Data Rate Management Not all input links maybe have the same data rate. • Some links maybe slower. There maybe several different input link speeds There are three strategies that can be used to overcome the data rate mismatch: multilevel, multislot and pulse stuffing Multilevel multiplexing Multiple-slot multiplexing",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_7-multiplexing"
+  },
+  {
+    "id": "2a40d73b-f345-4b5c-ba02-cf758388d24c",
+    "text": "Pulse stuffing Synchronization To ensure that the receiver correctly reads the incoming bits, i.e., knows the incoming bit boundaries to interpret a “1” and a “0”, a known bit pattern is used between the frames. The receiver looks for the anticipated bit and starts counting bits till the end of the frame. Then it starts over again with the reception of another known bit. • These bits (or bit patterns) are called synchronization bit(s). • They are part of the overhead of transmission. Framing bits",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_7-multiplexing"
+  }
+]

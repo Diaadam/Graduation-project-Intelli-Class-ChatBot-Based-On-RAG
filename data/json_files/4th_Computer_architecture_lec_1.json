@@ -1,0 +1,6123 @@
+[
+  {
+    "type": "UncategorizedText",
+    "element_id": "22cfff946f1adcc312178396fa39e66f",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            150.25265534416303,
+            90.02503975000008
+          ],
+          [
+            150.25265534416303,
+            118.82504125000008
+          ],
+          [
+            165.37034299499078,
+            118.82504125000008
+          ],
+          [
+            165.37034299499078,
+            90.02503975000008
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cf2f51f75d053b91760c0794f411d93f",
+    "text": "Al-Azhar University Faculty of Eng Systems and Computer Eng., Dept",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            165.760345560078,
+            21.02503825000008
+          ],
+          [
+            165.760345560078,
+            118.82504125000008
+          ],
+          [
+            569.3395944529329,
+            118.82504125000008
+          ],
+          [
+            569.3395944529329,
+            21.02503825000008
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "15fc302b56373335d53e6c5dde43c5fe",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            268.78729718561,
+            55.52503900000005
+          ],
+          [
+            268.78729718561,
+            84.32504050000006
+          ],
+          [
+            283.9049848364378,
+            84.32504050000006
+          ],
+          [
+            283.9049848364378,
+            55.52503900000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 1,
+      "parent_id": "cf2f51f75d053b91760c0794f411d93f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9ee89cab135be8cbb4efb4f3ad513b1c",
+    "text": "SCE 409: Computer Architecture Grade 4, 1st Semister Ass. Prof. Khaled Elshafey",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            147.762752,
+            194.84842000000003
+          ],
+          [
+            147.762752,
+            316.84842
+          ],
+          [
+            571.090878,
+            316.84842
+          ],
+          [
+            571.090878,
+            194.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 1,
+      "parent_id": "cf2f51f75d053b91760c0794f411d93f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ccb6226a68689ddefd6ba29215560e67",
+    "text": "Course Objectives",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            191.698822,
+            49.37503800000002
+          ],
+          [
+            191.698822,
+            93.37503800000002
+          ],
+          [
+            528.0562561,
+            93.37503800000002
+          ],
+          [
+            528.0562561,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8258ee75c43f6a3ee2ecfd3702e0259a",
+    "text": "OBJECTIVES: This course aims to provides a strong foundation to understand modern computer system architecture.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            136.34841900000004
+          ],
+          [
+            43.198818,
+            289.84842000000003
+          ],
+          [
+            619.9800869999999,
+            289.84842000000003
+          ],
+          [
+            619.9800869999999,
+            136.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 2,
+      "parent_id": "ccb6226a68689ddefd6ba29215560e67",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1bf760e7645ee34bb4427293b26afca1",
+    "text": "Text Books",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            281.698822,
+            52.37503800000002
+          ],
+          [
+            281.698822,
+            88.37503800000002
+          ],
+          [
+            436.36482829999994,
+            88.37503800000002
+          ],
+          [
+            436.36482829999994,
+            52.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "585b0f4dcfb79d983a895ec90fb3c136",
+    "text": "\u201cComputer Architecture, A Quantitative Approach\u201d, by: John L. Hennessy, and David A. Patterson, 5th Edition.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            244.84841900000004
+          ],
+          [
+            675.3241879999999,
+            244.84841900000004
+          ],
+          [
+            675.3241879999999,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 3,
+      "parent_id": "1bf760e7645ee34bb4427293b26afca1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0b5af59b103257174cec16115134cfed",
+    "text": "\u201cLogic and Computer Design Fundamentals\u201d, by: M. Morris Mano Charles Kime, Fourth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            300.879668
+          ],
+          [
+            40.2918413,
+            411.34842
+          ],
+          [
+            659.5425839999999,
+            411.34842
+          ],
+          [
+            659.5425839999999,
+            300.879668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 3,
+      "parent_id": "1bf760e7645ee34bb4427293b26afca1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6415fffbf73f59df10b52b18045f0c74",
+    "text": "Syllabus",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            307.198822,
+            54.25003800000002
+          ],
+          [
+            307.198822,
+            86.25003800000002
+          ],
+          [
+            412.151962,
+            86.25003800000002
+          ],
+          [
+            412.151962,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1048fcecd94a9bf3ccf435a5e8c55372",
+    "text": "Introduction \u2022 Quantitative principles of computer design \u2022 Memory and PLDs (FPGAs) \u2022 Register Transfers and Datapaths \u2022 Single-cycle microprogramming control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            131.77107042476558
+          ],
+          [
+            41.098818564000005,
+            347.7484224
+          ],
+          [
+            676.6791112953281,
+            347.7484224
+          ],
+          [
+            676.6791112953281,
+            131.77107042476558
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 4,
+      "parent_id": "6415fffbf73f59df10b52b18045f0c74",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "be1f16a17510bdef019904babf338cf8",
+    "text": "I/O organization \u2022 Parallel",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            355.2710845047656
+          ],
+          [
+            41.098818564000005,
+            424.24842818
+          ],
+          [
+            263.0189282734627,
+            424.24842818
+          ],
+          [
+            263.0189282734627,
+            355.2710845047656
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 4,
+      "parent_id": "6415fffbf73f59df10b52b18045f0c74",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8d2f04ad9489895a62ace5e087d89a14",
+    "text": "computer Architecture: Pipeline and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            184.04380462986654,
+            394.64842904
+          ],
+          [
+            184.04380462986654,
+            424.24842584
+          ],
+          [
+            676.6814669792465,
+            424.24842584
+          ],
+          [
+            676.6814669792465,
+            394.64842904
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1573e7fff7e92c8448bc4fd85389e813",
+    "text": "Superscalar techniques",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.19897212,
+            426.8984256
+          ],
+          [
+            70.19897212,
+            456.4984224
+          ],
+          [
+            347.389637644105,
+            456.4984224
+          ],
+          [
+            347.389637644105,
+            426.8984256
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dea865b52435046d5df4388cfcaeb7fb",
+    "text": "Course Plan",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.698822,
+            49.37503800000002
+          ],
+          [
+            254.698822,
+            93.37503800000002
+          ],
+          [
+            464.722277,
+            93.37503800000002
+          ],
+          [
+            464.722277,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5a31c97f5ea4cfe31ad0b62e8a2ac60f",
+    "text": "Final Exam: 100 \u2022 Mid Term : \u2022 Course Project: \u2022 Quizzes& Assignments: ---------------------------------------------------- \u2022 Total 150 10",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            358.59841256000004
+          ],
+          [
+            506.7059737444236,
+            358.59841256000004
+          ],
+          [
+            506.7059737444236,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 5,
+      "parent_id": "dea865b52435046d5df4388cfcaeb7fb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "81f7ee3df1e08b1c7778fb050ab44252",
+    "text": "20",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            286.19882404,
+            174.59841143999995
+          ],
+          [
+            286.19882404,
+            202.59841255999993
+          ],
+          [
+            523.1343148415572,
+            202.59841255999993
+          ],
+          [
+            523.1343148415572,
+            174.59841143999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 5,
+      "parent_id": "dea865b52435046d5df4388cfcaeb7fb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f197f9d3a09b4abf9fa19971112f4446",
+    "text": "Basic Terms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            283.948822,
+            54.25003800000002
+          ],
+          [
+            283.948822,
+            86.25003800000002
+          ],
+          [
+            434.85507800000005,
+            86.25003800000002
+          ],
+          [
+            434.85507800000005,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0919fa0ce46c37f61e426895c024421a",
+    "text": "Computer Architecture includes the study of functional blocks that make up the computer system and the way they are connected. \u2022 Computer Organization: concerned with the implementation of computer architecture, and involves # processors, memory size, time to execute an instruction,\u2026.etc.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            132.12966700000004
+          ],
+          [
+            40.2918413,
+            379.09842000000003
+          ],
+          [
+            654.745698,
+            379.09842000000003
+          ],
+          [
+            654.745698,
+            132.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 6,
+      "parent_id": "f197f9d3a09b4abf9fa19971112f4446",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e4652101898877add533a3ae3d05eacc",
+    "text": "Computer engineering: referred to the actual construction of a computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            386.379668
+          ],
+          [
+            40.2918413,
+            454.84842
+          ],
+          [
+            660.935786,
+            454.84842
+          ],
+          [
+            660.935786,
+            386.379668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 6,
+      "parent_id": "f197f9d3a09b4abf9fa19971112f4446",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f7a0d16471062e942178f3e7ac65162d",
+    "text": "Von-Neumann Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.448822,
+            49.37503800000002
+          ],
+          [
+            114.448822,
+            93.37503800000002
+          ],
+          [
+            603.7007945,
+            93.37503800000002
+          ],
+          [
+            603.7007945,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "26b62e8fba00065dad8f871c50dddf8c",
+    "text": "The main Features of Von-Neumann Arch.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            69.4488216875,
+            27.925041587500004
+          ],
+          [
+            69.4488216875,
+            114.775037225
+          ],
+          [
+            649.8402375248007,
+            114.775037225
+          ],
+          [
+            649.8402375248007,
+            27.925041587500004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 8,
+      "parent_id": "f7a0d16471062e942178f3e7ac65162d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bd2882641af625d23cbed78add3e67d1",
+    "text": "The computer consists of memory, I/O, and CPU \u2022 The computer structure is independent of problem",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            236.34842376
+          ],
+          [
+            676.3810567408667,
+            236.34842376
+          ],
+          [
+            676.3810567408667,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 8,
+      "parent_id": "f7a0d16471062e942178f3e7ac65162d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b7e7448a0a0b4adc49ced32bd200310f",
+    "text": "Binary signals are used for representing data and instructions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            246.2820033973436
+          ],
+          [
+            41.88302384435569,
+            309.09842076
+          ],
+          [
+            676.165815587464,
+            309.09842076
+          ],
+          [
+            676.165815587464,
+            246.2820033973436
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 8,
+      "parent_id": "f7a0d16471062e942178f3e7ac65162d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "359efac82725d0ba1ff3ff3c5a0e7976",
+    "text": "The memory is divided into cells of equal size \u2022 Instructions and Data are stored in the same memory \u2022 The program is a sequence of instructions (control flow)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            319.0320033973437
+          ],
+          [
+            41.88302384435569,
+            459.84841076000004
+          ],
+          [
+            675.8367805973351,
+            459.84841076000004
+          ],
+          [
+            675.8367805973351,
+            319.0320033973437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 8,
+      "parent_id": "f7a0d16471062e942178f3e7ac65162d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9982cfc63507ed7a519f0564661ed6b2",
+    "text": "BASIC MICROPROCESSOR SYSTEM",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            135.448822,
+            54.25003800000002
+          ],
+          [
+            135.448822,
+            86.25003800000002
+          ],
+          [
+            583.3550849999999,
+            86.25003800000002
+          ],
+          [
+            583.3550849999999,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "727cff498ce297791ab857df940fa36f",
+    "text": "The Microprocessor alone does not serve any useful purpose unless it is supported by memory and I/O ports. \u2022 The combination of memory and I/O ports with",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            131.68435500000004
+          ],
+          [
+            43.198818,
+            213.59842000000003
+          ],
+          [
+            661.3785470999999,
+            213.59842000000003
+          ],
+          [
+            661.3785470999999,
+            131.68435500000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "parent_id": "9982cfc63507ed7a519f0564661ed6b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cc07fcd1445db00d2390e9af0ffa9e77",
+    "text": "microprocessor is known as microprocessor-based system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.198818,
+            215.84842000000003
+          ],
+          [
+            70.198818,
+            239.84842000000003
+          ],
+          [
+            637.8628794999998,
+            239.84842000000003
+          ],
+          [
+            637.8628794999998,
+            215.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "parent_id": "9982cfc63507ed7a519f0564661ed6b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8c8c0e095243ff6bd932f7fd16b14f50",
+    "text": "The microprocessor executes the program stored in the memory and transfer data to and from the outside world through I/O ports.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            245.68435600000004
+          ],
+          [
+            43.198818,
+            323.09842000000003
+          ],
+          [
+            622.2730528999999,
+            323.09842000000003
+          ],
+          [
+            622.2730528999999,
+            245.68435600000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "parent_id": "9982cfc63507ed7a519f0564661ed6b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8c430261b177b736779046fffd899f1",
+    "text": "The microprocessor is interconnected with memory and I/O ports by busses called: the data bus, the Address bus and the control bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            328.934356
+          ],
+          [
+            43.198818,
+            406.34842
+          ],
+          [
+            668.7886824,
+            406.34842
+          ],
+          [
+            668.7886824,
+            328.934356
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "parent_id": "9982cfc63507ed7a519f0564661ed6b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ad54379b933f06fb66d33d8c970b872f",
+    "text": "A bus is basically a communication link between the processing unit and the peripheral devices.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            412.184356
+          ],
+          [
+            43.198818,
+            463.34842
+          ],
+          [
+            574.7886823,
+            463.34842
+          ],
+          [
+            574.7886823,
+            412.184356
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 9,
+      "parent_id": "9982cfc63507ed7a519f0564661ed6b2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d375af9582a314c16d5035c33b90fad0",
+    "text": "Control Unit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            278.47207199999997,
+            54.25003800000002
+          ],
+          [
+            278.47207199999997,
+            86.25003800000002
+          ],
+          [
+            440.48768799999993,
+            86.25003800000002
+          ],
+          [
+            440.48768799999993,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9672ed2a72f77792ed3f9c0d92070ce6",
+    "text": "The control unit performs the most important function in a computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            197.34841204000003
+          ],
+          [
+            590.0384138225487,
+            197.34841204000003
+          ],
+          [
+            590.0384138225487,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 11,
+      "parent_id": "d375af9582a314c16d5035c33b90fad0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b19cb7bdefdb54ef08b5ed467428cf47",
+    "text": "It controls all other units and controls the flow of data from one unit to another for performing computations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            207.2820033973436
+          ],
+          [
+            41.88302384435569,
+            303.84841896
+          ],
+          [
+            625.5093986069052,
+            303.84841896
+          ],
+          [
+            625.5093986069052,
+            207.2820033973436
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 11,
+      "parent_id": "d375af9582a314c16d5035c33b90fad0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "88b8e02c8601a45d14de07c39db1ff6c",
+    "text": "It also sequences the operations. \u2022 It instructs all the units to perform the task in a particular sequence with the help of clock pulses.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            313.7820033973437
+          ],
+          [
+            41.88302384435569,
+            415.59841076000004
+          ],
+          [
+            630.7499451475617,
+            415.59841076000004
+          ],
+          [
+            630.7499451475617,
+            313.7820033973437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 11,
+      "parent_id": "d375af9582a314c16d5035c33b90fad0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9d7845213ae1d8d9f0015ab44c3dd311",
+    "text": "ALU",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            333.448822,
+            54.25003800000002
+          ],
+          [
+            333.448822,
+            86.25003800000002
+          ],
+          [
+            386.480071,
+            86.25003800000002
+          ],
+          [
+            386.480071,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "91e3675d320baa38700777fbfb5de174",
+    "text": "Microprocessors (Datapath) are defined by their registers and the operations performed on binary data stored in the registers.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            131.68698610599614
+          ],
+          [
+            42.578817788630786,
+            214.073420635
+          ],
+          [
+            640.71966664408,
+            214.073420635
+          ],
+          [
+            640.71966664408,
+            131.68698610599614
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 12,
+      "parent_id": "9d7845213ae1d8d9f0015ab44c3dd311",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "89ee3bcd725918a665dde237c20ed026",
+    "text": "This operation unit (ALU) is used for performing arithmetic operations such as Addition, Subtraction, Multiplications, division and other logical operations on the data.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            220.18699171349613
+          ],
+          [
+            42.578817788630786,
+            330.32341502500003
+          ],
+          [
+            653.3184979028514,
+            330.32341502500003
+          ],
+          [
+            653.3184979028514,
+            220.18699171349613
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 12,
+      "parent_id": "9d7845213ae1d8d9f0015ab44c3dd311",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "679449badacc58ca2d6ef21556bee9d3",
+    "text": "The control unit guides ALU which of the operations are to be performed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            336.4369817134961
+          ],
+          [
+            42.578817788630786,
+            391.07342746
+          ],
+          [
+            654.0607455696609,
+            391.07342746
+          ],
+          [
+            654.0607455696609,
+            336.4369817134961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 12,
+      "parent_id": "9d7845213ae1d8d9f0015ab44c3dd311",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ee7934d10a74ade78549307aaa40a485",
+    "text": "The sequence of the instructions is controlled by the control unit.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            397.1869817134961
+          ],
+          [
+            42.578817788630786,
+            451.82342746
+          ],
+          [
+            620.3821943342613,
+            451.82342746
+          ],
+          [
+            620.3821943342613,
+            397.1869817134961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 12,
+      "parent_id": "9d7845213ae1d8d9f0015ab44c3dd311",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "80cdcc8fdf3645f3bc8cf6d6057f942c",
+    "text": "Address Bus",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            248.698822,
+            52.16411400000004
+          ],
+          [
+            248.698822,
+            88.16411400000004
+          ],
+          [
+            470.458582,
+            88.16411400000004
+          ],
+          [
+            470.458582,
+            52.16411400000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1c2f5dc3f337d5725bed041db87cd465",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            641.7569020000001,
+            135.12966700000004
+          ],
+          [
+            641.7569020000001,
+            168.34841900000004
+          ],
+          [
+            678.401928,
+            168.34841900000004
+          ],
+          [
+            678.401928,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 13,
+      "parent_id": "80cdcc8fdf3645f3bc8cf6d6057f942c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "908b6a4bb2c126030a97b1c148a3e46d",
+    "text": "Data Bus",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            301.198822,
+            54.25003800000002
+          ],
+          [
+            301.198822,
+            86.25003800000002
+          ],
+          [
+            418.07383,
+            86.25003800000002
+          ],
+          [
+            418.07383,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2ee4da73e9e83941de395d519443064c",
+    "text": "Data bus is bidirectional, that is, data flow occurs both to and from CPU and peripherals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            129.43698798849607
+          ],
+          [
+            42.578817788630786,
+            181.07342224500002
+          ],
+          [
+            666.0661427892096,
+            181.07342224500002
+          ],
+          [
+            666.0661427892096,
+            129.43698798849607
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "parent_id": "908b6a4bb2c126030a97b1c148a3e46d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dc6759dd8226dc23a68cbc6cb4186eac",
+    "text": "A microprocessor is characterized by the width of its data bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            183.4369802234961
+          ],
+          [
+            42.578817788630786,
+            235.82341985250002
+          ],
+          [
+            618.9287927470606,
+            235.82341985250002
+          ],
+          [
+            618.9287927470606,
+            183.4369802234961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "parent_id": "908b6a4bb2c126030a97b1c148a3e46d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "70a3f74baed1a4d1d3cc99433e42fd64",
+    "text": "The size of the internal data bus determines the largest number that can be processed by a microprocessor, for instance, having a 16-bit internal data bus is 65536 (64K). \u2022 A microprocessor is specified by its \u2018Word Size\u2019, e.g. 4-bit, 8-bit, 16-bit etc.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            238.1869802234961
+          ],
+          [
+            42.578817788630786,
+            370.0734198525
+          ],
+          [
+            669.08279971606,
+            370.0734198525
+          ],
+          [
+            669.08279971606,
+            238.1869802234961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "parent_id": "908b6a4bb2c126030a97b1c148a3e46d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "794625bd2d38f1b459dd93465f580aa5",
+    "text": "By the term \u2018word size\u201d means the number of bits of data that is processed by the microprocessor as a unit. It also specifies the width of the data bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            372.4369802234961
+          ],
+          [
+            42.578817788630786,
+            454.0734071875
+          ],
+          [
+            640.5601141793593,
+            454.0734071875
+          ],
+          [
+            640.5601141793593,
+            372.4369802234961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "parent_id": "908b6a4bb2c126030a97b1c148a3e46d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0a406eb89b9a5d6d7571a7c11aee8f70",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.578817788630786,
+            427.1869802234961
+          ],
+          [
+            42.578817788630786,
+            453.0869798034961
+          ],
+          [
+            51.646355841589624,
+            453.0869798034961
+          ],
+          [
+            51.646355841589624,
+            427.1869802234961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 14,
+      "parent_id": "908b6a4bb2c126030a97b1c148a3e46d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a4fb03925c42969cc552560b1ea597ee",
+    "text": "Control Bus",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            283.198822,
+            54.25003800000002
+          ],
+          [
+            283.198822,
+            86.25003800000002
+          ],
+          [
+            436.07383,
+            86.25003800000002
+          ],
+          [
+            436.07383,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "113a72c4b45fcfe5b3dedced151521d4",
+    "text": "Control bus contains a number of individual lines carrying synchronizing signals.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            133.93435500000004
+          ],
+          [
+            43.198818,
+            187.34841900000004
+          ],
+          [
+            628.7730457000001,
+            187.34841900000004
+          ],
+          [
+            628.7730457000001,
+            133.93435500000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 15,
+      "parent_id": "a4fb03925c42969cc552560b1ea597ee",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8073209f0989b7a441606d23f1d8cd83",
+    "text": "The control bus sends out control signal to memory, I/O ports and other peripheral devices to ensure proper operation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            195.43435600000004
+          ],
+          [
+            43.198818,
+            249.59842000000003
+          ],
+          [
+            667.2574259999999,
+            249.59842000000003
+          ],
+          [
+            667.2574259999999,
+            195.43435600000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 15,
+      "parent_id": "a4fb03925c42969cc552560b1ea597ee",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5d3e2d4b8af4410adbb32370dc0239a7",
+    "text": "For instance, if it is desired to read the contents of a particular memory location, the CPU first sends out address of that very location on the address bus and a \u2018Memory Read\u2019 control signal on the control bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            257.68435600000004
+          ],
+          [
+            43.198818,
+            368.84842000000003
+          ],
+          [
+            669.8433766,
+            368.84842000000003
+          ],
+          [
+            669.8433766,
+            257.68435600000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 15,
+      "parent_id": "a4fb03925c42969cc552560b1ea597ee",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b00c62878a128387dcd6dc4663598d1f",
+    "text": "The memory responds by outputting data stored in the addressed memory location on the data bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            376.934356
+          ],
+          [
+            43.198818,
+            431.09842
+          ],
+          [
+            603.7886826999999,
+            431.09842
+          ],
+          [
+            603.7886826999999,
+            376.934356
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 15,
+      "parent_id": "a4fb03925c42969cc552560b1ea597ee",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5dc1111be5757154b6051f84b2a29b49",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            272.698822,
+            49.37503800000002
+          ],
+          [
+            272.698822,
+            93.37503800000002
+          ],
+          [
+            447.0894553,
+            93.37503800000002
+          ],
+          [
+            447.0894553,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "472f87f259e5775308d582aba79c2725",
+    "text": "What are the three main units of a digital computer?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            132.741981
+          ],
+          [
+            43.198818,
+            150.741981
+          ],
+          [
+            533.2222563999999,
+            150.741981
+          ],
+          [
+            533.2222563999999,
+            132.741981
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5cd42bbb7f055e22db3e9dc4ac619c58",
+    "text": "Ans. The three main units of a digital computer are: the central processing unit (CPU), the",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.448818000000003,
+            155.91287100000005
+          ],
+          [
+            27.448818000000003,
+            197.241981
+          ],
+          [
+            584.6060386,
+            197.241981
+          ],
+          [
+            584.6060386,
+            155.91287100000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "447485e3c4977c766ef382e7b7caec4c",
+    "text": "memory unit and the input/output devices.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.448818,
+            202.41287200000005
+          ],
+          [
+            54.448818,
+            220.491982
+          ],
+          [
+            435.19198830000005,
+            220.491982
+          ],
+          [
+            435.19198830000005,
+            202.41287200000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "48333ba258da08001eddead7f3b2cc4f",
+    "text": "How does the microprocessor communicate with the memory and input/output devices?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            248.991982
+          ],
+          [
+            43.198818,
+            290.241982
+          ],
+          [
+            655.5328013999999,
+            290.241982
+          ],
+          [
+            655.5328013999999,
+            248.991982
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8f481c3f9f7ffeaf871cab8d31a03443",
+    "text": "Ans. The microprocessor communicates with the memory and the Input/ Output devices via",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.448818000000003,
+            295.412872
+          ],
+          [
+            27.448818000000003,
+            336.741982
+          ],
+          [
+            655.6138576000001,
+            336.741982
+          ],
+          [
+            655.6138576000001,
+            295.412872
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ea79ac42e59c553b15a6b231a3e5f571",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            54.448818,
+            341.912872
+          ],
+          [
+            54.448818,
+            359.912872
+          ],
+          [
+            60.750582,
+            359.912872
+          ],
+          [
+            60.750582,
+            341.912872
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "5dc1111be5757154b6051f84b2a29b49",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b8a34027c95e08c563aa6731712706e4",
+    "text": "the three buses, data bus, address bus and control bus.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.198818,
+            341.991982
+          ],
+          [
+            79.198818,
+            359.991982
+          ],
+          [
+            540.5396459999998,
+            359.991982
+          ],
+          [
+            540.5396459999998,
+            341.991982
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1033722e5e05ab043de67d37ba117645",
+    "text": "What are the different jobs that the CPU is expected to do at any given point of time?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            388.491982
+          ],
+          [
+            43.198818,
+            429.741982
+          ],
+          [
+            645.5220649000001,
+            429.741982
+          ],
+          [
+            645.5220649000001,
+            388.491982
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "b8a34027c95e08c563aa6731712706e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b7343823d0b464e91e876e9a564ac18a",
+    "text": "Ans. The CPU may perform a memory read or write operation, ALU operations, an I/O read or write operation or an internal activity.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            27.448818000000003,
+            434.912872
+          ],
+          [
+            27.448818000000003,
+            476.84842
+          ],
+          [
+            620.6255695999998,
+            476.84842
+          ],
+          [
+            620.6255695999998,
+            434.912872
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 16,
+      "parent_id": "b8a34027c95e08c563aa6731712706e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "55d5ced6dfed2f62421408f73621e0db",
+    "text": "Assessment #1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            260.6306350892148,
+            69.44023284000002
+          ],
+          [
+            260.6306350892148,
+            101.84023145999998
+          ],
+          [
+            459.1180227151219,
+            101.84023145999998
+          ],
+          [
+            459.1180227151219,
+            69.44023284000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 17,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "dbd94d6b606db2cfc089d67f67cb50ed",
+    "text": "Give a brief about : A- \u201cHARVARD Computer Architecture\u201d. B- Data Flow computers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            194.09842000000003
+          ],
+          [
+            43.198818,
+            346.59842
+          ],
+          [
+            668.3589594999999,
+            346.59842
+          ],
+          [
+            668.3589594999999,
+            194.09842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 17,
+      "parent_id": "55d5ced6dfed2f62421408f73621e0db",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "391123f9aead20e39e86c20ac57f540c",
+    "text": "The Task of computer Designer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            83.830154,
+            49.37503800000002
+          ],
+          [
+            83.830154,
+            93.37503800000002
+          ],
+          [
+            634.1661167999999,
+            93.37503800000002
+          ],
+          [
+            634.1661167999999,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8d86cb2b549e97a26dc9e534dd4f7552",
+    "text": "Determine what attributes are important for a new computer, then design a computer to maximize performance and energy efficiency and staying within cost, power, while availability constraints.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            321.34841900000004
+          ],
+          [
+            676.8529419999999,
+            321.34841900000004
+          ],
+          [
+            676.8529419999999,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a8d587505c34e9a507990176be48ae26",
+    "text": "This",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            332.379668
+          ],
+          [
+            40.2918413,
+            365.59842
+          ],
+          [
+            122.46445,
+            365.59842
+          ],
+          [
+            122.46445,
+            332.379668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b8223d64c2cbacf76ca65ffeee75ec4a",
+    "text": "including instruction set design, functional organization, logic design, and implementation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.198818,
+            333.59842
+          ],
+          [
+            70.198818,
+            442.84842
+          ],
+          [
+            676.492498,
+            442.84842
+          ],
+          [
+            676.492498,
+            333.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "93fb87eb7d778520515ee69fb5c166c9",
+    "text": "task has many",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.933712,
+            333.59842
+          ],
+          [
+            154.933712,
+            365.59842
+          ],
+          [
+            388.555367,
+            365.59842
+          ],
+          [
+            388.555367,
+            333.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c7045d6417f2713161a90b2d14550f4b",
+    "text": "aspects,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            421.045318,
+            333.59842
+          ],
+          [
+            421.045318,
+            365.59842
+          ],
+          [
+            526.373478,
+            365.59842
+          ],
+          [
+            526.373478,
+            333.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 19,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b6b967ac7348dd4daa0539a3d734cf2a",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.304782,
+            49.37503800000002
+          ],
+          [
+            306.304782,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "parent_id": "391123f9aead20e39e86c20ac57f540c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "004adb730fdeba3ecf9593f14ad5b59d",
+    "text": "Cont",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            328.677642,
+            49.37503800000002
+          ],
+          [
+            328.677642,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bdff8cb406d4a2d18d09f870ee980e10",
+    "text": "The",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            168.34841900000004
+          ],
+          [
+            118.526978,
+            168.34841900000004
+          ],
+          [
+            118.526978,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "parent_id": "004adb730fdeba3ecf9593f14ad5b59d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fc9effcd088d72eea4e348c8b4ff4422",
+    "text": "encompass integrated circuit design, packaging, power, and cooling.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.198818,
+            136.34841900000004
+          ],
+          [
+            70.198818,
+            244.84841900000004
+          ],
+          [
+            676.9699469999999,
+            244.84841900000004
+          ],
+          [
+            676.9699469999999,
+            136.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "parent_id": "004adb730fdeba3ecf9593f14ad5b59d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aff2ef5d9e779732e83c494d17477f80",
+    "text": "implementation may",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            168.512783,
+            136.34841900000004
+          ],
+          [
+            168.512783,
+            168.34841900000004
+          ],
+          [
+            480.863807,
+            168.34841900000004
+          ],
+          [
+            480.863807,
+            136.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b51b5d0e367a14dff3015298ea723ca4",
+    "text": "Optimizing the design requires familiarity with a very wide range of technologies, from compilers and operating systems to logic design and packaging.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            255.87966800000004
+          ],
+          [
+            40.2918413,
+            404.59842000000003
+          ],
+          [
+            676.577473,
+            404.59842000000003
+          ],
+          [
+            676.577473,
+            255.87966800000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 20,
+      "parent_id": "aff2ef5d9e779732e83c494d17477f80",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ce1e7de2b8681af054ee95392d0a87df",
+    "text": "Beyond the Computer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            158.728485,
+            49.37503800000002
+          ],
+          [
+            158.728485,
+            93.37503800000002
+          ],
+          [
+            559.2050599999999,
+            93.37503800000002
+          ],
+          [
+            559.2050599999999,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "36931610fe3e84ec9a5fa9ffafa089c1",
+    "text": "In terms of world impact, computers, such as the PC, are not the end of the story. \u2022 Smaller, often less powerful, single-chip computers called microcomputers or microcontrollers, or special-purpose computers called digital signal processors (DSPs) actually are more prevalent in our lives.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            132.12966700000004
+          ],
+          [
+            40.2918413,
+            379.09842000000003
+          ],
+          [
+            672.542559,
+            379.09842000000003
+          ],
+          [
+            672.542559,
+            132.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 21,
+      "parent_id": "ce1e7de2b8681af054ee95392d0a87df",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "714580f808ce1323894689f6a89e9711",
+    "text": "These computers are parts of everyday products (Embedded systems).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            420.879668
+          ],
+          [
+            40.2918413,
+            489.34842
+          ],
+          [
+            573.4800769999999,
+            489.34842
+          ],
+          [
+            573.4800769999999,
+            420.879668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 21,
+      "parent_id": "ce1e7de2b8681af054ee95392d0a87df",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a576966a7cc0427f8a423a0eb45803e4",
+    "text": "Classes of Parallelism and Parallel Architectures",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            45.117397100000005,
+            54.25003800000002
+          ],
+          [
+            45.117397100000005,
+            86.25003800000002
+          ],
+          [
+            674.2111550999999,
+            86.25003800000002
+          ],
+          [
+            674.2111550999999,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1dd0ef02b1ce94f2371ca4b343856e73",
+    "text": "Parallelism at multiple levels is now the driving force of computer design across all four classes of computers, with energy and cost being the primary constraints.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            264.84841944
+          ],
+          [
+            676.7594240524224,
+            264.84841944
+          ],
+          [
+            676.7594240524224,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 22,
+      "parent_id": "a576966a7cc0427f8a423a0eb45803e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2a51cf38a406b37b4f0b08cd969a7f2f",
+    "text": "Parallelism can appear in different forms:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            274.7820033973437
+          ],
+          [
+            41.88302384435569,
+            303.84841256000004
+          ],
+          [
+            536.4663417900106,
+            303.84841256000004
+          ],
+          [
+            536.4663417900106,
+            274.7820033973437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 22,
+      "parent_id": "a576966a7cc0427f8a423a0eb45803e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "44873034d7873b33124cd0a7389ac32f",
+    "text": "Lookahead, Pipelining, Multitasking, Multiprogramming,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            58.198818,
+            322.34842
+          ],
+          [
+            58.198818,
+            346.34842
+          ],
+          [
+            636.812107,
+            346.34842
+          ],
+          [
+            636.812107,
+            322.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 22,
+      "parent_id": "a576966a7cc0427f8a423a0eb45803e4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "265b0d3a067cff2f9265955d2dbd2066",
+    "text": "Concurrency, multithreading, \u2026.etc",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            353.707804
+          ],
+          [
+            43.198818,
+            377.84842
+          ],
+          [
+            384.2886698,
+            377.84842
+          ],
+          [
+            384.2886698,
+            353.707804
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4aa86d2943e9783bf2c1e70f884994b0",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            320.559262,
+            54.25003800000002
+          ],
+          [
+            320.559262,
+            86.25003800000002
+          ],
+          [
+            336.62175799999994,
+            86.25003800000002
+          ],
+          [
+            336.62175799999994,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "parent_id": "265b0d3a067cff2f9265955d2dbd2066",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ed7e06498eb25de4d60708991b49fe8c",
+    "text": "Cont",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            336.931362,
+            54.25003800000002
+          ],
+          [
+            336.931362,
+            86.25003800000002
+          ],
+          [
+            398.103239,
+            86.25003800000002
+          ],
+          [
+            398.103239,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fec1f79462294ad6006f085210356936",
+    "text": "There are basically two kinds of parallelism in applications: 1. Data-Level Parallelism (DLP), which arises because there are many data items that can be operated on at the same time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            133.93435500000004
+          ],
+          [
+            43.198818,
+            249.59841900000004
+          ],
+          [
+            654.538682,
+            249.59841900000004
+          ],
+          [
+            654.538682,
+            133.93435500000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "parent_id": "ed7e06498eb25de4d60708991b49fe8c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9997e9d9f5d0b488849596d6ec83e679",
+    "text": "2. Task-level parallelism (TLP), which arises because tasks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.198818,
+            292.34842
+          ],
+          [
+            79.198818,
+            316.34842
+          ],
+          [
+            638.4019368,
+            316.34842
+          ],
+          [
+            638.4019368,
+            292.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "parent_id": "ed7e06498eb25de4d60708991b49fe8c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1620ab6b3d1b4594bf26563fc2219f2c",
+    "text": "of work are created that can operate independently and largely in parallel.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            321.59842
+          ],
+          [
+            43.198818,
+            374.09842
+          ],
+          [
+            587.9136826,
+            374.09842
+          ],
+          [
+            587.9136826,
+            321.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "parent_id": "ed7e06498eb25de4d60708991b49fe8c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9fccea4b1264fef2eb724765b80f80b6",
+    "text": "We then explain the four architectural styles that exploit DLP and TLP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            415.934356
+          ],
+          [
+            43.198818,
+            470.09842
+          ],
+          [
+            660.4527228,
+            470.09842
+          ],
+          [
+            660.4527228,
+            415.934356
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 23,
+      "parent_id": "ed7e06498eb25de4d60708991b49fe8c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "26918c06c0b65e30e00896fe9871a4b0",
+    "text": "Michael Flynn\u2019s Classifications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            164.739517,
+            54.25003800000002
+          ],
+          [
+            164.739517,
+            86.25003800000002
+          ],
+          [
+            552.520789,
+            86.25003800000002
+          ],
+          [
+            552.520789,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9f5e540d0e17d25146fd5c4901ab93a6",
+    "text": "He looked at the parallelism in the instruction and data streams, and placed all computers into one of four categories: \u2022 Single instruction stream, single data stream (SISD) \u2022 Single instruction stream, multiple data streams",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            132.59842388000004
+          ],
+          [
+            41.88302384435569,
+            292.59841868
+          ],
+          [
+            667.0366029535105,
+            292.59841868
+          ],
+          [
+            667.0366029535105,
+            132.59842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 24,
+      "parent_id": "26918c06c0b65e30e00896fe9871a4b0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2d7c0713366c5765eb0c69dafb6bae25",
+    "text": "(SIMD)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.19881456,
+            294.59842596
+          ],
+          [
+            70.19881456,
+            322.59842708
+          ],
+          [
+            148.2666482758167,
+            322.59842708
+          ],
+          [
+            148.2666482758167,
+            294.59842596
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 24,
+      "parent_id": "26918c06c0b65e30e00896fe9871a4b0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6920f994f9ed7bbd2ee8e30889ae5d98",
+    "text": "Multiple instruction streams, single data stream (MISD)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            329.5320095173437
+          ],
+          [
+            41.88302384435569,
+            388.59842708
+          ],
+          [
+            612.1576302245587,
+            388.59842708
+          ],
+          [
+            612.1576302245587,
+            329.5320095173437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 24,
+      "parent_id": "26918c06c0b65e30e00896fe9871a4b0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fdfa0b2255c0096c5924cdf0fee435f9",
+    "text": "Multiple instruction streams, multiple data streams (MIMD)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            395.5320095173437
+          ],
+          [
+            41.88302384435569,
+            454.59842708
+          ],
+          [
+            650.0904692453205,
+            454.59842708
+          ],
+          [
+            650.0904692453205,
+            395.5320095173437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 24,
+      "parent_id": "26918c06c0b65e30e00896fe9871a4b0",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e9ae04da7808148cc683c34634a4595a",
+    "text": "Quantitative Principles of Computer Design",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            64.18751502056534,
+            27.925041587500004
+          ],
+          [
+            64.18751502056534,
+            114.775037225
+          ],
+          [
+            654.1076308766187,
+            114.775037225
+          ],
+          [
+            654.1076308766187,
+            27.925041587500004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "85344c12c43c7f3ac2b12ae236bea6ff",
+    "text": "Take Advantage of Parallelism is one of the most important methods for improving performance. \u2022 Principle of Locality: Programs tend to reuse data and instructions they have used recently. A widely held rule of thumb is that a program spends 90% of its execution time in only 10% of the code. An implication of locality is that we can predict with reasonable accuracy what instructions and data a program will use in the near future based on its accesses in the recent past.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            472.59841996
+          ],
+          [
+            652.5438906400088,
+            472.59841996
+          ],
+          [
+            652.5438906400088,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 25,
+      "parent_id": "e9ae04da7808148cc683c34634a4595a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "229b59b2b76d1e87a4d4a78b94c24dc2",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.304782,
+            49.37503800000002
+          ],
+          [
+            306.304782,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "parent_id": "e9ae04da7808148cc683c34634a4595a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "498dc53297b4edbd0195d8d49a654512",
+    "text": "Cont",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            328.677642,
+            49.37503800000002
+          ],
+          [
+            328.677642,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e8d5baaa445e8d177cba31e3385e9c0b",
+    "text": "Two different types of locality have been observed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            206.59841900000004
+          ],
+          [
+            595.667618,
+            206.59841900000004
+          ],
+          [
+            595.667618,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "parent_id": "498dc53297b4edbd0195d8d49a654512",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c19c4aff812fc4181e3abfa481c6d226",
+    "text": "a) Temporal locality states that recently",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            34.408119,
+            218.84842000000003
+          ],
+          [
+            34.408119,
+            250.84842000000003
+          ],
+          [
+            557.580018,
+            250.84842000000003
+          ],
+          [
+            557.580018,
+            218.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bd347270cf1a23443908e1130613d7e1",
+    "text": "accessed items are likely to be accessed in the near future.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.198818,
+            257.84842000000003
+          ],
+          [
+            79.198818,
+            328.09842000000003
+          ],
+          [
+            625.355074,
+            328.09842000000003
+          ],
+          [
+            625.355074,
+            257.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "parent_id": "c19c4aff812fc4181e3abfa481c6d226",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c6eef65c75aeb75d7db562b8a422e531",
+    "text": "b) Spatial locality says that items whose addresses are near one another tend to be referenced close together in time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            340.34842
+          ],
+          [
+            43.198818,
+            449.59842
+          ],
+          [
+            611.9332179999999,
+            449.59842
+          ],
+          [
+            611.9332179999999,
+            340.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 26,
+      "parent_id": "c19c4aff812fc4181e3abfa481c6d226",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2a9207ab355881b9a96e20a4742bcdb8",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.304782,
+            49.37503800000002
+          ],
+          [
+            306.304782,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 27,
+      "parent_id": "c19c4aff812fc4181e3abfa481c6d226",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7e3074575e4c3c2293af823309ef0c99",
+    "text": "Cont",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            328.677642,
+            49.37503800000002
+          ],
+          [
+            328.677642,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d19cfcc7280a9ec7d0e351526d4d080f",
+    "text": "Focus on the Common (frequent) Case Perhaps the most important and pervasive principle of computer design is to focus on the common case: In making a design trade- off, favor the frequent case over the infrequent case.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            359.59841900000004
+          ],
+          [
+            642.27696,
+            359.59841900000004
+          ],
+          [
+            642.27696,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 27,
+      "parent_id": "7e3074575e4c3c2293af823309ef0c99",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "266d34a4731012ea2222f4235672afde",
+    "text": "How much performance can be improved by making that frequent case faster.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            370.629668
+          ],
+          [
+            40.2918413,
+            442.84842
+          ],
+          [
+            646.3394519999999,
+            442.84842
+          ],
+          [
+            646.3394519999999,
+            370.629668
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 27,
+      "parent_id": "7e3074575e4c3c2293af823309ef0c99",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e89be8c79b50f01663caa851f7396c35",
+    "text": "Amdahl\u2019s Law",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            233.631032,
+            49.37503800000002
+          ],
+          [
+            233.631032,
+            93.37503800000002
+          ],
+          [
+            484.40053979999993,
+            93.37503800000002
+          ],
+          [
+            484.40053979999993,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ac561d2171d80dbbb9dfc05c12a55150",
+    "text": "The performance gain that can be obtained by improving some portion of a computer can be calculated using Amdahl\u2019s law.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            244.84841900000004
+          ],
+          [
+            663.6050829999999,
+            244.84841900000004
+          ],
+          [
+            663.6050829999999,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 28,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5a452dfd182568caaa4714d3cf8f3a0b",
+    "text": "Amdahl\u2019s law states that the performance improvement to be gained from using some faster mode of execution is limited by the fraction of the time the faster mode can be used.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            255.87966800000004
+          ],
+          [
+            40.2918413,
+            442.84842000000003
+          ],
+          [
+            638.0738259999999,
+            442.84842000000003
+          ],
+          [
+            638.0738259999999,
+            255.87966800000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 28,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "192bdf11a43823854722b29929de0534",
+    "text": "?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            241.547642,
+            54.25003800000002
+          ],
+          [
+            241.547642,
+            86.25003800000002
+          ],
+          [
+            256.37577,
+            86.25003800000002
+          ],
+          [
+            256.37577,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 29,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ef34d0322674f5db579497bed2a57bfa",
+    "text": "What is speedup",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            256.431362,
+            54.25003800000002
+          ],
+          [
+            256.431362,
+            86.25003800000002
+          ],
+          [
+            477.103234,
+            86.25003800000002
+          ],
+          [
+            477.103234,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 29,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "84b5ed5852b143f65e597a356f5a2e0f",
+    "text": "Suppose that we can make an enhancement to a computer that will improve performance when it is used.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            244.84841900000004
+          ],
+          [
+            656.3707449999999,
+            244.84841900000004
+          ],
+          [
+            656.3707449999999,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 29,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6e5fbaf371147e99cf5059e04ed8e882",
+    "text": "Speedup is the ratio: \u2022 Speedup = (Execution time for entire task without using enhancement) / (Execution time for the task with using enhancement).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            255.87966800000004
+          ],
+          [
+            40.2918413,
+            411.34842
+          ],
+          [
+            629.839448,
+            411.34842
+          ],
+          [
+            629.839448,
+            255.87966800000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 29,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f33a41261108b1c30e69303f0cfea053",
+    "text": ".,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.304782,
+            49.37503800000002
+          ],
+          [
+            306.304782,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            93.37503800000002
+          ],
+          [
+            328.392685,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 30,
+      "parent_id": "e89be8c79b50f01663caa851f7396c35",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "379ec0f3210955a03076b97a1161a785",
+    "text": "Cont",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            328.677642,
+            49.37503800000002
+          ],
+          [
+            328.677642,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            93.37503800000002
+          ],
+          [
+            412.790926,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "05956ff68c3f5fd282a0cf5ca352c447",
+    "text": "Amdahl\u2019s law gives us a quick way to find the speedup from some enhancement, which depends on two factors:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            134.9234116075
+          ],
+          [
+            43.198818,
+            191.57342746
+          ],
+          [
+            665.857225548221,
+            191.57342746
+          ],
+          [
+            665.857225548221,
+            134.9234116075
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 30,
+      "parent_id": "379ec0f3210955a03076b97a1161a785",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f6c96be6d00f5dc93c98297bb138fdc8",
+    "text": "1. The fraction enhancement:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            5.218819536600002,
+            201.67342521499995
+          ],
+          [
+            5.218819536600002,
+            227.57342479499994
+          ],
+          [
+            324.834072111788,
+            227.57342479499994
+          ],
+          [
+            324.834072111788,
+            201.67342521499995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 30,
+      "parent_id": "379ec0f3210955a03076b97a1161a785",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ec54ab109225fd2781456dfbbc9573eb",
+    "text": "is the fraction of the computation time in the original computer that can be converted to take advantage of the enhancement\u2014 For example, if 20 seconds of the execution time of a program that takes 60 seconds in total can use an enhancement, the fraction is 20/60.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            237.67342521499995
+          ],
+          [
+            43.198818,
+            458.57342534000003
+          ],
+          [
+            666.7298231313786,
+            458.57342534000003
+          ],
+          [
+            666.7298231313786,
+            237.67342521499995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 30,
+      "parent_id": "379ec0f3210955a03076b97a1161a785",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ea3c0b8d3bc7a62e65e8b0e97ed73214",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.448822,
+            49.37503800000002
+          ],
+          [
+            306.448822,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 31,
+      "parent_id": "379ec0f3210955a03076b97a1161a785",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bc20a2a0b54c27f4e5d000d663df618f",
+    "text": "2- Speedup enhancement:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            135.59841472
+          ],
+          [
+            43.198818,
+            163.59841583999997
+          ],
+          [
+            342.2885363360021,
+            163.59841583999997
+          ],
+          [
+            342.2885363360021,
+            135.59841472
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f531a6a4a59b36dc288fed1c2e48bec1",
+    "text": "The improvement gained by the enhanced",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.19882308000001,
+            174.59841143999995
+          ],
+          [
+            79.19882308000001,
+            202.59841255999993
+          ],
+          [
+            555.3237709801695,
+            202.59841255999993
+          ],
+          [
+            555.3237709801695,
+            174.59841143999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 31,
+      "parent_id": "bc20a2a0b54c27f4e5d000d663df618f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ca6ebf80c28a32f41af5571f80c8aba8",
+    "text": "that is, how much faster the task execution mode, would run if the enhanced mode were used for the entire program. For example: \u2022 If the enhanced mode takes, say, 2 seconds for a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            208.34842264000002
+          ],
+          [
+            41.88302384435569,
+            381.84841256000004
+          ],
+          [
+            635.1044003879472,
+            381.84841256000004
+          ],
+          [
+            635.1044003879472,
+            208.34842264000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 31,
+      "parent_id": "bc20a2a0b54c27f4e5d000d663df618f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c9225a20542e3c2865857f0dde892b6e",
+    "text": "portion of the program, while it is 5 seconds in the original mode, the improvement is 5/2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            70.19881456,
+            387.59840964
+          ],
+          [
+            70.19881456,
+            449.34843896
+          ],
+          [
+            642.1541975899387,
+            449.34843896
+          ],
+          [
+            642.1541975899387,
+            387.59840964
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 31,
+      "parent_id": "bc20a2a0b54c27f4e5d000d663df618f",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d2e7e2e8e53256208deddd58c7b24e5d",
+    "text": "Speedup Overall",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            250.40811200000002,
+            54.25003800000002
+          ],
+          [
+            250.40811200000002,
+            86.25003800000002
+          ],
+          [
+            468.189321,
+            86.25003800000002
+          ],
+          [
+            468.189321,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b13354ebead6b0379c6b2c0182d64ecc",
+    "text": "The overall speedup is the ratio of the execution times:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            206.59841900000004
+          ],
+          [
+            561.6519699999999,
+            206.59841900000004
+          ],
+          [
+            561.6519699999999,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 32,
+      "parent_id": "d2e7e2e8e53256208deddd58c7b24e5d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "72ebee3372dd396f22dff968c2a7ffe4",
+    "text": "Speedup overall = Execution time old / Execution time new",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            217.62966800000004
+          ],
+          [
+            40.2918413,
+            289.84842000000003
+          ],
+          [
+            569.558178,
+            289.84842000000003
+          ],
+          [
+            569.558178,
+            217.62966800000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 32,
+      "parent_id": "d2e7e2e8e53256208deddd58c7b24e5d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+    "text": "Processor Performance Equation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            143.326706,
+            54.25003800000002
+          ],
+          [
+            143.326706,
+            86.25003800000002
+          ],
+          [
+            575.6391937,
+            86.25003800000002
+          ],
+          [
+            575.6391937,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 34,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3a5a476c0564b13998ae566d11e2f387",
+    "text": "CPU time = CPU clock cycles for a program \u00d7 Clock cycle time",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            131.5320158373437
+          ],
+          [
+            41.88302384435569,
+            190.59841339999997
+          ],
+          [
+            642.6143217048955,
+            190.59841339999997
+          ],
+          [
+            642.6143217048955,
+            131.5320158373437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 34,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dbcc4c5fcc599e85df61d584d641cb16",
+    "text": "CPU time = Instruction count \u00d7 Cycles per instruction \u00d7 Clock cycle time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            197.53200951734368
+          ],
+          [
+            41.88302384435569,
+            256.59842708
+          ],
+          [
+            667.9879200163911,
+            256.59842708
+          ],
+          [
+            667.9879200163911,
+            197.53200951734368
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 34,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "536981d0375b761b55c2f4e5ff2333ab",
+    "text": "Where: Instruction count (IC): the number of instructions executed Cycles per instruction (CPI): the average number of clock cycles per instruction. Clock cycle time: Hardware technology and organization",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            264.59841756000003
+          ],
+          [
+            43.198818,
+            460.59841868
+          ],
+          [
+            676.2138351208902,
+            460.59841868
+          ],
+          [
+            676.2138351208902,
+            264.59841756000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 34,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ec582bfb168eba021d537732934d1619",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.448822,
+            49.37503800000002
+          ],
+          [
+            306.448822,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 35,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2acca71ebb1b484e4f466b5403b4027e",
+    "text": "As this formula demonstrates, processor performance is dependent upon three characteristics: clock cycle (or rate), clock cycles per instruction, and instruction count. \u2022 Furthermore, CPU time is equally dependent on these three characteristics; for example, a 10% improvement in any one of them leads to a 10% improvement in CPU time.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            444.09845716
+          ],
+          [
+            624.1140618283328,
+            444.09845716
+          ],
+          [
+            624.1140618283328,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 35,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f047bcc267debced4d5c39e42f0d91b1",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.448822,
+            49.37503800000002
+          ],
+          [
+            306.448822,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            93.37503800000002
+          ],
+          [
+            412.650006,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 36,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "11eaf79b4252833ede6c7ba053969018",
+    "text": "Unfortunately, it is difficult to change one parameter in complete isolation from others because the basic technologies involved in changing each characteristic are interdependent:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            131.77107042476558
+          ],
+          [
+            41.098818564000005,
+            259.24841016000005
+          ],
+          [
+            656.7374004224166,
+            259.24841016000005
+          ],
+          [
+            656.7374004224166,
+            131.77107042476558
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 36,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "69f1ba0c2ac72c61defcbcb40c2b1680",
+    "text": "\u25a0 Clock cycle time\u2014Hardware technology and organization",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            266.7710845047656
+          ],
+          [
+            41.098818564000005,
+            329.7484224
+          ],
+          [
+            626.3280732800441,
+            329.7484224
+          ],
+          [
+            626.3280732800441,
+            266.7710845047656
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 36,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "84f060ead27e6e3c4a443208c2a696af",
+    "text": "\u25a0 CPI\u2014Organization and instruction set architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            337.2710845047656
+          ],
+          [
+            41.098818564000005,
+            400.2484224
+          ],
+          [
+            548.2869776822562,
+            400.2484224
+          ],
+          [
+            548.2869776822562,
+            337.2710845047656
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 36,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bf67b48e7b307f27ade938faf5962859",
+    "text": "\u25a0 Instruction count\u2014Instruction set architecture and compiler technology",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.098818564000005,
+            407.7710845047656
+          ],
+          [
+            41.098818564000005,
+            470.7484224
+          ],
+          [
+            654.6802390730792,
+            470.7484224
+          ],
+          [
+            654.6802390730792,
+            407.7710845047656
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 36,
+      "parent_id": "de51009e0cc4b5ee2d8cd0692fbeb87b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6e92b1750d40e791f5c544c35b91fd9c",
+    "text": "Benchmarks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            278.47207199999997,
+            54.25003800000002
+          ],
+          [
+            278.47207199999997,
+            86.25003800000002
+          ],
+          [
+            441.31582899999995,
+            86.25003800000002
+          ],
+          [
+            441.31582899999995,
+            54.25003800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3737cf2d85617805aa8b7a4b421da95b",
+    "text": "Natural: real programs used to solve a real task",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            206.59841900000004
+          ],
+          [
+            622.2479,
+            206.59841900000004
+          ],
+          [
+            622.2479,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 37,
+      "parent_id": "6e92b1750d40e791f5c544c35b91fd9c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "49d8d65a07c90f4647cb8891e877b76a",
+    "text": "Synthetic: Sequence of instructions constructed for the purpose of measuring performance.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            262.62966800000004
+          ],
+          [
+            40.2918413,
+            373.09842000000003
+          ],
+          [
+            610.714466,
+            373.09842000000003
+          ],
+          [
+            610.714466,
+            262.62966800000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 37,
+      "parent_id": "6e92b1750d40e791f5c544c35b91fd9c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "278185df103f84bc5734741663756b32",
+    "text": "Dependability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.698822,
+            52.37503800000002
+          ],
+          [
+            254.698822,
+            88.37503800000002
+          ],
+          [
+            464.761343,
+            88.37503800000002
+          ],
+          [
+            464.761343,
+            52.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "91c39415c01b9db5fadcca5467df219d",
+    "text": "Historically, integrated circuits were one of the most reliable components of a computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.27381787028326,
+            128.8419661421093
+          ],
+          [
+            43.27381787028326,
+            176.04841594500004
+          ],
+          [
+            649.8900235064597,
+            176.04841594500004
+          ],
+          [
+            649.8900235064597,
+            128.8419661421093
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "141fcaa0f92fedcd9b5b7745ba87d64f",
+    "text": "Although their pins may be vulnerable, and faults may occur over communication channels, the error rate inside the chip was very low (such as stuck at zero , stuck at one, or bridging faults).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.27381787028326,
+            179.09198347460926
+          ],
+          [
+            43.27381787028326,
+            271.2984161275
+          ],
+          [
+            655.0885257484646,
+            271.2984161275
+          ],
+          [
+            655.0885257484646,
+            179.09198347460926
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "610c67cbc4968b0d54cf356bc7289093",
+    "text": "Systems alternate between two states of service:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.27381787028326,
+            274.34198347460926
+          ],
+          [
+            43.27381787028326,
+            299.0484318525
+          ],
+          [
+            541.019726440899,
+            299.0484318525
+          ],
+          [
+            541.019726440899,
+            274.34198347460926
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "28bfeb6e86a322b06f2b2e3823599c41",
+    "text": "1. Service accomplishment, where the service is delivered",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.19882328,
+            302.9984303325
+          ],
+          [
+            79.19882328,
+            326.7984318525
+          ],
+          [
+            632.5140132861713,
+            326.7984318525
+          ],
+          [
+            632.5140132861713,
+            302.9984303325
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7523b88638982100b5cab40496cc1332",
+    "text": "as specified",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198822,
+            325.4984317575
+          ],
+          [
+            43.198822,
+            349.29843327749995
+          ],
+          [
+            155.233957488518,
+            349.29843327749995
+          ],
+          [
+            155.233957488518,
+            325.4984317575
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b0564b8cef3a7356293c3a0f5cade4bc",
+    "text": "2. Service interruption, where the delivered service has error. \u2022 Quantifying these transitions leads to the two main measures of dependability:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.27381787028326,
+            353.2484303325
+          ],
+          [
+            43.27381787028326,
+            427.29843327749995
+          ],
+          [
+            671.7145933172781,
+            427.29843327749995
+          ],
+          [
+            671.7145933172781,
+            353.2484303325
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 38,
+      "parent_id": "278185df103f84bc5734741663756b32",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9b6fd3b1b646ba38d469caed49aa411a",
+    "text": "1- Module Reliability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            175.198822,
+            49.37503800000002
+          ],
+          [
+            175.198822,
+            93.37503800000002
+          ],
+          [
+            543.5484389999999,
+            93.37503800000002
+          ],
+          [
+            543.5484389999999,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 39,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6d9d31ac0805cc4a08524b791102d8fc",
+    "text": "The mean time to failure (MTTF) is a reliability measure.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            134.53200667734365
+          ],
+          [
+            41.88302384435569,
+            197.34841204000003
+          ],
+          [
+            592.9410996903803,
+            197.34841204000003
+          ],
+          [
+            592.9410996903803,
+            134.53200667734365
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 39,
+      "parent_id": "9b6fd3b1b646ba38d469caed49aa411a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bf85129fe49e512189072b3d58708516",
+    "text": "The reciprocal of MTTF is a rate of failures \u03bb \u2022 Service interruption is measured as mean time to repair (MTTR).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            207.2820033973436
+          ],
+          [
+            41.88302384435569,
+            309.09842076
+          ],
+          [
+            628.9693194487505,
+            309.09842076
+          ],
+          [
+            628.9693194487505,
+            207.2820033973436
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 39,
+      "parent_id": "9b6fd3b1b646ba38d469caed49aa411a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a1f6bf87b5411b0980ae27b56ac9f769",
+    "text": "Mean time between failures (MTBF) is simply the sum of MTTF + MTTR.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            319.0320033973437
+          ],
+          [
+            41.88302384435569,
+            381.84841076000004
+          ],
+          [
+            633.4645430354558,
+            381.84841076000004
+          ],
+          [
+            633.4645430354558,
+            319.0320033973437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 39,
+      "parent_id": "9b6fd3b1b646ba38d469caed49aa411a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "27d34aa982b2a29198fae78bee572f45",
+    "text": "Although MTBF is widely used, MTTF is often the more appropriate term.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.88302384435569,
+            391.7820033973437
+          ],
+          [
+            41.88302384435569,
+            454.59841076000004
+          ],
+          [
+            630.5679900368352,
+            454.59841076000004
+          ],
+          [
+            630.5679900368352,
+            391.7820033973437
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 39,
+      "parent_id": "9b6fd3b1b646ba38d469caed49aa411a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "26d2f8cc8ca127c7b2949d00015fb867",
+    "text": "2- Module Availability",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            184.94882591249998,
+            27.925041587500004
+          ],
+          [
+            184.94882591249998,
+            67.52503958750003
+          ],
+          [
+            535.0336903014453,
+            67.52503958750003
+          ],
+          [
+            535.0336903014453,
+            27.925041587500004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 40,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3e8092a851b911db78e2c21dc36127c4",
+    "text": "For nonredundant systems with repair, module availability is:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            43.198818,
+            133.93435500000004
+          ],
+          [
+            43.198818,
+            160.45641900000004
+          ],
+          [
+            656.8786327,
+            160.45641900000004
+          ],
+          [
+            656.8786327,
+            133.93435500000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 40,
+      "parent_id": "26d2f8cc8ca127c7b2949d00015fb867",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f722aa0dacde2e8ea8e2c501cf1b8a6a",
+    "text": "Sheet 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            292.948822,
+            49.37503800000002
+          ],
+          [
+            292.948822,
+            93.37503800000002
+          ],
+          [
+            426.249606,
+            93.37503800000002
+          ],
+          [
+            426.249606,
+            49.37503800000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 41,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7a88df6fcea8532566f77d5acd2ef95f",
+    "text": "Examples at pages: 34 , 47, and 50 from Hennessy \u2018s book.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            40.2918413,
+            135.12966700000004
+          ],
+          [
+            40.2918413,
+            206.59841900000004
+          ],
+          [
+            585.042572,
+            206.59841900000004
+          ],
+          [
+            585.042572,
+            135.12966700000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2024-11-10T22:00:47",
+      "page_number": 41,
+      "parent_id": "f722aa0dacde2e8ea8e2c501cf1b8a6a",
+      "filetype": "application/pdf"
+    }
+  }
+]

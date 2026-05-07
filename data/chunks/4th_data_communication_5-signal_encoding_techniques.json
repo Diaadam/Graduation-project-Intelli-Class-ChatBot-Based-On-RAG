@@ -1,0 +1,116 @@
+[
+  {
+    "id": "415552c0-1c35-4a3a-8918-036948ed6cf9",
+    "text": "CHAPTER 5 Signal Encoding Techniques “Thus one says, in general, that the function of the transmitter is to encode, and that of the receiver to decode, the message. The theory provides for for example, as very sophisticated transmitters and receivers—such, possess ‘memories,’ so that the way they encode a certain symbol of the message depends not only upon this one symbol but also upon previous symbols of the message and the way they have been encoded.”",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "67311e62-60b9-40df-9c1c-8f1cb8713293",
+    "text": "—The Mathematics of Communication, Scientific American, July 1949, Warren Weaver Encoder Decoder(a) Encoding onto a digital signalx(t)x(t)tg(t)g(t)digital oranalog Modulator Demodulator(b) Modulation onto an analog signalFigure 5.1 Encoding and Modulation Techniquess(t)fc(t)carrieranalogdigitalS(f)ffcm(t)m(t)digital oranalog",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "84296cea-212c-4fd0-a416-ee85e2f5f9e5",
+    "text": "Digital data, digital signal Digital data, analog signal Analog data, digital signal Analog data, analog signal Digital Data, Digital Signal ➢Digital signal Sequence of discrete voltage pulses Each pulse is a signal element ➢Binary data are transmitted by encoding each data bit into signal elements",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "68b813cf-0a9b-45dd-a3de-13b478c6fe87",
+    "text": "Line coding and decoding Converting a digital data of 1’s and 0’s into a sequence of signals (voltage level (+V) and a low voltage level (0 or -V)). Key Data Transmission Terms Analog: a pulse of constant (baud) Digital: a voltage pulse of That part of a signal that Term occupies the shortest interval",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "53bd0a58-e5b7-43d5-9876-dcd6a06701c4",
+    "text": "Signal element elements are transmitted frequency, phase, and Signal elements per second modulation rate Data rate The rate at which signal of a signaling code Data element constant amplitude Definition amplitude Signaling rate or Bits Units The rate at which data Bits per second (bps)",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "e975ae7c-2fc0-4168-8ad8-34b85bd0fa36",
+    "text": "A single binary one or zero elements are transmitted Relationship between data rate and signal rate The data rate defines the number of bits sent per sec - bps. • The signal rate is the number of signal elements sent in a second and is measured in bauds. Bit rate = (number of bits per pulse) x (baud rate) Mapping Data symbols onto Signal levels A data symbol (or element) can consist of a number of data bits: 1 , 0 or • 11, 10, 01, …… A data symbol can be coded into a single signal element or multiple signal elements 1 -> +V, 0 -> -V • 1 -> +V and -V, 0 -> -V and +V The ratio ‘r’ is the number of data elements carried by a signal element.",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "ffaff4be-6838-466c-917e-0ee0ab22db8d",
+    "text": "Signal element versus data element Definition of Digital Signal Encoding Formats 0NRZ-LNRZIBipolar-AMI(most recentpreceding 1 bit hasnegative voltage)Pseudoternary(most recentpreceding 0 bit hasnegative voltage)ManchesterDifferentialManchesterFigure 5.2 Digital Signal Encoding Formats1001100011 Nonreturn to Zero ➢Voltage level is constant during a bit interval No return to a zero-voltage level • Negative voltage represents 1 and a positive voltage represents 0 0 1 0 0 1 1 1 0",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "0b33240f-9f8e-4e87-9ef7-44dcd341e602",
+    "text": "Nonreturn to Zero ➢Voltage level is constant during a bit interval No return to a zero-voltage level • Negative voltage represents 1 and a positive voltage represents 0 Non-return to Zero Inverted (NRZI) ➢Non-return to zero, invert on ones Transition (low to high, high to low) denotes binary 1 • No transition denotes binary 0 0 1 0 0 1 1 1 0",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "640c23ea-17a2-460c-8de8-5f42d43c864b",
+    "text": "Non-return to Zero Inverted (NRZI) ➢Non-return to zero, invert on ones Transition (low to high, high to low) denotes binary 1 • No transition denotes binary 0 Multilevel Binary: Bipolar-AMI Binary 0 represented by no line signal • Binary 1 represented by positive or negative pulse • Binary 1 pulses alternate in polarity 0 1 0 0 1 0",
+    "chunk_index": 8,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "4f94bd7c-589a-4bac-a818-0a75a06dcb6a",
+    "text": "Multilevel Binary: Bipolar-AMI Binary 0 represented by no line signal • Binary 1 represented by positive or negative pulse • Binary 1 pulses alternate in polarity Multilevel Binary: Pseudoternary Binary 1 represented by absence of line signal • Binary 0 represented by alternating positive and negative pulses 0 1 0 0 1 0",
+    "chunk_index": 9,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "60a1132f-5b72-4b45-84fb-30e80a1e3f04",
+    "text": "Multilevel Binary: Pseudoternary Binary 1 represented by absence of line signal • Binary 0 represented by alternating positive and negative pulses Manchester Encoding There is a transition at the middle of each bit period Low to high transition represents a 1 High to low transition represents a 0 0 1 0 0 1 1",
+    "chunk_index": 10,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "e1b69ee9-2df8-487d-a68b-6d3065506996",
+    "text": "Manchester Encoding There is a transition at the middle of each bit period Low to high transition represents a 1 High to low transition represents a 0 Differential Manchester Encoding The encoding of a 0 is represented by the presence of a transition at the beginning of a bit period A 1 is represented by the absence of a transition at the beginning of a bit period 0 1 0 0 1 1",
+    "chunk_index": 11,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "d4ca8963-5c4a-4d99-899b-aa6e621538e1",
+    "text": "Differential Manchester Encoding ➢The encoding of a 0 is represented by the presence of a transition at the beginning of a bit period ➢A 1 is represented by the absence of a transition at the beginning of a bit period Digital Data, Analog Signal Digital data needs to be carried on an analog signal. A carrier signal (frequency fc) performs the function of transporting the digital data in an analog waveform. Uses modem (modulator-demodulator) to convert digital data to analog signals and vice versa",
+    "chunk_index": 12,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "30f619b6-cbb8-41ae-abbc-95d4a31d35c1",
+    "text": "Figure 5.7 Modulation of Analog Signals for Digital Data (a) ASK(b) BFSK(c) BPSK00110100010 Amplitude Shift Keying (ASK) ASK is implemented by changing the amplitude of a carrier signal to reflect amplitude levels in the digital signal. Encode 0/1 by different carrier amplitudes Binary Frequency Shift Keying (BFSK) Two binary values are represented by two different frequencies",
+    "chunk_index": 13,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "bf5601fe-c170-4f69-9999-2353bf3c6c3c",
+    "text": "Phase Shift Keying (PSK) The phase of the carrier signal is shifted to represent data • Binary PSK Two phases represent the two binary digits Differential PSK Phase shifted relative to previous transmission rather than some reference signal Analog Data, Digital Signal Digitization is the conversion of analog data into digital data Analog to digital conversion is done using a codec Pulse code modulation Delta modulation",
+    "chunk_index": 14,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "8f27685b-2a50-4623-80cd-3d44db1ccf88",
+    "text": "Figure 5.16 Digitizing Analog Data Modulator DigitizerAnalog data(voice)Digital dataAnalog signal(ASK) Pulse Code Modulation (PCM) PCM consists of three steps to digitize an analog signal: 1. Sampling 2. Quantization 3. Binary encoding Before we sample, we have to filter the signal to remove high frequency components that affect the signal shape. QuantizerContinuous-time,continuous amplitude(analog) input signalDiscrete-timecontinuous-amplitude signal(PAM pulses)Discrete-timediscrete-amplitude signal(PCM pulses)Digital bitstream outputsignal",
+    "chunk_index": 15,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "0aa9e6ae-e88d-4f59-9a12-3a17f99055d9",
+    "text": "Encoder PAMsamplerFigure 5.18 PCM Block Diagram Components of PCM Encoder Three different sampling methods for PCM ➢Pulse Amplitude Modulation (PAM) To convert to digital, each of these analog samples must be assigned a binary code Quantized PAM Signal • The result of PAM is a series of pulses with amplitude values between the",
+    "chunk_index": 16,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "83133186-f7ad-4ef5-bee9-17abd93e4683",
+    "text": "maximum and minimum amplitudes of the signal with real values. Quantization: is a method of assigning integer values in a specific range to sampled instances. 37 Binary Encoding Each quantized samples is translated into equivalent binary codes. 012345678910111213Normalized magnitude14150time1Ts =1/(2B)1.1PAM value9.215.210.85.62.82.71quantized code number915105220001PCM code10011111101001010010001023456789101112131415Codenumber16",
+    "chunk_index": 17,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  },
+  {
+    "id": "37f396aa-c4de-4044-bee2-95b2191d0257",
+    "text": "Figure 5.17 Pulse-Code Modulation Example Delta Modulation (DM) Analog input is approximated by a staircase function • Move up or down one level () at each sample interval • Binary behavior Function moves up or down at each sample interval • Moving up: generating 1 • Moving down: generating 0",
+    "chunk_index": 18,
+    "source_file": "4th_data_communication_5-signal_encoding_techniques"
+  }
+]

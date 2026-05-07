@@ -1,0 +1,188 @@
+[
+  {
+    "id": "fae6df32-bd1a-4ace-a5ce-cc25c7c72298",
+    "text": "(cid:10)(cid:12)(cid:15)(cid:12)(cid:14)(cid:12)(cid:9)(cid:7) SEMICONDUCTOR TECHNICAL DATA (cid:8)(cid:17)(cid:20)(cid:17)(cid:23)(cid:16)(cid:19) (cid:13)(cid:26)(cid:23)(cid:22)(cid:21)(cid:24)(cid:17) (cid:15)(cid:23)(cid:16)(cid:20)(cid:24)(cid:18)(cid:24)(cid:25)(cid:21)(cid:23)(cid:24) PNP Silicon",
+    "chunk_index": 0,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "07edffd5-0334-42de-a8b3-baaaa4c5bf84",
+    "text": "COLLECTOR 3 2 BASE 1 EMITTER MAXIMUM RATINGS Rating Symbol Value Unit Collector–Emitter Voltage VCEO 40 Vdc Collector–Base Voltage VCBO 40 Vdc Emitter–Base Voltage VEBO 5.0 Vdc Collector Current — Continuous Total Device Dissipation @ TA = 25°C Derate above 25°C IC PD 600 625 5.0",
+    "chunk_index": 1,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "ec020051-979f-4cd0-a391-7b565ecc4520",
+    "text": "mAdc mW mW/°C Total Device Dissipation @ TC = 25°C Derate above 25°C PD 1.5 12 Watt mW/°C Operating and Storage Junction TJ, Tstg –55 to +150 °C Temperature Range THERMAL CHARACTERISTICS Characteristic Symbol Max Unit Thermal Resistance, Junction to Ambient R(cid:2)JA 200 °C/W Thermal Resistance, Junction to Case",
+    "chunk_index": 2,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "9ef6f96a-6ff8-4375-b448-f2a1936e0e0e",
+    "text": "R(cid:2)JC 83.3 °C/W ELECTRICAL CHARACTERISTICS (TA = 25°C unless otherwise noted) Characteristic OFF CHARACTERISTICS Collector–Emitter Breakdown Voltage(1) (IC = 1.0 mAdc, IB = 0) Collector–Base Breakdown Voltage (IC = 0.1 mAdc, IE = 0) Emitter–Base Breakdown Voltage (IE = 0.1 mAdc, IC = 0)",
+    "chunk_index": 3,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "ba5971ec-ee0f-4930-bc92-83be5c57948c",
+    "text": "Base Cutoff Current (VCE = 35 Vdc, VEB = 0.4 Vdc) Collector Cutoff Current (VCE = 35 Vdc, VEB = 0.4 Vdc) 1. Pulse Test: Pulse Width ≤ 300 (cid:1)s, Duty Cycle ≤ 2.0%. Preferred devices are Motorola recommended choices for future use and best overall value. Motorola Small–Signal Transistors, FETs and Diodes Device Data  Motorola, Inc. 1996",
+    "chunk_index": 4,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "40f6fb23-1f3a-4503-b501-4060ad3dd425",
+    "text": "Symbol V(BR)CEO V(BR)CBO V(BR)EBO IBEV ICEX Order this document by 2N4402/D (cid:4)(cid:11)(cid:6)(cid:6)(cid:3)(cid:4) (cid:4)(cid:11)(cid:6)(cid:6)(cid:3)(cid:5) (cid:2) Motorola Preferred Device 1 2 3 CASE 29–04, STYLE 1 TO–92 (TO–226AA) Min Max Unit 40 — Vdc 40 — Vdc 5.0 —",
+    "chunk_index": 5,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "cbe692c6-8a65-44ba-9de4-c213d5355c65",
+    "text": "Vdc — 0.1 m Adc — 0.1 m Adc 1 (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:3) (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:4) ELECTRICAL CHARACTERISTICS (TA = 25°C unless otherwise noted) (Continued) Characteristic Symbol Min Max Unit ON CHARACTERISTICS DC Current Gain hFE — (IC = 0.1 mAdc, VCE = 1.0 Vdc) 2N4403 30 —",
+    "chunk_index": 6,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "d256a287-871b-45db-8ccd-7fecd7a16dfa",
+    "text": "(IC = 1.0 mAdc, VCE = 1.0 Vdc) 2N4402 2N4403 30 60 — — (IC = 10 mAdc, VCE = 1.0 Vdc) 2N4402 2N4403 50 100 — — (IC = 150 mAdc, VCE = 2.0 Vdc)(1) 2N4402 2N4403 50 100 150 300 (IC = 500 mAdc, VCE = 2.0 Vdc)(1) Collector–Emitter Saturation Voltage(1) Both VCE(sat) 20 — Vdc (IC = 150 mAdc, IB = 15 mAdc) (IC = 500 mAdc, IB = 50 mAdc) Base–Emitter Saturation Voltage(1) (IC = 150 mAdc, IB = 15 mAdc) (IC = 500 mAdc, IB = 50 mAdc)",
+    "chunk_index": 7,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "c3e829ab-0e50-41c4-a315-3c460cf73084",
+    "text": "VBE(sat) — — 0.75 — 0.4 0.75 0.95 1.3 Vdc SMALL–SIGNAL CHARACTERISTICS Current–Gain — Bandwidth Product (IC = 20 mAdc, VCE = 10 Vdc, f = 100 MHz) 2N4402 2N4403 fT 150 200 — — MHz Collector–Base Capacitance (VCB = 10 Vdc, IE = 0, f = 1.0 MHz) Ccb — 8.5 pF Emitter–Base Capacitance (VEB = 0.5 Vdc, IC = 0, f = 1.0 MHz)",
+    "chunk_index": 8,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "314259f5-46c2-4b18-b987-36ed0d3e502e",
+    "text": "Ceb — 30 pF Input Impedance hie ohms (IC = 1.0 mAdc, VCE = 10 Vdc, f = 1.0 kHz) 2N4402 2N4403 750 1.5 k 7.5 k 15 k Voltage Feedback Ratio (IC = 1.0 mAdc, VCE = 10 Vdc, f = 1.0 kHz) hre 0.1 8.0 X 10–4 Small–Signal Current Gain hfe — (IC = 1.0 mAdc, VCE = 10 Vdc, f = 1.0 kHz) 2N4402 2N4403 30 60 250 500 Output Admittance (IC = 1.0 mAdc, VCE = 10 Vdc, f = 1.0 kHz)",
+    "chunk_index": 9,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "63b04155-b19a-44f8-bfcd-bcc20f642437",
+    "text": "hoe 1.0 100 m mhos SWITCHING CHARACTERISTICS Delay Time Rise Time (VCC = 30 Vdc, VBE = +2.0 Vdc, (VCC = 30 Vdc, VBE = +2.0 Vdc, IC = 150 mAdc, IB1 = 15 mAdc) IC = 150 mAdc, IB1 = 15 mAdc) td tr — — 15 20 ns ns Storage Time Fall Time (VCC = 30 Vdc, IC = 150 mAdc, (VCC = 30 Vdc, IC = 150 mAdc, IB1 = 15 mA, IB2 = 15 mA) IB1 = 15 mA, IB2 = 15 mA)",
+    "chunk_index": 10,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "8e6c7713-e453-4c3b-9a07-aaeea8931255",
+    "text": "ts tf — — 225 30 ns ns 1. Pulse Test: Pulse Width ≤ 300 (cid:1)s, Duty Cycle ≤ 2.0%. SWITCHING TIME EQUIVALENT TEST CIRCUIT –30 V –30 V < 2 ns 200 W < 20 ns 200 W +2 V 0 –16 V 1.0 kW 10 to 100 m s, DUTY CYCLE = 2% +14 V 0 1.0 kW CS* < 10 pF –16 V 1.0 to 100 m s, DUTY CYCLE = 2% Scope rise time < 4.0 ns *Total shunt capacitance of test jig connectors, and oscilloscope +4.0 V CS* < 10 pF",
+    "chunk_index": 11,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "944c72db-c2e6-4ac7-8d0c-ba7b9789dd0d",
+    "text": "Figure 1. Turn–On Time Figure 2. Turn–Off Time 2 Motorola Small–Signal Transistors, FETs and Diodes Device Data TRANSIENT CHARACTERISTICS 25°C 100°C 30 20 Ceb 10 7.0 5.0 3.0 ) F p ( E C N A T C A P A C I 10 7.0 5.0 Ccb ) C n ( E G R A H C , Q 2.0 1.0 0.7 0.5 0.3 0.2 2.0 0.1 0.1 0.2 0.3 0.5 5.0 2.0 REVERSE VOLTAGE (VOLTS) 0.7 1.0 3.0 7.0 10 20 30 10 20",
+    "chunk_index": 12,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "72ae4c4a-aeaf-4d19-abf3-7f53666a6278",
+    "text": "Figure 3. Capacitances 100 100 70 IC/IB = 10 70 50 50 ) s n ( E M T I , t 30 20 tr @ VCC = 30 V tr @ VCC = 10 V td @ VBE(off) = 2 V td @ VBE(off) = 0 ) s n ( E M T E S R I I 30 20 , r t 10 10 7.0 7.0 5.0 5.0 10 20 30 70 IC, COLLECTOR CURRENT (mA) 50 100 200 300 500 10 20",
+    "chunk_index": 13,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "c622b94f-9509-4b2a-83f2-8a71f0c8b537",
+    "text": "Figure 5. Turn–On Time 200 IC/IB = 10 ) s n ( 100 E M T E G A R O T S I , ′ s t 70 50 IB1 = IB2 ts′ = ts – 1/8 tf IC/IB = 20 30 20 10 20 70 30 IC, COLLECTOR CURRENT (mA) 50 100 200 Figure 7. Storage Time Motorola Small–Signal Transistors, FETs and Diodes Device Data (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:3) (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:4)",
+    "chunk_index": 14,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "8b287810-17d1-4e50-a2f9-09aaf45101f2",
+    "text": "VCC = 30 V IC/IB = 10 QT QA 30 70 IC, COLLECTOR CURRENT (mA) 50 100 200 300 500 Figure 4. Charge Data VCC = 30 V IC/IB = 10 30 70 IC, COLLECTOR CURRENT (mA) 50 100 200 300 500 Figure 6. Rise Time 300 500 3 (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:3) (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:4) SMALL–SIGNAL CHARACTERISTICS NOISE FIGURE VCE = –10 Vdc, TA = 25°C Bandwidth = 1.0 Hz 10 10",
+    "chunk_index": 15,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "d112cc83-5445-421b-a02e-11ec2beea269",
+    "text": "f = 1 kHz 8 8 ) ) B d ( B d ( E R U G F E S O N I I 6 4 IC = 1.0 mA, RS = 430 W IC = 500 m A, RS = 560 W IC = 50 m A, RS = 2.7 kW IC = 100 m A, RS = 1.6 kW E R U G F E S O N I I 6 4 IC = 50 m A 100 m A 500 m A 1.0 mA , F N , F N 2 RS = OPTIMUM SOURCE RESISTANCE 2 0 0.01 0.02 0.05 0.1 0.2 0.5 1.0 2.0 5.0 10 20 50 100 0 50 100 200 500",
+    "chunk_index": 16,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "26461305-8307-4344-900d-b1e96a75f6c4",
+    "text": "1 k 2 k 5 k 10 k 20 k f, FREQUENCY (kHz) RS, SOURCE RESISTANCE (OHMS) Figure 8. Frequency Effects Figure 9. Source Resistance Effects h PARAMETERS VCE = –10 Vdc, f = 1.0 kHz, TA = 25°C This group of graphs illustrates the relationship between hfe and other “h” parameters for this series of transistors. To obtain these curves, a high–gain and a low–gain unit were selected from both the 2N4402 and 2N4403 lines, and the same units were used to develop the correspondingly– numbered curves on each graph. 1000 100 k",
+    "chunk_index": 17,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "6b27d558-33ae-4666-b2ff-72e985449a79",
+    "text": "N A G T N E R R U C I , e f h 700 500 300 200 100 70 2N4403 UNIT 1 2N4403 UNIT 2 2N4402 UNIT 1 2N4402 UNIT 2 ) S M H O ( E C N A D E P M I T U P N , e 50 k 20 k 10 k 5 k 2 k 1 k 500 2N4403 UNIT 1 2N4403 UNIT 2 2N4402 UNIT 1 2N4402 UNIT 2 i 50 h 200 30 0.1 0.2 3.0 0.3 1.0 IC, COLLECTOR CURRENT (mAdc) 2.0 0.5 0.7 5.0 7.0 10 100 0.1 0.2",
+    "chunk_index": 18,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "f7061aa6-5b93-4109-8560-fda27cfc394f",
+    "text": "0.3 IC, COLLECTOR CURRENT (mAdc) 2.0 0.5 0.7 1.0 5.0 7.0 Figure 10. Current Gain Figure 11. Input Impedance 20 500 ) 4 – 0 1 X ( O T A R K C A B D E E F E G A T L O V I , e r 10 5.0 2.0 1.0 0.5 0.2 2N4403 UNIT 1 2N4403 UNIT 2 2N4402 UNIT 1 2N4402 UNIT 2 ) s o h m (cid:1) ( E C N A T T M D A T U P T U O",
+    "chunk_index": 19,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "80709d79-6582-45e8-8f94-f9455729bc86",
+    "text": "I , e o h 100 50 20 10 5.0 2.0 2N4403 UNIT 1 2N4403 UNIT 2 2N4402 UNIT 1 2N4402 UNIT 2 h 0.1 0.1 0.2 3.0 0.3 IC, COLLECTOR CURRENT (mAdc) 0.5 0.7 1.0 2.0 5.0 7.0 10 1.0 0.1 0.2 3.0 0.3 IC, COLLECTOR CURRENT (mAdc) 0.5 0.7 1.0 2.0 5.0 7.0 Figure 12. Voltage Feedback Ratio Figure 13. Output Admittance 4 Motorola Small–Signal Transistors, FETs and Diodes Device Data 50 k 10 10 (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:3) (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:4) STATIC CHARACTERISTICS 3.0 N A G T N E R R U C D E Z L A M R O N",
+    "chunk_index": 20,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "c1ffc8a4-ecf0-465c-9d35-feaf77adb723",
+    "text": "I I 2.0 1.0 0.7 0.5 VCE = 1.0 V VCE = 10 V TJ = 125°C 25°C –55°C , E F 0.3 h 0.2 0.1 0.2 0.3 0.5 0.7 1.0 2.0 3.0 IC, COLLECTOR CURRENT (mA) 5.0 7.0 10 20 30 50 70 100 200 300 500 Figure 14. DC Current Gain ) S T L O V 1.0 ( E G A T L O V R E T T M E – R O T C E L L O C",
+    "chunk_index": 21,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "dbdfee27-f01d-45e2-89af-74132a52a376",
+    "text": "I 0.8 0.6 0.4 0.2 IC = 1.0 mA 10 mA 100 mA 500 mA , E C V 0 0.005 0.01 0.02 0.03 0.05 0.07 0.1 0.2 1.0 0.5 IB, BASE CURRENT (mA) 0.3 0.7 2.0 3.0 5.0 7.0 10 20 30 50 Figure 15. Collector Saturation Region 1.0 TJ = 25°C 0.5 0.8 VBE(sat) @ IC/IB = 10 0 (cid:1)VC for VCE(sat) ) )",
+    "chunk_index": 22,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "5bb39072-5f07-4e0e-82ac-dff94196ff40",
+    "text": "S T L O V ( E G A T L O V 0.6 0.4 VBE(sat) @ VCE = 10 V C ° / V m ( T N E C F F E O C I I 0.5 1.0 1.5 0.2 2.0 (cid:1)VS for VBE VCE(sat) @ IC/IB = 10 0 0.1 0.2 0.5 50 1.0 2.0 IC, COLLECTOR CURRENT (mA) 5.0 10 20 100 200 500 2.5 0.1 0.2 0.5 50 1.0 IC, COLLECTOR CURRENT (mA) 2.0 5.0 10 20 100 200 500",
+    "chunk_index": 23,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "2bc077d2-e84b-44f5-91ff-9ab572adbc6a",
+    "text": "Figure 16. “On” Voltages Figure 17. Temperature Coefficients Motorola Small–Signal Transistors, FETs and Diodes Device Data 5 (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:3) (cid:3)(cid:6)(cid:5)(cid:5)(cid:2)(cid:4) PACKAGE DIMENSIONS NOTES: A B 1. DIMENSIONING AND TOLERANCING PER ANSI Y14.5M, 1982. 2. CONTROLLING DIMENSION: INCH. 3. CONTOUR OF PACKAGE BEYOND DIMENSION R IS UNCONTROLLED.",
+    "chunk_index": 24,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "fd9d71ec-ea55-4036-9bf4-469cdd0f5fa2",
+    "text": "R P 4. DIMENSION F APPLIES BETWEEN P AND L. DIMENSION D AND J APPLY BETWEEN L AND K MINIMUM. LEAD DIMENSION IS UNCONTROLLED IN P AND BEYOND DIMENSION K MINIMUM. SEATING PLANE X X H V 1 F G N L C K D J SECTION X–X DIM A B C D F G H J K L N P R V INCHES MIN 0.175 0.170 0.125 0.016 0.016 0.045 0.095 0.015 0.500 0.250 0.080 ––– 0.115 0.135 MAX 0.205 0.210 0.165 0.022 0.019 0.055 0.105 0.020 ––– ––– 0.105 0.100 ––– ––– MILLIMETERS MAX MIN 5.20 4.45 5.33 4.32 4.19 3.18 0.55 0.41 0.48 0.41 1.39 1.15 2.66 2.42 0.50 0.39 ––– 12.70 ––– 6.35 2.66 2.04 2.54 ––– ––– 2.93 ––– 3.43",
+    "chunk_index": 25,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "c98548a4-4873-41d7-85c5-229d4a10b30d",
+    "text": "N CASE 029–04 (TO–226AA) ISSUE AD STYLE 1: PIN 1. EMITTER 2. BASE 3. COLLECTOR",
+    "chunk_index": 26,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "27d961b7-bf4a-42ba-87b9-e99d25c16dcd",
+    "text": "Motorola reserves the right to make changes without further notice to any products herein. Motorola makes no warranty, representation or guarantee regarding the suitability of its products for any particular purpose, nor does Motorola assume any liability arising out of the application or use of any product or circuit, and specifically disclaims any and all liability, including without limitation consequential or incidental damages. “Typical” parameters can and do vary in different applications. All operating parameters, including “Typicals” must be validated for each customer application by customer’s technical experts. Motorola does not convey any license under its patent rights nor the rights of others. Motorola products are not designed, intended, or authorized for use as components in",
+    "chunk_index": 27,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "cb0f4181-70d2-4bdf-a854-b394b85e86a1",
+    "text": "systems intended for surgical implant into the body, or other applications intended to support or sustain life, or for any other application in which the failure of the Motorola product could create a situation where personal injury or death may occur. Should Buyer purchase or use Motorola products for any such unintended or unauthorized application, Buyer shall indemnify and hold Motorola and its officers, employees, subsidiaries, affiliates, and distributors harmless against all claims, costs, damages, and expenses, and reasonable attorney fees arising out of, directly or indirectly, any claim of personal injury or death associated with such unintended or unauthorized use, even if such claim alleges that Motorola was negligent regarding the design or manufacture of the part. Motorola and",
+    "chunk_index": 28,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "83509281-4085-4d69-bd96-257913979e0d",
+    "text": "are registered trademarks of Motorola, Inc. Motorola, Inc. is an Equal Opportunity/Affirmative Action Employer. How to reach us: USA/EUROPE: Motorola Literature Distribution; P.O. Box 20912; Phoenix, Arizona 85036. 1–800–441–2447 JAPAN: Nippon Motorola Ltd.; Tatsumi–SPD–JLDC, Toshikatsu Otsuki, 6F Seibu–Butsuryu–Center, 3–14–2 Tatsumi Koto–Ku, Tokyo 135, Japan. 03–3521–8315",
+    "chunk_index": 29,
+    "source_file": "uploaded_user_files_2n4402"
+  },
+  {
+    "id": "48c32680-e705-4082-8f24-55fa1e1ff00d",
+    "text": "MFAX: RMFAX0@email.sps.mot.com – TOUCHTONE (602) 244–6609 INTERNET: http://Design–NET.com HONG KONG: Motorola Semiconductors H.K. Ltd.; 8B Tai Ping Industrial Park, 51 Ting Kok Road, Tai Po, N.T., Hong Kong. 852–26629298 6 ◊ Motorola Small–Signal Transistors, FETs and Diodes Device Data 2N4402/D (cid:2)(cid:5)(cid:8)(cid:6)(cid:6)(cid:4)(cid:5)(cid:3)(cid:7)(cid:2)",
+    "chunk_index": 30,
+    "source_file": "uploaded_user_files_2n4402"
+  }
+]

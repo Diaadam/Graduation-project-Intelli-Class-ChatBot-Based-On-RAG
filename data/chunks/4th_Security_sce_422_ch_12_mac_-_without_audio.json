@@ -1,0 +1,308 @@
+[
+  {
+    "id": "6c866351-cea9-49ce-9255-2f0bfa5dee1f",
+    "text": "Lecture slides by Lawrie Brown for “Cryptography and Network Security”, 5/e, by William Stallings, Chapter 12 – “Message Authentication Codes”. Message Authentication Codes Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Cryptography and Network Security Chapter 12 Fifth Edition by William Stallings Lecture slides by",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "fdb444f1-6d91-419b-a790-235d21c8c4aa",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "c61ea059-8134-4b06-a017-4f7a8b86476e",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "72d8c70e-11d7-4f3d-9ba6-493532b1fbad",
+    "text": "Overview message authentication is concerned with: protecting the integrity of a message validating identity of originator non-repudiation of origin (dispute resolution) will consider the security requirements then three alternative functions used for message authentication: hash function (see Chapter 11)",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "449d5232-0fda-4f8d-be58-9063e1427e56",
+    "text": "message encryption (symmetric & public) message authentication code (MAC)",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "61981143-81fc-46a6-9b93-d218926233fe",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "24c69978-3b2e-4ce5-ba89-cbc72cc98537",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "41570e6e-135e-4156-a3c2-cef32f610d4f",
+    "text": "Message Authentication Protects against active attacks Verifies received message is authentic Contents have not been altered From authentic source Timely and in correct sequence Can use conventional encryption Only sender & receiver share a key",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "478cf001-96e3-4aa5-96ea-7cd4c84d3a21",
+    "text": "One of the most fascinating and complex areas of cryptography is that of message authentication and the related area of digital signatures. We now consider how to protect message integrity (ie protection from modification), as well as confirming the identity of the sender. Generically this is the problem of message authentication, and in eCommerce applications is arguably more important than secrecy. Message Authentication is concerned with: protecting the integrity of a message, validating identity of originator, & non-repudiation of origin (dispute resolution). There are three types of functions that may be used to produce an authenticator: a hash function, message encryption, message authentication code (MAC). Hash functions, and how they may serve for message authentication, are",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "4bf8e1a0-3329-4613-a4b3-260b57d09ade",
+    "text": "discussed in Chapter 11. The remainder of this section briefly examines the remaining two topics. The remainder of the chapter elaborates on the topic of MACs.",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "741bf63e-3e1f-45df-8455-464d724f207d",
+    "text": "Message Security Requirements Attacks related to message confidentiality disclosure (i.e., reading the message contents) traffic analysis Attacks related to message authentication masquerade content modification sequence modification timing modification source repudiation destination repudiation There are three types of functions that may be used to produce an authenticator: a hash function message encryption message authentication code (MAC).",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "ea42d047-d5fc-4d1a-8cd6-31adb8ad4413",
+    "text": "Message encryption by itself can provide a measure of authentication. The analysis differs for symmetric and public-key encryption schemes. If use symmetric encryption, If no other party knows the key, then confidentiality is provided. As well, symmetric encryption provides authentication as well as confidentiality, since only the other party can have encrypted a properly constructed message (Stallings Figure 12.1a). Here, the ciphertext of the entire message serves as its authenticator, on the basis that only those who know the appropriate keys could have validly encrypted the message. This is provided you can recognize a valid message (ie if the message has suitable structure such as redundancy or a checksum to detect any changes).",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "df1d43d7-e204-4a68-a3d6-0af33a25f1e0",
+    "text": "Symmetric Message Encryption encryption can also provide authentication if symmetric encryption is used then: receiver know sender must have created it since only sender and receiver now key used know content cannot have been altered With public-key techniques, can use a digital signature which can only have been created by key owner to validate the integrity of the message contents. To provide both confidentiality and authentication, A can encrypt M first using its private key, which provides the digital signature, and then using B's public key, which provides confidentiality (Stallings Figure 12.1d). The disadvantage of this approach is that the public-key algorithm, which is complex, must be exercised four times rather than two in each communication.",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "13175c3f-516f-4298-bcba-2ff122277286",
+    "text": "Public-Key Message Encryption if public-key encryption is used: encryption provides no confidence of sender since anyone potentially knows public-key However, if sender signs message using their private-key then encrypts with recipient's public key have both secrecy and authentication but at cost of two public-key uses on message Again, need to recognize corrupted messages An alternative authentication technique involves the use of a secret key to generate a small fixed-size block of data, known as a cryptographic checksum or MAC that is appended to the message. This technique assumes that two communicating parties, say A and B, share a common secret key K. A MAC function is similar to encryption, except that the MAC algorithm need not be reversible, as it must for decryption.",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "2545de18-0b05-4ab2-bfce-b7883cc3c8c2",
+    "text": "Message Authentication Code (MAC) generated by an algorithm that creates a small fixed-sized block depending on both message and some key like encryption though the algorithm need not be reversible appended to message as a signature receiver performs same computation on message and checks it matches the MAC provides assurance that message is unaltered and comes from sender",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "e7ea76d6-9cb8-494a-b9cd-5864e7a089b7",
+    "text": "The process depicted on the previous slide provides authentication but not confidentiality, because the message as a whole is transmitted in the clear. Confidentiality can be provided by performing message encryption either after (see Stallings Figure 12.4b) or before (see Stallings Figure 12.4c) the MAC algorithm. In both these cases, two separate keys are needed, each of which is shared by the sender and the receiver. Typically, it is preferable to tie the authentication directly to the plaintext, so the method of Figure 12.4b is used. Can use MAC in circumstances where just authentication is needed (or needs to be kept), see text for examples (e.g. such as when the same message is broadcast to a number of destinations; when one side has a heavy load and cannot afford the time to decrypt",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "a59b3c4b-39f5-4231-b1f5-ebf76bee7c74",
+    "text": "all incoming messages; or do not need to keep messages secret, but must authenticate messages). Finally, note that the MAC does not provide a digital signature because both sender and receiver share the same key.",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "7d6b40be-5973-4916-9cce-78b0b0340a24",
+    "text": "MAC Overview as shown the MAC provides authentication can also use encryption for secrecy Generally, use separate keys for each: an encryption key and a MAC key can compute MAC either before or after encryption MAC is generally regarded as better done before encryption because in this case the attacker needs to break the encryption key first then breaking the MAC key. why use a MAC? sometimes only authentication is needed sometimes need authentication to persist longer than the encryption (e.g., archival use) note that a MAC is not a digital signature",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "5e6ffa22-a44e-46a9-826e-6772bcc940f8",
+    "text": "The process depicted on the previous slide provides authentication but not confidentiality, because the message as a whole is transmitted in the clear. Confidentiality can be provided by performing message encryption either after (see Stallings Figure 12.4b) or before (see Stallings Figure 12.4c) the MAC algorithm. In both these cases, two separate keys are needed, each of which is shared by the sender and the receiver. Typically, it is preferable to tie the authentication directly to the plaintext, so the method of Figure 12.4b is used. Can use MAC in circumstances where just authentication is needed (or needs to be kept), see text for examples (e.g. such as when the same message is broadcast to a number of destinations; when one side has a heavy load and cannot afford the time to decrypt",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "8627cb00-1439-4d82-be30-c9fc99c325a9",
+    "text": "all incoming messages; or do not need to keep messages secret, but must authenticate messages). Finally, note that the MAC does not provide a digital signature because both sender and receiver share the same key.",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "9f473f0b-0b68-4074-85e6-8e3e0e6c456b",
+    "text": "MAC Generation and Verification MAC is a small fixed-sized block of data generated from message “M” + secret key “K” MAC = C(K,M) appended to message when sent for verification, MAC is recomputed from the received message at destination and then compared with the transmitted MAC This is a simple diagram for the MAC generation and verification",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "48df1deb-f108-4497-b841-c02f46b6aaee",
+    "text": "MAC generation MAC verification This is another diagram for the MAC generation and verification Message authentication using a Message Authentication Code (MAC). A MAC (also known as a cryptographic checksum, fixed-length authenticator, or tag) is generated by a function C. The MAC is appended to the message at the source at a time when the message is assumed or known to be correct. The receiver authenticates that message by re-computing the MAC. The MAC function is a many-to-one function, since potentially many arbitrarily long messages can be condensed to the same summary value, but don’t want finding them to be easy (see text for discussion)!",
+    "chunk_index": 21,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "d9f45530-acec-4252-be0e-1be7c817b77b",
+    "text": "MAC Properties a MAC is a cryptographic checksum MAC = CK(M) condenses a variable-length message M using a secret key K to a fixed-sized authenticator is a many-to-one function potentially many messages have same MAC, simply because for an m-bit authenticator there are only 2m values that can map to infinite number of messages. but finding two different messages having the same MAC value needs to be very difficult.",
+    "chunk_index": 22,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "afca6d27-d870-40b7-98ec-d8c653f1bc41",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements. The first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key. The second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. The final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "chunk_index": 23,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "aacefc08-12d6-48f2-9f3c-b261f133279e",
+    "text": "Requirements for MACs Considering the types of attacks, the MAC needs to satisfy the following: Knowing a message and MAC, it is infeasible to find another message with same MAC For an m-bit authenticator, MACs should be uniformly distributed over the range from 0 to 2m – 1. MAC should depend equally on all bits of the message.",
+    "chunk_index": 24,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "31db76e4-ca22-4c48-b708-645b7ce75659",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements. The first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key. The second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. The final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "chunk_index": 25,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "4dd1bf54-a62f-4d4b-880c-8f44bbd332da",
+    "text": "Security of MACs Attacks on MACs can be grouped into two categories: Brute-force attacks: There are two lines of attack possible: attack the key space and attack the MAC value. Cryptanalysis: As with encryption algorithms and hash functions, cryptanalytic attacks on MAC algorithms seek to exploit some property of the algorithm to perform some attack other than an exhaustive search. an ideal MAC algorithm will require a cryptanalytic effort greater than or equal to the brute-force effort. little work has been done on developing cryptanalytic attacks",
+    "chunk_index": 26,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "f3e5f72b-d100-4e72-8f4a-1287ac316991",
+    "text": "In assessing the security of a MAC function, we need to consider the types of attacks that may be mounted against it. Hence it needs to satisfy the listed requirements. The first requirement deals with message replacement attacks, in which an opponent is able to construct a new message to match a given MAC, even though the opponent does not know and does not learn the key. The second requirement deals with the need to thwart a brute-force attack based on chosen plaintext. The final requirement dictates that the authentication algorithm should not be weaker with respect to certain parts or bits of the message than others.",
+    "chunk_index": 27,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "e7755615-befa-47eb-a526-976e32a77f0b",
+    "text": "Brute-Force Attacks on MACs Attack on MACs with known message-MAC pairs [x, MAC(K, x)] either attack key space (by exhaustive key search) or generate a valid tag for a given message or find a message that matches a given tag For a k-bit key and a m-bit MAC authenticator, the level of effort for brute-force attack on a MAC algorithm can be expressed as min(2k,2m). It is reasonable to require that the key length (k) and MAC length (m) satisfy a relationship such as min(k, m) >= N, where N is in the range of 128 bits. At least 128-bit MAC is needed for security, 160-bits better.",
+    "chunk_index": 28,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "98e869c1-ef10-4c22-bd23-9fc03d4dec01",
+    "text": "In recent years, there has been increased interest in developing a MAC derived from a cryptographic hash function, because they generally execute faster in software than symmetric block ciphers, and because code for cryptographic hash functions is widely available. A hash function such as SHA was not designed for use as a MAC and cannot be used directly for that purpose because it does not rely on a secret key. There have been a number of proposals for the incorporation of a secret key into an existing hash algorithm, originally by just pre-pending a key to the message. Problems were found with these earlier, simpler proposals, but they resulted in the development of HMAC.",
+    "chunk_index": 29,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "d97d7c9a-776b-4fa5-ba52-91cc13daefbf",
+    "text": "Keyed Hash Functions as MACs want a MAC based on a hash function because hash functions are generally faster crypto hash function code is widely available hash includes a key along with message original proposal:",
+    "chunk_index": 30,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "c9af2a85-80e2-4e9c-88e9-07d040b68969",
+    "text": "KeyedHash = Hash(Key|Message) some weaknesses were found with this eventually led to development of HMAC RFC 2104 lists the following design objectives for HMAC: • To use, without modifications, available hash functions. In particular, hash functions that perform well in software, and for which code is freely and widely available. • To allow for easy replaceability of the embedded hash function in case faster or more secure hash functions are found or required. • To preserve the original performance of the hash function without incurring a significant degradation. • To use and handle keys in a simple way. • To have a well understood cryptographic analysis of the strength of the authentication mechanism based on reasonable assumptions about the embedded hash function.",
+    "chunk_index": 31,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "5f1912be-d4f6-427a-89d1-9311afca73ad",
+    "text": "HMAC Design Objectives use, without modifications, hash functions allow for easy replaceability of embedded hash function preserve original performance of hash function without significant degradation use and handle keys in a simple way. have well understood cryptographic analysis of authentication mechanism strength",
+    "chunk_index": 32,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "56f29be3-2ec5-4563-900e-a2eaf8f24ed3",
+    "text": "The idea of a keyed hash evolved into HMAC, designed to overcome some problems with the original proposals. It involves hashing padded versions of the key concatenated with the message, and then with another outer hash of the result prepended by another padded variant of the key. The hash function need only be used on 3 more blocks than when hashing just the original message (for the two keys + inner hash). HMAC can use any desired hash function, and has been shown to have the same security as the underlying hash function. Can choose the hash function to use based on speed/security concerns.",
+    "chunk_index": 33,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "bd7b76a6-b06b-4fcb-b342-311bcbdc6812",
+    "text": "HMAC specified as Internet standard RFC2104 uses hash function on the message: HMACK(M)= Hash[(K+  opad) || Hash[(K+  ipad) || M)] ] where K+ is the key padded out to size opad, ipad are specified padding constants overhead is just 3 more hash calculations than the message needs alone any hash function can be used e.g. MD5, SHA-1, RIPEMD-160, Whirlpool",
+    "chunk_index": 34,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "fea9f18c-634f-46c3-b5f4-d12ceb9a8b98",
+    "text": "HMAC Overview HMAC(k,M)= Hash [(K+  opad) || Hash[(K+  ipad) || M)] ]",
+    "chunk_index": 35,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "9a9fb974-1fe9-4ff4-ba72-3f1fa258252d",
+    "text": "The appeal of HMAC is that its designers have been able to prove an exact relationship between the strength of the embedded hash function and the strength of HMAC. The security of a MAC function is generally expressed in terms of the probability of successful forgery with a given amount of time spent by the forger and a given number of message-MAC pairs created with the same key. Have two classes of attacks: brute force attack on key used which has work of order 2^n; or a birthday attack which requires work of order 2^(n/2) - but which requires the attacker to observe 2^n blocks of messages using the same key - very unlikely. For a hash code length of 128 bits, this requires 264 observed blocks (272 bits) generated using the same key. On a 1-Gbps link, one would need to observe a",
+    "chunk_index": 36,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "79523031-b64f-4a67-ae2b-db43e8027b1c",
+    "text": "continuous stream of messages with no change in key for about 150,000 years in order to succeed. So even MD5 is still secure for use in HMAC given these constraints.",
+    "chunk_index": 37,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "cc89f48f-670f-476c-b814-2e80eeffce96",
+    "text": "HMAC Security proved security of HMAC relates to that of the underlying hash algorithm attacking HMAC requires either: brute force attack on key used birthday attack (but since keyed would need to observe a very large number of messages) choose hash function used based on speed verses security constraints In this section, we look at two MACs that are based on the use of a block cipher mode of operation. We begin with an older algorithm, the Data Authentication Algorithm (DAA), a widely used though now obsolete MAC based on DES-CBC (next slide). However this suffers from being too small for acceptable use today.",
+    "chunk_index": 38,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "277ca7b1-b21e-48d5-85ec-176a87badf75",
+    "text": "Using Symmetric Ciphers for MACs can use any block cipher chaining mode and use final block as a MAC Data Authentication Algorithm (DAA) is a widely used MAC based on DES-CBC using IV=0 and zero-pad of final block encrypt message using DES in CBC mode and send just the final block as the MAC",
+    "chunk_index": 39,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "36204798-43b8-4d3b-8104-7a34470d5ea4",
+    "text": "or the leftmost M bits (16≤M≤64) of final block but final MAC is now too small for security The Data Authentication Algorithm cipher-based MAC has been widely adopted in government and industry. Has been shown to be secure, with the following restriction. Only messages of one fixed length of mn bits are processed, where n is the cipher block size and m is a fixed positive integer. This limitation can be overcome using multiple keys, which can be derived from a single key. This refinement has been adopted by NIST as the cipher-based message authentication code (CMAC) mode of operation, for use with AES and triple DES. It is specified in NIST Special Publication 800-38B.",
+    "chunk_index": 40,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "d2d99b5b-918f-43fb-8269-de63ec1a8dfd",
+    "text": "CMAC previously saw the DAA (CBC-MAC) widely used in government & industry but has message size limitation can overcome using 2 keys & padding Thus, forming the Cipher-based Message Authentication Code (CMAC) adopted by NIST SP800-38B",
+    "chunk_index": 41,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "300096bb-e1b8-4947-b4fe-68152ed0768c",
+    "text": "Stallings Figure 12.8 shows the structure of CMAC. It uses the blocksize of the underlying cipher (ie 128-bits for AES or 64-bits for triple-DES). The message is divided into n blocks M1..Mn, padded if necessary. The algorithm makes use of a k-bit encryption key K and an n-bit constant K1 or K2 (depending on whether the message was padded or not). For AES, the key size k is 128,192, or 256 bits; for triple DES, the key size is 112 or 168 bits. The two constants K1 & K2 are derived from the original key K using encryption of 0 and multiplication in GF(2^n), as detailed in the text.",
+    "chunk_index": 42,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "23358e43-5a60-4673-b052-08ae5eb4d25b",
+    "text": "Authenticated encryption (AE) is a term used to describe encryption systems that simultaneously protect confidentiality and authenticity (integrity) of communications. Many applications and protocols require both forms of security, but until recently the two services have been designed separately. [BLAC05] discussed four common approaches to providing both confidentiality and encryption for a message M: • HtE: Hash-then-encrypt. First compute the cryptographic hash function over M as h = H(M). Then encrypt the message plus hash function: E(K, (M || h) • MtE: MAC-then-encrypt. Use two keys. First authenticate the plaintext by computing the MAC value as T = MAC(K1, M). Then encrypt the message plus tag: E(K2, (M || T) cf SSL/TLS • EtM: Encrypt-then-MAC. Use two keys. First encrypt the",
+    "chunk_index": 43,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "6de4f55b-34f7-4e84-bdd7-314821ac4ddc",
+    "text": "message to yield the ciphertext C = E(K 2, M). Then authenticate the ciphertext with T = MAC(K1, C) to yield the pair (C, T) cf IPsec • E&M: Encrypt-and-MAC. Use two keys. Encrypt the message to yield the ciphertext C = E(K 2, M). Authenticate the plaintext with T = MAC(K1, M) to yield the pair (C, T). These operations can be performed in either order. cf SSH Both decryption and verification are straightforward for each approach. There are security vulnerabilities with all of these approaches.",
+    "chunk_index": 44,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "3c78855e-f0cd-4c30-88f0-c7107f2e631c",
+    "text": "Authenticated Encryption simultaneously protect confidentiality and authenticity of communications often required but usually separate approaches Hash-then-encrypt: E(K, (M || H(M)) MAC-then-encrypt: E(K2, (M || MAC(K1, M)) Encrypt-then-MAC: (C=E(K2, M), T=MAC(K1, C) Encrypt-and-MAC: (C=E(K2, M), T=MAC(K1, M) decryption /verification straightforward but security vulnerabilities with all these",
+    "chunk_index": 45,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "d85b647b-9d92-437e-bac7-9f5cabe1314a",
+    "text": "Authenticated Encryption Authenticated encryption (AE) is a term used to describe encryption systems that simultaneously protect confidentiality and authenticity (integrity) of communications. Many applications and protocols require both forms of security, but until recently the two services have been designed separately. There are four common approaches to providing both confidentiality and encryption for a message M You know for sure who sign the message",
+    "chunk_index": 46,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "a0fe8d0a-4b9d-4e17-a96c-18c2042c2f94",
+    "text": "ممكن حد يكون عدل علي السايفر هنا You can’t be sure who sign the message 1- Hash-then-encrypt E(K, (M || H(M)) First compute the cryptographic hash function over M as: h = H(M). Then encrypt the message plus hash function: E(K, (M || h) 2- MAC-then-encrypt E(K2, (M || MAC(K1, M)) Use two keys. First authenticate the plaintext by computing the MAC value as: T = MAC(K1, M). Then encrypt the message plus tag: E(K2, (M || T)",
+    "chunk_index": 47,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "85bd50a3-e1dd-41c3-b8c8-7701fac3ca37",
+    "text": "3- Encrypt-then-MAC (C=E(K2, M), T=MAC(K1, C) Use two keys. First encrypt the message to yield the ciphertext: C = E(K2, M). Then authenticate the ciphertext with T = MAC(K1, C) to yield the pair (C, T) 4- Encrypt-and-MAC (C=E(K2, M), T=MAC(K1, M) Use two keys. Encrypt the message to yield the ciphertext: C = E(K2, M). Authenticate the plaintext with T = MAC(K1, M) to yield the pair (C, T).",
+    "chunk_index": 48,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "17eaf71b-972d-4953-9cec-c353a9b089cd",
+    "text": "NIST standard SP 800-38C for Wi-Fi Counter with Cipher Block Chaining-Message Authentication Code (CCM) variation of encrypt-and-MAC approach algorithmic ingredients AES encryption algorithm CTR mode of operation CMAC authentication algorithm single key used for both encryption & MAC Chapter 12 summary.",
+    "chunk_index": 49,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  },
+  {
+    "id": "004b6e66-628f-4aba-a872-781b26224db9",
+    "text": "Summary have considered: message authentication requirements message authentication using encryption MACs HMAC authentication using a hash function CMAC authentication using a block cipher authenticated encryption",
+    "chunk_index": 50,
+    "source_file": "4th_Security_sce_422_ch_12_mac_-_without_audio"
+  }
+]

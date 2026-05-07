@@ -1,0 +1,3124 @@
+[
+  {
+    "type": "Title",
+    "element_id": "29b713281c2f825f8e0bff5a9ab23463",
+    "text": "Lecture 4",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "877995be479d1c8fcacd52730a46b9d5",
+    "text": "DRAM Types",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "29b713281c2f825f8e0bff5a9ab23463"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9d3c5f8560b1b83cfa9a0a7fd221d9f7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4f54ae8a873c0f61d3d9b43c8543ee3a",
+    "text": "Introduction",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "43e959247345767bcd2ca9d58e5d6352",
+    "text": "Over the last two decades, both the capacity and speed of DRAM have increased significantly.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4f54ae8a873c0f61d3d9b43c8543ee3a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ab94b0dab1030a0125d24b2a4715529c",
+    "text": "The quest for speed has resulted in the evolution of many types of DRAM.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4f54ae8a873c0f61d3d9b43c8543ee3a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "43d0f6e57fe32bb250e855cf82ca47f1",
+    "text": "In modern high-speed computer systems, the processor interacts with the DRAM within a memory hierarchy.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4f54ae8a873c0f61d3d9b43c8543ee3a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d0a5dba06aa5637351a6ccf62445c6a7",
+    "text": " Most of the instructions and data for the processor are fetched from two lower levels of the hierarchy, the L1 and L2 caches.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4f54ae8a873c0f61d3d9b43c8543ee3a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d5a4173d1e9fe1525870fb26a2e0b99d",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a428f73727c6e48b93272ddd376f0f24",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7b232b8c7e4f2d01852b2a5aa44dadda",
+    "text": "The key issue is that most of the reads from the DRAM are not directly from the CPU, but instead are initiated to bring data and instructions into these caches.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a428f73727c6e48b93272ddd376f0f24"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bed6f2ecc44080d41169a723972c6927",
+    "text": "The reads are in the form of a line (i.e., some number of bytes in contiguous addresses in memory) that is brought into the cache.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a428f73727c6e48b93272ddd376f0f24"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "73fb1d8139196a8f44705e2b01c75347",
+    "text": "For example, in a given read, the 16 bytes in hexadecimal addresses 000000 through 00000F would be read. This is referred to as a burst read.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a428f73727c6e48b93272ddd376f0f24"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e41f543997990685b0344caea6405c73",
+    "text": "For burst reads, the effective rate of reading bytes, which is dependent upon reading bursts from contiguous addresses, rather than the access time is the important measure.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a428f73727c6e48b93272ddd376f0f24"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "dd5b69c95380c03bfaead5134bb9fb23",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4671757af8c78ee98b32f9ba5f8ce500",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0e7ae1511f8012fc209bb117dbb8471f",
+    "text": "our discussion of memory types here will focus on synchronous DRAM, double-data-rate synchronous DRAM, and Rambus\u00ae DRAM. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4671757af8c78ee98b32f9ba5f8ce500"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fa62a8e8d0671c67409f800515b09e65",
+    "text": "The effectiveness of these DRAM types depends upon a very fundamental principle involved in DRAM operation, \u201cthe reading out of all of the bits in a row for each read operation\u201d. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4671757af8c78ee98b32f9ba5f8ce500"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f18aacfc7c00b785eea91ad58649d623",
+    "text": "With these concepts in mind, the synchronous DRAM can be introduced.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4671757af8c78ee98b32f9ba5f8ce500"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "15a26a5d4412edfd840060a108a492d6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5dd641c0ca8f029fb1297b0b727b6ada",
+    "text": "Burst Mode",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a909ac4f8dbe33476a9a12ecebc61591",
+    "text": "It refers to a device is transmitting data repeatedly without going through all the steps required to transmit each piece of data in a separate transaction.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5dd641c0ca8f029fb1297b0b727b6ada"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7bf41085c0af64c47ef96f7466ea2b52",
+    "text": "The implication of this principle is that all of the bits in a row are available after a read using that row if only they can be accessed.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5dd641c0ca8f029fb1297b0b727b6ada"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "df2d3d17144282db2478a2cabc20e0cf",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aa6a88657f85b68c68c7d07cc846b4e1",
+    "text": "Types of DRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "17b6b6c73c30c3684502f46fc71795f4",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aed9596ab2a2234b2e9ec330dd08f64a",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "92dc4c47db960051f18916902d09faa1",
+    "text": "Asynchronous DRAM:\u00a0The memory access was not synchronized with the system clock. That's why it's called asynchronous. It was the first type of DRAM in use but was gradually replaced by synchronous DRAM.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aed9596ab2a2234b2e9ec330dd08f64a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d1d558c3d09483093b458aa0875721d3",
+    "text": "Synchronous DRAM:\u00a0In synchronous DRAM (SDRAM), the clock is synchronized with the memory interface. Synchronous DRAM syncs memory speeds with CPU clock speeds, letting the memory controller know the CPU clock cycle.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aed9596ab2a2234b2e9ec330dd08f64a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a0da663d35d581ca9a76c1df13bfde35",
+    "text": "Graphics DRAM:\u00a0Graphics DRAMs are asynchronous and synchronous DRAMs designed for graphics-related tasks such as texture memory and frame buffers found on video cards.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "aed9596ab2a2234b2e9ec330dd08f64a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "4d8e42e99d8e41612cccd16125fbaea3",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e69519022618c8a4538c577999f3c157",
+    "text": "Synchronous DRAM (SDRAM)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "24cc63e94deb6fc1e5b7288835b10b46",
+    "text": "Operates with a clock rather than being asynchronous.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e69519022618c8a4538c577999f3c157"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5da9ad67574eb707a1f7258424a8daf4",
+    "text": "This permits a tighter interaction between memory and CPU, since the CPU knows exactly when the data will be available.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e69519022618c8a4538c577999f3c157"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7880dc3ab7cd2bae901200d95fcdf64b",
+    "text": "SDRAM also takes advantage of the row value availability and divides memory into distinct banks, permitting overlapped accesses (Interleaving Memory).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e69519022618c8a4538c577999f3c157"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "7f457c4d0a1eea741d6830b41e923011",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "14f8e1bf1427b36da31710b8de4bb462",
+    "text": "Block Diagram of a 16 MB SDRAM",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "57992fa6041a29682ad0242f1da3a92b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1f0f5f3eaf3ba82aecac46f7353ec9f3",
+    "text": "The differences in the Internal Structure with DRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4bac3391cc6f6a5a2f432c73f54589c8",
+    "text": "Synchronous registers on the address inputs and the data inputs and outputs.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1f0f5f3eaf3ba82aecac46f7353ec9f3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e00fee5700d822c9d039d8fbe131c662",
+    "text": " In addition, a column address counter has been added, which is key to the operation of the SDRAM (specify the burst length). ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4bac3391cc6f6a5a2f432c73f54589c8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5fb649ccfa0da5aa61038dfb3bbcb1b2",
+    "text": "While the control logic may appear to be similar, the control in this case is much more complex, since the SDRAM has a mode control word that can be loaded from the address bus.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4bac3391cc6f6a5a2f432c73f54589c8"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b024b07b2371935ad9b3af73c024f9be",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "888c60024091e98905e756269adbac5f",
+    "text": "SDRAM Operation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "dffd079721aad74ec517e5fddf579953",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "90acdf6d899c55241148c704ae6ab8e7",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "593c633a4b32b47cad1bb916f40cb183",
+    "text": "Next, the actual read step is performed with the column address applied. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "90acdf6d899c55241148c704ae6ab8e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d718c2548e139b1a92fcf488b6d31776",
+    "text": "After an additional delay of a few clock cycles, the data bytes begin appearing on the output, one per clock period. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "90acdf6d899c55241148c704ae6ab8e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "311f04fdaac3a506f20aed9bdab7cb76",
+    "text": "The number of bytes that appear, the burst length, has been set by loading a mode control word into the control logic from the address input.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "90acdf6d899c55241148c704ae6ab8e7"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a5ff4f633ad1741412582bbd30812cc8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "93e5c3965a6675c4d5abebdb7e96ca01",
+    "text": "Timing Diagram for an SDRAM",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "30a31aa01892e71849682b50c4017eae",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7259fb2e8ca98225c6b55329202aa3ba",
+    "text": "Where:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7c6ba486c8cdf4eaba34868e248ae9ba",
+    "text": "The timing of a burst read cycle with burst length equal to four is shown in Figure. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7259fb2e8ca98225c6b55329202aa3ba"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4b77f05d20351f97246d33977e34af2a",
+    "text": "The read begins with the application of the row address and the row address strobe (RAS), which causes the row address to be captured in the address register and the reading of the row to be initiated. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7259fb2e8ca98225c6b55329202aa3ba"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e0e02fc2e09ac44d15ffd019eac0fc83",
+    "text": "During the first two clock periods, the reading of the row is taking place.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7259fb2e8ca98225c6b55329202aa3ba"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1c1c45574e46abf03c2b9cdc7cc4ba04",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b0762152cbb87585d9123550567bf4cd",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2fa53a62e89be90ea1d5189dc8e796b2",
+    "text": "During the third clock period, the column address and the column address strobe are applied,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b0762152cbb87585d9123550567bf4cd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b1c3329971635072573eb0904a32452e",
+    "text": "The column address captured in the address register and the reading of the first data byte initiated.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b0762152cbb87585d9123550567bf4cd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ecb3f8593af9337a4d2c32cd6207a16d",
+    "text": "The data byte is then available to be read from the SDRAM at the positive clock edge of the fifth clock cycle.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b0762152cbb87585d9123550567bf4cd"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0664c80b85d110e577f6b140f00f51c4",
+    "text": "The second, third, and fourth bytes are available for reading on subsequent clock edges.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b0762152cbb87585d9123550567bf4cd"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "31dd249bcfe28eb6fb75b3bd62885934",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "078588e2de00674c041f7857149f953b",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "45ca277d204c93a9551784cbd3de314e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "640da42019c5c80222534fe1a7555dfb",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "255afda0d6ce3d748967286410e45e26",
+    "text": "If the burst is eight instead of four bytes,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "640da42019c5c80222534fe1a7555dfb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "369041e927f544900f30be8ead43bfe0",
+    "text": "\t a read cycle time of 90 ns is required, giving a \tbyte rate of 88.89 MB/sec. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "640da42019c5c80222534fe1a7555dfb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2a1243fdbdefbaac1f3624011c73554f",
+    "text": "Finally, if the burst is the entire 2048-byte row of the SDRAM, the read cycle time becomes 60 + (2048 \u2212 4) \u00d7 7.5 = 15,390 ns, ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "640da42019c5c80222534fe1a7555dfb"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c1c8e8f6ec2b7df8be8d4bf3126cf9d3",
+    "text": "Giving a byte rate of 133.07 MB, which approaches the limit of one byte per 7.5 ns clock period.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "640da42019c5c80222534fe1a7555dfb"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "978293d024e8fb65833b3f0185db1ed9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "73bbe69fa2572f0fca6892b3f87ea4a8",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f0fe27c7c2fcefbd2f30133b15447811",
+    "text": " Memory data path width: 1 word = 4 bytes\u000b\tBurst size: 8 words = 32 bytes\u000b\tMemory clock frequency: 5 ns\u000b\tLatency time (from application of row address until first word available): 4 clock cycles\u000b\tRead cycle time:  (4 + 8) x 5 ns = 60 ns\u000b\tMemory Bandwidth: 32/(60 x 10-9) = 533 Mbytes/sec",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "73bbe69fa2572f0fca6892b3f87ea4a8"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "75779f00d5cb2549e687ca9fae6b23f6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4941630aca2457cc38f44fe64a3758c7",
+    "text": "2- Double Data Rate Synchronous DRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e91afdfdcf15b3cf6d365962d8f6161c",
+    "text": "Transfers data on both edges of the clock ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4941630aca2457cc38f44fe64a3758c7"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7bc690268e5764b752b956b8de9eddae",
+    "text": "Provides a transfer rate of 2 data words per clock cycle",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4941630aca2457cc38f44fe64a3758c7"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f917c1b7cff5feccf09d1e1f26b01746",
+    "text": "Example: Same as for synchronous DRAM",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4941630aca2457cc38f44fe64a3758c7"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0aa93b56f17570b34ac64ce8992689d4",
+    "text": "Read cycle time = 60 ns",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f917c1b7cff5feccf09d1e1f26b01746"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fce56d76fdc5ba0856dfa7fa81ba4500",
+    "text": "Memory Bandwidth: (2 x 32)/(60 x 10-9) = 1066 Mbytes/sec ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f917c1b7cff5feccf09d1e1f26b01746"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "13828494ef679bf4a491cd0e44fd12ab",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d4031fec002e0b765a876ce7dfeb2a85",
+    "text": "How to Improve Bandwidth in DDRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "715d1fc4f7bfae1b706a011d2905b072",
+    "text": "If the actual accesses needed are to different rows of the RAM, the delay from the application of the RAS pulse to read out the first byte of data is significant and leads to performance well below the limit. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4031fec002e0b765a876ce7dfeb2a85"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5dd683666f6bbdc79e56a80ab277cc1d",
+    "text": "This can be partially offset by breaking up the memory into multiple banks, where each bank performs the row read independently. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4031fec002e0b765a876ce7dfeb2a85"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ad46decde167b3460a6a37579fbfe8ae",
+    "text": "Provided that the row and bank addresses are available early enough, row reads can be performed on one or more banks while data is still being transferred from the currently active row. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4031fec002e0b765a876ce7dfeb2a85"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "08d0a0ecf2d43eae2fe50dcadd0345e9",
+    "text": "When the column reads from the currently active row are complete, data can potentially be available immediately from other banks, permitting an uninterrupted flow of data from the memory. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d4031fec002e0b765a876ce7dfeb2a85"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ad5f147066686fdb0cd6834c8be2dac0",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "54a45421bae54eeaf2b03e9595070e2c",
+    "text": "Interleaved Memory",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7e2ec79ded997f84181f20b13b95ef8c",
+    "text": "Interleaved memory is designed to compensate for the relatively slow speed of dynamic random-access memory (DRAM) by spreading memory addresses evenly across memory banks. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54a45421bae54eeaf2b03e9595070e2c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38b3dcd84213d2f0b67f4dc389b98e4f",
+    "text": "In this way, contiguous memory reads and writes use each memory bank, resulting in higher memory throughput due to reduced waiting for memory banks to become ready for the operations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54a45421bae54eeaf2b03e9595070e2c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b022831a8b69fddb7ae79b007b173867",
+    "text": "It is different from multi-channel memory architectures, primarily as interleaved memory does not add more channels between the main memory and the memory controller.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54a45421bae54eeaf2b03e9595070e2c"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "36539e7cde97c99d9d9e3068fc424cf5",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ed9770e128e25e5b21113dec768be2e6",
+    "text": "In Interleaved memory, virtual address 0 will be with the first bank, 1 with the second memory bank, 2 with the third bank and 3 with the fourth, and then 4 with the first memory bank again.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "997caa6118e91fb46a1fc1ec3fc10616",
+    "text": "Hence, the CPU can access alternate sections immediately without waiting for memory to be cached.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ce365cadefb6d89b82291e1bb2744ca4",
+    "text": "There are multiple memory banks that take turns for the supply of data.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0794ee1cefee563bcb3bba21b42de7f4",
+    "text": "Example: If the CPU requests an 8-word burst starting at memory address X, interleaving might access the memory in the following way: Bank 0: Words X, X+2, X+4, X+6 Bank 1: Words X+1, X+3, X+5, X+7.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f0e031f27e495e2b987646c5fe9fe7c7",
+    "text": "These two memory banks can then simultaneously transfer data to the CPU, reducing the overall\u00a0access\u00a0time.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "10bc9a6a8292dde47c127f3d124e9386",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ac5cafdb87376ae03b33745368f19a3f",
+    "text": "RAMBUS\u00ae DRAM (RDRAM)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6f9401737db47337074e251a5c267ac0",
+    "text": "As microprocessors get faster, designers are using wider, high-speed buses to transfer data quickly enough to prevent the CPU from stalling.\u00a0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac5cafdb87376ae03b33745368f19a3f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d538484486b259e555e627ab1edae41",
+    "text": "It's not that new, but it seems new because Intel started to use it with its Pentium 4 processors and 800-series chipset.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac5cafdb87376ae03b33745368f19a3f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bd5deb7cd1238e8e427c0ba820e37e75",
+    "text": "Rambus memory is integrated onto Rambus Inline Memory Modules (RIMMs).\u00a0",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac5cafdb87376ae03b33745368f19a3f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e7921bd9cd3a6a93649629082dd61afa",
+    "text": "RDRAM is known as a\u00a0narrow channel\u00a0system because data is transferred only 2 bytes (16 bits) at a time. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac5cafdb87376ae03b33745368f19a3f"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0f2b42f80b855017e6759f5676bb7cc6",
+    "text": "This might seem small, but those 2 bytes move extremely fast! ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ac5cafdb87376ae03b33745368f19a3f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d569f08076acca238ef90c2abda37e4c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0e3d979c9f3714c87aae7b3432e74065",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c90cf56061db5a2f66c0d890bc903862",
+    "text": "The Rambus data bus is 16 bits wide, as opposed to the more typical 32 or 64 bits wide. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e3d979c9f3714c87aae7b3432e74065"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "302ef53a36e3c401d49aa97fc42cde9e",
+    "text": "Additionally, Rambus memory sends data more frequently.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e3d979c9f3714c87aae7b3432e74065"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3fb8df60638b4e0d074c8066b695e294",
+    "text": " It reads data on both the rising and falling edges of the clock signal.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e3d979c9f3714c87aae7b3432e74065"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ba9fbda22d2bdff44411bb5a6f8e9202",
+    "text": "RDRAM chips use the processor's memory bus timing frequency, not the motherboard clock.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e3d979c9f3714c87aae7b3432e74065"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7014922b908b50f2196077504ee4c8c1",
+    "text": "RDRAM ICs are designed to be integrated into a memory system that uses a packet-based bus for the interaction between the RDRAM ICs and the memory bus to the processor. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e3d979c9f3714c87aae7b3432e74065"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "aa062077b8e434217f6f63ecfa59e286",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c22a1715058c21f2404c9a7603a7186d",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6b0284eb49985de00eca9eb4558d104e",
+    "text": "Each bus of which operates independently and supports serial packet communications.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c22a1715058c21f2404c9a7603a7186d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8e4eba87585ceaced0f3819656075d7e",
+    "text": "The primary components of the bus are a 3-bit path for the row address, a 5-bit path for the column address, and a 16-bit or 18-bit path for data.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c22a1715058c21f2404c9a7603a7186d"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fafda0b32692b62aafb15e133704ade0",
+    "text": "Pipeline Operation: Rambus memory operates in a pipelined manner, where multiple requests for data can be processed simultaneously without waiting for each individual piece of data to be fully transferred before the next\u00a0request\u00a0starts.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c22a1715058c21f2404c9a7603a7186d"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ab77d3e187b418d959d6eedd14959f07",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b8e9e4d0bacb90b70efdbfee0a1795f2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1ce715e6c6d31e518b2928c8f9a09fa1",
+    "text": "RDRAM Vs. DDRAM",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "42a7f1308533cd0a8947df2cefbbbed8",
+    "text": "Architecture:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce715e6c6d31e518b2928c8f9a09fa1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "16d6b85b6670aeaf78fa9840aa08d1e7",
+    "text": "Rambus (RDRAM):",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1ce715e6c6d31e518b2928c8f9a09fa1"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f82de5301f0c69bd9126ddb7d5164971",
+    "text": "Developed by Rambus Inc.",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "16d6b85b6670aeaf78fa9840aa08d1e7"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "228ad9d0f04fd44bd8e35515ee25a3ce",
+    "text": "Uses a high-speed, point-to-point connection.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3776068fc06c10793081b0b1373dbb2e",
+    "text": "Operates at higher clock speeds, allowing for higher bandwidth.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b8b48a196e22228e2d2d0d55c384f875",
+    "text": "Typically features a narrow data bus (e.g., 16 bits).",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ed5979fae9f2e8360dc32176a9833525",
+    "text": "DDR (DDR SDRAM):",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "de9d5f163f38e6ca3a5f089d8d293239",
+    "text": "Developed as a standard by JEDEC.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "634203bdb41faf44cbe1301d56de9ae2",
+    "text": "Uses a more traditional parallel architecture with a wider data bus (e.g., 64 bits).",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "511952815907b5dbe437bf5ecf54e8be",
+    "text": "Transfers data on both the rising and falling edges of the clock cycle, effectively doubling the data rate.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f82de5301f0c69bd9126ddb7d5164971"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d8f71cbfef9a7e694df3b908d5fd304f",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2901d6974cfda33bb6899f72440f2b5e",
+    "text": "Performance:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "66fc63cc192619c325a4980230222167",
+    "text": "Rambus:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2901d6974cfda33bb6899f72440f2b5e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "283bd656f325e2892d3c272784984124",
+    "text": "Initially offered higher performance due to its bandwidth advantages.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f890346e2d624298191ff9358304ad7a",
+    "text": "Achieved speeds around 800 MT/s or more in early implementations.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a7ed7a4a9469e43617d249540f529a2d",
+    "text": "Limited by its higher cost and complexity of implementation.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6825df22c3d14dddfa65d18adbe1244c",
+    "text": "DDR:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "af5739014f6a724232e654deb46828ac",
+    "text": "Became the standard for mainstream memory due to its balance of performance and cost.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6825df22c3d14dddfa65d18adbe1244c"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "932bb14ca1b6b49808fdb5765400cb88",
+    "text": "DDR, DDR2, DDR3, DDR4, and now DDR5 each brought improvements in speed and efficiency, with current DDR5 capable of over 8400 MT/s.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "95f792f589b1746f2eb0d719d73eb0e4",
+    "text": "More widely adopted, resulting in better economies of scale.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "66fc63cc192619c325a4980230222167"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "58da38662d41a8df3486bb2d01b31b35",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ae8979e1941d40638e3041ae6bf13878",
+    "text": "Cost and Adoption:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7561be4929d6337c68f0902e282f831f",
+    "text": "Rambus:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "ae8979e1941d40638e3041ae6bf13878"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9f86c5bc131b189dd339eebdf9d6714b",
+    "text": "Initially expensive and required specialized chipsets.",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7561be4929d6337c68f0902e282f831f"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f4579236e34943dc4b343bb129d63d77",
+    "text": "Limited adoption primarily in certain high-performance applications (e.g., some gaming consoles and high-end workstations).",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9f86c5bc131b189dd339eebdf9d6714b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "912379459cc27277d4f4fc6eb11e7851",
+    "text": "Eventually overshadowed by DDR due to cost and compatibility issues.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9f86c5bc131b189dd339eebdf9d6714b"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "da547fef76bef9e632b0ad18a1cbf444",
+    "text": "DDR:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9f86c5bc131b189dd339eebdf9d6714b"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a6a2714556158abc8a018bad22bad7f8",
+    "text": "Became the de facto standard for most consumer and enterprise applications.",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7561be4929d6337c68f0902e282f831f"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "681dee7d0dd781d27cb69ee4308bb562",
+    "text": "More cost-effective due to widespread manufacturing and integration into motherboards.",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7561be4929d6337c68f0902e282f831f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e2fe74af112c744b4dd1bb05f02c656b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "49b50d33775be2a708eafaf8402ef5e1",
+    "text": "Compatibility:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "59b59876e20dfccf2cbcf24b7621007c",
+    "text": "Rambus:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "49b50d33775be2a708eafaf8402ef5e1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f4c4f0b04b68cc92548722549ca5ab34",
+    "text": "Requires specific motherboards and chipsets designed for RDRAM, leading to compatibility issues.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "59b59876e20dfccf2cbcf24b7621007c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d7c66f55c84ec397cd3c05c27a35a533",
+    "text": "Less flexible in terms of upgrades and interoperability.",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "59b59876e20dfccf2cbcf24b7621007c"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "478c01b0981c226cb2cfce984018827b",
+    "text": "DDR:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d7c66f55c84ec397cd3c05c27a35a533"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bbd4139933ad5b143f5d81106650972d",
+    "text": "Supported by a wide range of motherboards and chipsets, making upgrades easier.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d7c66f55c84ec397cd3c05c27a35a533"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7c9c741f69344841b59d5537ffb094fc",
+    "text": "Different generations of DDR are usually backward compatible to some extent, though often with reduced speeds.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "d7c66f55c84ec397cd3c05c27a35a533"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "3120843e5b459c99988f11dcf4bcea93",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f83ac9925fe6a12808742da5f8475c3a",
+    "text": "Future:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "35d59a1e0b1f655e29b77b806022a6a2",
+    "text": "Rambus:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "f83ac9925fe6a12808742da5f8475c3a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "48c12a2c63e29b84865ade420e57192f",
+    "text": "While it has been phased out in consumer markets, Rambus technology is still used in some niche applications.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35d59a1e0b1f655e29b77b806022a6a2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d1c3f6636395ce3e0046a6a6ddae9d7b",
+    "text": "The company now focuses on licensing its technology rather than manufacturing memory chips.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35d59a1e0b1f655e29b77b806022a6a2"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b0df31535d496241c397233775d1934f",
+    "text": "DDR:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35d59a1e0b1f655e29b77b806022a6a2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "32663d5953b1b0366a02fc0737bbd9aa",
+    "text": "Continues to evolve with ongoing improvements in speed, efficiency, and power consumption.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35d59a1e0b1f655e29b77b806022a6a2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7083a99f99108c942080c3c66aa3ac5a",
+    "text": "DDR5 is currently in widespread use, with research into future technologies like DDR6.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35d59a1e0b1f655e29b77b806022a6a2"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "4ab7e8447422e59dbad95b1a51bdfebe",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cde4d58bc49c0dfe0c46159199be1388",
+    "text": "Conclusion:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "128fc2f7182ed5955c6b70bf39d0a137",
+    "text": "While Rambus offered high performance in its time, the widespread adoption, cost-effectiveness, and evolving capabilities of DDR memory have made it the dominant technology in the market. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cde4d58bc49c0dfe0c46159199be1388"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f67bf0cb8cd82c965ec948f69da5f3ca",
+    "text": "RDRAM is largely a historical footnote in the evolution of computer memory, while DDR continues to develop and thrive in various applications.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cde4d58bc49c0dfe0c46159199be1388"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "452a292e2be886594ad68f1107330ab8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c6ada84b98edb5db687c0e7eb82fbc98",
+    "text": "Summary:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "58a76024d448ab1a6b7ae35a41d133b6",
+    "text": "DRAM often used as a part of a memory hierarchy.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c6ada84b98edb5db687c0e7eb82fbc98"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fcda98a8c4c60545d9cc7477b6765c2a",
+    "text": "Reads from DRAM bring data into lower levels of the hierarchy. ",
+    "metadata": {
+      "category_depth": 2,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "c6ada84b98edb5db687c0e7eb82fbc98"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c5cfe9aa934c8a27ce5b2136488cb996",
+    "text": "Transfers from DRAM  involve multiple consecutively addressed words.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a0030f4b738e09b9b02e0be99d0b4baa",
+    "text": "Many words are internally read within the DRAM ICs using a single row address and captured within the memory.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d9e0a782099afdcada877a2006a91508",
+    "text": "This read involves a fairly long delay.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "60517f24ea2b6984af759ec8c6214aea",
+    "text": "These words are then transferred out over the memory data bus using a series of clocked transfers.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2fd6933ad11eb893101689a1dfd12f2c",
+    "text": "These transfers have a low delay, so several can be done in a short time.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b1ca0e03d6ce3df84ef0a876d72fa771",
+    "text": "The column address is captured and used by a synchronous counter within the DRAM to provide consecutive column addresses for the transfers",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fcda98a8c4c60545d9cc7477b6765c2a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c97ff6642efc3eb276356c83f7e32fc8",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "87bdd0452e7854ec520f0d6f704ace6a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0aa42cec3d39ed4fa3b25da10e4f5931",
+    "text": "Course Project:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "04156ef28da5dbe9feee56f64af6cc6f",
+    "text": "Design a DRAM controller with the following properties:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0aa42cec3d39ed4fa3b25da10e4f5931"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9db9e30fb25da7dad13c4c398074c440",
+    "text": "Separation of the address into row address and column address and timing their application",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0aa42cec3d39ed4fa3b25da10e4f5931"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7adff147af8df396d9cec4e140e625ff",
+    "text": "Providing RAS and CAS and timing their application",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0aa42cec3d39ed4fa3b25da10e4f5931"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d00c8e50a9987b19ff3de6c8d37d2d03",
+    "text": "Performing refresh operations at required intervals",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0aa42cec3d39ed4fa3b25da10e4f5931"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6732ed9869c36cb2da3a63c9e76dec01",
+    "text": "Providing status signals to the rest of the system (e.g., indicating whether or not the memory is active or is busy performing refresh)",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0aa42cec3d39ed4fa3b25da10e4f5931"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0dcae117aeced62735b90b348a2f6932",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3c65f6d56297f1bee6234f890d4edf8c",
+    "text": "Assignments",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a5b85c556aedb851f6fa55c5da7c8f33",
+    "text": "Explain in details:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3c65f6d56297f1bee6234f890d4edf8c"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "73c0f34107ce78067b1e50a7c66b7beb",
+    "text": "\t- Interleaved Memory",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 4 new.pptx",
+      "last_modified": "2024-10-18T15:34:52",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "3c65f6d56297f1bee6234f890d4edf8c"
+    }
+  }
+]

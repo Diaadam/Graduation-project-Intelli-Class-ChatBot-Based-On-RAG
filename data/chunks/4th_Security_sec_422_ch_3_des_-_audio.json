@@ -1,0 +1,128 @@
+[
+  {
+    "id": "bffbf158-d7c0-4879-a607-1456f2d93deb",
+    "text": "Cryptography and Network Security Chapter 3 Fifth Edition by William Stallings Lecture slides by Lawrie Brown Modern Block Ciphers & Data Encryption Standard (DES) Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Modern Block Ciphers ➢ now look at modern block ciphers ➢ one of the most widely used types of cryptographic",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "29143c08-fb60-4509-b5bb-18992591a0df",
+    "text": "algorithms ➢ provide secrecy /authentication services ➢ focus on DES (Data Encryption Standard) ➢ to illustrate block cipher design principles Block vs Stream Ciphers block ciphers process messages in blocks, each of which is then encrypted / decrypted • block ciphers look like a substitution on very big bit patterns (characters) of 64-bits or more stream ciphers process messages a bit or byte at a time when encrypting or decrypting many current ciphers are block ciphers – better analyzed – broader range of applications",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "06848764-3b02-4f5f-8687-1b7a25b6909a",
+    "text": "Block vs Stream Ciphers Block Cipher Principles most symmetric block ciphers are based on a Feistel Cipher Structure • needed since must be able to decrypt ciphertext to recover messages efficiently block ciphers look like an extremely large substitution would need table of 264 entries for a 64-bit block instead create from smaller building blocks using idea of a product cipher",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "261f561e-e998-4184-8fc9-11795303f580",
+    "text": "Claude Shannon and Substitution- Permutation Ciphers ➢ Claude Shannon introduced idea of substitution-permutation (S-P) networks in 1949 paper ➢ form basis of modern block ciphers ➢ S-P nets are based on the two primitive cryptographic operations seen before: ⚫ substitution (S-box) ⚫ permutation (P-box) ➢ provide confusion & diffusion of",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "44b2e1d7-35aa-4a89-838a-b049f1455aa5",
+    "text": "message & key Confusion and Diffusion cipher needs to completely obscure statistical properties of original message a one-time pad does this • more practically Shannon suggested combining S & P elements to obtain: diffusion – dissipates statistical structure of plaintext over bulk of ciphertext confusion – makes relationship between ciphertext and key as complex as possible",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "ff159e7e-4f3e-4752-b064-e062111cafa9",
+    "text": "Feistel Cipher Structure Horst Feistel devised the feistel cipher – based on concept of invertible product cipher • partitions input block into two halves (the next diagram describes the following encryption/decryption operations) – process through multiple rounds which perform a substitution on left data half based on round function of right half & subkey then have permutation swapping halves implements Shannon’s S-P net concept",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "4720d2b0-7273-47c0-ae5c-12e482e8c1b7",
+    "text": "Feistel Cipher Structure Detailed Description of Round 2 during Encryption LE1: left-half input obtained from the output of round 1 • RE1: right-half input obtained from the output of round 1 F: cryptographic function containing substitution and permutation (this function is the same for all rounds) • K2: subkey for round 2 (each round has its own different subkey) LE2 & RE2: left and right-half outputs of round 3 (this is the input for round 3, and so on)",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "ab262332-65be-4ea8-a6f2-2532dbfcee89",
+    "text": "Feistel Cipher Design Elements (Example: DES Cipher) ➢ block size ➢ key size ➢ number of rounds ➢ subkey generation algorithm ➢ round function ➢ fast software encryption/decryption ➢ ease of analysis Data Encryption Standard (DES) most widely used block cipher in world • adopted in 1977 by NBS (now NIST) • broken in 1997 by a brute force attack; now replaced by AES in 2001. encrypts 64-bit data using 56-bit key • has widespread use • has been considerable controversy over its security Use of DES has flourished – especially in financial applications – still standardised for legacy application use",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "40511e81-82f9-4bbb-9dcb-daf38008651a",
+    "text": "DES Encryption Overview Except for the initial and final permutations, DES has the exact structure of a Feistel cipher, as shown in Slide 9. Initial Permutation IP ➢ first step of the data computation ➢ IP reorders the input data bits ➢ even bits to LH half, odd bits to RH half ➢ quite regular in structure (easy in",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "3bd42307-06bd-45d2-a1db-c8f68d4eeeb9",
+    "text": "h/w implementation) ➢ example: IP(675a6967 5e5a6b5a) = (ffb2194d 004df6fb) • DES Round Structure (refer to the next diagram) uses two 32-bit L & R halves as for any Feistel cipher can describe as: Li = Ri–1 Ri = Li–1  F(Ri–1, Ki) F takes 32-bit R half and 48-bit subkey: – expands R to 48-bits using",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "81b1ac0d-3422-47bc-9391-cd5990321b38",
+    "text": "permutation E – adds to subkey using XOR – passes through 8 S-boxes to get 32- bit result – finally permutes using 32-bit permutation P Which row Which column DES Round Structure Substitution Boxes S ➢ have eight S-boxes which map 6 to 4 bits ➢ each S-box is containing four little 4-bit boxes ⚫ outer bits 1 & 6 (row bits) select one row of 4 ⚫ inner bits 2-5 (col bits) are substituted ⚫ result is 8 lots of 4 bits, or 32 bits ➢ row selection depends on both data & key ➢ example: ⚫ S(18 09 12 3d 11 17 38 39) = 5fd25e03",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "fd554482-9add-41db-b9ed-6957da3f79e9",
+    "text": "DES Key Schedule ➢ forms subkeys used in each round ⚫ initial permutation of the key (PC1) which selects 56-bits in two 28-bit halves ⚫ 16 stages consisting of: rotating each half separately either 1 or 2 places depending on the key rotation schedule K • selecting 24-bits from each half & permuting them by PC2 for use in round function F",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "dd2bc7fd-786a-43d6-8031-b19442e2fbb5",
+    "text": "➢ note practical use issues in h/w vs s/w DES Decryption decryption must unwind steps of data computation during encryption with Feistel design, do encryption steps again using subkeys in reverse order (K16 … K1) – IP undoes final permutation step of – 1st round with K16 undoes 16th encrypt round",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "3a87b4e6-5527-4090-8b6a-fcecbdde1389",
+    "text": "– …. – 16th round with K1 undoes 1st encrypt round – then final inverse permutation (IP-1) undoes initial encryption IP – thus recovering original data value DES Example Avalanche Effect • where a change of one input or key bit results in changing approximately half output bits key desirable property of encryption algorithm making attempts to “home-in” by guessing keys impossible • DES exhibits strong avalanche",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "cda0d32e-af1b-4f77-864b-147197ebdd02",
+    "text": "Avalanche in DES ▪ This table considers encrypting two separate blocks that differ only in one bit (the MSB), i.e.  = 1. ▪ As the encryption process proceeds, we notice that  increases in each successive round. ▪ At last, we get  = 32 ▪ This means that 32 bits have changed after encrypting the two blocks. ▪ Having about half the bits changed (32 bits of a 64-bit block) is the best avalanche.",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "367c0e18-d1e2-4268-87bc-bed19d41c788",
+    "text": "Strength of DES – Key Size 56-bit keys have 256 = 7.2 x 1016 values • brute force search looks hard • recent advances have shown is possible – in 1997 on Internet in a few months – in 1998 on dedicated h/w (EFF) in a few days – in 1999 above combined in 22hrs! • still must be able to recognize plaintext • must now consider alternatives to DES",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "184eed4f-9396-4310-ab89-986ac4b9f7c8",
+    "text": "Strength of DES – Analytic Attacks ➢ now have several analytic attacks on DES ➢ these utilise some deep structure of the cipher ⚫ by gathering information about encryptions can eventually recover some/all of the sub-key bits ⚫ if necessary, then exhaustively search for the rest ➢ generally these are statistical attacks ⚫ timing attacks ⚫ differential cryptanalysis ⚫ linear cryptanalysis",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "6f08499b-793a-4f45-973d-c9489438e9a3",
+    "text": "Strength of DES – Timing Attacks ➢ attacks actual implementation of cipher ➢ use knowledge of consequences of implementation to derive information about some/all subkey bits ➢ specifically use fact that calculations can take varying times depending on the value of the inputs to it Differential and Linear Cryptanalysis",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "a2380aac-4f67-4bfa-bdaa-68df0cbdffc4",
+    "text": "➢ Differential Cryptanalysis o a statistical attack against Feistel ciphers o differential cryptanalysis compares two related pairs of encryptions ➢ Linear Cryptanalysis o another recent development o also a statistical method o developed by Matsui in early 90's o can attack DES with 243 known plaintexts, easier but",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "8cfd6cb3-b3bd-4f64-b605-4e5560a37a25",
+    "text": "still in practice infeasible DES Design Criteria 7 criteria for S-boxes provide for – non-linearity – resistance to differential cryptanalysis – good confusion 3 criteria for permutation P provide for – increased diffusion Block Cipher Design number of rounds: – more rounds is better – exhaustive search is the best attack function F(Ri-1,Ki) provides: – confusion – nonlinearity – strong avalanche key schedule provides: – complex subkey creation – key avalanche",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  },
+  {
+    "id": "b1d6b18e-3121-4c80-bae2-ed178c97b795",
+    "text": "Summary have considered: – block vs stream ciphers – Feistel cipher design & structure – DES details • strength – Differential & Linear Cryptanalysis – block cipher design principles",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sec_422_ch_3_des_-_audio"
+  }
+]

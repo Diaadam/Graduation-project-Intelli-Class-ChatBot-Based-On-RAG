@@ -1,0 +1,134 @@
+[
+  {
+    "id": "2cac9012-0f4b-4a78-aa8d-4ed26acbb8d7",
+    "text": "Al-Azhar University Faculty of Eng., Systems and Computer Eng., Dept., SYS 401: Embedded Systems Grade 4, 2nd Semister By: Ass., Prof Khaled Elshafey Course Information Grading: Projects, Assignments, Exams Assignments 5 • Mid Term • Projects • Finals 10 70 15 Labs Microcontrollers, Sensors Projects Project 1: Data Logger • Projects 2: Smart Buildings ( Power saving)",
+    "chunk_index": 0,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "54c539d2-3622-46b4-8fcf-4e70e2d7f76e",
+    "text": "Text Book - Introduction to Embedded Systems- A Cyber – Physical Systems Approach, by: Lee & Seshia, 2nd Edition, 2015. Course Layout Introduction • Modeling • Sensors and Actuators • Input and Output • Multitasking and Scheduling • Security and Privacy",
+    "chunk_index": 1,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "d7087ee3-fcc5-4edd-bd62-abf50976e18e",
+    "text": "Introduction The most visible use of computers & S.W is processing information for human consumption. The vast majority of computers in use, however, are much less visible. They run the Engine, Brake, Seatbelts, Air bags, Encode your voice and construct a radio signal to send it from your cell phone, …etc. All hidden computers are called “ Embedded Systems”. Contd., Embedded Systems (E.S) can be defined as: “A computer system with a dedicated function within a large mechanical or electrical Systems”. • Another definition: “Information processing systems with a dedicated function embedded into enclosing products, such as Cars, Telecommunication equipment,..”.",
+    "chunk_index": 2,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "c682e424-8e6d-4047-b72f-2665f4034c4e",
+    "text": "Types of ES’s Embedded Hardware. Is a combination of microchip and several electronic components which can able to some tasks. • Embedded Software. perform If you are using a controller, you have to code your needs ( Firmware) to be able to perform the system operations. Firmware The program instructions written for embedded systems are referred to as “Firmware”. Is a type of S.W that provides control, monitoring, and data manipulation of electronic products.",
+    "chunk_index": 3,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "fb9c9946-acdc-4f39-a103-6c17bb959cd8",
+    "text": "Common Characteristics of ES’s ES’s are connected to the physical environment through Sensors & Actuators. Have to be Dependable. Have to be Efficient ( Energy, code-size, Run-time, Weight, and Cost). Contd., Dedicated toward a certain application. • Must meet “Real-time constraints”. • Most ES’s are Hybrid systems (Digital& Analogue parts). Reactive Systems (continual interaction with its environment). Multitasking. Many things happen at once.",
+    "chunk_index": 4,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "ac66886f-7f37-4007-a8f8-b77aeb894621",
+    "text": "Cyber-Physical Systems (CPS) CPS is an integration of computation with physical object processes. Embedded computers & Networks (cid:0) monitor and control the physical object processes usually with feedback loops. In CPS, many things happen at once. • It uses smart sensors & Actuators Cyber-Physical Systems",
+    "chunk_index": 5,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "8a31776d-57f4-4cee-ae2b-96557a9b8b68",
+    "text": "Control Computation Monitor and influence physical world Process information to make decisions Communication Exchange data to collaborate Cyber-Physical Systems CPS Structure Example Feedback Loop Internet of Things (IoT) Is the network of physical objects (provided with unique id) embedded with electronics, S.W, Sensors, and network connectivity, which enables these objects to collect and exchange data. The IoT allows objects to be sensed and controlled remotely across existing network infrastructure. It means : “ Network with smart devices” IoT has Evolved from: Wireless Technologies Micro-electromechanical systems (MEMS) Internet",
+    "chunk_index": 6,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "8b6b02ac-7503-484d-9a27-88723f6bd65b",
+    "text": "Motivating Example STARMAC Is a small quadrotor aircraft to serve as a testbed for experimenting with vehicle autonomous control techniques. The objective is to be able to have multiple vehicles cooperate on a common task. Contd., The challenges are: 1- Controlling the vehicles 2-The main actuators are the four rotors which produces a variable amount of thrust. 3- The weight of the vehicle. 4- Interaction with its environment. 5- Self-Test",
+    "chunk_index": 7,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "5b4c0ffc-519c-4be7-8527-3fa52725386a",
+    "text": "Design & Implementation Of CPS Modeling (cid:0)Is the process of gaining a deeper understanding of a system through imitation. Design (cid:0) Specifies how a system does what it does, by selecting components and putting them together. Analysis (cid:0) Every system must be designed to meet certain requirements.",
+    "chunk_index": 8,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "26e7b580-18f1-498b-b2d1-c10b03bd3657",
+    "text": "Embedded Operating System An embedded operating system is a specialized OS for use in the computers built into larger systems. In contrast to an operating system for a general- purpose computer, an embedded operating system is typically quite limited in terms of function – depending on the device in question, the system may only run a single application. • However, that single application is crucial to the device’s operation, so an embedded OS must be reliable and able to run with constraints on memory, size and processing power. Contd.,",
+    "chunk_index": 9,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "86f5ec71-9d27-4b3d-977f-5b7b45a47494",
+    "text": "Depending on the method used for multitasking, this type of OS is frequently considered to be a real-time operating system, or RTOS. • RTOS is an operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays. Linux on ES, and Widows Embedded Automotive.",
+    "chunk_index": 10,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "b2ec0a38-099b-4951-a6aa-9a280c23f8ff",
+    "text": "What Is a Real-Time System? A computer program/algorithm has inputs and outputs. • The response/output to a given input defines the program behavior. In a real-time system, the behavior must be both logically correct and produced at the correct instant of time. – If the deadline is missed, the behavior is considered incorrect.",
+    "chunk_index": 11,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "39d9d417-61aa-45e8-bf22-9db58d0f6a41",
+    "text": "Hard vs. Soft Real-Time: Deadline A hard real-time system must produce the result at the correct physical time. Failure to do so can have catastrophic consequence and is considered unacceptable. – Nuclear power plant A soft real-time system can miss a deadline. – The result may still be useful – If the deadline is missed, there will not be a",
+    "chunk_index": 12,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "9a6e7327-153e-4662-bf7b-0623d9a28d3c",
+    "text": "catastrophe. (e.g., multimedia) Hard vs. Soft Real-Time: Response-Time A hard real-time system must respond to events on the order of milliseconds (e.g., a braking system). A soft real-time system’s response can be on the order of seconds (an ATM machine). Hard vs. Soft Real-Time: Peak-Time Performance A hard real-time system must meet the specified deadline under peak/worst conditions. It must be able to meet deadlines in rare-event scenarios. Soft real-time systems are defined in terms of average behavior. Performance degradation in worst case scenarios is accepted for economic reasons",
+    "chunk_index": 13,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "4870fed0-358d-4a68-a7b3-1150872f5cd0",
+    "text": "Fail-Safe Vs. Fail-Operational If a system can enter a “safe” state when failure occurs, the system is fail-safe – Railway signaling system failure: a safe state is to turn all lights red. – Example: a watchdog timer or computer operating properly, must be stroked at regular intervals by software. If there is a software failure, the watchdog fires, forces the system into a safe state & resets the CPU. In a fail-operational system, a safe state after failure is not acceptable. The system must remain operational and provide a minimal amount of guaranteed service. – An airplane with a single failed engine",
+    "chunk_index": 14,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "dfc665ec-f93d-488b-a096-fc599bbd9651",
+    "text": "Application Areas Hybrid embedded systems Aerospace, automobiles, robotics, process control, and sensor nets Multimedia • Consumer electronics Appliances, office electronics, and home/office automation Network components Bridges, routers, switches, and hubs Medical instruments Patient monitoring, MRI, and artificial hearts E-Business ATM, vending machines • Distributed & grid computing What is a Microcontroller? A microcontroller is a single chip, self-contained computer which incorporates all the basic components of a personal computer on a much smaller scale. Microcontrollers are often referred to as single chip devices or single chip computers.",
+    "chunk_index": 15,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "4de3727a-2ad2-4edd-b2dc-6416eb6726ae",
+    "text": "The main consequence of the microcontroller’s small size is that its resources are far more limited than those of a desktop personal computer. microcontroller vs microprocessor A microprocessor is a single chip CPU used within other computer systems. A microcontroller is itself a single chip computer system.",
+    "chunk_index": 16,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "f4cf5d6a-0de2-411e-80b3-655b6bdb86ee",
+    "text": "A microcontroller main components: A microcontroller has seven main components: • Central processing unit (CPU) • ROM • RAM • Input and Output • Timer • Interrupt circuitry • Buses The Microcontroller in a System Microcontrollers do not function in isolation. • As their name suggests they are designed to control other devices. The microcontroller can accept inputs from some devices and provide outputs to other devices within any given system. For example, a microcontroller may accept input from a switch and may send output to an LED.",
+    "chunk_index": 17,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "e4a1a5e7-84aa-463b-aa89-bb205ea0b261",
+    "text": "Microcontroller Architecture There are two basic types of architecture: Harvard and Von Neumann. Microcontrollers most often use a Harvard or a modified Harvard-based architecture. Von Neumann Von Neumann architecture has a single, common memory space where both program instructions and data are stored. There is a single data bus which fetches both instructions and data. Each time the CPU fetches a program instruction it may have to perform one or more read/write operations to data memory space. It must wait until these subsequent operations are complete before it can fetch and decode the next program instruction. The advantage to this architecture lies in its simplicity and economy.",
+    "chunk_index": 18,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "536a14f5-f881-476f-85af-af6ff7ad4c76",
+    "text": "Harvard Harvard architecture computers have separate memory areas for program instructions and data. There are two or more internal data buses which allow simultaneous access to both instructions and data. • The CPU fetches instructions on the program memory bus. If the fetched instruction requires an operation on data memory, the CPU can fetch the next program instruction while it uses the data bus for its data operation. This speeds up execution time at the cost of more hardware complexity.",
+    "chunk_index": 19,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "0bdd4bd8-0d4d-46c4-81da-10af06982b6c",
+    "text": "I/O Ports There are two main port types, parallel and serial, and two port modes, synchronous and asynchronous. Parallel I/O requires a data line for each bit, while serial I/O uses a single line and transfers bits in sequence. Synchronous I/O is synchronized to a clock while asynchronous I/O is not. Microcontrollers most often have parallel I/O capability built in and serial I/O as a peripheral feature.",
+    "chunk_index": 20,
+    "source_file": "4th_Embedded_lec_1"
+  },
+  {
+    "id": "b2b5f393-aa0c-46c5-9e6b-0b0d8b2b0bb4",
+    "text": "Assignment What are the differences between Embedded SW developer and SW developer. Sheet Text Book Ch.,1",
+    "chunk_index": 21,
+    "source_file": "4th_Embedded_lec_1"
+  }
+]

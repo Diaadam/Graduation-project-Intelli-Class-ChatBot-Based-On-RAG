@@ -1,0 +1,236 @@
+[
+  {
+    "id": "6aac1945-c71e-4d1b-a00c-3a4a10c0e9a1",
+    "text": "Lecture slides by Lawrie Brown for “Cryptography and Network Security”, 5/e, by William Stallings, Chapter 10 – “Other Public Key Cryptosystems”. Other Public Key Cryptosystems Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour Cryptography and Network Security Chapter 10 Fifth Edition",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "59ccf64a-cd1f-4fc7-8714-01eacea6e449",
+    "text": "by William Stallings Lecture slides by Lawrie Brown",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "b5d0a441-a7ab-4458-bb3b-28553ee97d45",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie and Hellman that defined public-key cryptography [DIFF76b] and is generally referred to as Diffie-Hellman key exchange. A number of commercial products employ this key exchange technique. The purpose of the algorithm is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages. The algorithm itself is limited to the exchange of secret values. The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms. Briefly, we can define the discrete logarithm in the following way. Recall from Chapter 8 that a primitive root of a prime number p is one whose powers modulo p generate all the integers from 1 to p - 1.",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "2114dda1-db62-4b69-8b7c-d49d111c6530",
+    "text": "That is, if a is a primitive root of the prime number p , then the numbers a mod p , a2 mod p , . . . , ap-1 mod p are distinct and consist of the integers from 1 through p - 1 in some permutation. For any integer b and a primitive root a of prime number p , we can find a unique exponent i such that b = ai (mod p ) where 0 ≤ i ≤ (p - 1) The exponent i is referred to as the discrete logarithm of b for the base a , mod p . We express this value as dloga,p (b ). See Chapter 8 for an extended discussion of discrete logarithms.",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "16789ece-d709-43f1-af48-779e72a0db00",
+    "text": "Diffie-Hellman Key Exchange First published public-key algorithm A number of commercial products employ this key exchange technique Purpose is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages The algorithm itself is limited to the exchange of secret values Its effectiveness depends on the difficulty of computing discrete logarithms",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "495d63c5-74f0-4283-af24-a7a22440964a",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie and Hellman that defined public-key cryptography [DIFF76b] and is generally referred to as Diffie-Hellman key exchange. A number of commercial products employ this key exchange technique. The purpose of the algorithm is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages. The algorithm itself is limited to the exchange of secret values. The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms. Briefly, we can define the discrete logarithm in the following way. Recall from Chapter 8 that a primitive root of a prime number p is one whose powers modulo p generate all the integers from 1 to p - 1.",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "19949262-65b5-4cac-8a8b-6cdd0d2a786a",
+    "text": "That is, if a is a primitive root of the prime number p , then the numbers a mod p , a2 mod p , . . . , ap-1 mod p are distinct and consist of the integers from 1 through p - 1 in some permutation. For any integer b and a primitive root a of prime number p , we can find a unique exponent i such that b = ai (mod p ) where 0 ≤ i ≤ (p - 1) The exponent i is referred to as the discrete logarithm of b for the base a , mod p . We express this value as dloga,p (b ). See Chapter 8 for an extended discussion of discrete logarithms.",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "84b64bd5-3fd8-462b-8f59-d252425876b4",
+    "text": "Diffie-Hellman Key Exchange a public-key distribution scheme cannot be used to exchange an arbitrary message rather it can establish a common key known only to the two participants value of key depends on the participants (and their private and public key information) based on exponentiation in a finite field (modulo a prime or a polynomial) - easy security relies on the difficulty of computing discrete logarithms (similar to factoring) – hard",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "2c0b965c-42eb-4265-834d-124b93b89f89",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie and Hellman that defined public-key cryptography [DIFF76b] and is generally referred to as Diffie-Hellman key exchange. A number of commercial products employ this key exchange technique. The purpose of the algorithm is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages. The algorithm itself is limited to the exchange of secret values. The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms. Briefly, we can define the discrete logarithm in the following way. Recall from Chapter 8 that a primitive root of a prime number p is one whose powers modulo p generate all the integers from 1 to p - 1.",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "36b6b176-9b27-4301-b293-ccb4a0c4be92",
+    "text": "That is, if a is a primitive root of the prime number p , then the numbers a mod p , a2 mod p , . . . , ap-1 mod p are distinct and consist of the integers from 1 through p - 1 in some permutation. For any integer b and a primitive root a of prime number p , we can find a unique exponent i such that b = ai (mod p ) where 0 ≤ i ≤ (p - 1) The exponent i is referred to as the discrete logarithm of b for the base a , mod p . We express this value as dloga,p (b ). See Chapter 8 for an extended discussion of discrete logarithms.",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "31605863-4649-4a56-833d-f012b6e1ff4e",
+    "text": "Diffie-Hellman Setup all users agree on global parameters: large prime integer or polynomial q α being a primitive root mod q each user (e.g., A) generates their key chooses a secret number xA to be the private key: xA < q compute their public key: yA = αxA mod q each user makes public that key yA",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "3d645504-ae1a-455e-a82d-555bd772f73c",
+    "text": "The first published public-key algorithm appeared in the seminal paper by Diffie and Hellman that defined public-key cryptography [DIFF76b] and is generally referred to as Diffie-Hellman key exchange. A number of commercial products employ this key exchange technique. The purpose of the algorithm is to enable two users to securely exchange a key that can then be used for subsequent symmetric encryption of messages. The algorithm itself is limited to the exchange of secret values. The Diffie-Hellman algorithm depends for its effectiveness on the difficulty of computing discrete logarithms. Briefly, we can define the discrete logarithm in the following way. Recall from Chapter 8 that a primitive root of a prime number p is one whose powers modulo p generate all the integers from 1 to p - 1.",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "bd86d2f4-5b5e-4818-8796-383084532c7a",
+    "text": "That is, if a is a primitive root of the prime number p , then the numbers a mod p , a2 mod p , . . . , ap-1 mod p are distinct and consist of the integers from 1 through p - 1 in some permutation. For any integer b and a primitive root a of prime number p , we can find a unique exponent i such that b = ai (mod p ) where 0 ≤ i ≤ (p - 1) The exponent i is referred to as the discrete logarithm of b for the base a , mod p . We express this value as dloga,p (b ). See Chapter 8 for an extended discussion of discrete logarithms.",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "cf142bc2-1802-47a1-920f-b1c29c2ba476",
+    "text": "Background for Primitive Roots For a prime integer q, the number α will be a primitive root of q if for every positive integer number X < q the computation {Y = αX mod q} will yield a different value for each value of X. This ensures that for any secret key XA there will be a different public key YA. Example: let q=5 and α=3, then for all values of X<5 we have different values of Y. q=5 & a=3 XA YA 1 3 2 4 3 2 4 1 (The computed values are shown in the table)",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "2d1345f7-000e-4b24-b221-11ee4d93f18f",
+    "text": "The actual key exchange for either party consists of raising the others \"public key' to power of their private key. The resulting number (or as much of as is necessary) is used as the key for a block cipher or other private key scheme. For an attacker to obtain the same value they need at least one of the secret numbers, which means solving a discrete log, which is computationally infeasible given large enough numbers. Note that if Alice and Bob subsequently communicate, they will have the same key as before, unless they choose new public-keys.",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "2d067556-3dba-48cc-8ab2-bdf5ebf949b5",
+    "text": "Diffie-Hellman Key Exchange shared session key for users Alice & Bob is KAB:",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "016644bf-5062-4229-9003-0754bb2da93c",
+    "text": "KAB = αxA.xB mod q = yAxB mod q (which Bob can compute) = yBxA mod q (which Alice can compute) KAB is used as session key in private-key encryption scheme between Alice and Bob if Alice and Bob subsequently communicate, they will have the same key as before, unless they choose new public-keys knowing a public key “Y”, if an attacker needs the corresponding secret private key “X” he must solve a discrete logarithmic equation as follows, which is very difficult when using large numbers. X = logα Y (mod q) Figure 10.1 summarizes the Diffie-Hellman key exchange algorithm. For this scheme, there are two publicly known numbers: a prime number q and an integer a that is a primitive root of q . Exchanged public keys Computed shared key Computed shared key",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "3ac6ba62-45e3-4afe-a1de-670fb7776324",
+    "text": "Here is an example of Diffie-Hellman from the text using prime q=353, showing how each computes its public key, and then how after they exchange public keys, each can compute the common secret key.I n this simple example, it would be possible by brute force to determine the secret key 160. In particular, an attacker E can determine the common key by discovering a solution to the equation 3a mod 353 = 40 or the equation 3b mod 353 = 248. The brute-force approach is to calculate powers of 3 modulo 353, stopping when the result equals either 40 or 248. The desired answer is reached with the exponent value of 97, which provides 397 mod 353 = 40. With larger numbers, the problem becomes impractical.",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "26932793-5583-42fa-b749-7efefb09877f",
+    "text": "Diffie-Hellman Example users Alice & Bob who wish to swap keys: agree on prime q=353 and α=3 select random secret keys: Alice chooses xA=97 & Bob chooses xB=233",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "ec63ee4c-888b-44ca-9686-193ebd891af3",
+    "text": "compute respective public keys: yA=397 mod 353 = 40 (Alice) yB=3233 mod 353 = 248 (Bob) compute shared session key as: KAB= yBxA mod 353 = 24897 = 160 (Alice) KAB= yAxB mod 353 = 40233 = 160 (Bob) Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "5ff680be-1e8c-4c84-b742-8915c4ab9a20",
+    "text": "Key Exchange Protocols Users could create random private/public Diffie-Hellman keys each time they communicate Users could create a known private/public Diffie-Hellman key and publish in a directory, then consulted and used to securely communicate with them",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "ea3d1504-56c0-4e15-b0bf-62b895f75ee0",
+    "text": "Vulnerable to Man-in-the-Middle-Attack Authentication of the keys is needed Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "chunk_index": 21,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "70baac56-1967-47be-bdb3-51870b2101af",
+    "text": "Security of Diffie-Hellman Two attacks are possible: Discrete Logarithm Attack by trying to solve the equation: X = logα Y (mod q) where Y is a known public key and X is the required private key. Man-in-the-Middle Attack an attacker intercepts the messages exchanged between Alice and Bob and builds a shared key with Alice and another shared key with Bob. Both Alice and Bob know nothing and exchange encrypted messages through the attacker.",
+    "chunk_index": 22,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "b7aa280a-f98d-4957-8489-6460b2a5b476",
+    "text": "The protocol depicted in Figure 10.1 is insecure against a man-in-the-middle attack. Suppose Alice and Bob wish to exchange keys, and Darth is the adversary. The attack proceeds as follows (Figure 10.2). Darth prepares for the attack by generating two random private keys XD1 and XD2 and then computing the corresponding public keys YD1 and YD2 Alice transmits YA to Bob. Darth intercepts YA and transmits YD1 to Bob. Darth also calculates K2 = (YA )^ XD2 mod q Bob receives YD1 and calculates K1=(YD1 )^ XB mod q Bob transmits YB to Alice. Darth intercepts YB and transmits YD2 to Alice. Darth calculates K1=(YB )^ XD1 mod q Alice receives YD2 and calculates K2=(YD2 )^ XA mod q . At this point, Bob and Alice think that they share a secret key, but instead Bob and Darth share secret key K1 and",
+    "chunk_index": 23,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "a4c8f06f-eeb2-4f7d-bb7b-91d1dc1e6779",
+    "text": "Alice and Darth share secret key K2. All future communication between Bob and Alice is compromised in the following way: Alice sends an encrypted message M: E(K2, M). Darth intercepts the encrypted message and decrypts it, to recover M. Darth sends Bob E(K1, M) or E(K1, M'), where M' is any message. In the first case, Darth simply wants to eavesdrop on the communication without altering it. In the second case, Darth wants to modify the message going to Bob. The key exchange protocol is vulnerable to such an attack because it does not authenticate the participants. This vulnerability can be overcome with the use of digital signatures and public- key certificates.",
+    "chunk_index": 24,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "31e5636c-422c-47d1-a04d-43fecd3ca10e",
+    "text": "Now consider a simple protocol that makes use of the Diffie-Hellman calculation. Suppose that user A wishes to set up a connection with user B and use a secret key to encrypt messages on that connection. User A can generate a one-time private key XA, calculate YA, and send that to user B. User B responds by generating a private value XB, calculating YB, and sending YB to user A. Both users can now calculate the key. The necessary public values q and a would need to be known ahead of time. Alternatively, user A could pick values for q and a and include those in the first message.",
+    "chunk_index": 25,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "46a6b572-a147-4443-aef2-43d9e4d99d9c",
+    "text": "Man-in-the-Middle Attack Darth prepares by creating two private / public keys Alice transmits her public key to Bob Darth intercepts this and transmits his first public key to Bob. Darth also calculates a shared key with Alice Bob receives the public key and calculates the shared key (with Darth instead of Alice) Bob transmits his public key to Alice Darth intercepts this and transmits his second public key to Alice. Darth calculates a shared key with Bob Alice receives the key and calculates the shared key (with Darth instead of Bob) Darth can then intercept, decrypt, re-encrypt, forward all messages between Alice & Bob",
+    "chunk_index": 26,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "d8e07042-02b8-4f1e-b381-3731bfd68f12",
+    "text": "In 1984, T. Elgamal announced a public-key scheme based on discrete logarithms, closely related to the Diffie-Hellman technique [ELGA84, ELGA85]. The ElGamal cryptosystem is used in some form in a number of standards including the digital signature standard (DSS) and the S/MIME email standard. As with Diffie-Hellman, the global elements of ElGamal are a prime number q and a, which is a primitive root of q. User A generates a private/public key pair as shown. The security of ElGamal is based on the difficulty of computing discrete logarithms, to recover either x given y, or k given K (next slide).",
+    "chunk_index": 27,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "b48ee3cf-0251-4f6b-b8bc-117c49eb2bcb",
+    "text": "ElGamal Cryptography public-key cryptosystem related to D-H like RSA, this algorithm provides the three basic applications, namely: encryption/decryption key sharing digital signature with security-based difficulty of computing discrete logarithms, as in D-H",
+    "chunk_index": 28,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "541678b7-338c-401c-aeff-dae1ffdc1cb9",
+    "text": "A major issue with the use of Public-Key Cryptography, is the size of numbers used, and hence keys being stored. Recently, an alternate approach has emerged, elliptic curve cryptography (ECC), which performs the computations using elliptic curve arithmetic instead of integer or polynomial arithmetic. Already, ECC is showing up in standardization efforts, including the IEEE P1363 Standard for Public-Key Cryptography. The principal attraction of ECC, compared to RSA, is that it appears to offer equal security for a far smaller key size, thereby reducing processing overhead. Although the theory of ECC has been around for some time, it is only recently that products have begun to appear and that there has been sustained cryptanalytic interest in probing for weaknesses. Accordingly, the",
+    "chunk_index": 29,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "01cf6505-4eeb-4fe6-8e7b-ea624ec454b7",
+    "text": "confidence level in ECC is not yet as high as that in RSA.",
+    "chunk_index": 30,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "ef4753d6-fb68-452e-a8bc-3f6b27dcc7d8",
+    "text": "Elliptic Curve Cryptography (ECC) majority of public-key cryptography (RSA, D-H) use either integer or polynomial arithmetic with very large numbers/polynomials using very large numbers/polynomials imposes a significant load in storing and processing keys and messages an alternative to RSA is to use elliptic curve arithmetic that offers same security with smaller bit sizes ECC is newer, but not as well analyzed The security of ECC depends on how difficult it is to determine k given kP and P. This is referred to as the elliptic curve logarithm problem. The fastest known technique for taking the elliptic curve logarithm is known as the Pollard rho method. Compared to factoring integers or polynomials, can use much smaller numbers for equivalent levels of security.",
+    "chunk_index": 31,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "1e5d9673-1d43-4128-9239-318956aeda0c",
+    "text": "ECC Security relies on elliptic curve logarithm problem compared to factoring, can use much smaller key sizes than with RSA etc. for similar security ECC offers significant computational advantages ECC provides the same applications as with RSA and ElGamal algorithms Stallings Table 10.3 - “ Comparable Key Sizes in Terms of Computational Effort for Cryptanalysis” ompares various algorithms by showing comparable key sizes in terms of computational effort for cryptanalysis. As can be seen, a considerably smaller key size can be used for ECC compared to RSA. Furthermore, for equal key lengths, the computational effort required for ECC and RSA is comparable. Thus, there is a computational advantage to using ECC with a shorter key length than a comparably secure RSA.",
+    "chunk_index": 32,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "a6436c4b-493c-41be-b453-fc4d4a43a700",
+    "text": "Each row in the table represents the needed number of bits “n” for the three shown encryption schemes. Smaller values of “n” means faster computations. Comparable Key Sizes for Equivalent Security Symmetric scheme ECC-based scheme RSA/DSA 56 112 512 80 160 1024 112 224 2048 128 256 3072 192 384 7680 256 512 15360",
+    "chunk_index": 33,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "86b78c89-a06a-448e-b177-b54ff3add5a1",
+    "text": "We noted in Chapter 7 that, because a symmetric block cipher produces an apparently random output, it can serve as the basis of a pseudorandom number generator (PRNG). Similarly, an asymmetric encryption algorithm produces apparently random output and can be used to build a PRNG. Because asymmetric algorithms are typically much slower than symmetric algorithms, asymmetric algorithms are not used to generate open-ended PRNG bit streams. Rather, the asymmetric approach is useful for creating a pseudorandom function (PRF) for generating a short pseudorandom bit sequence. In this section, we examine two PRNG designs based on pseudorandom functions.",
+    "chunk_index": 34,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "3c034839-db96-4fa3-88a6-27c6d095bc69",
+    "text": "Pseudorandom Number Generation (PRNG) based on Asymmetric Ciphers asymmetric encryption algorithm such as RSA and ECC produce apparently random output hence can be used to build a pseudorandom number generator (PRNG) much slower than symmetric algorithms hence only use to generate a short pseudorandom bit sequence (e.g., key)",
+    "chunk_index": 35,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "5a34e43d-477c-4c00-be14-4e30c1879e89",
+    "text": "For a sufficient key length, the RSA algorithm is considered secure and is a good candidate to form the basis of a PRNG. Such a PRNG, known as the Micali-Schnorr PRNG is recommended in the ANSI standard X9.82 (Random Number Generation) and in the ISO standard 18031 (Random Bit Generation). The PRNG is illustrated in Stallings Figure 10.8. This PRNG has much the same structure as the output feedback (OFB) mode used as a PRNG but using RSA instead of a block cipher. We can define the PRNG as follows: SETUP Select parameters per normal RSA key setup, with r + k =bitlength of n SEED Select a random seed x of bitlength the same as n GENERATE a pseudorandom sequence of length k x m using the loop: for i from 1 to m do the following: yi = xei-1 mod n xi = r most significant bits of yi zi = k",
+    "chunk_index": 36,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "19fe0f8a-0975-4c89-ad80-4d04d871d73d",
+    "text": "least significant bits of yi OUTPUT The output sequence is z1 || z2 || … || zm The parameters n, r, e, and k are selected to satisfy the six conditions detailed in the text. There is clearly a tradeoff between r and k. Because RSA is computationally intensive, we would like to generate as many pseudorandom bits per iteration as possible, and therefore would like a large value of k. However, for cryptographic strength, we would like r to be as large as possible.",
+    "chunk_index": 37,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  },
+  {
+    "id": "e26187e0-78c3-4e4a-ab74-c7553dd0f64a",
+    "text": "Micali-Schnorr PRNG using RSA in ANSI X9.82 and ISO 18031 Zi = k least significant bits of encrypted value at ith step Chapter 10 summary. Summary have considered: Diffie-Hellman key exchange ElGamal cryptography Elliptic Curve cryptography Pseudorandom Number Generation (PRNG) based on Asymmetric Ciphers (RSA & ECC)",
+    "chunk_index": 38,
+    "source_file": "4th_Security_sce_422_ch_10_diffie-hellman_-_without_audio"
+  }
+]

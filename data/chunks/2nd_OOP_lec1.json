@@ -1,0 +1,74 @@
+[
+  {
+    "id": "571b4e02-5d2d-49ce-b023-f3ba33029d91",
+    "text": "Object Oriented Programming (OOP) Dr. Abdurrahman A. Nasr Al-Azhar University Program Title Systems and Computers Engineering Department offering and Systems and Computers Engineering responsible for the Program Dept. Course Name Object Oriented Programming Course Code SCE205 2nd Year – 1st Semesters Year/ Level Authorization date of course 2015 Lectures Tutorial Practical Teaching Hours 2 2 0",
+    "chunk_index": 0,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "a80d3388-3e77-4f20-8382-24943f4e8f9c",
+    "text": "Course objectives 1. Understand the basic concepts OOP. 2. Aware of software design techniques. 3. Capable of developing a complete program. 4. Capable of minimizing development effort and maximizing reusability 5. Capable of building software library (reusable components) 6. Merge the engineering knowledge, understanding to improve software design, products 7. Use specialized computer software and design packages throughout the phases of the life cycle of system development 3 = Course text Text book 1. Object-Oriented Programming with Java, 2nd Edition, Barry J. Holmes - Daniel T. Joyce 2. An Introduction to Object-Oriented Programming with Java Fifth Edition, C. Thomas Wu 3. Lecture notes by the lecturer Tools 1. Java 8 SDK 2. Netbeans IDE 4",
+    "chunk_index": 1,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "4750de55-a515-4072-83af-3d66ea37b881",
+    "text": "Course syllabus 1. Introduction to java 2. Data types and operations 3. Objects 4. Object oriented programming deep dive 5. Advanced OOP 6. UML 7. Exception and streams 8. File input and output 9. GUI and event-driven programming 10. Design patterns 5 Lecture 1 History and Concept Lecture Objectives History OOP Introduction SDLC Objects lProgramming Languages Generations •Generation 1—machine languages: •Program data entered directly into RAM in form of 1s and 0s •Generation 2—assembly languages: •Mnemonic symbols represent instructions and data. •Generation 3—high-level languages: •Java, C#, python, C++, VisualBasic, … •Designed to be easy to write, read, and manipulate. •Requires translator component to translate to low level language l lProgramming Languages l \\",
+    "chunk_index": 2,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "0ff337cc-6c06-4126-8d3b-bddebc554f34",
+    "text": "lProgramming Languages Compiler • Translates a program from a high-level to a low- level language. • Compile source program • produces machine -or assembly- language programs called object. • Most high-level languages need a different compiler for each type of computer and for each operating system. • Compilers are very large programs that are expensive to produce. lProgramming Languages Java Byte-Code • The Java compiler translate a Java program into intermediate language (byte-code) • An interpreter translates byte-code instruction to machine- language • the byte-code can be used on any computer with a byte-code interpreter and without a need to recompile. • Write once, run anywhere Machine language 00110101",
+    "chunk_index": 3,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "3ab43f8e-7917-424e-a3a0-b108eb42c0d5",
+    "text": "Software development life cycle (SDLC) lSDLC: A view of software development in which phases of development occur incrementally Standardizes software development oSimplifies understanding the project scope oMinimizes software flaws lThe Software Development Process Waterfall model: A version of the SDLC Phases: oCustomer request/ requirements oAnalysis oDesign oImplementation oIntegration oTesting oMaintenance Waterfall model 401: SW Engineering 301: Database YOUR PATH 201: OOP 102: Data structure & Algorithms 101:Programming (Java) \\ lEffort of Software Phases Improving performance or other attributes Adapting the software to new hardware Adding features and functions to the software to respond to new user requirements Improving efficiency and reliability",
+    "chunk_index": 4,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "e01591db-ab87-49e1-9e2b-2afae699d441",
+    "text": "Programming Techniques Unstructured programming Where all implementation in one function: Main(){-------} No concept of procedures No concept of local variables, only Global variables Procedure programming Where repeated part of code separated in a function e.g. factorial function Modular programming No. of functions become huge functions Partition into logical parts according to business/functionality e.g. all mathematical functions together can load modules that include functions we need only",
+    "chunk_index": 5,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "8d27c05f-3909-41a8-808d-e882c6620ede",
+    "text": "Programming Techniques- Example Unstructured programming example Write a program using main function only to perform factorial of 4 then 7 then 3 from down to up ( start from 1 to number) After compile the program, change calculate factorial from up to down instead of from down to up What problem you faces? = _STRUCTURED STRUCTURED PROGRAMMING MAIN PROGRAM GLOBAL DATA FUNCTION 2 CTION 3 FUNCTION 4 FUNCTION 5 v / )",
+    "chunk_index": 6,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "480a0a80-864b-4365-ad42-ed6f0466b245",
+    "text": "OO Programming Concepts Object-oriented programming (OOP) involves programming using objects. An object represents an entity in the real world that can be distinctly identified. For example, a student, a desk, a circle, a button, and even customer can all be viewed as objects. An object has a unique identity, state, and behaviors. The state of an object consists of a set of data fields (also known as properties) with their current values. The behavior of an object is defined by a set of methods. l20 Objects An object is a thing. Example of Objects 238-49-1357 John Mary Object name Customer Dog Account Object ‘type’ OO PROGRAMMING lObject 2 lObject 1 messages lData lData lFunction lFunction lObject 3 lData lFunction",
+    "chunk_index": 7,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "b7c46b25-35b1-4764-8f4d-b727d03e84cd",
+    "text": "Why OO Programming? Better concepts and tools to model and represent the real world as closely as possible : => model of reality => behavior modeling Better reusability & extensibility (inheritance) => reduce the time/cost of development => Enhanced maintainability & improved reliability – “Encapsulation” and “Information Hiding” Internal implementation not visible outside The implementation can change without affecting other parts of the program. Object accessible through external interface What Is an Object? These real-world objects all have states and behaviors. Definition: An object is a software bundle of variables and related methods (function).",
+    "chunk_index": 8,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "85663c85-c063-4da4-8cea-fb330eea38b6",
+    "text": "lClasses Classes are constructs that define objects of the same type. A Java class uses variables to define data fields and methods to define behaviors. Additionally, a class provides a special type of methods, known as constructors, which are invoked to construct objects from the class. dfr222 dfr444 dfr334 Car Factory Class Objects l25 Class and Object Class: Category of things Template to create objects A class name can be used in Java as the type Defines the variables and methods common to objects of a same type. Object a particular item that belongs to a class Also called an “instance” Example String s1 = \"Hello\"; String is the class, the variable s1 is objects (instance of the String class) contain the value \"Hello\"",
+    "chunk_index": 9,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "1f303001-1ee5-4232-b0a6-9fa41ce23291",
+    "text": "Objects vs. Classes •Class •Human class has the following attribute/properties e.g. color, length, weight, name •Human has operations/functions/methods e.g. speak, listen, study, walk •This Human template consider as class • Object •Object is instance of class e.g. Moh, that has attribute assigned with values e.g. color=3, length=175, weight=80, name= Mohamed •Each object represented in the memory with its attributes, and reference to created object e.g. pointer •An object is an instance of a class",
+    "chunk_index": 10,
+    "source_file": "2nd_OOP_lec1"
+  },
+  {
+    "id": "bbb2b5ff-4009-4ad8-828c-92ab561b2b81",
+    "text": "Some OOP Concept •State oEach object has a state based on values of its attribute •Message oObject to object communication o object 1(speak ) object 2(listen) •Behavior oEach object has different behaviors according to environment surrounding it e.g. student in the faculty, can be brother/sister in home",
+    "chunk_index": 11,
+    "source_file": "2nd_OOP_lec1"
+  }
+]

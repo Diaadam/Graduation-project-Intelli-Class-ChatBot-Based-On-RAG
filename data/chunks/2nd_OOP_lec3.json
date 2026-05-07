@@ -1,0 +1,68 @@
+[
+  {
+    "id": "e5ad4772-3fef-4682-9d2c-e3dd6cfaf789",
+    "text": "Object Oriented Programming (OOP) Dr. Abdurrahman A. Nasr Al-Azhar University Lecture 3 Objects and class members Review Circule.java public class Circle { double radius; } TestCircle.java public class TestCircle { public static void main (String arg[]) { Circle myCircle = new Circle(); Circle yourCircle = new Circle(); yourCircle.radius = 100; } } Class members Member variable & methods Anywhere in the class Outside all methods Can be access internally with “this” externally with object reference l",
+    "chunk_index": 0,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "8edaf3c9-55df-4941-808d-61f596d1391a",
+    "text": "Packages group related classes Java hierarchically organizes classes into packages* java.lang java.text java.util … Classes need to be referred using its complete name (package + class name): for example, java.util.Calendar Packages can be “imported” to avoid writing package names every time you use a class (except java.lang) import java.util.*;",
+    "chunk_index": 1,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "7d7bff61-556c-4436-9eba-128a5a08c2d1",
+    "text": "Creating Package -Date -Point second.section1 package second.section1; public Class Date { private int day, month, year; public Date (){ day = 1; month= 1; year= 206; } -Date -Point second.section2 package second.section2; public Class Date { private int day, month, year; public Date (){ day = 1; month= 1; year= 206; } -Date -Point second.section3 package second.section3; public Class Date { private int day, month, year; public Date (){ day = 1; month= 1; year= 206; } package second.section1; public Class Point{ package second.section2; public Class Point{ package second.section3; public Class Point{",
+    "chunk_index": 2,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "d6a9a1c9-7c9d-4232-9afe-9d8b3a2c0719",
+    "text": "Using Packages import second.section1.*; // first approach import second.section1.Point; // second approach import second.section2.Date; // second approach Class TestPoint{ //Third approach without any import in classes belong to same //package public static void main (String arg[]){ Point p1= new Point(); // which class Date d1= new date(); //which class second.section1.Date d2 = new second.section1.Date(); // Fourth in-line approach } }",
+    "chunk_index": 3,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "c23a3c1d-87a7-4024-82ed-114a00119606",
+    "text": "Using Package •Using Package oOrganizing your classes into packages A class can only be in one package No duplicate class definition in the same package Put the package statement at the beginning Packages correspond to directories in local file system oExamples: package section1; package section2.assignment; package section3.lecture.web; •Default Package oA class without any package defined is in a “default package” oThe default package is NOT the root package! •Classes in the default package cannot be referenced outside the default package Point class example Attributes ? y Methods? P(2,4) x Point class example getX() getY() y P(44, 78) move( dx, dy) setX(ax) setY(ay) x )",
+    "chunk_index": 4,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "12700fe9-2d5f-408b-8759-95a242e61718",
+    "text": "Point class example Package definition Defining member variables Defining member methods Define methods with return data type Defining method with void return type Interaction with similar objects Using methods to update member variables Setter & Getters (aka accessors and mutators) . /\" UML representation General-purpose, developmental, modeling language in the field of software engineering A A A | UML Class diagram Shows static structure of a class in a system Helpful for developers to visualize classes Representation Box Name Attributes Operations Access level ) UML Class diagram Relationship types",
+    "chunk_index": 5,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "278ff0b4-9963-492b-a08b-db1a83cba2c8",
+    "text": "\\ </ N UML Object diagram Represents instance of classes interacting with each other Instance name = = ‘mat hStat D artment = = Class name nf mat it 1I ] i statistics : Dapar pe L Deb l .I I i I subdepartment — ath : De — T n artment [l < pplledMath : Department e J L raduate duale duate v ( Constructors - Code that gets executed when “new” is called - a special method used for object creation to initialize object variables - Enforces/ensures that all instances have certain properties (valid state) Example Point p1 = new Point(); -Default constructor (zero-argument constructor) - A constructor without any parameter - If a programmer doesn’t define any constructor for a class, JRE will implicitly create a default constructor as in Point class",
+    "chunk_index": 6,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "d8a50230-7158-4d2d-a772-ef65256c90f7",
+    "text": "User Defined constructor - Constructor explicitly defined in class - “Method” that exactly named as the class name and has no return type (not even void). - May have parameters (Zero argument or not) public class MyClass { public MyClass(...) //no return :“void” or any other data type { …//init object … } } / Default Constructors Person.java public class Person { public String firstName, lastName; } public class Person1Test { public static void main(String[] args) { Person p = new Person(); p.firstName = “Hamza\"; p.lastName = “Ezz\"; PersonTest.java /*It took three lines of code to make a properly constructed person. It would be possible for a programmer to build a person and forget to assign a first or last name.*/ } }",
+    "chunk_index": 7,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "403cdc09-77ce-4db5-9fc1-c4cd90770276",
+    "text": "\" User-Defined Constructor Person.java public String firstName, lastName; public Person(String initialFirstName, String initialLastName) { firstName = initialFirstName; lastName = initialLastName; public class Person { N public class PersonTest { PersonTest.java public static void main(String[] args) { Person p = new Person(“Hamza\", “Ezz\"); /*It took one line of code to make a properly constructed person. It would not be possible for a programmer to build a person and forget to assign a first or last name*/ } } // Can developer use the default constructor? ( N~",
+    "chunk_index": 8,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "4173bd43-369d-4e81-a0ec-45422011fa58",
+    "text": "4 User-Defined Constructor Example Date.java public Class Date { today private int day, month, year; public Date (int d, int m, int y){ day = d; day= month= m; month= year= y; year= } } meeting DateTest.java public Class TestDate { day= public static void main (String arg[]){ month= Date meeting= new Date(5,11,2015); year= Date today = new Date(20,10,2015); } } 4 User-Defined Constructor (zero-Arg.) Date.java public Class Date { today public int day, month, year; public Date (){ day= day = 1; month= month= 1; year= 2013; year= } } meeting DateTest.java day= public Class TestDate { month= public static void main (String arg[]){ year= Date meeting= new Date(); Date today = new Date(); } } ) 4 OPYING VARIABLES OF PRIMITIVE DATA TYPES AND OBJECT TYPES 22",
+    "chunk_index": 9,
+    "source_file": "2nd_OOP_lec3"
+  },
+  {
+    "id": "597d44a0-30d2-4aa5-8883-f816dd688602",
+    "text": "GARBAGE COLLECTION As shown in the previous figure, after the assignment statement c1 = c2, c1 points to the same object referenced by c2. The object previously referenced by c1 is no longer referenced. This object is known as garbage. Garbage is automatically collected by JVM. • The Garbage Collector Automatically frees an object, if not referenced. • prevents memory leaks 23 ) ASSIGNMENT Create “Student” class Define student attribute Define student operations Add setter methods Check for valid user data in setter method Draw class diagram and object diagrams 24",
+    "chunk_index": 10,
+    "source_file": "2nd_OOP_lec3"
+  }
+]

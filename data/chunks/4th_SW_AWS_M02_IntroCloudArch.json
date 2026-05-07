@@ -1,0 +1,674 @@
+[
+  {
+    "id": "5eaf5a76-b179-4c81-a07c-2a2c4f6a92fa",
+    "text": "|Instructor notes | |Student notes Welcome to the Introducing Cloud Architecting module. This module introduces you to the best practices for cloud architectures and how to design and evaluate architectures using the AWS Well-Architected Framework. Introducing Cloud Architecting AWS Academy Cloud Architecting ‹#› |Instructor notes | |Student notes This introduction section describes the content of this module.",
+    "chunk_index": 0,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "1ffb6be4-5b67-40fe-b790-26ae8e5ba4a5",
+    "text": "|Slide number ‹#› |Instructor notes |This module is an introduction to cloud architecting. Over the course of the module, students learn about cloud architecting. The module includes a discussion of design trade-offs and best practices for cloud architecting. These trade-offs and best practices should be considered with every design decision and should be the foundation for the remaining modules. | |The discussion in this module includes best practices for building solutions on Amazon Web Services (AWS). There is a section on the AWS Global Infrastructure to help students make informed decisions about the AWS Regions and Availability Zones they can choose when deploying resources. Understanding these concepts will be important in the following modules. | |A cloud architect is responsible",
+    "chunk_index": 1,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9c2c4c57-70fe-4380-a3c9-2228a7fe5761",
+    "text": "for understanding the AWS Well-Architected Framework and applying it to designs and implementations. Focus on introducing the AWS Well-Architected Framework as the application of best practices because each pillar will be discussed in the following modules. | |Student notes",
+    "chunk_index": 2,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c9397150-4a8c-465d-9d03-48c2c2d6aac3",
+    "text": "Module objectives This module prepares you to do the following: Define cloud architecture. Describe how to design and evaluate architectures using the AWS Well-Architected Framework. Explain best practices for building solutions on Amazon Web Services (AWS). Describe how to make informed decisions about where to place AWS resources. ‹#› |Slide number ‹#› |Instructor notes |This module has an introduction, content sections, and a wrap-up. | |Student notes The objectives of this module are presented across multiple sections. The module wraps up with a 10-question knowledge check delivered in the online course.",
+    "chunk_index": 3,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e3ffbf25-cfde-4679-ac6e-456b820e9ab5",
+    "text": "Module overview Knowledge checks 10-question knowledge check Presentation sections Cloud Architecting AWS Well-Architected Framework Best practices for building solutions on AWS AWS Global Infrastructure ‹#›",
+    "chunk_index": 4,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "fbf46e9f-dca6-423c-90b8-19229a4c59b4",
+    "text": "|Slide number ‹#› |Instructor notes |This slide presents key overarching design considerations that are foundational to cloud architects. Emphasize how a cloud architect must always start with the business case and work backward to choose the best components for that use case. Also, remind students that design decisions will probably evolve over time to optimize cost and performance as needs change or are better understood. | |Student notes This slide asks you to take the perspective of a cloud architect. Review these considerations as you progress through this module, remembering that the cloud architect should work backward from the business need to design the best architecture for a specific use case.",
+    "chunk_index": 5,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "73de643e-d476-496c-a810-aebb00a33283",
+    "text": "As a cloud architect designing AWS architectures: I need to understand the practice of applying cloud best practices to a solution that uses cloud services and features to meet an organization’s technical needs and business use cases. I need to evaluate an architecture with the AWS Well-Architected Framework. I need to apply best practices to building solutions on AWS. ‹#› |Slide number ‹#› |Instructor notes | |Student notes This section introduces cloud architecting.",
+    "chunk_index": 6,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "dfff4e70-fdc6-4600-a31b-ad071c935e7a",
+    "text": "Cloud Architecting Introducing Cloud Architecting ‹#›",
+    "chunk_index": 7,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3e391545-5912-4aa0-ac2a-34c51152dabc",
+    "text": "|Slide number ‹#› |Instructor notes |This slide describes the history of how AWS came to be. Focus on how the solutions were internal services that were highly available, scalable, and reliable. These concepts will be discussed in subsequent modules. | |This slide introduces some terms that should be reviewed from the AWS Academy Cloud Foundations course. If necessary, review the terms highly available, scalable, and reliable. | |Student notes To understand what cloud architecting is and why it’s important, first consider an example of what software development is like in its absence. Around 2000, when Amazon was trying to solve a problem, they looked to cloud computing as a solution. Amazon was trying to build an ecommerce service for third-party sellers to build their own online shopping",
+    "chunk_index": 8,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "155ab988-3e65-4bfe-a532-67397babc92b",
+    "text": "sites on top of the Amazon ecommerce engine. The company was struggling to make its new shopping website highly available and scalable. In the beginning, the Amazon ecommerce tools, applications, and architectures were built without proper planning. The various services were difficult to separate to make a centralized development platform. Development time was long, and projects were complicated. The solution to this problem was to create a set of well-documented APIs to organize the development environment. However, Amazon still struggled to build applications quickly. As the company grew and more software engineers were hired, the following complications happened: It took 3 months to build just the database, compute, and storage components when the entire project that was expected to",
+    "chunk_index": 9,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e9d57902-ad32-4960-898b-45cdcaaf2924",
+    "text": "take 3 months. Each team built their own resources without planning for scalability or reusability. The solution was to build internal services to create highly available, scalable, and reliable architectures on top of the Amazon infrastructure. In 2006, Amazon started selling these services as Amazon Web Services (AWS). They started with Amazon Simple Queue Service (Amazon SQS), and then Amazon Simple Storage Service (Amazon S3) and Amazon Elastic Compute Cloud (Amazon EC2).",
+    "chunk_index": 10,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "4394ac74-cf7b-46a0-9ae4-1832f0266831",
+    "text": "Cloud computing and AWS 2000 Early 2000s 2006 Amazon developed well-documented APIs. Amazon was challenged with building an ecommerce service to for third-party sellers to build their own shopping sites. Amazon SQS Projects still took months to complete. Amazon S3 Amazon EC2 ‹#›",
+    "chunk_index": 11,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "716079b9-96a6-4767-b7ac-c7dc3aa7e09b",
+    "text": "|Slide number ‹#› |Instructor notes |This slide tells a story about how cloud architecture development is like building a house. Focus on the comparisons between the process for constructing a physical building and the cloud architecting process. The students should come away with an understanding that the architecture design is critical to building solutions that support current and future needs. | |Student notes What is cloud architecture? Cloud architecture is the practice of applying cloud characteristics to a solution that uses cloud services and features to meet an organization’s technical needs and business use cases. Creating technology solutions is a lot like constructing a physical building. If the foundation is not solid, it can cause structural problems that undermine the",
+    "chunk_index": 12,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "30263ce1-2806-46dd-bc81-8fb6aadc288d",
+    "text": "integrity and function of the building. To create a solid building, the customer outlines the building needs and requirements. The architect creates a design and blueprints to meet the requirements. Then, the building crew turns the blueprints into a physical structure. In cloud architecture, the customer or decision maker also outlines business goals and requirements. The cloud architect designs a solution that is like a blueprint for a building. Then, the delivery team works to implement the solution. Having well-architected systems increases the likelihood that the technology deliverables will help meet business goals.",
+    "chunk_index": 13,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2083c7ea-72c4-4dfb-a4d3-b210c80d8c13",
+    "text": "Cloud architecture Requirements Structure design Completed structure Customer (Decision maker) Architect Building crew (Delivery team) ‹#›",
+    "chunk_index": 14,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "cd934da9-bc97-41b0-a368-c558915be869",
+    "text": "|Slide number ‹#› |Instructor notes |The discussion for this slide should help students understand their role as a cloud architect. Consider continuing the analogy of constructing a physical building that was presented on the previous slide. | |Student notes The role of a cloud architect is as follows: Engage with decision makers to identify the business goals and the capabilities that need improvement. Ensure alignment between the technology deliverables of a solution and the business goals. Work with the delivery teams that are implementing the solution to ensure that the technology features are appropriate. Cloud architects are responsible for managing an organization’s cloud computing architecture. They have in-depth knowledge of the architectural principles and services used to do the",
+    "chunk_index": 15,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "5b415c70-1b5d-4af4-b620-1988b4cc8942",
+    "text": "following: Develop the technical cloud strategy based on business needs. Assist with cloud migration efforts. Review workload requirements. Provide guidance about how to address high-risk issues. Cloud architects work to implement the AWS Well-Architected Framework.",
+    "chunk_index": 16,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "71464621-4e30-4450-9718-329bf45c9c4a",
+    "text": "Role of a cloud architect Plan Research Build Set technical cloud strategy with business leads. Analyze solutions for business needs and requirements. Investigate cloud services specifications and workload requirements. Review existing workload architectures. Design prototype solutions. Design the transformation roadmap with milestones, work streams, and owners. Manage the adoption and migration. ‹#› |Slide number ‹#› |Instructor notes |The student version doesn't have any notes for this slide. | |Student notes",
+    "chunk_index": 17,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "acd6dadc-1088-4afc-9a0f-968f466026ef",
+    "text": "Key takeaways: What is cloud architecting? Cloud architecture is the practice of applying cloud characteristics to a solution that uses cloud services and features to meet an organization’s technical needs and business use cases. You can use AWS services to create highly available, scalable, and reliable architectures. Cloud architects are responsible for managing an organization’s cloud computing architecture. ‹#› |Slide number ‹#› |Instructor notes | |Student notes This section introduces the AWS Well-Architected Framework.",
+    "chunk_index": 18,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3ad37ca1-4577-49ec-b645-6b4dabc3343e",
+    "text": "AWS Well-Architected Framework Introducing Cloud Architecture ‹#›",
+    "chunk_index": 19,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e811a267-af7a-4524-a08a-6695e202b2af",
+    "text": "|Slide number 12 of module 2: |Instructor notes |This section reviews the six pillars of the AWS Well-Architected Framework. Each pillar has its own whitepaper that details design principles and best practices related to that pillar. | |Most modules in this course include a section that highlights best practices from selected pillars of the AWS Well-Architected Framework as they relate to the material presented in that module. There are two exceptions. The module on security focuses on content related to the Security pillar. The Building Decoupled Architectures module focuses on the Reliability pillar best practices for workload architectures. | |You can use the sections of each module that focus on the pillars of the AWS Well-Architected Framework for reinforcement of the content",
+    "chunk_index": 20,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "25ba56b7-ef72-4b23-8a60-cfdc7cabf46f",
+    "text": "presented in each module. Students can also use these sections to practice using the framework when selecting services and features for their architectures. | |Consider reviewing each of the pillar whitepapers during this section. For more information, see the AWS Well-Architected Framework on the content resources page of your online course. | |Student notes The AWS Well-Architected Framework is a guide that provides a consistent approach to evaluate cloud architectures. It also provides guidance to help implement designs. It documents a set of foundational questions and best practices you can use to understand if a specific architecture aligns well with cloud best practices. AWS developed this framework after reviewing thousands of customer architectures on AWS. The AWS Well-Architected",
+    "chunk_index": 21,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "103d61db-7b01-435f-b869-a8bc99c607a9",
+    "text": "Framework is organized into six pillars: Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability. You revisit the pillars of the AWS Well-Architected Framework in each of the modules of this course. For more information, see the AWS Well-Architected Framework on the content resources page of your online course.",
+    "chunk_index": 22,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "bbee6ca1-7a6d-4892-b06a-35905f95bed6",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes The Operational Excellence pillar addresses the ability to run systems and gain insight into their operations to deliver business value. It also addresses the ability to continuously improve supporting processes and procedures. When you design a workload for operations, you must be aware of how it will be deployed, updated, and operated. Implement engineering practices that align with defect reductions and quick, safe fixes. Make observation possible with logging, instrumentation, and business and technical metrics so you can gain insight into what is happening inside your architecture. In AWS, you can view your entire workload (applications, infrastructure, policies, governance, and operations) as code. You can define and update all",
+    "chunk_index": 23,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "ab9109b7-2400-4ac5-8281-f0023987d6f7",
+    "text": "part of your workload using code. This means you can apply the same engineering discipline that you use for application code to every element of your stack. It is recommended that you invest in implementing operations activities as code to maximize productivity, minimize error rates, and set up automated responses. For more information, see the Operational Excellence pillar on the content resources page of your online course.",
+    "chunk_index": 24,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "f09f2200-6378-4aba-beb7-4e1765d4c5a9",
+    "text": "Operational Excellence pillar Run and monitor systems that deliver business value. Continually improve supporting processes and procedures.",
+    "chunk_index": 25,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "edfae80c-f944-4fc5-81d4-4980cd91ee0d",
+    "text": "View the entire workload as code. ‹#› |Slide number ‹#› |Instructor notes | |Student notes The Security pillar addresses the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies. Your architecture will present a much stronger security presence if you implement a strong identity foundation, use and maintain traceability, apply security at all layers, automate security best practices, and protect data in transit and at rest. Implementing these security principles helps you prepare for security events. For more information, see the Security pillar on the content resources page of your online course.",
+    "chunk_index": 26,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "7d92067b-01af-4041-8634-56d23e9f6794",
+    "text": "Security pillar Implement a strong identity foundation. Maintain traceability. Apply security at all layers. Implement risk assessment and mitigation strategies. ‹#›",
+    "chunk_index": 27,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e005529b-c9b5-4d52-af83-1f45e986da9e",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes The Reliability pillar addresses the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand. It also addresses the ability of a system to mitigate disruptions, such as misconfigurations or transient network issues. It can be difficult to ensure reliability in a traditional environment. Issues arise from single points of failure, lack of automation, and lack of elasticity. By applying the best practices outlined in the Reliability pillar, you can prevent many of these issues. The Reliability pillar helps you and your customers have a properly designed architecture with respect to high availability, fault tolerance, and overall redundancy. For more information,",
+    "chunk_index": 28,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "27c8defa-3b65-4a7f-b5f8-7cf8b185b82f",
+    "text": "see the Reliability pillar on the content resources page of your online course.",
+    "chunk_index": 29,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "4a33024a-7c6c-42ba-9bba-92ee8d84ac9f",
+    "text": "Reliability pillar Dynamically meet compute demand. Mitigate disruptions. ‹#›",
+    "chunk_index": 30,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "65f04150-6ead-45c0-839b-89d3cda5d54e",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes When you consider performance, you want to maximize your performance by using computation resources efficiently. You also want to maintain that efficiency as the demand changes. It is also important to democratize advanced technologies. In situations where technology is difficult to implement yourself, consider using a vendor. By implementing the technology for you, the vendor handles the complexity and the knowledge, freeing your team to focus on more value-added work. Mechanical sympathy is when you use a tool or system with an understanding of how it operates best. Use the technology approach that aligns best to what you are trying to achieve. For example, consider data access patterns when you select database or storage approaches.",
+    "chunk_index": 31,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "920004b5-181d-4dd8-a50d-c68a218a5d87",
+    "text": "For more information, see the Performance Efficiency pillar on the content resources page of your online course.",
+    "chunk_index": 32,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9bccc50f-f8f5-4dd9-a1ec-acc3ba858c89",
+    "text": "Performance Efficiency pillar Democratize advanced technologies. Employ mechanical",
+    "chunk_index": 33,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3fcd2244-5212-4a34-be36-cf25a9727d83",
+    "text": "Sympathy. ‹#› |Slide number ‹#› |Instructor notes | |Student notes Cost optimization is an ongoing requirement of any good architectural design. The process is iterative, and it should be refined and improved throughout your production lifetime. Understanding how efficient your current architecture is in relation to your goals can remove unneeded expense. Adopt the right consumption model for your use case. You might want to adopt a model where you pay only for the resources you use. Consider using managed services because they operate at cloud scale, and they can offer a lower cost per transaction or service. For more information, see the Cost Optimization pillar on the content resources page of your online course.",
+    "chunk_index": 34,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "661c5d12-9c87-452f-b888-c4853017c653",
+    "text": "Cost Optimization pillar Measure efficiency. Eliminate unneeded expense. Adopt the right consumption model. Consider using managed services. ‹#›",
+    "chunk_index": 35,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "05bc7814-3426-4e00-81d9-62b1fad08fc6",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes The Sustainability pillar addresses the ability to build architectures that maximize efficiency and reduce waste. The discipline of sustainability addresses the long-term environmental, economic, and societal impact of your business activities. You should understand the impact of your workloads and work to reduce the downstream impact. Sustainability in the cloud is a continuous effort. It focuses primarily on energy reduction and efficiency across all components of a workload by achieving the maximum benefit from the resources provisioned and minimizing the total resources required. This effort can include the initial selection of an efficient programming language, adoption of modern algorithms, and use of efficient data storage",
+    "chunk_index": 36,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "5f417a6f-14e1-4a77-81c5-5e7ede3957f5",
+    "text": "techniques. It can also include deploying to correctly sized and efficient compute infrastructure and minimizing requirements for high-powered end-user hardware. For more information, see the Sustainability pillar on the content resources page of your online course.",
+    "chunk_index": 37,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "1c022857-ff45-41f5-94fe-5512e378fa4c",
+    "text": "Sustainability pillar Establish sustainability goals. Maximize utilization. Choose efficient hardware and software. Reduce downstream impact. ‹#›",
+    "chunk_index": 38,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "7905f046-5b22-40d0-ae42-0c7de2921405",
+    "text": "|Instructor notes |The AWS Well-Architected Tool is accessible through the AWS Management Console. This tool helps you apply best practices from the AWS Well-Architected Framework in a consistent way. It is intended for those involved in technical product development, such as chief technology officers (CTOs), architects, developers, and operations team members. | |Consider completing a brief demo of the AWS WA Tool. The user guide includes a step-by-step tutorial you can use to demo the tool. For more information, see the AWS Well-Architected Tool User Guide on the content resources page of your online course. | |Student notes If you want help designing a well-architected solution, you can use the AWS Well-Architected Tool. The AWS WA Tool is a self-service tool that provides you with",
+    "chunk_index": 39,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "61455304-9b0f-4ce1-b2c9-5f81d68ba4dc",
+    "text": "on-demand access to current AWS best practices. These best practices can help you build secure, high-performing, resilient, and efficient application infrastructure on AWS. The AWS WA Tool helps you review the state of your workloads and compare them to the latest AWS architectural best practices. It gives you access to knowledge and best practices used by AWS architects when you need it. The AWS WA Tool is available in the AWS Management Console. You define your workload and answer a series of questions in the areas of operational excellence, security, reliability, performance efficiency, and cost optimization. The AWS WA Tool then delivers an action plan with step-by-step guidance on how to improve your workload for the cloud. The AWS WA Tool provides a consistent process for you to",
+    "chunk_index": 40,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "444aa0f3-1f05-4548-9dd2-dc5190dc7baf",
+    "text": "review and measure your cloud architectures. With the tool, you can gather data and get recommendations to do the following: Minimize system failures and operational costs. Dive deep into business and infrastructure processes. Provide best practice guidance. Deliver on the cloud computing value proposition. You can use the results the tool provides to identify next steps for improvement, drive architectural decisions, and bring architecture considerations into your corporate governance process. For more information, see the AWS Well-Architected Tool User Guide on the content resources page of your online course.",
+    "chunk_index": 41,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e4e79de4-faaf-4ecc-b88e-95e34bf98e2d",
+    "text": "Using the AWS WA Tool Helps you review the state of your workloads and compares them to the latest AWS architectural best practices Gives you access to knowledge and best practices used by AWS architects when you need it Delivers an action plan with step-by-step guidance on how to build better workloads for the cloud Provides a consistent process for you to review and measure your cloud architectures",
+    "chunk_index": 42,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c758aedd-ac5e-439e-b8c9-1b3d89d2ba1e",
+    "text": "AWS Well-Architected Tool ‹#› |Slide number ‹#› |Instructor notes |The student version doesn't have any notes for this slide. | |Student notes",
+    "chunk_index": 43,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c813feba-9fc9-42f1-829b-59826c2edecc",
+    "text": "Key takeaways: AWS Well-Architected Framework The AWS Well-Architected Framework provides a consistent approach to evaluate cloud architectures and guidance to help implement designs. The AWS Well-Architected Framework is organized into six pillars. Each pillar documents a set of foundational questions you can use to understand if a specific architecture aligns well with cloud best practices. The AWS WA Tool helps you review the state of your workloads and compares them to the latest AWS architectural best practices. ‹#› |Slide number ‹#› |Instructor notes | |Student notes This section introduces the best practices for building solutions on AWS.",
+    "chunk_index": 44,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2d29d9c4-73e6-42ff-933a-70b0ff82d431",
+    "text": "Best practices for building solutions on AWS Introducing Cloud Architecting ‹#›",
+    "chunk_index": 45,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "bde57bce-b0e7-4488-9115-e88786fd207e",
+    "text": "|Slide number ‹#› |Instructor notes |This section focuses on the best practices for designing and building cloud architectures. Use the design trade-offs as a talking point for each of the best practices to follow. | |Student notes As you design a solution, think carefully about trade-offs so you can select an optimal approach. For example, you might trade consistency, durability, and space for time and latency to deliver higher performance. Or you might prioritize speed to market over cost. Trade-offs can increase the cost and complexity of your architecture, so your design decisions should be based on empirical data. For example, you might need to perform load testing to ensure that a measurable benefit is obtained in performance. Or you might need to perform benchmarking to achieve the",
+    "chunk_index": 46,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c796ef27-5c0c-4679-af49-ef35eb2e04c8",
+    "text": "most cost-optimal workload over time. When you evaluate performance-related improvements, consider how your architecture design choices will impact customers and workload efficiencies. In this section, you learn about best practices for designing solutions on AWS. You also learn about anti-patterns (or bad solution designs) to avoid.",
+    "chunk_index": 47,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9dca35f4-7761-4a30-aaf6-1c7a235a31c1",
+    "text": "Design trade-offs As you design a solution, think carefully about trade-offs so you can select an optimal approach. Evaluate trade-offs so you can select an optimal approach. Examples of trade-offs include the following: Trade consistency, durability, and space for time and latency to deliver higher performance. For new features, prioritize speed to market over cost. Base design decisions on empirical data. ‹#›",
+    "chunk_index": 48,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "65946575-5c04-41f9-b176-34d678b5b6c0",
+    "text": "|Slide number ‹#› |Instructor notes |Cloud solutions architects should build with consideration of the future. This means that solutions need to cater to current scale requirements and the anticipated growth of the solution. When a solution scales, many architects experience added complexity to the overall architecture in terms of its manageability, performance, security, and so on. By architecting your solution or application to scale reliably, you can avoid the introduction of additional complexity, degraded performance, or reduced security because of scaling. | |This architecture is a good example of Amazon EC2 Auto Scaling. When you use Amazon EC2 Auto Scaling, your applications gain better fault tolerance, availability, and cost management. | |Student notes When you run your workloads",
+    "chunk_index": 49,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "25ac6b34-8a5d-4ea6-a29e-774cbb7f05af",
+    "text": "on the AWS Cloud, you can scale your infrastructure quickly and proactively. Make sure that you implement scalability at every layer of your infrastructure. By implementing scalability, you can improve your design to anticipate the need for more capacity and deliver it before it's too late. For example, you can use a monitoring solution like Amazon CloudWatch to detect whether the total load across your fleet of servers has reached a specified threshold. You can define this threshold to be Stayed above 60% CPU utilization for longer than 5 minutes or anything related to the use of resources. With CloudWatch, you can also design custom metrics based on specific applications that can invoke the resource scaling that is required. When an alarm is invoked, Amazon EC2 Auto Scaling immediately",
+    "chunk_index": 50,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c879544a-f964-4a57-8d9c-1cde432ee0ea",
+    "text": "launches a new instance. That instance is then ready before capacity is reached, which provides a seamless experience for users. Ideally, you should also design your system to be elastic. When demand drops off, you're not running (and paying for) instances that you no longer need. To understand the importance of scalability, consider where scaling is done reactively and manually. When application servers reach full capacity, users are prevented from accessing the application. Administrators then manually launch one or more new instances to manage the load. Unfortunately, it takes a few minutes for an instance to become available for use after it’s launched. That increases the time users can’t access the application.",
+    "chunk_index": 51,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e3caa26e-d9cb-4148-b813-514b68d617aa",
+    "text": "Implementing scalability Ensure that your architecture can handle changes in demand. Users rarely experience a service interruption. Amazon EC2 Auto Scaling is alerted and scales out. New server is ready before capacity is reached. ‹#›",
+    "chunk_index": 52,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e20c9b0a-2c2e-4aa7-aa33-fcde3f6d0b82",
+    "text": "|Slide number ‹#› |Instructor notes |Automation is a best practice for provisioning, stopping, and configuring cloud resources. This diagram shows how automation can be used to respond to a server failure. The diagram reads from left to right as follows: |Application server crashes. |Amazon CloudWatch automatically detects the unhealthy instance. |Amazon EC2 Auto Scaling automatically launches and configures an identical server. |An alarm notifies the administrator. |CloudWatch automatically logs the action to a change management solution. | |Student notes AWS offers built-in monitoring and automation tools at virtually every layer of your infrastructure. Take advantage of these tools to ensure that your infrastructure can respond quickly to changes. Without built-in monitoring and",
+    "chunk_index": 53,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2c970d9b-315b-4e42-8f15-f1babf2ebce7",
+    "text": "automation tools, you must manually detect and respond to any failures. If an application server fails, you must detect it and manually notify the administrator. The administrator must manually launch and configure the new server. Tools like CloudWatch and Amazon EC2 Auto Scaling can detect unhealthy resources and automate the launch of replacement resources. You can also be notified when resource allocations change. In this example, when the application server crashes, CloudWatch automatically detects the failure. CloudWatch automatically launches and configures a new servers and notifies the administrator. The change is logged to a change management solution for tracking.",
+    "chunk_index": 54,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "908f4318-ad6d-4f7c-8137-0e8f117978bb",
+    "text": "Automating your environment Automate the provisioning, termination, and configuration of resources. 3 Amazon EC2 Auto Scaling automatically launches and configures an identical server. CloudWatch automatically logs the action to a change management solution. 1 5 Application server crashes. 2 Amazon CloudWatch automatically detects the unhealthy instance. An alarm notifies the administrator. 4 ‹#›",
+    "chunk_index": 55,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3c565aad-12bf-4dc4-8344-b59994d324e9",
+    "text": "|Slide number ‹#› |Instructor notes |Discuss that, traditionally, system administrators used a combination of scripts and manual processes to set up infrastructure environments. This process was complex and time-consuming. You can use infrastructure as code (IaC) to automatically set up your environment in minutes and manage it more efficiently. |For more information, review What Is Infrastructure as Code? on the content resources page of your online course. | |Student notes Automation is a key goal across any computing environment. Infrastructure as code (IaC) is used for infrastructure automation to create environments. The most common use of IaC is in software development to build, test, and deploy applications. Rapidly deploy duplicate environments. Using a single template, identical",
+    "chunk_index": 56,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "ad549cce-896f-4a29-8965-3e232507b8b4",
+    "text": "environments can be deployed. IaC removes the repetitive manual steps and checklists that were needed in the past. Reduce configuration errors from manual configuration. Manual configuration is error-prone because of human involvement. IaC reduces errors and streamlines error checking. If there are errors because of IaC code updates, you can quickly fix the situation by rolling the codebase to the last known stable configuration files. It’s also possible to roll back environments using previous versions of IaC configuration files for other reasons, such as the deployment of older application versions. Propagate changes consistently to all stacks with IaC. Make a change to the template and push those changes to all stacks. This makes it possible for a change to be deployed consistently. For",
+    "chunk_index": 57,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "feefbd6d-8143-4334-a12f-79f46f7a52dd",
+    "text": "more information, review What Is Infrastructure as Code? on the content resources page of your online course.",
+    "chunk_index": 58,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "28b651d5-5efc-4ab9-b935-32e79fe17284",
+    "text": "Using IaC Provision your computing infrastructure using code instead of manual processes. Rapidly deploy duplicate environments. Reduce configuration errors from manual configuration. Propagate changes consistently to all stacks. Infrastructure as code (IaC) template Resources Resources Resources ‹#›",
+    "chunk_index": 59,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "b6395703-7eec-4009-bc41-3766ddc6d258",
+    "text": "|Slide number ‹#› |Instructor notes: |Ask students what happens when they don’t treat resources as disposable. This is considered the anti-pattern. |Some examples include: |Over time, different servers end up with different configurations. |Resources run when they’re not needed. |Hardcoded IP addresses prevent flexibility. |It can be difficult or inconvenient to test new updates on hardware that’s in use. | |Student notes The best practice of treating resources as disposable refers to the idea of thinking about your infrastructure as software instead of hardware. With hardware, you can buy more components than you need so that you are prepared for spikes in usage. However, doing this is expensive and inflexible—it’s difficult to upgrade because of the sunk cost. Instead, when you treat",
+    "chunk_index": 60,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "f7d0c518-714b-497e-aef5-39cc499ebc7b",
+    "text": "your resources as disposable, migrating between instances or other discrete resources is fairly straightforward. You can quickly respond to changes in capacity needs, upgrade applications, and manage the underlying software.",
+    "chunk_index": 61,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "cb830fcd-5058-4cdb-853d-8c662f7225ff",
+    "text": "Treating resources as disposable Take advantage of the dynamically provisioned nature of cloud computing. Automate deployment of new resources with identical configurations. Stop resources that are not in use. Test updates on new resources, and then replace old resources with updated ones. ‹#›",
+    "chunk_index": 62,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "1e779f61-e2f3-47b4-861d-feda0be1ea86",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes Traditional infrastructures have chains of tightly integrated servers, each with a specific purpose. The problem is that when one of those components or layers goes down, the disruption to the system can be fatal. It also impedes scaling. If you add or remove servers at one layer, you must also connect every server on each connecting layer. With loose coupling, you use managed solutions as intermediaries between the layers of your system. With this design, the intermediary automatically handles both failures and the scaling of components or layers. The example on the left shows a load balancer. Here, it’s an Elastic Load Balancing (ELB) load balancer that routes requests between the web servers and the application servers. If one",
+    "chunk_index": 63,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "70c1d705-e4ed-48ae-b6dd-fde157469085",
+    "text": "application server goes down, the load balancer will automatically start directing all traffic to the two healthy servers. Two primary solutions for decoupling your components are load balancers and message queues. The example on the right illustrates a collection of web and application servers that are tightly coupled. If one application server goes down, it will cause an error because the web servers try and fail to connect to it.",
+    "chunk_index": 64,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "b249b5f5-bc5e-456c-a01f-e388022e1416",
+    "text": "Using loosely coupled components Design architectures with independent components. Best practice Anti-pattern Web servers Web servers Elastic Load Balancing (ELB) Application servers Application servers Web servers tightly coupled to application servers. Web servers decoupled with Elastic Load Balancing (ELB). ‹#›",
+    "chunk_index": 65,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e7946445-5436-4e66-89b7-93b16215722e",
+    "text": "|Slide number ‹#› |Instructor notes |Ask the students what might happen if they design only for servers. | |Some example of possible anti-patterns include: |Simple applications run on persistent servers. |Applications communicate directly with one another. |Static web assets are stored locally on instances. |Backend servers handle user authentication and user state storage. | |Student notes The next best practice is to design services, not servers. Although Amazon EC2 offers tremendous flexibility for designing and setting up your solution, it shouldn’t always be the first (or only) solution you use for every need. Sometimes, containers or a serverless solution might be more appropriate. Therefore, it’s important to consider what your needs are and which solution is appropriate. With AWS",
+    "chunk_index": 66,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "748f5e1d-fd6c-4d23-bfae-acc7b2dc89cd",
+    "text": "serverless solutions and managed services, you don’t need to provision, configure, and manage an entire EC2 instance. Managed solutions that have a lower profile and are more performant can replace server-based solutions at a lower cost. A few examples are AWS Lambda, Amazon SQS, Amazon DynamoDB, ELB, Amazon Simple Email Service (Amazon SES), and Amazon Cognito.",
+    "chunk_index": 67,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2fbf9d3a-d12c-457f-8b33-a414b6fda4dd",
+    "text": "Designing services, not servers Use the breadth of AWS services. Don't limit your infrastructure to servers. When appropriate, consider using containers or a serverless solution. Message queues can handle communication between applications. Static web assets can be stored off server, such as on Amazon Simple Storage Service (Amazon S3). User authentication and user state storage can be handled by managed AWS services. ‹#›",
+    "chunk_index": 68,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "6f1726a5-1a67-43a5-ac4e-f13e6156a10c",
+    "text": "|Slide number ‹#› |Instructor notes |AWS has a large collection of purpose-built database options for diverse data models. It can be difficult to know which database solution will be best for your workload. | |For more information, see Choosing an AWS Database Service on the content resources page of your online course. | |Student notes It is important that you choose the right database solution. In traditional data centers and on-premises environments, limits on available hardware and licenses can constrain your choice of a data store solution. AWS recommends that you choose a data store based on your needs for your application environment. For more information, see Choosing an AWS Database Service on the content resources page of your online course.",
+    "chunk_index": 69,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "c85bbf0a-a776-4928-a80e-89626de2cfec",
+    "text": "Choosing the right database solution Match technology to the workload, not the other way around. Read and write needs Total storage requirements Typical object size and nature of access to these objects Durability requirements Latency requirements Maximum concurrent users to support Nature of queries Required strength of integrity controls ‹#›",
+    "chunk_index": 70,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "b21c1655-436a-4c8f-b6e1-5ff4dd226f9b",
+    "text": "|Slide number ‹#› |Instructor notes |Show or describe the anti-pattern of a simple system with two application servers connected to a single database server. The database server represents a single point of failure and should be avoided. When it goes down, the application servers also go down. | |Student notes Where possible, eliminate single points of failure from your architecture. This doesn't mean you must always duplicate every component. Depending on your downtime service-level agreements (SLAs), you can use automated solutions that only launch components when needed. You can also use a managed service, so AWS automatically replaces malfunctioning underlying hardware for you. If two application servers are connected to a single database server, the database server represents a single",
+    "chunk_index": 71,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2e256770-eac0-48df-ad84-3903dc6571b6",
+    "text": "point of failure and should be avoided. When it goes down, the application servers also go down. Application servers should continue to function even if the underlying physical hardware fails, is removed, or is replaced. A common way to avoid single points of failure is to create a secondary (standby) database server and replicate the data. This way, if the main database server goes offline, the secondary server can pick up the load. In this example, when the main database goes offline, the application servers automatically send their requests to the secondary database. This example also exemplifies the best practice to treat resources as disposable, and design your applications to support changes in hardware.",
+    "chunk_index": 72,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "425c2915-48df-4158-aca7-56b418f1ac6d",
+    "text": "Avoiding single points of failure Assume everything fails. Then, design backward. Replication Under normal operations Create a secondary (standby) database server and replicate the data. Database server (secondary) Database server (primary) Application servers If the main database server goes offline, the secondary server picks up the load.",
+    "chunk_index": 73,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "1c1ec1b1-5ed7-49e4-a169-676793eff070",
+    "text": "Upon failure Replication Failed database server (primary) Database server (secondary) Application servers ‹#›",
+    "chunk_index": 74,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "884b5fd5-b24e-4ede-8ba0-f6b8e77186a8",
+    "text": "|Slide number ‹#› |Instructor notes |Ask the students to define fixed expense and variable expense. | |Student notes With cloud computing, you can trade fixed expenses for variable expense. Fixed expenses are funds a company uses to acquire, upgrade, and maintain physical assets, such as property, industrial buildings, or equipment. Under this model, you pay for the servers in the data center, whether they are active or not. By contrast, AWS services use a variable expense cost model, which means you pay only for the individual services you need for as long as you use them. In each service, you can optimize for cost. Many services offer different pricing tiers, models, or configurations. Remember, it can be very expensive to replicate an on-premises data center setup of servers running",
+    "chunk_index": 75,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "529a3c1b-2494-44ae-9d80-c8df2de6e701",
+    "text": "24/7 in the cloud. Therefore, the best way to build a cost effective infrastructure is to only provision the resources you need and stop services when they are not in use.",
+    "chunk_index": 76,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "7b5f70b8-910e-4625-aeb0-4e89c26f4684",
+    "text": "Optimizing for cost Take advantage of the flexibility of AWS to increase your cost efficiency. Are my resources the right size and type for the job? Which metrics should I monitor? How do I turn off resources that are not in use? How often will I need to use this resource? Can I replace any of my servers with managed services? ‹#›",
+    "chunk_index": 77,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e6d1a4f9-da2c-4f98-9df4-1d69a4ecfa15",
+    "text": "|Slide number ‹#› |Instructor notes |Ask students to define caching. Discuss the anti-pattern when no caching service is used. | |Anti-pattern: When no caching service is used, each user request goes directly to the Amazon Simple Storage Service (Amazon S3) bucket. This creates requests that each take the same amount of time to complete and cost the same amount. | |Student notes Caching is a technique to make future requests faster and reduce network throughput by temporarily storing data in an intermediary location between the requester and the permanent storage. The primary purpose of a cache is to increase the performance of data retrieval by reducing the need to access the underlying slower storage layer. Future requests for cached data are served faster than requests that access the",
+    "chunk_index": 78,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "fe32d71a-671b-4b1e-b0fd-05defb4a3464",
+    "text": "data’s primary storage location. With caching, you can efficiently reuse previously retrieved or computed data. In the example, the infrastructure uses Amazon CloudFront in front of Amazon S3 to provide caching. In this scenario, the initial request checks for the file in CloudFront. If it is not found, CloudFront requests the file from Amazon S3. CloudFront then stores a copy of the file at an edge location close to the user and sends a copy to the user who made the request. Subsequent requests for the file are retrieved from the (now closer) edge location in CloudFront instead of Amazon S3. The second, third, and nth requests are at a lower latency and cost. After the first request, you no longer pay to transfer the file out of Amazon S3.",
+    "chunk_index": 79,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "26fa6445-4973-43de-9716-e552903f841f",
+    "text": "Using caching Minimize redundant data retrieval operations, improving performance and cost. AWS Cloud Amazon CloudFront Region First request Edge node S3 bucket origin with dog.jpg Internet User AWS Cloud Amazon CloudFront Region Second and subsequent requests S3 bucket origin with dog.jpg",
+    "chunk_index": 80,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "b70d0395-7813-4fc1-8f62-d8bf17ff03a4",
+    "text": "|Slide number ‹#› |Instructor notes |Security is the top priority at AWS. AWS is architected to be the most secure global cloud infrastructure on which to build, migrate, and manage applications and workloads. It is important that students understand how to build security into every layer of the infrastructure. | |For more information, see AWS Cloud Security on the content resources page of your online course. | |Student notes Security isn’t only about getting through the outer boundary of your infrastructure. It also involves ensuring that your individual environments and their components are secured from each other. For example, in Amazon EC2, you can create security groups that you can use to determine which ports on your instances can send and receive traffic. Security groups can also",
+    "chunk_index": 81,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "479eb940-c408-40ad-a11c-9f7de4fe61a4",
+    "text": "determine where that traffic can come from or go to. You can use security groups to reduce the probability that a security threat on one instance will spread to every other instance in your environment. You should take similar precautions with other services. Specific ways to implement this best practice are discussed throughout the course. For more information, see AWS Cloud Security on the content resources page of your online course.",
+    "chunk_index": 82,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "0fb2b492-f8e6-4a76-a827-4fe70470f268",
+    "text": "Securing your entire infrastructure Build security into every layer of your infrastructure. Use managed services. Log access of resources. Isolate parts of your infrastructure. Encrypt data in transit and at rest. Enforce access control granularly, using the principle of least privilege. Use multi-factor authentication (MFA). Automate your deployments to keep security consistent. ‹#› |Slide number ‹#› |Instructor notes |The student version doesn't have any notes for this slide. | |Student notes",
+    "chunk_index": 83,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "afdf457c-d925-4499-ac23-c1e34ced68a9",
+    "text": "Key takeaways: Best practices for building solutions on AWS As you design solutions, evaluate trade-offs and base your decisions on empirical data. Follow these best practices when building solutions on AWS: Implement scalability. Automate your environment. Treat resources as disposable. Use loosely-coupled components. Design services, not servers. Choose the right database solution. Avoid single points of failure. Optimize for cost. Use caching. Secure your entire infrastructure. ‹#› |Slide number ‹#› |Instructor notes | |Student notes This section introduces the AWS Global Infrastructure.",
+    "chunk_index": 84,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "30801315-a12d-410c-9f33-8f7a7d16f4b4",
+    "text": "AWS Global Infrastructure Introducing Cloud Architecting ‹#›",
+    "chunk_index": 85,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9d66efd8-6d28-4aad-9830-90df22a6bc47",
+    "text": "|Slide number ‹#› |Instructor notes |AWS has the largest global infrastructure footprint of any provider, and this footprint is constantly increasing at a significant rate. Review the AWS Global Infrastructure page for updated figures for Regions, Availability Zones, and points of presence (PoPs). For more information, see AWS Global Infrastructure on the content resources page of your online course. | |Student notes The AWS Global Cloud Infrastructure is a secure, extensive, and reliable cloud platform, offering more than 200 fully featured services from data centers globally. The AWS Cloud infrastructure spans 102 Availability Zones in 32 geographic regions around the world. This gives you the ability to launch highly available, scalable, and flexible architectures near your customers",
+    "chunk_index": 86,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "2bb6be47-422c-4048-a9ad-1c2e051abf1a",
+    "text": "for lower latency and increased performance. As you design and build architectures, you need to consider which region to deploy them. An AWS Region is a physical geographical location with two or more Availability Zones. Availability Zones, in turn, consist of one or more data centers. Your decisions should be based on the business requirements and the needs of the workload. For example, if low latency is a requirement for your workload, you should consider using AWS points of presence (PoPs) or regional edge caches. The AWS PoP network sits at the edge of the network to reduce latency. Using these edge locations keeps your popular data close to your customers. In this section, you learn about the AWS infrastructure, including Regions, availability zones, AWS Local Zones, AWS data centers,",
+    "chunk_index": 87,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "16fb5bec-86d3-4e40-998c-eb4153cc0125",
+    "text": "and AWS PoPs. For more information about infrastructure on AWS, see AWS Global Infrastructure on the content resources page of your online course.",
+    "chunk_index": 88,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "a655f35d-4d6c-4efe-8d4f-362b3ef0886f",
+    "text": "AWS infrastructure topics AWS Regions Availability Zones AWS Local Zones AWS data centers AWS points of presence (PoPs) ‹#›",
+    "chunk_index": 89,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9ddddf3a-2b59-454a-9f4e-b3fd25173297",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes A Region is a physical geographical location with two or more Availability Zones. Availability Zones, in turn, consist of one or more data centers. Regions are connected to multiple internet service providers (ISPs). Regions are also connected to a private global network backbone, which provides lower cost and more consistent cross-Region network latency when compared with the public internet. Regions that were introduced before March 20, 2019, are enabled by default. Regions that were introduced after March 20, 2019—such as Asia Pacific (Hong Kong) and Middle East (Bahrain)—are disabled by default. You must enable these Regions before you can use them. You can use the AWS Management Console to enable or disable a Region. Some Regions",
+    "chunk_index": 90,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "83424653-dd79-45de-b443-67145d164256",
+    "text": "have restricted access. The isolated AWS GovCloud (US) Regions are designed to make it possible for US government agencies and customers to move sensitive workloads into the cloud by addressing their specific regulatory and compliance requirements. To achieve fault tolerance and stability, Regions are isolated from one another. Resources in one Region are not automatically replicated to other Regions. When you store data in a specific Region, it is not replicated outside that Region. It is your responsibility to replicate data across Regions if your business needs require it. AWS provides information about the country and—where applicable—the state where each Region resides. You are responsible for selecting the Region where you should store data based on your compliance and network",
+    "chunk_index": 91,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "7a94b635-9744-4ed7-afb1-defb00345d7c",
+    "text": "latency requirements. AWS products and services are available by Region, so you might not have access to all Regions available for a given service.",
+    "chunk_index": 92,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "83b6f379-da9d-4133-a483-0f4bc7c89a33",
+    "text": "Selecting Regions A Region is a geographical area. Each Region usually consists of two or more Availability Zones. Communication between Regions uses AWS backbone network infrastructure. You enable and control data replication across Regions. Region Availability Zone Availability Zone Availability Zone ‹#›",
+    "chunk_index": 93,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "a9a9b7e6-f56b-4652-a49b-bdba9e83f500",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes Each Region consists of two or more isolated locations that called Availability Zones. Each Availability Zone comprises one or more data centers, with some Availability Zones having as many as six data centers. However, no data center can be a part of two Availability Zones. Each Availability Zone is designed as an independent failure zone. This means that Availability Zones are physically separated in a typical metropolitan Region. They are also located in lower-risk floodplains (specific flood-zone categorization varies by Region). Availability Zones have a discrete, uninterruptible power supply and on-site backup generation facilities. In addition, they are each fed by different grids from independent utilities to further reduce",
+    "chunk_index": 94,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3a610671-e42d-4ab8-84a0-252ed71b9143",
+    "text": "single points of failure. Availability Zones are all redundantly connected to multiple tier-1 transit providers. An Availability Zone is the most granular level of specification that you can make for certain services, such as Amazon EC2. You are responsible for selecting the Availability Zones where your systems will reside. Systems can span multiple Availability Zones. You should design your systems to survive temporary or prolonged failure of an Availability Zone if a disaster occurs. Distributing applications across multiple Availability Zones means they can remain resilient in most failure situations, including natural disasters or system failures.",
+    "chunk_index": 95,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "005d2e87-012f-4612-ad3a-45fcb962d8f9",
+    "text": "Selecting Availability Zones Each Availability Zone includes the following: It is made up of one or more data centers. It is designed for fault isolation. It is interconnected with other Availability Zones in a Region using high-speed private links. For certain services, you can choose your Availability Zones. AWS recommends replicating across Availability Zones for resiliency.",
+    "chunk_index": 96,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "3d100bbf-2f14-4549-8267-f3d089576f93",
+    "text": "AWS Cloud Region Availability Zone eu-west-1a Data center Data center Data center Availability Zone eu-west-1b Availability Zone eu-west-1c ‹#›",
+    "chunk_index": 97,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "866549b6-50f4-48d1-8cd9-4d34b36dcd4d",
+    "text": "|Slide number ‹#› |Instructor notes |For more information, see AWS Local Zones on the content resources page of your online course. | |Student notes Local Zones are a type of AWS infrastructure deployment. They place AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where no Regions exist today. With Local Zones, you can run latency-sensitive portions of applications closer to end users and resources in a specific geography. You can use Local Zones to deliver single-digit millisecond latency for use cases such as media and entertainment content creation, real-time gaming, reservoir simulations, electronic design automation, and machine learning (ML). Each Local Zone location is an extension of a Region. You can run",
+    "chunk_index": 98,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "a4db5db6-ef0a-4a9d-ae28-d892cb534be5",
+    "text": "latency-sensitive applications in a Local Zone by using AWS services such as Amazon EC2, Amazon Virtual Private Cloud (Amazon VPC), Amazon Elastic Block Store (Amazon EBS), Amazon FSx, and ELB in geographic proximity to end users. Local Zones provide a high-bandwidth, secure connection between local workloads and workloads that run in the Region. With Local Zones you can seamlessly connect back to your other workloads that are running in AWS. You can connect to the full range of in-Region services through the same APIs and toolsets. Local Zones are managed and supported by AWS, and they provide you with all the elasticity, scalability, and security benefits of the cloud. With Local Zones, you can build and deploy latency-sensitive applications closer to your end users by using a consistent",
+    "chunk_index": 99,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "4ac512d3-a701-44a9-97e2-64a339200444",
+    "text": "set of AWS services. You can also scale up or scale down, and you pay only for the resources you use. For more information, see AWS Local Zones on the content resources page of your online course.",
+    "chunk_index": 100,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "8d8c4033-0ef9-4d79-b785-64c5b010deac",
+    "text": "Using Local Zones Local Zones make it possible for you to run latency-sensitive portions of applications closer to end users and resources in a specific geography. They are an extension of a Region. With Local Zones, you can place AWS compute, storage, database, and other select services closer to large population, industry, and IT centers where no Regions exist today. Local Zones are managed and supported by AWS. ‹#›",
+    "chunk_index": 101,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "7a65e0e2-cf10-475c-b045-003e02b92709",
+    "text": "|Slide number ‹#› |Instructor notes | |Student notes The foundation for the AWS infrastructure is the data centers. You do not specify a data center for the deployment of resources. However, a data center is the location where the actual data resides. Amazon operates state-of-the-art, highly available data centers. Though rare, failures that affect the availability of instances in the same location can occur. If you host all your instances in a single location that is affected by such a failure, none of your instances will be available. All data centers are online and serving customers. In case of failure, automated processes move customer data traffic away from the affected area. Core applications are deployed in an N+1 configuration. In the event of a data center failure, there is",
+    "chunk_index": 102,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "047a64b2-61cc-4788-954b-e1cf24cfdf48",
+    "text": "sufficient capacity for traffic to be load balanced to the remaining sites. AWS uses custom network equipment sourced from multiple original device manufacturers (ODMs). ODMs design and manufacture products based on specifications from another company. The other company then rebrands the products for sale.",
+    "chunk_index": 103,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "df026059-5ae8-48c8-b223-e3a9e6aa69ed",
+    "text": "Role of AWS data centers Data centers are where the data resides and data processing occurs. A data center typically has tens of thousands of servers. All data centers are online and serving customers. AWS custom network equipment includes the following: Is sourced from multiple ODMs Has a customized network protocol stack",
+    "chunk_index": 104,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "63301f53-7a3e-4069-aeab-b56914718ed5",
+    "text": "|Slide number ‹#› |Instructor notes |Compare and contrast the types of AWS PoPs. For more information, see Points of Presence on the content resources page of your online course. | |Student notes To deliver content to end users with lower latency, CloudFront uses a global network that includes more than 410 PoPs. The PoPs are comprised of 400 edge locations and 13 regional mid-tier caches. These PoPs are the initial destination for a CloudFront request. The edge locations make sure that popular content can be served quickly to customers. Regional edge caches bring more of your content closer to customers even if it is not popular enough to stay at an edge location. This helps reduce latency for customers. Regional edge caches increase efficiency and are transparent to the end user. Edge",
+    "chunk_index": 105,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "e44abe30-b086-4aa4-b621-d59c87533e8a",
+    "text": "locations are located in North America, Europe, Asia, Australia, South America, the Middle East, Africa, and China. Edge locations support AWS services like Amazon Route 53, AWS Global Accelerator, and CloudFront. Regional edge caches are used by default with CloudFront. They are used when you have content that is not accessed frequently enough to remain in an edge location. Regional edge caches absorb this content and provide an alternative to fetching the content from the origin server. For more information, see Points of Presence on the content resources page of your online course.",
+    "chunk_index": 106,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "555ae9c7-9aed-485d-acb5-ad4a9bc1229a",
+    "text": "AWS PoPs Edge location Regional edge cache AWS data centers and servers located close to customers and designed to deliver services with the lowest latency possible AWS data centers between the origin server and the edge location that have a longer cache ‹#› |Slide number ‹#› |Instructor notes |The student version doesn't have any notes for this slide. | |Student notes",
+    "chunk_index": 107,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "f52f634b-e580-43ef-93d9-1cd0835094a2",
+    "text": "Key takeaways: AWS Global Infrastructure The AWS Global Infrastructure consists of Regions, Availability Zones, and edge locations. Your choice of a Region is typically based on compliance requirements or to reduce latency. Each Availability Zone is physically separate from other Availability Zones and has redundant power, networking, and connectivity. Edge locations and regional edge caches improve performance by caching content closer to users. ‹#› |Slide number ‹#› |Instructor notes | |Student notes It’s now time to review the module and wrap up with a knowledge check.",
+    "chunk_index": 108,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "aa57a987-cdc8-4e42-9a39-497e414109e0",
+    "text": "Module wrap-up Introducing Cloud Architecting ‹#› |Slide number ‹#› |Instructor notes |The student version doesn't have any notes for this slide. | |Student notes Module summary This module prepared you to do the following: Define cloud architecture. Describe how to design and evaluate architectures using the AWS Well-Architected Framework. Explain best practices for building solutions on AWS. Describe how to make informed decisions about where to place AWS resources. ‹#› |Slide number ‹#› |Instructor notes | |Student notes Use your online course to access the knowledge check for this module.",
+    "chunk_index": 109,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "9f7dccad-e62d-42d9-95b0-814da0475bc8",
+    "text": "Module knowledge check The knowledge check is delivered online in your course. The knowledge check includes 10 questions based on material presented on the slides and in the slide notes. You can retake the knowledge check as many times as you like. ‹#› |Slide number ‹#› |Instructor notes | |Student notes That concludes this module. The content resources page of your course includes links to additional resources that are related to this module.",
+    "chunk_index": 110,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  },
+  {
+    "id": "0cfaff5e-b10e-4740-9819-5f7e88c27377",
+    "text": "Thank you Corrections, feedback, or other questions? Contact us at https://support.aws.amazon.com/#/contacts/aws-academy. ‹#›",
+    "chunk_index": 111,
+    "source_file": "4th_SW_AWS_M02_IntroCloudArch"
+  }
+]

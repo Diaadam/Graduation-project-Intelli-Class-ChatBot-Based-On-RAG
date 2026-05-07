@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dc2ff97e-200f-4d49-ae37-35d131dd32e4",
+    "text": "Chapter Three IEEE 802.3 Ethernet Ethernet is the most widely used local area network. Since its development by Xerox, Intel and digital equipment corporation in 1980. Ethernet has evolved to fast Ethernet from its initial 10 Mbps data rate, (100 Mbps), and now gigabit Ethernet (1000 Mbps). As with other LAN standards. There is both medium access control, MAC, layer and a physical layer, which are considered in turn in what follows 10/30/2021 2",
+    "chunk_index": 0,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "c9fbb320-84de-45ba-99ff-9e38c90032d8",
+    "text": "IEEE 802.3 Medium Access Control (MAC) ♠ One of the most obvious feature of IEEE 802.3 Ethernet is a single transmission medium linking all the stations (DTE). ♠ Consequently, an access method is needed and imposed on all the stations connected to the network to ensure that the transmission medium is accessed and used in a fair way. ♠ In other word, the needed access method should ensure one and only one station can access the transmission medium at a time. This access method is called medium access control, MAC, mechanism. 10/30/2021 3",
+    "chunk_index": 1,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "aef580d3-4c5b-4f10-a8ca-96ca9e82fec9",
+    "text": "Carrier Sense Multiple Access (CSMA) a station wishing to transmit listens to the medium (carrier sense) and obeys the following roles: ♣ If the medium is in use (busy), the station must wait. ♣ If the medium is idle, the station may transmit. ♣ If may happen that two or more stations attempt to transmit at about the same time, there will be collision. the data will not received successfully. ♣ To account for this, a station waits a reasonable amount of time (round trip propagation delay) after transmitting for an acknowledgment. ♣ if there is no acknowledgment, the station assumes that a collision has occurred and retransmits. 10/30/2021 4",
+    "chunk_index": 2,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "5b30d7aa-40c2-4e35-a7b2-7ba871bcc7ca",
+    "text": "Collisions can occur only when more than one user begins transmitting within a short time (the period of the propagation delay). If a station begins to transmit a frame and there are no collisions during the time it takes for the leading edge of the frame to propagate to the farthest station, then there will be no collision for this frame because all other station are now a ware of the transmission. The maximum utilization depends on the length of the frame and on the propagation time; the longer the frames or shorter the propagation time, the higher the utilization. 10/30/2021 5",
+    "chunk_index": 3,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "4f77aa81-c4df-482a-8c1f-1c358e3845e8",
+    "text": "With CSMA, an algorithm is needed to specify what a station should do if the medium is found busy. There are three approaches; non persistent CSMA A station wishing to transmit listens to the medium and obeys the following rules: 1. If the medium is idle, transmit; otherwise, go to step 2. 2. If the medium is busy, wait an amount of time drawn from a probability distribution (the retransmission delay) and repeat step 1. The use of random delays reduces the probability of collisions. To see this, consider that two stations become ready to transmit at about the same time while another transmission is in progress; if both stations delay the same amount of time before trying again, they will both attempt to transmit at about the same time. 10/30/2021 6",
+    "chunk_index": 4,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "01e5273f-a205-40e3-a5e5-f0a311398017",
+    "text": "A problem with non persistent CSMA is that capacity is wasted because the medium will generally remain idle following the end of transmission even if there are one or more stations waiting to transmit. 1- persistent CSMA To avoid idle channel time, the 1 – persistent can be used. A station wishing to transmit listens to the medium and obeys the following rules: 1. If the medium is idle, transmit; otherwise, go to step 2. 2. If the medium is busy, continue to listen until the channel is sensed idle; then transmit immediately. We note that 1-persistent protocol reduces wasted capacity at the expense of high collision probability where as non persistent stations are deferential, 1 – persistent stations are selfish. If two or more stations are waiting to transmit. A collision is guaranteed.",
+    "chunk_index": 5,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "42702aaa-3394-4dbc-a329-83128efd50f3",
+    "text": "P- persistent CSMA A compromise that attempts to reduce collisions, like non persistent, and reduce idle time, like 1-ersistent, is p-persistent, the rules are as follows: 1. If the medium is idle, transmit with probability P and delay one time unit with probability (1-P). The time unit is typically equal to the maximum propagation delay. 2. If the medium is busy, continue to listen until the channel is sensed idle and repeat step 1. 3. If transmission is delayed one time unit, repeat step 1. 10/30/2021 8",
+    "chunk_index": 6,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "a722fa30-1699-40d2-957e-e44759343a35",
+    "text": "The question arises as to what is an effective value of P. The main problem to avoid is one of instability under heavy load. Consider the case in which n stations have frames to send while a transmission is taking place. At the end of the transmission, the average number of stations that will attempt to transmit is given by: If nP is greater than 1, on average multiple stations will attempt to transmit and there will be a collision. What is more, as soon as all these stations realize that their transmission suffered a collision, they will be back again, almost guaranteeing more collisions. 10/30/2021 9",
+    "chunk_index": 7,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "4cdcb7d6-e788-4a3a-a2ec-3d7f110723ca",
+    "text": "Worse yet, these retries will compete with new transmission from other stations, further increasing the probability of collision. Eventually, all stations will be trying to send, causing continuous collisions, with throughput dropping to zero. To avoid this catastrophe, nP must less than one. Therefore, if a heavy load is expected to occurs, P must be small. However, as P is made smaller, stations must wait longer to attempt transmission. at low loads, this can result in very long delays. Carrier Sense Multiple Access Collision Detection ( CSMA/CD ) CSMA still has one glaring inefficiency. When two frames collide, the medium remains unstable for the duration of transmission of both damaged frames. For long frames transmission time, compared to propagation time, the amount of wasted",
+    "chunk_index": 8,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "4c0cb6b4-4205-4ad9-9979-0d1a8b59ed82",
+    "text": "This waste can be reduced if “a station continues to listen to the medium while transmitting”. this leads to the following rules for CSMA/CD. 1.if the medium is idle, transmit; otherwise, go to step 2 2.if the medium is busy, continue to listen until the channel is idle, then transmit immediately. 3.if a collision is detected during transmission, the station ceases transmission of the frame, and transmits a brief jamming signal to ensure that all stations know that there has been a collision. 4.after transmitting the jamming signal, wait a random amount of time, referred to as the back off, then attempt to transmit again (repeat from step1) 10/30/2021 11",
+    "chunk_index": 9,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "6d4b1670-183f-41ca-abb8-637eef6b06ad",
+    "text": "MAC Frame Format MAC frame format as pre IEEE 802.3 standard is shown in the figure below. It consists of the following fields: 2 bytes 4 1 6 6 46 – 1500 Field size 7 Preamble SFD DA SA Length Data Pad FCS Note that: Leftmost bit, (I/G) bit, of DA, indicates whether the address is individual or group address. If it is group address, the frame is accepted by all the members of the group. The second bit from the left, (U/L) bit, indicates whether the address pertains to universal addressing scheme administered by IEEE or it has locally administered address. Destination address containing all 1s is broadcast address. 10/30/2021 12",
+    "chunk_index": 10,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "ebdb57b5-446c-462b-89a2-d5975c396b86",
+    "text": "I/G = 0 for individual address I/G = 1 for group address (multicast) U/L = 0 for global address administered by IEEE U/L = 1 for the locally administered address. IEEE administered addresses consists of two parts. Bytes 0, 1, 2, are assigned by IEEE to each vendor of network components as vendor code. Bytes 3, 4, 5 are used by the vendors for numbering their network components. This IEEE standard address is called MAC address. Pad: if size of the data field is less than 46, the pad field makes up the difference to ensure minimum frame size, this is for proper CD operation. 10/30/2021 13",
+    "chunk_index": 11,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "eaa70937-7456-4b72-8f80-b82e88db68a3",
+    "text": "With CSMA/CD, the amount of wasted capacity is reduced to the time it takes to detect a collision. \"The question, how long does that take?\". The frame should be long enough (i.e. frame transmission time ≥ 2Tp) to allow collision detection prior to the end of transmission. If shorter frames are used, then collision detection does not occur, and CSMA/CD exhibits the same performance as the less efficient CSMA protocol. We can conclude that the maximum length of cable segment is strongly bounded by the frame length and the transmission rate, such that “frame transmission time ≥ 2 Tp”. 10/30/2021 14",
+    "chunk_index": 12,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "5b9f1253-ed0a-438c-bc31-fa1511a5a856",
+    "text": "For baseband bus, a collision should produce substantially higher cottage swings than those produced by a single transmitter. Accordingly, the IEEE standard dictates that the transmitter will detect a collision if the signal on the cable at the transmitter tap point exceeds the maximum that could be produced by the transmitter alone. Because a transmitted signal attenuates as it propagates there is a potential problem. If two stations for apart are transmitting, each station will receive a greatly attenuated signal from the other end. The signal strength could be so small that when it is added to the transmitted signal at the transmitter tap point, the combined signal does not exceed the collision detection threshold. Also for this reason, the IEEE standard restricts the maximum length of",
+    "chunk_index": 13,
+    "source_file": "4th_network1_Chapter_Three"
+  },
+  {
+    "id": "9464fde8-1316-4766-94a5-a0d5d891ae3d",
+    "text": "cable segment to 500m for 10 base 5 and 200m for 10 base 2. 10/30/2021 15",
+    "chunk_index": 14,
+    "source_file": "4th_network1_Chapter_Three"
+  }
+]

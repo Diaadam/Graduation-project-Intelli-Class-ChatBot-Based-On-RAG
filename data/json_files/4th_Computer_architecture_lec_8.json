@@ -1,0 +1,5513 @@
+[
+  {
+    "type": "Title",
+    "element_id": "7d215db59d4608bc88dc5952bbeec055",
+    "text": "Lecture 8 Control Unit \u201cA SIMPLE COMPUTER ARCHITECTURE\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            100.198822,
+            215.02663
+          ],
+          [
+            100.198822,
+            367.22345
+          ],
+          [
+            618.3863219200001,
+            367.22345
+          ],
+          [
+            618.3863219200001,
+            215.02663
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0b351009bc207293f25f8d55f9cbc721",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            106.56259899999998
+          ],
+          [
+            279.06600652,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c9dc0b8e1e94fae86b5003099aed976a",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "42954c1fbc0f7ae7aa3efc831986b061",
+    "text": "In the last lecture, we introduced datapaths for processing data under the supervision of a Control Unit.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            150.34841900000004
+          ],
+          [
+            74.698818,
+            200.59841900000004
+          ],
+          [
+            641.2222582399999,
+            200.59841900000004
+          ],
+          [
+            641.2222582399999,
+            150.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9945f8f3d4430d3ac6a66e3b6702c775",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            235.68435744000004
+          ],
+          [
+            56.10116184,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d8e22f2c65a899f9468801561cf9bfcb",
+    "text": "In this lecture, our focus will be on the design of the control unit.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            212.59842000000003
+          ],
+          [
+            74.698818,
+            262.84842000000003
+          ],
+          [
+            653.87460016,
+            262.84842000000003
+          ],
+          [
+            653.87460016,
+            212.59842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dc7c0b4a287009b4866d56e6e015a53f",
+    "text": "Digital systems can be classified as programmable and nonprogrammable systems depending on the type of control unit.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            273.93435744
+          ],
+          [
+            47.698818,
+            351.34842
+          ],
+          [
+            599.41366268,
+            351.34842
+          ],
+          [
+            599.41366268,
+            273.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "42a4445d3d8b04060baf0d12d374c1e8",
+    "text": "Nonprogrammable systems have inputs, but do not have any mechanism for executing a programs (e.g., fixed Multiplier system).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            362.43435744
+          ],
+          [
+            47.698818,
+            439.84842
+          ],
+          [
+            624.9527242600001,
+            439.84842
+          ],
+          [
+            624.9527242600001,
+            362.43435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1ee63e388021c6d118b1430142901b1a",
+    "text": "Programmable systems are capable of executing programs.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            450.93435744
+          ],
+          [
+            47.698818,
+            475.84842
+          ],
+          [
+            646.2300686199999,
+            475.84842
+          ],
+          [
+            646.2300686199999,
+            450.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 2,
+      "parent_id": "0b351009bc207293f25f8d55f9cbc721",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "49c5bec0d1c56e4bb6ea759127483381",
+    "text": "C.U in a Programmable System",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            602.9214747199999,
+            106.56259899999998
+          ],
+          [
+            602.9214747199999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "774f39d57f2e652f746b28e82a97ef78",
+    "text": "The control unit generates :",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            147.18435644000004
+          ],
+          [
+            47.698818,
+            172.09841900000004
+          ],
+          [
+            342.12069402000003,
+            172.09841900000004
+          ],
+          [
+            342.12069402000003,
+            147.18435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e268bc25b680767c4fda15a7bc059511",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            246.18435744000004
+          ],
+          [
+            47.698818,
+            270.18435744000004
+          ],
+          [
+            56.10116184,
+            270.18435744000004
+          ],
+          [
+            56.10116184,
+            246.18435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e624593c5f2a8186fc4e192f2f2f2310",
+    "text": "Sequence in which the instructions are performed. - Control word that activate the various instructions In a programmable system, a portion of the input to the processor consists of a sequence of instructions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            181.09842000000003
+          ],
+          [
+            74.698818,
+            294.34842000000003
+          ],
+          [
+            617.28866184,
+            294.34842000000003
+          ],
+          [
+            617.28866184,
+            181.09842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0c21680b6a12181924876102b4264825",
+    "text": "Each instruction specifies:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            302.43435744
+          ],
+          [
+            47.698818,
+            327.34842
+          ],
+          [
+            325.87459978,
+            327.34842
+          ],
+          [
+            325.87459978,
+            302.43435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2c67514b60190a01a2eb85dae445e5cd",
+    "text": "An operation the system is to perform, - Which operands to use for the operation, - Where to place the results of the operation,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.698818,
+            336.34842
+          ],
+          [
+            92.698818,
+            426.34842
+          ],
+          [
+            531.8550683200001,
+            426.34842
+          ],
+          [
+            531.8550683200001,
+            336.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dd91d70f7db51dbf8f9d6a72d2007f2f",
+    "text": "And/or,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.698818,
+            435.34842
+          ],
+          [
+            71.698818,
+            459.34842
+          ],
+          [
+            165.42538127999998,
+            459.34842
+          ],
+          [
+            165.42538127999998,
+            435.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "parent_id": "49c5bec0d1c56e4bb6ea759127483381",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "45a10e5be10042fb43b49afc99179169",
+    "text": "in some cases, which instruction to",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            178.57381800000002,
+            435.34842
+          ],
+          [
+            178.57381800000002,
+            459.34842
+          ],
+          [
+            559.5972555,
+            459.34842
+          ],
+          [
+            559.5972555,
+            435.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "34fbe39c8b83aa0caca827109d0a2c6e",
+    "text": "next.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            458.59842
+          ],
+          [
+            56.698818,
+            482.59842
+          ],
+          [
+            105.4488182,
+            482.59842
+          ],
+          [
+            105.4488182,
+            458.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "23a3941b00fcda96bdac5ffcbf9668fc",
+    "text": "execute",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            588.448818,
+            435.34842
+          ],
+          [
+            588.448818,
+            459.34842
+          ],
+          [
+            664.21053696,
+            459.34842
+          ],
+          [
+            664.21053696,
+            435.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "23cceb5208a3a0c9afdd91b12e064148",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 4,
+      "parent_id": "23a3941b00fcda96bdac5ffcbf9668fc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2e5607533961842068ee3ef1a31c3b67",
+    "text": "To execute the instructions in sequence, it is necessary to provide the address in memory of the instruction to be executed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            652.447290656145,
+            238.3484168
+          ],
+          [
+            652.447290656145,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 4,
+      "parent_id": "23a3941b00fcda96bdac5ffcbf9668fc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "42fdc66dcaae200bac44f08f4b8c4287",
+    "text": "In a computer, this address comes from a register called the program counter (PC).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            639.946010316094,
+            308.84842484
+          ],
+          [
+            639.946010316094,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 4,
+      "parent_id": "23a3941b00fcda96bdac5ffcbf9668fc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ea512136b2529f7fb8b0544ad2be374b",
+    "text": "So, in the case of a programmable system, the control unit contains a PC and associated decision logic, as well as the necessary logic to interpret the instruction in order to execute it.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            439.34844164000003
+          ],
+          [
+            651.4817808589038,
+            439.34844164000003
+          ],
+          [
+            651.4817808589038,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 4,
+      "parent_id": "23a3941b00fcda96bdac5ffcbf9668fc",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "97b66b4310812ff5b1f7022e9d229e9a",
+    "text": "C.U In a Nonprogrammable System",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.93759899999998
+          ],
+          [
+            56.698818,
+            104.93759899999998
+          ],
+          [
+            651.1363185600001,
+            104.93759899999998
+          ],
+          [
+            651.1363185600001,
+            62.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1f0f302ee575afa305dfc18a9d59c83f",
+    "text": "In contrast to the preceding, note that for a nonprogrammable system, the control unit is not responsible for obtaining instructions from memory, nor is it responsible for sequencing the execution of those instructions.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            298.34842260000005
+          ],
+          [
+            630.1079182591219,
+            298.34842260000005
+          ],
+          [
+            630.1079182591219,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 5,
+      "parent_id": "97b66b4310812ff5b1f7022e9d229e9a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "98d5e51cd10ffbb5d4bf132085a93ce7",
+    "text": "There is no PC or similar register in such a system. \u2022 Instead, the control unit determines the operations to be performed and the sequence of those operations, based on only its inputs and the status bits.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            309.78202895734375
+          ],
+          [
+            46.38302830504534,
+            469.34844164000003
+          ],
+          [
+            641.8265999968346,
+            469.34844164000003
+          ],
+          [
+            641.8265999968346,
+            309.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 5,
+      "parent_id": "97b66b4310812ff5b1f7022e9d229e9a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c8e2f106ed80e8211a8d9f0b97334522",
+    "text": "C.U Design Approaches",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            470.13436732,
+            106.56259899999998
+          ],
+          [
+            470.13436732,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ea7d8dd23479d0b2a501600c6b50bd52",
+    "text": "There are two different approaches to design a control unit:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            174.34841900000004
+          ],
+          [
+            654.8863196799999,
+            174.34841900000004
+          ],
+          [
+            654.8863196799999,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "parent_id": "c8e2f106ed80e8211a8d9f0b97334522",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "4caba93fb725a6a3aa85d29c86f5d426",
+    "text": "(cid:0)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.698818,
+            230.02842000000004
+          ],
+          [
+            41.698818,
+            254.02842000000004
+          ],
+          [
+            56.098818,
+            254.02842000000004
+          ],
+          [
+            56.098818,
+            230.02842000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "parent_id": "c8e2f106ed80e8211a8d9f0b97334522",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ddcc819a5967338b5ba7cdfad80511b5",
+    "text": "A Hardwired Control Unit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            110.698818,
+            222.34842000000003
+          ],
+          [
+            110.698818,
+            246.34842000000003
+          ],
+          [
+            361.25350598,
+            246.34842000000003
+          ],
+          [
+            361.25350598,
+            222.34842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c0cf01b5d0e9b6a3456c86035494b81f",
+    "text": "(cid:0)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            41.698818,
+            266.02842000000004
+          ],
+          [
+            41.698818,
+            290.02842000000004
+          ],
+          [
+            56.098818,
+            290.02842000000004
+          ],
+          [
+            56.098818,
+            266.02842000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "parent_id": "ddcc819a5967338b5ba7cdfad80511b5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "85156b1c00b284e4662a76a7b6854f8a",
+    "text": "Microprogrammed Control Unit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            110.698818,
+            258.34842000000003
+          ],
+          [
+            110.698818,
+            282.34842000000003
+          ],
+          [
+            423.25350597999994,
+            282.34842000000003
+          ],
+          [
+            423.25350597999994,
+            258.34842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4ade933c1dad76248016441c206a4fe4",
+    "text": "Instruction Set Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            558.66952478,
+            106.56259899999998
+          ],
+          [
+            558.66952478,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "023a0132cc3cdb7cccc88f4187757fc6",
+    "text": "The control unit reads an instruction from memory , decodes, and executes the instruction by issuing a sequence of one or more microoperations. \u2022 Simple instruction set architectures have three major components:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            308.84842484
+          ],
+          [
+            654.8695692854499,
+            308.84842484
+          ],
+          [
+            654.8695692854499,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 7,
+      "parent_id": "4ade933c1dad76248016441c206a4fe4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5897e638f2982c3540d3e46780435db9",
+    "text": "the storage resources, - the instruction formats, - and the instruction specifications.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            321.34843532
+          ],
+          [
+            92.69882308000001,
+            430.34843644
+          ],
+          [
+            490.1567464996956,
+            430.34843644
+          ],
+          [
+            490.1567464996956,
+            321.34843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 7,
+      "parent_id": "4ade933c1dad76248016441c206a4fe4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b9b1e47561518f5de0791b4888d69e9",
+    "text": "Storage Resources for a simple computer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            81.448818,
+            38.93759899999998
+          ],
+          [
+            81.448818,
+            130.18759899999998
+          ],
+          [
+            638.1773358799999,
+            130.18759899999998
+          ],
+          [
+            638.1773358799999,
+            38.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88fc85692d3717316819ad5aa65c90b1",
+    "text": "Instruction Formats",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            413.57186568000003,
+            106.56259899999998
+          ],
+          [
+            413.57186568000003,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "369dec3888540866025a266dd38e807a",
+    "text": "The opcode of an instruction specifies the operation to be performed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            549.1369406340758,
+            208.34841339999997
+          ],
+          [
+            549.1369406340758,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 9,
+      "parent_id": "88fc85692d3717316819ad5aa65c90b1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2b1c080cc26802a06765a82a2d5ddccd",
+    "text": "The operation must be performed using data stored in computer registers or in memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            583.6400413466137,
+            278.84842484
+          ],
+          [
+            583.6400413466137,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 9,
+      "parent_id": "88fc85692d3717316819ad5aa65c90b1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "972c9a29e6d85aca21bb83505b54574d",
+    "text": "An instruction, therefore, must specify not only the operation, but also the registers or memory words in which the operands are to be found and the result is to be placed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            290.28202895734375
+          ],
+          [
+            46.38302830504534,
+            409.34844164000003
+          ],
+          [
+            655.3438427858002,
+            409.34844164000003
+          ],
+          [
+            655.3438427858002,
+            290.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 9,
+      "parent_id": "88fc85692d3717316819ad5aa65c90b1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c9242eeb814e2111a4ac09321dcd61b6",
+    "text": "Instruction formats for the simple computer",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            58.788071
+          ],
+          [
+            56.698818,
+            90.788071
+          ],
+          [
+            639.69881804,
+            90.788071
+          ],
+          [
+            639.69881804,
+            58.788071
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "60249868ab3bd5a189e00c18b83f404e",
+    "text": "Consider that we have three instruction formats:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            130.74942451734375
+          ],
+          [
+            46.38302830504534,
+            159.815832
+          ],
+          [
+            626.259992190722,
+            159.815832
+          ],
+          [
+            626.259992190722,
+            130.74942451734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 10,
+      "parent_id": "c9242eeb814e2111a4ac09321dcd61b6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5f66df40043a8ca051d2bd5cc1e5985c",
+    "text": "Register Addressing Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            522.53280498,
+            106.56259899999998
+          ],
+          [
+            522.53280498,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7cb93a80436eb60ea5ae45ff8d1a5bc5",
+    "text": "Suppose that the computer has a register file consisting of eight registers, R0 through R7.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            200.59841900000004
+          ],
+          [
+            639.67928762,
+            200.59841900000004
+          ],
+          [
+            639.67928762,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 11,
+      "parent_id": "5f66df40043a8ca051d2bd5cc1e5985c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "20e13f5c4cddadf6e5a1700fa594b550",
+    "text": "The instruction format in Figure (a) consists of an opcode that specifies the use of three or fewer registers, as needed.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            262.84842000000003
+          ],
+          [
+            657.4097562799999,
+            262.84842000000003
+          ],
+          [
+            657.4097562799999,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 11,
+      "parent_id": "5f66df40043a8ca051d2bd5cc1e5985c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6dd0e4fe0f62b02978aff2ee27ebc20b",
+    "text": "For example, for a subtraction operation, suppose that the three bits in SA are 010, specifying R2, the three bits in SB are 011, specifying R3, and the three bits in DR are 001, specifying R1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            273.93435744
+          ],
+          [
+            47.698818,
+            377.59842
+          ],
+          [
+            642.2886626400001,
+            377.59842
+          ],
+          [
+            642.2886626400001,
+            273.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 11,
+      "parent_id": "5f66df40043a8ca051d2bd5cc1e5985c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "37a90bd7bb8d4331dd34d8e8a3866b1c",
+    "text": "Then the contents of R3 will be subtracted from the contents of R2, and the result will be placed in R1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            388.68435744
+          ],
+          [
+            47.698818,
+            439.84842
+          ],
+          [
+            577.5386618400001,
+            439.84842
+          ],
+          [
+            577.5386618400001,
+            388.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 11,
+      "parent_id": "5f66df40043a8ca051d2bd5cc1e5985c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0911b8ee4d52631ba4b4dcd3d18aaa39",
+    "text": "Immediate Addressing Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            571.5328056800001,
+            106.56259899999998
+          ],
+          [
+            571.5328056800001,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f5536e146b4db77ca7d2a2e340b2bfac",
+    "text": "The instruction format in Figure (b) has an opcode, two register fields, and an operand.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            200.59841900000004
+          ],
+          [
+            610.3277245,
+            200.59841900000004
+          ],
+          [
+            610.3277245,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 12,
+      "parent_id": "0911b8ee4d52631ba4b4dcd3d18aaa39",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "004a0d34ad527034c023291149b5edbc",
+    "text": "The operand is a constant called an immediate operand, since it is immediately available in the instruction. \u2022 For example, for an add immediate operation with SA",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            211.68435744000004
+          ],
+          [
+            47.698818,
+            298.84842
+          ],
+          [
+            619.93709928,
+            298.84842
+          ],
+          [
+            619.93709928,
+            211.68435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 12,
+      "parent_id": "0911b8ee4d52631ba4b4dcd3d18aaa39",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "42e36f1f89dbb5a86a77e18f80b0e168",
+    "text": "specified as R7, DR specified as R2, and operand OP equal to 011, the value 3 is added to the contents of R7, and the result of the addition is placed in R2.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            301.09842
+          ],
+          [
+            74.698818,
+            377.59842
+          ],
+          [
+            639.53866184,
+            377.59842
+          ],
+          [
+            639.53866184,
+            301.09842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 12,
+      "parent_id": "0911b8ee4d52631ba4b4dcd3d18aaa39",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8354fc7feb7cc44021936c3663d62ee6",
+    "text": "Jump & Branch Mode",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            441.53280268,
+            106.56259899999998
+          ],
+          [
+            441.53280268,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a654a87c03451ab37a2e61719559de6f",
+    "text": "The instruction format in Figure (c), in contrast to the other two formats, does not change any register file or memory contents.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            226.84841900000004
+          ],
+          [
+            650.3120998799999,
+            226.84841900000004
+          ],
+          [
+            650.3120998799999,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "153137fd2512482d4c65eb75b083b6c1",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            237.93435744000004
+          ],
+          [
+            47.698818,
+            261.93435744000004
+          ],
+          [
+            56.10116184,
+            261.93435744000004
+          ],
+          [
+            56.10116184,
+            237.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bc7068679a2d7995da304b138fea0aca",
+    "text": "Instead, it affects the order in which the instructions are fetched from memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            238.84842000000003
+          ],
+          [
+            74.698818,
+            289.09842000000003
+          ],
+          [
+            625.1871012600001,
+            289.09842000000003
+          ],
+          [
+            625.1871012600001,
+            238.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5586a56399f579cbc8abf3ded8e1b2e9",
+    "text": "The example format given in Figure (c) for jump and branch instructions has an operation code, one register field SA, and a split address field AD.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            377.59842
+          ],
+          [
+            651.04647602,
+            377.59842
+          ],
+          [
+            651.04647602,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ce8390bfedb89ac0248f2bbd9101d943",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            388.68435744
+          ],
+          [
+            47.698818,
+            412.68435744
+          ],
+          [
+            56.10116184,
+            412.68435744
+          ],
+          [
+            56.10116184,
+            388.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c26ed6684a3e1085111283d8f0d4fbde",
+    "text": "If a branch is to occur, the new address is formed by adding the current PC contents and the contents of the 6-bit address field.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            389.59842
+          ],
+          [
+            74.698818,
+            466.09842
+          ],
+          [
+            655.82772588,
+            466.09842
+          ],
+          [
+            655.82772588,
+            389.59842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 13,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "56e1ae5880581644f6e73809544efa34",
+    "text": "Cont., \u2022 This addressing method is called PC relative and the 6-bit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            40.34787399999999
+          ],
+          [
+            47.698818,
+            127.641884
+          ],
+          [
+            629.3667868599999,
+            127.641884
+          ],
+          [
+            629.3667868599999,
+            40.34787399999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "46ef41a816b76531bd4ef2661813518a",
+    "text": "address field, referred to as an address offset, is treated as a signed 2s complement number.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            129.891884
+          ],
+          [
+            74.698818,
+            180.141884
+          ],
+          [
+            642.3316313599998,
+            180.141884
+          ],
+          [
+            642.3316313599998,
+            129.891884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4cdeac8aa3322a5297dd39ab4348b97b",
+    "text": "To preserve the 2s complement representation, sign extension is applied to the 6-bit address to form a 16-bit offset before the addition.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            191.22781744000002
+          ],
+          [
+            47.698818,
+            268.64188
+          ],
+          [
+            619.7808500200001,
+            268.64188
+          ],
+          [
+            619.7808500200001,
+            191.22781744000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0f576bdadec8d0b35b32feb8d76a6679",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            279.72781744
+          ],
+          [
+            47.698818,
+            303.72781744
+          ],
+          [
+            56.10116184,
+            303.72781744
+          ],
+          [
+            56.10116184,
+            279.72781744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "65e3715b8810667ee7ccad07caafb4a6",
+    "text": "If the leftmost bit of the address field AD after converting it to its 2\u2019s complement form is 1, then the 10 bits to its left are filled with 1s to give a negative 2s complement offset.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            280.64188
+          ],
+          [
+            74.698818,
+            357.14188
+          ],
+          [
+            650.24569432,
+            357.14188
+          ],
+          [
+            650.24569432,
+            280.64188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9fccb5cfbf6139aa4c5646780a6c2414",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            368.22781744
+          ],
+          [
+            47.698818,
+            392.22781744
+          ],
+          [
+            56.10116184,
+            392.22781744
+          ],
+          [
+            56.10116184,
+            368.22781744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d2a7e9d0e27f96e05c4fefe01ee18f2d",
+    "text": "If the leftmost bit of the address field after 2\u2019s complement is 0, means the then the 10 bits to its left are filled with 0s to give a positive 2s complement offset (2\u2019s complement of 2\u2019s complement).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            369.14188
+          ],
+          [
+            74.698818,
+            471.89188
+          ],
+          [
+            649.0738189599999,
+            471.89188
+          ],
+          [
+            649.0738189599999,
+            369.14188
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "parent_id": "8354fc7feb7cc44021936c3663d62ee6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Footer",
+    "element_id": "f62f7ce6fcfe8981ca28655c892a9675",
+    "text": "\u2022 The offset is added to the contents of the PC to form the location from which the next instruction is to be fetched.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            482.97781744
+          ],
+          [
+            47.698818,
+            534.14188
+          ],
+          [
+            626.3511620799999,
+            534.14188
+          ],
+          [
+            626.3511620799999,
+            482.97781744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b3c454ecf941e50367081f207bbd677c",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            106.56259899999998
+          ],
+          [
+            207.78280275999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "082c2d38ea83b9d537e43e48f6e7e40e",
+    "text": "With the PC value equal to 55, suppose that a branch is to occur to location 35 if the contents of R6 is equal to zero. \u2022 The opcode would specify a branch-on-zero instruction (JZ), SA would be specified as R6, and AD would be the 6-bit, 2s complement representation of \u201320.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            146.59196757010943
+          ],
+          [
+            47.7738203439166,
+            271.798415035
+          ],
+          [
+            649.3038424351278,
+            271.798415035
+          ],
+          [
+            649.3038424351278,
+            146.59196757010943
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 15,
+      "parent_id": "b3c454ecf941e50367081f207bbd677c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "efaf1aad472c60bf26d4f9212f36050e",
+    "text": "+20D = 000000000 010 100 \u2022 2\u2019s complement of 20D = 1111111111 101 100 \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            280.0919652351094
+          ],
+          [
+            47.7738203439166,
+            369.89196675510937
+          ],
+          [
+            534.328607574672,
+            369.89196675510937
+          ],
+          [
+            534.328607574672,
+            280.0919652351094
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 15,
+      "parent_id": "b3c454ecf941e50367081f207bbd677c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4da9b0e8462b07047f69d936244dee9b",
+    "text": "If R6 is zero, then PC contents becomes 55 + (\u2013 20) = 35, and the next instruction will be fetched from address 35.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69882514,
+            346.99841066500005
+          ],
+          [
+            74.69882514,
+            393.29841361
+          ],
+          [
+            656.0285528353139,
+            393.29841361
+          ],
+          [
+            656.0285528353139,
+            346.99841066500005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 15,
+      "parent_id": "b3c454ecf941e50367081f207bbd677c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "be7b642d5f442fda215261b759272247",
+    "text": "Otherwise, if R6 is nonzero, the PC will count up to 56, and the next instruction will be fetched from address 56.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.7738203439166,
+            401.5919652351094
+          ],
+          [
+            47.7738203439166,
+            448.79841361
+          ],
+          [
+            640.6577432816082,
+            448.79841361
+          ],
+          [
+            640.6577432816082,
+            401.5919652351094
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 15,
+      "parent_id": "b3c454ecf941e50367081f207bbd677c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0d53ee788332a482269faa49343704e3",
+    "text": "Instruction Specifications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            515.57186612,
+            106.56259899999998
+          ],
+          [
+            515.57186612,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7c7b661255d1f9d718f2dd9d6a911eb1",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            173.43435644000004
+          ],
+          [
+            56.10116184,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "parent_id": "0d53ee788332a482269faa49343704e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "79b8e40a5ebdf41a919ad459c98441f5",
+    "text": "Instruction specifications describe each of the distinct instructions that can be executed by the system. \u2022 For each instruction, the opcode is given along with a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            150.34841900000004
+          ],
+          [
+            47.698818,
+            236.59842000000003
+          ],
+          [
+            597.2769447400001,
+            236.59842000000003
+          ],
+          [
+            597.2769447400001,
+            150.34841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "parent_id": "0d53ee788332a482269faa49343704e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f00fd5cd6ce1110480782d243592be18",
+    "text": "shorthand name called a mnemonic, which can be used as a symbolic representation for the opcode.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            238.84842000000003
+          ],
+          [
+            74.698818,
+            289.09842000000003
+          ],
+          [
+            640.5816301599999,
+            289.09842000000003
+          ],
+          [
+            640.5816301599999,
+            238.84842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "parent_id": "0d53ee788332a482269faa49343704e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "215d1bf48d82abce14a4eaa7c21464bb",
+    "text": "This symbolic representation is then converted to the binary representation of the instruction by a program called an assembler.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            377.59842
+          ],
+          [
+            655.7105374399999,
+            377.59842
+          ],
+          [
+            655.7105374399999,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "parent_id": "0d53ee788332a482269faa49343704e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb46b8f2fec7f4cc8b9023e4335b010b",
+    "text": "The instruction specifications for the simple computer are given in Table 8.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            388.68435744
+          ],
+          [
+            47.698818,
+            439.84842
+          ],
+          [
+            636.1870999600001,
+            439.84842
+          ],
+          [
+            636.1870999600001,
+            388.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 16,
+      "parent_id": "0d53ee788332a482269faa49343704e3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+    "text": "Note",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            144.46248996,
+            106.56259899999998
+          ],
+          [
+            144.46248996,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1d5d61d53930a04cc520328d22353804",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            48.6321524,
+            148.76052832000005
+          ],
+          [
+            48.6321524,
+            170.76052832000005
+          ],
+          [
+            56.334300920000004,
+            170.76052832000005
+          ],
+          [
+            56.334300920000004,
+            148.76052832000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "parent_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9637ec54efb7a3b360500b4ad0dbfcfc",
+    "text": "If a branch is taken, then the new PC value is the sum of the previous PC value and the sign-extended address offset, Otherwise, the PC is incremented by 1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            149.59841900000004
+          ],
+          [
+            74.698818,
+            219.59841900000004
+          ],
+          [
+            607.3081346399998,
+            219.59841900000004
+          ],
+          [
+            607.3081346399998,
+            149.59841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "parent_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "019092c1196d26cb260348839758134a",
+    "text": "A jump occurs if bit 13 in the instruction equal to 1. \u2022 For bit 13 equal to 0, a conditional branch occurs.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            48.6321524,
+            231.26052932000005
+          ],
+          [
+            48.6321524,
+            287.84842000000003
+          ],
+          [
+            531.4048734200001,
+            287.84842000000003
+          ],
+          [
+            531.4048734200001,
+            231.26052932000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "parent_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "da2d5ff72ccf8e6f88b0b1b0aed5119e",
+    "text": "The status bit that is the condition for the branch is selected by bit 9 of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            48.6321524,
+            298.76052932
+          ],
+          [
+            48.6321524,
+            344.84842
+          ],
+          [
+            636.1099512399999,
+            344.84842
+          ],
+          [
+            636.1099512399999,
+            298.76052932
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "parent_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3839ed84d47f6553b62c23b3cc327863",
+    "text": "For bit 9 equal to 1, N is selected and, for bit 9 equal to 0, Z is selected.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            48.6321524,
+            356.51052932
+          ],
+          [
+            48.6321524,
+            402.59842
+          ],
+          [
+            621.4873914599999,
+            402.59842
+          ],
+          [
+            621.4873914599999,
+            356.51052932
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 18,
+      "parent_id": "085c1046d04bdd1e9fbe5c7743d08cc5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "63d503d35ba640f37bd6a2dad76709f2",
+    "text": "Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            47.13047
+          ],
+          [
+            56.698818,
+            91.13047
+          ],
+          [
+            207.78280275999998,
+            91.13047
+          ],
+          [
+            207.78280275999998,
+            47.13047
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "80a161de6076dc5cbd1ed543185986f0",
+    "text": "Suppose that we have a memory with 16 bits per word and that the opcode contains 7 bits.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            116.29302244000002
+          ],
+          [
+            47.698818,
+            167.457085
+          ],
+          [
+            648.4136629800001,
+            167.457085
+          ],
+          [
+            648.4136629800001,
+            116.29302244000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1c15ef7b8789067013267a3cf6b815a3",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            178.54302944
+          ],
+          [
+            47.698818,
+            202.54302944
+          ],
+          [
+            56.10116184,
+            202.54302944
+          ],
+          [
+            56.10116184,
+            178.54302944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6e66e8eaac9909bd8d1248c16f0d32c3",
+    "text": "Instructions and data, in binary, are placed in memory, as shown in Table 9.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            179.457092
+          ],
+          [
+            74.698818,
+            229.707092
+          ],
+          [
+            629.5816319599999,
+            229.707092
+          ],
+          [
+            629.5816319599999,
+            179.457092
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8c34135dc3442e8e6bfb3f93b7a726dd",
+    "text": "This stored information represents the four instructions illustrating the distinct formats.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            240.79302744
+          ],
+          [
+            47.698818,
+            291.95709
+          ],
+          [
+            614.29647582,
+            291.95709
+          ],
+          [
+            614.29647582,
+            240.79302744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2b5b218c45dc5fb3df60cffd1a0a0f46",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            303.04302744
+          ],
+          [
+            47.698818,
+            327.04302744
+          ],
+          [
+            56.10116184,
+            327.04302744
+          ],
+          [
+            56.10116184,
+            303.04302744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "84756928fb9ca3da92c355932b785e8f",
+    "text": "In memory location 35 is a register format instruction to store the contents of R5 in the memory location specified by R4.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            303.95709
+          ],
+          [
+            74.698818,
+            380.45709
+          ],
+          [
+            633.6753798599999,
+            380.45709
+          ],
+          [
+            633.6753798599999,
+            303.95709
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8258eeb735ff99223a17088a205e2a84",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            391.54302744
+          ],
+          [
+            47.698818,
+            415.54302744
+          ],
+          [
+            56.10116184,
+            415.54302744
+          ],
+          [
+            56.10116184,
+            391.54302744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "51e32f8ab03cdb75796f0b918694e74d",
+    "text": "In location 55, the branch instruction previously described appears.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            392.45709
+          ],
+          [
+            74.698818,
+            442.70709
+          ],
+          [
+            639.8199111399999,
+            442.70709
+          ],
+          [
+            639.8199111399999,
+            392.45709
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "fd43940ee7ebad9d326f22f5c4609f56",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            453.79302744
+          ],
+          [
+            47.698818,
+            477.79302744
+          ],
+          [
+            56.10116184,
+            477.79302744
+          ],
+          [
+            56.10116184,
+            453.79302744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e7944f9200fef8c9ae6c6cc0e532e498",
+    "text": "The opcode for this instruction is 96, and source register A is specified as R6.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            454.70709
+          ],
+          [
+            74.698818,
+            504.95709
+          ],
+          [
+            646.5855367199999,
+            504.95709
+          ],
+          [
+            646.5855367199999,
+            454.70709
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 19,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6fd404ecff87207f914043a3d07d7a90",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "dedfe73f7359b8c53b1fd06c302c50e4",
+    "text": "Note that AD (Left) contains 101 and AD (Right) contains",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            174.34841900000004
+          ],
+          [
+            621.4371009399999,
+            174.34841900000004
+          ],
+          [
+            621.4371009399999,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "179dea5b2ca3dedfc74915c127210564",
+    "text": "100. Putting these two together and applying sign extension, we obtain 1111111111101100, which represents -20 in 2s complement.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            176.59841900000004
+          ],
+          [
+            74.698818,
+            253.09841900000004
+          ],
+          [
+            655.4331936799999,
+            253.09841900000004
+          ],
+          [
+            655.4331936799999,
+            176.59841900000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3dddb056ef31ef1591e28f686663884e",
+    "text": "Notice our assumption that the addition to the PC content occurs before the PC has been incremented, which would be the case in the simple computer. In real systems, however, the PC has sometimes been incremented to point to the next instruction in memory.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            264.18435744000004
+          ],
+          [
+            47.698818,
+            403.84842
+          ],
+          [
+            641.83944336,
+            403.84842
+          ],
+          [
+            641.83944336,
+            264.18435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9658951197c525fe4fe9b8e1338121e3",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            352.68435744
+          ],
+          [
+            47.698818,
+            376.68435744
+          ],
+          [
+            56.10116184,
+            376.68435744
+          ],
+          [
+            56.10116184,
+            352.68435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7df2b44b79a1117f12248f469e01d787",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            414.93435744
+          ],
+          [
+            47.698818,
+            438.93435744
+          ],
+          [
+            56.10116184,
+            438.93435744
+          ],
+          [
+            56.10116184,
+            414.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bfdd43113994d5989cee134ab4c069cf",
+    "text": "In such a case, the value stored in AD needs to be adjusted accordingly to obtain the right branch address, in this case, -19.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            415.84842
+          ],
+          [
+            74.698818,
+            492.34842
+          ],
+          [
+            646.4605379,
+            492.34842
+          ],
+          [
+            646.4605379,
+            415.84842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 20,
+      "parent_id": "63d503d35ba640f37bd6a2dad76709f2",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "29c4080c985e16a5a34326e070b683ff",
+    "text": "SINGLE-CYCLE HARDWIRED CONTROL",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            41.93759899999998
+          ],
+          [
+            56.698818,
+            125.43759899999998
+          ],
+          [
+            503.67538,
+            125.43759899999998
+          ],
+          [
+            503.67538,
+            41.93759899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aae1c37b1d34191efcec66e42ee8259d",
+    "text": "The single-cycle computer is a computer that has a hardwired control unit that fetches and executes an instruction in a single clock cycle.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            226.84841900000004
+          ],
+          [
+            576.8042881599999,
+            226.84841900000004
+          ],
+          [
+            576.8042881599999,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "parent_id": "29c4080c985e16a5a34326e070b683ff",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f3ff84ce21638440f6fab6ebfa955db7",
+    "text": "The Datapath has m = 3 (register file is 8 registers) and n = 16.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            237.93435744000004
+          ],
+          [
+            47.698818,
+            289.09842000000003
+          ],
+          [
+            639.4019431199999,
+            289.09842000000003
+          ],
+          [
+            639.4019431199999,
+            237.93435744000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "parent_id": "29c4080c985e16a5a34326e070b683ff",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5425de904d6e78e484c5b7bf379db12b",
+    "text": "The data memory M is attached to the Address out, Data out, and Data in by connections to the datapath.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            300.18435744
+          ],
+          [
+            47.698818,
+            351.34842
+          ],
+          [
+            627.73006874,
+            351.34842
+          ],
+          [
+            627.73006874,
+            300.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "parent_id": "29c4080c985e16a5a34326e070b683ff",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3b0017954f213e828f0e7d4b0e19eb50",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            362.43435744
+          ],
+          [
+            47.698818,
+            386.43435744
+          ],
+          [
+            56.10116184,
+            386.43435744
+          ],
+          [
+            56.10116184,
+            362.43435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "parent_id": "29c4080c985e16a5a34326e070b683ff",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "26d9b10ed81d02b7cd0b4efaa09c9c50",
+    "text": "It has a single control signal MW, which is 1 to write the memory, and 0 otherwise.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            363.34842
+          ],
+          [
+            74.698818,
+            413.59842
+          ],
+          [
+            619.2886622400001,
+            413.59842
+          ],
+          [
+            619.2886622400001,
+            363.34842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 22,
+      "parent_id": "29c4080c985e16a5a34326e070b683ff",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d5ae305bdca71b2a5121ede9f8788714",
+    "text": "Cont.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            151.91952139999998,
+            106.56259899999998
+          ],
+          [
+            151.91952139999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "121c65c2e7adf764a26d0a749cda6202",
+    "text": "The Control unit appears on the left. \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            209.43435744000004
+          ],
+          [
+            427.3589744200001,
+            209.43435744000004
+          ],
+          [
+            427.3589744200001,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4c8bdffc447c1e2ec9b87e638f004369",
+    "text": "the instruction memory, together with its address inputs and instruction outputs, is shown for convenience within the control unit.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            186.34842000000003
+          ],
+          [
+            74.698818,
+            262.84842000000003
+          ],
+          [
+            627.1285070199999,
+            262.84842000000003
+          ],
+          [
+            627.1285070199999,
+            186.34842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a4adc95a6e9452883704ea85e5bbd9e5",
+    "text": "We do not write to the instruction memory during the execution of a program.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            273.93435744
+          ],
+          [
+            47.698818,
+            325.09842
+          ],
+          [
+            601.28866144,
+            325.09842
+          ],
+          [
+            601.28866144,
+            273.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "06cc6ee018872c5beeae6b5dd8dc29e6",
+    "text": "The PC provides the instruction address to the instruction memory, and the instruction output from the instruction memory goes to the control logic, which in this case is the instruction decoder.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            336.18435744
+          ],
+          [
+            47.698818,
+            439.84842
+          ],
+          [
+            636.28866204,
+            439.84842
+          ],
+          [
+            636.28866204,
+            336.18435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9a0070f6861f5328ad14b3ca3f29cba4",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            450.93435744
+          ],
+          [
+            47.698818,
+            474.93435744
+          ],
+          [
+            56.10116184,
+            474.93435744
+          ],
+          [
+            56.10116184,
+            450.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "96e85d408fec4ffa5360a84c42773f04",
+    "text": "If a jump occurs, the new PC value becomes the value on Bus A.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            451.84842
+          ],
+          [
+            74.698818,
+            502.09842
+          ],
+          [
+            633.21444372,
+            502.09842
+          ],
+          [
+            633.21444372,
+            451.84842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 24,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "295e47dac3cdce25c3ad133ebb742450",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 25,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ad042161757c9be9d21b349c74136271",
+    "text": "The output from the instruction memory also goes to Extend and Zero fill, which provide the address offset to the PC and the constant input.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            238.3484168
+          ],
+          [
+            648.7200540063659,
+            238.3484168
+          ],
+          [
+            648.7200540063659,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 25,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d1995df39e373f7e84769ba137b7e31e",
+    "text": "The PC is updated in each clock cycle. \u2022 The behavior of the PC is determined by the opcode, N, and Z, since C and V are not used in this control-unit design.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            249.78200895734375
+          ],
+          [
+            46.38302830504534,
+            379.34844324
+          ],
+          [
+            656.6303929231437,
+            379.34844324
+          ],
+          [
+            656.6303929231437,
+            249.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 25,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a57fadecdc1ff57258b1b17f0bce2e63",
+    "text": "there is no sequential logic in the control part other than the PC.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            390.78202895734375
+          ],
+          [
+            46.38302830504534,
+            449.84843484
+          ],
+          [
+            591.2043600891866,
+            449.84843484
+          ],
+          [
+            591.2043600891866,
+            390.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 25,
+      "parent_id": "d5ae305bdca71b2a5121ede9f8788714",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+    "text": "Instruction Decoder",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            417.851163,
+            106.56259899999998
+          ],
+          [
+            417.851163,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7edb457d57069a12c703c233fb2a08a0",
+    "text": "The instruction decoder is a combinational circuit that provides all of the control words for the datapath, based on the contents of the fields of the instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            634.1925079742297,
+            268.34841919999997
+          ],
+          [
+            634.1925079742297,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 26,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e0e1194d6bab9b75e1bf5ea79e3cf7d0",
+    "text": "The following figure shows the Truth table for Instruction Decoder.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            590.9120647754256,
+            338.84843484
+          ],
+          [
+            590.9120647754256,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 26,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "94203a963460ba6e282465b7898a11ce",
+    "text": "Where,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            188.48983348,
+            106.56259899999998
+          ],
+          [
+            188.48983348,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 29,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4171e8f110de3846b072f839873d78a9",
+    "text": "the control-word fields DA, AA, and BA are equal to the instruction fields DR, SA, and SB, respectively.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            655.6762116239225,
+            208.34841339999997
+          ],
+          [
+            655.6762116239225,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 29,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6986cef68f6371e58ac3b997a0ea7ad8",
+    "text": "Since , this design uses only two status flags, N, and Z, therefore, BC is taken from bit #9 only. \u2022 The bits 15:13 , are used for Instruction Function type.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            349.34843484
+          ],
+          [
+            625.9733530413254,
+            349.34843484
+          ],
+          [
+            625.9733530413254,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 29,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9f9c4796b2a7a832d053b0901a68392d",
+    "text": "The remaining control-word fields include datapath and data memory control bits MB, MD, RW, and MW.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            360.78202895734375
+          ],
+          [
+            46.38302830504534,
+            449.84844324
+          ],
+          [
+            625.1355983760911,
+            449.84844324
+          ],
+          [
+            625.1355983760911,
+            360.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 29,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b486bfa58b2f05aabc9b5fac5a5f216d",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 30,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "287659343db376416c1354bf8fc4c2d9",
+    "text": "Also, control field BC for selection of the branch condition status bits is taken directly from the last bit of Opcode. \u2022 There are two added bits for the control of the PC: PL and JB. If there is to be a jump or branch, PL = 1, loading the PC.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            149.43435644000004
+          ],
+          [
+            47.698818,
+            298.84842
+          ],
+          [
+            635.84335024,
+            298.84842
+          ],
+          [
+            635.84335024,
+            149.43435644000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 30,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cf99c285df8705cce4601216af696a46",
+    "text": "\u2022 For PL = 0, the PC is incremented. \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.698818,
+            273.93435744
+          ],
+          [
+            47.698818,
+            369.93435744
+          ],
+          [
+            400.34725512000006,
+            369.93435744
+          ],
+          [
+            400.34725512000006,
+            273.93435744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 30,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6252d43bf41d5b14d21b2c473e69a2ac",
+    "text": "With PL = 1, JB = 1 calls for a jump, and JB = 0 calls for a conditional branch.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.698818,
+            346.84842
+          ],
+          [
+            74.698818,
+            397.09842
+          ],
+          [
+            617.1949124399999,
+            397.09842
+          ],
+          [
+            617.1949124399999,
+            346.84842
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 30,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a9d07302440b2b3e5c7a168e7292b19e",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 31,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "99a13a64866f744ad21313b62fcf6f7e",
+    "text": "From the Truth table, and by minimization:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            560.1673163608083,
+            178.34842500000002
+          ],
+          [
+            560.1673163608083,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 31,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ccf44a06247b6a62a1ca2801928323d2",
+    "text": "PL = Bit #15 AND Bit #14 - JB = Bit # 13 - MB = Bit # 15 - MD = Bit # 13 - MW = Bit # 14 AND NOT( Bit # 15) - RW = NOT ( Bit # 14)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            190.84841532000002
+          ],
+          [
+            92.69882308000001,
+            421.34843644
+          ],
+          [
+            498.40135827085936,
+            421.34843644
+          ],
+          [
+            498.40135827085936,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 31,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "5e321fb2fdc56f5b24a0fd5cb498808f",
+    "text": "Cont.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            106.56259899999998
+          ],
+          [
+            162.89998967999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 33,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "014b558a9d316413f10e2a64f7d89e02",
+    "text": "The remaining logic in the decoder deals with the FS field.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            635.067979616145,
+            208.34841339999997
+          ],
+          [
+            635.067979616145,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 33,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c6028d61178073ab0fc8315b5c4ef599",
+    "text": "For all but the conditional branch and",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            248.84841644
+          ],
+          [
+            500.8445767741056,
+            248.84841644
+          ],
+          [
+            500.8445767741056,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 33,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "02b9a831a293cae83e5be0ced3307acd",
+    "text": "unconditional jump instructions, bits 9 through 12 are fed directly through to form the FS field. \u2022 During conditional branch operations, such as",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            250.84842372000003
+          ],
+          [
+            46.38302830504534,
+            349.34843644
+          ],
+          [
+            642.8067322636261,
+            349.34843644
+          ],
+          [
+            642.8067322636261,
+            250.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 33,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "01ea8eeaf83a0c6de0c59f41222beb0c",
+    "text": "Branch on Zero, the value in source register A must be passed through the ALU so that the status bits N and Z can be evaluated. This requires FS = 0000.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69879204,
+            351.34843372
+          ],
+          [
+            74.69879204,
+            439.34844164000003
+          ],
+          [
+            653.4833677504384,
+            439.34844164000003
+          ],
+          [
+            653.4833677504384,
+            351.34843372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 33,
+      "parent_id": "51aec23bd5d8bf435d9cb354e51a7f4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9335e37d58b28a7fd1df88fa4dfeb7ae",
+    "text": "Sample Instructions and Program",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            40.869605999999976
+          ],
+          [
+            56.698818,
+            84.86960599999998
+          ],
+          [
+            660.9331937400001,
+            84.86960599999998
+          ],
+          [
+            660.9331937400001,
+            40.869605999999976
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 35,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "25ddb0a017b6f1fc4ac081ea1637c7e9",
+    "text": "Set of instructions for the single-cycle computer are listed in the following Table.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            617.2299531315896,
+            208.34841339999997
+          ],
+          [
+            617.2299531315896,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 35,
+      "parent_id": "9335e37d58b28a7fd1df88fa4dfeb7ae",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c92fd248bbc0a4db84c6821657f8f1b4",
+    "text": "The rightmost six columns of the table show critical control-signal values for each instruction.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            623.5581456192,
+            278.84842484
+          ],
+          [
+            623.5581456192,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 35,
+      "parent_id": "9335e37d58b28a7fd1df88fa4dfeb7ae",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9aaa14cf17cf7bd48eed80eed91a8a8a",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 37,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e03f4bbf739c8d3a402f88e5989611b2",
+    "text": "Text Book",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            184.32604193819236,
+            178.34842500000002
+          ],
+          [
+            184.32604193819236,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "LEC 8.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2022-01-02T13:41:10",
+      "page_number": 37,
+      "parent_id": "9aaa14cf17cf7bd48eed80eed91a8a8a",
+      "filetype": "application/pdf"
+    }
+  }
+]

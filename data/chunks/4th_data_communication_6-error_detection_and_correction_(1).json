@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1f018ac7-0993-4a28-9e3a-d6ddae61825d",
+    "text": "CHAPTER 6 Error Detection and Correction Data Link Layer Functions Framing Error Control Flow Control Medium Access Control Error Control Types of Errors Data can be corrupted during transmission. • An error occurs when a bit is altered between transmission and reception Single bit errors one bit in the data unit has changed",
+    "chunk_index": 0,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "6cde3bf4-c297-497d-a127-eb4720ed4ee3",
+    "text": "Burst errors two or more bits in the data unit have changed Types of Errors Single-bit error Burst error of length 8 The structure of encoder and decoder Process of error detection in block coding Error Detection To detect or correct errors, we need to send extra (redundant) bits with data. Some popular techniques for error detection",
+    "chunk_index": 1,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "b3721494-88ec-4a6a-89e0-ce2ab5854946",
+    "text": "Simple Parity check Two- dimensional Parity check Cyclic Redundancy Check (CRC) Checksum Simple Parity check 1 is added to the block if it contains odd number of 1’s, and • 0 is added if it contains even number of 1’s Encoder and decoder for simple parity-check code Example Suppose the sender wants to send the word “World”. In ASCII the five characters are coded as W o r l d 1110111 1101111 1110010 1101100 1100100 The following shows the actual bits sent 11101110 11011110 11100100 11011000 11001001 Now suppose the word world is received by the receiver as: 11011110 11100100 11011000 11001001 11101110 The receiver counts the 1s in each character and comes up with even numbers: (6, 6, 4, 4, 4). The data are accepted.",
+    "chunk_index": 2,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "65c56953-63f5-403f-84b3-8013ac4097db",
+    "text": "Example Now suppose the word world in previous Example is corrupted during transmission. 11111110 11011110 11101100 11011000 11001001 The receiver counts the 1s in each character and comes up with even and odd numbers: (7, 6, 5, 4, 4). The receiver knows that the data are corrupted, discards them, and asks for retransmission.",
+    "chunk_index": 3,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "6d27ea88-49ad-40b4-80fa-d220b05fcdcf",
+    "text": "Example Let us look at some transmission scenarios. Assume the sender sends the dataword 1011. The codeword created from this dataword is 10111, which is sent to the receiver. We examine five received codewords 1. 10111 2. 10011 3. 10110 4. 00110 5. 01011 Example a3 a2 a1 a0 r0 dataword 1011 1011 1011 1011 1011",
+    "chunk_index": 4,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "35993e94-c7eb-4003-b452-244def5edf15",
+    "text": "codeword 10111 10011 10110 00110 01011 error No error a1 r0 a3 r0 a3, a2, and a1 syndrome 0 1 1 0 (# of ones even) 1 dataword 1011 Discard Discard 1011 (error) Discard A simple parity-check code can detect an odd number of errors. Two-dimensional Parity check Parity check bits are calculated for each row, which is equivalent to a simple parity check bit. Parity check bits are also calculated for each columns, then both are sent along with the data. At the receiving end these are compared with the parity bits calculated on the received data.",
+    "chunk_index": 5,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "dc341a18-2332-4d08-b0a9-cd4c951fe99d",
+    "text": "Two-dimensional Parity check Example Sent Received 1 0 1 1 1 0 1 1 1 0 0 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 0 1 1 0 0 1 1 1 0 1 1 1 0 1 0 0 1 1 0 0 1 1 0 0 0 0 1 0 0 0 1 1 1 1 1 1 0 Sent Received 1 0 1 1 1 1 0 1 1 1 0 0 0 1 1 0 0 0 1 1 0 0 1 1 0 1 1 1 1 0 1 1 0 0 1 1 0 0 0 1 1 0 0 0 1 1 1 0 1 1 1 1 0 1 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 1 1 0 0 0 1 1 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0",
+    "chunk_index": 6,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "2a69db5b-736f-48ae-83aa-f9977d161bf1",
+    "text": "Cyclic Redundancy Check (CRC) One of the most common and powerful error-detecting codes • A string of n 0s is added to the data unit.. The number n is one smaller than the number of bits in the fixed divisor The new data unit is divided by a divisor utilizing a procedure known as binary division; the remainder appearing from the division is CRC. Receiver divides the incoming frame by that number If there is no remainder, assume there is no error",
+    "chunk_index": 7,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "203d01cd-7e91-4175-a9b5-00553a659675",
+    "text": "CRC Encoder and Decoder Division in CRC encoder Division in the CRC decoder for two cases Hardwired design of the divisor in CRC Simulation of division in CRC encoder Simulation of division in CRC encoder CRC Division using Polynomials Polynomial to represent a binary word CRC Division using Polynomials",
+    "chunk_index": 8,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "90b40ae8-d584-409a-851f-28d9e416f01d",
+    "text": "Note The divisor in a cyclic code is normally called the generator polynomial or simply the generator. If the generator has more than one term and the coefficient of x0 is 1, all single errors can be caught. If s(x) ≠ 0, one or more bits is corrupted. If s(x) = 0, either a. No bit is corrupted. or b. Some bits are corrupted, but the decoder failed to detect it.",
+    "chunk_index": 9,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "2c76656e-40e0-4549-99e0-7491fa58030e",
+    "text": "CRC Division using Polynomials CRC Can detect all burst errors that affect an odd number of bits. The CRC-12: x12 + x11 + x3 + x + 1 which has a degree of 12, will detect: all burst errors affecting an odd number of bits, • will detect all burst errors with a length less than or equal to 12 The Internet Checksum The checksum is used in the network layer. • The data is divided into k segments each of m bits. • In the sender’s end the segments are added. The sum is complemented (1’s complement) to get the checksum. The checksum segment is sent along with the data segments. • At the receiver’s end, all received segments are added. The sum is complemented. If the result is zero, the received data is accepted; otherwise discarded.",
+    "chunk_index": 10,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "d7b0bff8-a47f-45b4-a2fe-c77cedbe8aa9",
+    "text": "CHECKSUM Example Suppose the following block of 16 bits is to be sent using a checksum of 8 bits. 10101001 00111001 The numbers are added 1 0 1 0 1 0 0 1 0 0 1 1 1 0 0 1 1 1 1 0 0 0 1 0 Sum Using one’s complement, Checksum 00011101 The pattern sent is 10101001 00111001 00011101 Example Now suppose the receiver receives the pattern sent and there is no error. 10101001 00111001 00011101 When the receiver adds the three sections, it will get all 1s, which, after complementing, is all 0s and shows that there is no error. 1 0 1 0 1 0 0 1 0 0 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 1 Complement 00000000 means that the pattern is OK.",
+    "chunk_index": 11,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "983a7398-3aa6-4eac-b2d4-47899a29ae5a",
+    "text": "Sum Example Now suppose there is a burst error that affects 4 bits. 10101111 11111001 00011101 When the receiver adds the three sections, it gets 1 0 1 0 1 1 1 1 1 1 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 1 1 0 0 0 1 0 1 Partial Sum Carry Sum Complement 00111001 the pattern is corrupted. 1 1 1 0 0 0 1 1 0",
+    "chunk_index": 12,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "04e3e3e3-bc9d-4b88-a92c-1e1b853ca900",
+    "text": "Example Example Consider a header that consists of 10 octets, with the checksum in the last two octets with the following content (in hexadecimal): 00 01 F2 03 F4 F5 F6 F7 00 00 The transmitted packet is 00 01 F2 03 F4 F5 F6 F7 22 0D Sender 0 0 0 1 F 2 0 3 F 4 F 5 F 8 F 7 2 Carry D D F 0 2 sum",
+    "chunk_index": 13,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "9b0fc807-3eeb-4e35-810a-43609adb75cd",
+    "text": "D D F 2 2 2 F D checksum Receiver 0 0 0 1 F 2 0 3 F 4 F 5 F 8 F 7 2 Carry D D F 0 2 sum checksum D D F 2 2 2 F D F F F F 0 0 0 0 Hamming Code To calculate Hamming Error Correction Code (ECC): Number bits from 1 on the left • All bit positions that are a power 2 are parity bits • Each parity bit checks certain data bits: P1 checks bits (1,3,5,7,9,11,...) • P2 checks bits (2,3,6,7,10,11,14,15,…) • P4 checks bits (4–7, 12–15, 20–23,…) • P8 checks bits (8–15, 24–31, 40–47,...)",
+    "chunk_index": 14,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "e291c7be-8a43-4ed7-80fe-6e344f06bf53",
+    "text": "Hamming Code Consider the 8-bit data word 11000100. We include four parity bits with it and arrange the 12 bits as follows:",
+    "chunk_index": 15,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "96ede424-0348-48ef-ae90-94f4eb52bc03",
+    "text": "Bit position: 1 P1 2 P2 3 1 4 P4 5 1 6 0 7 0 8 P8 9 0 10 1 11 0 12 0 P1 = XOR of bits(3,5,7,9,11) = 1 ⊕ 1 ⊕ 0 ⊕ 0 ⊕ 0 = 0 P2 = XOR of bits(3,6,7,10,11) = 1 ⊕ 0 ⊕ 0 ⊕ 1 ⊕ 0 = 0 P4 = XOR of bits(5,6,7,12) = 1 ⊕ 0 ⊕ 0 ⊕ 0 = 1 P8 = XOR of bits(9,10,11,12) = 0 ⊕ 1 ⊕ 0 ⊕ 0 = 1 Hamming Code • The data is sent to the receiver together with the parity bit as 12-bit composite word. 1 0 2 0 3 1 4 1 5 1 6 0 7 0 8 1 9 0 10 11 12 0 0 1 In the recevier, the parity is checked over the same combination of bits including the parity bit. C1 = XOR of bits(1,3,5,7,9,11) = 0 → two ones C2 = XOR of bits(2,3,6,7,10,11) = 0 → two ones C4 = XOR of bits(4,5,6,7,12) = 0 → two ones C8 = XOR of bits(8,9,10,11,12) = 0 → two ones",
+    "chunk_index": 16,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "ee816ced-a0bf-4e24-a144-153f8444a76f",
+    "text": "Error-Detection Since the bits were stored with even parity, the result, C = C8C4C2C1 = 0000, indicates that no error has occurred. If C ≠ 0, then the 4-bit binary number formed by the check bits gives the position of the erroneous bit. Example Bit position: 1 2 3 4 5 6 7 8 9 10 11 12 0 0 1 1 1 0 0 1 0 1 0 0 No error 1 0 1 1 1 0 0 1 0 1 0 0 Error in bit 1 0 0 1 1 0 0 0 1 0 1 0 0 Error in bit 5 Evaluating the XOR of the corresponding bits, get the four check bits",
+    "chunk_index": 17,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  },
+  {
+    "id": "73b97955-cad6-40a4-8ace-f9aed1553d96",
+    "text": "C8 C4 C2 C1 For no error: 0 0 0 0 with error in bit 1: 0 0 0 1 with error in bit 5: 0 1 0 1 41 Exercise 12‐bit Hamming codeword (000011101010) containing data and parity bits, what was the original corrected data word?",
+    "chunk_index": 18,
+    "source_file": "4th_data_communication_6-error_detection_and_correction_(1)"
+  }
+]

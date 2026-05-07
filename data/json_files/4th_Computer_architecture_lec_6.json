@@ -1,0 +1,3601 @@
+[
+  {
+    "type": "Title",
+    "element_id": "94dee27b52f8ef3c68f886a86a482c9a",
+    "text": "Lecture 6",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aec0175f4cebc77f31af48d5c3bddf7b",
+    "text": "Register Transfers ",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "94dee27b52f8ef3c68f886a86a482c9a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "dd0084da33afd590a5378779be4f15fd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 1,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "169061d61434af3fec00578d4b5f771a",
+    "text": "Background",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "05c617ee95452d806db1c79dc1a2691e",
+    "text": "The term register is applied to a set of flip-flops, possibly with added combinational gates, that perform data-processing tasks. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "169061d61434af3fec00578d4b5f771a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cfcf055eab8835c19b18a59a6c752b79",
+    "text": "Since each flip-flop is capable of storing one bit of information, an n-bit register, composed of n flip-flops, is capable of storing n bits of binary information.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "169061d61434af3fec00578d4b5f771a"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d47493d3d3fde7c6616ff8ca7e269756",
+    "text": "The flip-flops hold data, and the gates determine the new or transformed data to be transferred into the flip-flops.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "169061d61434af3fec00578d4b5f771a"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a54a7cfb073028e1e762e9420a6b24c7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 2,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0a508d58e88000dc15ae3e8c5107a1f3",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fef12ad9847fcad222475ac1b1afbf32",
+    "text": "A counter is a register that goes through a predetermined sequence of states upon the application of clock pulses. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0a508d58e88000dc15ae3e8c5107a1f3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aae0b3128269ecb53b060bd860f026ba",
+    "text": "The gates in the counter are connected in a way that produces the prescribed sequence of binary states. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0a508d58e88000dc15ae3e8c5107a1f3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1597b986080b2d6a2ff5e48c09bac73c",
+    "text": "Although counters are a special type of registers, it is common to differentiate them from registers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0a508d58e88000dc15ae3e8c5107a1f3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5129e974832fd817e09b49fa16767804",
+    "text": "Registers and counters are sequential functional blocks that are used extensively in the design of digital systems in general and in digital computers in particular.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0a508d58e88000dc15ae3e8c5107a1f3"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b25d64fab18e3452a665cd5c85583177",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 3,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9bdd380afc1450073b743e7144f0ff95",
+    "text": "SR  Latch",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b7f45886bc7e07c7ac0777603e32b4cf",
+    "text": "The SR latch is a circuit constructed from two cross-coupled NOR gates.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9bdd380afc1450073b743e7144f0ff95"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d10cddf3d5313640482773bab8992224",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 4,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b1c13e432e6faccb73dc5eacc4d1372",
+    "text": "SR latch with a control input",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1958a232d81dc0bd5ecbf6da96972c5b",
+    "text": "The operation of the basic NOR and NAND latches can be modified by providing an additional control input that determines when the state of the latch can be changed. The control input C acts as an enable signal for the other two inputs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2b1c13e432e6faccb73dc5eacc4d1372"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "7abb8b01d1022f14b4ba7c9a15961b14",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 5,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8427ed5f584167a329fc429771a6700e",
+    "text": "D Latch",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "38e6c44184f364374fa66265d0602309",
+    "text": "One way to eliminate the undesirable undefined state in the SR latch is to ensure that inputs S and R are never equal to 1 at the same time. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8427ed5f584167a329fc429771a6700e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d06403c35e55ecb867a7c3806f779062",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 6,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e3384c5404f0b6757004a83c7bc20af1",
+    "text": "FLIP-FLOPS",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e2c9d226e95c01a757f5a99bd520820a",
+    "text": "Flip-flop circuits are constructed in such a way as to make them operate properly when they are part of a sequential circuit that employs a single clock.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3384c5404f0b6757004a83c7bc20af1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1f2759ff8eb4b8cca7826c0a3658a090",
+    "text": "The key to the proper operation of flip-flops is to prevent them from being transparent.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3384c5404f0b6757004a83c7bc20af1"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0f23b15878eb8236f017f0a3d8e31495",
+    "text": "There are two ways that latches are combined to form a flip-flop.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e3384c5404f0b6757004a83c7bc20af1"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "65bc507b2ad9f258ed15b13a66ddfccd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 7,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7c1fa580cd43ce5b37ec4621034e7e95",
+    "text": "Master\u2013Slave Flip-Flops",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5a7f73d6c6a9113de4891ea6c7efb0ca",
+    "text": "The master\u2013slave SR flip-flop, consisting of two latches and an inverter.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7c1fa580cd43ce5b37ec4621034e7e95"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0f70c34244589c3fd199c20e00a0eb3a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 8,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e8d2bd785932b16fa39ae83fee9650e9",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d3c95132f200b196bc30650e11c29949",
+    "text": "When the clock input C is 0, the output of the inverter is 1. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8d2bd785932b16fa39ae83fee9650e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ca910fb021127a506a67bca67194bf9b",
+    "text": "The slave latch is then enabled, and its output Q is equal to the master output Y.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8d2bd785932b16fa39ae83fee9650e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "272c53b47bca84fb0e2ac0e6bf587dd6",
+    "text": "When a logic-1 clock pulse is applied ( C = 1), the values on S and R control the value stored in the master latch Y.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8d2bd785932b16fa39ae83fee9650e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c4f9361126b11d3232aa1923f76bb552",
+    "text": " The slave, however, is disabled as long as the pulse remains at the 1 level, because its C input is equal to 0.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8d2bd785932b16fa39ae83fee9650e9"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e20e001b53fd15a583a267dea684e03c",
+    "text": " Any changes in the external S and R inputs change the master output Y, but cannot affect the slave output Q.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e8d2bd785932b16fa39ae83fee9650e9"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ee7d7d2bf11c270ed647103c323ca2d7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 9,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8d267549e8251d627ea69e14621ebe9b",
+    "text": "Edge-Triggered Flip-Flop",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0afdc9f04b3f87d80ab62eb2bf1d15e9",
+    "text": "An edge-triggered flip-flop ignores the pulse while it is at a constant level and triggers only during a transition of the clock signal.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8d267549e8251d627ea69e14621ebe9b"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "25a10f053b6b5c2060b753da8fce8693",
+    "text": " Some edge-triggered flip-flops trigger on the positive edge (0-to-1 transition), whereas others trigger on the negative edge (1-to- 0 transition).",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8d267549e8251d627ea69e14621ebe9b"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "001d5318675d38890b5a84785f6fe682",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 10,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b1eaaee753ce4cdfec563bcbae851ff7",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 11,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4067a36186f9e3dc04563ac9b5470aec",
+    "text": "SEQUENTIAL CIRCUIT DESIGN",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e4f68ba9e5c45cfb87cad8b63d7f22eb",
+    "text": "The outputs and the next state are a function of the inputs and the present state.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4067a36186f9e3dc04563ac9b5470aec"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fa9e25fac6c37e0c0d4c048b0a69e0c2",
+    "text": "The logic diagram of a sequential circuit consists of flip-flops and, usually, combinational gates.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4067a36186f9e3dc04563ac9b5470aec"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "19dcfb9ec20a909b9167803daa2f7475",
+    "text": "The part of the combinational circuit that generates the signals for the inputs of flip-flops can be described by a set of Boolean functions called flip-flop input equations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "4067a36186f9e3dc04563ac9b5470aec"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "69727b41dd6ab9e3218d9c178be9efbd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 12,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e0849987c999077908c803e26ed7d6ba",
+    "text": "Design Procedure",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aa5c11d56de2b6cb02fe3816a18bd10a",
+    "text": "Specification: Write a specification for the circuit, if not already available.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e0849987c999077908c803e26ed7d6ba"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "23e3dd8a8460283d2b6e92beb5e98e57",
+    "text": "Formulation: Obtain either a state diagram or a state table from the statement of the problem.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e0849987c999077908c803e26ed7d6ba"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "14dc98601f6c4402bf9ae0ed590ea1fd",
+    "text": "State Assignment: If only a state diagram is available from step 2, obtain the state table by assigning binary codes to the states.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e0849987c999077908c803e26ed7d6ba"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c17f01a180528dabd47616e15f6830a",
+    "text": "Flip-Flop Input Equation Determination: Select the flip-flop type or types. Derive the flip-flop input equations from the next-state entries in the encoded state table.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e0849987c999077908c803e26ed7d6ba"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "4da1f4f6cb19794749128b878cfdd6e4",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 13,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "bffb6789e329bcf57865a397fa69e332",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "361d5d404dd2b4911cac82815333a712",
+    "text": "Output Equation Determination: Derive output equations from the output entries in the state table.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bffb6789e329bcf57865a397fa69e332"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2e787002da3c11ded51ca1c28d77e2fb",
+    "text": "Optimization: Optimize the flip-flop input and output equations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bffb6789e329bcf57865a397fa69e332"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "44e212843118ba8b0c45be472fc24599",
+    "text": "Technology Mapping: Draw a logic diagram of the circuit.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bffb6789e329bcf57865a397fa69e332"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c05d88f640719946c29b05f7c5d527fb",
+    "text": "Verification: Verify the correctness of the final design.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "bffb6789e329bcf57865a397fa69e332"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "61c31a851e96a52d4f9598f483dfe190",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 14,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6dd278b65117e4a2551ce4c0c2284e44",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7bd616920922b88dbd8adf41a314ae27",
+    "text": "Finding a State Diagram for a Sequence Recognizer",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6dd278b65117e4a2551ce4c0c2284e44"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e5ce8886ac2ea38d39b5c975cfc744f9",
+    "text": "This \u201csequence recognizer\u201d has one input X and one output Z.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7bd616920922b88dbd8adf41a314ae27"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ff7333927d8c9746c291f62184e4005b",
+    "text": "The circuit is to recognize the occurrence of the sequence of bits 1101 on X by making Z equal to 1 when the previous three inputs to the circuit were 110 and current input is a 1. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "7bd616920922b88dbd8adf41a314ae27"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7b1e6e3b4ad4a56b3f4693d0f5b127a4",
+    "text": "Otherwise, Z equals 0.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6dd278b65117e4a2551ce4c0c2284e44"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "84b365ac15d26d63b652886bf264a7d6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 15,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "f67682b65c78d809b3da64efa0f13d1e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 16,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e055a880220cf044cc3c287f6fd4aaa5",
+    "text": "At x =0, when A changed to 1 in the next state, also at x =1.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "bf3622d47e5299075c3da0df8ee1549a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 17,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "1ee3d571b44148b789c1d67fa56db966",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 18,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "ef4343877d765c56c360305cbe0e60bc",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 19,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "980108cfd7d0e63a33cefb63b070b1c3",
+    "text": "Register with Parallel Load",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e083dd4aed3e125bef9fb9f17b232582",
+    "text": "Registers are useful for storing and manipulating information.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "980108cfd7d0e63a33cefb63b070b1c3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "654f11bb154ea53e3e2d98d25e217d7f",
+    "text": "The transfer of new information into a register is referred to as loading the register.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "980108cfd7d0e63a33cefb63b070b1c3"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "22ea3c0eda666dfdf63fe50e33adbbdb",
+    "text": "If all the bits of the register are loaded simultaneously with a common clock pulse, we say that the loading is done in parallel.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "980108cfd7d0e63a33cefb63b070b1c3"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b574506caf158403e6a574c50d92efdd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 20,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d5abe6b611d8cf87ee07d71bba002b3c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 21,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "35b4d1c60fe1ad8bf804288e7a2943a5",
+    "text": "Digital System",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "98445ecead61f27153327bad8e11e6e7",
+    "text": "A digital system is a sequential circuit made up of interconnected flip-flops and gates.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35b4d1c60fe1ad8bf804288e7a2943a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e5bbf6fc03da18a4d002ea97d44f47ee",
+    "text": " Sequential circuits can be specified by means of state tables.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35b4d1c60fe1ad8bf804288e7a2943a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "02b195d39b77b2849eb6eecd09e7ec9c",
+    "text": " To specify a large digital system with state tables is very difficult, if not impossible, because the number of states is prohibitively large.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35b4d1c60fe1ad8bf804288e7a2943a5"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3590e46b4a4047183f414c382806d12a",
+    "text": " To overcome this difficulty, digital systems are designed using a modular, hierarchical approach.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "35b4d1c60fe1ad8bf804288e7a2943a5"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "fd4d42716ecc71d20be2f3c9970549ba",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 22,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6aca2d0be825afa3c8cdc552096a5021",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "258d18851eaae0daad5783db4d65f843",
+    "text": "In most digital system designs, we partition the system into two types of modules:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6aca2d0be825afa3c8cdc552096a5021"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "829b5206145e7b13c8e05abb7c3c5220",
+    "text": "a datapath, which performs data-processing operations,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6aca2d0be825afa3c8cdc552096a5021"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "24b11034ab561af5543dbbcce1a534e7",
+    "text": " and a control unit, which determines the sequence of those operations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6aca2d0be825afa3c8cdc552096a5021"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "502eed750ee86815cc4d268c16fab831",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 23,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "54d5d5ed83b9e541b1e2a672af1c11ac",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8c2056ee7faa530d86975832f7579e7e",
+    "text": "Datapaths are defined by their registers and the operations performed on binary data stored in the registers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54d5d5ed83b9e541b1e2a672af1c11ac"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5bdc8b22906810d89a8aa072b2b7aced",
+    "text": "Examples of register operations are load, clear, shift, and count. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54d5d5ed83b9e541b1e2a672af1c11ac"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f4b2166cc2a41511df0f17528186a639",
+    "text": "The registers are assumed to be basic components of the digital system",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "54d5d5ed83b9e541b1e2a672af1c11ac"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "cc3b11e6df54c07500a286d2f9291939",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 24,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e17b8b0ef8f7b3ae59f7e03741a41ead",
+    "text": "Register Transfer Operations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9c4596671881a3ab0a50fe839331f258",
+    "text": "The movement of the data stored in registers and the processing performed on the data are referred to as register transfer operations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e17b8b0ef8f7b3ae59f7e03741a41ead"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "fb6190caa7384d26fc638be1549836c8",
+    "text": "The register transfer operations of digital systems are specified by the following three basic components:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e17b8b0ef8f7b3ae59f7e03741a41ead"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3bdd507459b436d4ff7cdb342f8a3e89",
+    "text": "\t1. The set of registers in the system,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e17b8b0ef8f7b3ae59f7e03741a41ead"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e21abca2a530dcd0ae14e355107bd1d1",
+    "text": "\t2. The operations that are performed on the data \tstored in the registers, and",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e17b8b0ef8f7b3ae59f7e03741a41ead"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "520c588dea3416083870c241eeb40858",
+    "text": "\t3. The control that supervises the sequence of \toperations in the system.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e17b8b0ef8f7b3ae59f7e03741a41ead"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "8af7e836106d77956db35bb1a004c385",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 25,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1bdc965be99a14aa18fd405b008be676",
+    "text": "Microoperation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5a3d5a0defc80aefe1efa9165d76bd11",
+    "text": "An elementary operation performed on data stored in registers is called a microoperation.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1bdc965be99a14aa18fd405b008be676"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bdd2c971549590c5b5d715bc21ca40bc",
+    "text": "A microoperation is usually, but not always, performed in parallel on a vector of bits during one clock cycle.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1bdc965be99a14aa18fd405b008be676"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "429f2e4d526bfbaa6b333c431f27947b",
+    "text": "Examples of microoperations are:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1bdc965be99a14aa18fd405b008be676"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7254a50fdcfb6e9f1167994433ab227a",
+    "text": "\t loading the contents of one register into \tanother, adding the contents of two registers, \tand incrementing the contents of a register.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "1bdc965be99a14aa18fd405b008be676"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c705db27a36d95c956e18ed0c4e1cce2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 26,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a39288edb6cff4039897da95009b6de4",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "419f3bb932cf0bfeaa1005db7b653588",
+    "text": "The microoperations most often encountered in digital systems are of four types:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a39288edb6cff4039897da95009b6de4"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2b756506915500ea5756613da95d3efd",
+    "text": "\t1. Transfer microoperations, which transfer \tbinary data from one register to another.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a39288edb6cff4039897da95009b6de4"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ce6813ba9f8706f194272f725bc9a288",
+    "text": "\t2. Arithmetic microoperations, which perform \tarithmetic on data in registers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a39288edb6cff4039897da95009b6de4"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ba17392601d5cfbea4751b9d0e754d08",
+    "text": "\t3. Logic microoperations, which perform bit \tmanipulation on data in registers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a39288edb6cff4039897da95009b6de4"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "405dfe3a886bebaec8a7e3b23049a65d",
+    "text": "\t4. Shift microoperations, which shift data in \tregisters.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "a39288edb6cff4039897da95009b6de4"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "39b833ac458378db592d29f034c4e1e2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 27,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5be694556fa5cec6c544d7c70c7b1e2e",
+    "text": "Register Transfer Language (RTL)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "498827d90f24598fecde001c1dfffc30",
+    "text": "RTL represent registers and specify the operations on their contents. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5be694556fa5cec6c544d7c70c7b1e2e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "448f29dba4c0b63b2c98d48a0f8122c3",
+    "text": "The register transfer language uses a set of expressions and statements that resemble statements used in HDLs and programming languages.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5be694556fa5cec6c544d7c70c7b1e2e"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3875a94eeda98f8ce2b1f6aef2288f48",
+    "text": "We denote the registers in a digital system by uppercase letters.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5be694556fa5cec6c544d7c70c7b1e2e"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d1a0e6ed265e290b2bf04560d672243b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 28,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5ab05dd4dc390c73a5ca2d107ac83f9a",
+    "text": "RTL Basic Symbols",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c928bf562ddeb3456000e2777fce1d31",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 29,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f69391b2e22753c92c9068b51736a55",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c9cbfb03852ee1e1483760d9ece43841",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 30,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fe5a2c088ef263387e3fad664ea19761",
+    "text": "Conditional statement",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0292699dd2eed97339d04f79cc0a34a5",
+    "text": "A conditional statement, symbolized by the if-then form:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9343ca202688e196c941128f5bc03488",
+    "text": "\tif (K1  = 1) then (R2 \u2190 R1)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "72254fe9db25169b30fd0156fca1e5be",
+    "text": "\twhere K1 is a control signal generated in the \tcontrol unit.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6d7a09866c9d8b68094a44b39d49279d",
+    "text": "A more concise way of writing the If -Then is:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "137796837ab917709c380f9a0e1092a6",
+    "text": "\tK1: R2 \u2190 R1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "be2a77999a88930de01ebd206fb81c0c",
+    "text": "The HW implementation is shown in the following slide.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "fe5a2c088ef263387e3fad664ea19761"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "3cc1ff1b033debf049374ceeff81711c",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 31,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "595400fa1d76e6b7229e7bec7549d96a",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "de95c62fd46a6a38e809c52d915ba2df",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 32,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "054f009fd33524d9e8cfb4657cfcb202",
+    "text": "Arithmetic Microoperations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "293e350c138257dba8f59cbe34bd5fd1",
+    "text": "The basic arithmetic microoperations such as add, subtract, increment, decrement, and complement.",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "054f009fd33524d9e8cfb4657cfcb202"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e4c7a9c42fd12b9bcbdc206e57bb354e",
+    "text": "For example, To implement the following statement with hardware, we need three registers and a combinational component that performs the addition, such as a parallel adder.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "293e350c138257dba8f59cbe34bd5fd1"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "ed5accd7f4fb6d38aff4bd3e9fcabb53",
+    "text": "\t\t R0 \u2190 R1 + R2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "293e350c138257dba8f59cbe34bd5fd1"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "b17d483a73d4cd0727bf5f9e80df6e6b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 33,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9157b8a968c56002d8d5c44c3571bc7c",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "0dbe0338bc534b1be382e5788fbf2295",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 34,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3b2844cb6a9079a766cf2b5162f70aa4",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a91dadfb5935031a222c2764b59dd758",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 35,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "25b4bfa8524465c804aee6f770d68f69",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "fd8af263e49f8e7f3f9b5ac3fb6ede5b",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 36,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "80fb4ac7fb6b096ec4349e1efc357401",
+    "text": "Logic Microoperations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b833332f2e0af05b01e3e317f7546c99",
+    "text": "Logic microoperations are useful in manipulating the bits stored in a register. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "80fb4ac7fb6b096ec4349e1efc357401"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "21e7b3c364e3a27f90115bf7ac7a511a",
+    "text": "These operations consider each bit in the register separately and treat it as a binary variable.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "80fb4ac7fb6b096ec4349e1efc357401"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "9bc1d65818c17d17b4ad92df24202f1e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 37,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e423423bc03536c5c6505d24966b2ed8",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4d184de36fa3757dc12ff91cd9f0ebbc",
+    "text": "Let the following RTL statement: ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e423423bc03536c5c6505d24966b2ed8"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f8d43397f131f9a070d5e0f71158fa00",
+    "text": "\t(K1 +K2): R1 \u2190 R2+R3, R4 \u2190 R5 V R6",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e423423bc03536c5c6505d24966b2ed8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5bd4d60d03f933cf8e2ed599402f05df",
+    "text": "Note: (K1 +K2) , the operation is logical OR.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e423423bc03536c5c6505d24966b2ed8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6434b0c6ac1030ab7801a18e82ffc540",
+    "text": "\t R2+R3, the operation is ADD.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e423423bc03536c5c6505d24966b2ed8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bc979498f71094fabfdb8e5e37c4f097",
+    "text": "\t R5 V R6, the operation is BitwiseOR.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e423423bc03536c5c6505d24966b2ed8"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a69308aed1ab245760cadda1e1c376fd",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 38,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e706822e7f9762a7218da6b0b761c8d2",
+    "text": "Shift Microoperations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bf2aa0ad6cf8c188eea65868f8bcb332",
+    "text": "Shift microoperations are used for lateral movement of data. ",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e706822e7f9762a7218da6b0b761c8d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "829512d0f763c767bfa517fd7723e1ad",
+    "text": "The contents of a source register can be shifted either right or left.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e706822e7f9762a7218da6b0b761c8d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0ba77e25f9a23ed98b70f073cf0a9a86",
+    "text": "A left shift is toward the most significant bit, and a right shift is toward the least significant bit.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e706822e7f9762a7218da6b0b761c8d2"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57bc37b5f76afe7e0086ce70a520a388",
+    "text": " Shift microoperations are used in the serial transfer of data, and for manipulating the contents of registers in arithmetic, logical, and control operations.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e706822e7f9762a7218da6b0b761c8d2"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "67227751325559b4392a94301031a685",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 39,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "8e5ca8cc3e1aca63c0df7ffa42042de6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 40,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "559fa70521efef7f18fcc5821ac900bd",
+    "text": "Assignment 7-1",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 41,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "429aa9796740ae47daafd62aaded1c3f",
+    "text": "Design The Following RTL:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 41,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "559fa70521efef7f18fcc5821ac900bd"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "c56ceb6a9e2c04f0ed9090b4d673dba9",
+    "text": "\t(K1 +K2) : R1 \u2190 R2+R3, R4 \u2190 R5 V R6",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 41,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "429aa9796740ae47daafd62aaded1c3f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "5d0be08fd2de391ff8ab9324dea3bcbf",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 41,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2a385a1f45b8fe46f3b6147bb432a714",
+    "text": "Transfer Microoperations",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ceb89450ef55f76a7173af2058e676ac",
+    "text": "There are three techniques can be used to transfer data between registers:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a385a1f45b8fe46f3b6147bb432a714"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "23444b0f89b6b12031f3896076a8102d",
+    "text": "\t1- Multiplexer-Based Transfer for single \tdestination register",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a385a1f45b8fe46f3b6147bb432a714"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1c1b0bf6d1c55bb266d4eb5f99f93aed",
+    "text": "\t2- Bus-Based Transfer for Multiple Registers",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a385a1f45b8fe46f3b6147bb432a714"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "88688b5a3b30d602a5bf3fba09dc505d",
+    "text": "\t3- Memory Transfer",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "2a385a1f45b8fe46f3b6147bb432a714"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "6a9282aefe02e20144304e897236006a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 42,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "30c9ef50c75fd70d769a9ec1fc6835da",
+    "text": "1- Multiplexer-Based Transfer",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 43,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "6758877763fe3997cad9af11fe11c1d6",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 43,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "ca56b90e5c66cafdb66cd6a2a8fba532",
+    "text": "3.1-Multiplexer-Based Transfer",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 44,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "491916aacdbd65b840a9d87cd26929de",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 44,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8a60844ff4a584307b82aac77e3f158f",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 45,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Table",
+    "element_id": "dab3a48acbdf96c473215c3c648d701c",
+    "text": "K1 K2 Selection MUX Load of R0 0 0 R2 -> 0 0 0 1 R2 -> 0 1 1 0 R1 -> 1 1 1 1 R1-> 1 1",
+    "metadata": {
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 45,
+      "text_as_html": "<table><tr><td>K1</td><td>K2</td><td>Selection MUX</td><td>Load of R0</td></tr><tr><td>0</td><td>0</td><td>R2 -&gt; 0</td><td>0</td></tr><tr><td>0</td><td>1</td><td>R2 -&gt; 0</td><td>1</td></tr><tr><td>1</td><td>0</td><td>R1 -&gt; 1</td><td>1</td></tr><tr><td>1</td><td>1</td><td>R1-&gt; 1</td><td>1</td></tr></table>",
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8a60844ff4a584307b82aac77e3f158f"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e31dd03354449b30e2bca83fb9ebef20",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 45,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9b940d9d1c77b6698e90eeb21628b854",
+    "text": "HW Implementation",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 46,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5b45b177b15eb706e96a7fa5f53ad59e",
+    "text": "The HW will be as follows:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 46,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9b940d9d1c77b6698e90eeb21628b854"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e2cf80355dcf61d0fd82bbb858ac1755",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 46,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6c89850edf509be6b36eeb354e348755",
+    "text": "2- Bus-Based Transfer for Multiple Registers",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0a677983af9455466bd53aa2ae805871",
+    "text": "A typical digital system has many registers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6c89850edf509be6b36eeb354e348755"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c9d4f04202c849c48972dc75af96ef56",
+    "text": " Paths must be provided to transfer data from one register to another.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6c89850edf509be6b36eeb354e348755"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6c7ec9cf9114591c178064ae11063fdd",
+    "text": "A more efficient scheme for transferring data between registers is a system that uses a shared transfer path called a bus.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6c89850edf509be6b36eeb354e348755"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0f15c775c4afc09a16af8bb11b9823c6",
+    "text": "A bus is characterized by a set of common lines, with each line driven by selection logic.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6c89850edf509be6b36eeb354e348755"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6f1ce35315886c681abd199640062c6f",
+    "text": "Control signals for the logic select a single source and one or more destinations on any clock cycle for which a transfer occurs.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "6c89850edf509be6b36eeb354e348755"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "785fbfa340d422f267ef0911fcbe92f0",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 47,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9e356187d36564e89d3e6810b9f50347",
+    "text": "Example",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cd7fca131be81f9d9b51a789d977412b",
+    "text": "Implement the following RTL using Bus-based :",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e356187d36564e89d3e6810b9f50347"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60ac74924691fbfce9a022ff63124cf0",
+    "text": "Solution:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "9e356187d36564e89d3e6810b9f50347"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cde0775cf99d95874e54f4838bed895c",
+    "text": "1- Set of input registers ={ R0, R1, R2} -\uf0e0 we need MUX with 4 inputs , i.e., two selection inputs S0, S1.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "60ac74924691fbfce9a022ff63124cf0"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4bd02632e3689c6cd759fabfd6f1d054",
+    "text": "2- Set of output registers = {R0, R1, R2} -\uf0e0 we need three load signals  L0, L1, L2.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "60ac74924691fbfce9a022ff63124cf0"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "fbbb09235f104a8f5adc9ce1184ce971",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 48,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4c536ce29c267be4e6665d82fb41d106",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 49,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "c11cf80460b276268c5a330329f94597",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 49,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "8e41174e6743c35a94d93c1ab06d5b8e",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 50,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e7cb84ed5b6668c7d3e1b6c3cc2e3063",
+    "text": "Three-State Bus",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 51,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "117295d142c85fbaebaa579e57edcca3",
+    "text": "A bus can be constructed with three-state buffers instead of multiplexers.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 51,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7cb84ed5b6668c7d3e1b6c3cc2e3063"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e5fc7f3c95e1dc6fca84ba3dbc5a97f1",
+    "text": "The reason is that many three-state buffer outputs can be connected together to form a bit line of a bus, and this bus is implemented using only one level of logic gates. (MUX has two levels)",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 51,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7cb84ed5b6668c7d3e1b6c3cc2e3063"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "85271e4703acf9669f3c6eee0c8347c9",
+    "text": "More important, however, is the fact that signals can travel in two directions on a three-state bus. Thus, the three-state bus can use the same interconnection to carry signals into and out of a logic circuit.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 51,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "e7cb84ed5b6668c7d3e1b6c3cc2e3063"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a8747317e7333da7ba976d515ccb91e2",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 51,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "e086b1b6772f27112e86860aa572eb5a",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 52,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "60fa4f50290c29d46e564395d30e82b0",
+    "text": "3- Memory Transfer",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0e933091ab7b98aa04f2c431e3e1c433",
+    "text": "Read operation:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "60fa4f50290c29d46e564395d30e82b0"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8081d7f6d63398c8a108b44c34a801ae",
+    "text": "\tDR \u2190 M [AR]",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e933091ab7b98aa04f2c431e3e1c433"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3989917f15d6425574dcdac3d33ac444",
+    "text": "Where, an address decoder is needed to select the contents of address register AR to be loaded onto address bus.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e933091ab7b98aa04f2c431e3e1c433"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "93eb4b928184948cf4d7137e0ae05fab",
+    "text": "Also a data destination decoder will send the Load signal to the data register DR to load data from memory on data bus.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "0e933091ab7b98aa04f2c431e3e1c433"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "a7599627f18f5d0e6aa22221b94ded32",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 53,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b5929169e2f9d6dac76d6280067d95b8",
+    "text": "Cont.,",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "80f8614d1783b3b534ff29abd8670d3c",
+    "text": "Write operation:",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b5929169e2f9d6dac76d6280067d95b8"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e770b3b2aaadb42262031add102fbcf",
+    "text": "\tM [AR] \u2190 DR",
+    "metadata": {
+      "category_depth": 1,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "b5929169e2f9d6dac76d6280067d95b8"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ad2d75bd3f1be4b18ca2d38dbbdff089",
+    "text": "Where, an address decoder is needed to select the contents of address register AR to be loaded onto address bus.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5e770b3b2aaadb42262031add102fbcf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c3e0a00c18ef6d504852fa392e4c254f",
+    "text": "Also a data source decoder will send an enable signal to the data register DR to transfer its contents through data bus to the memory address denoted by AR.",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "5e770b3b2aaadb42262031add102fbcf"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d027865088c619453911f56e2a5a1810",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 54,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cb381aa6d74bc6e403ca4da0f4942b56",
+    "text": "Assignment #7-2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 55,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "945e32ee501efdc54de5ac5b1eb066c7",
+    "text": "Show the diagram of the hardware that implements the register transfer statements:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 55,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "cb381aa6d74bc6e403ca4da0f4942b56"
+    }
+  },
+  {
+    "type": "PageBreak",
+    "element_id": "d4c1c7b7d391e2b05b4c90b16452dad9",
+    "text": "",
+    "metadata": {
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 55,
+      "languages": [
+        "eng"
+      ],
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8cd455918297dbca1c9a498654132a3d",
+    "text": "Assignment # 7-3",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 56,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "59df8755372b78a0108a91f7de36575a",
+    "text": "Design a memory transfer system that has three address registers, three data registers, address bus , data bidirectional bus, Decoders, and implement the following statements:",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 56,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8cd455918297dbca1c9a498654132a3d"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9ac212060e6415cb493ef81c7ffdd2d4",
+    "text": "\t DR1\u2190 M [AR2], M [AR1] \u2190 DR2",
+    "metadata": {
+      "category_depth": 0,
+      "file_directory": "data\\raw\\Computer_architecture",
+      "filename": "Lec 6.pptx",
+      "last_modified": "2024-11-02T12:45:09",
+      "page_number": 56,
+      "languages": [
+        "eng"
+      ],
+      "filetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "parent_id": "8cd455918297dbca1c9a498654132a3d"
+    }
+  }
+]

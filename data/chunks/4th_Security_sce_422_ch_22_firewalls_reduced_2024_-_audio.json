@@ -1,0 +1,182 @@
+[
+  {
+    "id": "52518b5c-d82d-46cd-91fb-996b36370153",
+    "text": "Firewalls Types and Configurations Network Security Essentials Fifth Edition by William Stallings The Need for Firewalls firewalls (A perimeter protection) Internet connectivity is no longer optional for organizations Individual users within the organization want and need Internet access While Internet access provides benefits to the organization, it enables the outside world to reach and interact with local network assets This creates a threat to the organization •While it is possible to equip each workstation and server on the premises network with strong security features, this may not be sufficient and in some cases is not cost- effective",
+    "chunk_index": 0,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "1f46bb83-caf3-482d-8e49-9d3488d6003b",
+    "text": "Firewall An alternative, or at least complement, to host-based security services •Is inserted between the premises and the Internet to establish a controlled link and to erect an outer security wall or perimeter The aim of this perimeter is to protect the premises network from Internet-based attacks and to provide a single choke point where security and auditing can be imposed May be a single computer system or a set of two or more systems that cooperate to perform the firewall function What is a Firewall?",
+    "chunk_index": 1,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "3a5c3c89-51f9-47f3-a660-dc61ec49e91f",
+    "text": "Firewall: A Perimeter Defense A general model of firewall use on the security perimeter, as a choke point for traffic between the external less-trusted Internet and the internal more trusted private network. Firewall limitations Cannot protect against attacks that bypass the firewall A laptop, PDA, or portable storage device may be used and infected outside the corporate network, and then attached and used internally",
+    "chunk_index": 2,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "baf6a9c9-230b-4571-a958-a5344c7128b4",
+    "text": "A Firewall Cannot guard against wireless communications between local systems on different sides of the internal firewall May not protect fully against internal threats, such as a disgruntled employee or an employee who unwittingly cooperates with an external attacker Types of Firewalls (Figure 12.1)",
+    "chunk_index": 3,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "ec902a67-558c-485f-a41f-aa8f94e2d81f",
+    "text": "Packet Filtering Firewall Types of Firewalls: Packet Filtering Firewall A packet filtering firewall applies a set of rules to each incoming and outgoing IP packet and then forwards or discards the packet. The firewall is typically configured to filter packets going in both directions (from and to the internal network). Filtering rules are based on information contained in a network packet: Source IP address: The IP address of the system that originated the IP packet (e.g., 192.178.1.1) Destination IP address: The IP address of the system the IP packet is trying to reach (e.g., 192.168.1.2) Source and destination transport-level address: The transport-level (e.g., TCP or UDP) port number, which defines applications such as SNMP or TELNET",
+    "chunk_index": 4,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "91b37e27-a42c-44c7-9b1a-373747eab4bd",
+    "text": "IP protocol field: Defines the transport protocol Packet Filter Firewall Note that the firewall passes the TCP connection between the inside and outside hosts without breaking it Examples of Rules Packet Filter Firewall – General Rules Packet Filtering Packet Filtering Firewall firewalls",
+    "chunk_index": 5,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "7c53a66c-7cfd-4285-9ceb-a0eb5c246408",
+    "text": "Weaknesses Because packet filter firewalls do not examine upper-layer data, they cannot prevent attacks that employ application-specific vulnerabilities or functions Because of the limited information available to the firewall, the logging functionality present in packet filter firewalls is limited Most packet filter firewalls do not support advanced user authentication schemes Packet filter firewalls are generally vulnerable to attacks and exploits that take advantage of problems within the TCP/IP specification and protocol stack Due to the small number of variables used in access control decisions, packet filter firewalls are susceptible to security breaches caused by improper configurations",
+    "chunk_index": 6,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "deab096d-2ae5-464d-a966-d901314300b8",
+    "text": "Strengths Its simplicity • Transparent to users and are very fast Attacks and Countermeasures IP address spoofing Tiny fragment attacks The intruder transmits packets from the outside with a source IP address field containing an address of an internal host The intruder uses the IP fragmentation option to create extremely small fragments and force the TCP header information into a separate packet fragment Countermeasure is to discard packets with an inside source address if the packet arrives on an external interface Countermeasure is to enforce a rule that the first fragment of a packet must contain a predefined minimum amount of the transport header",
+    "chunk_index": 7,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "24e3bfb4-a825-40e3-8357-b47a8378c520",
+    "text": "Stateful Firewall Example for the Connection State Table Application plication Level Proxy Gateway Firewall ❑ Also called an application proxy ❑ Acts as a relay of application-level traffic ❑ If the gateway does not implement the proxy code for a specific application, the service is not supported and cannot be forwarded across the firewall ❑ The gateway can be configured to support only specific features of an application that the network administrator considers acceptable while denying all other features ❑ Tend to be more secure than packet filters",
+    "chunk_index": 8,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "d5b86dad-102b-497c-b7ab-bc42c54df7d1",
+    "text": "❑ Disadvantage: The additional processing overhead on each connection each application has a module Circuit-Level Circuit-Level Proxy Firewall Gateway Also called circuit-level proxy Can be a stand-alone system or it can be a specialized function performed by an application-level gateway for certain applications Does not permit an end-to-end TCP connection The security function consists of determining which connections will be allowed Typical use is a situation in which the system administrator trusts the internal users Can be configured to support application-level or proxy service on inbound connections and circuit-level functions for outbound connections Example of implementation is the SOCKS package",
+    "chunk_index": 9,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "208448b3-34e1-4208-8ccd-7b92443ffb81",
+    "text": "The Bastion Bastion Host Host A system identified by the firewall administrator as a critical strong point in the network’s security Typically serves as a platform for an application-level or circuit-level gateway",
+    "chunk_index": 10,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "0161cdf5-98ac-46ec-a440-c2a2b625082f",
+    "text": "Common characteristics: Executes a secure version of its operating system, making it a hardened system •Only the services that the network administrator considers essential are installed •May require additional authentication before a user is allowed access to the proxy services Each proxy is configured to support only a subset of the standard application’s command set Each proxy is configured to allow access only to specific host systems •Each proxy maintains detailed audit information by logging all traffic, each connection, and the duration of each connection Each proxy module is a very small software package specifically designed for network security",
+    "chunk_index": 11,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "73d64edb-41cd-4f00-b837-ad7c337c199b",
+    "text": "Each proxy is independent of other proxies on the bastion host •A proxy generally performs no disk access other than to read its initial configuration file •Each proxy runs as a nonprivileged user in a private and secured directory on the bastion host Host-Based Firewall A software module used to secure an individual host Is available in many operating systems or can be provided as an add-on package Filters and restricts the flow of packets Common location is a server Advantages: a) b) b) Protection is provided independent of topology c) Used in conjunction with stand-alone firewalls c) d) d) Provides an additional layer of protection a) Filtering rules can be tailored to the host environment",
+    "chunk_index": 12,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "532c432d-0ffc-4fd3-a166-77dc3aec26e0",
+    "text": "Personal Firewall Person al Firewall Controls the traffic between a personal computer or workstation on one side and the Internet or enterprise network on the other side Can be used in the home environment and on corporate intranets Typically is a software module on the personal computer Can also be housed in a router that connects all of the home computers to a DSL, cable modem, or other Internet interface Primary role is to deny unauthorized remote access to the computer Can also monitor outgoing activity in an attempt to detect and block worms and other malware",
+    "chunk_index": 13,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "7017263f-049c-48d0-ae51-cc97aad46288",
+    "text": "Figure 12.2 Example Personal Firewall Interface Example Firewall Configurations Firewall Configurations ➢ In general, a firewall is positioned to provide a protective barrier between an external, potentially untrusted source of internal network. With that general principle in mind, a security administrator must decide on the location and on the number of firewalls needed.",
+    "chunk_index": 14,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "5cfdaaa9-8f51-42ff-8877-69619c2a4b30",
+    "text": "traffic and an ➢ In addition to the use of a simple configuration consisting of a single system, more complex configurations are possible and indeed more common. 1) Single-Homed Bastion Host Note that if an intruder compromises the packet-filtering router, he can by-pass the bastion host and pass any external bogus traffic directly to the internal private network servers and hosts.",
+    "chunk_index": 15,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "27cf78fb-0055-40f0-9422-5435a01d73bb",
+    "text": "Single-homed Bastion Host (SHBH) ➢In the “screened host firewall, single-homed bastion configuration”, the firewall consists of two systems: 1) a packet-filtering router - allows Internet packets to/from bastion only 2) a bastion host performs authentication and proxy functions ➢This configuration has greater security, as it implements both",
+    "chunk_index": 16,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "6b1e290f-f42b-42d4-acff-9837432550a2",
+    "text": "packet-level & application-level filtering ➢It forces an intruder to generally penetrate two separate systems to compromise internal security. ➢It also affords flexibility in providing direct Internet access to specific internal servers (eg web) if desired 2) Dual-Homed Bastion Host Note that if an intruder compromises the packet-filtering router, he must also compromise the bastion host to access the internal private network hosts. Accessing the internal network must go through the bastion host .",
+    "chunk_index": 17,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "b8ad2102-e0ef-4c25-bad0-2107e5bc7be1",
+    "text": "Dual-homed Bastion Host (DHBH) ➢ This configuration physically separates the external and systems must be internal networks, ensuring compromised to breach security. two ➢ The advantages of dual layers of security are also present here. ➢ Again, an information server or other hosts can be allowed direct communication with the router if this is in accordance with the security policy, but are now separated from the internal network. 3) Screened Subnet Firewall Both the Internet and the internal network have access to hosts on the screened subnet, but traffic across the screened subnet is blocked. There are now three levels of defense to thwart intruders",
+    "chunk_index": 18,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "365f6f5c-c673-4121-bdfb-04475ca6e2ac",
+    "text": "Screened Subnet Firewall (SSFW) is ➢This configuration the most secure shown. ➢It has two packet-filtering routers, one between the bastion host and the Internet and the other between the bastion host and the internal network, creating an isolated subnetwork (screened subnet). ➢This screened subnet may consist of simply the bastion host but may also include one or more information servers and modems for dial-in capability.",
+    "chunk_index": 19,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "6ebe9e1a-aa21-432d-85bc-5262596b6ef5",
+    "text": "➢Typically, both the Internet and the internal the the network have access screened subnet, but screened subnet is blocked. to hosts on traffic across Screened Subnet Firewall (SSFW) This configuration offers several advantages: 1)There are now three levels of defense to thwart intruders 2)The outside router advertises only the existence of the the internal screened subnet to the Internet; therefore, network is invisible to the Internet 3)Similarly, the inside router advertises only the existence of the screened subnet to the internal network; hence systems on the inside network cannot construct direct routes to the Internet",
+    "chunk_index": 20,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "e045c8e8-f692-461a-99f3-8838c2190771",
+    "text": "DMZ Networks The given figure suggests the most common distinction, that between an internal and an external firewall. DMZ Networks This is a “screened subnet”, also known as a demilitarized zone (DMZ), located between an internal and an external firewall. ➢An external firewall is placed at the edge of a local or enterprise network, just inside the boundary router that connects to the Internet or some wide area network (WAN). ➢One or more internal firewalls protect the bulk of the enterprise",
+    "chunk_index": 21,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "8b09f8ab-165d-4b3f-8e9b-bedf7cea6012",
+    "text": "network. . DMZ Networks ➢Systems that are externally accessible but need some protections are usually located on DMZ networks. Typically, the systems in the DMZ require or foster external connectivity, such as a corporate Web site, an e-mail server, or a DNS (domain name system) server. ➢The external firewall provides a measure of access control and protection for the DMZ systems consistent with their need for external connectivity. The external firewall also provides a basic level of protection for the remainder of the enterprise network",
+    "chunk_index": 22,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "ee1b9430-9919-44e0-8a40-81709c7a1cb4",
+    "text": "DMZ Networks In this type of configuration, internal firewalls serve three purposes: 1. The internal firewall adds more stringent filtering capability, compared to the external firewall, to protect enterprise servers and workstations from external attack. 2. The internal firewall provides two-way protection with respect to the DMZ: ➢ It protects the remainder of the network from attacks launched from DMZ systems. ➢ It also protects DMZ systems from attack by internal",
+    "chunk_index": 23,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "6c5a6361-7162-4b85-bcfb-d6af503decec",
+    "text": "hosts. 3. Multiple internal firewalls can be used to protect portions of the internal network from each other. A common practice is to place the DMZ on a different network interface on the external firewall from that used to access the internal networks.",
+    "chunk_index": 24,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "46753381-a161-416f-8d8d-66c6d84238e6",
+    "text": "VPN Security Scenario In essence, a VPN uses encryption and authentication in the lower protocol layers to provide a secure connection through an otherwise insecure network, typically the Internet. VPNs are generally cheaper than real private networks using private lines but rely on having the same encryption and authentication system at both ends. The encryption may be performed by firewall software or possibly by routers. The most common protocol mechanism used for this purpose is at the IP level and is known as IPsec. A Distributed Firewall Configuration ▪ External DMZ network ▪ Internal DMZ network ▪ Internal protected network",
+    "chunk_index": 25,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "c666e794-0bb1-4a9a-8099-67cd44721bb2",
+    "text": "❑ A distributed firewall configuration involves stand- alone firewall devices plus host-based firewalls working together under a central administrative control. ❑ Administrators can configure host-resident firewalls on hundreds of servers and workstations as well as configure personal firewalls on local and remote user systems. These firewalls protect against internal attacks and provide protection tailored to specific machines and applications. ❑ Stand-alone firewalls provide global protection, including internal firewalls and an external firewall, as discussed previously. Summary of Firewall Locations and Topologies Host-resident firewall Single bastion T This category includes personal firewall software and firewall software on servers",
+    "chunk_index": 26,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "fb0f2034-b27c-4ab0-a285-5433961e21c1",
+    "text": "Can be used alone or as part of an in- depth firewall deployment Like single bastion inline but has a third network interface on bastion to a DMZ where externally visible servers are placed Double bastion inline Screening router A single router between internal and external networks with stateless or full packet filtering This arrangement is typical for small office/home office (SOHO) applications DMZ is sandwiched",
+    "chunk_index": 27,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "acd46321-c024-494f-9f8f-24d0ddc08d6b",
+    "text": "between bastion firewalls Double bastion T DMZ is on a separate network interface on the bastion firewall • Distributed firewall Single bastion inline configuration A single firewall device between an internal and external router This is the typical firewall appliance configuration for small-to-medium sized organizations Used by some large",
+    "chunk_index": 28,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  },
+  {
+    "id": "c4f4d355-bea8-4959-b9ed-2d590c7cc51a",
+    "text": "businesses and government organizations Summary The need for firewalls •Firewall characteristics • Types of firewalls 1) 1- Packet filtering firewall 2) 2- Stateful inspection firewalls 3) 3- Application-level gateway 4) 4- Circuit-level gateway • Firewall basing ➢1- Bastion host ➢2- Host based firewalls ➢3- Personal firewall Firewall locations and configurations 1- DMZ networks • 2- Virtual private networks • 3- Distributed firewalls • 4- Firewall location and topologies",
+    "chunk_index": 29,
+    "source_file": "4th_Security_sce_422_ch_22_firewalls_reduced_2024_-_audio"
+  }
+]

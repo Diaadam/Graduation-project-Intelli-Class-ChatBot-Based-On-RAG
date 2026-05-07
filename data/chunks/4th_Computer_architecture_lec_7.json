@@ -1,0 +1,68 @@
+[
+  {
+    "id": "0b6017ac-8b20-407b-b938-7bf99da6386d",
+    "text": "Lecture 7 DATAPATHS ALU DESIGN Introduction In the previous lecture, the separation of a design of digital systems into a Datapath that implements microoperations and a control unit that determines the sequence of microoperations was introduced. In this lecture, we continue by defining a generic computer datapath that implements register transfer microoperations and serves as a framework for the design of detailed processing logic. The concept of a control word provides a tie between the datapath and the control unit associated with it. The generic datapath combined with a control unit and memory forms a programmable system— in this case, a simple computer.",
+    "chunk_index": 0,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "34c24489-d357-4742-aff7-51e7ed4e3e2e",
+    "text": "DATAPATHS Instead of having each individual register perform its microoperations directly, computer systems often employ a number of storage registers in conjunction with a shared operation unit called an arithmetic/logic unit, abbreviated ALU. To perform a microoperation, the contents of specified source registers are applied to the inputs of the shared ALU. The ALU performs an operation, and the result of this operation is transferred to a destination register. Cont., The datapath is defined by three basic components: 1. A set of registers, 2. The microoperations performed on data stored in",
+    "chunk_index": 1,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "68ecbd67-5314-4d1c-8723-819222354b12",
+    "text": "the registers, and 3. The control interface. The control unit provides signals that control the microoperations performed in the datapath and in other components of the system, such as memories. The rest of this chapter is concerned with the organization and design of computer datapaths and associated control units used to implement simple computers.",
+    "chunk_index": 2,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "8726e1ad-da87-4e0e-af28-018d521ea3ce",
+    "text": "A simple bus-based datapath The specification for a computer consists of a description of its appearance to a programmer at the lowest level, its instruction set architecture (ISA). For instance, a simple bus-based datapath with four registers, an ALU, and a shifter is shown in the following Figure. Cont., Each register is connected to two multiplexers to form ALU and shifter input buses A and B. The select inputs on each multiplexer select one register for the corresponding bus. For Bus B, there is an additional multiplexer, MUX B, so that constants can be brought into the Datapath from outside using Constant in. • Bus B also connects to Data out, to send data outside the Datapath to other components of the system, such as memory or input–output. Cont.,",
+    "chunk_index": 3,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "4fc88119-c27b-43ee-b7db-672b9c6ad8d3",
+    "text": "Likewise, Bus A connects to Address out, to send address information outside of the datapath for memory or input–output. Arithmetic and logic microoperations are performed on the operands on the A and B buses by the ALU. The G select inputs select the microoperation to be performed by the ALU. The shift microoperations are performed on data on Bus B by the shifter. Cont., The H select input either passes the operand on Bus B directly through to the shifter output or selects a shift microoperation. MUX F selects the output of the ALU or the output of the shifter. MUX D selects the output of MUX F or external data on input Data in to be applied to Bus D.",
+    "chunk_index": 4,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "e8f63e0f-fdae-44ae-9295-e697f9bc13fc",
+    "text": "The latter is connected to the inputs of all the registers. • The destination select inputs determine which register is loaded with the data on Bus D. Cont., • Since the select inputs are decoded, only one register Load signal is active for any transfer of data into a register from Bus D. A Load enable signal can force all register Load signals to 0 using AND gates. The control unit for the datapath directs the information flow through the buses, the ALU, the shifter, and the registers by applying signals to the select inputs (control word).",
+    "chunk_index": 5,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "a3f5604c-cd64-4ff1-bc14-ec4c4f23708c",
+    "text": "Example Specify the control word to perform the following microoperation: R1←R2 +R3 Solution: AA = 10, G = ADD code, MF = 0, Destination select = 01, Load enable = 1. BA = 11, MB = 0, MD = 0, DATAPATH REPRESENTATION A typical Datapath has more than four registers. Indeed, computers with 32 or more registers are common. • The construction of a bus system with a large number of registers requires different techniques. A set of registers having common microoperations performed on them may be organized into a register file. The typical register file is a special type of fast memory that permits one or more words to be read and one or more words to be written, all simultaneously.",
+    "chunk_index": 6,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "eece7b86-d845-4ceb-8b5e-f727d52fea6f",
+    "text": "THE ARITHMETIC/LOGIC UNIT The ALU is a combinational circuit that performs a set of basic arithmetic and logic microoperations. Cont., Design of ALU The design steps of an ALU: 1- Design the arithmetic section. 2- Design the logic section, 3- Combine the two sections to form the ALU. Where, the basic component of an ALU is the parallel adder.",
+    "chunk_index": 7,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "242463a7-7604-446d-86c2-36f34d3abb90",
+    "text": "Parallel Adder The basic architecture of the parallel adder is the Full Adder with carry lookahead circuits. Full Adder circuit is as shown: S = A ⊕ B ⊕ Cin Cout = (A ⋅ B) + (Cin ⋅ (A ⊕ B)). Cont., Consider the full adder circuit shown above with corresponding truth table. If we define two variables as carry generate Gi and carry propagate Pi then,",
+    "chunk_index": 8,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "8ac2da06-0bde-4c6d-8a80-e142ec0b0d51",
+    "text": "Pi = Ai ⊕ Bi Gi = Ai Bi The sum output and carry output can be expressed as Si = Pi ⊕ Ci C i +1 = Gi + Pi Ci Where Gi is a carry generate which produces the carry when both Ai, Bi are one regardless of the input carry. Pi is a carry propagate and it is associate with the propagation of carry from Ci to Ci +1.",
+    "chunk_index": 9,
+    "source_file": "4th_Computer_architecture_lec_7"
+  },
+  {
+    "id": "319b6e3a-18d1-4440-90b8-421856c676ca",
+    "text": "Arithmetic Circuit 1111= -1D • 0000+ 1= 0001= 1D 0001 • 1111 Logic Circuit Assignment Design an ALU with 4 arithmetic & 2 logic operations. Sheet Text Book Ch., 8",
+    "chunk_index": 10,
+    "source_file": "4th_Computer_architecture_lec_7"
+  }
+]

@@ -1,0 +1,5917 @@
+[
+  {
+    "type": "UncategorizedText",
+    "element_id": "fdba7f69632bd6860717ef0916efffed",
+    "text": "Al-Azhar University Faculty of Eng., Systems and Computer Eng., Dept.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            37.96260037500002
+          ],
+          [
+            56.698818,
+            128.26259212500003
+          ],
+          [
+            475.3966857768346,
+            128.26259212500003
+          ],
+          [
+            475.3966857768346,
+            37.96260037500002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "2e2efef2c29eb3edfa0bec7b11542116",
+    "text": "SYS 401: Embedded Systems Grade 4, 2nd Semister By: Ass., Prof Khaled Elshafey",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            170.69881800000002,
+            208.09842000000003
+          ],
+          [
+            170.69881800000002,
+            328.59842
+          ],
+          [
+            548.30819304,
+            328.59842
+          ],
+          [
+            548.30819304,
+            208.09842000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "aae59ddc8fb5955b25c77223452d84cb",
+    "text": "Course Information",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            401.67147594,
+            106.56259899999998
+          ],
+          [
+            401.67147594,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bc7ec009070e45ac5e148124ea625fa0",
+    "text": "Grading: Projects, Assignments, Exams",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.03881851565265,
+            174.76882697735357
+          ],
+          [
+            50.03881851565265,
+            193.97341473750004
+          ],
+          [
+            362.79283766226484,
+            193.97341473750004
+          ],
+          [
+            362.79283766226484,
+            174.76882697735357
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "aae59ddc8fb5955b25c77223452d84cb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4898b3659aaebb507614b458abebc722",
+    "text": "Assignments 5 \u2022 Mid Term \u2022 Projects \u2022 Finals 10 70",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.03881813459999,
+            198.01882212235358
+          ],
+          [
+            86.03881813459999,
+            284.7234101525
+          ],
+          [
+            237.4508015525807,
+            284.7234101525
+          ],
+          [
+            237.4508015525807,
+            198.01882212235358
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "aae59ddc8fb5955b25c77223452d84cb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "a13e3b44cb7157137d80e04bf96395ad",
+    "text": "15",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            254.69879386,
+            221.22341136750003
+          ],
+          [
+            254.69879386,
+            239.72340869750002
+          ],
+          [
+            273.45077007258067,
+            239.72340869750002
+          ],
+          [
+            273.45077007258067,
+            221.22341136750003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "aae59ddc8fb5955b25c77223452d84cb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8b3acf2143423081c571cf3186cf3db1",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.03881851565265,
+            315.01884097735353
+          ],
+          [
+            50.03881851565265,
+            333.5188405873535
+          ],
+          [
+            56.515625089114565,
+            333.5188405873535
+          ],
+          [
+            56.515625089114565,
+            315.01884097735353
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "aae59ddc8fb5955b25c77223452d84cb",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "389385771b52fd4dafd4eb61afcd4d40",
+    "text": "Labs",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.69881534,
+            315.7234302675
+          ],
+          [
+            74.69881534,
+            334.2234287375
+          ],
+          [
+            108.20866821443384,
+            334.2234287375
+          ],
+          [
+            108.20866821443384,
+            315.7234302675
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "15a0701715945a25f0af6df143d1aef9",
+    "text": "Microcontrollers, Sensors",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.03881813459999,
+            338.26882212235347
+          ],
+          [
+            86.03881813459999,
+            357.4734101525
+          ],
+          [
+            300.90716384293916,
+            357.4734101525
+          ],
+          [
+            300.90716384293916,
+            338.26882212235347
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "389385771b52fd4dafd4eb61afcd4d40",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8b7e53dbe5ed74a65a6acbd4c95ead48",
+    "text": "Projects",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            50.03881851565265,
+            393.01884097735353
+          ],
+          [
+            50.03881851565265,
+            412.2234287375
+          ],
+          [
+            135.05344405219287,
+            412.2234287375
+          ],
+          [
+            135.05344405219287,
+            393.01884097735353
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "389385771b52fd4dafd4eb61afcd4d40",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b75a7ac8a1e485d2bd27afb61eec90bc",
+    "text": "Project 1: Data Logger \u2022 Projects 2: Smart Buildings ( Power saving)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            86.03881813459999,
+            416.2688221223535
+          ],
+          [
+            86.03881813459999,
+            457.9734101525
+          ],
+          [
+            427.9748443351503,
+            457.9734101525
+          ],
+          [
+            427.9748443351503,
+            416.2688221223535
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 2,
+      "parent_id": "389385771b52fd4dafd4eb61afcd4d40",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0af8301274680101c22211fc642462ea",
+    "text": "Text Book",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            229.04061489999998,
+            106.56259899999998
+          ],
+          [
+            229.04061489999998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b5a135f540ba724ad489951432578879",
+    "text": "- Introduction to Embedded Systems- A Cyber \u2013 Physical Systems Approach, by: Lee & Seshia, 2nd Edition, 2015.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            80.791841,
+            174.62966992000003
+          ],
+          [
+            80.791841,
+            270.09842000000003
+          ],
+          [
+            619.2144429599999,
+            270.09842000000003
+          ],
+          [
+            619.2144429599999,
+            174.62966992000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 3,
+      "parent_id": "0af8301274680101c22211fc642462ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7d7c1a66e25f206b62f83afc6b148af8",
+    "text": "Course Layout",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            314.12460016,
+            106.56259899999998
+          ],
+          [
+            314.12460016,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "eb543484316ce2d7fb42598c3b94855d",
+    "text": "Introduction \u2022 Modeling \u2022 Sensors and Actuators \u2022 Input and Output \u2022 Multitasking and Scheduling \u2022 Security and Privacy",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            380.84843644
+          ],
+          [
+            394.21903357115303,
+            380.84843644
+          ],
+          [
+            394.21903357115303,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 4,
+      "parent_id": "7d7c1a66e25f206b62f83afc6b148af8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "71eb50e53f965c3bd8d3371ff03c5653",
+    "text": "Introduction",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.683228,
+            52.693589537499975
+          ],
+          [
+            49.683228,
+            92.29358753749995
+          ],
+          [
+            254.79884283862498,
+            92.29358753749995
+          ],
+          [
+            254.79884283862498,
+            52.693589537499975
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "251b5ef7a726edb0ee61dd0abe11237c",
+    "text": "The most visible use of computers & S.W is processing information for human consumption.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.027593305045343,
+            145.12382951734378
+          ],
+          [
+            28.027593305045343,
+            204.19024040000005
+          ],
+          [
+            677.5897876740484,
+            204.19024040000005
+          ],
+          [
+            677.5897876740484,
+            145.12382951734378
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 5,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8890634d76c6a470a61bc8b5fa3c177d",
+    "text": "The vast majority of computers in use, however, are much less visible.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.027593305045343,
+            215.62381895734376
+          ],
+          [
+            28.027593305045343,
+            274.69024484
+          ],
+          [
+            677.2526475699289,
+            274.69024484
+          ],
+          [
+            677.2526475699289,
+            215.62381895734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 5,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "673d8c4615559ddd031383e982895a2e",
+    "text": "They run the Engine, Brake, Seatbelts, Air bags, Encode your voice and construct a radio signal to send it from your cell phone, \u2026etc.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.027593305045343,
+            286.12384895734374
+          ],
+          [
+            28.027593305045343,
+            375.19023324
+          ],
+          [
+            677.1147017666786,
+            375.19023324
+          ],
+          [
+            677.1147017666786,
+            286.12384895734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 5,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4eec4fa49f82688c5fe59f1dcafe6d12",
+    "text": "All hidden computers are called \u201c Embedded Systems\u201d.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            28.027593305045343,
+            386.62384895734374
+          ],
+          [
+            28.027593305045343,
+            415.69025644
+          ],
+          [
+            675.1423731685104,
+            415.69025644
+          ],
+          [
+            675.1423731685104,
+            386.62384895734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 5,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "6b883b545ca7f15ead37006d4d26fcba",
+    "text": "Contd.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            185.52499047999999,
+            106.56259899999998
+          ],
+          [
+            185.52499047999999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 6,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "be4c79907080cb5166b2521676df26f2",
+    "text": "Embedded Systems (E.S) can be defined as:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            564.2104200673599,
+            178.34842500000002
+          ],
+          [
+            564.2104200673599,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 6,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "23630e4410275479dee8d282990bbdfc",
+    "text": "\u201cA computer system with a dedicated function",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            74.04467746301265,
+            190.84841532000002
+          ],
+          [
+            74.04467746301265,
+            218.84841644
+          ],
+          [
+            662.2666111448161,
+            218.84841644
+          ],
+          [
+            662.2666111448161,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 6,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d05e6931dac84255dd7dd123c8d88fd6",
+    "text": "within a large mechanical or electrical Systems\u201d. \u2022 Another definition: \u201cInformation processing systems with a dedicated function embedded into enclosing products, such as Cars, Telecommunication equipment,..\u201d.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            220.84842372000003
+          ],
+          [
+            46.38302830504534,
+            389.84844324
+          ],
+          [
+            663.4300888577085,
+            389.84844324
+          ],
+          [
+            663.4300888577085,
+            220.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 6,
+      "parent_id": "71eb50e53f965c3bd8d3371ff03c5653",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d5f190364bc257a5544a9e34c51a4793",
+    "text": "Types of ES\u2019s",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            286.52889632,
+            106.56259899999998
+          ],
+          [
+            286.52889632,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "551be15d4e7f1b238fee8480eca8429c",
+    "text": "Embedded Hardware.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            321.5737584915491,
+            178.34842500000002
+          ],
+          [
+            321.5737584915491,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "parent_id": "d5f190364bc257a5544a9e34c51a4793",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "91b7140d64118804fd8f5de245b339ee",
+    "text": "Is a combination of microchip and several",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            190.84841532000002
+          ],
+          [
+            92.69882308000001,
+            218.84841644
+          ],
+          [
+            562.8482243232166,
+            218.84841644
+          ],
+          [
+            562.8482243232166,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "parent_id": "d5f190364bc257a5544a9e34c51a4793",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "56e3160d77f2456a697fcbe1f5239608",
+    "text": "electronic components which can able to some tasks. \u2022 Embedded Software.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            220.84842372000003
+          ],
+          [
+            46.38302830504534,
+            319.34843644
+          ],
+          [
+            528.4082305318237,
+            319.34843644
+          ],
+          [
+            528.4082305318237,
+            220.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "parent_id": "d5f190364bc257a5544a9e34c51a4793",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6504af59764d907876182526e7938e04",
+    "text": "perform",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            560.69886512,
+            220.84842372000003
+          ],
+          [
+            560.69886512,
+            248.84842484
+          ],
+          [
+            653.9599145869937,
+            248.84842484
+          ],
+          [
+            653.9599145869937,
+            220.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6adfcd008f1901d1a7c6c3e18450b277",
+    "text": "If you are using a controller, you have to code your needs ( Firmware) to be able to perform the system operations.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698853,
+            331.84843532
+          ],
+          [
+            56.698853,
+            419.84844324
+          ],
+          [
+            626.1714579306278,
+            419.84844324
+          ],
+          [
+            626.1714579306278,
+            331.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 7,
+      "parent_id": "6504af59764d907876182526e7938e04",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4578d2e2d634af8a5afbe1dededbd31b",
+    "text": "Firmware",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            225.89608376,
+            106.56259899999998
+          ],
+          [
+            225.89608376,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e1a58dfab0b77ce534ff1a9c5e66119a",
+    "text": "The program instructions written for embedded systems are referred to as \u201cFirmware\u201d.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            663.4636863881814,
+            208.34841339999997
+          ],
+          [
+            663.4636863881814,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 8,
+      "parent_id": "4578d2e2d634af8a5afbe1dededbd31b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "380c47b231bfa4c029ea5708ee5826a2",
+    "text": "Is a type of S.W that provides control, monitoring, and data manipulation of electronic products.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            662.5441000457876,
+            278.84842484
+          ],
+          [
+            662.5441000457876,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 8,
+      "parent_id": "4578d2e2d634af8a5afbe1dededbd31b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3be050063e53e14f255ef700bc181acf",
+    "text": "Common Characteristics of ES\u2019s",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            623.5288986199998,
+            106.56259899999998
+          ],
+          [
+            623.5288986199998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d056cdca4a8aea0d86d10773713c5ec7",
+    "text": "ES\u2019s are connected to the physical environment through Sensors & Actuators.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            609.0173989672253,
+            208.34841339999997
+          ],
+          [
+            609.0173989672253,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 9,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c5df9cc5a2bd14b1a2bf634fbfa5bad7",
+    "text": "Have to be Dependable.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            260.28200895734375
+          ],
+          [
+            46.38302830504534,
+            289.34841644
+          ],
+          [
+            351.1233331297934,
+            289.34841644
+          ],
+          [
+            351.1233331297934,
+            260.28200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 9,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "92168da6ad34431bb0fc5db3c2ba0d0d",
+    "text": "Have to be Efficient ( Energy, code-size, Run-time, Weight, and Cost).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            341.28202895734375
+          ],
+          [
+            46.38302830504534,
+            400.34843484
+          ],
+          [
+            663.4286617885957,
+            400.34843484
+          ],
+          [
+            663.4286617885957,
+            341.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 9,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "7c5d86f5632de5d78bcf8583e00f4de9",
+    "text": "Contd.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            187.66806368,
+            106.56259899999998
+          ],
+          [
+            187.66806368,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 10,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "61e5332ebe971f55acec2ef619b7d680",
+    "text": "Dedicated toward a certain application. \u2022 Must meet \u201cReal-time constraints\u201d. \u2022 Most ES\u2019s are Hybrid systems (Digital& Analogue parts).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            289.34842484
+          ],
+          [
+            625.6485973910214,
+            289.34842484
+          ],
+          [
+            625.6485973910214,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 10,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b2f24df3b2471d5cbd1ed5c1a6270438",
+    "text": "Reactive Systems (continual interaction with its environment).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            300.78202895734375
+          ],
+          [
+            46.38302830504534,
+            359.84843484
+          ],
+          [
+            611.5038014987686,
+            359.84843484
+          ],
+          [
+            611.5038014987686,
+            300.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 10,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a72e13d8882f187a4596542cb77312ff",
+    "text": "Multitasking. Many things happen at once.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            371.28202895734375
+          ],
+          [
+            46.38302830504534,
+            400.34843644
+          ],
+          [
+            564.613762293657,
+            400.34843644
+          ],
+          [
+            564.613762293657,
+            371.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 10,
+      "parent_id": "3be050063e53e14f255ef700bc181acf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eed55fd878ef558b1532ac335c079858",
+    "text": "Cyber-Physical Systems (CPS)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            570.7945221399999,
+            106.56259899999998
+          ],
+          [
+            570.7945221399999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6f6eb1086e6792aac4c9c5bb3d5bc61d",
+    "text": "CPS is an integration of computation with physical object processes.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            640.8492977094667,
+            208.34841339999997
+          ],
+          [
+            640.8492977094667,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 11,
+      "parent_id": "eed55fd878ef558b1532ac335c079858",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3fce00afdd4da5a946a8305bf1cc0485",
+    "text": "Embedded computers & Networks (cid:0) monitor and control the physical object processes usually with feedback loops.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84841324
+          ],
+          [
+            634.0595613716703,
+            308.84841324
+          ],
+          [
+            634.0595613716703,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 11,
+      "parent_id": "eed55fd878ef558b1532ac335c079858",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2e68832b1c663743ec3c277d1c244809",
+    "text": "In CPS, many things happen at once. \u2022 It uses smart sensors & Actuators",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            389.84843644
+          ],
+          [
+            486.5338945934025,
+            389.84843644
+          ],
+          [
+            486.5338945934025,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 11,
+      "parent_id": "eed55fd878ef558b1532ac335c079858",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Header",
+    "element_id": "75aaf64882c97bbe5442d51337dc2f7a",
+    "text": "Cyber-Physical Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            207.0145848039192,
+            22.760536146484355
+          ],
+          [
+            207.0145848039192,
+            50.760537266484334
+          ],
+          [
+            518.4094657466104,
+            50.760537266484334
+          ],
+          [
+            518.4094657466104,
+            22.760536146484355
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9d3813ec0da502bffbbef5f9391a7d18",
+    "text": "Control",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            125.34487899999999,
+            142.11172499999998
+          ],
+          [
+            125.34487899999999,
+            162.11172499999998
+          ],
+          [
+            185.3683163,
+            162.11172499999998
+          ],
+          [
+            185.3683163,
+            142.11172499999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b0613f13031474449033490dd871d94b",
+    "text": "Computation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            492.08582,
+            142.11172499999998
+          ],
+          [
+            492.08582,
+            162.11172499999998
+          ],
+          [
+            598.4881637,
+            162.11172499999998
+          ],
+          [
+            598.4881637,
+            142.11172499999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cee239b5c2f5565e699f9db922adc7be",
+    "text": "Monitor and influence physical world",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            65.34487899999999,
+            190.11172
+          ],
+          [
+            65.34487899999999,
+            234.11172
+          ],
+          [
+            246.39761449999997,
+            234.11172
+          ],
+          [
+            246.39761449999997,
+            190.11172
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e989f08d456820f22787e03da833827e",
+    "text": "Process information to make decisions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            464.33582,
+            190.11172
+          ],
+          [
+            464.33582,
+            234.11172
+          ],
+          [
+            626.2420698,
+            234.11172
+          ],
+          [
+            626.2420698,
+            190.11172
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "cee239b5c2f5565e699f9db922adc7be",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "061a8e7e9e57b17130ecc4bcb1136926",
+    "text": "Communication",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            301.73511,
+            358.11176
+          ],
+          [
+            301.73511,
+            378.11176
+          ],
+          [
+            430.53979770000007,
+            378.11176
+          ],
+          [
+            430.53979770000007,
+            358.11176
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7538c8bb1eec04a734a1838a0df04c84",
+    "text": "Exchange data to collaborate",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            306.98511,
+            406.11176
+          ],
+          [
+            306.98511,
+            450.11176
+          ],
+          [
+            422.9284703,
+            450.11176
+          ],
+          [
+            422.9284703,
+            406.11176
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 12,
+      "parent_id": "061a8e7e9e57b17130ecc4bcb1136926",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9a7025d646bee1ca8faa43676c9cc09f",
+    "text": "Cyber-Physical Systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            154.19881800000002,
+            34.22346300000004
+          ],
+          [
+            154.19881800000002,
+            78.22346300000004
+          ],
+          [
+            565.63046014,
+            78.22346300000004
+          ],
+          [
+            565.63046014,
+            34.22346300000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 13,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4b1d2cb73ac7aa9d0e31aaaf69e00e98",
+    "text": "CPS Structure Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            168.735023,
+            60.21425199999999
+          ],
+          [
+            168.735023,
+            104.21425199999999
+          ],
+          [
+            571.8190077600001,
+            104.21425199999999
+          ],
+          [
+            571.8190077600001,
+            60.21425199999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 14,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0dd85b91171ff76db42a76c76735b047",
+    "text": "Feedback Loop",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            398.06345,
+            417.46035384000004
+          ],
+          [
+            398.06345,
+            441.46035384000004
+          ],
+          [
+            562.35641896,
+            441.46035384000004
+          ],
+          [
+            562.35641896,
+            417.46035384000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 14,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d922452b276c4dcd45b18bf3e7217b2c",
+    "text": "Internet of Things (IoT)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            474.28475602,
+            106.56259899999998
+          ],
+          [
+            474.28475602,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 15,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cdec1030cb02c2b5c97e940503feddd9",
+    "text": "Is the network of physical objects (provided with unique id) embedded with electronics, S.W, Sensors, and network connectivity, which enables these objects to collect and exchange data.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            636.8472088004178,
+            268.34841919999997
+          ],
+          [
+            636.8472088004178,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 15,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3a5da0db85547c0ac8ed68539621a0b3",
+    "text": "The IoT allows objects to be sensed and controlled remotely across existing network infrastructure.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            647.173246613459,
+            338.84843484
+          ],
+          [
+            647.173246613459,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 15,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "532f286d70beab13f566a584df39b533",
+    "text": "It means : \u201c Network with smart devices\u201d",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843644
+          ],
+          [
+            540.5142313402021,
+            379.34843644
+          ],
+          [
+            540.5142313402021,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 15,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "6eb88c6d7e18334f3782aa0b366a492a",
+    "text": "IoT has Evolved from:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            448.31405448000004,
+            106.56259899999998
+          ],
+          [
+            448.31405448000004,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 16,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a2a55504c8a58b8c4148a2623b5e8f40",
+    "text": "Wireless Technologies",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            189.78200895734375
+          ],
+          [
+            46.38302830504534,
+            218.84841644
+          ],
+          [
+            323.8498898115599,
+            218.84841644
+          ],
+          [
+            323.8498898115599,
+            189.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 16,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e1ad17c7446073680315edc53e683a4f",
+    "text": "Micro-electromechanical systems (MEMS)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            270.78202895734375
+          ],
+          [
+            46.38302830504534,
+            299.84843644
+          ],
+          [
+            551.3329281301914,
+            299.84843644
+          ],
+          [
+            551.3329281301914,
+            270.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 16,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2ec4df363f8ca18dd286387cadd42f3f",
+    "text": "Internet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            351.78202895734375
+          ],
+          [
+            46.38302830504534,
+            380.84843644
+          ],
+          [
+            166.8632855845097,
+            380.84843644
+          ],
+          [
+            166.8632855845097,
+            351.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 16,
+      "parent_id": "d922452b276c4dcd45b18bf3e7217b2c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e5b70d978a400f4299ca078bfff804f4",
+    "text": "Motivating Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            411.78280276,
+            106.56259899999998
+          ],
+          [
+            411.78280276,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "47d3c25ae1da5dd6e055cad495324224",
+    "text": "STARMAC",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            187.99434782561423,
+            178.34842500000002
+          ],
+          [
+            187.99434782561423,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0fd06d623d05f98b550b100a268cc443",
+    "text": "Is a small quadrotor aircraft to serve as a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            190.84841532000002
+          ],
+          [
+            92.69882308000001,
+            218.84841644
+          ],
+          [
+            568.593712050967,
+            218.84841644
+          ],
+          [
+            568.593712050967,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e7fc3c4957ecab369a6dbc4f8e05d995",
+    "text": "testbed for experimenting with vehicle autonomous control techniques.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698822,
+            220.84842372000003
+          ],
+          [
+            56.698822,
+            278.84841324
+          ],
+          [
+            495.51464047263204,
+            278.84841324
+          ],
+          [
+            495.51464047263204,
+            220.84842372000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ec0eb4eafa29a766d8bfd439404c5434",
+    "text": "The objective is to be able to have multiple",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            291.34843532
+          ],
+          [
+            92.69882308000001,
+            319.34843644
+          ],
+          [
+            594.533502169938,
+            319.34843644
+          ],
+          [
+            594.533502169938,
+            291.34843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "4054e45c6d0250cf6a6b6dd9e02fd0e5",
+    "text": "vehicles cooperate on a common task.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698822,
+            321.34843372
+          ],
+          [
+            56.698822,
+            349.34843484
+          ],
+          [
+            490.3146136798035,
+            349.34843484
+          ],
+          [
+            490.3146136798035,
+            321.34843372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 17,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "58f54ac405b362bc8aa3edae89ba8c12",
+    "text": "Contd.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            185.52499047999999,
+            106.56259899999998
+          ],
+          [
+            185.52499047999999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 18,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7d479c6d4d29035e9a5f624527b1f07f",
+    "text": "The challenges are:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            296.6702011229931,
+            178.34842500000002
+          ],
+          [
+            296.6702011229931,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 18,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "69af1fb8c94151e121267fb1495f4be7",
+    "text": "1- Controlling the vehicles 2-The main actuators are the four rotors which",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            190.84841532000002
+          ],
+          [
+            92.69882308000001,
+            259.34841644
+          ],
+          [
+            628.4038787923384,
+            259.34841644
+          ],
+          [
+            628.4038787923384,
+            190.84841532000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 18,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "63731ee8a654eb87dc4f0b253f692085",
+    "text": "produces a variable amount of thrust.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698853,
+            261.34842372
+          ],
+          [
+            56.698853,
+            289.34842484
+          ],
+          [
+            492.3528916509886,
+            289.34842484
+          ],
+          [
+            492.3528916509886,
+            261.34842372
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 18,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ce928421bf4898cbe6d127557e914840",
+    "text": "3- The weight of the vehicle. 4- Interaction with its environment. 5- Self-Test",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            92.69882308000001,
+            301.84843532
+          ],
+          [
+            92.69882308000001,
+            410.84843644
+          ],
+          [
+            495.05222131620417,
+            410.84843644
+          ],
+          [
+            495.05222131620417,
+            301.84843532
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 18,
+      "parent_id": "e5b70d978a400f4299ca078bfff804f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2c03cc725f9828536530d48a9a1ce354",
+    "text": "Design & Implementation Of CPS",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            655.2027262599998,
+            106.56259899999998
+          ],
+          [
+            655.2027262599998,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 20,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "6610c26a2113dce2400d54eb82270b9d",
+    "text": "Modeling (cid:0)Is the process of gaining a deeper understanding of a system through imitation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            586.125500597756,
+            208.34841339999997
+          ],
+          [
+            586.125500597756,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 20,
+      "parent_id": "2c03cc725f9828536530d48a9a1ce354",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "064b59c0e5665c055be15d554333fe4e",
+    "text": "Design (cid:0) Specifies how a system does what it does, by selecting components and putting them together.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            308.84841324
+          ],
+          [
+            653.4639406083901,
+            308.84841324
+          ],
+          [
+            653.4639406083901,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 20,
+      "parent_id": "2c03cc725f9828536530d48a9a1ce354",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7f37701c263ccd45d7fd664c2778f468",
+    "text": "Analysis (cid:0) Every system must be designed to meet certain requirements.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            320.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843484
+          ],
+          [
+            646.3200085351192,
+            379.34843484
+          ],
+          [
+            646.3200085351192,
+            320.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 20,
+      "parent_id": "2c03cc725f9828536530d48a9a1ce354",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "672f4b50c347d8d46f0166f84fc52934",
+    "text": "Embedded Operating System",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            573.9214747199999,
+            106.56259899999998
+          ],
+          [
+            573.9214747199999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 21,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3ab97848ee02496e4134dd3c3650409a",
+    "text": "An embedded operating system is a specialized OS for use in the computers built into larger systems.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            203.09841668
+          ],
+          [
+            645.8291595376268,
+            203.09841668
+          ],
+          [
+            645.8291595376268,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 21,
+      "parent_id": "672f4b50c347d8d46f0166f84fc52934",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0d02bcd1e8a5285fa61785bd679255df",
+    "text": "In contrast to an operating system for a general- purpose computer, an embedded operating system is typically quite limited in terms of function \u2013 depending on the device in question, the system may only run a single application. \u2022 However, that single application is crucial to the device\u2019s operation, so an embedded OS must be reliable and able to run with constraints on memory, size and processing power.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            210.78201711734374
+          ],
+          [
+            46.38302830504534,
+            465.59841428
+          ],
+          [
+            619.8950258919856,
+            465.59841428
+          ],
+          [
+            619.8950258919856,
+            210.78201711734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 21,
+      "parent_id": "672f4b50c347d8d46f0166f84fc52934",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "3f806b8bc822694b2689ae5c95fdc625",
+    "text": "Contd.,",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            187.66806368,
+            106.56259899999998
+          ],
+          [
+            187.66806368,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 22,
+      "parent_id": "672f4b50c347d8d46f0166f84fc52934",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9585d5c643ad9ee7daa6e1be98cd7a99",
+    "text": "Depending on the method used for multitasking, this type of OS is frequently considered to be a real-time operating system, or RTOS. \u2022 RTOS is an operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            338.84841324
+          ],
+          [
+            664.3095470992754,
+            338.84841324
+          ],
+          [
+            664.3095470992754,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 22,
+      "parent_id": "672f4b50c347d8d46f0166f84fc52934",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d13e0e94a95fbaa9c289a27553a41741",
+    "text": "Linux on ES, and Widows Embedded Automotive.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            379.34843644
+          ],
+          [
+            632.90782382767,
+            379.34843644
+          ],
+          [
+            632.90782382767,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 22,
+      "parent_id": "672f4b50c347d8d46f0166f84fc52934",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "91fc64d483fe20b500d22cefefd670cd",
+    "text": "What Is a Real-Time System?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.077793,
+            57.598427000000015
+          ],
+          [
+            44.077793,
+            101.59842700000002
+          ],
+          [
+            556.6891230599999,
+            101.59842700000002
+          ],
+          [
+            556.6891230599999,
+            57.598427000000015
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 23,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "5ee46759bb3e94bf65bccaf262920f30",
+    "text": "A computer program/algorithm has inputs and outputs. \u2022 The response/output to a given input defines the program behavior.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.077793,
+            176.55939744
+          ],
+          [
+            44.077793,
+            263.72346
+          ],
+          [
+            611.0856058400001,
+            263.72346
+          ],
+          [
+            611.0856058400001,
+            176.55939744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 23,
+      "parent_id": "91fc64d483fe20b500d22cefefd670cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8e24bb19deeeec02bc97804bb3c1cc8e",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.077793,
+            305.55938744
+          ],
+          [
+            44.077793,
+            329.55938744
+          ],
+          [
+            52.48013684,
+            329.55938744
+          ],
+          [
+            52.48013684,
+            305.55938744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 23,
+      "parent_id": "91fc64d483fe20b500d22cefefd670cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "22625e827cfebd8386a2dfa85ebb31a2",
+    "text": "In a real-time system, the behavior must be both logically correct and produced at the correct instant of time. \u2013 If the deadline is missed, the behavior is considered incorrect.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.077793,
+            306.47345
+          ],
+          [
+            71.077793,
+            387.22345
+          ],
+          [
+            628.3707645400001,
+            387.22345
+          ],
+          [
+            628.3707645400001,
+            306.47345
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 23,
+      "parent_id": "91fc64d483fe20b500d22cefefd670cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "47aa358d46af144a30300713a1703d64",
+    "text": "Hard vs. Soft Real-Time: Deadline",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            134.282837,
+            33.72346300000004
+          ],
+          [
+            134.282837,
+            69.72346300000004
+          ],
+          [
+            619.85510448,
+            69.72346300000004
+          ],
+          [
+            619.85510448,
+            33.72346300000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 24,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d2b09aebfe66edaf2d4c20269a1dbb41",
+    "text": "A hard real-time system must produce the result at the correct physical time. Failure to do so can have catastrophic consequence and is considered unacceptable. \u2013 Nuclear power plant",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            34.092076844355695,
+            143.78208535734376
+          ],
+          [
+            34.092076844355695,
+            307.59851
+          ],
+          [
+            622.0401656611531,
+            307.59851
+          ],
+          [
+            622.0401656611531,
+            143.78208535734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 24,
+      "parent_id": "47aa358d46af144a30300713a1703d64",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "56e4033580084dfc4cb86819a1146e15",
+    "text": "A soft real-time system can miss a deadline. \u2013 The result may still be useful \u2013 If the deadline is missed, there will not be a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            34.092076844355695,
+            317.7820950773438
+          ],
+          [
+            34.092076844355695,
+            414.09851
+          ],
+          [
+            557.8129944631007,
+            414.09851
+          ],
+          [
+            557.8129944631007,
+            317.7820950773438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 24,
+      "parent_id": "47aa358d46af144a30300713a1703d64",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2507b27197531e264838e039aa47e04f",
+    "text": "catastrophe. (e.g., multimedia)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            93.907871,
+            419.34851
+          ],
+          [
+            93.907871,
+            443.34851
+          ],
+          [
+            393.74771596,
+            443.34851
+          ],
+          [
+            393.74771596,
+            419.34851
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 24,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "40e9cfbbb2589608e204b53035ca48a5",
+    "text": "Hard vs. Soft Real-Time: Response-Time",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            138.198822,
+            42.211734999999976
+          ],
+          [
+            138.198822,
+            74.21173499999998
+          ],
+          [
+            628.8412325277325,
+            74.21173499999998
+          ],
+          [
+            628.8412325277325,
+            42.211734999999976
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 25,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1a071e2123a7d2fbc4154915b935de26",
+    "text": "A hard real-time system must respond to events on the order of milliseconds (e.g., a braking system).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            60.6668793,
+            142.61801092000002
+          ],
+          [
+            60.6668793,
+            244.83676100000002
+          ],
+          [
+            641.90198112,
+            244.83676100000002
+          ],
+          [
+            641.90198112,
+            142.61801092000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 25,
+      "parent_id": "40e9cfbbb2589608e204b53035ca48a5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2cc409ec49a1d79b92fcf1276d5fe821",
+    "text": "A soft real-time system\u2019s response can be on the order of seconds (an ATM machine).",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            60.6668793,
+            252.11800992000002
+          ],
+          [
+            60.6668793,
+            320.58676
+          ],
+          [
+            650.66760672,
+            320.58676
+          ],
+          [
+            650.66760672,
+            252.11800992000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 25,
+      "parent_id": "40e9cfbbb2589608e204b53035ca48a5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "c98afbc1d4228b3544217946db1e8902",
+    "text": "Hard vs. Soft Real-Time: Peak-Time Performance",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            157.20275900000001,
+            43.973464999999976
+          ],
+          [
+            157.20275900000001,
+            114.22346499999998
+          ],
+          [
+            607.9058840800001,
+            114.22346499999998
+          ],
+          [
+            607.9058840800001,
+            43.973464999999976
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 26,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e8567489b48868b0eb29be62e285a11d",
+    "text": "A hard real-time system must meet the specified deadline under peak/worst conditions. It must be able to meet deadlines in rare-event scenarios.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.761998844355695,
+            165.78208535734376
+          ],
+          [
+            42.761998844355695,
+            296.09851144
+          ],
+          [
+            622.4881043460668,
+            296.09851144
+          ],
+          [
+            622.4881043460668,
+            165.78208535734376
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 26,
+      "parent_id": "c98afbc1d4228b3544217946db1e8902",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a82be0f633d278a6d228d65b75fbe4d0",
+    "text": "Soft real-time systems are defined in terms of average behavior. Performance degradation in worst case scenarios is accepted for economic reasons",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            42.761998844355695,
+            306.0320950773438
+          ],
+          [
+            42.761998844355695,
+            436.34852716
+          ],
+          [
+            600.0775429117133,
+            436.34852716
+          ],
+          [
+            600.0775429117133,
+            306.0320950773438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 26,
+      "parent_id": "c98afbc1d4228b3544217946db1e8902",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a4f0042f88b67710350c46faa00e4ecf",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.077793,
+            160.68443244000002
+          ],
+          [
+            44.077793,
+            184.68443244000002
+          ],
+          [
+            52.48013684,
+            184.68443244000002
+          ],
+          [
+            52.48013684,
+            160.68443244000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "c98afbc1d4228b3544217946db1e8902",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "548d88a009ae0a927a8568de74019275",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            44.077793,
+            336.18444744
+          ],
+          [
+            44.077793,
+            360.18444744
+          ],
+          [
+            52.48013684,
+            360.18444744
+          ],
+          [
+            52.48013684,
+            336.18444744
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "c98afbc1d4228b3544217946db1e8902",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "89329632c8bbd34a72cd34674b5d5344",
+    "text": "Fail-Safe Vs. Fail-Operational",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            130.20275900000001,
+            46.223464999999976
+          ],
+          [
+            130.20275900000001,
+            90.22346499999998
+          ],
+          [
+            635.57385536,
+            90.22346499999998
+          ],
+          [
+            635.57385536,
+            46.223464999999976
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c4a6451f7f3fb4c348bf8af9a9406511",
+    "text": "If a system can enter a \u201csafe\u201d state when failure occurs, the system is fail-safe \u2013 Railway signaling system failure: a safe state is to turn all lights",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.077793,
+            161.598495
+          ],
+          [
+            71.077793,
+            231.8485
+          ],
+          [
+            607.0172468,
+            231.8485
+          ],
+          [
+            607.0172468,
+            161.598495
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "89329632c8bbd34a72cd34674b5d5344",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3d482bb38a7633339345e98b24a3653c",
+    "text": "red.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            102.577793,
+            230.5985
+          ],
+          [
+            102.577793,
+            250.5985
+          ],
+          [
+            134.7984963,
+            250.5985
+          ],
+          [
+            134.7984963,
+            230.5985
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5f1b2e6fe692e4cb724b8ee714d591c9",
+    "text": "\u2013 Example: a watchdog timer or computer operating properly, must be stroked at regular intervals by software. If there is a software failure, the watchdog fires, forces the system into a safe state & resets the CPU.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            72.725941,
+            253.83678120000002
+          ],
+          [
+            72.725941,
+            332.3485
+          ],
+          [
+            633.3629523000002,
+            332.3485
+          ],
+          [
+            633.3629523000002,
+            253.83678120000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "3d482bb38a7633339345e98b24a3653c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3cdb167b701d4355a45277d7f64891ad",
+    "text": "In a fail-operational system, a safe state after failure is not acceptable. The system must remain operational and provide a minimal amount of guaranteed service. \u2013 An airplane with a single failed engine",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            71.077793,
+            337.09851
+          ],
+          [
+            71.077793,
+            430.59851
+          ],
+          [
+            633.38248278,
+            430.59851
+          ],
+          [
+            633.38248278,
+            337.09851
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 27,
+      "parent_id": "3d482bb38a7633339345e98b24a3653c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+    "text": "Application Areas",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            368.10311612000004,
+            106.56259899999998
+          ],
+          [
+            368.10311612000004,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "afeece27153940fdac7997f401cdf51e",
+    "text": "Hybrid embedded systems",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            146.58670020000005
+          ],
+          [
+            49.291409300000005,
+            167.34841900000004
+          ],
+          [
+            289.87264630000004,
+            167.34841900000004
+          ],
+          [
+            289.87264630000004,
+            146.58670020000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3d86e96471b62d1809ebec540be65a7d",
+    "text": "Aerospace, automobiles, robotics, process control, and sensor nets",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.948818,
+            171.41287208000006
+          ],
+          [
+            85.948818,
+            190.09841900000004
+          ],
+          [
+            598.0904203399999,
+            190.09841900000004
+          ],
+          [
+            598.0904203399999,
+            171.41287208000006
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cb3351cc5d78dee334d93d03a8088370",
+    "text": "Multimedia \u2022 Consumer electronics",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            199.08670120000005
+          ],
+          [
+            49.291409300000005,
+            249.09842000000003
+          ],
+          [
+            249.92733429999998,
+            249.09842000000003
+          ],
+          [
+            249.92733429999998,
+            199.08670120000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e92a8213f22f534f600d18c58c759af0",
+    "text": "Appliances, office electronics, and home/office automation",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.948818,
+            252.41287308000005
+          ],
+          [
+            85.948818,
+            271.09842000000003
+          ],
+          [
+            542.0738185399999,
+            271.09842000000003
+          ],
+          [
+            542.0738185399999,
+            252.41287308000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4928f33fbdc4fc5d48ca78b9d0e9e590",
+    "text": "Network components",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            280.0867012
+          ],
+          [
+            49.291409300000005,
+            300.84842
+          ],
+          [
+            249.876554,
+            300.84842
+          ],
+          [
+            249.876554,
+            280.0867012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8ccbf6891529e3f9b994cb33222121d2",
+    "text": "Bridges, routers, switches, and hubs",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.948818,
+            304.16287307999994
+          ],
+          [
+            85.948818,
+            322.84842
+          ],
+          [
+            372.02401434000006,
+            322.84842
+          ],
+          [
+            372.02401434000006,
+            304.16287307999994
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f7e44be5f75d011e0d8983d30d64dd95",
+    "text": "Medical instruments",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            331.8367012
+          ],
+          [
+            49.291409300000005,
+            352.59842
+          ],
+          [
+            241.3531158,
+            352.59842
+          ],
+          [
+            241.3531158,
+            331.8367012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a9853c4a0c4b976d3070007cfdc5bfa3",
+    "text": "Patient monitoring, MRI, and artificial hearts",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            85.948818,
+            355.91287307999994
+          ],
+          [
+            85.948818,
+            374.59842
+          ],
+          [
+            435.08260823999996,
+            374.59842
+          ],
+          [
+            435.08260823999996,
+            355.91287307999994
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f9b7e58b0c039d1a2c6e76ccd83524c0",
+    "text": "E-Business",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            383.5867012
+          ],
+          [
+            49.291409300000005,
+            404.34842
+          ],
+          [
+            160.23592770000002,
+            404.34842
+          ],
+          [
+            160.23592770000002,
+            383.5867012
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9e4a9ac34bda639c899e0ff30f31ceac",
+    "text": "ATM, vending machines \u2022 Distributed & grid computing",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            49.291409300000005,
+            407.66287307999994
+          ],
+          [
+            49.291409300000005,
+            456.09842
+          ],
+          [
+            310.7417879,
+            456.09842
+          ],
+          [
+            310.7417879,
+            407.66287307999994
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 28,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "e15ab6548990b4e3d4406e2d97c19928",
+    "text": "What is a Microcontroller?",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            541.01717774,
+            106.56259899999998
+          ],
+          [
+            541.01717774,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 29,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a6e136a5c19a9da612c2ef2ef77d1357",
+    "text": "A microcontroller is a single chip, self-contained computer which incorporates all the basic components of a personal computer on a much smaller scale.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            268.34841919999997
+          ],
+          [
+            620.4315771517051,
+            268.34841919999997
+          ],
+          [
+            620.4315771517051,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 29,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "f9dc42a64a8e89a15225f9f960204a25",
+    "text": "Microcontrollers are often referred to as single chip devices or single chip computers.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            279.78202895734375
+          ],
+          [
+            46.38302830504534,
+            338.84843484
+          ],
+          [
+            603.7791843921794,
+            338.84843484
+          ],
+          [
+            603.7791843921794,
+            279.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 29,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0e6853cb449ad17433998fb6ee6bab77",
+    "text": "The main consequence of the microcontroller\u2019s small size is that its resources are far more limited than those of a desktop personal computer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            350.28202895734375
+          ],
+          [
+            46.38302830504534,
+            439.34844324
+          ],
+          [
+            640.6937211680712,
+            439.34844324
+          ],
+          [
+            640.6937211680712,
+            350.28202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 29,
+      "parent_id": "b5ec6f3361adfba2620a8760ca0bd2f6",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e739b27677e32e14a9ce44da6225fec3",
+    "text": "microcontroller vs microprocessor",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            64.3626036375
+          ],
+          [
+            56.698818,
+            103.96260163749997
+          ],
+          [
+            604.1649222221954,
+            103.96260163749997
+          ],
+          [
+            604.1649222221954,
+            64.3626036375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 30,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "37a21db2f6d4732d970423801402568a",
+    "text": "A microprocessor is a single chip CPU used within other computer systems.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            633.9577297124247,
+            208.34841339999997
+          ],
+          [
+            633.9577297124247,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 30,
+      "parent_id": "e739b27677e32e14a9ce44da6225fec3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7b899bb6676b9043ab311f70ef00cba2",
+    "text": "A microcontroller is itself a single chip computer system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            626.885126124693,
+            278.84842484
+          ],
+          [
+            626.885126124693,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 30,
+      "parent_id": "e739b27677e32e14a9ce44da6225fec3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0f01a13b7a4707a061408dafa0e62fe5",
+    "text": "A microcontroller main components:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            64.3626036375
+          ],
+          [
+            56.698818,
+            103.96260163749997
+          ],
+          [
+            645.7951947946561,
+            103.96260163749997
+          ],
+          [
+            645.7951947946561,
+            64.3626036375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 31,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "9b6f27b45345d603ab6849eaab33c610",
+    "text": "A microcontroller has seven main components: \u2022 Central processing unit (CPU) \u2022 ROM \u2022 RAM \u2022 Input and Output \u2022 Timer \u2022 Interrupt circuitry \u2022 Buses",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            150.34842388000004
+          ],
+          [
+            46.38302830504534,
+            461.84843644
+          ],
+          [
+            590.1226018459159,
+            461.84843644
+          ],
+          [
+            590.1226018459159,
+            150.34842388000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 31,
+      "parent_id": "0f01a13b7a4707a061408dafa0e62fe5",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f116356da3fb19d6db34a39e7ce8e40d",
+    "text": "The Microcontroller in a System",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            635.1636633399999,
+            106.56259899999998
+          ],
+          [
+            635.1636633399999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 32,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d1057318501777f63cbae93a05950fda",
+    "text": "Microcontrollers do not function in isolation. \u2022 As their name suggests they are designed to control other devices.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            248.84842484
+          ],
+          [
+            582.3652570059672,
+            248.84842484
+          ],
+          [
+            582.3652570059672,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 32,
+      "parent_id": "f116356da3fb19d6db34a39e7ce8e40d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "091947e32a9503f4ae378fad6c4ac595",
+    "text": "The microcontroller can accept inputs from some devices and provide outputs to other devices within any given system.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            260.28200895734375
+          ],
+          [
+            46.38302830504534,
+            349.34841324
+          ],
+          [
+            638.786729378688,
+            349.34841324
+          ],
+          [
+            638.786729378688,
+            260.28200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 32,
+      "parent_id": "f116356da3fb19d6db34a39e7ce8e40d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "da6bf3bbda1ed8ae6b3d2a4295256e5a",
+    "text": "For example, a microcontroller may accept input from a switch and may send output to an LED.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            360.78202895734375
+          ],
+          [
+            46.38302830504534,
+            419.84843484
+          ],
+          [
+            624.1601806625918,
+            419.84843484
+          ],
+          [
+            624.1601806625918,
+            360.78202895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 32,
+      "parent_id": "f116356da3fb19d6db34a39e7ce8e40d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8fcca15e2234586cd9c282b7c903a1ea",
+    "text": "Microcontroller Architecture",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            576.6695241799999,
+            106.56259899999998
+          ],
+          [
+            576.6695241799999,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 33,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "04682bf670baf22f31044fb7ab1cc50d",
+    "text": "There are two basic types of architecture: Harvard and Von Neumann.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            643.2470614495152,
+            208.34841339999997
+          ],
+          [
+            643.2470614495152,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 33,
+      "parent_id": "8fcca15e2234586cd9c282b7c903a1ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "b7e3aa769a7413892595ea89bcbdfed1",
+    "text": "Microcontrollers most often use a Harvard or a modified Harvard-based architecture.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            219.78200895734375
+          ],
+          [
+            46.38302830504534,
+            278.84842484
+          ],
+          [
+            605.6281883916567,
+            278.84842484
+          ],
+          [
+            605.6281883916567,
+            219.78200895734375
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 33,
+      "parent_id": "8fcca15e2234586cd9c282b7c903a1ea",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4fd11317fefd52f96161a8dd53f762cd",
+    "text": "Von Neumann",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            317.18905196,
+            106.56259899999998
+          ],
+          [
+            317.18905196,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e489ceb3ee672410efdb674ad9043a7e",
+    "text": "Von Neumann architecture has a single, common memory space where both program instructions and data are stored. There is a single data bus which fetches both instructions and data. Each time the CPU fetches a program instruction it may have to perform one or more read/write operations to data memory space. It must wait until these subsequent operations are complete before it can fetch and decode the next program instruction. The advantage to this architecture lies in its simplicity and economy.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            144.18699205249612
+          ],
+          [
+            47.07881835847694,
+            471.07341910749994
+          ],
+          [
+            641.4587917942207,
+            471.07341910749994
+          ],
+          [
+            641.4587917942207,
+            144.18699205249612
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "4fd11317fefd52f96161a8dd53f762cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c5063867ce5d92e7977c9d10bca821a7",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            219.93699326749612
+          ],
+          [
+            47.07881835847694,
+            245.8369928474961
+          ],
+          [
+            56.14634760543592,
+            245.8369928474961
+          ],
+          [
+            56.14634760543592,
+            219.93699326749612
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "4fd11317fefd52f96161a8dd53f762cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3b0376c8af02b9ca14a76786144ee27b",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            273.1869832674961
+          ],
+          [
+            47.07881835847694,
+            299.0869828474961
+          ],
+          [
+            56.14634760543592,
+            299.0869828474961
+          ],
+          [
+            56.14634760543592,
+            273.1869832674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "4fd11317fefd52f96161a8dd53f762cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "59e90d37cdb971a9ba3720639950e90a",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            348.1869832674961
+          ],
+          [
+            47.07881835847694,
+            374.0869828474961
+          ],
+          [
+            56.14634760543592,
+            374.0869828474961
+          ],
+          [
+            56.14634760543592,
+            348.1869832674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "4fd11317fefd52f96161a8dd53f762cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1463448a93e6791b647d017e3cdf1eba",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            423.1869832674961
+          ],
+          [
+            47.07881835847694,
+            449.0869828474961
+          ],
+          [
+            56.14634760543592,
+            449.0869828474961
+          ],
+          [
+            56.14634760543592,
+            423.1869832674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 34,
+      "parent_id": "4fd11317fefd52f96161a8dd53f762cd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7478ae5b7be503ac5932b3e835c781bd",
+    "text": "Harvard",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            202.82186456000002,
+            106.56259899999998
+          ],
+          [
+            202.82186456000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 35,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "e767d73b947b78c8930a11760582261c",
+    "text": "Harvard architecture computers have separate memory areas for program instructions and data.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            144.18699205249612
+          ],
+          [
+            47.07881835847694,
+            192.823412265
+          ],
+          [
+            590.9915364236087,
+            192.823412265
+          ],
+          [
+            590.9915364236087,
+            144.18699205249612
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 35,
+      "parent_id": "7478ae5b7be503ac5932b3e835c781bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "46fb92b2533b5d4e9160b6613b3ad0a9",
+    "text": "There are two or more internal data buses which allow simultaneous access to both instructions and data. \u2022 The CPU fetches instructions on the program memory bus. If the fetched instruction requires an operation on data memory, the CPU can fetch the next program instruction while it uses the data bus for its data operation.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            198.18699326749612
+          ],
+          [
+            47.07881835847694,
+            396.07344071250003
+          ],
+          [
+            652.1927390476951,
+            396.07344071250003
+          ],
+          [
+            652.1927390476951,
+            198.18699326749612
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 35,
+      "parent_id": "7478ae5b7be503ac5932b3e835c781bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "23ebc4d18738ee04d5057878bc22a193",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            304.6869832674961
+          ],
+          [
+            47.07881835847694,
+            330.5869828474961
+          ],
+          [
+            56.14634760543592,
+            330.5869828474961
+          ],
+          [
+            56.14634760543592,
+            304.6869832674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 35,
+      "parent_id": "7478ae5b7be503ac5932b3e835c781bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "51512795f6f4baeb1009d15e6b2b9159",
+    "text": "This speeds up execution time at the cost of more hardware complexity.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.07881835847694,
+            401.4369832674961
+          ],
+          [
+            47.07881835847694,
+            449.32341910749994
+          ],
+          [
+            596.826430858681,
+            449.32341910749994
+          ],
+          [
+            596.826430858681,
+            401.4369832674961
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 35,
+      "parent_id": "7478ae5b7be503ac5932b3e835c781bd",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d1abab354d88f08f1cb1ba02abf73697",
+    "text": "I/O Ports",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            221.51327168,
+            106.56259899999998
+          ],
+          [
+            221.51327168,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 36,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "232e80b04e9a31b832d946889dc7778c",
+    "text": "There are two main port types, parallel and serial, and two port modes, synchronous and asynchronous.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            147.03201263734377
+          ],
+          [
+            46.38302830504534,
+            230.09841423999995
+          ],
+          [
+            639.8371068124272,
+            230.09841423999995
+          ],
+          [
+            639.8371068124272,
+            147.03201263734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 36,
+      "parent_id": "d1abab354d88f08f1cb1ba02abf73697",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ee76928f158bb0f38f72631592c26bd7",
+    "text": "Parallel I/O requires a data line for each bit, while serial I/O uses a single line and transfers bits in sequence.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            237.78201711734374
+          ],
+          [
+            46.38302830504534,
+            320.84841772000004
+          ],
+          [
+            634.4192720177828,
+            320.84841772000004
+          ],
+          [
+            634.4192720177828,
+            237.78201711734374
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 36,
+      "parent_id": "d1abab354d88f08f1cb1ba02abf73697",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0c06fb4e25412230879e9d5ffc5a1c57",
+    "text": "Synchronous I/O is synchronized to a clock while asynchronous I/O is not.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            328.5320171173438
+          ],
+          [
+            46.38302830504534,
+            384.59842116
+          ],
+          [
+            629.5916864867484,
+            384.59842116
+          ],
+          [
+            629.5916864867484,
+            328.5320171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 36,
+      "parent_id": "d1abab354d88f08f1cb1ba02abf73697",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ec22df6dd6cf1fbc27efbd0d5367131a",
+    "text": "Microcontrollers most often have parallel I/O capability built in and serial I/O as a peripheral feature.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            392.2820171173438
+          ],
+          [
+            46.38302830504534,
+            475.34841772000004
+          ],
+          [
+            602.2587780555011,
+            475.34841772000004
+          ],
+          [
+            602.2587780555011,
+            392.2820171173438
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 36,
+      "parent_id": "d1abab354d88f08f1cb1ba02abf73697",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "129ddd0daa145b3750467dbb50b54ce3",
+    "text": "Assignment",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            264.99960136,
+            106.56259899999998
+          ],
+          [
+            264.99960136,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 37,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0744e681e7289a1ea2cbbb6d18e1f573",
+    "text": "What are the differences between Embedded SW developer and SW developer.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            208.34841339999997
+          ],
+          [
+            635.5804388711263,
+            208.34841339999997
+          ],
+          [
+            635.5804388711263,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 37,
+      "parent_id": "129ddd0daa145b3750467dbb50b54ce3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "62ab239b278fdf642798164140211390",
+    "text": "Sheet",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            56.698818,
+            62.56259899999998
+          ],
+          [
+            56.698818,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            106.56259899999998
+          ],
+          [
+            158.32772436000002,
+            62.56259899999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 38,
+      "parent_id": "75aaf64882c97bbe5442d51337dc2f7a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1931e6d44f8a1630a753bf00545d33ef",
+    "text": "Text Book Ch.,1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.38302830504534,
+            149.28201751734377
+          ],
+          [
+            46.38302830504534,
+            178.34842500000002
+          ],
+          [
+            248.44949622726836,
+            178.34842500000002
+          ],
+          [
+            248.44949622726836,
+            149.28201751734377
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Embedded",
+      "filename": "lec 1.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2021-03-23T07:20:42",
+      "page_number": 38,
+      "parent_id": "62ab239b278fdf642798164140211390",
+      "filetype": "application/pdf"
+    }
+  }
+]

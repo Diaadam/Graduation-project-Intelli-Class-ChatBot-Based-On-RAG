@@ -1,0 +1,38 @@
+[
+  {
+    "id": "b1efc308-5f90-4139-8bda-bff71e1ebca3",
+    "text": "Lecture 5 2nd Hybrid Class: Supervisory control Introduction A control system involves four components: 1- Plant, the physical process that is to be controlled; 2- The environment, in which the plant operates; 3- Sensors, that measure some variables of the plant 4- Controller that determines the mode transition structure and selects the time-based inputs to the plant.",
+    "chunk_index": 0,
+    "source_file": "4th_Embedded_lec_5"
+  },
+  {
+    "id": "55d85f22-0bac-409b-bc03-2125a531e122",
+    "text": "Controller Levels The controller has two levels: 1- Supervisory control that determines the mode transition structure, 2- Low-level control that determines the time-based inputs to the plant. Where, Intuitively, the supervisory controller determines which of several strategies should be followed, and the low-level controller implements the selected strategy.",
+    "chunk_index": 1,
+    "source_file": "4th_Embedded_lec_5"
+  },
+  {
+    "id": "8e052ad4-30e5-4a6b-9e6d-585a8044e94c",
+    "text": "1- Plant Description Cont., 5- In terms of this coordinate frame, the motion of the vehicle is given by a system of three differential equations, 2,3- The Environment & Sensors The environment is the closed painted track. • It could be described by an equation. • We will describe it indirectly below by means of a sensor that determines how far the vehicle is to Left or Right of the track. We can build such a sensor using photodiodes. • Let’s suppose the track is painted with a light- reflecting color, whereas the floor is relatively dark. Underneath the AGV we place an array of photodiodes as shown in the following Figure. Cont.,",
+    "chunk_index": 2,
+    "source_file": "4th_Embedded_lec_5"
+  },
+  {
+    "id": "de3bf07c-28e3-4dc4-82ca-6677bc82f8fc",
+    "text": "The array is perpendicular to the AGV body axis. • As the AGV passes over the track, the diode directly above the track generates more current than the other diodes. By comparing the magnitudes of the currents through the different diodes, the sensor estimates the displacement e(t) of the center of the array (hence, the center of the AGV) from the track. Cont., We adopt the convention that e(t) < 0 means that the AGV is to the right of the track ( ϴ is –ve), and e(t) > 0 means it is to the left (ϴ is +ve). We model the sensor output as a function f of the AGV’s position,",
+    "chunk_index": 3,
+    "source_file": "4th_Embedded_lec_5"
+  },
+  {
+    "id": "fa4e3373-a14d-427e-b19e-65df0781a779",
+    "text": "4-a: Low-Level Controller 1- The vehicle always moves at its maximum speed of 10 mph. 2- If the vehicle strays too far to the left of the track, the controller steers it towards the right; 3- If it strays too far to the right of the track, the controller steers it towards the left. 4- If the vehicle is close to the track, the controller maintains the vehicle in a straight direction. Cont., Thus the controller guides the vehicle in four modes: { left, right, straight, and stop}. Cont.,",
+    "chunk_index": 4,
+    "source_file": "4th_Embedded_lec_5"
+  },
+  {
+    "id": "f24b3c07-0894-401f-8f62-a1218a877e79",
+    "text": "4-b: Supervisory control We design the supervisory control governing transitions between modes in such a way that the vehicle closely follows the track, using a sensor that determines how far the vehicle is to the left or right of the track. We select two thresholds, 0 < ϵ 1 < ϵ 2, as shown in Figure 4.14. If the magnitude of the displacement is small, e(t) < ϵ 1, we consider that the AGV is close enough to the track, and the AGV can move straight ahead, in straight mode. Cont., If e(t) > ϵ 2 (e(t) is large and positive), the AGV has strayed too far to the left and must be steered to the right, by switching to right mode. If e(t) < -ϵ2 (e(t) is large and negative), the AGV has strayed too far to the right and must be steered to the left, by switching to left mode.",
+    "chunk_index": 5,
+    "source_file": "4th_Embedded_lec_5"
+  }
+]

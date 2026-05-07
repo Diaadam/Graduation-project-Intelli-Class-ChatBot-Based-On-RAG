@@ -1,0 +1,5826 @@
+[
+  {
+    "type": "Title",
+    "element_id": "a6b0e76fcc0e8a6fba0adf45b9d540aa",
+    "text": "Cryptography and Network Security Chapter 3",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            53.112,
+            126.44000000000005
+          ],
+          [
+            53.112,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            245.14
+          ],
+          [
+            212.37216000000004,
+            126.44000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "42df1eaf09974078919b2cb2f5e880a7",
+    "text": "Fifth Edition",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.136,
+            382.8116
+          ],
+          [
+            47.136,
+            399.40999999999997
+          ],
+          [
+            143.86668,
+            399.40999999999997
+          ],
+          [
+            143.86668,
+            382.8116
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "parent_id": "a6b0e76fcc0e8a6fba0adf45b9d540aa",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "20832e2ecc8d7861748abb4279c09390",
+    "text": "by William Stallings",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            65.496,
+            400.73
+          ],
+          [
+            65.496,
+            416.69
+          ],
+          [
+            190.75008000000003,
+            416.69
+          ],
+          [
+            190.75008000000003,
+            400.73
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7cea8364680658c59e1030402a52d94b",
+    "text": "Lecture slides by Lawrie Brown",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            47.136,
+            434.6556
+          ],
+          [
+            47.136,
+            468.534
+          ],
+          [
+            172.64256000000003,
+            468.534
+          ],
+          [
+            172.64256000000003,
+            434.6556
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "parent_id": "20832e2ecc8d7861748abb4279c09390",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "4abe455f3447372d3bf4d388b547966f",
+    "text": "Modern Block Ciphers & Data Encryption Standard (DES)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            296.52,
+            122.75
+          ],
+          [
+            296.52,
+            270.02
+          ],
+          [
+            643.96176,
+            270.02
+          ],
+          [
+            643.96176,
+            122.75
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "62c52e8e40597d6b52d9e31b4b7cfa1f",
+    "text": "Arabic Language Audio Comments by Prof. Mohamed Ashraf Madkour",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            315.5,
+            341.32
+          ],
+          [
+            315.5,
+            385.36
+          ],
+          [
+            617.46272,
+            385.36
+          ],
+          [
+            617.46272,
+            341.32
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 1,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "72cb48b53602150ee35678694330bd85",
+    "text": "Modern Block Ciphers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            203.3,
+            96.22199999999998
+          ],
+          [
+            203.3,
+            131.286
+          ],
+          [
+            516.1760720000001,
+            131.286
+          ],
+          [
+            516.1760720000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c0506f3804a79f4f576f0a7b2df231a6",
+    "text": "\u27a2 now look at modern block ciphers \u27a2 one of the most widely used types of cryptographic",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            253.90500000000003
+          ],
+          [
+            87.984,
+            306.09000000000003
+          ],
+          [
+            556.526,
+            306.09000000000003
+          ],
+          [
+            556.526,
+            253.90500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 2,
+      "parent_id": "72cb48b53602150ee35678694330bd85",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "d9676058ad0feb7d16f43fcdd24a414b",
+    "text": "algorithms",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            310.28999999999996
+          ],
+          [
+            114.98,
+            331.28999999999996
+          ],
+          [
+            210.59300000000002,
+            331.28999999999996
+          ],
+          [
+            210.59300000000002,
+            310.28999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 2,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "3f22c903b407f03c226a3e741685f195",
+    "text": "\u27a2 provide secrecy /authentication services \u27a2 focus on DES (Data Encryption Standard) \u27a2 to illustrate block cipher design principles",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            339.56592
+          ],
+          [
+            87.984,
+            422.03
+          ],
+          [
+            468.15799999999996,
+            422.03
+          ],
+          [
+            468.15799999999996,
+            339.56592
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 2,
+      "parent_id": "d9676058ad0feb7d16f43fcdd24a414b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e291d21aa35a423b0f5eb78462f639d",
+    "text": "Block vs Stream Ciphers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            197.59,
+            97.49200000000002
+          ],
+          [
+            197.59,
+            132.55600000000004
+          ],
+          [
+            534.975808,
+            132.55600000000004
+          ],
+          [
+            534.975808,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 3,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a356e2eca360ffc4e1fb7e4093bc386a",
+    "text": "block ciphers process messages in blocks, each of which is then encrypted / decrypted \u2022 block ciphers look like a substitution on very big bit patterns (characters) of 64-bits or more stream ciphers process messages a bit or byte at a time when encrypting or decrypting",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.22,
+            213.5084
+          ],
+          [
+            235.22,
+            395.186
+          ],
+          [
+            625.669232,
+            395.186
+          ],
+          [
+            625.669232,
+            213.5084
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 3,
+      "parent_id": "5e291d21aa35a423b0f5eb78462f639d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "3c55722f23ccf922b344420a9b98226f",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.22,
+            331.1384
+          ],
+          [
+            235.22,
+            351.1784
+          ],
+          [
+            242.234,
+            351.1784
+          ],
+          [
+            242.234,
+            331.1384
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 3,
+      "parent_id": "5e291d21aa35a423b0f5eb78462f639d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7425d409ab74c9b5fb854318dd9202db",
+    "text": "many current ciphers are block ciphers \u2013 better analyzed \u2013 broader range of applications",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            235.22,
+            400.7584
+          ],
+          [
+            235.22,
+            474.402
+          ],
+          [
+            576.15656,
+            474.402
+          ],
+          [
+            576.15656,
+            400.7584
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 3,
+      "parent_id": "5e291d21aa35a423b0f5eb78462f639d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5082bc1c264e59df3e4159e5b774d00a",
+    "text": "Block vs Stream Ciphers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            147.67,
+            26.591999999999985
+          ],
+          [
+            147.67,
+            70.656
+          ],
+          [
+            572.1825759999999,
+            70.656
+          ],
+          [
+            572.1825759999999,
+            26.591999999999985
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 4,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "65eeba6df414d6cc8548f56acbf10b4b",
+    "text": "Block Cipher Principles",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            205.15,
+            97.49200000000002
+          ],
+          [
+            205.15,
+            132.55600000000004
+          ],
+          [
+            527.493352,
+            132.55600000000004
+          ],
+          [
+            527.493352,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "03b6947afc7570f1e6a25f860a778e14",
+    "text": "most symmetric block ciphers are based on a Feistel Cipher Structure \u2022 needed since must be able to decrypt ciphertext to recover messages efficiently",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.25,
+            217.61944000000005
+          ],
+          [
+            277.25,
+            320.11
+          ],
+          [
+            615.66904,
+            320.11
+          ],
+          [
+            615.66904,
+            217.61944000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "parent_id": "65eeba6df414d6cc8548f56acbf10b4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ddd26ff43bd0478b040d3ab1a953504c",
+    "text": "block ciphers look like an extremely large substitution",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.25,
+            323.2684
+          ],
+          [
+            277.25,
+            363.31600000000003
+          ],
+          [
+            596.9542400000001,
+            363.31600000000003
+          ],
+          [
+            596.9542400000001,
+            323.2684
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "parent_id": "65eeba6df414d6cc8548f56acbf10b4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "8f7db163a4f9b065760964072be993e6",
+    "text": "would need table of 264 entries for a 64-bit block instead create from smaller building blocks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.25,
+            366.33
+          ],
+          [
+            277.25,
+            449.73
+          ],
+          [
+            602.29516,
+            449.73
+          ],
+          [
+            602.29516,
+            366.33
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "parent_id": "65eeba6df414d6cc8548f56acbf10b4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "78e02a3e68fe2ca6728a08fa7dc53304",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.25,
+            409.6884
+          ],
+          [
+            277.25,
+            429.72839999999997
+          ],
+          [
+            284.264,
+            429.72839999999997
+          ],
+          [
+            284.264,
+            409.6884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "parent_id": "65eeba6df414d6cc8548f56acbf10b4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "57f0d94f17df94752a4ce0c7dc21781e",
+    "text": "using idea of a product cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            277.25,
+            452.8884
+          ],
+          [
+            277.25,
+            473.73
+          ],
+          [
+            550.2410000000001,
+            473.73
+          ],
+          [
+            550.2410000000001,
+            452.8884
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 5,
+      "parent_id": "65eeba6df414d6cc8548f56acbf10b4b",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "150b5570cf30ff5b9b0127f74cb8b591",
+    "text": "Claude Shannon and Substitution- Permutation Ciphers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            124.75,
+            76.50999999999999
+          ],
+          [
+            124.75,
+            153.55600000000004
+          ],
+          [
+            607.6222399999999,
+            153.55600000000004
+          ],
+          [
+            607.6222399999999,
+            76.50999999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "39cd55c801149bbec830012482a048f4",
+    "text": "\u27a2 Claude Shannon introduced idea of substitution-permutation (S-P) networks in 1949 paper",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.99,
+            200.44819999999999
+          ],
+          [
+            298.99,
+            264.59
+          ],
+          [
+            616.00888,
+            264.59
+          ],
+          [
+            616.00888,
+            200.44819999999999
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "parent_id": "150b5570cf30ff5b9b0127f74cb8b591",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "8ec79dda17cbcb0944cc9a0940728c00",
+    "text": "\u27a2 form basis of modern block ciphers \u27a2 S-P nets are based on the two",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.99,
+            270.0482
+          ],
+          [
+            298.99,
+            317.39599999999996
+          ],
+          [
+            615.6882400000001,
+            317.39599999999996
+          ],
+          [
+            615.6882400000001,
+            270.0482
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "parent_id": "150b5570cf30ff5b9b0127f74cb8b591",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d33a68ba91f029295ea4f8f918ac603b",
+    "text": "primitive cryptographic operations seen before: \u26ab substitution (S-box) \u26ab permutation (P-box)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            325.99,
+            318.98
+          ],
+          [
+            325.99,
+            413.42
+          ],
+          [
+            611.37964,
+            413.42
+          ],
+          [
+            611.37964,
+            318.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "parent_id": "150b5570cf30ff5b9b0127f74cb8b591",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "483b835aad5d65241233efc22f75df84",
+    "text": "\u27a2 provide confusion & diffusion of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.99,
+            418.85912
+          ],
+          [
+            298.99,
+            439.826
+          ],
+          [
+            588.827712,
+            439.826
+          ],
+          [
+            588.827712,
+            418.85912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "parent_id": "150b5570cf30ff5b9b0127f74cb8b591",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0be04bf0e554ff3a05b910ae5439b534",
+    "text": "message & key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            325.99,
+            441.402
+          ],
+          [
+            325.99,
+            461.442
+          ],
+          [
+            446.63079999999997,
+            461.442
+          ],
+          [
+            446.63079999999997,
+            441.402
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 6,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "37f0e69d1e407238b92a395d6c52e520",
+    "text": "Confusion and Diffusion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            196.27,
+            97.49200000000002
+          ],
+          [
+            196.27,
+            132.55600000000004
+          ],
+          [
+            536.075224,
+            132.55600000000004
+          ],
+          [
+            536.075224,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1bc1f3c26ce8aee2dfc8214e198704bc",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            272.23,
+            222.34840000000003
+          ],
+          [
+            272.23,
+            242.3884
+          ],
+          [
+            279.244,
+            242.3884
+          ],
+          [
+            279.244,
+            222.34840000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0884c56d018a9bf6dcd648244ffd4c48",
+    "text": "cipher needs to completely obscure statistical properties of original message a one-time pad does this",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            299.23,
+            223.15000000000003
+          ],
+          [
+            299.23,
+            291.196
+          ],
+          [
+            626.1826,
+            291.196
+          ],
+          [
+            626.1826,
+            223.15000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "4d3ffb1110ed01ac2a047d1fa76c9054",
+    "text": "\u2022 more practically Shannon suggested combining S & P elements to obtain:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            272.23,
+            270.32944000000003
+          ],
+          [
+            272.23,
+            339.21
+          ],
+          [
+            596.6035600000001,
+            339.21
+          ],
+          [
+            596.6035600000001,
+            270.32944000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "11d64969d256fb2b677bafbf9ee4b82b",
+    "text": "diffusion \u2013 dissipates statistical",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            272.23,
+            344.7684
+          ],
+          [
+            272.23,
+            365.61
+          ],
+          [
+            556.73932,
+            365.61
+          ],
+          [
+            556.73932,
+            344.7684
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "375adbe0204de3afed363d995eb64fd3",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            272.23,
+            414.34944
+          ],
+          [
+            272.23,
+            434.41344000000004
+          ],
+          [
+            279.2524,
+            434.41344000000004
+          ],
+          [
+            279.2524,
+            414.34944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cbd71d1d3cf63f1ab81216947f50042d",
+    "text": "structure of plaintext over bulk of ciphertext confusion \u2013 makes relationship between ciphertext and key as complex as possible",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            299.23,
+            367.16999999999996
+          ],
+          [
+            299.23,
+            478.434
+          ],
+          [
+            633.37624,
+            478.434
+          ],
+          [
+            633.37624,
+            367.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 7,
+      "parent_id": "37f0e69d1e407238b92a395d6c52e520",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8fa393fa7bb35295ee7a570730d7fd60",
+    "text": "Feistel Cipher Structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            193.56,
+            96.22199999999998
+          ],
+          [
+            193.56,
+            131.286
+          ],
+          [
+            526.1420400000001,
+            131.286
+          ],
+          [
+            526.1420400000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "aa3e9ee67206d4f3dfcc3b35f8776e34",
+    "text": "Horst Feistel devised the feistel cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            216.17103999999995
+          ],
+          [
+            87.984,
+            238.03599999999994
+          ],
+          [
+            441.324208,
+            238.03599999999994
+          ],
+          [
+            441.324208,
+            216.17103999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "beb9446c3126753e4927985d0a38968b",
+    "text": "\u2013 based on concept of invertible product cipher \u2022 partitions input block into two halves (the next diagram",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            246.45000000000005
+          ],
+          [
+            87.984,
+            298.53
+          ],
+          [
+            592.436,
+            298.53
+          ],
+          [
+            592.436,
+            246.45000000000005
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1d8ccd57bbe4a99a27f98449cdd71338",
+    "text": "describes the following encryption/decryption operations) \u2013 process through multiple rounds which perform a",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            302.73
+          ],
+          [
+            114.98,
+            353.97
+          ],
+          [
+            611.903,
+            353.97
+          ],
+          [
+            611.903,
+            302.73
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "bbf7164115b1b08437ba718c082bb7e2",
+    "text": "substitution on left data half based on round function of right half & subkey then have permutation swapping halves",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            358.152
+          ],
+          [
+            146.54,
+            429.59000000000003
+          ],
+          [
+            629.307952,
+            429.59000000000003
+          ],
+          [
+            629.307952,
+            358.152
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "ff43a6fd679fec3e0064d7400d2b78fb",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            437.994
+          ],
+          [
+            87.984,
+            458.994
+          ],
+          [
+            95.33399999999999,
+            458.994
+          ],
+          [
+            95.33399999999999,
+            437.994
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d6f8df4879369996e0a01702b606c216",
+    "text": "implements Shannon\u2019s S-P net concept",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            438.834
+          ],
+          [
+            114.98,
+            459.834
+          ],
+          [
+            445.67300000000006,
+            459.834
+          ],
+          [
+            445.67300000000006,
+            438.834
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 8,
+      "parent_id": "8fa393fa7bb35295ee7a570730d7fd60",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9e7a4d5a722208ccfa14e06ec99ccd33",
+    "text": "Feistel Cipher Structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            156.67,
+            32.591999999999985
+          ],
+          [
+            156.67,
+            76.656
+          ],
+          [
+            575.1898719999999,
+            76.656
+          ],
+          [
+            575.1898719999999,
+            32.591999999999985
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 9,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9fd2660735037c028e72c70d44e8a3c8",
+    "text": "Detailed Description of Round 2 during Encryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            68.808,
+            70.97199999999998
+          ],
+          [
+            68.808,
+            143.86
+          ],
+          [
+            627.6930959999997,
+            143.86
+          ],
+          [
+            627.6930959999997,
+            70.97199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 10,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "009a273cfae7aab190fbe4210fda1373",
+    "text": "LE1: left-half input obtained from the output of round 1 \u2022 RE1: right-half input obtained from the output of round 1",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.928,
+            200.53159999999997
+          ],
+          [
+            95.928,
+            274.97
+          ],
+          [
+            306.28352000000007,
+            274.97
+          ],
+          [
+            306.28352000000007,
+            200.53159999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 10,
+      "parent_id": "9fd2660735037c028e72c70d44e8a3c8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7f46985096279bebd7d42f845f92eaab",
+    "text": "F: cryptographic function containing substitution and permutation (this function is the same for all rounds) \u2022 K2: subkey for round 2 (each round has its own different subkey)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.928,
+            281.6516
+          ],
+          [
+            95.928,
+            407.96000000000004
+          ],
+          [
+            302.67296000000005,
+            407.96000000000004
+          ],
+          [
+            302.67296000000005,
+            281.6516
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 10,
+      "parent_id": "9fd2660735037c028e72c70d44e8a3c8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "cd08f182d6d95b93238cc28165aec479",
+    "text": "LE2 & RE2: left and right-half outputs of round 3 (this is the input for round 3, and so on)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.928,
+            414.62264
+          ],
+          [
+            95.928,
+            465.822
+          ],
+          [
+            310.36568000000005,
+            465.822
+          ],
+          [
+            310.36568000000005,
+            414.62264
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 10,
+      "parent_id": "9fd2660735037c028e72c70d44e8a3c8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fe5d8f52e756a18b144a543e8bf927c1",
+    "text": "Feistel Cipher Design Elements (Example: DES Cipher)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            148.87,
+            85.49200000000002
+          ],
+          [
+            148.87,
+            144.76600000000002
+          ],
+          [
+            583.558408,
+            144.76600000000002
+          ],
+          [
+            583.558408,
+            85.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "1878a9e9879b1b16475182f0ac11421c",
+    "text": "\u27a2 block size \u27a2 key size \u27a2 number of rounds \u27a2 subkey generation algorithm \u27a2 round function \u27a2 fast software",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            203.04500000000002
+          ],
+          [
+            319.97,
+            376.22
+          ],
+          [
+            590.55304,
+            376.22
+          ],
+          [
+            590.55304,
+            203.04500000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 11,
+      "parent_id": "fe5d8f52e756a18b144a543e8bf927c1",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "19f4c94440023f2e8a8a9fdd51d53aa6",
+    "text": "encryption/decryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            346.99,
+            380.41999999999996
+          ],
+          [
+            346.99,
+            401.41999999999996
+          ],
+          [
+            539.371,
+            401.41999999999996
+          ],
+          [
+            539.371,
+            380.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8086b196af98107cb2c10f3bb62fe4dd",
+    "text": "\u27a2 ease of analysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            409.69592
+          ],
+          [
+            319.97,
+            431.666
+          ],
+          [
+            479.609392,
+            431.666
+          ],
+          [
+            479.609392,
+            409.69592
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 11,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "9da3c35c854b063be32b48c552f4ff08",
+    "text": "Data Encryption Standard (DES)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            142.75,
+            97.49200000000002
+          ],
+          [
+            142.75,
+            132.55600000000004
+          ],
+          [
+            589.4653600000001,
+            132.55600000000004
+          ],
+          [
+            589.4653600000001,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 12,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "0bf1f472bca877d8bf551d87c3b70e8a",
+    "text": "most widely used block cipher in world \u2022 adopted in 1977 by NBS (now NIST) \u2022 broken in 1997 by a brute force attack; now replaced by AES in 2001. encrypts 64-bit data using 56-bit key",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            258.05,
+            203.54840000000002
+          ],
+          [
+            258.05,
+            334.82
+          ],
+          [
+            643.0646,
+            334.82
+          ],
+          [
+            643.0646,
+            203.54840000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 12,
+      "parent_id": "9da3c35c854b063be32b48c552f4ff08",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "2353554fa7214fdeae8327c234ce5286",
+    "text": "\u2022 has widespread use \u2022 has been considerable controversy over its security",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            258.05,
+            313.97839999999997
+          ],
+          [
+            258.05,
+            416.42
+          ],
+          [
+            635.00852,
+            416.42
+          ],
+          [
+            635.00852,
+            313.97839999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 12,
+      "parent_id": "9da3c35c854b063be32b48c552f4ff08",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "665a6e7caaa2ac8d7cf924d5d919f1d1",
+    "text": "Use of DES has flourished",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            258.05,
+            421.95944
+          ],
+          [
+            258.05,
+            442.826
+          ],
+          [
+            491.6891360000001,
+            442.826
+          ],
+          [
+            491.6891360000001,
+            421.95944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 12,
+      "parent_id": "9da3c35c854b063be32b48c552f4ff08",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "57aa2743246cdc788a2d778ebfc0e7c8",
+    "text": "\u2013 especially in financial applications \u2013 still standardised for legacy application use",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            294.05,
+            448.4004
+          ],
+          [
+            294.05,
+            495.642
+          ],
+          [
+            664.2639200000001,
+            495.642
+          ],
+          [
+            664.2639200000001,
+            448.4004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 12,
+      "parent_id": "9da3c35c854b063be32b48c552f4ff08",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e972ff43ab083e93f3350da2465424f4",
+    "text": "DES Encryption Overview",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            134.59,
+            26.591999999999985
+          ],
+          [
+            134.59,
+            70.656
+          ],
+          [
+            585.36472,
+            70.656
+          ],
+          [
+            585.36472,
+            26.591999999999985
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 13,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7046e564f35e61f66a9a97b831243840",
+    "text": "Except for the initial and final permutations, DES has the exact structure of a Feistel cipher, as shown in Slide 9.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            343.25,
+            438.245184
+          ],
+          [
+            343.25,
+            499.008
+          ],
+          [
+            684.5480000000001,
+            499.008
+          ],
+          [
+            684.5480000000001,
+            438.245184
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 13,
+      "parent_id": "e972ff43ab083e93f3350da2465424f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5beb8c51ea2f8e49903c1fcc5eb16c4c",
+    "text": "Initial Permutation IP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            215.95,
+            97.49200000000002
+          ],
+          [
+            215.95,
+            132.55600000000004
+          ],
+          [
+            516.518608,
+            132.55600000000004
+          ],
+          [
+            516.518608,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "26096a96cfcd8333aaa7b57635bddd22",
+    "text": "\u27a2 first step of the data computation \u27a2 IP reorders the input data bits \u27a2 even bits to LH half, odd bits to RH",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            202.7468
+          ],
+          [
+            319.97,
+            277.28000000000003
+          ],
+          [
+            615.9565600000001,
+            277.28000000000003
+          ],
+          [
+            615.9565600000001,
+            202.7468
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "parent_id": "5beb8c51ea2f8e49903c1fcc5eb16c4c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "8f51b2ea6233ac4361fba662ac88ea0b",
+    "text": "half",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            346.99,
+            281.12
+          ],
+          [
+            346.99,
+            300.08000000000004
+          ],
+          [
+            380.4544,
+            300.08000000000004
+          ],
+          [
+            380.4544,
+            281.12
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0dc96edcf8c48786b2e61f7e76e65be9",
+    "text": "\u27a2 quite regular in structure (easy in",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            307.6568
+          ],
+          [
+            319.97,
+            327.47
+          ],
+          [
+            606.53344,
+            327.47
+          ],
+          [
+            606.53344,
+            307.6568
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "069f4fb796ff35a03de1b9e83bec60da",
+    "text": "h/w implementation)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            346.99,
+            331.31
+          ],
+          [
+            346.99,
+            350.27
+          ],
+          [
+            511.37320000000005,
+            350.27
+          ],
+          [
+            511.37320000000005,
+            331.31
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "792b70091204878b6feafe43863d2526",
+    "text": "\u27a2 example:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            357.8168
+          ],
+          [
+            319.97,
+            377.63
+          ],
+          [
+            417.08512,
+            377.63
+          ],
+          [
+            417.08512,
+            357.8168
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "b5dcdb0dabdc20c29a5d31cae0d9bf30",
+    "text": "IP(675a6967 5e5a6b5a) =",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            411.23499200000003
+          ],
+          [
+            319.97,
+            430.218992
+          ],
+          [
+            620.0178880000001,
+            430.218992
+          ],
+          [
+            620.0178880000001,
+            411.23499200000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "8d0d392dd0e48fdb69736492d85befe6",
+    "text": "(ffb2194d 004df6fb)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            346.99,
+            434.31648
+          ],
+          [
+            346.99,
+            454.452
+          ],
+          [
+            567.66496,
+            454.452
+          ],
+          [
+            567.66496,
+            434.31648
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 14,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a0c40129ca9c1f0467a689bd6434ea65",
+    "text": "\u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.256,
+            219.48999999999995
+          ],
+          [
+            95.256,
+            261.28
+          ],
+          [
+            101.556,
+            261.28
+          ],
+          [
+            101.556,
+            219.48999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "44a4403d34c581ee3a0e5ddab0332c85",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            95.256,
+            314.56
+          ],
+          [
+            95.256,
+            332.56
+          ],
+          [
+            101.556,
+            332.56
+          ],
+          [
+            101.556,
+            314.56
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "aa561c87eb739d83d2a76dfed3ad5d3a",
+    "text": "DES Round Structure (refer to the next diagram)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            218.86,
+            83.09199999999998
+          ],
+          [
+            218.86,
+            147.07600000000002
+          ],
+          [
+            513.5027920000001,
+            147.07600000000002
+          ],
+          [
+            513.5027920000001,
+            83.09199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "b69cce7a782060486060faccace8c953",
+    "text": "uses two 32-bit L & R halves as for any Feistel cipher can describe as: Li = Ri\u20131 Ri = Li\u20131 \uf0c5 F(Ri\u20131, Ki) F takes 32-bit R half and 48-bit subkey: \u2013 expands R to 48-bits using",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            122.26,
+            220.20999999999998
+          ],
+          [
+            122.26,
+            357.03999999999996
+          ],
+          [
+            414.32800000000003,
+            357.03999999999996
+          ],
+          [
+            414.32800000000003,
+            220.20999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "792b70091204878b6feafe43863d2526",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e785f6c7b9adb12643db0a7d76d62992",
+    "text": "permutation E",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            153.84,
+            358.462
+          ],
+          [
+            153.84,
+            376.486
+          ],
+          [
+            258.73968,
+            376.486
+          ],
+          [
+            258.73968,
+            358.462
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "a411053463169137936d48d059437658",
+    "text": "\u2013 adds to subkey using XOR \u2013 passes through 8 S-boxes to get 32-",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            131.26,
+            381.53999999999996
+          ],
+          [
+            131.26,
+            424.02
+          ],
+          [
+            412.328,
+            424.02
+          ],
+          [
+            412.328,
+            381.53999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "e785f6c7b9adb12643db0a7d76d62992",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "89dab786f13eda12a29f2f60269b3b7d",
+    "text": "bit result",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            153.84,
+            425.46
+          ],
+          [
+            153.84,
+            443.46
+          ],
+          [
+            219.252,
+            443.46
+          ],
+          [
+            219.252,
+            425.46
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "0452ef00a1038b8140872e1cd6c6220a",
+    "text": "\u2013 finally permutes using 32-bit",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            131.26,
+            448.5
+          ],
+          [
+            131.26,
+            467.22
+          ],
+          [
+            366.85400000000004,
+            467.22
+          ],
+          [
+            366.85400000000004,
+            448.5
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "parent_id": "89dab786f13eda12a29f2f60269b3b7d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7a5f0319fda21ca720f85c1296b73837",
+    "text": "permutation P",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            153.84,
+            468.65999999999997
+          ],
+          [
+            153.84,
+            486.65999999999997
+          ],
+          [
+            259.23,
+            486.65999999999997
+          ],
+          [
+            259.23,
+            468.65999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 15,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1db54d016bd1b1e2a066cf1fd5a78fcf",
+    "text": "Which row",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            0.888,
+            273.87224000000003
+          ],
+          [
+            0.888,
+            291.89624000000003
+          ],
+          [
+            79.99533600000001,
+            291.89624000000003
+          ],
+          [
+            79.99533600000001,
+            273.87224000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3f179e5a4a0bcac2a77337fc00023ee9",
+    "text": "Which column",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            10.224,
+            362.52
+          ],
+          [
+            10.224,
+            402.12
+          ],
+          [
+            64.926,
+            402.12
+          ],
+          [
+            64.926,
+            362.52
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "7fe053c50c6ffc2937c9749c05f0208a",
+    "text": "DES Round Structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            174.55,
+            48.379999999999995
+          ],
+          [
+            174.55,
+            92.42000000000002
+          ],
+          [
+            545.2346799999999,
+            92.42000000000002
+          ],
+          [
+            545.2346799999999,
+            48.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 19,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "1de97acce54c9fb0ae6af874be2365f4",
+    "text": "Substitution Boxes S",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            216.38,
+            96.22199999999998
+          ],
+          [
+            216.38,
+            131.286
+          ],
+          [
+            503.06326400000006,
+            131.286
+          ],
+          [
+            503.06326400000006,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 20,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "85aebb3d68a66699ad3058deab932473",
+    "text": "\u27a2 have eight S-boxes which map 6 to 4 bits \u27a2 each S-box is containing four little 4-bit boxes",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            221.10591999999997
+          ],
+          [
+            87.984,
+            273.33
+          ],
+          [
+            505.351,
+            273.33
+          ],
+          [
+            505.351,
+            221.10591999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 20,
+      "parent_id": "1de97acce54c9fb0ae6af874be2365f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c44c61039e3efaabbbc6a01291a7eda6",
+    "text": "\u26ab outer bits 1 & 6 (row bits) select one row of 4 \u26ab inner bits 2-5 (col bits) are substituted \u26ab result is 8 lots of 4 bits, or 32 bits \u27a2 row selection depends on both data & key \u27a2 example:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            281.625
+          ],
+          [
+            87.984,
+            424.55
+          ],
+          [
+            538.859,
+            424.55
+          ],
+          [
+            538.859,
+            281.625
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 20,
+      "parent_id": "1de97acce54c9fb0ae6af874be2365f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "f63da692934be51c93ded58307f6a6e3",
+    "text": "\u26ab S(18 09 12 3d 11 17 38 39) = 5fd25e03",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            431.652
+          ],
+          [
+            123.98,
+            453.954
+          ],
+          [
+            618.286,
+            453.954
+          ],
+          [
+            618.286,
+            431.652
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 20,
+      "parent_id": "1de97acce54c9fb0ae6af874be2365f4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "944fa1bf1341d39a3969a43a88046bf8",
+    "text": "DES Key Schedule",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            241.42,
+            97.49200000000002
+          ],
+          [
+            241.42,
+            132.55600000000004
+          ],
+          [
+            491.0055520000001,
+            132.55600000000004
+          ],
+          [
+            491.0055520000001,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f2bb68feffd811227e50db56bde277a8",
+    "text": "\u27a2 forms subkeys used in each round",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.416,
+            190.63912
+          ],
+          [
+            79.416,
+            211.606
+          ],
+          [
+            381.276736,
+            211.606
+          ],
+          [
+            381.276736,
+            190.63912
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "parent_id": "944fa1bf1341d39a3969a43a88046bf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5565f089289987c83e645ea5fd3c0525",
+    "text": "\u26ab initial permutation of the key (PC1) which selects 56-bits in two 28-bit halves",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.42,
+            217.08819999999997
+          ],
+          [
+            115.42,
+            281.23
+          ],
+          [
+            427.31752000000006,
+            281.23
+          ],
+          [
+            427.31752000000006,
+            217.08819999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "parent_id": "944fa1bf1341d39a3969a43a88046bf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "09b6028667ade0fd0947a93cf622c3ef",
+    "text": "\u26ab 16 stages consisting of:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            115.42,
+            286.6882
+          ],
+          [
+            115.42,
+            307.63
+          ],
+          [
+            329.92312000000004,
+            307.63
+          ],
+          [
+            329.92312000000004,
+            286.6882
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "parent_id": "944fa1bf1341d39a3969a43a88046bf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "a7f60885a73ed26a6052787f45c75840",
+    "text": "rotating each half separately either 1 or 2 places depending on the key rotation schedule K \u2022 selecting 24-bits from each half & permuting them by PC2 for use in round function F",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            151.42,
+            313.16944
+          ],
+          [
+            151.42,
+            446.856
+          ],
+          [
+            429.15216,
+            446.856
+          ],
+          [
+            429.15216,
+            313.16944
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "parent_id": "944fa1bf1341d39a3969a43a88046bf8",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6d4c733347041d792e1af7f585c40b15",
+    "text": "\u27a2 note practical use issues in h/w vs s/w",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            79.416,
+            452.3322
+          ],
+          [
+            79.416,
+            473.274
+          ],
+          [
+            415.99792000000014,
+            473.274
+          ],
+          [
+            415.99792000000014,
+            452.3322
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 21,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a49d4a7621a8f47c40720fc19ac4798a",
+    "text": "DES Decryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            147.79,
+            97.49200000000002
+          ],
+          [
+            147.79,
+            132.55600000000004
+          ],
+          [
+            366.975064,
+            132.55600000000004
+          ],
+          [
+            366.975064,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "c84adcc1326fa413b496674cb4ebafda",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            104.88,
+            179.89
+          ],
+          [
+            104.88,
+            197.89
+          ],
+          [
+            111.17999999999999,
+            197.89
+          ],
+          [
+            111.17999999999999,
+            179.89
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "parent_id": "a49d4a7621a8f47c40720fc19ac4798a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "04e77318774f50537bfb936cce18556b",
+    "text": "decryption must unwind steps of data computation during encryption",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            131.88,
+            180.61
+          ],
+          [
+            131.88,
+            218.05
+          ],
+          [
+            412.518,
+            218.05
+          ],
+          [
+            412.518,
+            180.61
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "parent_id": "a49d4a7621a8f47c40720fc19ac4798a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "67cc21a069db7fa3d65b404edd2461ce",
+    "text": "with Feistel design, do encryption steps again using subkeys in reverse order (K16 \u2026 K1) \u2013 IP undoes final permutation step of \u2013 1st round with K16 undoes 16th",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            104.88,
+            223.08999999999997
+          ],
+          [
+            104.88,
+            350.62
+          ],
+          [
+            425.71799999999996,
+            350.62
+          ],
+          [
+            425.71799999999996,
+            223.08999999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "parent_id": "a49d4a7621a8f47c40720fc19ac4798a",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "eea8093e7389474f7e821b502daa280b",
+    "text": "encrypt round",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.44,
+            349.12
+          ],
+          [
+            163.44,
+            367.12
+          ],
+          [
+            267.336,
+            367.12
+          ],
+          [
+            267.336,
+            349.12
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "3397a286d5eaf63e1c0d7484a05b3e6d",
+    "text": "\u2013 \u2026. \u2013 16th round with K1 undoes 1st",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            140.88,
+            372.14104
+          ],
+          [
+            140.88,
+            417.6
+          ],
+          [
+            389.738,
+            417.6
+          ],
+          [
+            389.738,
+            372.14104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "b72cff539bf6fbb006a7d64a6901e4d0",
+    "text": "encrypt round",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.44,
+            416.1
+          ],
+          [
+            163.44,
+            434.1
+          ],
+          [
+            271.476,
+            434.1
+          ],
+          [
+            271.476,
+            416.1
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e86f5f88ac6b7d12d5dd829bdf974328",
+    "text": "\u2013 then final inverse permutation (IP-1)",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            140.88,
+            438.96
+          ],
+          [
+            140.88,
+            457.86
+          ],
+          [
+            428.55799999999994,
+            457.86
+          ],
+          [
+            428.55799999999994,
+            438.96
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a10e395d10441e977b5ea54540b7232d",
+    "text": "undoes initial encryption IP",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            163.44,
+            459.3
+          ],
+          [
+            163.44,
+            477.3
+          ],
+          [
+            367.34399999999994,
+            477.3
+          ],
+          [
+            367.34399999999994,
+            459.3
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "67271daa1c9c156603496a380b749f80",
+    "text": "\u2013 thus recovering original data value",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            140.88,
+            482.34000000000003
+          ],
+          [
+            140.88,
+            501.06
+          ],
+          [
+            419.4,
+            501.06
+          ],
+          [
+            419.4,
+            482.34000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 22,
+      "parent_id": "a10e395d10441e977b5ea54540b7232d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "52ea1dd5c01b81ad7bbf76c4c386982f",
+    "text": "DES Example",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            46.728,
+            134.87199999999996
+          ],
+          [
+            46.728,
+            222.27999999999997
+          ],
+          [
+            191.082,
+            222.27999999999997
+          ],
+          [
+            191.082,
+            134.87199999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 23,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "89f96944d64a2b9efdf6c5165ae1cd62",
+    "text": "Avalanche Effect",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            243.02,
+            96.22199999999998
+          ],
+          [
+            243.02,
+            131.286
+          ],
+          [
+            484.2252560000001,
+            131.286
+          ],
+          [
+            484.2252560000001,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "63561009119e05a8d23766984a44a142",
+    "text": "\u2022 where a change of one input or key bit results in changing approximately half output bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            269.13
+          ],
+          [
+            87.984,
+            346.40999999999997
+          ],
+          [
+            612.0770000000001,
+            346.40999999999997
+          ],
+          [
+            612.0770000000001,
+            269.13
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 24,
+      "parent_id": "89f96944d64a2b9efdf6c5165ae1cd62",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "2b7ab78ee8321bb012e6ab3785e98b59",
+    "text": "key desirable property of encryption algorithm",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            269.97
+          ],
+          [
+            114.98,
+            290.97
+          ],
+          [
+            512.1320000000001,
+            290.97
+          ],
+          [
+            512.1320000000001,
+            269.97
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 24,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "bcf21daa722555e60c175c3f2070e40e",
+    "text": "making attempts to \u201chome-in\u201d by guessing keys impossible \u2022 DES exhibits strong avalanche",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            354.79104
+          ],
+          [
+            87.984,
+            406.90999999999997
+          ],
+          [
+            615.899024,
+            406.90999999999997
+          ],
+          [
+            615.899024,
+            354.79104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 24,
+      "parent_id": "2b7ab78ee8321bb012e6ab3785e98b59",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "efb8eee40c1a0e235eda76342a92909a",
+    "text": "Avalanche in DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            149.64,
+            37.379999999999995
+          ],
+          [
+            149.64,
+            79.38
+          ],
+          [
+            440.154,
+            79.38
+          ],
+          [
+            440.154,
+            37.379999999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0bf7168a971cf30b54546bf4eec46ec7",
+    "text": "\u25aa This table considers",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            37.32,
+            120.11000000000001
+          ],
+          [
+            37.32,
+            138.92000000000002
+          ],
+          [
+            207.54000000000008,
+            138.92000000000002
+          ],
+          [
+            207.54000000000008,
+            120.11000000000001
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "da5cbfcbf5614da11d44115d495ec61a",
+    "text": "encrypting two separate blocks that differ only in one bit (the MSB), i.e. \uf064 = 1.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            59.904,
+            142.51999999999998
+          ],
+          [
+            59.904,
+            203.99
+          ],
+          [
+            263.384,
+            203.99
+          ],
+          [
+            263.384,
+            142.51999999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "parent_id": "0bf7168a971cf30b54546bf4eec46ec7",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "902441eb0d39182745f20d5d8b70617c",
+    "text": "\u25aa As the encryption process",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            37.32,
+            206.54000000000002
+          ],
+          [
+            37.32,
+            225.35000000000002
+          ],
+          [
+            252.91800000000003,
+            225.35000000000002
+          ],
+          [
+            252.91800000000003,
+            206.54000000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7dc59bf747717d6680c3aaa20bc11588",
+    "text": "proceeds, we notice that \uf064 increases in each successive round.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            59.904,
+            228.57799999999997
+          ],
+          [
+            59.904,
+            290.15
+          ],
+          [
+            268.466,
+            290.15
+          ],
+          [
+            268.466,
+            228.57799999999997
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "parent_id": "902441eb0d39182745f20d5d8b70617c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "596ca6d0ac1770b583167212b1ae1b9b",
+    "text": "\u25aa At last, we get \uf064 = 32 \u25aa This means that 32 bits have changed after encrypting the two blocks.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            37.32,
+            293.2
+          ],
+          [
+            37.32,
+            376.57
+          ],
+          [
+            272.088,
+            376.57
+          ],
+          [
+            272.088,
+            293.2
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "parent_id": "902441eb0d39182745f20d5d8b70617c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "5ce049a521f42672192817695c998984",
+    "text": "\u25aa Having about half the bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            37.32,
+            379.36
+          ],
+          [
+            37.32,
+            398.16999999999996
+          ],
+          [
+            252.25200000000004,
+            398.16999999999996
+          ],
+          [
+            252.25200000000004,
+            379.36
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "parent_id": "902441eb0d39182745f20d5d8b70617c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "97ff8b59d29679fae872ebb2c3538b63",
+    "text": "changed (32 bits of a 64-bit block) is the best avalanche.",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            59.904,
+            401.752
+          ],
+          [
+            59.904,
+            441.4
+          ],
+          [
+            265.356,
+            441.4
+          ],
+          [
+            265.356,
+            401.752
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 25,
+      "parent_id": "902441eb0d39182745f20d5d8b70617c",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f07c5ed8a5a631235f953667af1285f9",
+    "text": "Strength of DES \u2013 Key Size",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            176.28,
+            96.22199999999998
+          ],
+          [
+            176.28,
+            131.286
+          ],
+          [
+            543.191144,
+            131.286
+          ],
+          [
+            543.191144,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 26,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "de36ecb52b8715e8ecd6b38867cfae1f",
+    "text": "56-bit keys have 256 = 7.2 x 1016 values \u2022 brute force search looks hard \u2022",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            220.93
+          ],
+          [
+            87.984,
+            302.73
+          ],
+          [
+            440.948368,
+            302.73
+          ],
+          [
+            440.948368,
+            220.93
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 26,
+      "parent_id": "f07c5ed8a5a631235f953667af1285f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "d6dd4477383fe7c2258e4d5538a049fb",
+    "text": "recent advances have shown is possible \u2013 in 1997 on Internet in a few months \u2013 in 1998 on dedicated h/w (EFF) in a few days \u2013 in 1999 above combined in 22hrs! \u2022 still must be able to recognize plaintext \u2022 must now consider alternatives to DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            282.57
+          ],
+          [
+            87.984,
+            454.794
+          ],
+          [
+            530.417648,
+            454.794
+          ],
+          [
+            530.417648,
+            282.57
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 26,
+      "parent_id": "f07c5ed8a5a631235f953667af1285f9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e1ebb513bea0ed5d700756d0ef3e78c4",
+    "text": "Strength of DES \u2013 Analytic Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            120.36,
+            96.22199999999998
+          ],
+          [
+            120.36,
+            131.286
+          ],
+          [
+            599.020112,
+            131.286
+          ],
+          [
+            599.020112,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "84ca7224eaac20251e5d931e0aa7c6fd",
+    "text": "\u27a2 now have several analytic attacks on DES \u27a2 these utilise some deep structure of the cipher",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            208.52500000000003
+          ],
+          [
+            87.984,
+            260.73
+          ],
+          [
+            518.522,
+            260.73
+          ],
+          [
+            518.522,
+            208.52500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "parent_id": "e1ebb513bea0ed5d700756d0ef3e78c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "7f9100f180c36c0522d4c2906ec96a0e",
+    "text": "\u26ab by gathering information about encryptions can eventually",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            269.025
+          ],
+          [
+            123.98,
+            290.97
+          ],
+          [
+            650.1199999999999,
+            290.97
+          ],
+          [
+            650.1199999999999,
+            269.025
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "parent_id": "e1ebb513bea0ed5d700756d0ef3e78c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "037b3a01da96c4a3ecff2d2898df24f5",
+    "text": "recover some/all of the sub-key bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            146.54,
+            295.16999999999996
+          ],
+          [
+            146.54,
+            316.16999999999996
+          ],
+          [
+            456.145,
+            316.16999999999996
+          ],
+          [
+            456.145,
+            295.16999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "parent_id": "e1ebb513bea0ed5d700756d0ef3e78c4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5e32c39dbe2ae5fc8dc9d0ceb7ba5272",
+    "text": "\u26ab if necessary, then exhaustively search for the rest",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            324.46500000000003
+          ],
+          [
+            123.98,
+            346.40999999999997
+          ],
+          [
+            569.774,
+            346.40999999999997
+          ],
+          [
+            569.774,
+            324.46500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "f5590406e15315356cd569c706f1809c",
+    "text": "\u27a2 generally these are statistical attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            354.68592
+          ],
+          [
+            87.984,
+            376.656
+          ],
+          [
+            426.66080000000005,
+            376.656
+          ],
+          [
+            426.66080000000005,
+            354.68592
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "parent_id": "5e32c39dbe2ae5fc8dc9d0ceb7ba5272",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "c2cedae6b24c3cad995ea029c3c7e8bc",
+    "text": "\u26ab timing attacks \u26ab differential cryptanalysis \u26ab linear cryptanalysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            384.96500000000003
+          ],
+          [
+            123.98,
+            467.394
+          ],
+          [
+            359.48,
+            467.394
+          ],
+          [
+            359.48,
+            384.96500000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 27,
+      "parent_id": "5e32c39dbe2ae5fc8dc9d0ceb7ba5272",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "cab9b31601e5aa4caa752210b1add733",
+    "text": "Strength of DES \u2013 Timing Attacks",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            129.36,
+            96.22199999999998
+          ],
+          [
+            129.36,
+            131.286
+          ],
+          [
+            590.03228,
+            131.286
+          ],
+          [
+            590.03228,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "UncategorizedText",
+    "element_id": "65238ad5817c1827341b5db4e391c9de",
+    "text": "\u27a2 attacks actual implementation of cipher \u27a2 use knowledge of consequences of implementation to",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            262.2
+          ],
+          [
+            87.984,
+            321.84000000000003
+          ],
+          [
+            647.276,
+            321.84000000000003
+          ],
+          [
+            647.276,
+            262.2
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 28,
+      "parent_id": "cab9b31601e5aa4caa752210b1add733",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fe09fd9ca0c0e0160a83752c01c008cf",
+    "text": "derive information about some/all subkey bits",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            326.64
+          ],
+          [
+            114.98,
+            350.64
+          ],
+          [
+            568.2199999999999,
+            350.64
+          ],
+          [
+            568.2199999999999,
+            326.64
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 28,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "741fb2a51a06f8fadfe4312d2bb23222",
+    "text": "\u27a2 specifically use fact that calculations can take varying",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            360.14
+          ],
+          [
+            87.984,
+            385.22
+          ],
+          [
+            634.7959999999998,
+            385.22
+          ],
+          [
+            634.7959999999998,
+            360.14
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 28,
+      "parent_id": "fe09fd9ca0c0e0160a83752c01c008cf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2640fb1911c3e1da7943e34dd8d9e221",
+    "text": "times depending on the value of the inputs to it",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            114.98,
+            390.02
+          ],
+          [
+            114.98,
+            414.02
+          ],
+          [
+            578.492,
+            414.02
+          ],
+          [
+            578.492,
+            390.02
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 28,
+      "parent_id": "fe09fd9ca0c0e0160a83752c01c008cf",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6daffa3dbd787b548a1903d0c3c0a80d",
+    "text": "Differential and Linear Cryptanalysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            104.4,
+            96.22199999999998
+          ],
+          [
+            104.4,
+            131.286
+          ],
+          [
+            615.1422240000002,
+            131.286
+          ],
+          [
+            615.1422240000002,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "a3a19c423ecadd98a6e1aea10e1e0aa4",
+    "text": "\u27a2 Differential Cryptanalysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            197.41180000000003
+          ],
+          [
+            87.984,
+            220.36
+          ],
+          [
+            337.2810800000001,
+            220.36
+          ],
+          [
+            337.2810800000001,
+            197.41180000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "2468314af0857d31b3ca7f5e225a9007",
+    "text": "o a statistical attack against Feistel ciphers o differential cryptanalysis compares two related pairs of",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.34,
+            223.418992
+          ],
+          [
+            133.34,
+            273.19
+          ],
+          [
+            645.1984400000001,
+            273.19
+          ],
+          [
+            645.1984400000001,
+            223.418992
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "parent_id": "a3a19c423ecadd98a6e1aea10e1e0aa4",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "6060e7250f4e35c24c34db232742504e",
+    "text": "encryptions",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            151.34,
+            272.35
+          ],
+          [
+            151.34,
+            294.31
+          ],
+          [
+            256.26488,
+            294.31
+          ],
+          [
+            256.26488,
+            272.35
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "12993795bc183a82650a1a67f6454a70",
+    "text": "\u27a2 Linear Cryptanalysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            297.7618
+          ],
+          [
+            87.984,
+            320.71000000000004
+          ],
+          [
+            292.4168000000001,
+            320.71000000000004
+          ],
+          [
+            292.4168000000001,
+            297.7618
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "9a906f51935456f6070d522a97eae683",
+    "text": "o another recent development o also a statistical method o developed by Matsui in early 90's o can attack DES with 243 known plaintexts, easier but",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            133.34,
+            323.78848
+          ],
+          [
+            133.34,
+            426.33
+          ],
+          [
+            618.1922000000001,
+            426.33
+          ],
+          [
+            618.1922000000001,
+            323.78848
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "parent_id": "12993795bc183a82650a1a67f6454a70",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "371ffbd8e25696f3cf0e262038800fb2",
+    "text": "still in practice infeasible",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            151.34,
+            425.49
+          ],
+          [
+            151.34,
+            447.45
+          ],
+          [
+            369.88592000000006,
+            447.45
+          ],
+          [
+            369.88592000000006,
+            425.49
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 29,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "5a81e94bee3fc8903d20e3ed6c2076b3",
+    "text": "DES Design Criteria",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            224.42,
+            96.22199999999998
+          ],
+          [
+            224.42,
+            131.286
+          ],
+          [
+            495.11408,
+            131.286
+          ],
+          [
+            495.11408,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "514edaf8c0a2c195d190d6da91d8bb3c",
+    "text": "7 criteria for S-boxes provide for",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            224.12104
+          ],
+          [
+            87.984,
+            249.106
+          ],
+          [
+            432.70387999999997,
+            249.106
+          ],
+          [
+            432.70387999999997,
+            224.12104
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 30,
+      "parent_id": "5a81e94bee3fc8903d20e3ed6c2076b3",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "f5e8e96422a902d481ef2bfccc3f47a9",
+    "text": "\u2013 non-linearity \u2013 resistance to differential cryptanalysis \u2013 good confusion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            258.72
+          ],
+          [
+            123.98,
+            352.8
+          ],
+          [
+            514.076,
+            352.8
+          ],
+          [
+            514.076,
+            258.72
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 30,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "34cb65275d3a598ee59589919990c3b5",
+    "text": "3 criteria for permutation P provide for",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            87.984,
+            362.41999999999996
+          ],
+          [
+            87.984,
+            387.38
+          ],
+          [
+            498.59599999999995,
+            387.38
+          ],
+          [
+            498.59599999999995,
+            362.41999999999996
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 30,
+      "parent_id": "f5e8e96422a902d481ef2bfccc3f47a9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "cb2f81d2059656b5a2fb4bdf230340b2",
+    "text": "\u2013 increased diffusion",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            123.98,
+            396.98
+          ],
+          [
+            123.98,
+            421.94
+          ],
+          [
+            331.028,
+            421.94
+          ],
+          [
+            331.028,
+            396.98
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 30,
+      "parent_id": "f5e8e96422a902d481ef2bfccc3f47a9",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "0e0a497e3d37d7cd5e54036a7c26743d",
+    "text": "Block Cipher Design",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            219.5,
+            96.22199999999998
+          ],
+          [
+            219.5,
+            131.286
+          ],
+          [
+            500.047064,
+            131.286
+          ],
+          [
+            500.047064,
+            96.22199999999998
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 31,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "7af76810ff03d7691a976f93b8a18086",
+    "text": "number of rounds:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            94.92,
+            200.78000000000003
+          ],
+          [
+            94.92,
+            222.62
+          ],
+          [
+            281.49899999999997,
+            222.62
+          ],
+          [
+            281.49899999999997,
+            200.78000000000003
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 31,
+      "parent_id": "0e0a497e3d37d7cd5e54036a7c26743d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9467f6d1fca49c05045a1c6589c119bc",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            94.92,
+            283.96000000000004
+          ],
+          [
+            94.92,
+            304.96000000000004
+          ],
+          [
+            102.27,
+            304.96000000000004
+          ],
+          [
+            102.27,
+            283.96000000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 31,
+      "parent_id": "0e0a497e3d37d7cd5e54036a7c26743d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "d888eccecc94ae80bb07ee58ffb2b9fe",
+    "text": "",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            94.92,
+            394.87
+          ],
+          [
+            94.92,
+            415.87
+          ],
+          [
+            102.27,
+            415.87
+          ],
+          [
+            102.27,
+            394.87
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 31,
+      "parent_id": "0e0a497e3d37d7cd5e54036a7c26743d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "ef9bcb2d9570f00251219e702cc3c846",
+    "text": "\u2013 more rounds is better \u2013 exhaustive search is the best attack function F(Ri-1,Ki) provides: \u2013 confusion \u2013 nonlinearity \u2013 strong avalanche key schedule provides: \u2013 complex subkey creation \u2013 key avalanche",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            121.92,
+            228.48103999999995
+          ],
+          [
+            121.92,
+            472.146
+          ],
+          [
+            454.51500000000016,
+            472.146
+          ],
+          [
+            454.51500000000016,
+            228.48103999999995
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 31,
+      "parent_id": "0e0a497e3d37d7cd5e54036a7c26743d",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "787fac0adb3761d0803cc6df3abdf252",
+    "text": "Summary",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            298.54,
+            97.49200000000002
+          ],
+          [
+            298.54,
+            132.55600000000004
+          ],
+          [
+            433.88704,
+            132.55600000000004
+          ],
+          [
+            433.88704,
+            97.49200000000002
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "1290fc36c2a24d0e1220aa969a752997",
+    "text": "have considered:",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            319.97,
+            202.9484
+          ],
+          [
+            319.97,
+            223.78999999999996
+          ],
+          [
+            485.0656,
+            223.78999999999996
+          ],
+          [
+            485.0656,
+            202.9484
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "parent_id": "787fac0adb3761d0803cc6df3abdf252",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "NarrativeText",
+    "element_id": "1e76222155574943a19881884853ea8c",
+    "text": "\u2013 block vs stream ciphers \u2013 Feistel cipher design &",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            355.99,
+            231.7484
+          ],
+          [
+            355.99,
+            281.39
+          ],
+          [
+            567.427,
+            281.39
+          ],
+          [
+            567.427,
+            231.7484
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "parent_id": "787fac0adb3761d0803cc6df3abdf252",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "91d09f693c6438dde1ac7ae114bd6873",
+    "text": "structure",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            378.55,
+            285.332
+          ],
+          [
+            378.55,
+            305.39599999999996
+          ],
+          [
+            452.867056,
+            305.39599999999996
+          ],
+          [
+            452.867056,
+            285.332
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "e8f3ba14755cff3df8f4cf421d3eea30",
+    "text": "\u2013 DES",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            355.99,
+            313.3784
+          ],
+          [
+            355.99,
+            334.22
+          ],
+          [
+            409.7122,
+            334.22
+          ],
+          [
+            409.7122,
+            313.3784
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "ListItem",
+    "element_id": "9ef9dc83a41ee49775c1195c816ca88e",
+    "text": "details \u2022 strength",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            391.99,
+            342.1784
+          ],
+          [
+            391.99,
+            391.82
+          ],
+          [
+            477.86548000000005,
+            391.82
+          ],
+          [
+            477.86548000000005,
+            342.1784
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "parent_id": "e8f3ba14755cff3df8f4cf421d3eea30",
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "fd8cbf55593caf3da421a9f3a2b493e8",
+    "text": "\u2013 Differential & Linear",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            355.99,
+            399.75944000000004
+          ],
+          [
+            355.99,
+            420.626
+          ],
+          [
+            546.927088,
+            420.626
+          ],
+          [
+            546.927088,
+            399.75944000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "66b192693dec179fde54473110672563",
+    "text": "Cryptanalysis",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            378.55,
+            424.6
+          ],
+          [
+            378.55,
+            444.64
+          ],
+          [
+            485.72392,
+            444.64
+          ],
+          [
+            485.72392,
+            424.6
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  },
+  {
+    "type": "Title",
+    "element_id": "dfae64c266c889ddf2abf21af562abf1",
+    "text": "\u2013 block cipher design principles",
+    "metadata": {
+      "coordinates": {
+        "points": [
+          [
+            355.99,
+            452.60040000000004
+          ],
+          [
+            355.99,
+            473.442
+          ],
+          [
+            617.9077599999999,
+            473.442
+          ],
+          [
+            617.9077599999999,
+            452.60040000000004
+          ]
+        ],
+        "system": "PixelSpace",
+        "layout_width": 720.0,
+        "layout_height": 540.0
+      },
+      "file_directory": "data\\raw\\Security",
+      "filename": "SEC 422 CH 3 DES - audio.pdf",
+      "languages": [
+        "eng"
+      ],
+      "last_modified": "2025-07-02T06:50:53",
+      "page_number": 32,
+      "filetype": "application/pdf"
+    }
+  }
+]

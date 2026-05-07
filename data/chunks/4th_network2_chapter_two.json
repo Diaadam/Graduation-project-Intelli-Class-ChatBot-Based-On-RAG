@@ -1,0 +1,266 @@
+[
+  {
+    "id": "e37faf18-8135-4c95-a77d-4c6626c91ddd",
+    "text": "Digital Communication Systems PROF. SAYED NOUH Signal Encoding Techniques • Digital data, Digital signals • Digital data,Analog signals • Analog Data, Digital Signals • Analog Data, Analog Signals 4/18/2025 2 Signal Encoding Techniques There are four possible combinations of data-signal encoding: • Digital data, digital signal • Digital data, analog signal • Analog data, digital signal • Analog data , analog signal 4/18/2025 3",
+    "chunk_index": 0,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "0371a5b5-e375-452d-bea2-2da3e372c4dc",
+    "text": "Signal Encoding Techniques The reason for choosing a particular combination for any given communication task vary. In the following some representative reasons are listed: Digital data, digital signal: In general, the equipment for encoding digital data into digital signal is less complex and less expensive than digital-to- analog modulation equipment. Digital data, analog signal: Some transmission media , such as optical fiber and wireless media, will only propagate analog signals. Analog data, digital signal: Conversion of analog data to digital signal permits the use of modern digital transmission and switching equipment, and to obtain the all advantages of the digital transmission. Analog data, analog signal: Analog data in electrical form can be transmitted as baseband signal easily",
+    "chunk_index": 1,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "e447eba5-7d3a-4615-b92c-70d0a8b3d17b",
+    "text": "and cheaply. This is done with voice transmission over voice-grade line. One use common of modulation is known as Frequency Division Multiplexing (FDM) 4/18/2025 4",
+    "chunk_index": 2,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "e5b1e46d-18a9-45ff-a8aa-118d44042d60",
+    "text": "Digital data, Digital signals A digital signal is a sequence of discrete, discontinuous voltage pulses. Each pulse is signal elements. Binary (digital) data are transmitted by encoding each data bit into signal element. In the simplest case, there is a one-to-one correspondence between bits and signal elements. Digital signals can be categorized in three types based on the way the bits are represented in the signals. •Unipolar •Polar • Bipolar 5 4/18/2025",
+    "chunk_index": 3,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "c94a239b-d2aa-4e46-b001-0db664dd3f32",
+    "text": "Signal Encoding Techniques Digital data, Digital signals • Unipolar: • As the name suggests, Unipolar signal has only one polarity. Usually positive polarity is used for binary 1 and zero level for binary 0, Figure 2.2.a. • Polar: • A polar signal has two levels of opposite polarity, Figure 2.2.b. Note that the signals never comes back to zero voltage level. It is always in one of the two states, +v or –v. • Bipolar: • A bipolar signal has three level states +v , -v and zero level, Figure 2.2.c. Bipolar signal is also termed as pseudo-ternary because it has three level states but use two of these to represent the two binary digit, 0 and 1 4/18/2025 6",
+    "chunk_index": 4,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "2ca8cbbc-36ab-4aeb-8d1b-51bf7bdc49d9",
+    "text": "Digital data, Digital signals Receiving Data Bits The signal received at the other end of the transmitting medium is never identical to the transmitted signal as the transmission medium distorts the signal to some extent, Figure 2.3b .There may be additional pulses due to noise spikes. As a result, the receiver has to put in considerable effort in identifying the bits. To correctly identifying bits, the receiver must know with some accuracy when a bit begins and ends. That is, the receiver must know the time instant at which it should look for a bit. There for, the receiver must have synchronized clock pulses which mark the location of the bits The clock should have frequency equal to bit rate. The received signal is sampled using the clock pulses 7 4/18/2025",
+    "chunk_index": 5,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "26345513-d339-46f9-ac46-5556103358d7",
+    "text": "Digital data, Digital signals What factors determine how successful the receiver will be interpreting the incoming signal. There are three important factors: signal –to- noise ratio, the data rate, and the bandwidth. With other factors held constant, the following statement are true: • An increase in data rate increases bit error rate (BER), • An increase in SNR decreases bit error rate, • An increase in bandwidth allow an increase in data rate. 4/18/2025 8",
+    "chunk_index": 6,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "3ffb2dbe-7527-4531-93e1-1d1bb0b327a6",
+    "text": "Digital data, Digital signals Digital signal encoding Signal encoding refers to mapping from the data bits into digital signal. We examine the basic task to be performed by the receiver for recovering data bits from the received signal. The design of the receiver can be simplified by adopting robust signal encoding scheme. The basic required characteristics of an encoded digital signal are as follow: • The digital signal should have sufficient level transitions for the clock extraction circuit in the receiver to work properly. • There should not be any ambiguity in recognizing the binary states of the received signal. • The interconnection signaling links do not provide DC connectivity (capacitors are used to block the DC component from transmitter to receiver. • Various signal encoding",
+    "chunk_index": 7,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "b9eb63c4-285f-45b4-b8eb-d19a98afb2ba",
+    "text": "schemes have different frequency spectrum characteristics, i.e. their frequency components and amplitudes of the frequency components are different. These characteristic should suit the transmission medium that carry the digital signal. The signal gets distorted otherwise. 4/18/2025 9",
+    "chunk_index": 8,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "d0bf1737-3cb3-4339-9b41-5f6d47c5159d",
+    "text": "Digital data, Digital signals There are several signal encoding schemes which can be divided into two broad classes: • Unipolar and polar line codes • Bipolar line codes o Alternate Mark Inversion (AMI) o High Density Bipolar(HDB-3) Unipolar and Polar Line Codes The signal operate on two levels: line codes that use unipolar and polar signal are of two kinds: • Non return to zero(NRZ) Codes • Return to zero (RZ)Codes 4/18/2025 10",
+    "chunk_index": 9,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "abded079-2277-4921-a16c-826b59c25092",
+    "text": "Signal Encoding Techniques Digital data, Digital signals Non Return to Zero (NRZ) Codes In this class of codes, the digital signal has two different voltage levels for the two binary digits (0,1). The signal level remains constant during a bit duration; here is no transition (no return to zero voltage level).For example, the absence of voltage can be used to represent binary 0,with a constant positive voltage used to represent binary1.This type of coding is called unipolar. 4/18/2025 11",
+    "chunk_index": 10,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "138e5845-0b72-4fb2-be17-f02f50d453d7",
+    "text": "Signal Encoding Techniques Digital data, Digital signals NRZ-L: In NRZ-L (Nun return to zero voltage level) code, a bit is represented by a voltage level which is remains constant. This code is known as unipolar. NRZ-M and NRZ-S: In NRZ-M (Non return to zero-Mark), and NRZ-S(Non return to zero –space), a constant voltage pulse is maintained for the duration of a bit time. The NRZ codes make efficient use of bandwidth. This property is illustrated in Figure 2.5, which compares the spectral density of various encoding schemes. As can be seen, most of the energy in NRZ and NRZ-I signals is between dc and half the bit rate. For example if an NRZ code is used to generate a signal with data rate of 9600 bps. Most of the energy in the signal is concentrated between dc and 4800HZ. The main",
+    "chunk_index": 11,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "6226a6a1-7c2f-48b7-8a08-a77aa2fce04d",
+    "text": "limitation of NRZ signals are presence of a dc component and the lack of synchronization capability. 4/18/2025 12",
+    "chunk_index": 12,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "f5febc46-b4c3-42d6-b99f-625f3e1017ed",
+    "text": "Signal Encoding Techniques Digital data, Digital signals Return To Zero (RZ) Codes Return To Zero (RZ) codes overcome the limitation of NRZ codes in regard to their lack of timing information. RZ codes ensure that the signal has sufficient transition for any bit pattern. These codes are essentially a combination of NRZ-L and the clock signal 4/18/2025 13",
+    "chunk_index": 13,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "764f7f24-3cd9-4569-8421-04ecda22f1c7",
+    "text": "Signal Encoding Techniques Digital data, Digital signals Manchester code: In this code, 1 is represented as logic AND of binary 1 and the clock. This produces one clock cycle. For binary 0, the clock cycle is inverted (XNOR). Note that whatever the bit sequence be, each bit period will have one transition in the middle. Thus the clock extraction circuit of the receiver never faces a dearth of transition. Manchester code is widely used in local area networks. It is also called Biphase-L code. Biphase-M code: In this code there is always a transition at the beginning of a bit interval. Binary 1 has another transition in the middle of a bit interval. Biphase-S code: In this code also there is always a transition at the beginning of a bit interval. Binary 0 has another transition in the middle",
+    "chunk_index": 14,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "6b233a38-59c1-4efc-a962-05c51b28ce91",
+    "text": "of a bit interval. Differential Manchester code: In this code there is always a transition in the middle of a bit interval. 4/18/2025 14",
+    "chunk_index": 15,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "f4cbb53f-bdb8-4798-b2ff-7d0e6092d516",
+    "text": "Signal Encoding Techniques Digital data, Digital signals The advantages of biphase schemes: • Biphase-M, Biphase-S and Differential Manchester are differential codes and therefore insensitive to the polarity of the received signal. • Synchronization: Because there is predictable transition during each bit duration, the receiver can synchronize on that transition. For this reason, the biphase codes are known as self-clocking codes. • Biphase codes have no dc component. • The absence of an expected transition can be used to detect errors. As can be seen from Figure 2.5.the bandwidth for biphase code is reasonably narrow and contains no dc component. 4/18/2025 15",
+    "chunk_index": 16,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "500e26e8-1234-4ef1-95fa-2584640ff7ac",
+    "text": "Signal Encoding Techniques Digital data, Digital signals Bipolar Line Codes Bipolar signal codes are used on the metallic transition media. These codes operate on three signal level (+v, 0, -v). The middle level (0) represents binary 0(space). The another two levels (+v, -v) are used for binary 1(Mark). Bipolar codes address some of the deficiencies of the NRZ codes. Two examples of this scheme are illustrated in Figure 2.7 Bipolar–AMI (alternate mark inversion) and pseudo ternary. 4/18/2025 16",
+    "chunk_index": 17,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "5c34ba56-e0d8-43f9-9c87-f96691512fa5",
+    "text": "Signal Encoding Techniques Digital data, Analog signal Digital data, Analog signal The first attempt for establishing digital data networks were based on using the existing public telephone network, for digital data communication, the telephone network was designed to receive, switch, and transmit analog signal in the voice frequency range of about 300 to 3400HZ.It is not at present suitable for handling digital signal from the subscribe locations(although this is beginning to change),thus digital devices are attached to the network via modem, which converts digital data to analog signal, and vice versa. 4/18/2025 17",
+    "chunk_index": 18,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "f59adb00-dbbd-4583-aab3-74fb64e6d6a7",
+    "text": "Signal Encoding Techniques Digital data, Analog signal There are three basic types of modulation methods for transmission of digital signals. These methods are based on the three attributes of a sinusoidal signal amplitude, frequency, and phase. Accordingly, there are three basic encoding or modulation techniques for transforming digital data into analog signal, as illustrated in Figure 2.8 amplitude shift keying (ASK), frequency shift keying (FSK), and phase shift keying (PSK). In all cases, the resulting signal occupies a bandwidth centered on the carrier frequency. 4/18/2025 18",
+    "chunk_index": 19,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "ff246068-8b58-463a-ae0f-455c109bbb2a",
+    "text": "Signal Encoding Techniques Digital data, Analog signal Amplitude Shift keying (ASK) Amplitude shift keying is the simplest form of digital modulation. In ASK the carrier amplitude is modulated by the digital input signal (binary 1 or 0), which both the carrier frequency, fc, and phase, Ф, remain constant. The digital input signal is a unipolar NRZ signal. Simply, we can say that in ASK the carrier amplitude is multiplied by the binary 1 or 0 .The amplitude modulated carrier can be written as S(t)=d sin(2π fc t) 4/18/2025 19",
+    "chunk_index": 20,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "a80dbcf6-2e44-4f2a-9c76-d1f31c91c42a",
+    "text": "Signal Encoding Techniques Digital data, Analog signal The frequency spectrum of the ASK signal consists of the carrier frequency, fc, with upper side band, (fc+R), and lower side band, (fc –R). For a random unipolar NRZ digital signal having bit rate R, the first zero of the spectrum occurs at the R HZ away from carrier frequency. The transmission bandwidth B of the ASK signal is restricted by using a filter, (band pass filter), to where r is the factor related to the filter characteristics and its value lies in the range 0-1. B= (1+r)R For r=1, B =2R, ASK is very sensitive to noise and finds limited application in data transmission. On voice grade lines, it is typically used up to 1200bps. 4/18/2025 20",
+    "chunk_index": 21,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "e4346f4a-aedf-481e-af10-6142fe7a16b2",
+    "text": "Signal Encoding Techniques Digital data, Analog signal Frequency shift keying (FSK) In frequency shift keying, the two binary values (1, 0) are represented by two different frequencies near the carrier frequency 4/18/2025 21",
+    "chunk_index": 22,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "7463fbfc-f391-4630-aeae-a2ac63a57cf4",
+    "text": "The FSK signal can be written as : S(t) = d sin(2πf1t)+d- sin (2 πf0t) Where f1 and f0 are the frequencies corresponding to binary 1 and 0 respectively. it is obvious that the FSK signal can be considered to be comprising of two ASK with carrier frequencies f1 and f0. Therefore the frequency spectrum of the FSK signal can be drawn as shown in Figure 2.12. The estimated bandwidth is given by: B=|f1-f0|+ (1+r)R FSK is less susceptible to noise than ASK. On voice grade lines, it is typically used up to 1200bps. It is also commonly used for high frequency (3 to 30 MHZ) radio transmission. It can also be used at even higher frequencies on local area networks that use coaxial cable. 4/18/2025 22",
+    "chunk_index": 23,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "18b9090f-1ae0-4a65-b4d1-7e21f0e03725",
+    "text": "Signal Encoding Techniques Digital data, Analog signal Multiple Frequency Shift Keying (MFSK) In Multiple frequency shift keying (MFSK) more than two frequencies are used. In this case each signaling element represents more than one bit. The transmitted MFSK signal for one signal element time can be defined as follow: Si (t)=A sin 2πfit 1 ≤ i ≤ M Where: fi = fc + (2i-1-M) fd fc= the un modulated carrier frequency fd= the difference frequency M= number of different signal elements; (i.e. number of frequency level, 2L ) L= number of bits per signal element 4/18/2025 23",
+    "chunk_index": 24,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "d75e1339-3643-4ad5-bf55-934450090ca6",
+    "text": "To match the data rate of the input bit stream, each output signal element is held for a period of Ts=LT, where T is the bit period (data rate =1/T). Thus one signal element, which is a constant frequency tone, encodes L bits. The total bandwidth required is 2Mfd. It can be shown that the minimum frequency separation required is 2fd=1/Ts. Therefore, the modulator requires a bandwidth of w = 2Mfd= M/Ts. Example of MFSK with M=4; With M=4, we have four different frequency levels, with the following frequencies: f1(level 1=00)=fc-3fd f2(level 2=01)=fc-fd f3(level 3=10)=fc+fd f4(level 4=11)=fc+3fd` The total bandwidth, wd=2Mfd=8fd, and each signal element with 1≤fi≤M , represent two bits. 4/18/2025 24",
+    "chunk_index": 25,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "edcfe099-bdf2-4c65-a242-60f9467c867a",
+    "text": "Signal Encoding Techniques Digital data, Analog signal Phase Shift Keying (PSK) Phase shift keying is the most efficient of the three modulation methods and is used for higher bit rate. In PSK, phase of the carrier is modulated to represent the binary values. The simplest form of PSK called binary PSK (BPSK). The carrier phase is changed between 0 and π by the polar digital signal. 4/18/2025 25",
+    "chunk_index": 26,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "726d2680-7b51-49a5-be29-8b5a264a6e7c",
+    "text": "The BPSK signal can be written as S(t)= sin(2πfct) for binary 0 S(t)= - sin (2πfct)= sin (2πfct +π) for binary 1 In other words, S(t)= d sin(2πfct), where d= ±1. Expression for BPSK signal is very similar to the expression for ASK signal except that the data variable d takes the value ±1. The carrier gets suppressed due to polar modulation signal. The frequency spectrum of the PSK signal for random NRZ digital modulation signal is shown in Figure The estimated bandwidth B of the BPSK signal can be obtained as before B=(1+r)R, where 0< r<1 4/18/2025 26",
+    "chunk_index": 27,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "4de305b7-577f-4f43-aa93-07380d2cb99f",
+    "text": "Multilevel Modulation We have so far considered the schemes for two level modulation, i.e . the bit rate and the baud rate are the same. Due to the limited of the telephone voice channel, the maximum bit rate which can be achieved using any of the above two level modulation method does not meet the requirements of the data processing community. Keeping the baud rate the same, the bit rate can be increased using multilevel modulation. The data bits are divided into groups of two or more bits and each group is assigned a specific state of the sinusoidal signal. IN the four state PSK (or simply 4 PSK), two bits are associated with each phase state. Therefore, the bit rate is twice and baud rate. Similarly, in 8 PSK, three bits are associated with each phase state and, therefore, its bit rate",
+    "chunk_index": 28,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "a7244fad-11e2-4a2d-a4f5-d3224349aab0",
+    "text": "4PSK Modulator The schematic of a 4 PSK modulator. It consists of two BPSK modulators. The carrier frequency of one of the modulators is phase shifted by π/2 radians (90˚) .The data bits are taken in the group of two bits called \"dibits \", (Table 2.1), and two bipolar digital signals are generated, one from the first bit of the dibits and the other from the second bit the dibits and applied to the BPSK modulators. Outputs of the modulators are add to generate 4 PSK output. 4/18/2025 28",
+    "chunk_index": 29,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "7420cfc5-ed2b-4c82-8aaa-a2e37fb70ce9",
+    "text": "For example, consider A B=11 . From Figure 2.16 X= sin (2πfct+π), Y= sin (2πfct + π/2 +π)= sin (2πfct + 3/2 π) Output: X + Y= sin (2πfct+π) + sin (2πfct + 3/2 π) By using the identity sin L + sin M = 2 sin ( L+M) cos (L- M) 2 2 ∴ Output: X + Y= 2 sin ( 2(2 πfct) + 5 π/2 ) cos ( 2 πfct+ π - 2 πfct -3 π/2 ) 2 2 X + Y = 2 sin(2πfct+ 5π/4) cos(-π/4) X + Y = 2 sin(2πfct+ 5π/4) cos(π/4) X + Y = 2/ √ 2 sin(2πfct+ 5π/4) X + Y = √ 2 sin(2π fc t+ 5π/4) X + Y = √ 2 sin(2πfct+225。) 4/18/2025 29",
+    "chunk_index": 30,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "47a2782c-488c-4634-a3dd-f92ee1210a89",
+    "text": "4 PSK Demodulator The reference carrier (unmodulated carrier) is recovered from the received modulated carrier. As in modulator, a π/2 phase shifted carrier is also generated. When these carriers are multiplied by the received signal, we get: sin(2πfct+Ф) sin(2πfct) = 1/2 cos Ф – 1/2 cos(4πfct+Ф) sin(2πfct+Ф) sin(2πfct+π/2)=1/2 cos(Ф - π/2) - 1/2 cos(4πfct+Ф+π/2) Where Ф is the phase of the received carrier 4/18/2025 30",
+    "chunk_index": 31,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "0ba8c10c-b976-45a8-b8b7-3e32c7fe3d35",
+    "text": "The outputs of the multipliers are passed through low pass filters, (with cut-off- frequency =2fc), to remove the 2fc frequency component and applied to the level comparators which generate the dibits. Table 2.2 gives the outputs of low pass filters for various values of input Ф. Note that: U =1/2 cos(Ф - π/2)=1/2(cosФ cos π/2+sinФsinπ/2)=1/2 sinФ And V=1/2 cos Ф For example: for Ф = 3π/4 =135° U=1/2 sin(135) = 0.35 A=0 V=1/2 cos(135)= -0.35 B=1 ∴ AB = 01 4/18/2025 31",
+    "chunk_index": 32,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "1aa57909-471b-41ec-9c8e-7d5e07b880df",
+    "text": "Signal Encoding Techniques Analog Data, Digital Signals Analog Data, Digital Signals In this section we examine the process of transforming analog data into digital signals. Strictly speaking, it might be correct to refer to this as a process of converting analog data into digital data: this process is known as digitalization. Once analog data have been converted into digital data, a number of things can happen. The three most common are as follows: • The digital data can be transmitted using NRZ-L. In this case, we have in fact gone directly from analog data to a digital signal. • The digital data can be encoded as a digital signal using a code other than NRZ-L. • The digital data can be converted into an analog signal, using one of the modulation techniques 4/18/2025 32",
+    "chunk_index": 33,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "66b4ea32-15c4-499f-8cba-41b4a80ae990",
+    "text": "Signal Encoding Techniques Analog Data, Digital Signals This last seemingly curious, producer is illustrated in Figure 2.18, which shows voice data that are digitized and then converted to an analog ASK signal. The voice data because they have been digitized, can be treated as digital data, even though transmission requirements (e.g., use of microwave) dictate that an analog signal be used. The device used for converting analog data into digital form for transmission, and subsequently recovering the original analog data from the digital, is known as a codec (coder-decoder). One of the most important technique used in codecs, is called “Pulse Code Modulation”, PCM. 4/18/2025 33",
+    "chunk_index": 34,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "215e9e12-79c7-4030-9900-91bf9409d324",
+    "text": "Pulse Code Modulation Pulse cod modulation (PCM) is based on the sampling theorem: Sampling theorem: If a signal f(t) is sampled at regular intervals of time at a rate higher than twice the highest signal frequency, then the samples contain all information of the original signal. The function f(t) may be reconstructed from the samples by the use of a low pass filter. If voice data are limited to frequencies below 4000HZ, a conservative procedure for intelligibility, 8000 samples per second would be sufficient to characterize the voice signal completely. Note, however, that these are analog samples, called pulse amplitude Modulation (PAM) samples. To convert to digital, each of these analog samples must be assigned a binary code. 4/18/2025 34",
+    "chunk_index": 35,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "a07a2cea-96e3-4cd1-b66e-47a9c3d420f1",
+    "text": "Figure 2.19 shows an example in which the original signal is assumed to be bandlimited with a bandwidth B. PAM samples are taken at a rate of 2B, or once every Ts=1/2B second. Each sample is approximated by being quantized into one of 16 different levels. Each sample can then be represented by 4 bits. But because the quantized values are only approximations, it is impossible to recover the original signal exactly. By using an 8- bit sample, which allows 256 quantizing levels. The quality of the recovered voice signal is comparable with that achieved via analog transmission. Note that this implies that a data rate of 8000 samples per second X 8 bits per sample = 64 kbps is needed for a single voice signal. 4/18/2025 35",
+    "chunk_index": 36,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "dde41806-55eb-4fe0-91f4-dca216744bc1",
+    "text": "Signal Encoding Techniques Analog Data, Digital Signals Thus, PCM starts with a continuous time, continuous-amplitude (analog) signal, from which a digital signal is produced, Figure 2.20. The digital signal consist of blocks of n bits, where each n-bit number is the amplitude of a PCM pulse. On reception, the process is reversed to reproduce the analog signal. Notice, however, that this process violates 4/18/2025 36",
+    "chunk_index": 37,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "e6e3f6e6-9127-4b7e-a2d0-1a52f5ebbc60",
+    "text": "The terms of the sampling theorem. By quantization the PAM pulse, the original signal is now only approximated, and cannot be recovered exactly. This effect is known as quantizing error or quantizing noise. The signal-to-noise ratio for quantizing noise can be expressed as: SNRdB =20 log2n+1.76 dB= 20n log 2 + 1.76= 20n x 0.301 +1.76 =6.02n+1.76 Thus each additional bit used for quantizing increases SNR by about 6 dB. 4/18/2025 37",
+    "chunk_index": 38,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "ae06c0a7-83fa-470c-ade7-90ad3204431e",
+    "text": "Digital Carrier Systems When digital transmission began emerging as a feasible technology, CCITT ( Consultative Committee for International Telegraphy and Telephony ) was unable to reach agreement on an international standard for PCM. Consequently, there are now a variety of incompatible schemes in use in different countries around the world. International hook ups between incompatible countries require “black boxes” to convert the originating country’s system to that of the received country. One method that is in wide spread use in North America and Japan is the T1 carrier, depicted in fig. 3.3. (Technically speaking, the format is called DS1 and the carrier is called T1). The T1 carrier consists of 24 voice channels multiplexed together. Usually , the analog signals are sampled on a",
+    "chunk_index": 39,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "a45e79d4-7879-4f68-961e-0d7d44830e31",
+    "text": "round – robin basis with the resulting analog stream, PAM being fed to the codec and then merging the digital output. Each of the 24 channels, in turn, gets to insert 8 bits into the output stream. Seven bits are data, and one bit is for control, yielding 7*8000 = 56,000 bps of data, and 1 * 8000 = 8000 bps of signaling information per channel. 4/18/2025 38",
+    "chunk_index": 40,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "b72dbf07-46d0-4839-8796-56c3b34b7973",
+    "text": "A frame consists of 24 * 8 = 192 bits, plus one extra bit for frame synchronization, yielding 193 bits every 125 µ sec. this gives a gross data rate of 1.544 Mbps. The 193 rd bit is used for frame synchronization. It takes on the pattern 01010010…… normally, the receiver keeps checking this bit to make sure that it has not lost synchronization. When a T1 system is being used entirely for data, only 23 of the channels are used for data. The 24th one is used for special synchronization pattern, to allow faster recovery in the event that the frame slips. When CCITT finally did reach agreement, they felt that 8000bps of signaling information was far too much, so its 1.544 Mbps standard is based on an 8 – rather than a 7 – bit data item; that is the analog signal is quantized into 256 rather",
+    "chunk_index": 41,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "cd48132b-b243-4e50-b11c-15e7e2a2128f",
+    "text": "Two (incompatible) variations are provided: “In common – channel signaling”: The extra bit (which is attached onto the rear rather than the front of the 193 bit frame) takes on the value 101010….. in the odd frames and contains signaling information for all the channels in the even frames. “channel associated signaling”: Each channel has its own private signaling sub channel. A private sub channel is arranged by allocating one of the eight user bits in every sixth frame for signaling purposes , so five out of six samples are 8 bit wide and other one is only 7 bits wide. 4/18/2025 40",
+    "chunk_index": 42,
+    "source_file": "4th_network2_chapter_two"
+  },
+  {
+    "id": "51974541-b5f3-402c-8441-36cb2c7b5c42",
+    "text": "E1 Carrier System CCITT also has a recommendation for a PCM at 2.048 Mbps called E1. This carrier has 32- 8-bit data samples packed into the basic 125 µ sec frame. Thirty of the channels are used for information and two are used for signaling. Each group of four frames provides 64 signaling bits, half of which are used for channel associated signaling and the other half of which are used for frame synchronization. Outside North America and Japan, 2.048 Mbps carrier is in wide spread use. 4/18/2025 41 4/18/2025 42",
+    "chunk_index": 43,
+    "source_file": "4th_network2_chapter_two"
+  }
+]
